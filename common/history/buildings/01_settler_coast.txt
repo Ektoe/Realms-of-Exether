@@ -2215,7 +2215,7 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KRC"
+                        country="c:ARR"
                         levels=10
                         region="STATE_VICEROYS_PEARL"
                    }
@@ -2242,7 +2242,7 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EMP"
+                        country="c:ARR"
                         levels=23
                         region="STATE_VICEROYS_PEARL"
                    }
@@ -2255,7 +2255,7 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SMA"
+                        country="c:ARR"
                         levels=3
                         region="STATE_VICEROYS_PEARL"
                    }
@@ -2268,7 +2268,7 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SMA"
+                        country="c:ARR"
                         levels=1
                         region="STATE_VICEROYS_PEARL"
                    }
@@ -2281,7 +2281,7 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KRC"
+                        country="c:ARR"
                         levels=15
                         region="STATE_VICEROYS_PEARL"
                    }
@@ -2294,7 +2294,7 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SMA"
+						country="c:ARR"
 						levels=15
 						region="STATE_VICEROYS_PEARL"
 				   }
@@ -2320,7 +2320,7 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:SMA"
+                        country="c:ARR"
                         levels=2
                         region="STATE_VICEROYS_PEARL"
                    }
