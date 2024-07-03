@@ -42,6 +42,10 @@
 			institution = institution_police
 			level = 1
 		}
+		set_institution_investment_level = {
+			institution = institution_magic
+			level = 2
+		}
 
 		effect_concord_major_member = yes
 

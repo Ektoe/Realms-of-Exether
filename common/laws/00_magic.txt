@@ -270,6 +270,7 @@ law_artificer_guilds = {
 	
 	institution = institution_magical_focus
 	institution_modifier = {
+		interest_group_ig_industrialist_pol_str_mult = 0.05
 		country_engineers_pol_str_mult = 0.05
 	}
 	

@@ -2416,7 +2416,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:THI"
-                        levels=7
+                        levels=3
                         region="STATE_FAR_SHORE"
                    }
                 }
