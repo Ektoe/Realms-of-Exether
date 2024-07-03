@@ -199,6 +199,7 @@ STATE_CAVES_OF_RIMELAC = {
         bg_coal_mining = 80
         bg_iron_mining = 36
         bg_logging = 30
+        bg_hunting = 22
     }
     resource = {
         type = "bg_oil_extraction"
@@ -271,6 +272,7 @@ STATE_WOODS_OF_THE_VOW = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 20
+        bg_hunting = 12
     }
     naval_exit_id = 3161
 }
@@ -292,6 +294,7 @@ STATE_RAQUARTES_SHIELD = {
         bg_iron_mining = 96
         bg_lead_mining = 81
         bg_logging = 27
+        bg_hunting = 12
         bg_wishstone_mining = 6
     }
     naval_exit_id = 3163
@@ -312,6 +315,7 @@ STATE_EASTERN_EMBERLAND = {
         bg_coal_mining = 80
         bg_iron_mining = 75
         bg_logging = 25
+        bg_hunting = 12
     }
     resource = {
         type = "bg_oil_extraction"
@@ -368,6 +372,7 @@ STATE_DRUIDS_CHANT = {
         bg_iron_mining = 33
         bg_sulfur_mining = 44
         bg_logging = 24
+        bg_hunting = 12
     }
     resource = {
         type = "bg_oil_extraction"
@@ -388,6 +393,7 @@ STATE_CASTLECOURT = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 25
+        bg_hunting = 12
     }
     naval_exit_id = 3162
 }
@@ -832,6 +838,7 @@ STATE_LILLESO = {
     capped_resources = {
         bg_coal_mining = 6
         bg_logging = 23
+        bg_hunting = 12
     }
     naval_exit_id = 3151
 }
@@ -1672,6 +1679,7 @@ STATE_FLORBORDO = {
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 30
+        bg_hunting = 22
         bg_fishing = 7
     }
     resource = {
@@ -1695,6 +1703,7 @@ STATE_VESPERVIDO = {
         bg_lead_mining = 24
         bg_sulfur_mining = 40
         bg_logging = 20
+        bg_hunting = 12
         bg_fishing = 12
     }
 
@@ -1845,6 +1854,7 @@ STATE_KOTIK = {
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_hunting = 12
     }
     resource = {
         type = "bg_rubber"
@@ -1966,6 +1976,7 @@ STATE_ZALULIK = {
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_hunting = 12
     }
     resource = {
         type = "bg_rubber"
@@ -2003,6 +2014,7 @@ STATE_FIKOLIK = {
     capped_resources = {
         bg_coal_mining = 48
         bg_logging = 25
+        bg_hunting = 12
         bg_wishstone_mining = 19
     }
     resource = {
@@ -2029,6 +2041,7 @@ STATE_VOTILAN = {
     capped_resources = {
         bg_iron_mining = 36
         bg_logging = 23
+        bg_hunting = 12
     }
     resource = {
         type = "bg_rubber"
@@ -2180,6 +2193,7 @@ STATE_KANOBAN = {
     capped_resources = {
         bg_coal_mining = 44
         bg_logging = 23
+        bg_hunting = 12
     }
     resource = {
         type = "bg_rubber"
@@ -2828,6 +2842,7 @@ STATE_FARASHIL = {
         bg_coal_mining = 22
         bg_iron_mining = 11
         bg_logging = 20
+        bg_hunting = 12
         bg_opium_plantations = 22
     }
     resource = {
@@ -2982,6 +2997,7 @@ STATE_SLETTEJUNGEL = {
     capped_resources = {
         bg_iron_mining = 24
         bg_logging = 27
+        bg_hunting = 12
     }
     naval_exit_id = 3149
 }
@@ -2998,6 +3014,7 @@ STATE_INAMGI = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 25
+        bg_hunting = 12
     }
     naval_exit_id = 3146
 }
@@ -3023,6 +3040,7 @@ STATE_INAMGI_3 = {
         bg_coal_mining = 80
         bg_iron_mining = 75
         bg_logging = 25
+        bg_hunting = 12
     }
     resource = {
         type = "bg_oil_extraction"
