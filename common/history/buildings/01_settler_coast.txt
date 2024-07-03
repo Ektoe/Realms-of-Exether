@@ -2210,6 +2210,19 @@ BUILDINGS = {
           reserves=1
           activate_production_methods={ "pm_scholastic_education" }
         }
+        create_building={
+			building="building_tooling_workshops"
+			add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:ARR"
+                        levels=4
+                        region="STATE_VICEROYS_PEARL"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_steel" "pm_automation_disabled" }
+		}
             create_building={
           building="building_paper_mills"
                 add_ownership={ 
@@ -2236,7 +2249,20 @@ BUILDINGS = {
                 }
 			reserves=1
 			activate_production_methods={ "pm_steam_engines" "pm_automation_disabled" }
-		}		
+		}
+			create_building={
+				building="building_coal_mine"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:ARR"
+						levels=4
+						region="STATE_VICEROYS_PEARL"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}		
             create_building={
           building="building_textile_mills"
                 add_ownership={ 
@@ -2248,7 +2274,7 @@ BUILDINGS = {
                    }
                 }
           reserves=1
-          activate_production_methods={ "pm_dye_workshops" "pm_traditional_looms" "pm_craftsman_sewing" }
+          activate_production_methods={ "pm_dye_workshops" "pm_traditional_looms" "pm_no_luxury_clothes" }
         }
             create_building={
           building="building_shipyards"
@@ -2724,7 +2750,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:THI"
                         levels=2
-                        region="STATE_FAR_SHORE"
+                        region="STATE_BYRIVER"
                    }
                 } 
 			reserves=1
@@ -2732,11 +2758,17 @@ BUILDINGS = {
 		}
             create_building={
 			building="building_textile_mills"
-                add_ownership={ 
+                add_ownership={
+                    building={ 
+                        type="building_financial_district"
+                        country="c:ARR"
+                        levels=2
+                        region="STATE_VICEROYS_PEARL"
+                   }
                     building={ 
                         type="building_financial_district"
                         country="c:SLB"
-                        levels=8
+                        levels=3
                         region="STATE_FIRST_BOROUGH"
                    }
                 }
