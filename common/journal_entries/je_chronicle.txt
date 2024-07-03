@@ -1,19 +1,22 @@
 je_bands_of_the_vandori = {
     should_be_pinned_by_default = yes
-    current_month = {
-        value = 1
-    }
+   
     possible = {
-        country_has_primary_culture = vandori
+        country_has_primary_culture = cu:vandori
     }
 
     immediate = {
-        current_month = {
-            value = 1
+        if = {
+            limit = {current_star_sign_year = 1}
+            add_modifier = {
+                name = band_in_town_1
+                months = 12
             }
+        }
     }
+
     if = {
-       limit = current_month = 1
+       limit = {current_month = 1}
        modifiers_while_active = {
         band_in_town_1
        }
@@ -72,10 +75,12 @@ je_bands_of_the_vandori = {
     
     
     on_yearly_pulse = {
-         current_month = {
-            modulo = 12
-            add = 1
-         }
-        # trigger_event =  {id = vandori_bands_event.current_month}   
-        }    
+    if = {
+        limit = {current_star_sign_year = 1}
+        add_modifier = {
+            name = band_in_town_1
+            months = 1
+        }
+    }
+}
 }

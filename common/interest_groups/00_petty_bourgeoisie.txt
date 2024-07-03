@@ -37,6 +37,13 @@
 				set_ig_trait = ig_trait:ig_trait_treasury_bonds
 			}
 		}
+		# vandori trade caravans
+		if  = {
+			limit ={country_has_primary_culture = cu:vandori}
+			ig:ig_petty_bourgeoisie = {
+				set_interest_group_name = ig_trade_caravans
+			}
+		}
 	}
 
 	on_disable = {}
