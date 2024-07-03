@@ -324,9 +324,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:CER"
                         levels=2
-                        region="STATE_ABAISSE_DE_MARBRUN"
+                        region="STATE_SAINT_MER"
                    }
                 }
 			reserves=1
@@ -337,9 +337,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:CER"
                         levels=5
-                        region="STATE_AZURSOL"
+                        region="STATE_SAINT_MER"
                    }
                 }
 			reserves=1
@@ -350,9 +350,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EME"
+						country="c:CER"
 						levels=2
-						region="STATE_SHARINDLARS_NEEDLE"
+						region="STATE_SAINT_MER"
 				   }
 				}
 			reserves=1
@@ -368,7 +368,7 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:EME"
+                        country="c:CER"
                         levels=3
                         region="STATE_VALSANG"
                    }
@@ -394,9 +394,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EME"
+						country="c:CER"
 						levels=3
-						region="STATE_SHARINDLARS_NEEDLE"
+						region="STATE_LANDING_AT_SEA"
 				   }
 				}
 			reserves=1
@@ -439,7 +439,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:CER"
                         levels=2
-                        region="STATE_SAINT_MER"
+                        region="STATE_LANDING_AT_SEA"
                    }
                 }
 				reserves=1
@@ -452,7 +452,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:CER"
                         levels=2
-                        region="STATE_SAINT_MER"
+                        region="STATE_LANDING_AT_SEA"
                    }
                 }
 				reserves=1
@@ -489,9 +489,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EME"
+						country="c:CER"
 						levels=2
-						region="STATE_AZURSOL"
+						region="STATE_LANDING_AT_SEA"
 				   }
 				}
 				reserves=1
@@ -549,9 +549,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:EME"
+						country="c:CER"
 						levels=6
-						region="STATE_MERACIEL_AUBELAC"
+						region="STATE_THE_CHASM"
 				   }
 				}
 			reserves=1
@@ -568,9 +568,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:CER"
                         levels=5
-                        region="STATE_SHARINDLARS_NEEDLE"
+                        region="STATE_THE_CHASM"
                    }
                 }
 			reserves=1
@@ -581,9 +581,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:EME"
+						country="c:CER"
 						levels=3
-						region="STATE_MERACIEL_AUBELAC"
+						region="STATE_THE_CHASM"
 				   }
 				}
 			reserves=1
@@ -631,9 +631,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:CER"
                         levels=3
-                        region="STATE_SHARINDLARS_NEEDLE"
+                        region="STATE_LANDING_AT_SEA"
                    }
                 }
 			reserves=1
@@ -688,9 +688,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:CER"
                         levels=5
-                        region="STATE_SHARINDLARS_NEEDLE"
+                        region="STATE_LANDING_AT_SEA"
                    }
                 }
 			reserves=1
@@ -771,7 +771,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:CER"
                         levels=1
-                        region="STATE_CAEL_VALEN"
+                        region="STATE_RIVER_MEDDEN"
                    }
                 }
 			reserves=1
@@ -784,7 +784,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:CER"
 						levels=2
-						region="STATE_THE_CHASM"
+						region="STATE_RIVER_MEDDEN"
 				   }
 				}
 			reserves=1
