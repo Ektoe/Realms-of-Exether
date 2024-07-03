@@ -1697,8 +1697,17 @@
                             has_trait = master_bureaucrat
                         }
                         AND = {
+                            is_historical = no
+                            has_trait = engineer
+                        }
+                        AND = {
                             has_dlc_feature = ep1_cosmetics
-
+                            OR = {
+                                has_trait = erudite
+                                has_trait = literary
+                                has_trait = master_bureaucrat
+                                has_trait = engineer
+                            }
                             is_ruler = yes
                             owner ?= {
                                 is_in_power_bloc = yes
@@ -1756,7 +1765,12 @@
                         european_clothes_trigger = yes
                         african_diaspora_clothes_trigger = yes
                     }
-
+                    OR = {
+                        armed_forces_clothes_trigger = yes
+                        military_clothes_trigger = yes
+                        monarchy_clothes_trigger = yes
+                        army_traits_trigger = yes
+                    }
                     age >= define:NCharacters|ADULT_AGE
 
                     owner ?= {
