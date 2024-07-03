@@ -1,4 +1,4 @@
-BUILDINGS = {
+﻿BUILDINGS = {
 
   #ALL NORICUM Ownership reviewed
   
@@ -1692,12 +1692,12 @@ BUILDINGS = {
           activate_production_methods={ "pm_military_shipbuilding_wooden" }
         }
 
-			create_building={
+			  create_building={
           building="building_rye_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:OEX"
+          add_ownership={ 
+            building={ 
+              type="building_manor_house"
+              country="c:OEX"
 						levels=1
 						region="STATE_ELDBERG"
 				   }
