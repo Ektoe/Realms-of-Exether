@@ -145,6 +145,7 @@ law_debt_slavery = {
 	}
 	
 	modifier = {
+		interest_group_ig_industrialists_pol_str_mult = 0.5
 	}
 	
 	pop_support = {

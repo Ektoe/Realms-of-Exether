@@ -434,7 +434,7 @@
 		}
 		create_trade_route = {
 			goods = clothes
-			level = 6
+			level = 4
 			direction = export
 			target = c:THI.market
 		}
@@ -452,7 +452,7 @@
 		}
 		create_trade_route = {
 			goods = dye
-			level = 4
+			level = 5
 			direction = import
 			target = c:AZI.market
 		}

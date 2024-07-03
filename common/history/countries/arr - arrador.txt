@@ -43,7 +43,7 @@
 			level = 1
 		}
 		set_institution_investment_level = {
-			institution = institution_magic
+			institution = institution_magical_focus
 			level = 2
 		}
 
