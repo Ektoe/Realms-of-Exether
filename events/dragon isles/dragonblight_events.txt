@@ -65,7 +65,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 			# +education access per SOL
 			#-bureaucracy
 
-#dragonblight 4 event about a local industrialist constructing a sickhouse for the poor
+#dragonblight 4 event about a local industrialist constructing a sickhouse for the poor ##dragonblight_pulse.15
 	#only in outbreak states
 
 	#option 1
@@ -96,7 +96,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					#-12.5% factory/port throughput for 2 years
 					#-0.75% conversion in state for 2 years
 
-	#dragonblight 6 our sailors are intentionally prolonging their journeys to minimize their risk of exposure
+	#dragonblight 6 our sailors are intentionally prolonging their journeys to minimize their risk of exposure #dragonblight_pulse.16
 
 		#option 1
 			#they are cowards.  Our magistrates will sort out the logistics themselves.
@@ -1012,7 +1012,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 		}
 }
 
-dragonblight_pulse.19 = { #dragon nimbys mad about a sickhouse
+dragonblight_pulse.19 = { #kobold conversion cult appears
 		type = country_event
 		placement = ROOT
 
@@ -1077,7 +1077,7 @@ dragonblight_pulse.19 = { #dragon nimbys mad about a sickhouse
 
 }
 			
-dragonblight_pulse.20 = { #dragon nimbys mad about a sickhouse
+dragonblight_pulse.20 = { #dragonborn ig member gets sick
 		type = country_event
 		placement = ROOT
 
@@ -1143,7 +1143,7 @@ dragonblight_pulse.20 = { #dragon nimbys mad about a sickhouse
 
 }			
 
-dragonblight_pulse.21 = { #dragon nimbys mad about a sickhouse
+dragonblight_pulse.21 = { #kobold pogroms
 		type = country_event
 		placement = ROOT
 
@@ -1211,4 +1211,33 @@ dragonblight_pulse.21 = { #dragon nimbys mad about a sickhouse
 		}
 		
 
+}
+
+dragonblight.2 = { #outbreaks states receive this event + the other one for 5% total
+	type = country_event
+	placement = ROOT
+
+	
+	trigger = {
+		any_scope_state = {
+			culture_percent_state = { target = cu:kotskarvi value >= 0.5   }
+		}
+	}
+
+	immediate = {
+		every_scope_state = {
+			limit = {
+				has_modifier = modifier_active_dragonblight_outbreak
+			}
+			every_scope_pop = {
+				limit = {
+					culture = cu:illvasaari
+				}
+				change_pop_culture = {
+					target = cu:kotskarvi
+					value = 0.035
+				}
+			}
+		}	
+	}
 }
