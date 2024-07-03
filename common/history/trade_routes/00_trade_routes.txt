@@ -428,7 +428,19 @@
 	c:ARR ?= {
 		create_trade_route = {
 			goods = silk
-			level = 12
+			level = 6
+			direction = import
+			target = c:THI.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 4
+			direction = export
+			target = c:THI.market
+		}
+		create_trade_route = {
+			goods = hardwood
+			level = 7
 			direction = import
 			target = c:THI.market
 		}
@@ -440,7 +452,13 @@
 		}
 		create_trade_route = {
 			goods = dye
-			level = 7
+			level = 5
+			direction = import
+			target = c:AZI.market
+		}
+		create_trade_route = {
+			goods = fabric
+			level = 3
 			direction = import
 			target = c:AZI.market
 		}

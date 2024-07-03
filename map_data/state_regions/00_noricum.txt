@@ -304,6 +304,7 @@ STATE_FROSTGATE = {
     capped_resources = {
         bg_iron_mining = 40
         bg_logging = 20
+        bg_hunting = 12
         bg_fishing = 12
     }
     naval_exit_id = 3017
@@ -506,6 +507,7 @@ STATE_MIDCLACK = {
         bg_iron_mining = 36
         bg_lead_mining = 18
         bg_logging = 23
+        bg_hunting = 12
         bg_fishing = 11
         bg_wishstone_mining = 17
     }
@@ -546,6 +548,7 @@ STATE_DRAGONBANE_TUNDRA = {
     capped_resources = {
         bg_coal_mining = 20
         bg_logging = 29
+        bg_hunting = 12
         bg_fishing = 6
     }
     naval_exit_id = 3017
@@ -805,6 +808,7 @@ STATE_URIKS_GIFT = {
     capped_resources = {
         bg_sulfur_mining = 40
         bg_logging = 24
+        bg_hunting = 12
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1560,6 +1564,7 @@ STATE_NORDFJALL = {
         bg_coal_mining = 48
         bg_sulfur_mining = 32
         bg_logging = 23
+        bg_hunting = 12
         bg_wishstone_mining = 24
     }
     resource = {
@@ -1595,6 +1600,7 @@ STATE_ZAWADKA = {
     capped_resources = {
         bg_sulfur_mining = 48
         bg_logging = 23
+        bg_hunting = 12
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1712,6 +1718,7 @@ STATE_ZARKI = {
     capped_resources = {
         bg_iron_mining = 60
         bg_logging = 23
+        bg_hunting = 12
         bg_whaling = 4
         bg_fishing = 8
     }
@@ -1989,6 +1996,7 @@ STATE_FORRTORP = {
     capped_resources = {
         bg_coal_mining = 36
         bg_logging = 23
+        bg_hunting = 12
         bg_squidding = 5
     }
     resource = {
