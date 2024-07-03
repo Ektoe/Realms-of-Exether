@@ -58,7 +58,7 @@ BUILDINGS = {
 		  region_state:EME={
 			    create_building={
 				      building="building_government_administration"
-				      level=1
+				      level=5
 				      reserves=1
 				      activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			    }
@@ -100,7 +100,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:EME"
-                        levels=1
+                        levels=2
                         region="STATE_SHARINDLARS_NEEDLE"
                    }
                 }
