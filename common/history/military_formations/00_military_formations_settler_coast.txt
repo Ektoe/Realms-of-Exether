@@ -20,7 +20,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_GREENCOURT
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
@@ -34,7 +34,7 @@
 
 		create_character = {
 			is_general = yes
-			commander_rank = commander_rank_4
+			commander_rank = commander_rank_2
 			save_scope_as = commanderarr_gen
 		}
 
@@ -74,7 +74,7 @@
 
 		create_character = {
 			is_general = yes
-			commander_rank = commander_rank_3
+			commander_rank = commander_rank_1
 			save_scope_as = commanderarr2_gen			
 		}
 
@@ -156,6 +156,7 @@
 				state_region = s:STATE_TWO_BARREL_COAST
 				count = 8
 			}
+
 		}	
 	}
 

@@ -2216,12 +2216,25 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:ARR"
-                        levels=4
+                        levels=3
                         region="STATE_VICEROYS_PEARL"
                    }
                 }
 			reserves=1
 			activate_production_methods={ "pm_steel" "pm_automation_disabled" }
+		}
+            create_building={
+			building="building_steel_mills"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:ARR"
+                        levels=3
+                        region="STATE_VICEROYS_PEARL"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_blister_steel_process" "pm_automation_disabled" }
 		}
             create_building={
           building="building_paper_mills"
@@ -2555,9 +2568,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:THI"
+                        country="c:CLR"
                         levels=3
-                        region="STATE_FAR_SHORE_2"
+                        region="STATE_CLEARBOUGH_ESTATES"
                    }
                 }
 				reserves=1
@@ -2568,9 +2581,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:THI"
+						country="c:ARR"
 						levels=5
-						region="STATE_FAR_SHORE_2"
+						region="STATE_DURANS_LAND"
 				   }
 				}
 				reserves=1
@@ -2594,9 +2607,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:THI"
+						country="c:ARR"
 						levels=2
-						region="STATE_FAR_SHORE"
+						region="STATE_DURANS_LAND"
 				   }
 				}
 				reserves=1
@@ -2836,9 +2849,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:CLR"
                         levels=2
-                        region="STATE_SHARINDLARS_NEEDLE"
+                        region="STATE_CLEARBOUGH_ESTATES"
                    }
                 }
 			reserves=1
@@ -2944,7 +2957,7 @@ BUILDINGS = {
 		}			
 		create_building={
 			building="building_railway"
-			level=1
+			level=2
 			reserves=1
 			activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 		}
@@ -2989,6 +3002,12 @@ BUILDINGS = {
 
   s:STATE_GOLDENACRE = {
 	region_state:ARR={
+		create_building={
+			building="building_government_administration"
+			level=3
+			reserves=1
+			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+		}
 			create_building={
 			building="building_wheat_farm"
 				add_ownership={ 
@@ -3204,9 +3223,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:ARR"
                         levels=3
-                        region="STATE_SHARINDLARS_NEEDLE"
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
 			reserves=1
@@ -3370,7 +3389,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:ARR"
                         levels=2
-                        region="STATE_GREENCOURT"
+                        region="STATE_CLEARBOUGH_ESTATES"
                    }
                 }
 			reserves=1
