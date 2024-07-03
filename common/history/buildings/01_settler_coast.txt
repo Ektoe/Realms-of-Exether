@@ -41,7 +41,14 @@ BUILDINGS = {
 		      }
 			    create_building={
 				      building="building_gold_mine"
-				      level=2
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:EME"
+						levels=2
+						region="STATE_SHARINDLARS_NEEDLE"
+				   }
+				}
 				      reserves=1
 				      activate_production_methods={ "pm_picks_and_shovels_building_gold_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			   }  
