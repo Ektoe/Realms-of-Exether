@@ -290,7 +290,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 							limit = {
 								owner = root
 								NOT = { has_modifier = modifier_active_dragonblight_outbreak }
-							#	NOT = { has_decree = fake_decree }
+							#	NOT = { has_decree = decree_special_measures }
 							}
 							
 							add_modifier = modifier_active_dragonblight_outbreak
@@ -413,7 +413,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 							limit = {
 								owner = root
 								NOT = { has_modifier = modifier_active_dragonblight_outbreak }
-							#	NOT = { has_decree = fake_decree }
+							#	NOT = { has_decree = decree_special_measures }
 							}
 							
 							add_modifier = modifier_active_dragonblight_outbreak
@@ -444,7 +444,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 				trigger = {
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = fake_decree
+								has_decree = decree_special_measures
 						}
 	
 				}	
@@ -453,7 +453,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = fake_decree
+							has_decree = decree_special_measures
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
 					}	
@@ -483,7 +483,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 				trigger = {
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = fake_decree
+								has_decree = decree_special_measures
 								has_institution = institution_health_system
 						}
 	
@@ -493,7 +493,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = fake_decree
+							has_decree = decree_special_measures
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
 					}	
@@ -525,7 +525,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					has_variable = dragonblight_cured
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = fake_decree
+								has_decree = decree_special_measures
 						}
 	
 				}	
@@ -534,7 +534,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = fake_decree
+							has_decree = decree_special_measures
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
 					}	
@@ -566,7 +566,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					has_variable = dragonblight_cured
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = fake_decree
+								has_decree = decree_special_measures
 						}
 	
 				}	
@@ -575,7 +575,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = fake_decree
+							has_decree = decree_special_measures
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
 					}	
