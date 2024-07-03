@@ -8,13 +8,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_DURANS_LAND_2
-				count = 30
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_SHARPWOOD
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
@@ -49,13 +49,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_BYRIVER
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_THE_MATCHES
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
@@ -89,25 +89,25 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_VICEROYS_PEARL
-				count = 2
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_THE_MATCHES
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_TWO_BARREL_COAST
-				count = 12
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_SHARPWOOD
-				count = 7
+				count = 5
 			}
 
 			combat_unit = {
