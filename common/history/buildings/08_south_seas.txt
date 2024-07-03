@@ -88,6 +88,12 @@
 	s:STATE_GONJOLA = {
 		region_state:AZI={
 			create_building={
+				building="building_port"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+        }
+			create_building={
 				building="building_government_administration"
 				level=2
 				reserves=1
