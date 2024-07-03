@@ -7,10 +7,6 @@
 			size = 307600
 		}
 		create_pop = {
-			culture = misri
-			size = 1992
-		}
-		create_pop = {
 			culture = timari
 			size = 344100
 		}
@@ -207,7 +203,20 @@
   }
     
   s:STATE_KORO = {
-
+	region_state:KAM = {
+		create_pop = {
+			culture = koshiri
+			size = 507321
+		}
+		create_pop = {
+			culture = vandori
+			size = 67210
+		}
+		create_pop = {
+			culture = lumvareth
+			size = 39840
+		}
+	}
   }
     
   s:STATE_SC12 = {
@@ -768,12 +777,39 @@
 
   }
     
-  s:STATE_CAM_CLOCHRAN = {
+  s:STATE_LILLESO = {
+	region_state:MNN = {
+		create_pop = {
+			culture = grunhain
+			size = 573737
+		}
+	}
+  }
 
+  s:STATE_BJERGHOLM = {
+	region_state:MNN = {
+		create_pop = {
+			culture = grunhain
+			size = 718982
+		}
+	}
   }
     
-  s:STATE_ZEPHYRSTILL = {
-
+  s:STATE_HOJLAND = {
+	region_state:MNN = {
+		create_pop = {
+			culture = grunhain
+			size = 971632
+		}
+	}
+  }
+  s:STATE_KLIPPEBJERG = {
+	region_state:MNN = {
+		create_pop = {
+			culture = grunhain
+			size = 634738
+		}
+	}
   }
     
   s:STATE_EISENMORA = {
@@ -2357,7 +2393,20 @@
   }
     
   s:STATE_ALQADIM = {
-
+	region_state:BSK = {
+		create_pop = {
+			culture = starwoken
+			size = 507321
+		}
+		create_pop = {
+			culture = wastecrawler
+			size = 67210
+		}
+		create_pop = {
+			culture = nightwalker
+			size = 39840
+		}
+	}
   }
     
   s:STATE_ZAHRIFAR = {
@@ -2521,8 +2570,13 @@
 	}
   }
     
-  s:STATE_SUKONCO = {
-
+  s:STATE_SLETTEJUNGEL = {
+  region_state:MNN = {
+	create_pop = {
+		culture = grunhain
+		size = 858942
+	}
+  }
   }
 
   s:STATE_SUKONCO_2 = {

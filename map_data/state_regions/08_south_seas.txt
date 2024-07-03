@@ -82,6 +82,7 @@ STATE_LEMBONA = {
         bg_coal_mining = 72
         bg_iron_mining = 48
         bg_logging = 23
+        bg_hunting = 12
     }
     resource = {
         type = "bg_rubber"
@@ -209,6 +210,7 @@ STATE_BELOZA = {
     capped_resources = {
         bg_iron_mining = 18
         bg_logging = 20
+        bg_hunting = 12
         bg_fishing = 9
         bg_whaling = 2
     }
@@ -397,6 +399,7 @@ STATE_TERRABELA = {
         bg_coal_mining = 40
         bg_sulfur_mining = 48
         bg_logging = 29
+        bg_hunting = 12
         bg_fishing = 13
     }
     resource = {
@@ -452,6 +455,7 @@ STATE_MAPACHECO = {
     capped_resources = {
         bg_coal_mining = 28
         bg_logging = 20
+        bg_hunting = 12
         bg_fishing = 9
     }
     resource = {
@@ -480,6 +484,7 @@ STATE_APAFONTE = {
         bg_coal_mining = 40
         bg_sulfur_mining = 48
         bg_logging = 29
+        bg_hunting = 12
         bg_fishing = 13
     }
     resource = {
@@ -518,7 +523,7 @@ STATE_LISAZISA = {
     farm = x7DD0F4
     mine = xD07AE4
     port = xDECC5F
-    arable_land = 30
+    arable_land = 32
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_logging = 11
@@ -609,6 +614,7 @@ STATE_MAHALATSAKA = {
     capped_resources = {
         bg_sulfur_mining = 40
         bg_logging = 30
+        bg_hunting = 22
         bg_fishing = 15
     }
     resource = {
@@ -741,6 +747,7 @@ STATE_TOMBONT = {
         bg_lead_mining = 24
         bg_sulfur_mining = 32
         bg_logging = 20
+        bg_hunting = 12
         bg_whaling = 3
         bg_fishing = 10
     }
@@ -1048,6 +1055,7 @@ STATE_PAPLUDIMIS = {
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_hunting = 12
         bg_fishing = 6
     }
     resource = {
@@ -1120,6 +1128,7 @@ STATE_SMILTYNECAT = {
     capped_resources = {
         bg_coal_mining = 28
         bg_logging = 25
+        bg_hunting = 12
     }
     resource = {
         type = "bg_rubber"
@@ -1191,6 +1200,7 @@ STATE_RAMUMARI = {
         bg_coal_mining = 24
         bg_sulfur_mining = 32
         bg_logging = 36
+        bg_hunting = 22
         bg_fishing = 7
     }
     resource = {
@@ -1241,6 +1251,7 @@ STATE_VEDAMALA = {
         bg_sulfur_mining = 8
         bg_lead_mining = 1
         bg_logging = 21
+        bg_hunting = 12
         bg_fishing = 15
     }
     resource = {

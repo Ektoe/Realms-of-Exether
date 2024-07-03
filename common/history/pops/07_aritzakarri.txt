@@ -117,12 +117,12 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = north_caucasian
+				culture = sandcircler
 				size = 1200
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = lacustrine_bantu
+				culture = saglithan
 				size = 2300
 			}
 		}
@@ -135,14 +135,13 @@
 				size = 93996
 			}
 			create_pop = {
-				culture = bedouin
+				culture = sandcircler
 				religion = mountain_worship
 				size = 22000
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = sudanese
-				religion = animist
+				culture = sandcircler
 				size = 7000
 			}
 		}
@@ -339,10 +338,6 @@
 			culture = saglithan
 			religion = mountain_worship
 			size = 80301
-		}
-		create_pop = {
-			culture = greek
-			size = 1030
 		}
 		create_pop = {
 			culture = cliffpercher
@@ -562,24 +557,6 @@
 			size = 20400
 		}
 	}
-	region_state:ULI = {
-		create_pop = {
-			culture = saglithan
-			size = 83996
-		}
-		create_pop = {
-			culture = whitefeather
-			size = 1004
-		}
-		create_pop = {
-			culture = tskharvani
-			size = 24996
-		}
-		create_pop = {
-			culture = sandcircler
-			size = 10400
-		}
-	}
   }
 
   s:STATE_OLABEGI_2 = {
@@ -628,7 +605,7 @@
 			size = 272000
 		}
 		create_pop = {
-			culture = mashriqi
+			culture = saglithan
 			religion = mountain_worship
 			size = 13404
 		}
@@ -945,11 +922,15 @@
 	region_state:ULI = {
 		create_pop = {
 			culture = saglithan
-			size = 56800
+			size = 136800
 		}
 		create_pop = {
 			culture = tskharvani
-			size = 14325 # 1840 Amazonas Census
+			size = 39325
+		}
+		create_pop = {
+			culture = sandcircler
+			size = 10400
 		}
 	}
   }
