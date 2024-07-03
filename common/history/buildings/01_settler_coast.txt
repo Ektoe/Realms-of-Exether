@@ -2217,12 +2217,26 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:KRC"
                         levels=10
-                        region="STATE_MISTREACH"
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
           reserves=1
           activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" }
-        }			
+        }
+
+		    create_building={
+			building="building_motor_industry"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:ARR"
+                        levels=1
+                        region="STATE_VICEROYS_PEARL"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_steam_engines" "pm_automation_disabled" }
+		}		
             create_building={
           building="building_textile_mills"
                 add_ownership={ 
@@ -2230,7 +2244,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:EMP"
                         levels=23
-                        region="STATE_THE_AMBER_RUN"
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
           reserves=1
@@ -2243,7 +2257,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:SMA"
                         levels=3
-                        region="STATE_OUTER_MOORWEALD_3"
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
           reserves=1
@@ -2256,7 +2270,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:SMA"
                         levels=1
-                        region="STATE_OUTER_MOORWEALD_3"
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
           reserves=1
@@ -2269,7 +2283,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:KRC"
                         levels=15
-                        region="STATE_MISTREACH"
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
           reserves=1
@@ -2282,7 +2296,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:SMA"
 						levels=15
-						region="STATE_OUTER_MOORWEALD_3"
+						region="STATE_VICEROYS_PEARL"
 				   }
 				}
           reserves=1
@@ -2308,7 +2322,7 @@ BUILDINGS = {
                         type="building_tavern"
                         country="c:SMA"
                         levels=2
-                        region="STATE_OUTER_MOORWEALD_3"
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
           reserves=1
@@ -2611,7 +2625,7 @@ BUILDINGS = {
 	region_state:SLB={
 		create_building={
 			building="building_government_administration"
-			level=1
+			level=3
 			reserves=1
 			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 		}		
@@ -2686,7 +2700,7 @@ BUILDINGS = {
 	region_state:ARR={	
 		create_building={
 			building="building_government_administration"
-			level=5
+			level=7
 			reserves=1
 			activate_production_methods={ "pm_vertical_filing_cabinets" }
 		}			
@@ -2844,19 +2858,6 @@ BUILDINGS = {
 			activate_production_methods={ "pm_steel" "pm_automation_disabled" }
 		}
 		
-		    create_building={
-			building="building_tooling_workshops"
-                add_ownership={ 
-                    building={ 
-                        type="building_financial_district"
-                        country="c:ARR"
-                        levels=1
-                        region="STATE_VICEROYS_PEARL"
-                   }
-                }
-			reserves=1
-			activate_production_methods={ "pm_steam_engines" "pm_automation_disabled" }
-		}
 			create_building={
 			building="building_coal_mine"
 				add_ownership={ 
@@ -3359,7 +3360,7 @@ BUILDINGS = {
 		
 			create_building={
 			building="building_government_administration"
-			level=6
+			level=2
 			reserves=1
 			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 		}
