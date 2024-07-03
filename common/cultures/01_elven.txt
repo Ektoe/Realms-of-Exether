@@ -630,7 +630,7 @@ erdei={
 	graphics = european
 }
 
-#Drow
+#Dark Elf
 aridrun = {
 	color= hsv{ 0.1 0.43 0.56 }
 	religion = elf_southern
