@@ -396,6 +396,11 @@
 				activate_production_methods={ "pm_simple_organization" }
 			}		
 			create_building={
+				building="building_dye_plantation"
+				reserves=1
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
+			}
+			create_building={
 				building="building_glassworks"
 				level=3
 				reserves=1
@@ -452,6 +457,12 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -655,6 +666,11 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
+			create_building={
+				building="building_logging_camp"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			create_building={
 				building="building_construction_sector"
 				level=1
