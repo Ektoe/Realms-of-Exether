@@ -1916,7 +1916,7 @@
           size = 50120
         }
         create_pop = {
-          culture = grendlenth
+          culture = grendleth
           size = 20290
         }
         create_pop = {

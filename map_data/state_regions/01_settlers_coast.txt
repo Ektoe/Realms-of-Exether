@@ -76,6 +76,7 @@ STATE_ABAISSE_DE_MARBRUN = {
     arable_resources = { "bg_cotton_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_hunting = 12
         bg_fishing = 4
     }
     naval_exit_id = 3035
@@ -227,6 +228,7 @@ STATE_VIRULENT_EGRESS = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_logging = 23
+        bg_hunting = 12
         bg_fishing = 15
         bg_sulfur_mining = 42
     }
@@ -301,6 +303,8 @@ STATE_ORCBANE_PASS = {
     capped_resources = {
         bg_coal_mining = 44
         bg_logging = 20
+        bg_hunting = 12
+        bg_hunting = 12
     }
     naval_exit_id = 3210
 }
@@ -376,7 +380,7 @@ STATE_RIVER_MEDDEN = {
 STATE_VOZMEAD_BORDERLANDS = {
     id = 4150
     subsistence_building = "building_subsistence_pastures"
-    provinces = { "x0BEFFB" "x30EFF4" "x58BEF1" "x6CDBDF" "x6FC8D0" "x9BF7A7" "xB6ADA6" "xBBD5EA" "xBD56FC" "xC677CF" "xC9989C" "xDEC5A4" "xE047D4" "xE775E9" "xE7AC99" "xF4DDFD" "xF892D1" }
+    provinces = { "x0BEFFB" "x30EFF4" "x58BEF1" "x6CDBDF" "x6FC8D0" "x9BF7A7" "xB6ADA6" "xBBD5EA" "xBD56FC" "xC677CF" "xC9989C" "xDEC5A4" "xE775E9" "xE7AC99" "xF4DDFD" "xF892D1" }
     city = x0BEFFB
     wood = x30EFF4
     farm = x4DCFEC
@@ -481,6 +485,7 @@ STATE_EASTERN_PLAGUEWOOD_2 = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 25
+        bg_hunting = 12
     }
     resource = {
         type = "bg_rubber"
@@ -523,6 +528,7 @@ STATE_FORESTS_HEART_2 = {
     capped_resources = {
         bg_iron_mining = 36
         bg_logging = 20
+        bg_hunting = 12
     }
     resource = {
         type = "bg_rubber"
@@ -559,6 +565,7 @@ STATE_FORESTS_HEART_3_2 = {
         bg_coal_mining = 32
         bg_iron_mining = 36
         bg_logging = 23
+        bg_hunting = 12
     }
     naval_exit_id = 3210
 }
@@ -734,6 +741,7 @@ STATE_INNER_MOORWEALD = {
         bg_hunting = 40
         bg_coal_mining = 18
         bg_logging = 24
+        bg_hunting = 12
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1215,6 +1223,7 @@ STATE_ACHONIAN_HIGHLANDS = {
         bg_coal_mining = 60
         bg_iron_mining = 30
         bg_logging = 34
+        bg_hunting = 22
         bg_monuments = 1
     }
     naval_exit_id = 3119
@@ -1366,6 +1375,7 @@ STATE_VYNDERVOHT = {
         bg_lead_mining = 81
         bg_cloud_collecting = 51
         bg_logging = 27
+        bg_hunting = 12
         bg_monuments = 1
     }
 
@@ -1718,6 +1728,7 @@ STATE_HAZELDEEP = {
         bg_coal_mining = 44
         bg_iron_mining = 27
         bg_logging = 26
+        bg_hunting = 12
     }
     naval_exit_id = 3167
 }

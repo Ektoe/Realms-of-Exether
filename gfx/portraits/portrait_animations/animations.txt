@@ -17,12 +17,22 @@ idle = {
 	                has_dlc_feature = ep1_cosmetics
 
 	                scope:character ?= {
-	                    age >= define:NCharacters|ADULT_AGE # always refer to the Defines entry rather than set an arbitrary figure, just to keep things consistent
 						no_portrait_trigger = no
+	                    age >= define:NCharacters|ADULT_AGE # always refer to the Defines entry rather than set an arbitrary figure, just to keep things consistent
 	                    OR = {
 		                    has_trait = grifter
 		                    has_trait = expensive_tastes
 		                    has_trait = hedonist
+		                }
+		                owner = {
+		                	NOT = {
+		                		is_country_type = decentralized
+		                	}
+							market ?= {
+								mg:tobacco ?= {
+									market_goods_sell_orders > 0
+								}
+							}
 		                }
 	                }
 	            }
