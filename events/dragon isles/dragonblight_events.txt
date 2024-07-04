@@ -1472,7 +1472,7 @@ dragonblightpulse.22 = { #secession events
 		}
 		
 	}
-			else_if = {
+		else_if = {
 		limit = {
 			state_region = s:STATE_MOTHYA
 		}
@@ -1715,7 +1715,7 @@ dragonblightpulse.22 = { #secession events
 					}
 				}
 			}
-		}
+		
 			else_if = {
 				limit = {
 					state_region = s:STATE_OSYRA
@@ -1830,6 +1830,7 @@ dragonblightpulse.22 = { #secession events
 					exists = c:MVI
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:MVI
 					}
 				}
@@ -1839,6 +1840,7 @@ dragonblightpulse.22 = { #secession events
 						exists = c:TKR
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:TKR
 					}
 				}	
@@ -1853,5 +1855,6 @@ dragonblightpulse.22 = { #secession events
 					}
 				}
 			}
+		}	
 	}
 }
