@@ -1,54 +1,54 @@
 ﻿namespace = dragonblight
 
-dragonblight.1 = { #meant to be yearly for all states
-	type = country_event
-	placement = ROOT
+# dragonblight.1 = { #meant to be yearly for all states
+# 	type = country_event
+# 	placement = ROOT
 
-	hidden = yes
-	trigger = {
-	}
+# 	hidden = yes
+# 	trigger = {
+# 	}
 
-	immediate = {
-			every_scope_pop = {
-				limit = {
-					culture = cu:illvasaari
-				}
-				change_pop_culture = {
-					target = cu:kotskarvi
-					value = 0.015
-				}
-			}	
-	}
-}
+# 	immediate = {
+# 			every_scope_pop = {
+# 				limit = {
+# 					culture = cu:illvasaari
+# 				}
+# 				change_pop_culture = {
+# 					target = cu:kotskarvi
+# 					value = 0.015
+# 				}
+# 			}	
+# 	}
+# }
 
-dragonblight.2 = { #outbreaks states receive this event + the other one for 5% total
-	type = country_event
-	placement = ROOT
+# dragonblight.2 = { #outbreaks states receive this event + the other one for 5% total
+# 	type = country_event
+# 	placement = ROOT
 
-	hidden = yes
-	trigger = {
-		any_scope_state = {
-			has_modifier = modifier_active_dragonblight_outbreak
-		}
-	}
+# 	hidden = yes
+# 	trigger = {
+# 		any_scope_state = {
+# 			has_modifier = modifier_active_dragonblight_outbreak
+# 		}
+# 	}
 
-	immediate = {
-		every_scope_state = {
-			limit = {
-				has_modifier = modifier_active_dragonblight_outbreak
-			}
-			every_scope_pop = {
-				limit = {
-					culture = cu:illvasaari
-				}
-				change_pop_culture = {
-					target = cu:kotskarvi
-					value = 0.035
-				}
-			}
-		}	
-	}
-}
+# 	immediate = {
+# 		every_scope_state = {
+# 			limit = {
+# 				has_modifier = modifier_active_dragonblight_outbreak
+# 			}
+# 			every_scope_pop = {
+# 				limit = {
+# 					culture = cu:illvasaari
+# 				}
+# 				change_pop_culture = {
+# 					target = cu:kotskarvi
+# 					value = 0.035
+# 				}
+# 			}
+# 		}	
+# 	}
+# }
 
 #dragonblight 3  event about a local writer declaring that the dragonblight is representative of a moral failing, and that no "true dragonborn" could fall victim to it
 
@@ -1198,7 +1198,6 @@ dragonblight_pulse.21 = { #kobold pogroms
 
 		option = {
 			name = dragonblight_pulse.21.a #allow the pogroms
-			default_option = yes
 
 			add_modifier = {
 				name = tolerated_kobold_pogroms
@@ -1224,7 +1223,8 @@ dragonblight_pulse.21 = { #kobold pogroms
 
 			scope:kobold_pogrom_state = {
 				add_radicals_in_state = {
-					value = 0.05
+					culture = cu:illvasaari
+					value = 0.075
 					strata = poor
 				}
 				}
@@ -1233,10 +1233,13 @@ dragonblight_pulse.21 = { #kobold pogroms
 
 }
 
-dragonblight.2 = { #outbreaks states receive this event + the other one for 5% total
+dragonblightpulse.22 = { #secession events
 	type = country_event
 	placement = ROOT
 
+	title = dragonblight_pulse.22.t
+	desc = dragonblight_pulse.22.d
+	flavor = dragonblight_pulse.22.f
 	
 	trigger = {
 		any_scope_state = {
@@ -1245,19 +1248,529 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 	}
 
 	immediate = {
-		every_scope_state = {
+		random_scope_state = {
 			limit = {
-				has_modifier = modifier_active_dragonblight_outbreak
+				culture_percent_state = { target = cu:kotskarvi value >= 0.51 }
 			}
-			every_scope_pop = {
+			save_scope_as = outbreak_state
+			if = {
 				limit = {
-					culture = cu:illvasaari
+					state_region = s:STATE_KLYPYRA
 				}
-				change_pop_culture = {
-					target = cu:kotskarvi
-					value = 0.035
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:RKO
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:RKO
+					}
 				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:GUR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:GUR
+					}
+				}	
+				else = {
+					create_country = {
+						tag = RKO
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					state_region = s:STATE_ZAMARIS
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:GUR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:GUR
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:RKO
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:RKO
+					}
+				}	
+				else = {
+					create_country = {
+						tag = GUR
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					state_region = s:STATE_LEPIDRA
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:GUR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:GUR
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:RKO
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:RKO
+					}
+				}	
+				else = {
+					create_country = {
+						tag = GUR
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					state_region = s:STATE_ZARTHOS
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:GUR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:GUR
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:RKO
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:RKO
+					}
+				}	
+				else = {
+					create_country = {
+						tag = GUR
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					state_region = s:STATE_CALTHA
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:GUR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:GUR
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:RKO
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:RKO
+					}
+				}	
+				else = {
+					create_country = {
+						tag = GUR
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+		else_if = {
+			limit = {
+					state_region = s:STATE_SIGARA
+				}
+			
+		if={
+			limit = {
+			#Relevant kobold tag
+			exists = c:SVN
+			}
+			scope:outbreak_state = {
+				set_state_owner = c:SVN
+			}
+		}
+		else_if={
+			limit = {
+			##Relevant kobold tag
+				exists = c:IAL
+			}
+			scope:outbreak_state = {
+				set_state_owner = c:IAL
 			}
 		}	
+		else = {
+			create_country = {
+				tag = SVN
+				origin = this
+				state = scope:outbreak_state.region_state:DIS
+			}
+		}
+		
+	}
+			else_if = {
+		limit = {
+			state_region = s:STATE_MOTHYA
+		}
+		if={
+			limit = {
+			#Relevant kobold tag
+			exists = c:SVN
+			}
+			scope:outbreak_state = {
+				set_state_owner = c:SVN
+			}
+		}
+		else_if={
+			limit = {
+			#Relevant kobold tag
+				exists = c:IAL
+			}
+			scope:outbreak_state = {
+				set_state_owner = c:IAL
+			}
+		}	
+		else = {
+			create_country = {
+				tag = SVN
+				origin = this
+				state = scope:outbreak_state.region_state:DIS
+			}
+		}
+	}
+	
+	else_if = {
+		limit = {
+			state_region = s:STATE_CLYPYA
+		}
+		
+	if={
+		limit = {
+		#Relevant kobold tag
+		exists = c:SVN
+		}
+		scope:outbreak_state = {
+			set_state_owner = c:SVN
+		}
+	}
+	else_if={
+		limit = {
+		#Relevant kobold tag
+			exists = c:IAL
+		}
+		scope:outbreak_state = {
+			set_state_owner = c:IAL
+		}
+	}	
+	else = {
+		create_country = {
+			tag = SVN
+			origin = this
+			state = scope:outbreak_state.region_state:DIS
+		}
+	}
+	}
+
+	else_if = {
+			limit = {
+				state_region = s:STATE_MOTHYA
+			}
+		
+		if={
+			limit = {
+			#Relevant kobold tag
+			exists = c:SVN
+			}
+			scope:outbreak_state = {
+				set_state_owner = c:SVN
+			}
+		}
+		else_if={
+			limit = {
+			#Relevant kobold tag
+				exists = c:IAL
+			}
+			scope:outbreak_state = {
+				set_state_owner = c:IAL
+			}
+		}	
+		else = {
+			create_country = {
+				tag = SVN
+				origin = this
+				state = scope:outbreak_state.region_state:DIS
+			}
+		}
+	}
+		else_if = {
+				limit = {
+					state_region = s:STATE_LILYBAEUM
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:IAL
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:IAL
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:SVN
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:SVN
+					}
+				}	
+				else = {
+					create_country = {
+						tag = IAL
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+			
+			else_if = {
+				limit = {
+					state_region = s:STATE_ZYRAS
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:TKR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:TKR
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:MVI
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:MVI
+					}
+				}	
+				else = {
+					create_country = {
+						tag = TKR
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					state_region = s:STATE_CARTHI
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:TKR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:TKR
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:MVI
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:MVI
+					}
+				}	
+				else = {
+					create_country = {
+						tag = TKR
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					state_region = s:STATE_LEPTHAR
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:TKR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:TKR
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:MVI
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:MVI
+					}
+				}	
+				else = {
+					create_country = {
+						tag = TKR
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+		}
+			else_if = {
+				limit = {
+					state_region = s:STATE_OSYRA
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:TKR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:TKR
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:MVI
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:MVI
+					}
+				}	
+				else = {
+					create_country = {
+						tag = TKR
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+
+			else_if = {
+				limit = {
+					state_region = s:STATE_THASPYR
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:TKR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:TKR
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:MVI
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:MVI
+					}
+				}	
+				else = {
+					create_country = {
+						tag = TKR
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					state_region = s:STATE_SABRYA
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:MVI
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:MVI
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:TKR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:TKR
+					}
+				}	
+				else = {
+					create_country = {
+						tag = MVI
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					state_region = s:STATE_LEPTISCA
+				}
+				if={
+					limit = {
+					#Relevant kobold tag
+					exists = c:MVI
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:MVI
+					}
+				}
+				else_if={
+					limit = {
+					#Relevant kobold tag
+						exists = c:TKR
+					}
+					scope:outbreak_state = {
+						set_state_owner = c:TKR
+					}
+				}	
+				else = {
+					create_country = {
+						tag = MVI
+						origin = this
+						state = scope:outbreak_state.region_state:DIS
+					}
+				}
+			}
 	}
 }
