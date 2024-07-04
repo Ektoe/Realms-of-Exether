@@ -852,9 +852,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:CER"
+						country="c:TLD"
 						levels=1
-						region="STATE_THE_CHASM"
+						region="STATE_VOZMEAD_BORDERLANDS"
 				   }
 				}
 			reserves=1
@@ -939,9 +939,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:CER"
+                        country="c:CDW"
                         levels=1
-                        region="STATE_ORCBANE_PASS_2"
+                        region="STATE_CRAGGEDWYN"
                    }
                 }
 			reserves=1
@@ -958,9 +958,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:CER"
+						country="c:SEB"
 						levels=3
-						region="STATE_ORCBANE_PASS"
+						region="STATE_SERBINELLE"
 				   }
 				}
 			reserves=1
@@ -977,9 +977,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:CER"
+                        country="c:SEB"
                         levels=2
-                        region="STATE_RIVER_MEDDEN"
+                        region="STATE_SERBINELLE"
                    }
                 }
 			reserves=1
@@ -996,9 +996,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:CER"
+                        country="c:SEB"
                         levels=1
-                        region="STATE_THE_CHASM"
+                        region="STATE_SERBINELLE"
                    }
                 }
 			reserves=1
@@ -1015,9 +1015,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:SEB"
                         levels=2
-                        region="STATE_ABAISSE_DE_MARBRUN"
+                        region="STATE_SERBINELLE"
                    }
                 }
 			reserves=1
@@ -1028,9 +1028,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:SEB"
                         levels=1
-                        region="STATE_SHARINDLARS_NEEDLE"
+                        region="STATE_SERBINELLE"
                    }
                 }
 			reserves=1
@@ -1084,9 +1084,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EME"
+						country="c:RTD"
 						levels=1
-						region="STATE_SHARINDLARS_NEEDLE"
+						region="STATE_EASTERN_PLAGUEWOOD"
 				   }
 				}
 			reserves=1
@@ -1099,7 +1099,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:RTD"
 						levels=4
-						region="STATE_EASTERN_PLAGUEWOOD_2"
+						region="STATE_EASTERN_PLAGUEWOOD"
 				   }
 				}
 			reserves=1
@@ -1110,9 +1110,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EME"
+						country="c:RTD"
 						levels=1
-						region="STATE_SHARINDLARS_NEEDLE"
+						region="STATE_EASTERN_PLAGUEWOOD"
 				   }
 				}
 			reserves=1
@@ -1134,9 +1134,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EME"
+						country="c:BDB"
 						levels=1
-						region="STATE_SHARINDLARS_NEEDLE"
+						region="STATE_FORESTS_HEART"
 				   }
 				}
 			reserves=1
@@ -1165,9 +1165,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EME"
+						country="c:BDB"
 						levels=1
-						region="STATE_SHARINDLARS_NEEDLE"
+						region="STATE_FORESTS_HEART_2"
 				   }
 				}
 			reserves=1
@@ -1180,7 +1180,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:BDB"
 						levels=2
-						region="STATE_FORESTS_HEART"
+						region="STATE_FORESTS_HEART_2"
 				   }
 				}
 			reserves=1
@@ -1193,7 +1193,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:BDB"
 						levels=1
-						region="STATE_FORESTS_HEART"
+						region="STATE_FORESTS_HEART_2"
 				   }
 				}
 			reserves=1
@@ -1276,9 +1276,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EME"
+						country="c:OCR"
 						levels=2
-						region="STATE_SHARINDLARS_NEEDLE"
+						region="STATE_PLAGUEWOOD_HINTERLANDS"
 				   }
 				}
 			reserves=1
@@ -1294,9 +1294,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:RTD"
+						country="c:BDB"
 						levels=1
-						region="STATE_FORESTS_HEART_3_2"
+						region="STATE_PLAGUEWOOD_HINTERLANDS_2"
 				   }
 				}
 			reserves=1
@@ -1307,9 +1307,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:OCR"
+						country="c:BDB"
 						levels=2
-						region="STATE_PLAGUEWOOD_HINTERLANDS"
+						region="STATE_PLAGUEWOOD_HINTERLANDS_2"
 				   }
 				}
 			reserves=1
@@ -1453,9 +1453,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:SMA"
                         levels=1
-                        region="STATE_ABAISSE_DE_MARBRUN"
+                        region="STATE_OUTER_MOORWEALD"
                    }
                 }
 			reserves=1
@@ -1466,9 +1466,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:CER"
+                        country="c:SMA"
                         levels=2
-                        region="STATE_PENDYM_GWYN"
+                        region="STATE_OUTER_MOORWEALD"
                    }
                 }
 			reserves=1
@@ -1479,9 +1479,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:RTD"
+                        country="c:SMA"
                         levels=1
-                        region="STATE_EASTERN_PLAGUEWOOD"
+                        region="STATE_OUTER_MOORWEALD"
                    }
                 }
 			reserves=1
@@ -1498,9 +1498,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:TLD"
+                        country="c:BDB"
                         levels=4
-                        region="STATE_VOZMEAD_BORDERLANDS"
+                        region="STATE_OUTER_MOORWEALD"
                    }
                 }
 			reserves=1
@@ -1511,9 +1511,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:CER"
+                        country="c:BDB"
                         levels=3
-                        region="STATE_ORCBANE_PASS_2"
+                        region="STATE_OUTER_MOORWEALD"
                    }
                 }
 			reserves=1
@@ -1524,9 +1524,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:RTD"
+                        country="c:BDB"
                         levels=3
-                        region="STATE_EASTERN_PLAGUEWOOD_2"
+                        region="STATE_OUTER_MOORWEALD"
                    }
                 }
 			reserves=1
@@ -1537,9 +1537,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:RTD"
+                        country="c:BDB"
                         levels=1
-                        region="STATE_EASTERN_PLAGUEWOOD"
+                        region="STATE_OUTER_MOORWEALD"
                    }
                 }
 			reserves=1
@@ -1550,9 +1550,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:RTD"
+						country="c:BDB"
 						levels=6
-						region="STATE_EASTERN_PLAGUEWOOD"
+						region="STATE_OUTER_MOORWEALD"
 				   }
 				}
 			reserves=1
@@ -1563,9 +1563,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:RTD"
+						country="c:BDB"
 						levels=5
-						region="STATE_FORESTS_HEART_3_2"
+						region="STATE_OUTER_MOORWEALD"
 				   }
 				}
 			reserves=1
@@ -1573,7 +1573,12 @@ BUILDINGS = {
 		}
 		create_building={
 			building="building_railway"
-			level=1
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:BDB"
+						levels=1
+						region="STATE_OUTER_MOORWEALD"
 			reserves=1
 			activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 		}
@@ -1638,9 +1643,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:RTD"
+                        country="c:SMA"
                         levels=2
-                        region="STATE_EASTERN_PLAGUEWOOD"
+                        region="STATE_OUTER_MOORWEALD_2"
                    }
                 }
 			reserves=1
@@ -1703,9 +1708,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:CER"
+						country="c:SMA"
 						levels=3
-						region="STATE_RIVER_MEDDEN"
+						region="STATE_OUTER_MOORWEALD_2"
 				   }
 				}
 			reserves=1
@@ -1765,9 +1770,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:RTD"
+						country="c:SMA"
 						levels=3
-						region="STATE_EASTERN_PLAGUEWOOD"
+						region="STATE_OUTER_MOORWEALD_3"
 				   }
 				}
 			reserves=1
@@ -1778,9 +1783,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EME"
+						country="c:SMA"
 						levels=3
-						region="STATE_SHARINDLARS_NEEDLE"
+						region="STATE_OUTER_MOORWEALD_3"
 				   }
 				}
 			reserves=1
@@ -1791,9 +1796,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:RTD"
+                        country="c:SMA"
                         levels=1
-                        region="STATE_EASTERN_PLAGUEWOOD"
+                        region="STATE_OUTER_MOORWEALD_3"
                    }
                 }
 			reserves=1
@@ -1806,7 +1811,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:SMA"
                         levels=2
-                        region="STATE_OUTER_MOORWEALD_2"
+                        region="STATE_OUTER_MOORWEALD_3"
                    }
                 }
 			reserves=1
@@ -1817,9 +1822,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:BDB"
+						country="c:SMA"
 						levels=2
-						region="STATE_FORESTS_HEART_2"
+						region="STATE_OUTER_MOORWEALD_3"
 				   }
 				}
 			reserves=1
@@ -1845,9 +1850,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SMA"
+						country="c:WHI"
 						levels=2
-						region="STATE_OUTER_MOORWEALD_2"
+						region="STATE_WHISKER_FIELDS"
 				   }
 				}
 			reserves=1
@@ -1858,9 +1863,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SMA"
+						country="c:WHI"
 						levels=2
-						region="STATE_OUTER_MOORWEALD_3"
+						region="STATE_WHISKER_FIELDS"
 				   }
 				}
 			reserves=1
@@ -1888,9 +1893,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SMA"
+                        country="c:PRI"
                         levels=2
-                        region="STATE_OUTER_MOORWEALD_3"
+                        region="STATE_WAYFARE_MEADOWS"
                    }
                 }
 			reserves=1
@@ -1927,9 +1932,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SMA"
+                        country="c:PRI"
                         levels=3
-                        region="STATE_OUTER_MOORWEALD_3"
+                        region="STATE_WAYFARE_MEADOWS"
                    }
                 }
 			reserves=1
@@ -1945,9 +1950,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SMA"
+                        country="c:EMP"
                         levels=5
-                        region="STATE_OUTER_MOORWEALD_2"
+                        region="STATE_THE_AMBER_RUN"
                    }
                 }
 				reserves=1
@@ -1958,9 +1963,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:CER"
+						country="c:EMP"
 						levels=1
-						region="STATE_ORCBANE_PASS"
+						region="STATE_THE_AMBER_RUN"
 				   }
 				}
 				reserves=1
@@ -1977,9 +1982,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SMA"
+                        country="c:EMP"
                         levels=2
-                        region="STATE_OUTER_MOORWEALD_2"
+                        region="STATE_THE_AMBER_RUN"
                    }
                 }
 				reserves=1
@@ -1990,9 +1995,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:WHI"
+                        country="c:EMP"
                         levels=3
-                        region="STATE_WHISKER_FIELDS"
+                        region="STATE_THE_AMBER_RUN"
                    }
                 }
 				reserves=1
@@ -2033,9 +2038,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SMA"
+                        country="c:KRC"
                         levels=1
-                        region="STATE_OUTER_MOORWEALD_3"
+                        region="STATE_MISTREACH"
                    }
                 }
 				reserves=1
@@ -2046,9 +2051,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:KRC"
                         levels=1
-                        region="STATE_SHARINDLARS_NEEDLE"
+                        region="STATE_MISTREACH"
                    }
                 }
 				reserves=1
@@ -2059,9 +2064,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:WHI"
+						country="c:KRC"
 						levels=2
-						region="STATE_WHISKER_FIELDS"
+						region="STATE_MISTREACH"
 				   }
 				}
 				reserves=1
@@ -2072,9 +2077,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EMP"
+                        country="c:KRC"
                         levels=6
-                        region="STATE_THE_AMBER_RUN"
+                        region="STATE_MISTREACH"
                    }
                 }
 				reserves=1
@@ -2098,9 +2103,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:RTD"
+						country="c:KRC"
 						levels=3
-						region="STATE_EASTERN_PLAGUEWOOD"
+						region="STATE_MISTREACH"
 				   }
 				}
 				reserves=1
@@ -2136,9 +2141,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:WHI"
+                        country="c:PRI"
                         levels=2
-                        region="STATE_WHISKER_FIELDS"
+                        region="STATE_MISTREACH_2"
                    }
                 }
 			reserves=1
@@ -2146,25 +2151,53 @@ BUILDINGS = {
 		}
 		create_building={
 			building="building_arms_industry"
-			level=2
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:PRI"
+                        levels=2
+                        region="STATE_MISTREACH_2"
+                   }
+                }
 			reserves=1
 			activate_production_methods={ "pm_muskets" "pm_automation_disabled" }
 		}
 		create_building={
 			building="building_artillery_foundries"
-			level=1
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:PRI"
+                        levels=1
+                        region="STATE_MISTREACH_2"
+                   }
+                }
 			reserves=1
 			activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
 		}
 		create_building={
 			building="building_iron_mine"
-			level=4
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:PRI"
+                        levels=4
+                        region="STATE_MISTREACH_2"
+                   }
+                }
 			reserves=1
 			activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 		}
 		create_building={
 			building="building_logging_camp"
-			level=2
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:PRI"
+                        levels=2
+                        region="STATE_MISTREACH_2"
+                   }
+                }
 			reserves=1
 			activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 		}
@@ -2173,9 +2206,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EMP"
+						country="c:PRI"
 						levels=1
-						region="STATE_THE_AMBER_RUN"
+						region="STATE_MISTREACH_2"
 				   }
 				}
 			reserves=1
@@ -2693,9 +2726,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:THI"
+                        country="c:ARR"
                         levels=5
-                        region="STATE_FAR_SHORE_2"
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
 			reserves=1
@@ -2706,9 +2739,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:CER"
+                        country="c:ARR"
                         levels=1
-                        region="STATE_ORCBANE_PASS"
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
 			reserves=1
@@ -2719,9 +2752,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:THI"
+                        country="c:ARR"
                         levels=3
-                        region="STATE_FAR_SHORE"
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
 			reserves=1
@@ -3174,12 +3207,12 @@ BUILDINGS = {
 					building={ 
 						type="building_manor_house"
 						country="c:ARR"
-						levels=3
+						levels=7
 						region="STATE_VERDANT_VALE"
 				   }
 				}
 			reserves=1
-			activate_production_methods={   "pm_tools_disabled" "pm_simple_farming" }
+			activate_production_methods={   "pm_tools_disabled" "pm_citrus_orchards" }
 		}
 	}
   }
@@ -3306,9 +3339,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:PRI"
+                        country="c:ARR"
                         levels=4
-                        region="STATE_GREENCOURT_2"
+                        region="STATE_LOWER_GOLDENLEAF"
                    }
                 }
 			reserves=1
@@ -3329,12 +3362,12 @@ BUILDINGS = {
 		}
 			create_building={
 			building="building_lead_mine"
-				add_ownership={ 
+				add_ownership={
 					building={ 
 						type="building_financial_district"
-						country="c:EME"
+						country="c:ARR"
 						levels=2
-						region="STATE_SHARINDLARS_NEEDLE"
+						region="STATE_VICEROYS_PEARL"
 				   }
 				}
 			reserves=1
@@ -3342,7 +3375,14 @@ BUILDINGS = {
 		}
 		create_building={
 			building="building_sulfur_mine"
-			level=4
+				add_ownership={
+					building={ 
+						type="building_financial_district"
+						country="c:ARR"
+						levels=4
+						region="STATE_VICEROYS_PEARL"
+				   }
+				}
 			reserves=1
 			activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 		}
@@ -3394,7 +3434,7 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:ARR"
+                        country="c:CLR"
                         levels=2
                         region="STATE_CLEARBOUGH_ESTATES"
                    }
@@ -3496,9 +3536,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:ARR"
+                        country="c:EBR"
                         levels=1
-                        region="STATE_GREENCOURT"
+                        region="STATE_RUNEPORT_GALESTRUM"
                    }
                 }
 			reserves=1
@@ -3509,9 +3549,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:ARR"
+                        country="c:EBR"
                         levels=1
-                        region="STATE_GREENCOURT"
+                        region="STATE_RUNEPORT_GALESTRUM"
                    }
                 }
 			reserves=1
@@ -3535,9 +3575,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:THI"
+						country="c:EBR"
 						levels=4
-						region="STATE_FAR_SHORE"
+						region="STATE_RUNEPORT_GALESTRUM"
 				   }
 				}
 			reserves=1
@@ -3561,9 +3601,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:ARR"
+                        country="c:EBR"
                         levels=2
-                        region="STATE_GREENCOURT"
+                        region="STATE_RUNEPORT_GALESTRUM"
                    }
                 }
 			reserves=1
@@ -3580,9 +3620,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:ARR"
+                        country="c:EBR"
                         levels=1
-                        region="STATE_LOWER_GOLDENLEAF"
+                        region="STATE_RUNEPORT_GALESTRUM"
                    }
                 }
 			reserves=1
@@ -3686,9 +3726,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EBR"
+                        country="c:AHO"
                         levels=7
-                        region="STATE_TWOTORS"
+                        region="STATE_ACHONIAN_HIGHLANDS"
                    }
                 }
 			reserves=1
@@ -3705,9 +3745,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EBR"
+                        country="c:AHO"
                         levels=3
-                        region="STATE_TWOTORS"
+                        region="STATE_ACHONIAN_HIGHLANDS"
                    }
                 }
 			reserves=1
@@ -3718,9 +3758,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:ARR"
+                        country="c:AHO"
                         levels=6
-                        region="STATE_DURANS_LAND"
+                        region="STATE_ACHONIAN_HIGHLANDS"
                    }
                 }
 			reserves=1
@@ -3731,9 +3771,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EBR"
+                        country="c:AHO"
                         levels=10
-                        region="STATE_TWOTORS"
+                        region="STATE_ACHONIAN_HIGHLANDS"
                    }
                 }
 			reserves=1
@@ -3744,9 +3784,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:PRI"
+						country="c:AHO"
 						levels=1
-						region="STATE_GREENCOURT_2"
+						region="STATE_ACHONIAN_HIGHLANDS"
 				   }
 				}
 			reserves=1
@@ -3770,7 +3810,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:AHO"
 						levels=2
-						region="STATE_ACHONIAN_HIGHLANDS"
+						region="STATE_GLIMMERING_COAST"
 				   }
 				}
 			reserves=1
@@ -3807,9 +3847,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EBR"
+                        country="c:AHO"
                         levels=2
-                        region="STATE_TWOTORS"
+                        region="STATE_GLIMMERING_COAST"
                    }
                 }
 			reserves=1
@@ -3822,7 +3862,7 @@ BUILDINGS = {
                         type="building_tavern"
                         country="c:AHO"
                         levels=3
-                        region="STATE_ACHONIAN_HIGHLANDS"
+                        region="STATE_GLIMMERING_COAST"
                    }
                 }
 			reserves=1
@@ -3858,7 +3898,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:AHO"
                         levels=2
-                        region="STATE_GLIMMERING_COAST"
+                        region="STATE_LEYLINE_COAST"
                    }
                 }
 			reserves=1
@@ -3869,9 +3909,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:ARR"
+                        country="c:AHO"
                         levels=3
-                        region="STATE_VERDANT_VALE"
+                        region="STATE_LEYLINE_COAST"
                    }
                 }
 			reserves=1
@@ -3888,9 +3928,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:ARR"
+                        country="c:AHO"
                         levels=1
-                        region="STATE_LOWER_GOLDENLEAF"
+                        region="STATE_LEYLINE_COAST"
                    }
                 }
 			reserves=1
@@ -3903,7 +3943,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:AHO"
 						levels=3
-						region="STATE_ACHONIAN_HIGHLANDS"
+						region="STATE_LEYLINE_COAST"
 				   }
 				}
 			reserves=1
@@ -3920,9 +3960,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EBR"
+                        country="c:AHO"
                         levels=1
-                        region="STATE_TWOTORS"
+                        region="STATE_LEYLINE_COAST"
                    }
                 }
 			reserves=1
@@ -3969,9 +4009,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EBR"
+                        country="c:PFL"
                         levels=1
-                        region="STATE_RUNEPORT_GALESTRUM"
+                        region="STATE_HORSELORDS_DEMESNE"
                    }
                 }
 			reserves=1
@@ -3982,9 +4022,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:AHO"
+						country="c:PFL"
 						levels=3
-						region="STATE_LEYLINE_COAST"
+						region="STATE_HORSELORDS_DEMESNE"
 				   }
 				}
 			reserves=1
@@ -4032,9 +4072,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:PFL"
+                        country="c:AHO"
                         levels=2
-                        region="STATE_ROCHENSTONE"
+                        region="STATE_SJETTSZCEK_MIRE"
                    }
                 }
 			reserves=1
@@ -4045,9 +4085,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:PFL"
+						country="c:AHO"
 						levels=1
-						region="STATE_ROCHENSTONE"
+						region="STATE_SJETTSZCEK_MIRE"
 				   }
 				}
 			reserves=1
@@ -4071,7 +4111,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:AHO"
                         levels=1
-                        region="STATE_LEYLINE_COAST"
+                        region="STATE_THUNDERSPELL_COAST"
                    }
                 }
 			reserves=1
@@ -4084,7 +4124,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:AHO"
                         levels=2
-                        region="STATE_LEYLINE_COAST"
+                        region="STATE_THUNDERSPELL_COAST"
                    }
                 }
 			reserves=1
@@ -4110,7 +4150,7 @@ BUILDINGS = {
                         type="building_tavern"
                         country="c:AHO"
                         levels=2
-                        region="STATE_LEYLINE_COAST"
+                        region="STATE_THUNDERSPELL_COAST"
                    }
                 }
 			reserves=1
@@ -4142,7 +4182,7 @@ BUILDINGS = {
 						type="building_financial_district"
 						country="c:AHO"
 						levels=3
-						region="STATE_GLIMMERING_COAST"
+						region="STATE_THUNDERSPELL_COAST"
 				   }
 				}
 			reserves=1
@@ -4221,9 +4261,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:AHO"
+						country="c:VHT"
 						levels=4
-						region="STATE_SOLEMN_STONES"
+						region="STATE_VYNDERVOHT"
 				   }
 				}
 			reserves=1
@@ -4265,9 +4305,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:ARR"
+                        country="c:BRB"
                         levels=1
-                        region="STATE_TWO_BARREL_COAST"
+                        region="STATE_OVERBURROW"
                    }
                 }
 			reserves=1
@@ -4278,9 +4318,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EBR"
+						country="c:BRB"
 						levels=14
-						region="STATE_RUNEPORT_GALESTRUM"
+						region="STATE_OVERBURROW"
 				   }
 				}
 			reserves=1
@@ -4291,9 +4331,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:ARR"
+						country="c:BRB"
 						levels=2
-						region="STATE_DURANS_LAND"
+						region="STATE_OVERBURROW"
 				   }
 				}
 			reserves=1
@@ -4304,9 +4344,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EBR"
+						country="c:BRB"
 						levels=2
-						region="STATE_RUNEPORT_GALESTRUM"
+						region="STATE_OVERBURROW"
 				   }
 				}
 			reserves=1
@@ -4317,9 +4357,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:ARR"
+						country="c:BRB"
 						levels=4
-						region="STATE_LOWER_GOLDENLEAF"
+						region="STATE_OVERBURROW"
 				   }
 				}
 			reserves=1
@@ -4327,7 +4367,14 @@ BUILDINGS = {
 		}
 		create_building={
 			building="building_sulfur_mine"
-			level=1
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:BRB"
+						levels=1
+						region="STATE_OVERBURROW"
+				   }
+				}
 			reserves=1
 			activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 		}
@@ -4336,9 +4383,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:VHT"
+						country="c:BRB"
 						levels=9
-						region="STATE_VYNDERVOHT"
+						region="STATE_OVERBURROW"
 				   }
 				}
 			reserves=1
@@ -4474,9 +4521,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AHO"
+                        country="c:CLR"
                         levels=1
-                        region="STATE_SJETTSZCEK_MIRE"
+                        region="STATE_STOUTHEART_BASIN"
                    }
                 }
 			reserves=1
@@ -4487,9 +4534,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:AHO"
+						country="c:CLR"
 						levels=2
-						region="STATE_SOLEMN_STONES"
+						region="STATE_STOUTHEART_BASIN"
 				   }
 				}
 			reserves=1
@@ -4526,7 +4573,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:CLR"
 						levels=1
-						region="STATE_STOUTHEART_BASIN"
+						region="STATE_CROPHEART_DALE"
 				   }
 				}
 			reserves=1
@@ -4561,9 +4608,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:GRH"
+                        country="c:CLR"
                         levels=2
-                        region="STATE_UPPER_GOLDENLEAF"
+                        region="STATE_CLEARBOUGH_ESTATES"
                    }
                 }
 			reserves=1
@@ -4600,9 +4647,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AHO"
+                        country="c:CLR"
                         levels=3
-                        region="STATE_THUNDERSPELL_COAST"
+                        region="STATE_CLEARBOUGH_ESTATES"
                    }
                 }
 			reserves=1
@@ -4667,9 +4714,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:CLR"
+                        country="c:DAR"
                         levels=5
-                        region="STATE_GOLDENMOOR"
+                        region="STATE_MOUNT_YELFI"
                    }
                 }
 			reserves=1
@@ -4680,9 +4727,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EBR"
+                        country="c:DAR"
                         levels=5
-                        region="STATE_TWOTORS"
+                        region="STATE_MOUNT_YELFI"
                    }
                 }
 			reserves=1
@@ -4693,9 +4740,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:PFL"
+                        country="c:DAR"
                         levels=2
-                        region="STATE_HORSELORDS_DEMESNE"
+                        region="STATE_MOUNT_YELFI"
                    }
                 }
 			reserves=1
@@ -4706,9 +4753,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:CLR"
+						country="c:DAR"
 						levels=3
-						region="STATE_CLEARBOUGH_ESTATES"
+						region="STATE_MOUNT_YELFI"
 				   }
 				}
 			reserves=1
@@ -4719,9 +4766,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:CLR"
+						country="c:DAR"
 						levels=1
-						region="STATE_STOUTHEART_BASIN"
+						region="STATE_MOUNT_YELFI"
 				   }
 				}
 			reserves=1
@@ -4737,9 +4784,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:DAR"
+						country="c:DRO"
 						levels=5
-						region="STATE_MOUNT_YELFI"
+						region="STATE_COGSREST"
 				   }
 				}
 				reserves=1
@@ -4750,9 +4797,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:BRB"
+						country="c:DRO"
 						levels=1
-						region="STATE_OVERBURROW"
+						region="STATE_COGSREST"
 				   }
 				}
         reserves=3
@@ -4792,9 +4839,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EME"
+						country="c:VOZ"
 						levels=1
-						region="STATE_SHARINDLARS_NEEDLE"
+						region="STATE_GRAVELROCK_ROAD"
 				   }
 				}
 			reserves=1
@@ -4804,9 +4851,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:CLR"
+                        country="c:VOZ"
                         levels=2
-                        region="STATE_GOLDENMOOR"
+                        region="STATE_GRAVELROCK_ROAD"
                    }
                 }
 			reserves=1
@@ -4817,9 +4864,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:CLR"
+                        country="c:VOZ"
                         levels=1
-                        region="STATE_CROPHEART_DALE"
+                        region="STATE_GRAVELROCK_ROAD"
                    }
                 }
 			reserves=1
@@ -4830,9 +4877,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:FTH"
+                        country="c:VOZ"
                         levels=1
-                        region="STATE_NEWBANKS"
+                        region="STATE_GRAVELROCK_ROAD"
                    }
                 }
 			reserves=1
@@ -4843,9 +4890,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DRO"
+                        country="c:VOZ"
                         levels=1
-                        region="STATE_COGSREST"
+                        region="STATE_GRAVELROCK_ROAD"
                    }
                 }
 			reserves=1
@@ -4866,9 +4913,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:VOZ"
+						country="c:DRO"
 						levels=3
-						region="STATE_GRAVELROCK_ROAD"
+						region="STATE_ELF1"
 				   }
 				}
 				reserves=1
@@ -4887,7 +4934,7 @@ BUILDINGS = {
 						type="building_financial_district"
 						country="c:DRO"
 						levels=1
-						region="STATE_NOGI_SANDS"
+						region="STATE_ELF1"
 				   }
 				}
 				reserves=1
@@ -4915,9 +4962,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AHO"
+                        country="c:DRO"
                         levels=1
-                        region="STATE_SJETTSZCEK_MIRE"
+                        region="STATE_ELF2"
                    }
                 }
 				reserves=1
@@ -4928,9 +4975,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:VHT"
+                        country="c:DRO"
                         levels=3
-                        region="STATE_VYNDERVOHT"
+                        region="STATE_ELF2"
                    }
                 }
 				reserves=1
@@ -4943,7 +4990,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:DRO"
 						levels=2
-						region="STATE_COGSREST"
+						region="STATE_ELF2"
 				   }
 				}
 				reserves=1
@@ -4967,9 +5014,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:VHT"
+                        country="c:DRO"
                         levels=1
-                        region="STATE_VYNDERVOHT"
+                        region="STATE_ELF2"
                    }
                 }
 				reserves=1
@@ -4980,9 +5027,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:PFL"
+                        country="c:DRO"
                         levels=1
-                        region="STATE_HORSELORDS_DEMESNE"
+                        region="STATE_ELF2"
                    }
                 }
 				reserves=1
@@ -5018,7 +5065,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:DRO"
                         levels=2
-                        region="STATE_ELF1"
+                        region="STATE_ELF3"
                    }
                 }
 				reserves=1
@@ -5057,7 +5104,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:DRO"
 						levels=2
-						region="STATE_COGSREST"
+						region="STATE_ELF3"
 				   }
 				}
 				reserves=1
@@ -5083,7 +5130,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:DRO"
                         levels=2
-                        region="STATE_ELF1"
+                        region="STATE_ELF3"
                    }
                 }
 				reserves=1
@@ -5111,9 +5158,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DRO"
+                        country="c:VOZ"
                         levels=1
-                        region="STATE_ELF3"
+                        region="STATE_ELF4"
                    }
                 }
 				reserves=1
@@ -5212,9 +5259,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:DAR"
+						country="c:EMP"
 						levels=6
-						region="STATE_MOUNT_YELFI"
+						region="STATE_HAZELDEEP"
 				   }
 				}
 		reserves=1
@@ -5236,9 +5283,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:VOZ"
+						country="c:EMP"
 						levels=2
-						region="STATE_ELF4"
+						region="STATE_HAZELDEEP"
 				   }
 				}
 			reserves=1
@@ -5273,9 +5320,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EMP"
+						country="c:AHO"
 						levels=1
-						region="STATE_HAZELDEEP"
+						region="STATE_AZURETHORN"
 				   }
 				}
 		reserves=1
@@ -5309,9 +5356,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DRO"
+                        country="c:CER"
                         levels=1
-                        region="STATE_COGSREST"
+                        region="STATE_FERNSEA"
                    }
                 }
 			reserves=1
@@ -5322,9 +5369,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AHO"
+                        country="c:CER"
                         levels=5
-                        region="STATE_LEYLINE_COAST"
+                        region="STATE_FERNSEA"
                    }
                 }
 			reserves=1
@@ -5335,9 +5382,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EMP"
+                        country="c:CER"
                         levels=3
-                        region="STATE_HAZELDEEP"
+                        region="STATE_FERNSEA"
                    }
                 }
 			reserves=1
@@ -5348,9 +5395,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DRO"
+                        country="c:CER"
                         levels=4
-                        region="STATE_ELF1"
+                        region="STATE_FERNSEA"
                    }
                 }
 			reserves=1
@@ -5373,7 +5420,14 @@ BUILDINGS = {
 		}
 		create_building={
 			building="building_airship_dock"
-			level=2
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:VOZ"
+						levels=2
+						region="STATE_SKYPIERCER_PEAK"
+				   }
+				}
 			reserves=1
 		}
 		create_building={
@@ -5386,9 +5440,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:DRO"
+						country="c:VOZ"
 						levels=2
-						region="STATE_ELF2"
+						region="STATE_SKYPIERCER_PEAK"
 				   }
 				}
 			reserves=1
@@ -5399,9 +5453,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AHO"
+                        country="c:VOZ"
                         levels=1
-                        region="STATE_GLIMMERING_COAST"
+                        region="STATE_SKYPIERCER_PEAK"
                    }
                 }
 			reserves=1
@@ -5430,9 +5484,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EMP"
+                        country="c:VOZ"
                         levels=2
-                        region="STATE_THE_AMBER_RUN_3"
+                        region="STATE_SKYPIERCER_PEAK"
                    }
                 }
 			reserves=1
@@ -5455,9 +5509,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DRO"
+                        country="c:VOZ"
                         levels=1
-                        region="STATE_COGSREST"
+                        region="STATE_SKYPIERCER_PEAK"
                    }
                 }
 			reserves=1
@@ -5493,7 +5547,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:VOZ"
                         levels=1
-                        region="STATE_SKYPIERCER_PEAK"
+                        region="STATE_CLOUDSILVER_SPINE"
                    }
                 }
 			reserves=1
@@ -5515,9 +5569,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EMP"
+						country="c:VOZ"
 						levels=2
-						region="STATE_HAZELDEEP"
+						region="STATE_CLOUDSILVER_SPINE"
 				   }
 				}
 			reserves=1
@@ -5546,9 +5600,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:EMP"
+                        country="c:VOZ"
                         levels=1
-                        region="STATE_HAZELDEEP"
+                        region="STATE_SUNKEN_CLIFFS"
                    }
                 }
 			reserves=1
@@ -5564,9 +5618,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:CER"
+						country="c:VOZ"
 						levels=1
-						region="STATE_FERNSEA"
+						region="STATE_DWARVENHAMMER"
 				   }
 				}
 			reserves=1
@@ -5594,9 +5648,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:VOZ"
+                        country="c:EMP"
                         levels=4
-                        region="STATE_CLOUDSILVER_SPINE"
+                        region="STATE_TARBANK"
                    }
                 }
 				reserves=1
@@ -5607,9 +5661,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:VOZ"
+                        country="c:EMP"
                         levels=2
-                        region="STATE_CLOUDSILVER_SPINE"
+                        region="STATE_TARBANK"
                    }
                 }
 				reserves=1
@@ -5620,9 +5674,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:VOZ"
+						country="c:EMP"
 						levels=1
-						region="STATE_VOZMEAD_LOWLANDS"
+						region="STATE_TARBANK"
 				   }
 				}
 				reserves=1
@@ -5633,9 +5687,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:VOZ"
+						country="c:EMP"
 						levels=8
-						region="STATE_DWARVENHAMMER"
+						region="STATE_TARBANK"
 				   }
 				}
 				reserves=1
@@ -5648,7 +5702,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:EMP"
 						levels=10
-						region="STATE_THE_AMBER_RUN_2"
+						region="STATE_TARBANK"
 				   }
 				}
 				reserves=1
@@ -5670,9 +5724,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EMP"
+						country="c:WHI"
 						levels=2
-						region="STATE_THE_AMBER_RUN_3"
+						region="STATE_WICKERRYE"
 				   }
 				}
 				reserves=1
@@ -5683,9 +5737,9 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:EMP"
+						country="c:WHI"
 						levels=1
-						region="STATE_TARBANK"
+						region="STATE_WICKERRYE"
 				   }
 				}
 				reserves=1
@@ -5713,9 +5767,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:VOZ"
+                        country="c:CLR"
                         levels=1
-                        region="STATE_ELF4"
+                        region="STATE_SILVERTARGE"
                    }
                 }
 			reserves=1
@@ -5726,9 +5780,9 @@ BUILDINGS = {
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:WHI"
+                        country="c:CLR"
                         levels=1
-                        region="STATE_WICKERRYE"
+                        region="STATE_SILVERTARGE"
                    }
                 }
 			reserves=1
