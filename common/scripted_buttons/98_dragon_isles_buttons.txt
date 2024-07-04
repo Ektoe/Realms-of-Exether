@@ -1,0 +1,244 @@
+﻿negotiate_kobold_settlements_button = {
+	name = "persia_british_aid_button"
+	desc = "persia_british_aid_button_desc"
+
+	# selected = {
+	# 	has_variable = PER_appealed_to_GBR
+	# }
+
+	# visible = {
+	# 	exists = c:GBR
+	# }
+
+	possible = {
+		any_scope_state = {
+			OR = {
+				AND = {
+					state_region = s:STATE_KLYPYRA
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_ZAMARIS
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_LEPIDRA
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_ZARTHOS
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_CALTHA
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_SIGARA
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_MOTHYA
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_LILYBAEUM
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_ZYRAS
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_CARTHI
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_LEPTHAR
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_OYRSA
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_THASPYR
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_SABRYA
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+				AND = {
+					state_region = s:STATE_LEPTISCA
+					culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+					any_neighbouring_state = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+# 	effect = {
+# 		set_variable = { 
+# 			name = persia_british_aid_button_cooldown_var years = 10 
+# 		}
+# 		set_variable = PER_appealed_to_GBR
+# 		save_scope_as = persian_nation_scope
+# 		c:GBR = {
+# 			save_scope_as = relevant_country
+# 			trigger_event = { id = persia_events.4 popup = yes }
+# 		}
+# 		custom_tooltip = if_they_accept_tt
+# 		show_as_tooltip = {
+# 			if = {
+# 				limit = {
+# 					NOT = {
+# 						has_modifier = modifier_south_persia_rifles
+# 					}
+# 				}
+# 				add_modifier = {
+# 					name = modifier_south_persia_rifles
+# 				}
+# 				add_modifier = {
+# 					name = modifier_british_persian_aid
+# 					months = normal_modifier_time
+# 				}
+# 			}
+# 			if = {
+# 				limit = {
+# 					has_modifier = modifier_south_persia_rifles
+# 				}
+# 				add_modifier = {
+# 					name = modifier_british_persian_aid
+# 					months = normal_modifier_time
+# 				}
+# 			}
+# 			scope:relevant_country.power_bloc = {
+# 				add_leverage = { target = scope:persian_nation_scope value = 25 }
+# 			}
+# 		}
+# 	}
+
+# 	ai_chance = {
+# 		base = 15
+# 	}
+}
