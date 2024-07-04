@@ -226,7 +226,7 @@ vandori={
 changeling={
 	color= hsv{ 0.50 0.55 0.58 }
 	religion = church_of_man
-	traits = { planetouched_heritage }
+	traits = { planetouched_heritage settler_coast_culture_group }
 	male_common_first_names={
 		Abdulvehhab
 		Adnan
