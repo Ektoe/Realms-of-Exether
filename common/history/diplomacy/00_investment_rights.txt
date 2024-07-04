@@ -3,9 +3,6 @@
 		create_diplomatic_pact = {
 			country = c:CER
 			type = foreign_investment_rights
-		}
-		
+		}	
 	}
-	
-	
 }
