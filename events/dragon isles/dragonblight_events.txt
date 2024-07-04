@@ -229,13 +229,21 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 								importer.owner = root
 								exporter.owner = {
 									country_has_primary_culture = cu:kotskarvi
+									NOT = {actor_market.owner = root}
+								}
+								actor_market.owner = {
+									save_scope_as = disease_exporter
 								}
 							}
 							AND = {	
 								importer.owner = {
 									country_has_primary_culture = cu:kotskarvi
+									NOT = {actor_market.owner = root}
 								}
 								exporter.owner = root
+								actor_market.owner = {
+									save_scope_as = disease_exporter
+								}
 							}
 						}
 					}	
@@ -279,6 +287,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 								has_modifier = modifier_active_dragonblight_outbreak
 							}
 						}
+						save_scope_as = infected_neighbour
 				}		
 				immediate = {
 					random_scope_state = {
@@ -290,10 +299,11 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 							limit = {
 								owner = root
 								NOT = { has_modifier = modifier_active_dragonblight_outbreak }
-							#	NOT = { has_decree = decree_special_measures }
+							#	NOT = { has_decree = special_decree }
 							}
 							
 							add_modifier = modifier_active_dragonblight_outbreak
+							save_scope_as = neighbour_infection
 						}
 				}
 			}
@@ -369,6 +379,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 							NOT = { has_modifier = modifier_active_dragonblight_outbreak }
 						}
 						add_modifier = modifier_active_dragonblight_outbreak
+						save_scope_as = dragonblight_port 
 					}
 
 				}
@@ -413,10 +424,11 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 							limit = {
 								owner = root
 								NOT = { has_modifier = modifier_active_dragonblight_outbreak }
-							#	NOT = { has_decree = decree_special_measures }
+							#	NOT = { has_decree = special_decree }
 							}
 							
 							add_modifier = modifier_active_dragonblight_outbreak
+							save_scope_as = blighted_state
 						}
 				}
 			}
@@ -444,7 +456,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 				trigger = {
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = decree_special_measures
+								has_decree = special_decree
 						}
 	
 				}	
@@ -453,9 +465,10 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = decree_special_measures
+							has_decree = special_decree
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
+						save_scope_as = tide_turned
 					}	
 				}
 			}
@@ -483,7 +496,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 				trigger = {
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = decree_special_measures
+								has_decree = special_decree
 								has_institution = institution_health_system
 						}
 	
@@ -493,9 +506,10 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = decree_special_measures
+							has_decree = special_decree
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
+						save_scope_as = curve_flat
 					}	
 				}
 			}
@@ -506,9 +520,9 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 
 				cooldown = { months = 12 }
 
-				title = dragonblight_pulse.7.t
-				desc = dragonblight_pulse.7.d
-				flavor = dragonblight_pulse.7.f
+				title = dragonblight_pulse.8.t
+				desc = dragonblight_pulse.8.d
+				flavor = dragonblight_pulse.8.f
 			
 				duration = 3
 			
@@ -525,7 +539,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					has_variable = dragonblight_cured
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = decree_special_measures
+								has_decree = special_decree
 						}
 	
 				}	
@@ -534,9 +548,10 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = decree_special_measures
+							has_decree = special_decree
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
+						save_scope_as = vaccine_drive
 					}	
 				}
 			}
@@ -566,7 +581,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					has_variable = dragonblight_cured
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = decree_special_measures
+								has_decree = special_decree
 						}
 	
 				}	
@@ -575,9 +590,10 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = decree_special_measures
+							has_decree = special_decree
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
+						save_scope_as = vaccine_mandate
 					}	
 				}
 			}
@@ -617,6 +633,7 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 							has_modifier = modifier_active_dragonblight_outbreak
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
+						save_scope_as = herd_immunity
 					}	
 				}
 			}
@@ -628,9 +645,9 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 
 				cooldown = { months = 180 }
 
-				title = dragonblight_pulse.15.t
-				desc = dragonblight_pulse.15.d
-				flavor = dragonblight_pulse.15.f
+				title = dragonblight_pulse.12.t
+				desc = dragonblight_pulse.12.d
+				flavor = dragonblight_pulse.12.f
 			
 				duration = 3
 			
@@ -782,7 +799,8 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 							add_modifier = {
 								name = dragon_sickhouses
 								months = 48	
-							}	
+							}
+							save_scope_as = dragon_sickhouse 	
 						}
 					}
 
@@ -860,7 +878,9 @@ dragonblight.2 = { #outbreaks states receive this event + the other one for 5% t
 				trigger = {
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
+								is_coastal = yes 
 						}
+						save_scope_as = 
 				}	
 
 				option = {
