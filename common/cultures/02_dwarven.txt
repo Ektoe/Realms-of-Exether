@@ -208,7 +208,7 @@ yelfi={
 vozi={
 	color= hsv{ 0.33 0.10 0.74 }
 	religion = dwarven_ancestors
-	traits = { dwarf_heritage }
+	traits = { dwarf_heritage cloud_dwarf }
 	male_common_first_names={
 		Kiras
 		Nerus
@@ -258,7 +258,7 @@ vozi={
 tolorr={
 	color= hsv{ 0.53 0.30 0.74 }
 	religion = dwarven_ancestors
-	traits = { dwarf_heritage }
+	traits = { dwarf_heritage cloud_dwarf }
 	male_common_first_names={
 		Kiras
 		Nerus
@@ -308,7 +308,7 @@ tolorr={
 vynduri={
 	color= hsv{ 0.40 0.36 0.70 }
 	religion = cult_of_knowledge
-	traits = { dwarf_heritage }
+	traits = { dwarf_heritage cloud_dwarf settler_coast_culture_group}
 	male_common_first_names={
 		Amar
 		Bhakti
