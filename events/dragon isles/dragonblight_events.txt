@@ -878,10 +878,20 @@
 				trigger = {
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								is_coastal = yes 
+								is_coastal = yes #risky business
 						}
-						save_scope_as = 
-				}	
+						
+				}
+				
+				immediate = {
+					random_scope_state = {
+						limit = {						
+						has_modifier = modifier_active_dragonblight_outbreak
+						is_coastal = yes #risky business
+						}
+					save_scope_as = dragon_permpatrol
+				}
+				}
 
 				option = {
 					name = dragonblight_pulse.16.a
@@ -1188,7 +1198,7 @@ dragonblight_pulse.21 = { #kobold pogroms
 						save_scope_as = kobold_pogrom_state
 				}
 			scope:kobold_pogrom_state = {
-				kill_population = {
+				kill_population_in_state = {
 					value = 0.02
 					culture = cu:kotskarvi
 				   }
@@ -1205,7 +1215,7 @@ dragonblight_pulse.21 = { #kobold pogroms
 				}
 			
 			scope:kobold_pogrom_state = {
-				kill_population = {
+				kill_population_in_state = {
 					value = 0.035
 					culture = cu:kotskarvi
 				   }
@@ -1263,6 +1273,7 @@ dragonblightpulse.22 = { #secession events
 					exists = c:RKO
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:RKO
 					}
 				}
@@ -1272,6 +1283,7 @@ dragonblightpulse.22 = { #secession events
 						exists = c:GUR
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:GUR
 					}
 				}	
@@ -1293,6 +1305,7 @@ dragonblightpulse.22 = { #secession events
 					exists = c:GUR
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:GUR
 					}
 				}
@@ -1302,10 +1315,14 @@ dragonblightpulse.22 = { #secession events
 						exists = c:RKO
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:RKO
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = GUR
 						origin = this
@@ -1323,6 +1340,7 @@ dragonblightpulse.22 = { #secession events
 					exists = c:GUR
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:GUR
 					}
 				}
@@ -1332,10 +1350,14 @@ dragonblightpulse.22 = { #secession events
 						exists = c:RKO
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:RKO
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = GUR
 						origin = this
@@ -1353,6 +1375,7 @@ dragonblightpulse.22 = { #secession events
 					exists = c:GUR
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:GUR
 					}
 				}
@@ -1362,10 +1385,14 @@ dragonblightpulse.22 = { #secession events
 						exists = c:RKO
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:RKO
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = GUR
 						origin = this
@@ -1383,6 +1410,7 @@ dragonblightpulse.22 = { #secession events
 					exists = c:GUR
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:GUR
 					}
 				}
@@ -1392,10 +1420,14 @@ dragonblightpulse.22 = { #secession events
 						exists = c:RKO
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:RKO
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = GUR
 						origin = this
@@ -1414,6 +1446,7 @@ dragonblightpulse.22 = { #secession events
 			exists = c:SVN
 			}
 			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
 				set_state_owner = c:SVN
 			}
 		}
@@ -1423,10 +1456,14 @@ dragonblightpulse.22 = { #secession events
 				exists = c:IAL
 			}
 			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
 				set_state_owner = c:IAL
 			}
 		}	
 		else = {
+			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
+			}
 			create_country = {
 				tag = SVN
 				origin = this
@@ -1445,6 +1482,7 @@ dragonblightpulse.22 = { #secession events
 			exists = c:SVN
 			}
 			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
 				set_state_owner = c:SVN
 			}
 		}
@@ -1454,10 +1492,14 @@ dragonblightpulse.22 = { #secession events
 				exists = c:IAL
 			}
 			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
 				set_state_owner = c:IAL
 			}
 		}	
 		else = {
+			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
+			}
 			create_country = {
 				tag = SVN
 				origin = this
@@ -1477,6 +1519,7 @@ dragonblightpulse.22 = { #secession events
 		exists = c:SVN
 		}
 		scope:outbreak_state = {
+			dragonblight_killswitch_engage = yes
 			set_state_owner = c:SVN
 		}
 	}
@@ -1486,10 +1529,14 @@ dragonblightpulse.22 = { #secession events
 			exists = c:IAL
 		}
 		scope:outbreak_state = {
+			dragonblight_killswitch_engage = yes
 			set_state_owner = c:IAL
 		}
 	}	
 	else = {
+		scope:outbreak_state = {
+			dragonblight_killswitch_engage = yes
+		}
 		create_country = {
 			tag = SVN
 			origin = this
@@ -1509,7 +1556,9 @@ dragonblightpulse.22 = { #secession events
 			exists = c:SVN
 			}
 			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
 				set_state_owner = c:SVN
+
 			}
 		}
 		else_if={
@@ -1518,10 +1567,14 @@ dragonblightpulse.22 = { #secession events
 				exists = c:IAL
 			}
 			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
 				set_state_owner = c:IAL
 			}
 		}	
 		else = {
+			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
+			}
 			create_country = {
 				tag = SVN
 				origin = this
@@ -1552,6 +1605,9 @@ dragonblightpulse.22 = { #secession events
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = IAL
 						origin = this
@@ -1583,6 +1639,9 @@ dragonblightpulse.22 = { #secession events
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = TKR
 						origin = this
@@ -1613,6 +1672,9 @@ dragonblightpulse.22 = { #secession events
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = TKR
 						origin = this
@@ -1643,6 +1705,9 @@ dragonblightpulse.22 = { #secession events
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = TKR
 						origin = this
@@ -1674,6 +1739,9 @@ dragonblightpulse.22 = { #secession events
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = TKR
 						origin = this
@@ -1692,6 +1760,7 @@ dragonblightpulse.22 = { #secession events
 					exists = c:TKR
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:TKR
 					}
 				}
@@ -1701,10 +1770,14 @@ dragonblightpulse.22 = { #secession events
 						exists = c:MVI
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:MVI
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = TKR
 						origin = this
@@ -1722,6 +1795,7 @@ dragonblightpulse.22 = { #secession events
 					exists = c:MVI
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:MVI
 					}
 				}
@@ -1731,10 +1805,14 @@ dragonblightpulse.22 = { #secession events
 						exists = c:TKR
 					}
 					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
 						set_state_owner = c:TKR
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = MVI
 						origin = this
@@ -1765,6 +1843,9 @@ dragonblightpulse.22 = { #secession events
 					}
 				}	
 				else = {
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+					}
 					create_country = {
 						tag = MVI
 						origin = this
