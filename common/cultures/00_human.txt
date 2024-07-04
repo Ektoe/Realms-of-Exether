@@ -130,7 +130,10 @@
 dumonian={
 	color={ 72 79 127 }
 	religion = church_of_man
-	traits = { human_heritage }
+	obsessions = {
+		tea
+	}
+	traits = { human_heritage noric_culture_group }
 	
 	male_common_first_names = {
 		Alexander Alasdair Archibald Andrew Angus Asher Auckland Arthur Aeneas Adam Alan
@@ -249,7 +252,7 @@ dumonian={
 gelidrumin={
 	color= hsv{ 0.22 0.22 0.45 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { human_heritage noric_culture_group }
 	male_common_first_names={
 		Albert
 		Alexander
@@ -560,7 +563,7 @@ ralaurian={
 dewaric={
 	color= rgb{ 135 206 235 } # Sky Blue
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { human_heritage noric_culture_group }
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad
@@ -803,7 +806,7 @@ uplander={
 avalorean={
 	color= rgb{ 117 127 174 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { human_heritage noric_culture_group }
 	
 	male_common_first_names={
 		Abraham Abel Arthur
@@ -1739,7 +1742,7 @@ waste_walker = {
 ocelian = {
 	color= rgb{ 164 193 223 }
 	religion = church_of_man
-	traits = {  human_heritage }
+	traits = {  human_heritage settler_coast_culture_group }
 
 	male_common_first_names={
 		August Adrian Antonin Avit AristO_tel Andrieu Arnaut AnfO_s Alexandre Agustin AlE_xi Armand
@@ -1803,7 +1806,7 @@ ocelian = {
 enelli = {
 	color= rgb{ 114 213 163 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { human_heritage settler_coast_culture_group}
 
 	male_common_first_names={
 		August Adrian Antonin Avit AristO_tel Andrieu Arnaut AnfO_s Alexandre Agustin AlE_xi Armand
@@ -2582,7 +2585,7 @@ jalian={
 meriwyn={
 	color= hsv{ 0.61 0.50 0.68 }
 	religion = church_of_man
-	traits = {  human_heritage }
+	traits = {  human_heritage noric_culture_group }
 	male_common_first_names={
 		Alexander
 		Arthur
@@ -3264,10 +3267,10 @@ beithaven={
 	graphics = european
 }
 
-ceraunian={
+cerunite={
 	color= hsv{ 0.72 0.25 0.28 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { human_heritage settler_coast_culture_group }
 	male_common_first_names={
 		Aadu
 		Alar
@@ -3747,7 +3750,7 @@ achonian={
 eberri={
 	color= hsv{ 0.70 0.26 0.58 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { human_heritage settler_coast_culture_group }
 	male_common_first_names={
 		Aleksandar
 		Andrey
@@ -4496,7 +4499,7 @@ yanger={
 	wealder={
 		color= hsv{ 0.13 0.80 0.99 }
 		religion = church_of_man
-		traits = { human_heritage } 
+		traits = { human_heritage settler_coast_culture_group } 
 		# could have German-speaking, but would make them not discriminated which would be very ahistorical
 		male_common_first_names={
 			Abraham

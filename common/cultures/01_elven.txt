@@ -630,11 +630,11 @@ erdei={
 	graphics = european
 }
 
-#Dark Elf
+#Drow
 aridrun = {
 	color= hsv{ 0.1 0.43 0.56 }
 	religion = elf_southern
-	traits = { southern_elf elf_heritage }
+	traits = { southern_elf elf_heritage nogi_culture_group }
 	obsessions = {
 		tea
 	}

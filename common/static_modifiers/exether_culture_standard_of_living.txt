@@ -103,9 +103,9 @@ beithaven_standard_of_living_modifier_positive = {
 	state_beithaven_standard_of_living_add = 1
 }
 
-ceraunian_standard_of_living_modifier_positive = {
+cerunite_standard_of_living_modifier_positive = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_ceraunian_standard_of_living_add = 1
+	state_cerunite_standard_of_living_add = 1
 }
 
 korafri_standard_of_living_modifier_positive = {
@@ -870,9 +870,9 @@ beithaven_standard_of_living_modifier_negative = {
 	state_beithaven_standard_of_living_add = 1
 }
 
-ceraunian_standard_of_living_modifier_negative = {
+cerunite_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	state_ceraunian_standard_of_living_add = 1
+	state_cerunite_standard_of_living_add = 1
 }
 
 korafri_standard_of_living_modifier_negative = {
