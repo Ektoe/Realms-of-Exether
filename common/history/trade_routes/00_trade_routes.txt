@@ -471,6 +471,20 @@
 			target = c:DUM.market
 		}
 	}
+		create_trade_route = {
+			goods = dye
+			level = 4
+			direction = import
+			target = c:DUM.market
+		}
+		create_trade_route = {
+			goods = artillery
+			level = 2
+			direction = import
+			target = c:DUM.market
+		}
+	}
+	}
 	#Central Zalaron
 	c:OPA ?= {
 		create_trade_route = {
