@@ -711,7 +711,7 @@ STATE_OUTER_MOORWEALD_3 = {
     provinces = { "x32DCE8" "x37F6D5" "x52CBDC" "x65F5D8" "x76F2C3" "x87AFDA" "x8DFDF8" "x93C1C0" "x94B7CC" "x9ADDDC" "x9F9ED4" "xAB93E9" "xACA8C1" "xB0DEF3" "xB1C9CF" "xB2E469" "xB6A3F0" "xC5EEEE" "xCF92B0" "xD2F2CA" "xD3C0B8" "xD5AB81" "xD8B79F" "xDBC4EE" "xDE8DEF" "xF18DD7" "xF2CC45" "xF530F9" "xF93CF0" "xFDF0C3" }
 
     arable_land = 25
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_sugar_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_cotton_plantations" "bg_tea_plantations" "bg_sugar_plantations" }
     capped_resources = {
         bg_hunting = 12
         bg_iron_mining = 15
@@ -817,7 +817,7 @@ STATE_WAYFARE_MEADOWS_2 = {
     farm = x6FBFD7
     mine = x7B99E1
     arable_land = 118
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    arable_resources = { "bg_wheat_farms" "bg_tobacco_plantations" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 13
         bg_logging = 4
