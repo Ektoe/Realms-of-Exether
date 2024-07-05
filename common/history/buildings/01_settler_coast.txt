@@ -225,7 +225,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:SAF"
+						country="c:EME"
 						levels=4
 						region="STATE_VALSANG"
 					}
@@ -370,7 +370,7 @@
                         type="building_tavern"
                         country="c:CER"
                         levels=3
-                        region="STATE_VALSANG"
+                        region="STATE_CAEL_VALEN"
                    }
                 }
 			reserves=1
@@ -615,16 +615,10 @@
 						region="STATE_THE_CHASM"
 				   }
 				}
-					building={ 
-						type="building_financial_district"
-						country="c:DUM"
-						levels=1
-						region="STATE_CROWNPEAK"
-				   }
-				}
+			}
 			reserves=1
 			activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
-		}
+		
 		create_building={
 			building="building_sulfur_mine"
 			level=3
@@ -658,7 +652,8 @@
 			activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
 		}
 	}
-  }
+  }	
+  
 
   s:STATE_ORCBANE_PASS = {
 	region_state:CER={
@@ -1628,6 +1623,8 @@
 						country="c:BDB"
 						levels=1
 						region="STATE_OUTER_MOORWEALD"
+					}
+				}
 			reserves=1
 			activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 		}
@@ -5898,4 +5895,3 @@
 	  }
   	}
   }
-}
