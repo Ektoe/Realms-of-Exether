@@ -463,7 +463,7 @@
 			target = c:AZI.market
 		}
 	}
-	c:ARR ?= {
+	c:CER ?= {
 		create_trade_route = {
 			goods = wine
 			level = 10

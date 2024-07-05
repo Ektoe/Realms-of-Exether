@@ -131,7 +131,7 @@ dumonian={
 	color={ 72 79 127 }
 	religion = church_of_man
 	obsessions = {
-		tea
+		wine
 	}
 	traits = { human_heritage noric_culture_group }
 	

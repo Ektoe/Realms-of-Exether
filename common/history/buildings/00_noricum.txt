@@ -226,12 +226,12 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=1
+						levels=14
 						region="STATE_SERONTAIN"
 				   }
 				}
           reserves=1
-          activate_production_methods={ "pm_simple_farming" "pm_tools_disabled"  }
+          activate_production_methods={ "pm_simple_farming" "pm_apple_orchards"  }
         }
         create_building={
           building="building_tooling_workshops"
@@ -609,7 +609,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=2
+						levels=7
 						region="STATE_SLUDGE_COAST"
 				   }
 				}
@@ -957,6 +957,17 @@
 				activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
 		}
+		create_building={
+          building="building_rice_farm"
+          level=12
+          reserves=1
+          activate_production_methods={
+            "pm_simple_farming_building_rice_farm"
+            "pm_no_secondary"
+            "pm_tools_disabled"
+            
+          }
+        }
 	}
 
     s:STATE_WEST_YANGER_STEPPE = {
@@ -2485,7 +2496,14 @@
         }
 			create_building={
           building="building_rye_farm"
-          level=2
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:DUM"
+						levels=7
+						region="STATE_MALINMORE"
+				   }
+				}
           reserves=1
           activate_production_methods={ "pm_simple_farming" "pm_tools_disabled"  }
         }

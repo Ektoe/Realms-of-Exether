@@ -200,14 +200,14 @@ STATE_ZENDEN = {
 }
 STATE_TAR_PITS = {
     id = 4011
-    subsistence_building = "building_subsistence_farms"
+    subsistence_building = "building_rice_paddies"
     provinces = { "x3AFCBF" "x5BE9C2" "x68EEBF" "x69D2D5" "x70D6E8" "x72D7BF" "x8BB2BB" "x96BCEF" "x99E1B3" "xA6F56C" "xA8DEA6" "xB382F6" "xB5CB7A" "xBAA7DB" "xC4FDE8" "xC762E9" "xD2F15D" "xD2F659" "xE14ED7" "xE6D462" "xE853F2" "xEA48D3" "xEAF2A7" "xEAF63A" }
     city = x3AFCBF
     wood = x5BE9C2
     farm = x68EEBF
     mine = xc4fde8
     arable_land = 105
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 120
         bg_iron_mining = 40
