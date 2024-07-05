@@ -259,9 +259,9 @@ bg_squidding = {
 	economy_of_scale_ai_factor = 2.0
 }
 
-bg_fishing_irontails = {
+bg_fishing_rusttails = {
 	parent_group = bg_fishing
-	default_building = building_fishing_wharf_irontails
+	default_building = building_fishing_wharf_rusttails
 }
 
 bg_fishing_blubberfish = {

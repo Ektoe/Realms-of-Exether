@@ -122,10 +122,11 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_wooden leviathan_ships: Repurposed Fishing Boats
   pm_manowar_leviathan_ships: Repurposed Military Craft
   pm_steam_leviathan_ships: Dedicated Leviathan Hunters
-  pmg_irontails: Irontail Fishing
+  pmg_rusttails: Rusttail Fishing
   pm_no_special_fish: Normal Operation
-  pm_early_ironfish_harvesting: Small Scale Irontail Fishing
-  pm_dedicated_ironfish_harvesting: Irontail Fisheries
+  pm_rusttail_fishing: Small Scale Rusttail Fishing
+  pm_intensified_rusttail_fishing: Large Scale Rusttail Fisheries
+  pm_magebred_rusttail_fish_farming: Magically Bred Rusttail Fish Farming
   pmg_blubberfish: Fat Fish
   pm_early_blubberfish_harvesting: Small Scale Blubberfishing
   pm_dedicated_blubberfish_harvesting: Blubberfisheries
