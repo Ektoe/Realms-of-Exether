@@ -463,6 +463,14 @@
 			target = c:AZI.market
 		}
 	}
+	c:ARR ?= {
+		create_trade_route = {
+			goods = wine
+			level = 10
+			direction = export
+			target = c:DUM.market
+		}
+	}
 	#Central Zalaron
 	c:OPA ?= {
 		create_trade_route = {

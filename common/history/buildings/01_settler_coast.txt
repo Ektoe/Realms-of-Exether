@@ -324,7 +324,11 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:CER"
+                        country="c:		create_trade_route = {
+			goods = silk
+			level = 6
+			direction = import
+			target = c:THI.market"
                         levels=2
                         region="STATE_SAINT_MER"
                    }
@@ -524,7 +528,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=2
+						levels=12
 						region="STATE_LAST_HEARTH"
 				   }
 				}
