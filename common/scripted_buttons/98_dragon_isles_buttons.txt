@@ -197,46 +197,48 @@
 		}
 	}
 
-# 	effect = {
-# 		set_variable = { 
-# 			name = persia_british_aid_button_cooldown_var years = 10 
-# 		}
-# 		set_variable = PER_appealed_to_GBR
-# 		save_scope_as = persian_nation_scope
-# 		c:GBR = {
-# 			save_scope_as = relevant_country
-# 			trigger_event = { id = persia_events.4 popup = yes }
-# 		}
-# 		custom_tooltip = if_they_accept_tt
-# 		show_as_tooltip = {
-# 			if = {
-# 				limit = {
-# 					NOT = {
-# 						has_modifier = modifier_south_persia_rifles
-# 					}
-# 				}
-# 				add_modifier = {
-# 					name = modifier_south_persia_rifles
-# 				}
-# 				add_modifier = {
-# 					name = modifier_british_persian_aid
-# 					months = normal_modifier_time
-# 				}
-# 			}
-# 			if = {
-# 				limit = {
-# 					has_modifier = modifier_south_persia_rifles
-# 				}
-# 				add_modifier = {
-# 					name = modifier_british_persian_aid
-# 					months = normal_modifier_time
-# 				}
-# 			}
-# 			scope:relevant_country.power_bloc = {
-# 				add_leverage = { target = scope:persian_nation_scope value = 25 }
-# 			}
-# 		}
-# 	}
+	effect = {
+		every_scope_state = {
+			limit = {
+				culture_percent_state = { target = cu:kotskarvi value >= 0.35   }
+				any_neighbouring_state = {
+					owner = {
+						OR = {
+							country_has_primary_culture = cu:kotskarvi
+							country_has_primary_culture = cu:lomarash
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					state_region = s:STATE_KLYPYRA
+				}
+				random_neighbouring_state = {
+					limit = {
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+					}
+					owner = {
+						save_scope_as = klypyra_settler_scope
+					}
+				}
+				s:STATE_KLYPYRA = {
+					set_owner_of_provinces = {
+						country = scope:klypyra_settler_scope
+						provinces = {xA2D9B2 xC4F349}
+					}
+				}
+				# scope:klypyra_settler_scope = {
+				# 	trigger_event = todo_event
+				# }
+			}
+		}
+	}
 
 # 	ai_chance = {
 # 		base = 15

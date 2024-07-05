@@ -1253,7 +1253,7 @@ dragonblightpulse.22 = { #secession events
 	
 	trigger = {
 		any_scope_state = {
-			culture_percent_state = { target = cu:kotskarvi value >= 0.5   }
+			culture_percent_state = { target = cu:kotskarvi value >= 0.51   }
 		}
 	}
 
