@@ -208,7 +208,7 @@ yelfi={
 vozi={
 	color= hsv{ 0.33 0.10 0.74 }
 	religion = dwarven_ancestors
-	traits = { dwarf_heritage cloud_dwarf }
+	traits = { dwarf_heritage cloud_dwarf nogi_culture_group}
 	male_common_first_names={
 		Kiras
 		Nerus
