@@ -1989,6 +1989,24 @@
 	}
   }
 
+  s:STATE_WAYFARE_MEADOWS_2 = {
+	region_state:SLB={
+			create_building={
+			building="building_wheat_farm"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:SLB"
+						levels=17
+						region="STATE_FIRST_BOROUGH"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
+		}
+	}
+  }
+
   s:STATE_THE_AMBER_RUN = {
 		region_state:EMP={			
             create_building={
@@ -2759,9 +2777,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:ARR"
+                        country="c:SLB"
                         levels=2
-                        region="STATE_DURANS_LAND"
+                        region="STATE_FIRST_BOROUGH"
                    }
                 }
 			reserves=1
@@ -2772,9 +2790,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:ARR"
+                        country="c:SLB"
                         levels=5
-                        region="STATE_VICEROYS_PEARL"
+                        region="STATE_FIRST_BOROUGH"
                    }
                 }
 			reserves=1
@@ -2798,9 +2816,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:ARR"
+                        country="c:SLB"
                         levels=3
-                        region="STATE_VICEROYS_PEARL"
+                        region="STATE_FIRST_BOROUGH"
                    }
                 }
 			reserves=1
