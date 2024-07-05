@@ -5,6 +5,7 @@
 	}
 	c:DUM = {
 		set_relations = { country = c:LAR value = 30 }
+                set_relations = { country = c:CER value = 50 }
 	}
 	c:TEF = {
 		set_relations = { country = c:CLL value = 30 }
