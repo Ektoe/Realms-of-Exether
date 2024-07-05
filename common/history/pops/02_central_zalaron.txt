@@ -2685,42 +2685,42 @@
 	region_state:FLU = {
 		create_pop = {
 			culture = beithaven
-			size = 2234567
+			size = 1693848
 	}
   }
      s:STATE_RIVER_SOLILOQUE = {
 	region_state:FLU = {
 		create_pop = {
 			culture = beithaven
-			size = 1567890
+			size = 789045
 	}
   }
      s:STATE_EISENMORA = {
 	region_state:FLU = {
 		create_pop = {
 			culture = beithaven
-			size = 1956789
+			size = 905678
 	}
   }
      s:STATE_KUNCHI = {
 	region_state:FLU = {
 		create_pop = {
 			culture = beithaven
-			size = 750987
+			size = 503456
 	}
   }
      s:STATE_JOURNEYEND = {
 	region_state:FLU = {
 		create_pop = {
 			culture = beithaven
-			size = 3234584
+			size = 2345609
 	}
   }
      s:STATE_INTOKI = {
 	region_state:FLU = {
 		create_pop = {
 			culture = beithaven
-			size = 1783409
+			size = 805678
 	}
   }
   }
