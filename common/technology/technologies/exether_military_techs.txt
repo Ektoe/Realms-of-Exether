@@ -74,7 +74,7 @@
 #	}
 #}
 
-airships = {
+airship = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/gunsmithing.dds"
 	category = military
