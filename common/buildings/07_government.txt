@@ -123,3 +123,27 @@ building_skyscraper = {
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
+
+building_observatory = {
+
+	building_group = bg_technology
+
+	city_type = city
+
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		astrology
+	}
+
+	production_method_groups = {
+		pmg_base_building_observatory
+		pmg_observatory_regulation
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_university.dds"
+
+	required_construction = construction_cost_medium
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
