@@ -1,4 +1,4 @@
-BUILDINGS = {
+﻿BUILDINGS = {
 
   s:STATE_SHARINDLARS_NEEDLE = {
 		  region_state:EME={  
@@ -4334,8 +4334,8 @@ BUILDINGS = {
 		create_building={
 			building="building_dwarf_tunnels"
 			level=1
-		  }
-    	}
+		}
+	}	
   }
   s:STATE_SHIFTING_SCAR = {
 
@@ -5895,6 +5895,7 @@ BUILDINGS = {
 			reserves=1
 			activate_production_methods={ "pm_no_organization" }
 		}
-	}
+	  }
+  	}
   }
 }
