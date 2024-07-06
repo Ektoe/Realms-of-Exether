@@ -459,7 +459,7 @@ gelidrumin={
 ralaurian={
 	color= hsv{ 0.32 0.27 0.32 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { human_heritage noric_culture_group }
 	male_common_first_names={
 		Anderson
 		Anselm
@@ -688,7 +688,7 @@ dewaric={
 uplander={
 	color=rgb{ 204 154 91 } # Butternut
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { human_heritage noric_culture_group}
 	male_common_first_names = {
 		Andrew Alexander Atticus Alpheus Alfred Allen Arthur Augustus Archibald Algernon Ambrose Asa Arthur Angus Abner Auburn Archer Adam Arnold Amos Alben Alwyn
 		Braxton Basil Birkett Bushrod Benedict
