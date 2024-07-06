@@ -94,7 +94,7 @@
   s:STATE_SAINT_MER = {
 	region_state:CER = {
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 329796
 		}
 		create_pop = {
@@ -120,7 +120,7 @@
   s:STATE_SAINT_MER_2 = {
 	region_state:CER = {
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 469796
 		}
 		create_pop = {
@@ -146,7 +146,7 @@
   s:STATE_CAEL_VALEN = {
 	region_state:CER = {
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 960804
 		}
 		create_pop = {
@@ -167,7 +167,7 @@
 s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 385785
 		}
 		create_pop = {
@@ -188,7 +188,7 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_LANDING_AT_SEA = {
 		region_state:CER = {
 			create_pop = {
-				culture = ceraunian
+				culture = cerunite
 				size = 1069083
 			}
 			create_pop = {
@@ -209,7 +209,7 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_LANDING_AT_SEA_2 = {
 	region_state:CER = {
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 599083
 		}
 		create_pop = {
@@ -275,7 +275,7 @@ s:STATE_CAEL_VALEN_2 = {
 			size = 37996
 		}
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 4000
 		}
 		create_pop = {
@@ -285,7 +285,7 @@ s:STATE_CAEL_VALEN_2 = {
 		}
 		create_pop = {
 			pop_type = slaves
-			culture = ceraunian
+			culture = cerunite
 			size = 1020
 		}
 	}
@@ -294,7 +294,7 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_THE_CHASM = {
 	region_state:CER = {
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 1453212
 		}
 		create_pop = {
@@ -320,7 +320,7 @@ s:STATE_CAEL_VALEN_2 = {
 			size = 1196400
 		}
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 383996
 		}
 		create_pop = {
@@ -333,7 +333,7 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_ORCBANE_PASS_2 = {
 	region_state:CER = {
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 540400
 		}
 		create_pop = {
@@ -355,7 +355,7 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_PENDYM_GWYN = {
 	region_state:CER = {
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 222400
 		}
 		create_pop = {
@@ -381,7 +381,7 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_PENDYM_GWYN_2 = {
 	region_state:CER = {
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size =306400
 		}
 		create_pop = {
@@ -428,7 +428,7 @@ s:STATE_CAEL_VALEN_2 = {
 			size = 1100989
 		}
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 100989
 		}
 		create_pop = {
@@ -457,7 +457,7 @@ s:STATE_CAEL_VALEN_2 = {
 			size = 4646
 		}
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 32020
 		}
 	}
@@ -469,7 +469,7 @@ s:STATE_CAEL_VALEN_2 = {
 			size = 18124
 		}
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 262139
 		}
 		create_pop = {
@@ -513,7 +513,7 @@ s:STATE_CAEL_VALEN_2 = {
 			size = 167500
 		}
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 88400
 		}
 		create_pop = {
@@ -531,7 +531,7 @@ s:STATE_CAEL_VALEN_2 = {
 			size = 798000
 		}
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 49000
 		}
 		create_pop = {
@@ -545,7 +545,7 @@ s:STATE_CAEL_VALEN_2 = {
 		}
 		create_pop = {
 			pop_type = slaves
-			culture = ceraunian
+			culture = cerunite
 			size = 13000
 		}
 	}
@@ -563,7 +563,7 @@ s:STATE_CAEL_VALEN_2 = {
 		}
 		create_pop = {
 			pop_type = slaves
-			culture = ceraunian
+			culture = cerunite
 			size = 30000
 		}
 	}
@@ -621,12 +621,12 @@ s:STATE_CAEL_VALEN_2 = {
 			size = 24832
 		}
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 69000
 		}
 		create_pop = {
 			pop_type = slaves
-			culture = ceraunian
+			culture = cerunite
 			size = 11004
 		}
 		create_pop = {
@@ -761,7 +761,7 @@ s:STATE_CAEL_VALEN_2 = {
 			size = 260733
 		}
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 3361
 		}
 	}
@@ -1794,7 +1794,7 @@ s:STATE_FAR_SHORE_2 = {
   s:STATE_FERNSEA = {
 	region_state:CER = {
 		create_pop = {
-			culture = ceraunian
+			culture = cerunite
 			size = 1598704
 		}
 		create_pop = {
