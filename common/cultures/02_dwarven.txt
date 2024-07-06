@@ -208,23 +208,30 @@ yelfi={
 vozi={
 	color= hsv{ 0.33 0.10 0.74 }
 	religion = dwarven_ancestors
-	traits = { dwarf_heritage cloud_dwarf }
+	traits = { dwarf_heritage cloud_dwarf nogi_culture_group}
 	male_common_first_names={
+		
 		Kiras
 		Nerus
-		Tifatul
+		Tifatul Terul 
 	}
 	female_common_first_names = {
-		Atiqah
+		Atiqah Asien
 		Fatin
-		Sari
-		Sharena
+		Sharena Sari Sedinqeh
+		Olen
+
 	}	
 	noble_last_names = {
-		Manisia
-		Marga_Sinambela
+		Buuljik
+		Crarnok
+		Manisia Marga_Sinambela
 		Odapodap
 		Panglima
+	
+		Jigjilkhazo
+		Kassetann
+
 	}
 	common_last_names={
 		Angkat
@@ -233,6 +240,7 @@ vozi={
 		Berasa
 		Berutu
 		Bintang
+		Buuzrzhaga
 		Capah
 		Cibro
 		Gajah
@@ -240,14 +248,10 @@ vozi={
 		Kaloko
 		Longga
 		Meka
-		Padang
-		Pasi
-		Saraan
-		Sinamo
-		Suka
-		Tendang
-		Tinendung
-		Turutan
+		Padang Pasi
+		Sinamo Suka Saraan
+		Tendang Tabruzang Turutan Tinendung
+		Zhagager
 	}
 	ethnicities = {
 		1 = dwarf
