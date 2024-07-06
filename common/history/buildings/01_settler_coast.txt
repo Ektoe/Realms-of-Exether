@@ -4721,7 +4721,7 @@
 			building="building_tobacco_plantation"
 				add_ownership={ 
 					building={ 
-						type="building_manor_house"
+						type="building_financial_district"
 						country="c:CLR"
 						levels=7
 						region="STATE_CLEARBOUGH_ESTATES"
@@ -4834,7 +4834,7 @@
 			building="building_tobacco_plantation"
 				add_ownership={ 
 					building={ 
-						type="building_manor_house"
+						type="building_financial_district"
 						country="c:CLR"
 						levels=15
 						region="STATE_CLEARBOUGH_ESTATES"
@@ -4910,7 +4910,7 @@
 			building="building_tobacco_plantation"
 				add_ownership={ 
 					building={ 
-						type="building_manor_house"
+						type="building_financial_district"
 						country="c:CLR"
 						levels=5
 						region="STATE_CLEARBOUGH_ESTATES"
@@ -6039,7 +6039,7 @@
 			building="building_tobacco_plantation"
 				add_ownership={ 
 					building={ 
-						type="building_manor_house"
+						type="building_financial_district"
 						country="c:CLR"
 						levels=4
 						region="STATE_CLEARBOUGH_ESTATES"
