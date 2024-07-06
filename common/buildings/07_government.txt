@@ -141,7 +141,7 @@ building_observatory = {
 		pmg_observatory_regulation
 	}
 
-	texture = "gfx/interface/icons/building_icons/building_university.dds"
+	texture = "gfx/interface/icons/building_icons/observatory.dds"
 
 	required_construction = construction_cost_medium
 

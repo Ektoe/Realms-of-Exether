@@ -50,6 +50,16 @@ texticon = {
 }
 
 texticon = {
+  icon = airships
+  iconsize = {
+    texture = "gfx/interface/icons/goods_icons/airships.dds"
+    size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+  }
+}
+
+texticon = {
   icon = blubber
   iconsize = {
     texture = "gfx/interface/icons/goods_icons/blubber.dds"

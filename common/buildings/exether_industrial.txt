@@ -73,7 +73,7 @@ building_potion_distillery = {
 
 building_airshipyards = {
 	building_group = bg_shipyards
-	texture = "gfx/interface/icons/building_icons/shipyards.dds"
+	texture = "gfx/interface/icons/building_icons/airship_assembly.dds"
 	city_type = port
 	
 	ai_nationalization_desire = 0.25 # AI is a bit reluctant to privatize government goods
