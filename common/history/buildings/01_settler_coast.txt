@@ -1,5 +1,5 @@
 ﻿BUILDINGS = {
-
+#Settlers Coast Ownership is fixed, forgot to put a note here.
   s:STATE_SHARINDLARS_NEEDLE = {
 		  region_state:EME={  
 			    create_building={
