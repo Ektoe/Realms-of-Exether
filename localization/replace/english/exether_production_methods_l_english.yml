@@ -22,6 +22,19 @@
   pm_government_run_building_cloud_collector: "$pm_government_run$"
   pm_worker_cooperative_building_cloud_collector: "$pm_worker_cooperative$"
 
+  pmg_base_building_observatory: "Techniques"
+  pm_astrological_charts: "Astrological Charts"
+  pm_enchanted_orreys: "Enchanted Orreys"
+  pm_astral_projection: "Astral Projection"
+  pmg_observatory_regulation: "Regulations"
+  pm_self_regulation: "Self-Regulation"
+  pm_clerical_oversight: "Clerical Regulations"
+  pm_government_oversight: "Governmental Regulations"
+  
+  pmg_base_building_airshipyards: "Airship Class"
+  pm_basic_airships: "Basic Airships"
+  pm_complex_airships: "Baltendos"
+
 	pm_no_catalyst: "No Catalyst"
 	pm_wishstone_catalyst_building_cloud_collector: "Wishstone Catalyst"
 	pm_cloud_compactor_cloud_collector: "Cloud Compactors"

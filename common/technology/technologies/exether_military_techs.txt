@@ -74,7 +74,7 @@
 #	}
 #}
 
-airshipyards = {
+airship = {
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/gunsmithing.dds"
 	category = military
@@ -92,7 +92,7 @@ airshipyards = {
 	}
 }
 
-zeppelins = {
+baltendos = {
 	# #todo#! Does nothing at the moment
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/zeppelins.dds"

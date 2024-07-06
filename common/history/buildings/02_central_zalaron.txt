@@ -2775,6 +2775,11 @@
 				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled"  }
 			}
 			create_building={
+				building="building_observatory
+				level=1
+				reserves=1
+			}
+			create_building={
 				building="building_vineyard_plantation"
 				add_ownership={ 
 					building={ 
@@ -5606,6 +5611,11 @@
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
 			create_building={
+				building="building_observatory
+				level=2
+				reserves=1
+			}
+			create_building={
 				building="building_tooling_workshops"
 				reserves=1
 				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" }
@@ -6173,6 +6183,11 @@
 			  reserves=1
 			}
 			create_building={
+			building="building_airshipyards
+			level=1
+			reserves=1
+		}
+			create_building={
 			  building="building_cloud_collectors"
 			  level=3
 			  reserves=1
@@ -6538,6 +6553,11 @@
 				level=9
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
+			}
+			create_building={
+				building="building_observatory
+				level=1
+				reserves=1
 			}
 		}
 	}

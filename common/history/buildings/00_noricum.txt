@@ -10,6 +10,11 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
+      create_building={
+			  building="building_observatory
+			  level=2
+			  reserves=1
+		  }
             create_building={
         building="building_artillery_foundries"
                 add_ownership={ 
@@ -2297,6 +2302,11 @@
           level=2
           reserves=1
         }
+        create_building={
+			    building="building_airshipyards
+			    level=1
+			    reserves=1
+		    }
         create_building={
           building="building_cloud_collectors"
           level=3

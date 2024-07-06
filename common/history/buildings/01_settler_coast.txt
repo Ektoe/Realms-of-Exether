@@ -620,7 +620,7 @@ BUILDINGS = {
   s:STATE_ORCBANE_PASS = {
 	region_state:CER={
             create_building={
-			building="building_furniture_manufacturies"
+				building="building_furniture_manufacturies"
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
@@ -629,9 +629,15 @@ BUILDINGS = {
                         region="STATE_SHARINDLARS_NEEDLE"
                    }
                 }
-			reserves=1
-			activate_production_methods={ "pm_luxury_furniture" "pm_lathe" "pm_automation_disabled" }
-		}
+				reserves=1
+				activate_production_methods={ "pm_luxury_furniture" "pm_lathe" "pm_automation_disabled" }
+			}
+			create_building={
+				building="building_observatory
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_enchanted_orreys" }
+			}
             create_building={
 			building="building_logging_camp"
                 add_ownership={ 
@@ -2184,7 +2190,13 @@ BUILDINGS = {
           level=10
           reserves=1
           activate_production_methods={ "pm_vertical_filing_cabinets" }
-        }	
+        }
+		create_building={
+			building="building_observatory
+			level=1
+			reserves=1
+			activate_production_methods={ "pm_enchanted_orreys" }
+		}	
         create_building={
           building="building_arts_academy"
 		  add_ownership={
@@ -3368,6 +3380,12 @@ BUILDINGS = {
 			level=1
 			reserves=1
 			activate_production_methods={ "pm_scholastic_education" }
+		}
+		create_building={
+			building="building_observatory
+			level=2
+			reserves=1
+			activate_production_methods={ "pm_enchanted_orreys" }
 		}
             create_building={
 			building="building_tooling_workshops"
@@ -5357,7 +5375,13 @@ BUILDINGS = {
 		create_building={
 			building="building_dwarf_tunnels"
 			level=1
-		  }
+		}
+		create_building={
+			building="building_observatory
+			level=1
+			reserves=1
+			activate_production_methods={ "pm_enchanted_orreys" }
+		}
 		create_building={
 			building="building_government_administration"
 			level=3
@@ -5491,6 +5515,11 @@ BUILDINGS = {
                 }
 			reserves=1
 			activate_production_methods={ "pm_muskets" }
+		}
+		create_building={
+			building="building_airshipyards
+			level=2
+			reserves=1
 		}
 		create_building={
 			building="building_construction_sector"
