@@ -4717,6 +4717,19 @@
 
   s:STATE_STOUTHEART_BASIN = {
 	region_state:CLR={
+			create_building={
+			building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:CLR"
+						levels=7
+						region="STATE_CLEARBOUGH_ESTATES"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+		}
 		create_building={
 			building="building_government_administration"
 			level=2
@@ -4774,6 +4787,19 @@
   s:STATE_CROPHEART_DALE = {
 	region_state:CLR={
 			create_building={
+			building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:CLR"
+						levels=6
+						region="STATE_CLEARBOUGH_ESTATES"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+		}
+			create_building={
 			building="building_wheat_farm"
 				add_ownership={ 
 					building={ 
@@ -4804,6 +4830,19 @@
 
   s:STATE_CLEARBOUGH_ESTATES = {
 	region_state:CLR={
+			create_building={
+			building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:CLR"
+						levels=15
+						region="STATE_CLEARBOUGH_ESTATES"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+		}
 		create_building={
 			building="building_government_administration"
 			level=3
@@ -4867,6 +4906,19 @@
 
   s:STATE_GOLDENMOOR = {
 	region_state:CLR={
+			create_building={
+			building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:CLR"
+						levels=5
+						region="STATE_CLEARBOUGH_ESTATES"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+		}
 		create_building={
 			building="building_government_administration"
 			level=1
@@ -5983,6 +6035,19 @@
 
   s:STATE_SILVERTARGE = {
 	region_state:CLR={
+			create_building={
+			building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:CLR"
+						levels=4
+						region="STATE_CLEARBOUGH_ESTATES"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+		}
 		create_building={
 			building="building_government_administration"
 			level=1
