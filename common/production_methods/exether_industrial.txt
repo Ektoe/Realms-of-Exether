@@ -499,7 +499,7 @@ pm_basic_airships = {
 pm_complex_airships = {
 	texture = "gfx/interface/icons/production_method_icons/reinforced_wooden_ships.dds"
 	unlocking_technologies = {
-		baltendos
+		zeppelins
 	}
 	
 	building_modifiers = {

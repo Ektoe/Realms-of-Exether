@@ -79,7 +79,7 @@ building_airshipyards = {
 	ai_nationalization_desire = 0.25 # AI is a bit reluctant to privatize government goods
 	
 	unlocking_technologies = {
-		airships
+		airship
 	}
 
 	production_method_groups = {
