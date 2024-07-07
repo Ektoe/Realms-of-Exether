@@ -1,5 +1,5 @@
 ﻿BUILDINGS = {
-
+#Settlers Coast Ownership is fixed, forgot to put a note here.
   s:STATE_SHARINDLARS_NEEDLE = {
 		  region_state:EME={  
 			    create_building={
@@ -797,7 +797,7 @@
 				activate_production_methods={ "pm_luxury_furniture" "pm_lathe" "pm_automation_disabled" }
 			}
 			create_building={
-				building="building_observatory
+				building="building_observatory"
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_enchanted_orreys" }
@@ -2439,7 +2439,7 @@
           activate_production_methods={ "pm_vertical_filing_cabinets" }
         }
 		create_building={
-			building="building_observatory
+			building="building_observatory"
 			level=1
 			reserves=1
 			activate_production_methods={ "pm_enchanted_orreys" }
@@ -3623,6 +3623,19 @@
 
   s:STATE_THE_MATCHES = {
 	region_state:ARR={
+           create_building={
+            building="building_potion_distillery"
+                add_ownership={
+                    building={
+                        type="building_wizard_tower"
+                        country="c:ARR"
+                        levels=2
+                        region="STATE_THE_MATCHES"
+                }
+            reserves=1
+            activate_production_methods={ "pm_base_cosmetic_potion_production" }
+           }
+        }
 		create_building={
 			building="building_government_administration"
 			level=1
@@ -3636,7 +3649,7 @@
 			activate_production_methods={ "pm_scholastic_education" }
 		}
 		create_building={
-			building="building_observatory
+			building="building_observatory"
 			level=2
 			reserves=1
 			activate_production_methods={ "pm_enchanted_orreys" }
@@ -4735,6 +4748,19 @@
 
   s:STATE_STOUTHEART_BASIN = {
 	region_state:CLR={
+			create_building={
+			building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:CLR"
+						levels=7
+						region="STATE_CLEARBOUGH_ESTATES"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+		}
 		create_building={
 			building="building_government_administration"
 			level=2
@@ -4792,6 +4818,19 @@
   s:STATE_CROPHEART_DALE = {
 	region_state:CLR={
 			create_building={
+			building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:CLR"
+						levels=6
+						region="STATE_CLEARBOUGH_ESTATES"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+		}
+			create_building={
 			building="building_wheat_farm"
 				add_ownership={ 
 					building={ 
@@ -4822,6 +4861,19 @@
 
   s:STATE_CLEARBOUGH_ESTATES = {
 	region_state:CLR={
+			create_building={
+			building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:CLR"
+						levels=15
+						region="STATE_CLEARBOUGH_ESTATES"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+		}
 		create_building={
 			building="building_government_administration"
 			level=3
@@ -4885,6 +4937,19 @@
 
   s:STATE_GOLDENMOOR = {
 	region_state:CLR={
+			create_building={
+			building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:CLR"
+						levels=5
+						region="STATE_CLEARBOUGH_ESTATES"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+		}
 		create_building={
 			building="building_government_administration"
 			level=1
@@ -5664,7 +5729,7 @@
 			level=1
 		}
 		create_building={
-			building="building_observatory
+			building="building_observatory"
 			level=1
 			reserves=1
 			activate_production_methods={ "pm_enchanted_orreys" }
@@ -5811,7 +5876,7 @@
 			activate_production_methods={ "pm_muskets" }
 		}
 		create_building={
-			building="building_airshipyards
+			building="building_airshipyards"
 			level=2
 			reserves=1
 		}
@@ -6012,6 +6077,19 @@
 
   s:STATE_SILVERTARGE = {
 	region_state:CLR={
+			create_building={
+			building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:CLR"
+						levels=4
+						region="STATE_CLEARBOUGH_ESTATES"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+		}
 		create_building={
 			building="building_government_administration"
 			level=1
