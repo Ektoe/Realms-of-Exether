@@ -4323,7 +4323,7 @@ varyngi={
 bossardi={
 	color= hsv{ 0.20 0.53 0.23 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { human_heritage settler_coast_culture_group }
 	male_common_first_names={
 		Adolf Alexander Anton Augustus Albert Andreas Ambros Alois
 		Benedicht
