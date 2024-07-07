@@ -3270,7 +3270,7 @@ beithaven={
 cerunite={
 	color= hsv{ 0.72 0.25 0.28 }
 	religion = church_of_man
-	traits = { human_heritage settler_coast_culture_group }
+	traits = { human_heritage settler_coast_culture_group noric_culture_group }
 	male_common_first_names={
 		Aadu
 		Alar
