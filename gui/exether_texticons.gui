@@ -139,6 +139,24 @@ texticon = {
 }
 
 texticon = {
+  icon = archmages
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/archmages.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = archmages
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/archmages_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
   icon = wizards
   iconsize = {
     offset = { 0 50 }
@@ -152,24 +170,6 @@ texticon = {
   iconsize = {
     offset = { 0 5 }
     texture = "gfx/interface/icons/pops_icons/wizards_15.dds"
-    fontsize = 30
-  }
-}
-
-texticon = {
-  icon = hedge_wizards
-  iconsize = {
-    offset = { 0 50 }
-    texture = "gfx/interface/icons/pops_icons/hedge_wizards.dds"
-    fontsize = 250
-  }
-}
-
-texticon = {
-  icon = hedge_wizards
-  iconsize = {
-    offset = { 0 5 }
-    texture = "gfx/interface/icons/pops_icons/hedge_wizards_15.dds"
     fontsize = 30
   }
 }

@@ -575,10 +575,10 @@ law_magocracy = {
 		value = 0
 		
 		add = {
-			desc = "POP_WIZARDS"
+			desc = "POP_ARCHMAGES"
 			if = {
 				limit = { 
-					is_pop_type = wizards
+					is_pop_type = archmages
 				}
 				value = 0.33
 			}
