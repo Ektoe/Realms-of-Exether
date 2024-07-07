@@ -40,7 +40,7 @@ gizmo_waterwrangler_irrigation_building_coffee_plantation = { #I will not name t
 			building_employment_laborers_add = 3200
 			building_employment_farmers_add = 1000
 			building_employment_machinists_add = 200
-			building_employment_hedge_wizards_add = 300
+			building_employment_wizards_add = 300
 			building_employment_clergymen_add = 100
 		}
 	}
@@ -142,7 +142,7 @@ gizmo_waterwrangler_irrigation_building_cotton_plantation = { #I will not name t
 			building_employment_laborers_add = 3200
 			building_employment_farmers_add = 1000
 			building_employment_machinists_add = 200
-			building_employment_hedge_wizards_add = 300
+			building_employment_wizards_add = 300
 			building_employment_clergymen_add = 100
 		}
 	}
@@ -219,7 +219,7 @@ gizmo_waterwrangler_irrigation_building_dye_plantation = { #I will not name thes
 			building_employment_laborers_add = 3200
 			building_employment_farmers_add = 1000
 			building_employment_machinists_add = 200
-			building_employment_hedge_wizards_add = 300
+			building_employment_wizards_add = 300
 			building_employment_clergymen_add = 100
 		}
 	}
@@ -296,7 +296,7 @@ gizmo_waterwrangler_irrigation_building_opium_plantation = { #I will not name th
 			building_employment_laborers_add = 3200
 			building_employment_farmers_add = 1000
 			building_employment_machinists_add = 200
-			building_employment_hedge_wizards_add = 300
+			building_employment_wizards_add = 300
 			building_employment_clergymen_add = 100
 		}
 	}
@@ -373,7 +373,7 @@ gizmo_waterwrangler_irrigation_building_tea_plantation = { #I will not name thes
 			building_employment_laborers_add = 3200
 			building_employment_farmers_add = 1000
 			building_employment_machinists_add = 200
-			building_employment_hedge_wizards_add = 300
+			building_employment_wizards_add = 300
 			building_employment_clergymen_add = 100
 		}
 	}
@@ -450,7 +450,7 @@ gizmo_waterwrangler_irrigation_building_tobacco_plantation = { #I will not name 
 			building_employment_laborers_add = 3200
 			building_employment_farmers_add = 1000
 			building_employment_machinists_add = 200
-			building_employment_hedge_wizards_add = 300
+			building_employment_wizards_add = 300
 			building_employment_clergymen_add = 100
 		}
 	}
@@ -527,7 +527,7 @@ gizmo_waterwrangler_irrigation_building_sugar_plantation = { #I will not name th
 			building_employment_laborers_add = 3200
 			building_employment_farmers_add = 1000
 			building_employment_machinists_add = 200
-			building_employment_hedge_wizards_add = 300
+			building_employment_wizards_add = 300
 			building_employment_clergymen_add = 100
 		}
 	}
@@ -602,7 +602,7 @@ gizmo_waterwrangler_irrigation_building_banana_plantation = { #I will not name t
 			building_employment_laborers_add = 3200
 			building_employment_farmers_add = 1000
 			building_employment_machinists_add = 200
-			building_employment_hedge_wizards_add = 300
+			building_employment_wizards_add = 300
 			building_employment_clergymen_add = 100
 		}
 	}
@@ -679,7 +679,7 @@ gizmo_waterwrangler_irrigation_building_silk_plantation = { #I will not name the
 			building_employment_laborers_add = 3200
 			building_employment_farmers_add = 1000
 			building_employment_machinists_add = 200
-			building_employment_hedge_wizards_add = 300
+			building_employment_wizards_add = 300
 			building_employment_clergymen_add = 100
 		}
 	}
@@ -756,7 +756,7 @@ gizmo_waterwrangler_irrigation_building_vineyard_plantation = {
 			building_employment_laborers_add = 3200
 			building_employment_farmers_add = 1000
 			building_employment_machinists_add = 200
-			building_employment_hedge_wizards_add = 300
+			building_employment_wizards_add = 300
 			building_employment_clergymen_add = 100
 		}
 	}

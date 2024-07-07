@@ -286,9 +286,31 @@ bg_dye_plantations = {
 
 #Changed for exether
 bg_opium_plantations = {
-	parent_group = bg_chimesilt_mounds
+	parent_group = bg_magic_resource
 	
 	default_building = building_opium_plantation
+
+	category = rural
+
+	capped_by_resources = yes
+	
+	economy_of_scale = yes
+	
+	can_use_slaves = yes
+	
+	lens = forestry	
+	
+	cash_reserves_max = 25000
+	
+	urbanization = 5
+	infrastructure_usage_per_level = 1
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 0.75
 }
 
 bg_tea_plantations = {

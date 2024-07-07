@@ -90,14 +90,21 @@
 
 		if = {
 			limit = {
-				OR = {
-					owner = {
+				owner = {
+					OR = {
 						religion = rel:orc_mother
 						any_primary_culture = {
 							has_discrimination_trait = southern_elf
 						}
 						any_primary_culture = {
 							this = cu:hag
+						}
+						any_primary_culture = {
+							OR = {
+								this = cu:gnoll
+								this = cu:jungle_gnoll
+							}
+							
 						}
 					}
 				}
@@ -185,7 +192,7 @@
 			desc = "MIRACLES_LAW"
 			if = {
 				limit = {
-					is_pop_type = hedge_wizards
+					is_pop_type = wizards
 					owner = {
 						has_law = law_type:law_divine_miracles
 					}
