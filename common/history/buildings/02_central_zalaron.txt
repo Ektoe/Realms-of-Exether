@@ -71,7 +71,7 @@
 						type="building_manor_house"
 						country="c:OPA"
 						levels=1
-						region="STATE_SC5"
+						region="STATE_SC7"
 				   }
 				}
 				reserves=1
@@ -84,7 +84,7 @@
 						type="building_manor_house"
 						country="c:OPA"
 						levels=1
-						region="STATE_SC6"
+						region="STATE_SC7"
 				   }
 				}
 				reserves=1
@@ -97,7 +97,7 @@
 						type="building_manor_house"
 						country="c:OPA"
 						levels=1
-						region="STATE_SC5"
+						region="STATE_SC7"
 				   }
 				}
 				reserves=1
@@ -115,7 +115,7 @@
 						type="building_manor_house"
 						country="c:OPA"
 						levels=2
-						region="STATE_SC6"
+						region="STATE_SC8"
 				   }
 				}
 				reserves=1
@@ -153,6 +153,14 @@
 			}
 			create_building={
 				building="building_textile_mills"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:OPA"
+						levels=1
+						region="STATE_SC9"
+				   }
+				}
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms"  }
 			}
@@ -163,7 +171,7 @@
                         type="building_financial_district"
                         country="c:OPA"
                         levels=2
-                        region="STATE_SC5"
+                        region="STATE_SC9"
                    }
                 }
 				reserves=1
@@ -176,7 +184,7 @@
 						type="building_manor_house"
 						country="c:OPA"
 						levels=7
-						region="STATE_SC5"
+						region="STATE_S9"
 				   }
 				}
 				reserves=1
@@ -202,7 +210,7 @@
 						type="building_manor_house"
 						country="c:OPA"
 						levels=4
-						region="STATE_SC5"
+						region="STATE_SC9"
 				   }
 				}
 				reserves=1
@@ -215,7 +223,7 @@
 						type="building_manor_house"
 						country="c:OPA"
 						levels=8
-						region="STATE_SC5"
+						region="STATE_SC9"
 				   }
 				}
 				reserves=1
@@ -312,9 +320,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OPA"
+                        country="c:KAM"
                         levels=1
-                        region="STATE_SC10"
+                        region="STATE_KORO"
                    }
                 }
 			  reserves=1
@@ -341,9 +349,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:OPA"
+						country="c:KAM"
 						levels=6
-						region="STATE_SC5"
+						region="STATE_KORO"
 				   }
 				}
 			  reserves=1
@@ -354,9 +362,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OPA"
+                        country="c:KAM"
                         levels=1
-                        region="STATE_SC5"
+                        region="STATE_KORO"
                    }
                 }
 			  reserves=1
@@ -367,9 +375,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:OPA"
+						country="c:KAM"
 						levels=2
-						region="STATE_SC10"
+						region="STATE_KORO"
 				   }
 				}
 			  reserves=1
@@ -413,9 +421,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OPA"
+                        country="c:SAZ"
                         levels=2
-                        region="STATE_SC5"
+                        region="STATE_SC12"
                    }
                 }
 				reserves=1
@@ -426,9 +434,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OPA"
+                        country="c:SAZ"
                         levels=1
-                        region="STATE_SC6"
+                        region="STATE_SC12"
                    }
                 }
 				reserves=1
@@ -439,9 +447,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAM"
+						country="c:SAZ"
 						levels=1
-						region="STATE_KORO"
+						region="STATE_SC12"
 				   }
 				}
 				reserves=1
@@ -452,9 +460,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:OPA"
+						country="c:SAZ"
 						levels=2
-						region="STATE_SC8"
+						region="STATE_SC12"
 				   }
 				}
 				reserves=1
@@ -465,9 +473,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:OPA"
+						country="c:SAZ"
 						levels=2
-						region="STATE_SC5"
+						region="STATE_SC12"
 				   }
 				}
 				reserves=1
@@ -488,9 +496,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAM"
+						country="c:OCR"
 						levels=1
-						region="STATE_KORO"
+						region="STATE_PLAGUES_END"
 				   }
 				}
 				reserves=1
@@ -532,9 +540,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:OPA"
+						country="c:OCR"
 						levels=1
-						region="STATE_SC6"
+						region="STATE_KESHARQAN"
 				   }
 				}
 				reserves=1
@@ -545,9 +553,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:OPA"
+						country="c:OCR"
 						levels=1
-						region="STATE_SC9"
+						region="STATE_KESHARQAN"
 				   }
 				}
 				reserves=1
@@ -591,9 +599,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OPA"
+                        country="c:RDM"
                         levels=1
-                        region="STATE_SC5"
+                        region="STATE_EASTERN_EQUINE_PLAIN"
                    }
                 }
 				reserves=1
@@ -604,9 +612,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OCR"
+                        country="c:RDM"
                         levels=1
-                        region="STATE_PLAGUES_END"
+                        region="STATE_EASTERN_EQUINE_PLAIN"
                    }
                 }
 				reserves=1
@@ -630,9 +638,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:OPA"
+						country="c:RDM"
 						levels=2
-						region="STATE_SC5"
+						region="STATE_EASTERN_EQUINE_PLAIN"
 				   }
 				}
 				reserves=1
@@ -656,9 +664,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OCR"
+                        country="c:RDM"
                         levels=3
-                        region="STATE_PLAGUES_END"
+                        region="STATE_EASTERN_EQUINE_PLAIN"
                    }
                 }
 				reserves=1
@@ -669,9 +677,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:OCR"
+						country="c:RDM"
 						levels=2
-						region="STATE_PLAGUES_END"
+						region="STATE_EASTERN_EQUINE_PLAIN"
 				   }
 				}
 				reserves=1
@@ -682,9 +690,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:SAZ"
+						country="c:RDM"
 						levels=4
-						region="STATE_SC12"
+						region="STATE_EASTERN_EQUINE_PLAIN"
 				   }
 				}
 				reserves=1
@@ -710,9 +718,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:OPA"
+                        country="c:DSB"
                         levels=2
-                        region="STATE_SC5"
+                        region="STATE_WESTERN_EQUINE_PLAIN"
                    }
                 }
 				reserves=1
@@ -760,9 +768,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OPA"
+                        country="c:DSB"
                         levels=2
-                        region="STATE_SC5"
+                        region="STATE_DUSHAMBAY"
                    }
                 }
 				reserves=1
@@ -775,7 +783,7 @@
 						type="building_manor_house"
 						country="c:DSB"
 						levels=1
-						region="STATE_WESTERN_EQUINE_PLAIN"
+						region="STATE_DUSHAMBAY"
 				   }
 				}
 				reserves=1
@@ -788,7 +796,7 @@
 						type="building_manor_house"
 						country="c:DSB"
 						levels=1
-						region="STATE_WESTERN_EQUINE_PLAIN"
+						region="STATE_DUSHAMBAY"
 				   }
 				}
 				reserves=1
@@ -840,9 +848,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OPA"
+                        country="c:THI"
                         levels=1
-                        region="STATE_SC5"
+                        region="STATE_LILAC_SHORE"
                    }
                 }
 				reserves=1
@@ -910,9 +918,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:DSB"
+						country="c:THI"
 						levels=2
-						region="STATE_WESTERN_EQUINE_PLAIN"
+						region="STATE_CAVES_OF_RIMELAC"
 				   }
 				}
 				reserves=1
@@ -953,9 +961,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OPA"
+                        country="c:THI"
                         levels=1
-                        region="STATE_SC5"
+                        region="STATE_AUBERN_FLOW"
                    }
                 }
 				reserves=1
@@ -966,9 +974,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:OPA"
+                        country="c:THI"
                         levels=1
-                        region="STATE_SC5"
+                        region="STATE_AUBERN_FLOW"
                    }
                 }
 				reserves=1
@@ -979,9 +987,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DSB"
+                        country="c:THI"
                         levels=1
-                        region="STATE_WESTERN_EQUINE_PLAIN"
+                        region="STATE_AUBERN_FLOW"
                    }
                 }
 				reserves=1
@@ -992,9 +1000,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SAZ"
+                        country="c:THI"
                         levels=3
-                        region="STATE_SC12"
+                        region="STATE_AUBERN_FLOW"
                    }
                 }
 				reserves=1
@@ -1005,9 +1013,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SAZ"
+                        country="c:THI"
                         levels=2
-                        region="STATE_SC12"
+                        region="STATE_AUBERN_FLOW"
                    }
                 }
 				reserves=1
@@ -1018,9 +1026,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DSB"
+                        country="c:THI"
                         levels=3
-                        region="STATE_WESTERN_EQUINE_PLAIN"
+                        region="STATE_AUBERN_FLOW"
                    }
                 }
 				reserves=1
@@ -1031,9 +1039,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:DSB"
+						country="c:THI"
 						levels=2
-						region="STATE_WESTERN_EQUINE_PLAIN"
+						region="STATE_AUBERN_FLOW"
 				   }
 				}
 				reserves=1
@@ -1046,7 +1054,7 @@
 						type="building_manor_house"
 						country="c:THI"
 						levels=3
-						region="STATE_CAVES_OF_RIMELAC"
+						region="STATE_AUBERN_FLOW"
 				   }
 				}
 				reserves=1
@@ -1059,7 +1067,7 @@
 						type="building_manor_house"
 						country="c:THI"
 						levels=4
-						region="STATE_CAVES_OF_RIMELAC"
+						region="STATE_AUBERN_FLOW"
 				   }
 				}
 				reserves=1
@@ -1072,7 +1080,7 @@
 						type="building_manor_house"
 						country="c:THI"
 						levels=5
-						region="STATE_CAVES_OF_RIMELAC"
+						region="STATE_AUBERN_FLOW"
 				   }
 				}
 				reserves=1
@@ -1104,7 +1112,7 @@
                         type="building_financial_district"
                         country="c:THI"
                         levels=1
-                        region="STATE_LILAC_SHORE"
+                        region="STATE_AUBERN_FLOW"
                    }
                 }
 				reserves=1
@@ -1123,7 +1131,14 @@
 			}
 			create_building={
 				building="building_sulfur_mine"
-				level=7
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:THI"
+                        levels=7
+                        region="STATE_IRONWOOD_PENINSULA"
+                   }
+                }
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_sulfur_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
@@ -1145,9 +1160,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:DSB"
+                        country="c:THI"
                         levels=1
-                        region="STATE_DUSHAMBAY"
+                        region="STATE_IRONWOOD_PENINSULA"
                    }
                 }
 				reserves=1
@@ -1169,9 +1184,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAM"
+						country="c:THI"
 						levels=2
-						region="STATE_KORO"
+						region="STATE_OLD_AUBERN"
 				   }
 				}
 				reserves=1
