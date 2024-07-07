@@ -440,7 +440,7 @@ bg_magic_manufacturing = {
 }
 
 bg_magic_light_industry = {
-	parent_group = magic_manufacturing
+	parent_group = bg_magic_manufacturing
 
 	lens = light_industry
 	
@@ -449,7 +449,7 @@ bg_magic_light_industry = {
 }
 
 bg_magic_heavy_industry = {
-	parent_group = magic_manufacturing
+	parent_group = bg_magic_manufacturing
 
 	lens = heavy_industry
 	
