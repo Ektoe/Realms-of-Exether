@@ -22,6 +22,19 @@
   pm_government_run_building_cloud_collector: "$pm_government_run$"
   pm_worker_cooperative_building_cloud_collector: "$pm_worker_cooperative$"
 
+  pmg_base_building_observatory: "Techniques"
+  pm_astrological_charts: "Astrological Charts"
+  pm_enchanted_orreys: "Enchanted Orreys"
+  pm_astral_projection: "Astral Projection"
+  pmg_observatory_regulation: "Regulations"
+  pm_self_regulation: "Self-Regulation"
+  pm_clerical_oversight: "Clerical Regulations"
+  pm_government_oversight: "Governmental Regulations"
+  
+  pmg_base_building_airshipyards: "Airship Class"
+  pm_basic_airships: "Basic Airships"
+  pm_complex_airships: "Baltendos"
+
 	pm_no_catalyst: "No Catalyst"
 	pm_wishstone_catalyst_building_cloud_collector: "Wishstone Catalyst"
 	pm_cloud_compactor_cloud_collector: "Cloud Compactors"
@@ -76,3 +89,63 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   #Monuments
   pmg_base_building_dwarf_tunnels: "$pm_base$"
   pm_default_building_dwarf_tunnels: "Reclamation Efforts"
+  
+  #Raw Resources
+  pmg_train_automation_building_wishstone_mine: Rail Transportation
+  pmg_mining_equipment_building_wishstone_mine: Mining Equipment
+  pm_picks_and_shovels_building_wishstone_mine: Picks and Shovels
+  pm_atmospheric_engine_pump_building_wishstone_mine: Atmospheric Engine Pump
+  pm_condensing_engine_pump_building_wishstone_mine: Condensing Engine Pump
+  pm_godsblood_pump_building_wishstone_mine: Godsblood Pump
+  pm_diesel_pump_building_wishstone_mine: Godsblood Pump
+  pmg_explosives_building_wishstone_mine: Explosives
+  pm_nitroglycerin_building_wishstone_mine: Nitroglycerin
+  pm_wishstone_building_wishstone_mine: Something Magical
+  pm_dynamite_building_wishstone_mine: Dynamite
+  pmg_mines_potions: Potions
+  pm_mines_no_potions: No Potions
+  pm_mines_sleep_in_a_bottle: Sleep in a Bottle
+  pm_mines_potions_of_fortitude: Potion of Fortitude
+  pm_mines_potions_of_strength: Potion of Strength
+  pmg_steam_automation_building_wishstone_mine: Steam Automation
+  pm_rockrollers_building_wishstone_mine: Rockrollers
+  pm_steam_donkey_building_wishstone_mine: Steam Donkey
+  pmg_blubber: Blubber Production
+  pm_basic_blubber_production: Basic Blubber Production
+  pm_advanced_blubber_production: Advanced Blubby Production
+  pm_perfect_blubber_production: Blubber Mastery
+  pmg_blubber_military_production: Military Blubber
+  pm_blubber_standard_production: Standard Production
+  pm_blubber_military_production: Military Production
+  pmg_base_building_squid_squad: Squid Proficiency
+  pm_simple_squidding: Squid Amateurs
+  pm_squid_trawlers: Competent Squidders
+  pm_steam_squid_trawlers: Squidding Profesionals
+  pmg_monster_hunters_squids: Monster Hunting
+  pm_no_monster_hunters: No Hunting
+  pm_maritime_adventuring parties: Maritime Adventurers
+  pm_squid_squads: Organised Monster Hunters
+  pmg_base_building_seasnake_wharf: Seasnake Warf
+  pm_shore_snaking: Shore Snaking
+  pm_seasnake_trawlers: Snaking Trawlers
+  pm_steam_seasnake_trawlers: Steam Snaking Trawlers
+  pmg_refrigeration_building_seasnake_wharf:Refrigeration
+  pmg_base_building_leviathan_outpost: Hunting Methods
+  pm_shore_leviathan_hunting: Shore Hunting
+  pm_wooden leviathan_ships: Repurposed Fishing Boats
+  pm_manowar_leviathan_ships: Repurposed Military Craft
+  pm_steam_leviathan_ships: Dedicated Leviathan Hunters
+  pmg_rusttails: Rusttail Fishing
+  pm_no_special_fish: Normal Operation
+  pm_rusttail_fishing: Small Scale Rusttail Fishing
+  pm_intensified_rusttail_fishing: Large Scale Rusttail Fisheries
+  pm_magebred_rusttail_fish_farming: Magically Bred Rusttail Fish Farming
+  pmg_blubberfish: Fat Fish
+  pm_early_blubberfish_harvesting: Small Scale Blubberfishing
+  pm_dedicated_blubberfish_harvesting: Blubberfisheries
+  pmg_goldfish: Goldfish
+  pm_early_goldfish_harvesting: Carnival Prizes
+  pmg_glowfish: Glowfish
+  pm_early glowfish harvesting: Glowfishing
+  pm_dedicated_glowfish_harvesting: Glowfisheries
+  

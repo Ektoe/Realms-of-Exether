@@ -49,3 +49,9 @@ saltwaste_survivor_culture_group = {
 
 vairia_culture_group = {
 }
+
+nogi_culture_group = {
+}
+
+noric_culture_group = {
+}

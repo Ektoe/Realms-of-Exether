@@ -40,3 +40,6 @@ gnoll={
 
 nomadic={
 }
+
+cloud_dwarf={
+}

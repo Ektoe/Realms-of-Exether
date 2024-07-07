@@ -96,7 +96,7 @@ UPP = {
 	capital = STATE_ALYEA #Which state holds this nation's default capital
 }
 
-#Cult of Aumaunator
+#Cult of The Sun
 AUM = {
 	color = rgb{ 200  100  0 } 
 

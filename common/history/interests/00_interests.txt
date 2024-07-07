@@ -39,4 +39,7 @@
 	c:RIS ?= {
 		add_declared_interest = region_east_everfrost
 	}
+	c:DUM ?= {
+		add_declared_interest = region_ceraun
+	}
 }

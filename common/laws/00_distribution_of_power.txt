@@ -49,7 +49,7 @@ law_autocracy = {
 		country_legitimacy_ideological_incoherence_mult = 0.5
 		country_aristocrats_pol_str_mult = 0.5
 		country_officers_pol_str_mult = 0.5
-		country_wizards_pol_str_mult = 0.5
+		country_archmages_pol_str_mult = 0.5
 		country_authority_add = 200
 	}
 	
@@ -167,7 +167,7 @@ law_technocracy = {
 		country_academics_pol_str_mult = 0.33
 		country_engineers_pol_str_mult = 0.33
 		country_officers_pol_str_mult = 0.33
-		country_wizards_pol_str_mult = 0.33
+		country_archmages_pol_str_mult = 0.33
 		country_authority_add = 100
 	}
 
@@ -289,7 +289,7 @@ law_oligarchy = {
 		country_legitimacy_ideological_incoherence_mult = -0.1
 		country_aristocrats_pol_str_mult = 0.5
 		country_capitalists_pol_str_mult = 0.25
-		country_wizards_pol_str_mult = 0.25
+		country_archmages_pol_str_mult = 0.25
 		country_authority_add = 100
 	}
 	
@@ -429,7 +429,7 @@ law_elder_council = {
 		country_aristocrats_pol_str_mult = 0.5
 		country_officers_pol_str_mult = 0.5
 		country_clergymen_pol_str_mult = 0.5
-		country_wizards_pol_str_mult = 0.5
+		country_archmages_pol_str_mult = 0.5
 		country_authority_add = 200
 	}
 	
@@ -478,7 +478,7 @@ law_landed_voting = {
 		country_officers_voting_power_add = 25
 		country_clergymen_voting_power_add = 25
 		country_capitalists_voting_power_add = 25
-		country_wizards_voting_power_add = 25
+		country_archmages_voting_power_add = 25
 		country_authority_add = 100
 	}
 	

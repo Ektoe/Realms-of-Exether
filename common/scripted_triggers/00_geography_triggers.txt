@@ -312,6 +312,12 @@ is_arabic_farmland = {
 	}
 }
 
+is_jungle_hills = {
+	OR = {
+		always = no
+	}
+}
+
 is_asian_farmland = {
 	OR = {
 		region = sr:region_sanbang

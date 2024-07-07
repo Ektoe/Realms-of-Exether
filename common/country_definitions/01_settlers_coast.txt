@@ -90,7 +90,7 @@ CER = {
 
 	tier = kingdom
 
-	cultures = { ceraunian } 
+	cultures = { cerunite } 
 	capital = STATE_LANDING_AT_SEA
 }
 
