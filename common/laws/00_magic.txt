@@ -14,13 +14,13 @@
 			limit = {
 				has_law = law_type:law_artificer_guilds
 			}
-			custom_tooltip = wizards_industrialist_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_industrialist_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
 				has_law = law_type:law_divine_miracles
 			}
-			custom_tooltip = wizards_devout_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_devout_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
@@ -32,7 +32,7 @@
 			limit = {
 				has_law = law_type:law_druidic_circles
 			}
-			custom_tooltip = wizards_rural_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_rural_ig_shift_effect_negative_tt
 		}
 	}
 	
@@ -92,7 +92,7 @@ law_divine_miracles = {
 			limit = {
 					has_law = law_type:law_artificer_guilds
 			}
-			custom_tooltip = wizards_industrialist_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_industrialist_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
@@ -101,7 +101,7 @@ law_divine_miracles = {
 				}
 				
 			}
-			custom_tooltip = wizards_devout_ig_shift_effect_tt
+			custom_tooltip = archmages_devout_ig_shift_effect_tt
 		}
 		if = {
 			limit = {
@@ -113,7 +113,7 @@ law_divine_miracles = {
 			limit = {
 				has_law = law_type:law_druidic_circles
 			}
-			custom_tooltip = wizards_rural_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_rural_ig_shift_effect_negative_tt
 		}
 	}
 	
@@ -195,13 +195,13 @@ law_druidic_circles = {
 			limit = {
 				has_law = law_type:law_artificer_guilds
 			}
-			custom_tooltip = wizards_industrialist_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_industrialist_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
 				has_law = law_type:law_divine_miracles
 			}
-			custom_tooltip = wizards_devout_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_devout_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
@@ -215,7 +215,7 @@ law_druidic_circles = {
 					has_law = law_type:law_druidic_circles
 				}
 			}
-			custom_tooltip = wizards_rural_ig_shift_effect_tt
+			custom_tooltip = archmages_rural_ig_shift_effect_tt
 		}
 	}
 	
@@ -285,13 +285,13 @@ law_artificer_guilds = {
 					has_law = law_type:law_artificer_guilds
 				}
 			}
-			custom_tooltip = wizards_industrialist_ig_shift_effect_tt
+			custom_tooltip = archmages_industrialist_ig_shift_effect_tt
 		}
 		if = {
 			limit = {
 				has_law = law_type:law_divine_miracles
 			}
-			custom_tooltip = wizards_devout_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_devout_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
@@ -303,7 +303,7 @@ law_artificer_guilds = {
 			limit = {
 				has_law = law_type:law_druidic_circles
 			}
-			custom_tooltip = wizards_rural_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_rural_ig_shift_effect_negative_tt
 		}
 	}
 
@@ -385,13 +385,13 @@ law_astrological_studies = {
 			limit = {
 					has_law = law_type:law_artificer_guilds
 			}
-			custom_tooltip = wizards_industrialist_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_industrialist_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
 					has_law = law_type:law_divine_miracles
 			}
-			custom_tooltip = wizards_devout_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_devout_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
@@ -405,7 +405,7 @@ law_astrological_studies = {
 			limit = {
 				has_law = law_type:law_druidic_circles
 			}
-			custom_tooltip = wizards_rural_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_rural_ig_shift_effect_negative_tt
 		}
 	}
 	
@@ -487,13 +487,13 @@ law_dark_arts = {
 			limit = {
 				has_law = law_type:law_artificer_guilds
 			}
-			custom_tooltip = wizards_industrialist_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_industrialist_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
 				has_law = law_type:law_divine_miracles
 			}
-			custom_tooltip = wizards_devout_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_devout_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
@@ -505,7 +505,7 @@ law_dark_arts = {
 			limit = {
 				has_law = law_type:law_druidic_circles
 			}
-			custom_tooltip = wizards_rural_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_rural_ig_shift_effect_negative_tt
 		}
 	}
 	
@@ -580,7 +580,7 @@ law_mage_hunters = {
 	institution = institution_magical_focus
 	institution_modifier = {
 		country_authority_add = 50	
-		country_wizards_pol_str_mult = -0.1
+		country_archmages_pol_str_mult = -0.1
 		country_magic_reserves_total_add = -100
 	}
 	
@@ -594,13 +594,13 @@ law_mage_hunters = {
 			limit = {
 				has_law = law_type:law_artificer_guilds
 			}
-			custom_tooltip = wizards_industrialist_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_industrialist_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
 				has_law = law_type:law_divine_miracles
 			}
-			custom_tooltip = wizards_devout_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_devout_ig_shift_effect_negative_tt
 		}
 		if = {
 			limit = {
@@ -612,7 +612,7 @@ law_mage_hunters = {
 			limit = {
 				has_law = law_type:law_druidic_circles
 			}
-			custom_tooltip = wizards_rural_ig_shift_effect_negative_tt
+			custom_tooltip = archmages_rural_ig_shift_effect_negative_tt
 		}
 	}
 	

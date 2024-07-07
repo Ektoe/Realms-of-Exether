@@ -772,6 +772,7 @@ ideology_patriarchal = {
 		law_women_own_property = disapprove
 		law_women_in_the_workplace = disapprove
 		law_womens_suffrage = strongly_disapprove
+		law_matriarchy = strongly_disapprove
 	}
 
 	lawgroup_free_speech = {

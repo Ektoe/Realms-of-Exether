@@ -60,7 +60,7 @@
 		}
 		OR = {
 			AND = {
-				NOT = { is_pop_type = hedge_wizards }
+				NOT = { is_pop_type = wizards }
 				OR = {
 					pop_employment_building_group = bg_agriculture
 					pop_employment_building_group = bg_ranching
@@ -68,11 +68,12 @@
 					pop_employment_building_group = bg_logging
 					pop_employment_building_group = bg_fishing
 					pop_employment_building_group = bg_whaling
+					pop_employment_building_group = bg_magic_resource
 					pop_employment_building_group = bg_manor_houses
 				}
 			}
 			AND = {
-				is_pop_type = hedge_wizards
+				is_pop_type = wizards
 				owner = {
 					has_law = law_type:law_druidic_circles
 				}
@@ -95,6 +96,7 @@
 						pop_employment_building_group = bg_fishing
 						pop_employment_building_group = bg_whaling
 						pop_employment_building_group = bg_manor_houses
+						pop_employment_building_group = bg_magic_resource
 					}
 				}
 				value = 100
@@ -105,7 +107,7 @@
 			desc = "DRUIDIC_LAW"
 			if = {
 				limit = {
-					is_pop_type = hedge_wizards
+					is_pop_type = wizards
 					owner = {
 						has_law = law_type:law_druidic_circles
 					}
