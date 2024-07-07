@@ -3611,6 +3611,19 @@
 
   s:STATE_THE_MATCHES = {
 	region_state:ARR={
+           create_building={
+            building="building_potion_distillery"
+                add_ownership={
+                    building={
+                        type="building_wizard_tower"
+                        country="c:ARR"
+                        levels=2
+                        region="STATE_THE_MATCHES"
+                }
+            reserves=1
+            activate_production_methods={ "pm_base_cosmetic_potion_production" }
+           }
+        }
 		create_building={
 			building="building_government_administration"
 			level=1
