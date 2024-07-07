@@ -3489,7 +3489,7 @@ korafri={
 zemvelo={
 	color= hsv{ 0.60 0.38 0.51 }
 	religion = animist
-	traits = { human_heritage }
+	traits = { human_heritage kailan_culture_group }
 	obsessions = {
 		coffee
 	}
@@ -3971,7 +3971,7 @@ dorite={
 south_sea_ravager={
 	color= hsv { 0.9 0.4 0.47 }
 	religion = lords_of_avarice
-	traits = { human_heritage }
+	traits = { human_heritage kailan_culture_group}
 	male_common_first_names={
 		Alberto
 		Alejandro

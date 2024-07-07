@@ -58,3 +58,6 @@ noric_culture_group = {
 
 everfrostern_culture_group = {
 }
+
+kailan_culture_group = {
+}
