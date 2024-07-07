@@ -3631,6 +3631,7 @@
                         country="c:ARR"
                         levels=2
                         region="STATE_THE_MATCHES"
+					}
                 }
             reserves=1
             activate_production_methods={ "pm_base_cosmetic_potion_production" }
