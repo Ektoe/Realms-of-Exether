@@ -11,7 +11,7 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
       create_building={
-			  building="building_observatory
+			  building="building_observatory"
 			  level=2
 			  reserves=1
 		  }
@@ -2314,7 +2314,7 @@
           reserves=1
         }
         create_building={
-			    building="building_airshipyards
+			    building="building_airshipyards"
 			    level=1
 			    reserves=1
 		    }
