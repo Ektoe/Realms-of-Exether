@@ -239,6 +239,7 @@ wealth_20 = {
 		popneed_luxury_food = 8
 		popneed_luxury_items = 98
 		popneed_leisure = 16
+		popneed_art = 16
 	}
 }
 wealth_21 = {
@@ -256,6 +257,7 @@ wealth_21 = {
 		popneed_luxury_food = 18
 		popneed_luxury_items = 126
 		popneed_leisure = 18
+		popneed_art = 18
 	}
 }
 wealth_22 = {
@@ -273,6 +275,7 @@ wealth_22 = {
 		popneed_luxury_food = 29
 		popneed_luxury_items = 157
 		popneed_leisure = 20
+		popneed_art = 20
 	}
 }
 wealth_23 = {
@@ -290,6 +293,7 @@ wealth_23 = {
 		popneed_luxury_food = 42
 		popneed_luxury_items = 191
 		popneed_leisure = 32
+		popneed_art = 32
 	}
 }
 wealth_24 = {
@@ -307,6 +311,7 @@ wealth_24 = {
 		popneed_luxury_food = 58
 		popneed_luxury_items = 220
 		popneed_leisure = 35
+		popneed_art = 35
 	}
 }
 wealth_25 = {
@@ -324,6 +329,7 @@ wealth_25 = {
 		popneed_luxury_food = 76
 		popneed_luxury_items = 254
 		popneed_leisure = 38
+		popneed_art = 38
 	}
 }
 wealth_26 = {
@@ -341,6 +347,7 @@ wealth_26 = {
 		popneed_luxury_food = 84
 		popneed_luxury_items = 292
 		popneed_leisure = 56
+		popneed_art = 56
 	}
 }
 wealth_27 = {
@@ -358,6 +365,7 @@ wealth_27 = {
 		popneed_luxury_food = 107
 		popneed_luxury_items = 338
 		popneed_leisure = 61
+		popneed_art = 61
 	}
 }
 wealth_28 = {
@@ -375,6 +383,7 @@ wealth_28 = {
 		popneed_luxury_food = 149
 		popneed_luxury_items = 382
 		popneed_leisure = 83
+		popneed_art = 83
 	}
 }
 wealth_29 = {
@@ -392,6 +401,7 @@ wealth_29 = {
 		popneed_luxury_food = 199
 		popneed_luxury_items = 434
 		popneed_leisure = 90
+		popneed_art = 90
 	}
 }
 wealth_30 = {
@@ -408,6 +418,7 @@ wealth_30 = {
 		popneed_luxury_food = 271
 		popneed_luxury_items = 522
 		popneed_leisure = 104
+		popneed_art = 104
 	}
 }
 wealth_31 = {
@@ -424,6 +435,7 @@ wealth_31 = {
 		popneed_luxury_food = 317
 		popneed_luxury_items = 589
 		popneed_leisure = 113
+		popneed_art = 113
 	}
 }
 wealth_32 = {
@@ -440,6 +452,7 @@ wealth_32 = {
 		popneed_luxury_food = 347
 		popneed_luxury_items = 669
 		popneed_leisure = 124
+		popneed_art = 124
 	}
 }
 wealth_33 = {
@@ -456,6 +469,7 @@ wealth_33 = {
 		popneed_luxury_food = 385
 		popneed_luxury_items = 769
 		popneed_leisure = 137
+		popneed_art = 137
 	}
 }
 wealth_34 = {
@@ -472,6 +486,7 @@ wealth_34 = {
 		popneed_luxury_food = 426
 		popneed_luxury_items = 883
 		popneed_leisure = 152
+		popneed_art = 152
 	}
 }
 wealth_35 = {
@@ -488,6 +503,7 @@ wealth_35 = {
 		popneed_luxury_food = 464
 		popneed_luxury_items = 993
 		popneed_leisure = 199
+		popneed_art = 199
 	}
 }
 wealth_36 = {
@@ -504,6 +520,7 @@ wealth_36 = {
 		popneed_luxury_food = 549
 		popneed_luxury_items = 1098
 		popneed_leisure = 220
+		popneed_art = 220
 	}
 }
 wealth_37 = {
@@ -520,6 +537,7 @@ wealth_37 = {
 		popneed_luxury_food = 611
 		popneed_luxury_items = 1222
 		popneed_leisure = 244
+		popneed_art = 244
 	}
 }
 wealth_38 = {
@@ -536,6 +554,7 @@ wealth_38 = {
 		popneed_luxury_food = 680
 		popneed_luxury_items = 1359
 		popneed_leisure = 272
+		popneed_art = 272
 	}
 }
 wealth_39 = {
@@ -552,6 +571,7 @@ wealth_39 = {
 		popneed_luxury_food = 749
 		popneed_luxury_items = 1497
 		popneed_leisure = 299
+		popneed_art = 299
 	}
 }
 wealth_40 = {
@@ -567,6 +587,7 @@ wealth_40 = {
 		popneed_luxury_food = 843
 		popneed_luxury_items = 1687
 		popneed_leisure = 394
+		popneed_art = 394
 	}
 }
 wealth_41 = {
@@ -582,6 +603,7 @@ wealth_41 = {
 		popneed_luxury_food = 879
 		popneed_luxury_items = 1822
 		popneed_leisure = 440
+		popneed_art = 440
 	}
 }
 wealth_42 = {
@@ -597,6 +619,7 @@ wealth_42 = {
 		popneed_luxury_food = 964
 		popneed_luxury_items = 1997
 		popneed_leisure = 482
+		popneed_art = 482
 	}
 }
 wealth_43 = {
@@ -612,6 +635,7 @@ wealth_43 = {
 		popneed_luxury_food = 1009
 		popneed_luxury_items = 2173
 		popneed_leisure = 543
+		popneed_art = 543
 	}
 }
 wealth_44 = {
@@ -627,6 +651,7 @@ wealth_44 = {
 		popneed_luxury_food = 1105
 		popneed_luxury_items = 2380
 		popneed_leisure = 680
+		popneed_art = 680
 	}
 }
 wealth_45 = {
@@ -641,6 +666,7 @@ wealth_45 = {
 		popneed_luxury_food = 1274
 		popneed_luxury_items = 2646
 		popneed_leisure = 784
+		popneed_art = 784
 	}
 }
 wealth_46 = {
@@ -655,6 +681,7 @@ wealth_46 = {
 		popneed_luxury_food = 1391
 		popneed_luxury_items = 2888
 		popneed_leisure = 963
+		popneed_art = 963
 	}
 }
 wealth_47 = {
@@ -669,6 +696,7 @@ wealth_47 = {
 		popneed_luxury_food = 1533
 		popneed_luxury_items = 3065
 		popneed_leisure = 1179
+		popneed_art = 1179
 	}
 }
 wealth_48 = {
@@ -683,6 +711,7 @@ wealth_48 = {
 		popneed_luxury_food = 1689
 		popneed_luxury_items = 3378
 		popneed_leisure = 1299
+		popneed_art = 1299
 	}
 }
 wealth_49 = {
@@ -697,6 +726,7 @@ wealth_49 = {
 		popneed_luxury_food = 1879
 		popneed_luxury_items = 3614
 		popneed_leisure = 1446
+		popneed_art = 1446
 	}
 }
 wealth_50 = {
@@ -711,6 +741,7 @@ wealth_50 = {
 		popneed_luxury_food = 2070
 		popneed_luxury_items = 3982
 		popneed_leisure = 1593
+		popneed_art = 1593
 	}
 }
 wealth_51 = {
@@ -725,6 +756,7 @@ wealth_51 = {
 		popneed_luxury_food = 2126
 		popneed_luxury_items = 4430
 		popneed_leisure = 1949
+		popneed_art = 1949
 	}
 }
 wealth_52 = {
@@ -739,6 +771,7 @@ wealth_52 = {
 		popneed_luxury_food = 2319
 		popneed_luxury_items = 4830
 		popneed_leisure = 2319
+		popneed_art = 2319
 	}
 }
 wealth_53 = {
@@ -753,6 +786,7 @@ wealth_53 = {
 		popneed_luxury_food = 2528
 		popneed_luxury_items = 5267
 		popneed_leisure = 2739
+		popneed_art = 2739
 	}
 }
 wealth_54 = {
@@ -767,6 +801,7 @@ wealth_54 = {
 		popneed_luxury_food = 2730
 		popneed_luxury_items = 5687
 		popneed_leisure = 3412
+		popneed_art = 3412
 	}
 }
 wealth_55 = {
@@ -781,6 +816,7 @@ wealth_55 = {
 		popneed_luxury_food = 2755
 		popneed_luxury_items = 6261
 		popneed_leisure = 4258
+		popneed_art = 4258
 	}
 }
 wealth_56 = {
@@ -795,6 +831,7 @@ wealth_56 = {
 		popneed_luxury_food = 2975
 		popneed_luxury_items = 6762
 		popneed_leisure = 5139
+		popneed_art = 5139
 	}
 }
 wealth_57 = {
@@ -809,6 +846,7 @@ wealth_57 = {
 		popneed_luxury_food = 3244
 		popneed_luxury_items = 7373
 		popneed_leisure = 6193
+		popneed_art = 6193
 	}
 }
 wealth_58 = {
@@ -823,6 +861,7 @@ wealth_58 = {
 		popneed_luxury_food = 3505
 		popneed_luxury_items = 7965
 		popneed_leisure = 7328
+		popneed_art = 7328
 	}
 }
 wealth_59 = {
@@ -837,6 +876,7 @@ wealth_59 = {
 		popneed_luxury_food = 3857
 		popneed_luxury_items = 8767
 		popneed_leisure = 8416
+		popneed_art = 8416
 	}
 }
 wealth_60 = {
@@ -851,6 +891,7 @@ wealth_60 = {
 		popneed_luxury_food = 3859
 		popneed_luxury_items = 9648
 		popneed_leisure = 9648
+		popneed_art = 9648
 	}
 }
 wealth_61 = {
@@ -865,6 +906,7 @@ wealth_61 = {
 		popneed_luxury_food = 4287
 		popneed_luxury_items = 10718
 		popneed_leisure = 10718
+		popneed_art = 10718
 	}
 }
 wealth_62 = {
@@ -879,6 +921,7 @@ wealth_62 = {
 		popneed_luxury_food = 4718
 		popneed_luxury_items = 11795
 		popneed_leisure = 11795
+		popneed_art = 11795
 	}
 }
 wealth_63 = {
@@ -893,6 +936,7 @@ wealth_63 = {
 		popneed_luxury_food = 5241
 		popneed_luxury_items = 13103
 		popneed_leisure = 13103
+		popneed_art = 13103
 	}
 }
 wealth_64 = {
@@ -907,6 +951,7 @@ wealth_64 = {
 		popneed_luxury_food = 5768
 		popneed_luxury_items = 14419
 		popneed_leisure = 14419
+		popneed_art = 14419
 	}
 }
 wealth_65 = {
@@ -921,6 +966,7 @@ wealth_65 = {
 		popneed_luxury_food = 6347
 		popneed_luxury_items = 15866
 		popneed_leisure = 15866
+		popneed_art = 15866
 	}
 }
 wealth_66 = {
@@ -935,6 +981,7 @@ wealth_66 = {
 		popneed_luxury_food = 6983
 		popneed_luxury_items = 17459
 		popneed_leisure = 17459
+		popneed_art = 17459
 	}
 }
 wealth_67 = {
@@ -949,6 +996,7 @@ wealth_67 = {
 		popneed_luxury_food = 7684
 		popneed_luxury_items = 19210
 		popneed_leisure = 19210
+		popneed_art = 19210
 	}
 }
 wealth_68 = {
@@ -963,6 +1011,7 @@ wealth_68 = {
 		popneed_luxury_food = 8455
 		popneed_luxury_items = 21136
 		popneed_leisure = 21136
+		popneed_art = 21136
 	}
 }
 wealth_69 = {
@@ -977,6 +1026,7 @@ wealth_69 = {
 		popneed_luxury_food = 9302
 		popneed_luxury_items = 23255
 		popneed_leisure = 23255
+		popneed_art = 23255
 	}
 }
 wealth_70 = {
@@ -991,6 +1041,7 @@ wealth_70 = {
 		popneed_luxury_food = 10235
 		popneed_luxury_items = 25586
 		popneed_leisure = 25586
+		popneed_art = 25586
 	}
 }
 wealth_71 = {
@@ -1005,6 +1056,7 @@ wealth_71 = {
 		popneed_luxury_food = 11260
 		popneed_luxury_items = 28150
 		popneed_leisure = 28150
+		popneed_art = 28150
 	}
 }
 wealth_72 = {
@@ -1019,6 +1071,7 @@ wealth_72 = {
 		popneed_luxury_food = 12388
 		popneed_luxury_items = 30971
 		popneed_leisure = 30971
+		popneed_art = 30971
 	}
 }
 wealth_73 = {
@@ -1033,6 +1086,7 @@ wealth_73 = {
 		popneed_luxury_food = 13629
 		popneed_luxury_items = 34074
 		popneed_leisure = 34074
+		popneed_art = 34074
 	}
 }
 wealth_74 = {
@@ -1047,6 +1101,7 @@ wealth_74 = {
 		popneed_luxury_food = 14995
 		popneed_luxury_items = 37486
 		popneed_leisure = 37486
+		popneed_art = 37486
 	}
 }
 wealth_75 = {
@@ -1061,6 +1116,7 @@ wealth_75 = {
 		popneed_luxury_food = 16496
 		popneed_luxury_items = 41240
 		popneed_leisure = 41240
+		popneed_art = 41240
 	}
 }
 wealth_76 = {
@@ -1075,6 +1131,7 @@ wealth_76 = {
 		popneed_luxury_food = 18148
 		popneed_luxury_items = 45370
 		popneed_leisure = 45370
+		popneed_art = 45370
 	}
 }
 wealth_77 = {
@@ -1089,6 +1146,7 @@ wealth_77 = {
 		popneed_luxury_food = 19965
 		popneed_luxury_items = 49912
 		popneed_leisure = 49912
+		popneed_art = 49912
 	}
 }
 wealth_78 = {
@@ -1103,6 +1161,7 @@ wealth_78 = {
 		popneed_luxury_food = 21964
 		popneed_luxury_items = 54909
 		popneed_leisure = 54909
+		popneed_art = 54909
 	}
 }
 wealth_79 = {
@@ -1117,6 +1176,7 @@ wealth_79 = {
 		popneed_luxury_food = 24162
 		popneed_luxury_items = 60406
 		popneed_leisure = 60406
+		popneed_art = 60406
 	}
 }
 wealth_80 = {
@@ -1131,6 +1191,7 @@ wealth_80 = {
 		popneed_luxury_food = 26581
 		popneed_luxury_items = 66452
 		popneed_leisure = 66452
+		popneed_art = 66452
 	}
 }
 wealth_81 = {
@@ -1145,6 +1206,7 @@ wealth_81 = {
 		popneed_luxury_food = 29241
 		popneed_luxury_items = 73102
 		popneed_leisure = 73102
+		popneed_art = 73102
 	}
 }
 wealth_82 = {
@@ -1159,6 +1221,7 @@ wealth_82 = {
 		popneed_luxury_food = 32167
 		popneed_luxury_items = 80418
 		popneed_leisure = 80418
+		popneed_art = 80418
 	}
 }
 wealth_83 = {
@@ -1173,6 +1236,7 @@ wealth_83 = {
 		popneed_luxury_food = 35386
 		popneed_luxury_items = 88465
 		popneed_leisure = 88465
+		popneed_art = 88465
 	}
 }
 wealth_84 = {
@@ -1187,6 +1251,7 @@ wealth_84 = {
 		popneed_luxury_food = 38927
 		popneed_luxury_items = 97317
 		popneed_leisure = 97317
+		popneed_art = 97317
 	}
 }
 wealth_85 = {
@@ -1201,6 +1266,7 @@ wealth_85 = {
 		popneed_luxury_food = 42822
 		popneed_luxury_items = 107055
 		popneed_leisure = 107055
+		popneed_art = 107055
 	}
 }
 wealth_86 = {
@@ -1215,6 +1281,7 @@ wealth_86 = {
 		popneed_luxury_food = 47106
 		popneed_luxury_items = 117765
 		popneed_leisure = 117765
+		popneed_art = 117765
 	}
 }
 wealth_87 = {
@@ -1229,6 +1296,7 @@ wealth_87 = {
 		popneed_luxury_food = 51819
 		popneed_luxury_items = 129547
 		popneed_leisure = 129547
+		popneed_art = 129547
 	}
 }
 wealth_88 = {
@@ -1243,6 +1311,7 @@ wealth_88 = {
 		popneed_luxury_food = 57003
 		popneed_luxury_items = 142508
 		popneed_leisure = 142508
+		popneed_art = 142508
 	}
 }
 wealth_89 = {
@@ -1257,6 +1326,7 @@ wealth_89 = {
 		popneed_luxury_food = 62706
 		popneed_luxury_items = 156764
 		popneed_leisure = 156764
+		popneed_art = 156764
 	}
 }
 wealth_90 = {
@@ -1271,6 +1341,7 @@ wealth_90 = {
 		popneed_luxury_food = 68978
 		popneed_luxury_items = 172446
 		popneed_leisure = 172446
+		popneed_art = 172446
 	}
 }
 wealth_91 = {
@@ -1285,6 +1356,7 @@ wealth_91 = {
 		popneed_luxury_food = 75878
 		popneed_luxury_items = 189696
 		popneed_leisure = 189696
+		popneed_art = 189696
 	}
 }
 wealth_92 = {
@@ -1299,6 +1371,7 @@ wealth_92 = {
 		popneed_luxury_food = 83468
 		popneed_luxury_items = 208671
 		popneed_leisure = 208671
+		popneed_art = 208671
 	}
 }
 wealth_93 = {
@@ -1313,6 +1386,7 @@ wealth_93 = {
 		popneed_luxury_food = 91817
 		popneed_luxury_items = 229544
 		popneed_leisure = 229544
+		popneed_art = 229544
 	}
 }
 wealth_94 = {
@@ -1327,6 +1401,7 @@ wealth_94 = {
 		popneed_luxury_food = 101001
 		popneed_luxury_items = 252503
 		popneed_leisure = 252503
+		popneed_art = 252503
 	}
 }
 wealth_95 = {
@@ -1341,6 +1416,7 @@ wealth_95 = {
 		popneed_luxury_food = 111104
 		popneed_luxury_items = 277759
 		popneed_leisure = 277759
+		popneed_art = 277759
 	}
 }
 wealth_96 = {
@@ -1355,6 +1431,7 @@ wealth_96 = {
 		popneed_luxury_food = 122216
 		popneed_luxury_items = 305541
 		popneed_leisure = 305541
+		popneed_art = 305541
 	}
 }
 wealth_97 = {
@@ -1369,6 +1446,7 @@ wealth_97 = {
 		popneed_luxury_food = 134440
 		popneed_luxury_items = 336100
 		popneed_leisure = 336100
+		popneed_art = 336100
 	}
 }
 wealth_98 = {
@@ -1383,6 +1461,7 @@ wealth_98 = {
 		popneed_luxury_food = 147886
 		popneed_luxury_items = 369716
 		popneed_leisure = 369716
+		popneed_art = 369716
 	}
 }
 wealth_99 = {
@@ -1397,6 +1476,7 @@ wealth_99 = {
 		popneed_luxury_food = 162677
 		popneed_luxury_items = 406693
 		popneed_leisure = 406693
+		popneed_art = 406693
 	}
 }
 
