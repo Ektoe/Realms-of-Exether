@@ -868,7 +868,7 @@ pm_enchanted_orreys = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_wishstone_add = 10
+			goods_input_wishstone_add = 5
 			goods_input_gizmos_add = 10
 		}
 
@@ -890,9 +890,8 @@ pm_astral_projection = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_wishstone_add = 15
 			goods_input_gizmos_add = 15
-			goods_input_opium = 10
+			goods_input_opium_add = 5
 		}
 
 		level_scaled = {
