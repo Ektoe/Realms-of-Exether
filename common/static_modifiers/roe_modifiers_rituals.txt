@@ -63,23 +63,23 @@ country_ritual_astrology_5_cost = {
 }
 country_ritual_artificer_1_cost = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	country_magical_reserves_add = -100
+	country_magic_reserves_total_subtract = 100
 }
 country_ritual_artificer_2_cost = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	country_magical_reserves_add = -200
+	country_magic_reserves_total_subtract = 200
 }
 country_ritual_artificer_3_cost = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	country_magical_reserves_add = -300
+	country_magic_reserves_total_subtract = 300
 }
 country_ritual_artificer_4_cost = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	country_magical_reserves_add = -400
+	country_magic_reserves_total_subtract = 400
 }
 country_ritual_artificer_5_cost = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	country_magical_reserves_add = -500
+	country_magic_reserves_total_subtract = 500
 }
 country_ritual_druidic_1_cost = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
