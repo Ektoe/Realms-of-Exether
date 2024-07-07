@@ -797,7 +797,7 @@
 				activate_production_methods={ "pm_luxury_furniture" "pm_lathe" "pm_automation_disabled" }
 			}
 			create_building={
-				building="building_observatory
+				building="building_observatory"
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_enchanted_orreys" }
@@ -2439,7 +2439,7 @@
           activate_production_methods={ "pm_vertical_filing_cabinets" }
         }
 		create_building={
-			building="building_observatory
+			building="building_observatory"
 			level=1
 			reserves=1
 			activate_production_methods={ "pm_enchanted_orreys" }
@@ -3649,7 +3649,7 @@
 			activate_production_methods={ "pm_scholastic_education" }
 		}
 		create_building={
-			building="building_observatory
+			building="building_observatory"
 			level=2
 			reserves=1
 			activate_production_methods={ "pm_enchanted_orreys" }
@@ -5729,7 +5729,7 @@
 			level=1
 		}
 		create_building={
-			building="building_observatory
+			building="building_observatory"
 			level=1
 			reserves=1
 			activate_production_methods={ "pm_enchanted_orreys" }
@@ -5876,7 +5876,7 @@
 			activate_production_methods={ "pm_muskets" }
 		}
 		create_building={
-			building="building_airshipyards
+			building="building_airshipyards"
 			level=2
 			reserves=1
 		}
