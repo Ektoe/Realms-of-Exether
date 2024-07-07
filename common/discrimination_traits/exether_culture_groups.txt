@@ -55,3 +55,6 @@ nogi_culture_group = {
 
 noric_culture_group = {
 }
+
+everfrostern_culture_group = {
+}

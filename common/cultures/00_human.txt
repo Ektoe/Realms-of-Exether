@@ -2333,7 +2333,7 @@ anwarthi={
 zakonish={
 	color= hsv{ 0.63 0.17 0.5 }
 	religion = cult_of_war
-	traits = {  human_heritage }
+	traits = {  human_heritage everfrostern_culture_group}
 	male_common_first_names={
 		Arnost
 		Alojs
@@ -2410,7 +2410,7 @@ zakonish={
 glethach={
 	color= hsv{ 0.33 0.10 0.74 }
 	religion = verglas_crown
-	traits = { human_heritage }
+	traits = { human_heritage everfrostern_culture_group}
 	male_common_first_names={
 		Kiras
 		Nerus
