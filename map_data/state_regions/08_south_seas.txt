@@ -1361,7 +1361,7 @@ STATE_MANASI = {
         type = "bg_oil_extraction"
         undiscovered_amount = 10
     }
-    naval_exit_id = 3028
+    naval_exit_id = 3084
 }
 STATE_SAMARTHYA = {
     id = 3404
