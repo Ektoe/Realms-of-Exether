@@ -56,3 +56,15 @@ pmg_automation_building_potion_distillery = {
 		pm_assembly_line_bottling_godsblood_building_potion_distillery
 	}
 }
+
+pmg_base_building_airshipyards = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_basic_airships
+		pm_complex_airships
+		#pm_metal_shipbuilding
+		#pm_arc_welding_shipbuilding
+	}
+}

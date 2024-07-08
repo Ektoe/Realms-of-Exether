@@ -2382,7 +2382,6 @@
                             OR = {
                                 has_trait = erudite
                                 has_trait = literary
-                                has_trait = master_bureaucrat
                             }
                             owner ?= {
                                 is_in_power_bloc = yes
@@ -2391,10 +2390,17 @@
                                 }
                             }
                         }
-                        owner ?= {
-                            is_in_power_bloc = yes
-                            power_bloc ?= {
-                                has_principle = principle:principle_advanced_research_3
+                        AND = {
+                            OR = {
+                                has_trait = erudite
+                                has_trait = literary
+                                has_trait = master_bureaucrat
+                            }
+                            owner ?= {
+                                is_in_power_bloc = yes
+                                power_bloc ?= {
+                                    has_principle = principle:principle_advanced_research_3
+                                }
                             }
                         }
                     }

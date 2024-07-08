@@ -66,6 +66,21 @@ law_slavery_banned = {
 				value = 0.05
 			}
 		}
+		
+		# Human rights makes literate pops support abolition
+		add = {
+			desc = "human_rights"
+			
+			if = {
+				limit = { 
+					owner = { has_technology_researched = human_rights }
+				}
+				add = {
+					value = literacy_rate
+					divide = 2
+				}
+			}
+		}
 	}
 	
 	revolution_state_weight = {
@@ -96,6 +111,14 @@ law_slavery_banned = {
 			}
 			add = 750
 		}
+		
+		# Strong tendency towards abolitionism in the late game
+		if = {
+			limit = { 
+				has_technology_researched = human_rights
+			}
+			add = 500
+		}		
 	}
 	
 	ai_impose_chance = {
@@ -145,6 +168,7 @@ law_debt_slavery = {
 	}
 	
 	modifier = {
+		interest_group_ig_industrialists_pol_str_mult = 0.5
 	}
 	
 	pop_support = {
@@ -248,10 +272,6 @@ law_slave_trade = {
 		}
 	}
 	
-	modifier = {
-		interest_group_ig_landowners_pol_str_mult = 0.5
-	}
-	
 	possible_political_movements = {
 		law_slavery_banned
 		law_legacy_slavery
@@ -337,11 +357,7 @@ law_legacy_slavery = {
 			}
 		}
 	}	
-	
-	modifier = {
-		interest_group_ig_landowners_pol_str_mult = 0.25
-	}
-	
+
 	possible_political_movements = {
 		law_slavery_banned
 	}

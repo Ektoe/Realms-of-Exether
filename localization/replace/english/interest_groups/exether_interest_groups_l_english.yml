@@ -2,7 +2,7 @@
   # Base IGs
   ig_mages: "Mages"
   ig_mages_only_icon: "@mages!"
-  ig_mages_desc: "Powerful spellcasters such as wizards, warlock and sorcerers with an interest in arcane advancement and magical proliferation."
+  ig_mages_desc: "Powerful spellcasters such as archmages, warlock and sorcerers with an interest in arcane advancement and magical proliferation."
 
   #Country Specific
   ig_astral_consortium: "Astral Consortium"

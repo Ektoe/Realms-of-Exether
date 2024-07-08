@@ -242,10 +242,10 @@ law_court_mages = {
 		value = 0
 		# Wizards like nepotism
 		add = {
-			desc = "POP_WIZARDS"			
+			desc = "POP_ARCHMAGES"			
 			if = {
 				limit = { 
-					is_pop_type = wizards
+					is_pop_type = archmages
 				}
 				value = 0.25
 			}

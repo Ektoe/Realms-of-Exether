@@ -3,24 +3,24 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_arrandor
+			hq_region = sr:region_arrador
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_DURANS_LAND_2
-				count = 30
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_SHARPWOOD
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_GREENCOURT
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
@@ -33,28 +33,29 @@
 		}
 
 		create_character = {
-			commander_rank = commander_rank_4
+			is_general = yes
+			commander_rank = commander_rank_2
 			save_scope_as = commanderarr_gen
 		}
 
-		scope:comanderarr_gen = {
+		scope:commanderarr_gen = {
 			transfer_to_formation = scope:secondcorparr
 		}
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_arrandor
+			hq_region = sr:region_arrador
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_BYRIVER
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_THE_MATCHES
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
@@ -72,7 +73,8 @@
 		}
 
 		create_character = {
-			commander_rank = commander_rank_3
+			is_general = yes
+			commander_rank = commander_rank_1
 			save_scope_as = commanderarr2_gen			
 		}
 
@@ -82,30 +84,30 @@
 
 		create_military_formation = {
 			type = army
-			hq_region = sr:region_arrandor
+			hq_region = sr:region_arrador
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_VICEROYS_PEARL
-				count = 2
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_THE_MATCHES
-				count = 10
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_TWO_BARREL_COAST
-				count = 12
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_SHARPWOOD
-				count = 7
+				count = 5
 			}
 
 			combat_unit = {
@@ -117,7 +119,7 @@
 
 		create_military_formation = {
 			type = fleet
-			hq_region = sr:region_arrandor
+			hq_region = sr:region_arrador
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -154,6 +156,7 @@
 				state_region = s:STATE_TWO_BARREL_COAST
 				count = 8
 			}
+
 		}	
 	}
 
@@ -626,7 +629,7 @@
 			first_name = Heino
 			last_name = Angelus
 			historical = yes
-			hq = region_saint_mer
+			hq = sr:region_lagoon_coast
 			commander_rank = commander_rank_3
 			age = 62
 			traits = {
@@ -716,13 +719,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATESAINT_MER
+				state_region = s:STATE_SAINT_MER
 				count = 1
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATESAINT_MER
+				state_region = s:STATE_SAINT_MER
 				count = 1
 			}
 			save_scope_as = second_fist

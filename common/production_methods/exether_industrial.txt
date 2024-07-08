@@ -37,7 +37,7 @@ pm_plastic_gizmos = {
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 			building_employment_laborers_add = 3000
-			building_employment_hedge_wizards_add = 1000
+			building_employment_wizards_add = 1000
 			building_employment_engineers_add = 500
 		}
 	}
@@ -62,7 +62,7 @@ pm_steel_gizmos = {
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 			building_employment_laborers_add = 4000
-			building_employment_hedge_wizards_add = 500
+			building_employment_wizards_add = 500
 		}
 	}
 }
@@ -85,7 +85,7 @@ pm_rubber_gizmos = {
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
 			building_employment_laborers_add = 3500
-			building_employment_hedge_wizards_add = 500
+			building_employment_wizards_add = 500
 			building_employment_engineers_add = 500
 		}
 	}
@@ -238,12 +238,12 @@ pm_wishtone_potion_process_production = {
 			# employment
 			building_employment_laborers_add = 3650
 			building_employment_machinists_add = 500
-			building_employment_hedge_wizards_add = 350
+			building_employment_wizards_add = 350
 		}
 		unscaled = {
 			building_laborers_mortality_mult = 0.2
 			building_machinists_mortality_mult = 0.1
-			building_wizards_mortality_mult = 0.05
+			building_archmages_mortality_mult = 0.05
 		}
 	}
 }
@@ -322,10 +322,11 @@ pm_oil-based_potions = {
 #pm_super-based_potions  probably a magical base, but something other than godsblood.   Unless????
 
 pm_no_cosmetic_potion_production = {
-
+texture = "gfx/interface/icons/production_method_icons/no_potion_sap.dds"
 }
 
 pm_base_cosmetic_potion_production = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
 	building_modifiers = {
 		workforce_scaled = {
 			
@@ -341,7 +342,7 @@ pm_base_cosmetic_potion_production = {
 }
 
 pm_advanced_cosmetic_potion_production = {
-
+texture = "gfx/interface/icons/production_method_icons/increased_potion_sap.dds"
 	unlocking_technologies = {
 		conveyors
 	}
@@ -466,6 +467,128 @@ pm_assembly_line_bottling_blubber_building_potion_distillery = {
 		level_scaled = {
 			building_employment_laborers_add = -1500
 			building_employment_machinists_add = -500
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_basic_airships = {
+	texture = "gfx/interface/icons/production_method_icons/wooden_ships.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 35
+			goods_input_fabric_add = 40
+			
+			# output goods
+			goods_output_airships_add = 30 
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 250
+		}
+	}
+}
+
+pm_complex_airships = {
+	texture = "gfx/interface/icons/production_method_icons/reinforced_wooden_ships.dds"
+	unlocking_technologies = {
+		zeppelins
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 35
+			goods_input_hardwood_add = 15
+			goods_input_fabric_add = 40
+			goods_input_gizmos_add = 10
+			goods_input_wishstone_add = 10
+			
+			# output goods
+			goods_output_airships_add = 60
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+#pm_metal_airships = {
+	texture = "gfx/interface/icons/production_method_icons/reinforced_steam_ships.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	unlocking_technologies = {
+		gantry_cranes
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 30
+			goods_input_coal_add = 10
+			goods_input_engines_add = 10
+			
+			# output goods
+			goods_output_steamers_add = 65
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+#pm_arc_welding_shipbuilding = {
+	texture = "gfx/interface/icons/production_method_icons/arc_welded_steam_ships.dds"
+	
+	unlocking_technologies = {
+		arc_welding
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 30
+			goods_input_electricity_add = 30
+			goods_input_engines_add = 10
+			
+			# output goods
+			goods_output_steamers_add = 80
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1500
 		}
 	}
 

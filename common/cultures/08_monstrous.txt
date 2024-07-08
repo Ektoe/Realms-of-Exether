@@ -1,7 +1,7 @@
 ﻿hag = { # Ute and Shoshone
 	color= hsv{ 0.06 0.39 0.80 }
 	religion = animist
-	traits = { monstrous_heritage }
+	traits = { monstrous_heritage noric_culture_group }
 	male_common_first_names={
 		Antonga
 		Arapeen
@@ -267,7 +267,10 @@ wastecrawler = {
 
 gnoll={
 	color= hsv{ 0.58 0.51 0.96 }
-	religion = animist
+	religion = gnollstianity
+	obsessions = {
+		meat
+	}
 	traits = { monstrous_heritage gnoll }
 	male_common_first_names={
 		Amadi
@@ -336,7 +339,10 @@ gnoll={
 }
 jungle_gnoll={
 	color= hsv{ 0.68 0.51 0.96 }
-	religion = animist
+	religion = gnollstianity
+	obsessions = {
+		meat
+	}
 	traits = { monstrous_heritage gnoll }
 	male_common_first_names={
 		Amadi
@@ -469,7 +475,7 @@ awakened_east={
 vampire={
 	color= hsv{ 0.12 0.41 0.54 }
 	religion = lords_of_avarice
-	traits = { monstrous_heritage }
+	traits = { monstrous_heritage noric_culture_group}
 	male_common_first_names={
 		Adrian
 		Alexandru
@@ -620,7 +626,7 @@ vampire={
 sunkissed={
 	color= hsv{ 0.22 0.41 0.64 }
 	religion = cult_of_the_sun
-	traits = { monstrous_heritage }
+	traits = { monstrous_heritage noric_culture_group}
 	male_common_first_names={
 		Adrian
 		Alexandru
@@ -771,7 +777,7 @@ sunkissed={
 mutant={
 	color= hsv{ 0.62 0.35 0.28 }
 	religion = church_of_man
-	traits = { monstrous_heritage }
+	traits = { monstrous_heritage settler_coast_culture_group }
 	male_common_first_names={
 		Aadu
 		Alar

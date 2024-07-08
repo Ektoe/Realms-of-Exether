@@ -217,7 +217,7 @@
           size = 1855196
         }
         create_pop = {
-          culture = ceraunian
+          culture = cerunite
           size = 8000
         }
       }
@@ -231,7 +231,7 @@
           size = 59044
         }
         create_pop = {
-          culture = ceraunian
+          culture = cerunite
           size = 3000
         }
         create_pop = {
@@ -1916,7 +1916,7 @@
           size = 50120
         }
         create_pop = {
-          culture = grendlenth
+          culture = grendleth
           size = 20290
         }
         create_pop = {

@@ -252,6 +252,7 @@ law_homesteading = {
 	modifier = {
 		country_farmers_pol_str_mult = 0.25
 		building_group_bg_agriculture_allowed_collectivization_add = 0.5
+		building_group_bg_ranching_allowed_collectivization_add = 0.5
 	}
 
 	on_enact = {
@@ -325,7 +326,7 @@ law_collectivized_agriculture = {
 	progressiveness = 50
 
 	modifier = {
-		
+		building_group_bg_agriculture_allowed_collectivization_add = 1.0
 	}
 
 	on_enact = {

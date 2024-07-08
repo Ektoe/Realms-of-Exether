@@ -242,7 +242,7 @@ state_trait_baxfil_ridge = {
     icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
 		
 	modifier = {
-		state_construction_mult = -0.15
+		state_construction_mult = -0.05
 		state_infrastructure_mult = -0.15
 	}
 }
