@@ -1805,7 +1805,7 @@
 			size = 230000
 		}
 		create_pop = {
-			culture = chewa
+			culture = lumvareth
 			size = 86000
 		}
 		create_pop = {
