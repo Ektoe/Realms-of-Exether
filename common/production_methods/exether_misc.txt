@@ -590,18 +590,6 @@ building_modifiers = {
 }
 }
 
-pm_cloudsilver_roots = {  #through the ROOTS, M A N
-texture = "gfx/interface/icons/production_method_icons/orchards.dds" 
-
-building_modifiers = {
-	workforce_scaled = {
-		goods_output_wood_add = -7
-		goods_output_cloudsilver_add = 8
-		
-	}
-}
-}
-
 pm_interplanar_ass_termites = {  #this could MAYBE be a PM you're forced to take and have a journal to clear, but if we did that we'd want it to be... shittier.  Could leave this as-is and do that with a locust swarm interplanar woodrot or something instead.
 texture = "gfx/interface/icons/production_method_icons/orchards.dds"  
 #unlocking_technologies = { } #veil level tech
