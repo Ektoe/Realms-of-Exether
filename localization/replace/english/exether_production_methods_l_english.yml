@@ -54,6 +54,12 @@
 	pmg_transportation_hunting_lodges: "Transportation"
 	pmg_ownership_capital_building_hunting_lodge: "$pmg_ownership$"
 
+#Gizmo Workshop
+	pmg_wooden_gizmos: "Wooden Gizmos"
+	pmg_steel_gizmos: "Steel Gizmos"
+	pmg_rubber_gizmos: "Rubber Gizmos"
+	pmg_plastic_gizmos: "Plastic Gizmos"
+
 pm_simple_hunting: "Traditional Hunting"
 pm_firearms_hunting: "Monster Specialists"
 pm_heavy_weapons_hunting: "Extraordinary Firepower"
