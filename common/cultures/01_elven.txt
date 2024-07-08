@@ -765,7 +765,7 @@ cithrel = {
 umbradorn={
 	color= hsv{ 0.40 0.36 0.70 }
 	religion = death_worship
-	traits = { elf_heritage }
+	traits = {toftirite_culture_group elf_heritage }
 	# could have scandinavian_culture_group but that would make them ahistorically non-discriminated
 	male_common_first_names={
 		Aikia
