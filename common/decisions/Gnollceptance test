@@ -1,0 +1,17 @@
+GNOLLBENNAR = {
+	is_shown = {
+		is_player = yes
+	}
+
+    possible = {
+		exists = c:PRO
+	}
+
+    when_taken = {
+		add_primary_culture = cu:jungle_gnoll
+    }
+
+	ai_chance = {
+		base = 0
+	}
+}
