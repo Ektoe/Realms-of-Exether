@@ -36,10 +36,12 @@
   settler_coast_culture_group: "Settler Coast"
   noric_culture_group: "Noric"
   west_zalar_culture_group: "West Zalar" #will probably crack these up at some point
-  east_zalar_culture_group: "East Zalar" ##Need to rename
+  east_zalar_culture_group: "East Zalar" ##maybe rename
   everfrostern_culture_group: "Everfrostern"
   kailan_culture_group: "Kailan"
   vairia_culture_group: "Varinath"
+  hasalian: "Hasalian"
+  toftirite_culture_group: "Toftirite"
   southern_elf: "South Sea Elf"
   wood_gnome: "Wood Gnome"
   hobgoblin: "Hobgoblin"
