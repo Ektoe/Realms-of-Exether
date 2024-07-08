@@ -133,6 +133,14 @@ building_employment_adventurers_add = {
 	}
 }
 
+building_adventurers_shares_add={
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
 building_employment_heroes_add = {
 	color=good
 	percent = no
@@ -188,6 +196,17 @@ building_wizards_mortality_mult={
 	}
 }
 
+building_wizards_shares_add={
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+
+
+
 
 country_archmages_pol_str_mult={
 	decimals=1
@@ -217,6 +236,13 @@ building_archmages_mortality_mult={
 	}
 }
 
+building_archmages_shares_add={
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
 
 country_heroes_pol_str_mult={
 	decimals=1
@@ -241,6 +267,14 @@ building_heroes_mortality_mult={
 	decimals=1
 	color=bad
 	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_heroes_shares_add={
+	decimals=0
+	color=neutral
 	game_data={
 		ai_value=0
 	}
@@ -280,3 +314,4 @@ building_starbrands_mortality_mult={
 		ai_value=0
 	}
 }
+

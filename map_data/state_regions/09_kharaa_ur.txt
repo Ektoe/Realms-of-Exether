@@ -1572,7 +1572,7 @@ STATE_KIYOMATSUE = {
         bg_iron_mining = 24
         bg_logging = 5
     }
-    naval_exit_id = 3003
+    naval_exit_id = 3081
 }
 STATE_JARGALYO = {
     id = 4617
