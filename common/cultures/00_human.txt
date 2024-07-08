@@ -2217,7 +2217,7 @@ astreval={
 anwarthi={
 	color={ 255 156 156 }
 	religion = mortals_burden
-	traits = { west_zalar_culture_group human_heritage }
+	traits = { human_heritage }
 	male_common_first_names = {
 		Aho
 		Aram
@@ -2946,7 +2946,7 @@ dunaq={
 morastlinge={
 	color= rgb{ 102 178 255 }
 	religion = church_of_man
-	traits = { swampwalker_culture_group human_heritage }
+	traits = { west_zalar_culture_group swampwalker_culture_group human_heritage }
 	male_common_first_names={
 		Adelbert
 		Adolf
