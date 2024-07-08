@@ -34,6 +34,8 @@
   nogi_culture_group: "Nogi"
   settler_coast_culture_group: "Settler Coast"
   noric_culture_group: "Noric"
+  west_zalar_culture_group: "West Zalar" #will probably crack these up at some point
+  east_zalar_culture_group: "East Zalar" ##Need to rename
   everfrostern_culture_group: "Everfrostern"
   kailan_culture_group: "Kailan"
   vairia_culture_group: "Varinath"
@@ -45,3 +47,4 @@
   cloud_dwarf: "Cloud Dwarf"
   tunnel_cursed: "Tunnel Cursed"
   hobgoblin: "Hobgoblin"
+  nomadic: "Nomadic"

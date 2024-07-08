@@ -61,3 +61,9 @@ everfrostern_culture_group = {
 
 kailan_culture_group = {
 }
+
+east_zalar_culture_group = {
+}
+
+west_zalar_culture_group = {
+}

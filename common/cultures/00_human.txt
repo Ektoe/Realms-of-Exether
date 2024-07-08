@@ -1981,7 +1981,7 @@ qinnaat={
 thiralian={
 	color= hsv{ 0.62 0.54 0.72 }
 	religion = rose_court
-	traits = {  human_heritage }
+	traits = { human_heritage east_zalar_culture_group }
 	obsessions = {
 		wine
 	}
@@ -2069,7 +2069,7 @@ thiralian={
 astreval={
 	color= hsv{ 0.53 0.21 0.29 }
 	religion = rose_court
-	traits = { human_heritage }
+	traits = { human_heritage east_zalar_culture_group}
 	male_common_first_names={
 		Alexis
 		Andre
@@ -2217,7 +2217,7 @@ astreval={
 anwarthi={
 	color={ 255 156 156 }
 	religion = mortals_burden
-	traits = {  human_heritage }
+	traits = {  human_heritage west_zalar_culture_group }
 	male_common_first_names = {
 		Aho
 		Aram
@@ -3183,7 +3183,7 @@ morastlinge={
 beithaven={
 	color= hsv{ 0.13 0.80 0.99 }
 	religion = church_of_man
-	traits = { human_heritage } 
+	traits = { human_heritage west_zalar_culture_group } 
 	male_common_first_names={
 		Abraham
 		Albert
@@ -4323,7 +4323,7 @@ varyngi={
 bossardi={
 	color= hsv{ 0.20 0.53 0.23 }
 	religion = church_of_man
-	traits = { human_heritage settler_coast_culture_group }
+	traits = { human_heritage east_zalar_culture_group }
 	male_common_first_names={
 		Adolf Alexander Anton Augustus Albert Andreas Ambros Alois
 		Benedicht
