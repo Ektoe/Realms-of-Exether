@@ -1981,7 +1981,7 @@ qinnaat={
 thiralian={
 	color= hsv{ 0.62 0.54 0.72 }
 	religion = rose_court
-	traits = {  human_heritage }
+	traits = { human_heritage east_zalar_culture_group }
 	obsessions = {
 		wine
 	}
@@ -2069,7 +2069,7 @@ thiralian={
 astreval={
 	color= hsv{ 0.53 0.21 0.29 }
 	religion = rose_court
-	traits = { human_heritage }
+	traits = { human_heritage east_zalar_culture_group}
 	male_common_first_names={
 		Alexis
 		Andre
@@ -2217,7 +2217,7 @@ astreval={
 anwarthi={
 	color={ 255 156 156 }
 	religion = mortals_burden
-	traits = {  human_heritage }
+	traits = {  human_heritage west_zalar_culture_group }
 	male_common_first_names = {
 		Aho
 		Aram
@@ -2333,7 +2333,7 @@ anwarthi={
 zakonish={
 	color= hsv{ 0.63 0.17 0.5 }
 	religion = cult_of_war
-	traits = {  human_heritage }
+	traits = {  human_heritage everfrostern_culture_group}
 	male_common_first_names={
 		Arnost
 		Alojs
@@ -2410,7 +2410,7 @@ zakonish={
 glethach={
 	color= hsv{ 0.33 0.10 0.74 }
 	religion = verglas_crown
-	traits = { human_heritage }
+	traits = { human_heritage everfrostern_culture_group}
 	male_common_first_names={
 		Kiras
 		Nerus
@@ -3183,7 +3183,7 @@ morastlinge={
 beithaven={
 	color= hsv{ 0.13 0.80 0.99 }
 	religion = church_of_man
-	traits = { human_heritage } 
+	traits = { human_heritage west_zalar_culture_group } 
 	male_common_first_names={
 		Abraham
 		Albert
@@ -3270,7 +3270,7 @@ beithaven={
 cerunite={
 	color= hsv{ 0.72 0.25 0.28 }
 	religion = church_of_man
-	traits = { human_heritage settler_coast_culture_group }
+	traits = { human_heritage settler_coast_culture_group noric_culture_group }
 	male_common_first_names={
 		Aadu
 		Alar
@@ -3489,7 +3489,7 @@ korafri={
 zemvelo={
 	color= hsv{ 0.60 0.38 0.51 }
 	religion = animist
-	traits = { human_heritage }
+	traits = { human_heritage kailan_culture_group }
 	obsessions = {
 		coffee
 	}
@@ -3974,7 +3974,7 @@ dorite={
 south_sea_ravager={
 	color= hsv { 0.9 0.4 0.47 }
 	religion = lords_of_avarice
-	traits = { human_heritage }
+	traits = { human_heritage kailan_culture_group}
 	male_common_first_names={
 		Alberto
 		Alejandro
@@ -4326,7 +4326,7 @@ varyngi={
 bossardi={
 	color= hsv{ 0.20 0.53 0.23 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { human_heritage east_zalar_culture_group }
 	male_common_first_names={
 		Adolf Alexander Anton Augustus Albert Andreas Ambros Alois
 		Benedicht
