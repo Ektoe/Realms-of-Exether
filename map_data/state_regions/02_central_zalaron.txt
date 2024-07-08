@@ -2939,7 +2939,6 @@ STATE_INAMGI_2 = {
         bg_coal_mining = 28
         bg_logging = 4
     }
-    naval_exit_id = 3147
 }
 STATE_INAMGI_3 = {
     id = 4416
@@ -3019,7 +3018,6 @@ STATE_SUKONCO_3 = {
         bg_iron_mining = 18
         bg_logging = 14
     }
-    naval_exit_id = 3147
 }
 STATE_SUKONCO_4 = {
     id = 4417
