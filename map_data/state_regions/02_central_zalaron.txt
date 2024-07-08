@@ -826,9 +826,7 @@ STATE_LILLESO = {
     mine = x98C6B2
     port = xB695AA
     arable_land = 84
-    arable_resources = {
-        "bg_livestock_ranches" "bg_wheat_farms"
-    }
+    arable_resources = { "bg_livestock_ranches" "bg_wheat_farms" }
     capped_resources = {
         bg_coal_mining = 6
         bg_logging = 23
@@ -847,9 +845,7 @@ STATE_KLIPPEBJERG = {
     mine = x98F6F9
     port = xB453FE
     arable_land = 63
-    arable_resources = {
-        "bg_livestock_ranches" "bg_wheat_farms"
-    }
+    arable_resources = { "bg_livestock_ranches" "bg_wheat_farms" }
     capped_resources = {
         bg_iron_mining = 28
         bg_lead_mining = 8
@@ -870,9 +866,7 @@ STATE_HOJLAND = {
     mine = x98F6F9
     port = xB453FE
     arable_land = 56
-    arable_resources = {
-        "bg_livestock_ranches" "bg_wheat_farms"
-    }
+    arable_resources = { "bg_livestock_ranches" "bg_wheat_farms" }
     capped_resources = {
         bg_coal_mining = 32
         bg_sulfur_mining = 23
@@ -2964,7 +2958,7 @@ STATE_HANALLA = {
         bg_coal_mining = 12
         bg_logging = 4
     }
-    
+
 }
 STATE_SLETTEJUNGEL = {
     id = 4409
@@ -2976,9 +2970,7 @@ STATE_SLETTEJUNGEL = {
     mine = x61DAC2
     port = x639AF9
     arable_land = 76
-    arable_resources = {
-        "bg_livestock_ranches" "bg_wheat_farms"
-    }
+    arable_resources = { "bg_livestock_ranches" "bg_wheat_farms" }
     capped_resources = {
         bg_iron_mining = 24
         bg_logging = 27
@@ -3098,9 +3090,7 @@ STATE_BJERGHOLM = {
     impassable = { "xEADA32" "xC38EC5" "xeae196" "x9AE7DA" "xDE55E1" "xF1E641" "xF4ECBB" }
     traits = { "state_trait_crescent_range" }
     arable_land = 48
-    arable_resources = {
-        "bg_livestock_ranches" "bg_wheat_farms"
-    }
+    arable_resources = { "bg_livestock_ranches" "bg_wheat_farms" }
     capped_resources = {
         bg_coal_mining = 12
         bg_iron_mining = 34
