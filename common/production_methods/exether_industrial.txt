@@ -4,7 +4,7 @@
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wishstone_add = 30
+			goods_input_wishstone_add = 20
 
 			# output goods
 			goods_output_gizmos_add = 30
@@ -29,7 +29,7 @@ pm_plastic_gizmos = {
 			# input goods
 			goods_input_trinkets_add = 10
 			goods_input_oil_add = 30
-			goods_input_wishstone_add = 22
+			goods_input_wishstone_add = 20
 			
 			# output goods
 			goods_output_gizmos_add = 110
@@ -53,7 +53,7 @@ pm_steel_gizmos = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wishstone_add = 30
+			goods_input_wishstone_add = 20
 			goods_input_iron_add = 20
 			
 			# output goods
@@ -76,7 +76,7 @@ pm_rubber_gizmos = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wishstone_add = 30
+			goods_input_wishstone_add = 20
 			goods_input_steel_add = 20 
 			
 			# output goods
