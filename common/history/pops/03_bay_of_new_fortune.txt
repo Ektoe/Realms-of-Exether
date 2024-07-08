@@ -187,8 +187,7 @@
 				size = 36000
 			}
 			create_pop = {
-				pop_type = gnoll
-				culture = equatorial_bantu
+				culture = gnoll
 				size = 16800
 			}
 		}
@@ -208,8 +207,8 @@
 				size = 8000
 			}
 			create_pop = {
-				pop_type = gnoll
-				culture = equatorial_bantu
+				#RIP Equatorial Bantu
+				culture = gnoll
 				size = 6000
 			}
 		}
