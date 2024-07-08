@@ -55,3 +55,15 @@ nogi_culture_group = {
 
 noric_culture_group = {
 }
+
+everfrostern_culture_group = {
+}
+
+kailan_culture_group = {
+}
+
+east_zalar_culture_group = {
+}
+
+west_zalar_culture_group = {
+}

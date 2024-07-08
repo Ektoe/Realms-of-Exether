@@ -3,10 +3,10 @@
   interest_group_ig_mages_pol_str_mult: "$ig_variant_mages$ [concept_political_strength]"
   interest_group_ig_mages_pol_str_mult_desc: "A bonus or penalty to the total [concept_political_strength] of the $ig_variant_mages$ [concept_interest_group]"
 
-  country_archmages_pol_str_mult: "[concept_political_strength] of $wizards$"
-  country_archmages_pol_str_mult_desc: "An increase or decrease in the [concept_political_strength] of $wizards$"
-  country_magic_reserves_total_add: "@magic! [concept_magic_reserves]"
-  country_magic_reserves_total_add_desc: "An increase or decrease in @magic! [concept_magic_reserves]"
+  country_archmages_pol_str_mult: "[concept_political_strength] of $archmages$"
+  country_archmages_pol_str_mult_desc: "An increase or decrease in the [concept_political_strength] of $archmages$"
+  country_magical_reserves_add: "@magic! [concept_magic_reserves]"
+  country_magical_reserves_add_desc: "An increase or decrease in @magic! [concept_magic_reserves]"
   state_veil_integrity_contribution: "@magic! [Concept('concept_veil_integrity', 'Veil')] Disruption"
   state_veil_integrity_contribution_desc: "An increase or decrease in @magic! [concept_veil_integrity]"
 
