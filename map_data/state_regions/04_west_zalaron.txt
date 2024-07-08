@@ -1352,7 +1352,7 @@ STATE_THASAMAKI = {
         type = "bg_rubber"
         discovered_amount = 1
     }
-    naval_exit_id = 3028
+    naval_exit_id = 3015
 }
 STATE_SAWABARA = {
     id = 2508
