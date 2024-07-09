@@ -4985,8 +4985,12 @@
 	}
   }
 
-  s:STATE_MOUNT_YELFI = {
+  s:STATE_MOUNT_YELFIS = {
 	region_state:DAR={
+		create_building={
+			building="building_dwarf_tunnels"
+			level=1
+		}
 		create_building={
 			building="building_government_administration"
 			level=3
@@ -5006,7 +5010,7 @@
                         type="building_financial_district"
                         country="c:DAR"
                         levels=5
-                        region="STATE_MOUNT_YELFI"
+                        region="STATE_MOUNT_YELFIS"
                    }
                 }
 			reserves=1
@@ -5019,7 +5023,7 @@
                         type="building_financial_district"
                         country="c:DAR"
                         levels=5
-                        region="STATE_MOUNT_YELFI"
+                        region="STATE_MOUNT_YELFIS"
                    }
                 }
 			reserves=1
@@ -5032,7 +5036,7 @@
                         type="building_financial_district"
                         country="c:DAR"
                         levels=2
-                        region="STATE_MOUNT_YELFI"
+                        region="STATE_MOUNT_YELFIS"
                    }
                 }
 			reserves=1
@@ -5045,7 +5049,7 @@
 						type="building_manor_house"
 						country="c:DAR"
 						levels=3
-						region="STATE_MOUNT_YELFI"
+						region="STATE_MOUNT_YELFIS"
 				   }
 				}
 			reserves=1
@@ -5058,7 +5062,7 @@
 						type="building_manor_house"
 						country="c:DAR"
 						levels=1
-						region="STATE_MOUNT_YELFI"
+						region="STATE_MOUNT_YELFIS"
 				   }
 				}
 			reserves=1

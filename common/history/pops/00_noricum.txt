@@ -1730,7 +1730,7 @@
           size = 182304
         }
         create_pop = {
-          culture = hawaiian
+          culture = korafri
           religion = cult_of_the_sun
           size = 8500
         }

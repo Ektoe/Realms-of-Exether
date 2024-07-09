@@ -964,7 +964,7 @@
 				size = 166508
 			}
 			create_pop = {
-				culture = moluccan
+				culture = south_sea_ravager
 				religion = church_of_man
 				size = 79213
 			}

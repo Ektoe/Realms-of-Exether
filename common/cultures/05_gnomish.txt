@@ -1,7 +1,7 @@
 ﻿ravikian = {
 	color= hsv{ 0.07 0.49 0.93 }
 	religion = creed_of_hasal
-	traits = { gnome_heritage hasalian }
+	traits = { hasalian gnome_heritage }
 	male_common_first_names={
 		Abraham
 		Adolf
@@ -251,7 +251,7 @@
 yrian={
 	color= hsv{ 0.10 0.80 0.86 }
 	religion = druidic
-	traits = { gnome_heritage wood_gnome}
+	traits = {  wood_gnome gnome_heritage}
 	male_common_first_names={
 		Abraham
 		Adrianus
@@ -374,7 +374,7 @@ yrian={
 florishnom={
 	color= hsv{ 0.10 0.80 0.86 }
 	religion = creed_of_hasal
-	traits = { gnome_heritage hasalian}
+	traits = { hasalian gnome_heritage}
 	male_common_first_names={
 		Abraham
 		Adrianus
@@ -496,7 +496,7 @@ florishnom={
 waldgnomklaai={
 	color= rgb{ 3 141 72 }
 	religion = druidic
-	traits = { gnome_heritage wood_gnome }
+	traits = {  wood_gnome gnome_heritage}
 	male_common_first_names={
 		Abraham
 		Adolf
@@ -747,7 +747,7 @@ waldgnomklaai={
 stranfolk={
 	color= rgb{ 43 141 172 }
 	religion = elf_nature
-	traits = { gnome_heritage wood_gnome }
+	traits = { wood_gnome gnome_heritage }
 	male_common_first_names={
 		Adolf
 		Adolphe
@@ -1019,7 +1019,7 @@ stranfolk={
 kealohi={
 	color= hsv{ 0.53 0.49 0.65 }
 	religion = druidic
-	traits = { gnome_heritage wood_gnome }
+	traits = { wood_gnome gnome_heritage }
 	male_common_first_names={
 		Finau
 		Havaiki

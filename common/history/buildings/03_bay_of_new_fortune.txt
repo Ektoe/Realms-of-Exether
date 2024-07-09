@@ -506,7 +506,7 @@
 		region_state:YKU={
 			create_building={
 				building="building_government_administration"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
@@ -515,9 +515,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:XOC"
+                        country="c:YKU"
                         levels=1
-                        region="STATE_UZURIKILIMA"
+                        region="STATE_ANTAQAQA"
                    }
                 }
 				reserves=1
@@ -528,9 +528,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_tavern"
-                        country="c:KAN"
+                        country="c:YKU"
                         levels=2
-                        region="STATE_QAQAMANTA"
+                        region="STATE_ANTAQAQA"
                    }
                 }
 				reserves=1
@@ -541,13 +541,26 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAW"
+						country="c:YKU"
 						levels=1
-						region="STATE_MIKHUYUQ"
+						region="STATE_ANTAQAQA"
 				   }
 				}
 				reserves=1
 				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_furniture_manufacturies"
+				add_ownership={
+					building={
+						type="building_financial_district"
+						country="c:YKU"
+						levels=1
+						region=STATE_ANTAQAQA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
 			}
 			create_building={
 				building="building_barracks"
