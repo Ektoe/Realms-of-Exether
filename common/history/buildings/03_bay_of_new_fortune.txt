@@ -461,9 +461,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:WAY"
+						country="c:PAC"
 						levels=1
-						region="STATE_PUKARAQOCHA"
+						region="STATE_KUCHUYPATA"
 				   }
 				}
 				reserves=1
@@ -474,9 +474,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:WAY"
+                        country="c:PAC"
                         levels=1
-                        region="STATE_PUKARAQOCHA"
+                        region="STATE_KUCHUYPATA"
                    }
                 }
 				reserves=1
@@ -542,7 +542,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:YKU"
-						levels=1
+						levels=5
 						region="STATE_ANTAQAQA"
 				   }
 				}
