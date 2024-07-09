@@ -832,7 +832,7 @@ STATE_RIVER_SOLILOQUE_2 = {
     capped_resources = {
         bg_logging = 9
         bg_iron_mining = 20
-		bg_coal_mining = 14
+        bg_coal_mining = 14
     }
 }
 STATE_LILLESO = {
@@ -909,8 +909,8 @@ STATE_EISENMORA = {
     naval_exit_id = 3153
     capped_resources = {
         bg_logging = 4
-		bg_sulfur_mining = 17
-		bg_iron_mining = 19
+        bg_sulfur_mining = 17
+        bg_iron_mining = 19
     }
     naval_exit_id = 3150
 }
@@ -923,12 +923,12 @@ STATE_JOURNEYEND = {
     farm = x8D84F7
     mine = xABFAC0
     port = xCCC278
-	arable_land = 105
+    arable_land = 105
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
     naval_exit_id = 3153
     capped_resources = {
         bg_logging = 4
-		bg_fishing = 15
+        bg_fishing = 15
     }
     naval_exit_id = 3087
 }
@@ -2993,12 +2993,12 @@ STATE_INTOKI = {
     farm = xA291CF
     mine = xA6DFBA
     port = xA78AE2
-	arable_land = 80
+    arable_land = 80
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     naval_exit_id = 3153
     capped_resources = {
         bg_logging = 22
-		bg_fishing = 13
+        bg_fishing = 13
     }
     naval_exit_id = 3087
 }
@@ -3097,8 +3097,8 @@ STATE_KUNCHI = {
     naval_exit_id = 3153
     capped_resources = {
         bg_logging = 5
-		bg_iron_mining = 32
-		
+        bg_iron_mining = 32
+
     }
     resource = {
         type = "bg_gold_fields"
