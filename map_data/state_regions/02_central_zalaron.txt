@@ -1,4 +1,4 @@
-﻿STATE_PLAGUES_END = {
+STATE_PLAGUES_END = {
     id = 4220
     subsistence_building = "building_subsistence_farms"
     provinces = { "x2BE0F2" "x45C7ED" "x89F7B7" "x9FF187" "xA397DE" "xA5A8BA" "xB0BDB6" "xB3AF94" "xB69ED7" "xBCEBCC" "xBFA88F" "xC78FEA" "xC9C1BF" "xCD929F" "xD4D6ED" "xE1B2A1" "xE2F5B4" "xE5BA96" "xE866BC" "xEB9581" "xEE9BD7" "xF98E6F" }
@@ -822,6 +822,12 @@ STATE_CAM_CLOCHRAN = {
     farm = x97EDE6
     mine = x98C6B2
     port = xB695AA
+    arable_land = 84
+    arable_resources = { "bg_livestock_ranches" "bg_wheat_farms" }
+    capped_resources = {
+        bg_coal_mining = 6
+        bg_logging = 23
+    }
     naval_exit_id = 3151
 }
 STATE_ZEPHYRSTILL = {
@@ -835,6 +841,13 @@ STATE_ZEPHYRSTILL = {
     farm = x98D1CB
     mine = x98F6F9
     port = xB453FE
+    arable_land = 63
+    arable_resources = { "bg_livestock_ranches" "bg_wheat_farms" }
+    capped_resources = {
+        bg_iron_mining = 28
+        bg_lead_mining = 8
+        bg_logging = 6
+    }
 
     naval_exit_id = 3151
 }
@@ -849,6 +862,13 @@ STATE_ZEPHYRSTILL_2 = {
     farm = x98D1CB
     mine = x98F6F9
     port = xB453FE
+    arable_land = 56
+    arable_resources = { "bg_livestock_ranches" "bg_wheat_farms" }
+    capped_resources = {
+        bg_coal_mining = 32
+        bg_sulfur_mining = 23
+        bg_logging = 9
+    }
 
     naval_exit_id = 3151
 }
@@ -2900,7 +2920,7 @@ STATE_HANALLA = {
         bg_coal_mining = 12
         bg_logging = 4
     }
-    naval_exit_id = 3137
+
 }
 STATE_SUKONCO = {
     id = 4409
@@ -2911,6 +2931,12 @@ STATE_SUKONCO = {
     farm = x50EECA
     mine = x61DAC2
     port = x639AF9
+    arable_land = 76
+    arable_resources = { "bg_livestock_ranches" "bg_wheat_farms" }
+    capped_resources = {
+        bg_iron_mining = 24
+        bg_logging = 27
+    }
     naval_exit_id = 3149
 }
 STATE_INAMGI = {
@@ -3024,6 +3050,15 @@ STATE_SUKONCO_4 = {
     provinces = { "x3EDAFA" "x69EEC8" "x8CD6C9" "x93FDC0" "x9AE7DA" "xC38EC5" "xD9C367" "xDDF694" "xDE55E1" "xE254E4" "xE98EE2" "xEADA32" "xEAE196" "xF1E641" "xF4ECBB" }
     impassable = { "xEADA32" "xC38EC5" "xeae196" "x9AE7DA" "xDE55E1" "xF1E641" "xF4ECBB" }
     traits = { "state_trait_crescent_range" }
+    arable_land = 48
+    arable_resources = { "bg_livestock_ranches" "bg_wheat_farms" }
+    capped_resources = {
+        bg_coal_mining = 12
+        bg_iron_mining = 34
+        bg_lead_mining = 21
+        bg_wishstone_mining = 4
+        bg_logging = 3
+    }
 
 }
 STATE_SANGARI_2 = {
