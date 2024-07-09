@@ -1114,7 +1114,7 @@ pick_ritual_cost = {
 	if = { 
 		limit = {
 			 scope:ritual_id = 1
-		} 
+		}
 	    add_modifier = {
 			name = country_ritual_divine_1_cost
 		}
@@ -1194,8 +1194,8 @@ pick_ritual_cost = {
 	else_if = { 
 		limit = {
 			 scope:ritual_id = 11
-		} 
-	    add_modifier = {
+		}
+		add_modifier = {
 			name = country_ritual_artificer_1_cost
 		}
 	}
