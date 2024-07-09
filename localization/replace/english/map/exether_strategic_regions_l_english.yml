@@ -81,12 +81,12 @@
   region_the_trident: "The Trident"
   region_vitics_roosts: "Vitic's Roosts"
   region_skittering_hills: "Skittering Hills"
-  region_placeholder: "Placeholder Region"
+  region_kartak: "Kartak"
   #Bay of new fortune
   region_hyena_plains: "Hyena Plains"
-  region_south_chin_desert: " South Ch'in Desert"
-  region_north_chin_desert: " North Ch'in Desert"
-  region_salt_wastes: " Salt Wastes"
+  region_south_chin_desert: "South Ch'in Desert"
+  region_north_chin_desert: "North Ch'in Desert"
+  region_salt_wastes: "Salt Wastes"
   #Central Zalaron
   region_thiral: "Thiral"
   region_equine_plains: "Equine Plains"

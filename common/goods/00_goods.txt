@@ -674,3 +674,25 @@ ectoplasm = {
 	traded_quantity = 4
 	convoy_cost_multiplier = 1.5
 }
+
+airships = {
+	texture = "gfx/interface/icons/goods_icons/clippers.dds"
+	cost = 70
+	category = industrial
+	
+	obsession_chance = 0.6
+	prestige_factor = 6
+	traded_quantity = 3
+	convoy_cost_multiplier = 0.25
+}
+
+#skycruisers = {
+	texture = "gfx/interface/icons/goods_icons/steamers.dds"
+	cost = 80
+	category = industrial
+
+	obsession_chance = 0.6
+	prestige_factor = 6
+	traded_quantity = 3
+	convoy_cost_multiplier = 0.25
+}

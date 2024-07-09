@@ -32,6 +32,12 @@
 			type = trade_agreement
 		}
 	}
-	
+
+	c:DUM?= {
+		create_diplomatic_pact = {
+			country = c:CER
+			type = trade_agreement
+		}		
+	}	
 	
 }

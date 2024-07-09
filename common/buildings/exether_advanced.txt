@@ -33,7 +33,7 @@ building_airship_dock = {
 	ignore_stateregion_max_level = yes
 	port = yes
 
-	unlocking_technologies = { airshipyards }
+	unlocking_technologies = { airships }
 
 	production_method_groups = {
 		pmg_base_building_airship_dock

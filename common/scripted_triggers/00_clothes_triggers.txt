@@ -160,7 +160,7 @@ german_clothes_trigger = {
 		home_country = {
 			is_subject = no
 			OR = {
-				country_has_primary_culture = cu:ceraunian
+				country_has_primary_culture = cu:cerunite
 				country_has_primary_culture = cu:thiralian
 			}	
 		}
@@ -173,7 +173,7 @@ german_clothes_pop_trigger = {
 		home_country = {
 			is_subject = no
 			OR = {
-				country_has_primary_culture = cu:ceraunian
+				country_has_primary_culture = cu:cerunite
 				country_has_primary_culture = cu:thiralian
 			}	
 		}

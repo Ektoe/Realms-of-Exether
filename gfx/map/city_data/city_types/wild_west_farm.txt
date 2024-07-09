@@ -72,6 +72,10 @@
 		"european_province_farm_01_mesh"
 		"european_province_farm_02_mesh"
 	}
+	building_rice_farm_leechgardens = {
+		"european_province_farm_01_mesh"
+		"european_province_farm_02_mesh"
+	}
 	building_maize_farm = {
 		"european_province_farm_01_mesh"
 		"european_province_farm_02_mesh"

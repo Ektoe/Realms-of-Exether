@@ -4262,7 +4262,7 @@
                             }
                             clergy_clothes_pop_trigger = yes
                         }
-                           is_pop_type = wizards
+                           is_pop_type = archmages
                     }
                  
                 }
