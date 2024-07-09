@@ -1038,6 +1038,7 @@ exether_is_coastal = {
 			state_region = s:STATE_MAESBELAN
 			state_region = s:STATE_HAG_MARSHES
 			state_region = s:STATE_ALLTBRAN
+			state_region = s:STATE_ALLTGLAS
 			state_region = s:STATE_MALDARBLANE
 			state_region = s:STATE_TOLFAR
 			state_region = s:STATE_GLYNFFORDD
@@ -1056,6 +1057,7 @@ exether_is_coastal = {
 			state_region = s:STATE_DRAGONBANE_TUNDRA
 			state_region = s:STATE_EIRIKSHOF
 			state_region = s:STATE_SAMARTHYA
+			state_region = s:STATE_SAMARKH
 			state_region = s:STATE_JIVANTA
 		} 
 	}
