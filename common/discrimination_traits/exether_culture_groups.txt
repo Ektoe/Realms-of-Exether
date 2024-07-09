@@ -67,3 +67,6 @@ east_zalar_culture_group = {
 
 west_zalar_culture_group = {
 }
+
+toftirite_culture_group = {
+}
