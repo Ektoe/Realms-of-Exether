@@ -646,7 +646,7 @@
 
   s:STATE_THE_CHASM = {
 	region_state:CER={
-            create_building={
+        create_building={
 			building="building_chemical_plants"
                 add_ownership={ 
                     building={ 
@@ -789,6 +789,19 @@
 				}
 			reserves=1
 			activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+		}
+		create_building={
+			building="building_railway"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:CER"
+						levels=2
+						region="STATE_THE_CHASM"
+					}
+				}
+			reserves=1
+			activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 		}
 	}
   }	
@@ -5640,6 +5653,19 @@
 
   s:STATE_FERNSEA = {
 	region_state:CER={
+		create_building={
+			building="building_railway"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:CER"
+						levels=1
+						region="STATE_FERNSEA"
+					}
+				}
+			reserves=1
+			activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+		}
 		create_building={
 			building="building_government_administration"
 			level=13
