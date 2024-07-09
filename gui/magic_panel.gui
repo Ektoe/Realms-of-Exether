@@ -286,27 +286,27 @@ types magic_panel
 					icon = {
 						size = { 130 130 }
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)1')]"
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_almsgiving.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)2')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_divine_right.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)3')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_guardian_angels.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)4')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_grace.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)5')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_disease_wards.dds"
 					}
 					#HARMONIUS CONSTRUCTION
 					icon = {
@@ -371,77 +371,77 @@ types magic_panel
 					icon = {
 						size = { 130 130 }
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)16')]"
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_astral_mapping.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)17')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_starlight_academia.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)18')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_guiding_constellations.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)19')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_stellar_guidance.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)20')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_universal_knowledge.dds"
 					}
 					icon = {
 						size = { 130 130 }
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)21')]"
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_bound_thralls.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)22')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_dark_fanatics.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)23')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_cults.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)24')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_profane_bargains.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)25')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_pierce_veil.dds"
 					}
 					icon = {
 						size = { 130 130 }
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)26')]"
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_anti_magic_device.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)27')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_ingenunity.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)28')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_profiling.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)29')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_scrying.dds"
 					}
 					icon = {
 						visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)30')]"
 						size = { 130 130 }
-						texture = "gfx/interface/icons/rituals/placeholder.dds"
+						texture = "gfx/interface/icons/rituals/ext_ritual_magic_regulations.dds"
 					}
 
 					button = {
@@ -580,27 +580,27 @@ types magic_panel
 				icon = {
 					size = { 130 130 }
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)1')]"
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_almsgiving.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)2')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_divine_right.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)3')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_guardian_angels.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)4')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_grace.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)5')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_disease_wards.dds"
 				}
 				#HARMONIUS CONSTRUCTION
 				icon = {
@@ -665,77 +665,77 @@ types magic_panel
 				icon = {
 					size = { 130 130 }
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)16')]"
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_astral_mapping.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)17')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_starlight_academia.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)18')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_guiding_constellations.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)19')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_stellar_guidance.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)20')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_universal_knowledge.dds"
 				}
 				icon = {
 					size = { 130 130 }
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)21')]"
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_bound_thralls.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)22')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_dark_fanatics.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)23')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_cults.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)24')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_profane_bargains.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)25')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_pierce_veil.dds"
 				}
 				icon = {
 					size = { 130 130 }
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)26')]"
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_anti_magic_device.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)27')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_ingenunity.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)28')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_profiling.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)29')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_scrying.dds"
 				}
 				icon = {
 					visible =  "[EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)30')]"
 					size = { 130 130 }
-					texture = "gfx/interface/icons/rituals/placeholder.dds"
+					texture = "gfx/interface/icons/rituals/ext_ritual_magic_regulations.dds"
 				}
                 button = {
 					using = default_button_primary_action
