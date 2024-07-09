@@ -2437,13 +2437,7 @@
           level=10
           reserves=1
           activate_production_methods={ "pm_vertical_filing_cabinets" }
-        }
-		create_building={
-			building="building_observatory"
-			level=1
-			reserves=1
-			activate_production_methods={ "pm_enchanted_orreys" }
-		}	
+        }	
         create_building={
           building="building_arts_academy"
 		  add_ownership={
@@ -3660,12 +3654,6 @@
 			level=1
 			reserves=1
 			activate_production_methods={ "pm_scholastic_education" }
-		}
-		create_building={
-			building="building_observatory"
-			level=2
-			reserves=1
-			activate_production_methods={ "pm_enchanted_orreys" }
 		}
             create_building={
 			building="building_tooling_workshops"
