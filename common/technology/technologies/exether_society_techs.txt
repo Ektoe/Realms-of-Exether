@@ -73,7 +73,7 @@ supernatural_studies = { #Unlocks wizard towers
 }
 
 arcane_concentration = { #Upgrade magic institution
-	era = era_3
+	era = era_2
 	texture = "gfx/interface/icons/invention_icons/tech_arcane_concentration.dds"
 	category = society
 	
@@ -83,6 +83,7 @@ arcane_concentration = { #Upgrade magic institution
 
 	unlocking_technologies = {
 		supernatural_studies
+		psychiatry
 	}
 	
 	ai_weight = {
@@ -91,7 +92,7 @@ arcane_concentration = { #Upgrade magic institution
 }
 
 ethereal_mastery = { #Upgrade magic institution
-	era = era_5
+	era = era_3
 	texture = "gfx/interface/icons/invention_icons/tech_ethereal_mastery.dds"
 	category = society
 	
