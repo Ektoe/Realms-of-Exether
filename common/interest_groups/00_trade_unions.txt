@@ -63,7 +63,7 @@
 			is_pop_type = capitalists
 			is_pop_type = shopkeepers
 			is_pop_type = officers
-			is_pop_type = wizards
+			is_pop_type = archmages
 		}
 		OR = {
 			AND = {
@@ -86,6 +86,7 @@
 				pop_employment_building_group = bg_agriculture
 				pop_employment_building_group = bg_ranching
 				pop_employment_building_group = bg_plantations
+				pop_employment_building_group = bg_magic_resource
 			}
 		}
 	}
@@ -101,6 +102,7 @@
 						pop_employment_building_group = bg_agriculture
 						pop_employment_building_group = bg_ranching
 						pop_employment_building_group = bg_plantations
+						pop_employment_building_group = bg_magic_resource
 					}
 				}
 				value = 50
@@ -128,6 +130,16 @@
 			if = {
 				limit = {
 					is_pop_type = laborers
+				}
+				value = 50
+			}
+		}
+
+		add = {
+			desc = "POP_STARBRANDS"
+			if = {
+				limit = {
+					is_pop_type = starbrands
 				}
 				value = 50
 			}

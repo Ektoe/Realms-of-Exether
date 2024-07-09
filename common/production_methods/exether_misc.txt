@@ -367,7 +367,7 @@ pm_ghost_hunters = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = 4000
+			building_employment_starbrands_add = 4000
 			building_employment_adventurers_add = 500
 		}
 		
@@ -397,9 +397,9 @@ pm_exorcists = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = 3500
+			building_employment_starbrands_add = 3500
 			building_employment_adventurers_add = 500
-			building_employment_hedge_wizards_add = 500
+			building_employment_wizards_add = 500
 		}
 	}
 
@@ -428,9 +428,9 @@ pm_paranormal_containment_fields = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = 2500
+			building_employment_starbrands_add = 2500
 			building_employment_adventurers_add = 500
-			building_employment_hedge_wizards_add = 1000
+			building_employment_wizards_add = 1000
 			building_employment_engineers_add = 500
 		}
 	}
@@ -468,7 +468,7 @@ pm_revealing_field_generators = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -1000
+			building_employment_starbrands_add = -1000
 		}
 	}
 }
@@ -490,8 +490,8 @@ pm_portable_ethereal_vacuums = {
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = -1500
-			building_employment_hedge_wizards_add = 200
+			building_employment_starbrands_add = -1500
+			building_employment_wizards_add = 200
 			building_employment_engineers_add = 200
 		}
 	}
@@ -590,18 +590,6 @@ building_modifiers = {
 }
 }
 
-pm_cloudsilver_roots = {  #through the ROOTS, M A N
-texture = "gfx/interface/icons/production_method_icons/orchards.dds" 
-
-building_modifiers = {
-	workforce_scaled = {
-		goods_output_wood_add = -7
-		goods_output_cloudsilver_add = 8
-		
-	}
-}
-}
-
 pm_interplanar_ass_termites = {  #this could MAYBE be a PM you're forced to take and have a journal to clear, but if we did that we'd want it to be... shittier.  Could leave this as-is and do that with a locust swarm interplanar woodrot or something instead.
 texture = "gfx/interface/icons/production_method_icons/orchards.dds"  
 #unlocking_technologies = { } #veil level tech
@@ -655,11 +643,11 @@ pm_early_wishstone_constructed_buildings = {  #not sure if we want a magic const
 			building_employment_bureaucrats_add = 500
 			building_employment_clerks_add = 500
 			building_employment_machinists_add = 250
-			building_employment_hedge_wizards_add = 250
-			building_employment_laborers_add = 3500
+			building_employment_wizards_add = 250
+			building_employment_starbrands_add = 3500
 		}
 		unscaled = {
-			building_laborers_mortality_mult = 0.20
+			building_starbrands_mortality_mult = 0.20
 		}
 	}
 	
@@ -829,7 +817,133 @@ pm_beast_divination = {
 		level_scaled = {
 			# employment
 			building_employment_laborers_add = -1500
-			building_employment_hedge_wizards_add = 400
+			building_employment_wizards_add = 400
 		}
 	}
+}
+
+##GOVERNMENT##
+
+pm_astrological_charts = {
+	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_tech_spread_add = 1
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wishstone_add = 10
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 2250
+			building_employment_engineers_add = 250
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+pm_enchanted_orreys = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	unlocking_technologies = {
+		supernatural_studies
+	}
+	country_modifiers = {
+		workforce_scaled = {
+			country_tech_spread_add = 3
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wishstone_add = 5
+			goods_input_gizmos_add = 10
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 1125
+			building_employment_starbrands_add = 1125
+			building_employment_engineers_add = 250
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+pm_astral_projection = {
+	texture = "gfx/interface/icons/production_method_icons/analytical_philosophy_department.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_tech_spread_add = 5
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_gizmos_add = 15
+			goods_input_opium_add = 5
+		}
+
+		level_scaled = {
+			building_employment_starbrands_add = 2250
+			building_employment_engineers_add = 250
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+pm_self_regulation = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_academics.dds"
+	
+	disallowing_laws = {
+		law_divine_miracles
+		law_druidic_circles
+		law_dark_arts
+		law_mage_hunters
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_wizards_add = 1900
+			building_employment_archmages_add = 100
+		}
+	}			
+}
+
+pm_clerical_oversight = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds"
+	
+	disallowing_laws = {
+		law_dark_arts
+		law_mage_hunters
+		law_no_magic
+		law_artificer_guilds
+		law_astrological_studies
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_wizards_add = 1900
+			building_employment_archmages_add = 60
+			building_employment_clergymen_add = 40
+		}
+	}			
+}
+
+pm_government_oversight = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_bureacrats.dds"
+	
+	disallowing_laws = {
+		law_artificer_guilds
+		law_astrological_studies
+		law_druidic_circles
+		law_no_magic
+		law_divine_miracles
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_wizards_add = 1900
+			building_employment_archmages_add = 60
+			building_employment_bureaucrats_add = 40
+		}
+	}			
 }

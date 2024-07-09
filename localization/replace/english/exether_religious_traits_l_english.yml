@@ -3,6 +3,8 @@ fate_domain: "Fate Domain"
 
 nature_domain: "Nature Domain"
 
+magoclast: "Magoclast"
+
 trickery_domain: "Trickery Domain"
 
 arcana_domain: "Arcana Domain"
@@ -74,3 +76,5 @@ naga_heritage: "Naga Heritage"
 nomadic_heritage: "Nomadic Heritage"
 
 chivalrous_heritage: "Chivalrous Heritage"
+
+halfling_pantheon: "Halfling Pantheon"

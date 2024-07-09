@@ -217,7 +217,7 @@
           size = 1855196
         }
         create_pop = {
-          culture = ceraunian
+          culture = cerunite
           size = 8000
         }
       }
@@ -231,7 +231,7 @@
           size = 59044
         }
         create_pop = {
-          culture = ceraunian
+          culture = cerunite
           size = 3000
         }
         create_pop = {
@@ -1730,7 +1730,7 @@
           size = 182304
         }
         create_pop = {
-          culture = hawaiian
+          culture = korafri
           religion = cult_of_the_sun
           size = 8500
         }

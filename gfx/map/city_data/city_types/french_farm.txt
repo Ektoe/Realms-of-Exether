@@ -70,6 +70,10 @@
 		"french_farm_farmstead_01_mesh"
 		"french_farm_farmstead_02_mesh"
 	}
+	building_rice_farm_leechgardens = {
+		"french_farm_farmstead_01_mesh"
+		"french_farm_farmstead_02_mesh"
+	}
 	building_maize_farm = {
 		"french_farm_farmstead_01_mesh"
 		"french_farm_farmstead_02_mesh"

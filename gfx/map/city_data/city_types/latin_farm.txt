@@ -43,6 +43,7 @@
 	building_rye_farm = {"latin_farm_farmstead_01_mesh"}
 	building_wheat_farm = {"latin_farm_farmstead_01_mesh"}
 	building_rice_farm = {"latin_farm_farmstead_01_mesh"}
+	building_rice_farm_leechgardens = {"latin_farm_farmstead_01_mesh"}
 	building_maize_farm = {"latin_farm_farmstead_01_mesh"}
 	building_mountain_maize_farm = {"latin_farm_farmstead_01_mesh"}
 	building_millet_farm = {"latin_farm_farmstead_01_mesh"}
