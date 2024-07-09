@@ -40,7 +40,7 @@ add_homeland = cu:puarfejiin
 s:STATE_KHURIN = {
 	create_state = {
 		country = c:YUL
-		owned_provinces = { "x88FA77" "xB6ACBA" "xBDCE9A" "xBF7DD8" "xC1DCBC" "xCCD09F" "xD5FBAD" "xDD3CF3" "xE2869A" "xE574D0" }
+		owned_provinces = { "xB6ACBA" "xBDCE9A" "xBF7DD8" "xC1DCBC" "xCCD09F" "xD5FBAD" "xD7C6D0" "xDD3CF3" "xE2869A" "xE574D0" }
 }
 add_homeland = cu:khanaruk
 add_homeland = cu:puarfejiin
@@ -58,7 +58,7 @@ add_homeland = cu:morevnamarya
 s:STATE_KHORTA = {
 	create_state = {
 		country = c:YUL
-		owned_provinces = { "x919BF7" "xB7BFD6" "xB7E09F" "xC0B397" "xD6E052" "xDF9AF9" "xE586A8" "xF9BBA1" }
+		owned_provinces = { "x40FBE7" "x888DE7" "x88FA77" "x919BF7" "xB7BFD6" "xB7E09F" "xBDEBA9" "xC0B397" "xCB8AA9" "xD0AEF2" "xD6E052" "xD760C7" "xDF9AF9" "xDFF7BA" "xE586A8" "xF9BBA1" }
 }
 add_homeland = cu:khanaruk
 add_homeland = cu:puarfejiin
@@ -91,14 +91,14 @@ add_homeland = cu:khanaruk
 add_homeland = cu:puarfejiin
 }
 
-s:STATE_GURBA = {
-	create_state = {
-		country = c:YUL
-		owned_provinces = { "x40FBE7" "x888DE7" "xBDEBA9" "xCB8AA9" "xD0AEF2" "xD760C7" "xD7C6D0" "xDFF7BA" }
-}
-add_homeland = cu:khanaruk
-add_homeland = cu:puarfejiin
-}
+# s:STATE_GURBA = {
+# 	create_state = {
+# 		country = c:YUL
+# 		owned_provinces = {  }
+# }
+# add_homeland = cu:khanaruk
+# add_homeland = cu:puarfejiin
+# }
 
 s:STATE_CHANMA = {
 	create_state = {

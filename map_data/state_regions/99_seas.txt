@@ -1,4 +1,4 @@
-#JavaScript for generating states from list of sea provinces.
+﻿#JavaScript for generating states from list of sea provinces.
 #const generate = () => {
 #    let string = "";
 #
@@ -1142,7 +1142,7 @@ STATE_SANGARI_SHORES = {
 }
 
 STATE_SALTY_LANDING = {
- #where we dropping, boys?
+    #where we dropping, boys?
     id = 3244
     provinces = { "x7f0656" }
 }
