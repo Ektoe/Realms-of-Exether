@@ -646,6 +646,19 @@
 
   s:STATE_THE_CHASM = {
 	region_state:CER={
+            create_building={
+			building="building_chemical_plants"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:THE_CHASM"
+                        levels=2
+                        region="STATE_THE_CHASM"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_artificial_fertilizers" }
+		}
         create_building={
 			building="building_steel_mills"
                 add_ownership={ 
@@ -3127,9 +3140,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:EME"
+                        country="c:ARR"
                         levels=2
-                        region="STATE_SHARINDLARS_NEEDLE"
+                        region="STATE_GREENCOURT"
                    }
                 }
 			reserves=1
