@@ -46,43 +46,58 @@
 	on_character_ig_membership = {}
 
 	pop_potential = {
-		literacy_rate > 0.25
 		OR = {
-			is_pop_type = aristocrats
-			is_pop_type = bureaucrats
-			is_pop_type = capitalists
-			is_pop_type = engineers
-			is_pop_type = wizards
-			is_pop_type = hedge_wizards
-			is_pop_type = clergymen
-			pop_employment_building_group = bg_wizard_towers
-			AND = {
-				is_pop_type = academics
-				owner = {
-					has_law = law_type:law_astrological_studies
+			OR = {
+				is_pop_type = archmages
+				is_pop_type = wizards
+				is_pop_type = starbrands
+			}
+			literacy_rate > 0.25
+		}
+		AND = {
+			OR = {
+				is_pop_type = aristocrats
+				is_pop_type = bureaucrats
+				is_pop_type = capitalists
+				is_pop_type = engineers
+				is_pop_type = archmages
+				is_pop_type = wizards
+				is_pop_type = starbrands
+				is_pop_type = clergymen
+				AND = {
+					is_pop_type = academics
+					owner = {
+						has_law = law_type:law_astrological_studies
+					}
 				}
 			}
+			OR = {
+				pop_employment_building_group = bg_wizard_towers
+				pop_employment_building_group = bg_magic_manufacturing
+				pop_employment_building_group = bg_magic_resource
+			}
 		}
+
 	}
 
 	pop_weight = {
 		value = 0
 
 		add = {
-			desc = "POP_WIZARDS"
+			desc = "POP_ARCHMAGES"
 			if = {
 				limit = {
-					is_pop_type = wizards
+					is_pop_type = archmages
 				}
 				value = 250
 			}
 		}
 
 		add = {
-			desc = "POP_HEDGE_WIZARDS"
+			desc = "POP_WIZARDSS"
 			if = {
 				limit = {
-					is_pop_type = hedge_wizards
+					is_pop_type = wizards
 				}
 				value = 100
 			}
@@ -110,8 +125,8 @@
 			if = {
 				limit = {
 					OR = {
-						is_pop_type = hedge_wizards
 						is_pop_type = wizards
+						is_pop_type = archmages
 					}
 					
 					owner = {
@@ -153,8 +168,8 @@
 						is_pop_type = aristocrats
 						is_pop_type = clergymen
 						is_pop_type = capitalists
+						is_pop_type = archmages
 						is_pop_type = wizards
-						is_pop_type = hedge_wizards
 					}
 					OR = {
 						pop_employment_building_group = bg_service

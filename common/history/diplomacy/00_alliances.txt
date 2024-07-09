@@ -5,4 +5,10 @@
 			type = alliance
 		}	
 	}
+        c:DUM ?= {
+		create_diplomatic_pact = {
+			country = c:CER
+			type = guarantee
+		}	
+	}
 }

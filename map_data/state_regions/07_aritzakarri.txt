@@ -817,6 +817,7 @@ STATE_UHINAK = {
     capped_resources = {
         bg_coal_mining = 20
         bg_logging = 29
+        bg_hunting = 12
         bg_fishing = 6
     }
     naval_exit_id = 3096
@@ -891,6 +892,7 @@ STATE_ZUHAITZ = {
         bg_coal_mining = 44
         bg_iron_mining = 27
         bg_logging = 26
+        bg_hunting = 12
         bg_fishing = 4
     }
     naval_exit_id = 3029
@@ -1006,6 +1008,7 @@ STATE_BIZI = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 29
+        bg_hunting = 12
         bg_iron_mining = 18
     }
     resource = {
@@ -1081,6 +1084,7 @@ STATE_SORGINAK = {
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 20
+        bg_hunting = 12
         bg_wishstone_mining = 17
     }
     resource = {
@@ -1180,6 +1184,7 @@ STATE_TIHAR = {
         bg_coal_mining = 22
         bg_iron_mining = 11
         bg_logging = 20
+        bg_hunting = 12
         bg_fishing = 6
         bg_wishstone_mining = 17
     }
@@ -1203,6 +1208,7 @@ STATE_ARROLA = {
     capped_resources = {
         bg_iron_mining = 24
         bg_logging = 20
+        bg_hunting = 12
         bg_fishing = 12
     }
     resource = {
@@ -1322,6 +1328,7 @@ STATE_BAZKA = {
         bg_iron_mining = 36
         bg_sulfur_mining = 32
         bg_logging = 24
+        bg_hunting = 12
         bg_monuments = 1
     }
     naval_exit_id = 3064

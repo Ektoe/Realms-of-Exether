@@ -57,8 +57,8 @@
 
 		if = {
 			limit = {
-				OR = {
-					owner = {
+				owner = {
+					OR = {
 						religion = rel:orc_mother
 						any_primary_culture = {
 							has_discrimination_trait = southern_elf
@@ -70,7 +70,7 @@
 				}
 				
 			}
-			ig:ig_devout = {
+			ig:ig_landowners = {
 				remove_ideology = ideology_patriarchal
 				add_ideology = ideology_matriarchal
 			}

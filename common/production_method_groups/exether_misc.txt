@@ -1,10 +1,11 @@
 ﻿
-pmg_irontails = {
+pmg_rusttails = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_no_special_fish
-		pm_early_ironfish_harvesting
-		pm_dedicated_ironfish_harvesting
+		pm_rusttail_fishing
+		pm_intensified_rusttail_fishing
+		pm_magebred_rusttail_fish_farming
 	}
 }
 
@@ -119,14 +120,6 @@ pmg_liquortrees = {
 	production_methods = {
 		pm_no_regional_logging
 		pm_liquortrees
-	}
-}
-
-pmg_cloudsilver_roots = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_regional_logging
-		pm_cloudsilver_roots
 	}
 }
 

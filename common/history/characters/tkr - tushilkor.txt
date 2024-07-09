@@ -6,7 +6,7 @@
 			historical = yes
 			ruler = yes
 			age = 45
-			is_female = yes
+			female = yes
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
