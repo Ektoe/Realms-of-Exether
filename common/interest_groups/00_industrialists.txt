@@ -31,7 +31,6 @@
 				set_ig_trait = ig_trait:ig_trait_zaibatsu_withdrawal
 				set_ig_trait = ig_trait:ig_trait_engines_of_progress
 				set_ig_trait = ig_trait:ig_trait_zaibatsu_cooperation
-				add_ideology = ideology_pious_inventor
 			}
 			else = {
 				set_ig_trait = ig_trait:ig_trait_tax_avoidance
