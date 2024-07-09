@@ -231,16 +231,246 @@
 					set_owner_of_provinces = {
 						country = scope:klypyra_settler_scope
 						provinces = {xA2D9B2 xC4F349}
+					}	
+				}
+				every_scope_pop = {
+				limit = {
+					culture = cu:kotskarvi
+				}
+				change_pop_culture = {
+					target = cu:illvasaari
+					value = 0.4
+				}
+			}
+				#  scope:klypyra_settler_scope = {
+				#  	trigger_event = todo_event
+				#  }
+				}
+				if = {
+					limit = {
+						state_region = s:STATE_ZAMARIS
+					}
+					random_neighbouring_state = {
+						limit = {
+							owner = {
+								OR = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
+							}
+						}
+						owner = {
+							save_scope_as = zamaris_settler_scope
+						}
+					}
+					s:STATE_ZAMARIS = {
+						set_owner_of_provinces = {
+							country = scope:klypyra_settler_scope
+							#provinces = {xA2D9B2 xC4F349} todo
+						}	
+					}
+					every_scope_pop = {
+					limit = {
+						culture = cu:kotskarvi
+					}
+					change_pop_culture = {
+						target = cu:illvasaari
+						value = 0.4
 					}
 				}
-				# scope:klypyra_settler_scope = {
-				# 	trigger_event = todo_event
-				# }
+					#  scope:zamaris_settler_scope = {
+					#  	trigger_event = todo_event
+					#  }
+					}
+					if = {
+						limit = {
+							state_region = s:STATE_ZAMARIS
+						}
+						random_neighbouring_state = {
+							limit = {
+								owner = {
+									OR = {
+										country_has_primary_culture = cu:kotskarvi
+										country_has_primary_culture = cu:lomarash
+									}
+								}
+							}
+							owner = {
+								save_scope_as = zamaris_settler_scope
+							}
+						}
+						s:STATE_ZAMARIS = {
+							set_owner_of_provinces = {
+								country = scope:zamaris_settler_scope
+								#provinces = {xA2D9B2 xC4F349} todo
+							}	
+						}
+						every_scope_pop = {
+						limit = {
+							culture = cu:kotskarvi
+						}
+						change_pop_culture = {
+							target = cu:illvasaari
+							value = 0.4
+						}
+					}
+						#  scope:zamaris_settler_scope = {
+						#  	trigger_event = todo_event
+						#  }
+						}
+						if = {
+							limit = {
+								state_region = s:STATE_LEPIDRA
+							}
+							random_neighbouring_state = {
+								limit = {
+									owner = {
+										OR = {
+											country_has_primary_culture = cu:kotskarvi
+											country_has_primary_culture = cu:lomarash
+										}
+									}
+								}
+								owner = {
+									save_scope_as = lepidra_settler_scope
+								}
+							}
+							s:STATE_LEPIDRA = {
+								set_owner_of_provinces = {
+									country = scope:lepidra_settler_scope
+									#provinces = {xA2D9B2 xC4F349} todo
+								}	
+							}
+							every_scope_pop = {
+							limit = {
+								culture = cu:kotskarvi
+							}
+							change_pop_culture = {
+								target = cu:illvasaari
+								value = 0.4
+							}
+						}
+							#  scope:lepidra_settler_scope = {
+							#  	trigger_event = todo_event
+							#  }
+							}
+							if = {
+								limit = {
+									state_region = s:STATE_ZARTHOS
+								}
+								random_neighbouring_state = {
+									limit = {
+										owner = {
+											OR = {
+												country_has_primary_culture = cu:kotskarvi
+												country_has_primary_culture = cu:lomarash
+											}
+										}
+									}
+									owner = {
+										save_scope_as = zarthos_settler_scope
+									}
+								}
+								s:STATE_ZARTHOS = {
+									set_owner_of_provinces = {
+										country = scope:zarthos_settler_scope
+										#provinces = {xA2D9B2 xC4F349} todo
+									}	
+								}
+								every_scope_pop = {
+								limit = {
+									culture = cu:kotskarvi
+								}
+								change_pop_culture = {
+									target = cu:illvasaari
+									value = 0.4
+								}
+							}
+								#  scope:zarthos_settler_scope = {
+								#  	trigger_event = todo_event
+								#  }
+								}
+								if = {
+									limit = {
+										state_region = s:STATE_CALTHA
+									}
+									random_neighbouring_state = {
+										limit = {
+											owner = {
+												OR = {
+													country_has_primary_culture = cu:kotskarvi
+													country_has_primary_culture = cu:lomarash
+												}
+											}
+										}
+										owner = {
+											save_scope_as = caltha_settler_scope
+										}
+									}
+									s:STATE_CALTHA = {
+										set_owner_of_provinces = {
+											country = scope:caltha_settler_scope
+											#provinces = {xA2D9B2 xC4F349} todo
+										}	
+									}
+									every_scope_pop = {
+									limit = {
+										culture = cu:kotskarvi
+									}
+									change_pop_culture = {
+										target = cu:illvasaari
+										value = 0.4
+									}
+								}
+									#  scope:caltha_settler_scope = {
+									#  	trigger_event = todo_event
+									#  }
+									}
+									if = {
+										limit = {
+											state_region = s:STATE_SIGARA
+										}
+										random_neighbouring_state = {
+											limit = {
+												owner = {
+													OR = {
+														country_has_primary_culture = cu:kotskarvi
+														country_has_primary_culture = cu:lomarash
+													}
+												}
+											}
+											owner = {
+												save_scope_as = sigara_settler_scope
+											}
+										}
+										s:STATE_SIGARA = {
+											set_owner_of_provinces = {
+												country = scope:sigara_settler_scope
+												#provinces = {xA2D9B2 xC4F349} todo
+											}	
+										}
+										every_scope_pop = {
+										limit = {
+											culture = cu:kotskarvi
+										}
+										change_pop_culture = {
+											target = cu:illvasaari
+											value = 0.4
+										}
+									}
+										#  scope:sigara_settler_scope = {
+										#  	trigger_event = todo_event
+										#  }
+										}
+
+						
+				}
+
 			}
 		}
-	}
+		
+	
 
 # 	ai_chance = {
 # 		base = 15
 # 	}
-}
