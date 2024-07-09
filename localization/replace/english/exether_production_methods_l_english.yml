@@ -166,6 +166,11 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_steel_gizmos: "Iron Gizmos"
   pm_rubber_gizmos: "Steel Gizmos"
   pm_plastic_gizmos: "Godsblood Gizmos"
+  pmg_automation_building_gizmo_workshop: "Automation"
+  pm_watertube_boiler_building_gizmo_workshop: "Watertube Boiler"
+  pm_rotary_valve_engine_building_gizmo_workshop: "Rotary Valve Engine"
+  pm_assembly_lines_building_gizmo_workshop: "Assembly Lines"
+  
   #Potion Industries
   pmg_base_building_potion_distillery: "Brewing Techniques"
   pm_simple_potion_production: "Basic Breweries"
@@ -179,6 +184,11 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_no_cosmetic_potion_production: "No Production"
   pm_base_cosmetic_potion_production: "Standard Luxury Potion Brewing"
   pm_advanced_cosmetic_potion_production: "Advanced Luxury Potion Brewing"
+  pmg_automation_building_potion_distillery: "Automation"
+  pm_watertube_boiler_building_potion_distillery: "Watertube Boiler"
+  pm_rotary_valve_engine_building_potion_distillery: "Rotary Valve Engine"
+  pm_assembly_line_bottling_blubber_building_potion_distillery: "Blubber Bottling"
+  pm_assembly_line_bottling_godsblood_building_potion_distillery: "Godsblood Bottling"
   
   # Food Industry
   pm_live_dough: "Living Dough"
@@ -195,13 +205,14 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   # Grain Farms
   pm_seedspinners: "Seedspinners"
   pm_ricerooters: "Ricerooters"
-  pmg_farms_enhancements: "Farm Enhancements"
+  pmg_farms_enhancements: "Magical Enhancements"
   pm_farms_no_enhancement: "No Enhancement"
   pm_farms_basic_earth_shaping: "Earth Shaping"
   pm_farms_mass_plant_growth: "Magical Plant Growth"
   
   # Ranches
-  pmg_livestock_enhancements: "No Enhancement"
+  pmg_livestock_enhancements: "Magical Enhancements"
+  pm_livestock_no_enhancements: "No Enhancements"
   pm_livestock_fertility_rites: "Fertility Rites"
   pm_livestock_magical_selection: "Magical Selection"
   
@@ -233,7 +244,7 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   # Furniture Manufacturies
   pm_santa_clause_style: "Magical Assemblers"
   pm_mechamagic_workshops: "Mechamagic Workshops"
-  pmg_magical_enhancements_furniture_manufacturies: "Furniture Enhancements"
+  pmg_magical_enhancements_furniture_manufacturies: "Magical Enhancements"
   pm_no_magic_furniture: "No Enhancements"
   pm_permanent_prestidigitation_furniture: "Permanent Prestidigitation"
   
@@ -241,21 +252,8 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_wishstone_trains: "Wishstone Trains"
   pm_godsblood_trains: "Godsblood Trains"
   
-  # Gizmo
-  pmg_automation_building_gizmo_workshop: "Automation"
-  pm_watertube_boiler_building_gizmo_workshop: "Watertube Boiler"
-  pm_rotary_valve_engine_building_gizmo_workshop: "Rotary Valve Engine"
-  pm_assembly_lines_building_gizmo_workshop: "Assembly Lines"
-  
   # Leviathan Outposts
   pm_wooden_leviathan_ships: "Wooden Ships"
-  
-  # Potion Distillery
-  pmg_automation_building_potion_distillery: "Automation"
-  pm_watertube_boiler_building_potion_distillery: "Watertube Boiler"
-  pm_rotary_valve_engine_building_potion_distillery: "Rotary Valve Engine"
-  pm_assembly_line_bottling_blubber_building_potion_distillery: "Blubber Bottling"
-  pm_assembly_line_bottling_godsblood_building_potion_distillery: "Godsblood Bottling"
   
   # Construction Sectors
   pm_early_wishstone_constructed_buildings: "Wishstone Buildings"
