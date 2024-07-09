@@ -212,3 +212,6 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_rotary_valve_engine_building_potion_distillery: Rotary Valve Engine
   pm_assembly_line_bottling_blubber_building_potion_distillery: Blubber Bottling
   pm_assembly_line_bottling_godsblood_building_potion_distillery: Godsblood Bottling
+  
+  # Construction Sectors
+  pm_early_wishstone_constructed_buildings: Wishstone Buildings
