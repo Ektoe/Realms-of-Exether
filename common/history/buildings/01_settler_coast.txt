@@ -651,7 +651,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:THE_CHASM"
+                        country="c:CER"
                         levels=2
                         region="STATE_THE_CHASM"
                    }
