@@ -143,7 +143,7 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pmg_refrigeration_building_seasnake_wharf: "Refrigeration"
   pmg_base_building_leviathan_outpost: "Hunting Methods"
   pm_shore_leviathan_hunting: "Shore Hunting"
-  pm_wooden leviathan_ships: "Repurposed Fishing Boats"
+  pm_wooden_leviathan_ships: "Repurposed Fishing Boats"
   pm_manowar_leviathan_ships: "Repurposed Military Craft"
   pm_steam_leviathan_ships: "Dedicated Leviathan Hunters"
   pmg_rusttails: "Rusttail Fishing"
@@ -166,6 +166,11 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_steel_gizmos: "Iron Gizmos"
   pm_rubber_gizmos: "Steel Gizmos"
   pm_plastic_gizmos: "Godsblood Gizmos"
+  pmg_automation_building_gizmo_workshop: "Automation"
+  pm_watertube_boiler_building_gizmo_workshop: "Watertube Boiler"
+  pm_rotary_valve_engine_building_gizmo_workshop: "Rotary Valve Engine"
+  pm_assembly_lines_building_gizmo_workshop: "Assembly Lines"
+  
   #Potion Industries
   pmg_base_building_potion_distillery: "Brewing Techniques"
   pm_simple_potion_production: "Basic Breweries"
@@ -179,3 +184,76 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_no_cosmetic_potion_production: "No Production"
   pm_base_cosmetic_potion_production: "Standard Luxury Potion Brewing"
   pm_advanced_cosmetic_potion_production: "Advanced Luxury Potion Brewing"
+  pmg_automation_building_potion_distillery: "Automation"
+  pm_watertube_boiler_building_potion_distillery: "Watertube Boiler"
+  pm_rotary_valve_engine_building_potion_distillery: "Rotary Valve Engine"
+  pm_assembly_line_bottling_blubber_building_potion_distillery: "Blubber Bottling"
+  pm_assembly_line_bottling_godsblood_building_potion_distillery: "Godsblood Bottling"
+  
+  # Food Industry
+  pm_live_dough: "Living Dough"
+  pm_monster_powder: "Monster Powder"
+  
+  # Textile Mills
+  pmg_magical_enhancements_building_textile_mills: "Magical Enhancements"
+  pm_no_magic_clothes: "No Magic Clothes"
+  pm_permanent_prestidigitation: "Permanent Prestidigitation"
+  pm_color_spray_guns: "Color Spray Guns"
+  pm_that_scary_ass_shit_from_sleeping_beauty: "Magical Looms"
+  pm_mechamagic_looms: "Mechamagic Looms"
+  
+  # Grain Farms
+  pm_seedspinners: "Seedspinners"
+  pm_ricerooters: "Ricerooters"
+  pmg_farms_enhancements: "Magical Enhancements"
+  pm_farms_no_enhancement: "No Enhancement"
+  pm_farms_basic_earth_shaping: "Earth Shaping"
+  pm_farms_mass_plant_growth: "Magical Plant Growth"
+  
+  # Ranches
+  pmg_livestock_enhancements: "Magical Enhancements"
+  pm_livestock_no_enhancements: "No Enhancements"
+  pm_livestock_fertility_rites: "Fertility Rites"
+  pm_livestock_magical_selection: "Magical Selection"
+  
+  # Mines
+  pm_godsblood_pump_building_iron_mine: "Godsblood Pump"
+  pm_godsblood_pump_building_coal_mine: "Godsblood Pump"
+  pm_godsblood_pump_building_gold_mine: "Godsblood Pump"
+  pm_godsblood_pump_building_sulfur_mine: "Godsblood Pump"
+  pm_godsblood_pump_building_lead_mine: "Godsblood Pump"
+  pm_rockrollers_building_iron_mine: "Rockrollers"
+  pm_rockrollers_building_coal_mine: "Rockrollers"
+  pm_rockrollers_building_gold_mine: "Rockrollers"
+  pm_rockrollers_building_sulfur_mine: "Rockrollers"
+  pm_rockrollers_building_lead_mine: "Rockrollers"
+  
+  # Plantations
+  gizmo_waterwrangler_irrigation_building_dye_plantation: "Seedspewers" #don't worry, I'll name them for you
+  gizmo_waterwrangler_irrigation_building_opium_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_tea_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_tobacco_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_sugar_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_banana_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_silk_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_vineyard_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_cotton_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_wyrmfruit_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_songberry_plantation: "Seedspewers"
+  
+  # Furniture Manufacturies
+  pm_santa_clause_style: "Magical Assemblers"
+  pm_mechamagic_workshops: "Mechamagic Workshops"
+  pmg_magical_enhancements_furniture_manufacturies: "Magical Enhancements"
+  pm_no_magic_furniture: "No Enhancements"
+  pm_permanent_prestidigitation_furniture: "Permanent Prestidigitation"
+  
+  # Trains
+  pm_wishstone_trains: "Wishstone Trains"
+  pm_godsblood_trains: "Godsblood Trains"
+  
+  # Leviathan Outposts
+  pm_wooden_leviathan_ships: "Wooden Ships"
+  
+  # Construction Sectors
+  pm_early_wishstone_constructed_buildings: "Wishstone Buildings"

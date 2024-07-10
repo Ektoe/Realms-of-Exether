@@ -113,7 +113,14 @@ popneed_heating = {
 		max_supply_share = 0.8
 		min_supply_share = 0.0
 	}
-	
+	entry = {
+		goods = blubber
+
+		weight = 3
+		max_supply_share = 1.0
+		min_supply_share = 0.0
+	}
+
 	entry = {
 		goods = oil
 		
@@ -129,6 +136,7 @@ popneed_heating = {
 		max_supply_share = 1.0
 		min_supply_share = 0.0
 	}
+
 }
 
 popneed_household_items = {
@@ -205,8 +213,8 @@ popneed_intoxicants = {
 	entry = {
 		goods = wine
 		
-		weight = 0.5
-		max_supply_share = 0.75
+		weight = 0.25
+		max_supply_share = 0.25
 		min_supply_share = 0.0
 	}
 }
@@ -233,8 +241,8 @@ popneed_luxury_drinks = {
 	entry = {
 		goods = wine
 		
-		weight = 1
-		max_supply_share = 0.75
+		weight = 0.33
+		max_supply_share = 0.33
 		min_supply_share = 0.0
 	}
 
@@ -433,14 +441,6 @@ popneed_leisure = {
 	
 	entry = {
 		goods = radios
-		
-		weight = 1
-		max_supply_share = 0.2
-		min_supply_share = 0.0
-	}
-	
-	entry = {
-		goods = wine
 		
 		weight = 1
 		max_supply_share = 0.2

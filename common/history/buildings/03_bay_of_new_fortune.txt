@@ -556,7 +556,7 @@
 						type="building_financial_district"
 						country="c:YKU"
 						levels=1
-						region=STATE_ANTAQAQA"
+						region="STATE_ANTAQAQA"
 					}
 				}
 				reserves=1
