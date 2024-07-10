@@ -212,7 +212,7 @@ SSC = {
 	tier = kingdom
 
 	religion = cult_of_the_sun
-	cultures = { dumonian }
+	cultures = { vystemian }
 	capital = STATE_GANDNI
 }
 

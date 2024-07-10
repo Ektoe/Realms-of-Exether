@@ -613,8 +613,7 @@
 				size = 184400
 			}
 			create_pop = {
-				culture = dumonian
-				religion = cult_of_the_sun
+				culture = vystemian
 				size = 48000
 			}
 			create_pop = {
@@ -649,13 +648,8 @@
 				size = 132000
 			}
 			create_pop = {
-				culture = dumonian
-				religion = cult_of_the_sun
-				size = 4000
-			}
-			create_pop = {
-				culture = avalorean
-				size = 25000
+				culture = vystemian
+				size = 29200
 			}
 			create_pop = {
 				culture = navrozdok
@@ -680,13 +674,8 @@
 				size = 108000
 			}
 			create_pop = {
-				culture = dumonian
-				size = 44100
-			}
-			create_pop = {
-				culture = dumonian
-				religion = cult_of_the_sun
-				size = 95508
+				culture = vystemian
+				size = 139608
 			}
 		}
 	}
@@ -726,8 +715,7 @@
 				size = 271804
 			}
 			create_pop = {
-				culture = dumonian
-				religion = cult_of_the_sun
+				culture = vystemian
 				size = 10192
 			}
 			create_pop = {
@@ -933,7 +921,7 @@
 				size = 353400
 			}
 			create_pop = {
-				culture = avalorean
+				culture = vystemian
 				size = 12200
 			}
 			create_pop = {
@@ -1099,8 +1087,7 @@
 				size = 4500
 			}
 			create_pop = {
-				culture = dumonian
-				religion = cult_of_the_sun
+				culture = vystemian
 				size = 1000
 			}
 			create_pop = {
