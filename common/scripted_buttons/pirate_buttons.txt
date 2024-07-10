@@ -8,16 +8,16 @@ pirate_start_raids_button = {
     }
     possible = {
         AND = {
-           # 0 > {
-            #    value = c:DUM.navy_size
-			#    add = c:COV.navy_size
-		    #	add = c:SSC.navy_size
-			#    multiply = 0.25
-			#    subtract = 1
-			#    subtract = c:BTR.navy_size
-			#    subtract = c:IMA.navy_size
-			#    subtract = c:CCO.navy_size
-            #}
+            0 > {
+                value = c:DUM.navy_size
+			    add = c:COV.navy_size
+		    	add = c:SSC.navy_size
+			    multiply = 0.25
+			    subtract = 1
+			    subtract = c:BTR.navy_size
+			    subtract = c:IMA.navy_size
+			    subtract = c:CCO.navy_size
+            }
             NOT = {
                 has_variable = pirates_raiding
             }
@@ -25,7 +25,7 @@ pirate_start_raids_button = {
     }
 
     effect = {
-        IF {
+        if = {
             limit ={
                 NOT = {
                     has_variable = first_raid_done
