@@ -20,3 +20,128 @@
 	min_value = 0
 	max_value = 1000000
 }
+
+dragonblight_vaccine_progress_bar = {
+	name = "communism_1_progress_bar"
+	desc = "communism_1_progress_bar_desc"
+
+	default_bad = yes
+
+	monthly_progress = {
+		if = {
+			owner = {
+			limit = {
+					literacy_rate >= 0.15
+			}
+			add = {
+				desc = "dragon_vaccine_progress_from_literacy_tt"
+						add = this.literacy_rate
+			}
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					ig:ig_intelligentsia = {
+						ig_clout > 0.1
+					}
+				}
+			}
+			add = {
+				desc = "dragon_vaccine_progress_from_intelligentsia_tt"
+				owner = {
+					ig:ig_intelligentsia = {
+						add = this.ig_clout
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = owner.var:communism_progress_from_poverty
+				owner.var:communism_progress_from_poverty > 0
+			}
+			add = {
+				desc = "communism_progress_from_poverty_tt"
+				value = owner.var:communism_progress_from_poverty
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					any_scope_character = {
+						OR = {
+							has_ideology = ideology:ideology_communist
+							has_ideology = ideology:ideology_vanguardist
+							has_ideology = ideology:ideology_anarchist
+						}
+					}
+				}
+			}
+			add = {
+				desc = "communism_progress_from_characters_tt"
+				owner = {
+					every_scope_character = {
+						limit = {
+							OR = {
+								has_ideology = ideology:ideology_communist
+								has_ideology = ideology:ideology_vanguardist
+								has_ideology = ideology:ideology_anarchist
+							}
+						}
+						add = this.popularity
+						divide = 100
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+					ig:ig_intelligentsia = {
+						is_in_government = yes
+					}
+					OR = {
+						has_law = law_type:law_technocracy
+						has_law = law_type:law_appointed_bureaucrats
+					}
+				}
+			}
+			add = {
+				desc = "dragon_vaccine_progress_from_bureaucrats_tt"
+				owner = {
+						add = 0.15
+				}
+			}
+		}
+		if = {
+			limit = {
+				exists = owner.var:communism_progress_from_laws
+				NOT = {  
+					owner.var:communism_progress_from_laws = 0
+				}
+			}
+			add = {
+				desc = "communism_progress_from_laws_tt"
+				value = owner.var:communism_progress_from_laws
+			}
+		}
+		if = {
+			limit = {
+				exists = owner.var:communism_progress_var_add
+				NOT = {  
+					owner.var:communism_progress_var_add = 0
+				}
+			}
+			add = {
+				desc = "communism_progress_from_events_tt"
+				value = owner.var:communism_progress_var_add
+			}
+		}
+	}
+
+	start_value = 0
+	min_value = 0
+	max_value = 100
+
+ }
