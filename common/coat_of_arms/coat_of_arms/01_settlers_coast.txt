@@ -400,3 +400,21 @@ FTH = {
 
 	
 }
+
+BRB	 = {
+	pattern = "pattern_border_triangles.dds"
+	color1 = "blue_light"
+	color2 = "grey"
+	color3 = "red_light"
+	
+	colored_emblem = {
+		texture = "ce_bicolor_top.dds"
+		color1 = "grey"
+		instance = { scale = { 0.87 0.85 } position = { 0.5 0.5 } }	
+	}	
+	colored_emblem = {
+		texture = "ce_cup.dds"
+		color1 = "yellow"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }	
+	}	
+}
