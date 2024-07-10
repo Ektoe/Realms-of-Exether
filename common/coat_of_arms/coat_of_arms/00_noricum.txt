@@ -274,42 +274,7 @@ ABR = {
 	
 }
 
-COV = {
-	pattern = "pattern_solid.tga"
-	color1 = "red"
 
-	colored_emblem = {
-		texture = "ce_frame_square.dds"
-		color1 = "green_light"
-		instance = { scale = { 1 2 } position = { 0.7 1.15 }  rotation = 63 }	
-	}	
-
-	colored_emblem = {
-		texture = "ce_crancelin.dds"
-		color1 = "yellow"
-		color2 = "brown"
-		color3 = "brown"
-		instance = { scale = { -1 1 } position = { 0.5 0.5 } }	
-	}	
-
-	colored_emblem = {
-		texture = "ce_roe_dumonian_dragon.dds"
-		color1 = "yellow"
-		color2 = "orange"
-		instance = { scale = { 0.3 0.3 } position = { 0.2 0.25 } }	
-	}
-
-	colored_emblem = {
-		texture = "ce_roe_crocodile.dds"
-		color1 = "white"
-		color2 = "orange"
-		color3 = "black"
-		instance = { scale = { 0.4 0.4 } position = { 0.745 0.725 } }	
-	}
-
-
-	
-}
 
 RVC = {
 	pattern = "pattern_solid.tga"
