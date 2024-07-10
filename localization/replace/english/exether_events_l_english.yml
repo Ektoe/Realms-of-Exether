@@ -5,3 +5,8 @@
 
   newspaper_toggle.1.a: "Turn the newspaper on"
   newspaper_toggle.1.b: "Turn the newspaper off"
+
+  pirate_raid.1.t: "Pilfering Treasures"
+  pirate_raid.1.d: "With our combined efforts, the ravager fleets were able to execute an attack on a Dumonian gold fleet as it anchored off the shores of the Coves. The ships and cargo have been seized. The former will be pressed into service, the latter is filling our coffers."
+  pirate_raid.1.f: "Nobody saw the small boats approach the fleet in the depth of the night. By the time the alarm was raised, the escort detail had already been brought to heel. Faced with a Bonetider's pistol at her temple and with her marines caught off-guard, the captain was forced to make the prudent choice of relinquishing her command and open the magically locked cargo containers in exchange for the crewmembers' lives. As the Dumonians paddled their way to the distant lights of the Cove Colony, the pirates beheld the neatly stacked bars of gold. Each one stamped with the sigil of the South Sea Company. The Emperor would not be amused."
+  pirate_raid.1.a: "Gold for the treasury, ships for the fleet!"

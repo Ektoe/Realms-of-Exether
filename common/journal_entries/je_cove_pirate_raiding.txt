@@ -1,0 +1,55 @@
+je_cove_pirate_raiding = {
+
+	icon = "gfx/interface/icons/event_icons/event_diplomacy.dds"
+	group = je_group_historical_content
+
+	scripted_button = pirate_start_raids_button
+
+	should_be_pinned_by_default = yes
+	
+	is_shown_when_inactive = {
+	
+		exists = c:BTR
+		exists = c:IMA
+		exists = c:CCO
+	}
+
+	immediate = {
+
+	}
+
+	possible = {
+		OR {
+			AND = {
+				root = c:BTR
+				c:BTR = {
+					is_player = yes
+				}
+				
+			}
+			AND = {
+				root = c:IMA
+				c:IMA = {
+					is_player = yes
+				}
+			}
+			AND = {
+				root = c:CCO
+				c:CCO = {
+					is_player = yes
+				}
+			}
+			
+		}	
+		AND {
+			OR {
+				c:COV = {
+					is_subject_of = c:DUM
+				}
+				c:SSC = {
+					is_subject_of = c:DUM
+				}
+			}
+		}
+	}
+}

@@ -7,3 +7,8 @@
   union_of_the_sands_progress_bar_vozmead_desc: "[GetGlobalVariable('vozmead_gdp').GetValue|D]#!"
   union_of_the_sands_progress_bar_yavira_gdp: "[GetGlobalVariable('yavira_scope').GetCountry.GetName] GDP"
   union_of_the_sands_progress_bar_vozmead_gdp: "[GetGlobalVariable('vozmead_scope').GetCountry.GetName] GDP"
+  je_cove_pirate_raiding: "The Scaletide Harvest"
+  je_cove_pirate_raiding_reason: "The Empire of Dunomia gazes south. But in it's greed, it has dismissed our presence. Muster our fleets and send word to our fellow ravagers, it is time to make the Empire bleed!"
+  je_cove_pirate_raiding_status: "The Empire and it's lackeys have us heavily outnumbered. We are limited to small raids until we can regain the upper hand."
+  pirate_start_raids_button_name: "Intensify Raids!"
+  pirate_start_raids_button_desc: "We have gathered enough flotillas to put real hurt on the complacent Dunomians. Set Sail!"

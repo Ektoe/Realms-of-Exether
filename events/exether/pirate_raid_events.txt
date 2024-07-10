@@ -1,0 +1,85 @@
+namespace = pirate_raid
+
+#Kicking off the raids!
+pirate_raid.1 = {
+    type = country_event
+    placement = root
+    
+    title = pirate_raid.1.t
+    desc = pirate_raid.1.d
+    flavor = pirate_raid.1.f
+
+    immediate = {
+        s:STATE_MERCHANT_BAY = {
+            random_scope_state = {
+                save_scope_as = victim_state
+            }
+        }
+        c:DUM = {
+            save_scope_as = empire_scope
+        }
+        
+        root.capital = {
+            state_region = {
+                save_scope_as = capital_state  
+            }
+        }
+        
+        
+    }
+
+    trigger = {
+        #triggered by raiding JE
+    }
+
+    option = {
+        name = pirate_raid.1.a
+        default_option = yes
+        
+        root = {
+            add_treasury = 50000
+            create_military_formation = {
+                name = "The Pilfered Treasures"
+                type = fleet
+                hq_region = sr:region_elusive_coves
+                combat_unit = {
+                    type = unit_type:combat_unit_type_frigate
+                    state_region = scope:capital_state
+                    count = 4
+                }
+                combat_unit = {
+                    type = unit_type:combat_unit_type_man_o_war
+                    state_region = scope:capital_state
+                    count = 1
+                }
+            }
+        }
+        scope:empire_scope = {
+            trigger_event = {
+                id = pirate_raid.11 
+                days = 7
+            }
+        }
+    }
+}
+
+#Dumonia learning about being raided
+pirate_raid.11 = {
+    type = country_event
+    placement = root
+    
+    title = pirate_raid.11.t
+    desc = pirate_raid.11.d
+    flavor = pirate_raid.11.f
+
+    option = {
+        name = pirate_raid.11.a
+        scope:victim_state = {
+            add_radicals_in_state = {
+                value = 0.4
+                strata = rich
+            }
+        }
+        add_treasury = -80000
+    }
+}
