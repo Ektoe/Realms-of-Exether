@@ -512,7 +512,7 @@ STATE_LEPTARIA = {
 STATE_OYSSARA = {
     id = 3721
     subsistence_building = "building_subsistence_fishing_villages"
-    provinces = { "x47DDE3" "x7ADADD" "x9390F6" "x9AB8D4" "xABFDE3" "xC78CDB" "xDBDECA" "xE5DFB9" }
+    provinces = { "x47DDE3" "x61D8BD" "x7ADADD" "x9390F6" "x9AB8D4" "xABFDE3" "xAFE4F8" "xC78CDB" "xDBDECA" "xE5DFB9" }
     city = x47DDE3
     wood = x7ADADD
     farm = x9390F6
@@ -669,25 +669,6 @@ STATE_LEPIDRA = {
     }
     naval_exit_id = 3052
 }
-STATE_HADRIA = {
-    id = 4731
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x61D8BD" "x9A9ADB" "x9EF2DB" "xAFE4F8" "xB9FDEB" "xCBCCF5" "xCCA6B8" "xE742D9" "xE9F5F1" "xF9AEE6" }
-    city = x61D8BD
-    wood = x9A9ADB
-    farm = x9EF2DB
-    mine = xAFE4F8
-    port = xB9FDEB
-    arable_land = 26
-    arable_resources = { "bg_livestock_ranches" "bg_rye_farms" "bg_tobacco_plantations" }
-    capped_resources = {
-        bg_logging = 7
-        bg_fishing = 6
-        bg_lead_mining = 20
-        bg_squidding = 4
-    }
-    naval_exit_id = 3089
-}
 STATE_ZARTHOS = {
     id = 3731
     subsistence_building = "building_subsistence_farms"
@@ -726,18 +707,20 @@ STATE_MYSARA = {
 STATE_CYRRA = {
     id = 3733
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x56F9CA" "x5FC4D2" "xA0AECC" "xA892F0" "xA981FD" "xB3C5F6" "xBDC7DD" "xC9D5CD" "xCCEF4C" "xD953E3" "xE560FB" "xF8F2BE" "xFEA38A" }
+    provinces = { "x56F9CA" "x5FC4D2" "x9A9ADB" "x9EF2DB" "xA0AECC" "xA892F0" "xA981FD" "xB3C5F6" "xB9FDEB" "xBDC7DD" "xC9D5CD" "xCBCCF5" "xCCA6B8" "xCCEF4C" "xD953E3" "xE560FB" "xE742D9" "xE9F5F1" "xF8F2BE" "xF9AEE6" "xFEA38A" }
     city = x56F9CA
     wood = x5FC4D2
     farm = xA0AECC
     mine = xA892F0
     port = xA981FD
-    arable_land = 21
+    arable_land = 47
     arable_resources = { "bg_livestock_ranches" "bg_rye_farms" }
     capped_resources = {
-        bg_logging = 14
-        bg_fishing = 4
-        bg_squidding = 6
+        bg_logging = 21
+        bg_fishing = 10
+        bg_squidding = 10
+        bg_lead_mining = 20
+        bg_wishstone_mining = 15
     }
     naval_exit_id = 3089
 }

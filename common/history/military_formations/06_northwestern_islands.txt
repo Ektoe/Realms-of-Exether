@@ -165,7 +165,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_HADRIA
+				state_region = s:STATE_CYRRA
 				count = 1
 			}
 			save_scope_as = kva_army
@@ -186,7 +186,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_HADRIA
+				state_region = s:STATE_CYRRA
 				count = 3
 			}
 			save_scope_as = kva_fleet

@@ -3297,7 +3297,7 @@
 			activate_production_methods={ "pm_scholastic_education" }
 		}
 		create_building={
-			building="building_observatory
+			building="building_observatory"
 			level=1
 			reserves=1
 			activate_production_methods={ "pm_enchanted_orreys" }
@@ -6090,9 +6090,40 @@
 		}
 	}
   }
-  s:STATE_STILTEBRUZJE = {
+ 
+  s:STATE_SINNEBRAN = {
 	region_state:SEE={
-            create_building={
+			create_building={
+			building="building_wheat_farm"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:SEE"
+						levels=1
+						region="STATE_SINNEBRAN"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondary" }
+		}
+	}
+  }
+  s:STATE_SKIMERWALD = {
+	region_state:SEE={
+			create_building={
+			building="building_livestock_ranch"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:DRI"
+						levels=1
+						region="STATE_FLUSTERBEEK"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+		}
+		create_building={
 			building="building_furniture_manufacturies"
                 add_ownership={ 
                     building={ 
@@ -6146,40 +6177,6 @@
 		}
 	}
   }
-  s:STATE_SINNEBRAN = {
-	region_state:SEE={
-			create_building={
-			building="building_wheat_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:SEE"
-						levels=1
-						region="STATE_SINNEBRAN"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondary" }
-		}
-	}
-  }
-  s:STATE_SKIMERWALD = {
-	region_state:SEE={
-			create_building={
-			building="building_livestock_ranch"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:DRI"
-						levels=1
-						region="STATE_FLUSTERBEEK"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
-		}
-	}
-  }
   s:STATE_STREAMFLAMME = {
 
   }
@@ -6209,7 +6206,7 @@
                         type="building_tavern"
                         country="c:SEE"
                         levels=1
-                        region="STATE_STILTEBRUZJE"
+                        region="STATE_SKIMERWALD"
                    }
                 }
 			reserves=1

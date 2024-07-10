@@ -1594,22 +1594,7 @@
 			}
 		}
 	}
-	s:STATE_HADRIA = {
-		region_state:KVA = {
-			create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_organization" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
-	}
+
 	s:STATE_ZARTHOS = {
 		region_state:DIS={
             create_building={
@@ -1723,6 +1708,18 @@
                 }
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
