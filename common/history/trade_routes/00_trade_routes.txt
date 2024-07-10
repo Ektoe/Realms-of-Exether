@@ -470,7 +470,6 @@
 			direction = export
 			target = c:DUM.market
 		}
-	}
 		create_trade_route = {
 			goods = dye
 			level = 4
