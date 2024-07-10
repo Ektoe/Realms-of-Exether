@@ -27,5 +27,9 @@
 			add_ruling_interest_group = yes
 		}
 
+		# trigger_event = {
+		# 	id = dragonblight.1
+		# }
+
 	}
 }

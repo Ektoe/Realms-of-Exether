@@ -22,6 +22,14 @@
 
 	on_monthly_pulse = {
 		effect = {
+			every_scope_state = {
+				limit = {
+					owner = root
+					NOT = { 
+						has_modifier = dragon_sickhouses
+						has_decree = special_measures
+					 }
+				}
 			every_scope_pop = {
 				limit = {
 					culture = cu:illvasaari
@@ -31,6 +39,7 @@
 					value = 0.00145 # je failure graph y = 0.998755^x where y = proportion of dragonborn population and x = months from start
 				}
 			}
+		}
 			every_scope_state = {
 				limit = {
 					has_modifier = modifier_active_dragonblight_outbreak
@@ -63,7 +72,7 @@
 				has_modifier = modifier_active_dragonblight_outbreak
 			}
 		}
-		has_variable = dragonblight_cured #todo
+		has_variable = dragonblight_vaccine #todo
 	}	
 
 	on_complete = {

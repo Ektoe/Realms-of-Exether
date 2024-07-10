@@ -1,25 +1,35 @@
 ﻿namespace = dragonblight
 
-# dragonblight.1 = { #meant to be yearly for all states
-# 	type = country_event
-# 	placement = ROOT
+dragonblight.1 = {
+	type = country_event
+	placement = root
+	title = dragonblight.1.t
+	desc = dragonblight.1.d
+	flavor = dragonblight.1.f
 
-# 	hidden = yes
-# 	trigger = {
-# 	}
+	duration = 3
 
-# 	immediate = {
-# 			every_scope_pop = {
-# 				limit = {
-# 					culture = cu:illvasaari
-# 				}
-# 				change_pop_culture = {
-# 					target = cu:kotskarvi
-# 					value = 0.015
-# 				}
-# 			}	
-# 	}
-# }
+	event_image = {
+		video = "unspecific_factory_closed"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		add_journal_entry = {
+			type = je_dragonblight
+		}
+	}
+
+	option = {
+		name = dragonblight.1.a
+	}
+}
 
 # dragonblight.2 = { #outbreaks states receive this event + the other one for 5% total
 # 	type = country_event
@@ -330,7 +340,7 @@
 			
 				trigger = { #todo add dragonblight cure
 				NOT = {
-					has_variable = dragonblight_cured
+					has_variable = dragonblight_vaccine
 				}
 				}	
 
@@ -536,7 +546,7 @@
 			
 				trigger = {
 					has_institution = institution_health_system
-					has_variable = dragonblight_cured
+					has_variable = dragonblight_vaccine
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
 								has_decree = special_decree
@@ -578,7 +588,7 @@
 			
 				trigger = {
 
-					has_variable = dragonblight_cured
+					has_variable = dragonblight_vaccine
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
 								has_decree = special_decree
@@ -620,7 +630,7 @@
 			
 				trigger = {
 
-					has_variable = dragonblight_cured
+					has_variable = dragonblight_vaccine
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
 						}
