@@ -330,7 +330,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" }
 		}
             create_building={
 			building="building_logging_camp"
@@ -434,14 +434,14 @@
 			building="building_textile_mills"
                              add_ownership={ 
                                        building={ 
-                                               type="building_financial_district"
+                                               type="building_manor_house"
                                                country="c:CER"
-                                               levels=2
-                                               region="STATE_SAINT_MER"
+                                               levels=1
+                                               region="STATE_LANDING_AT_SEA_2"
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" }
 		}
                         create_building={
 			building="building_food_industry"
@@ -1112,7 +1112,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" }
+			activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" }
 		}
 			create_building={
 			building="building_wheat_farm"
