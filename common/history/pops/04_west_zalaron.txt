@@ -1290,12 +1290,14 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = jungle_gnoll
-				size = 65737
+				culture = gnoll
+				size = 83379
 			}
 			create_pop = {
-				culture = jungle_gnoll
-				size = 77642
+				pop_type = slaves
+				culture = gnoll
+				religion = gnollsuncult
+				size = 78468
 			}
 			create_pop = {
 				culture = west_lacertian
@@ -1303,23 +1305,34 @@
 			}
 			create_pop = {
 				culture = cithrel
-				size = 3646
+				size = 13646
 			}
 		}
   }
   s:STATE_CHANGAVUTA = {
 		region_state:SNB = {
 			create_pop = {
-				culture = jungle_gnoll
-				size = 162000
+				pop_type = slaves
+				culture = gnoll
+				size = 112000
+			}
+			create_pop = {
+				pop_type slaves
+				culture = gnoll
+				religion = gnollsuncult
+				size = 62002
 			}
 			create_pop = {
 				culture = pabardian
 				size = 5792
 			}
 			create_pop = {
+				culture = cithrel
+				size = 13646
+			}
+			create_pop = {
 				culture = west_lacertian
-				size = 19796
+				size = 39796
 			}
 		}
   }
@@ -1351,9 +1364,15 @@
 			size = 390000
 		}
 		create_pop = {
+				culture = gnoll
+				religion = elf_southern
+				size = 122000
+			}
+			create_pop = {
 				pop_type = slaves
-				culture = jungle_gnoll
-				size = 2000
+				culture = equatorial_gnoll
+				religion = elf_southern
+				size = 13547
 			}
 	}
   }
@@ -1516,6 +1535,7 @@
 			}
 			create_pop = {
 				culture = jungle_gnoll
+				religion = orc_father
 				size = 231816
 			}
 		}
@@ -1574,6 +1594,7 @@
 		}
 		create_pop = {
 			culture = jungle_gnoll
+			religion = orc_father
 			size = 21544
 		}
 		create_pop = {
@@ -1584,6 +1605,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = jungle_gnoll
+			religion = orc_father
 			size = 4000
 		}
 		create_pop = {
@@ -1614,6 +1636,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = gnoll
+			religion = orc_father
 			size = 4000
 		}
 	}
@@ -1630,6 +1653,7 @@
 		}
 		create_pop = {
 			culture = jungle_gnoll
+			religion = orc_father
 			size = 204804
 		}
 		create_pop = {
@@ -1640,6 +1664,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = jungle_gnoll
+			religion = orc_father
 			size = 4000
 		}
 		create_pop = {
@@ -1662,6 +1687,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = gnoll
+			religion = orc_father
 			size = 8000
 		}
 	}
@@ -3658,6 +3684,7 @@
 			}
 			create_pop = {
 				culture = gnoll
+				religion = orc_father
 				size = 26172
 			}
 			create_pop = {
