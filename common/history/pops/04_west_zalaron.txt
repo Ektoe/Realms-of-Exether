@@ -3235,14 +3235,6 @@
 		}
 	}
   }
-  s:STATE_SKIMERSFJILD = {
-	region_state:BUT = {
-		create_pop = {
-			culture = waldgnomklaai
-			size = 59002
-		}
-	}
-  }
   s:STATE_FLUSTERBEEK = {
 	region_state:DRI = {
 		create_pop = {
@@ -3303,7 +3295,7 @@
 	region_state:BUT = {
 		create_pop = {
 			culture = waldgnomklaai
-			size = 60100
+			size = 129100
 		}
 	}
   }

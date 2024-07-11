@@ -5960,9 +5960,6 @@
 		}
 	}
   }
-  s:STATE_SKIMERSFJILD = {
-
-  }
   s:STATE_FLUSTERBEEK = {
 	region_state:DRI={
 		create_building={

@@ -875,11 +875,11 @@
   HUB_NAME_STATE_BLOEIJENDREAM_port: "Paesens-Moddergat"
 
 
-  HUB_NAME_STATE_SKIMERSFJILD_city: "Mulksted"
-  HUB_NAME_STATE_SKIMERSFJILD_farm: "Aappelfjild"
-  HUB_NAME_STATE_SKIMERSFJILD_mine: "Steinekole"
-  HUB_NAME_STATE_SKIMERSFJILD_wood: "Skimerswald"
-  HUB_NAME_STATE_SKIMERSFJILD_port: "Hymelhyamel"
+  # HUB_NAME_STATE_SKIMERSFJILD_city: "Mulksted"
+  # HUB_NAME_STATE_SKIMERSFJILD_farm: "Aappelfjild"
+  # HUB_NAME_STATE_SKIMERSFJILD_mine: "Steinekole"
+  # HUB_NAME_STATE_SKIMERSFJILD_wood: "Skimerswald"
+  # HUB_NAME_STATE_SKIMERSFJILD_port: "Hymelhyamel"
 # gnomes frisian
   HUB_NAME_STATE_FLUSTERBEEK_city: "Stêdsgea"
   HUB_NAME_STATE_FLUSTERBEEK_farm: "Bûtenfjild"
