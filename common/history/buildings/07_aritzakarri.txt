@@ -406,7 +406,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" }
 		}
             create_building={
 			building="building_fishing_wharf"
@@ -942,7 +942,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" }
 		}
 			create_building={
 			building="building_livestock_ranch"
@@ -985,7 +985,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" }
 		}
 			create_building={
 			building="building_livestock_ranch"
