@@ -1983,7 +1983,7 @@ thiralian={
 	religion = rose_court
 	traits = { east_zalar_culture_group human_heritage }
 	obsessions = {
-		wine
+		luxury_clothes
 	}
 	male_common_first_names={
 		Amos Anatole Aaron Augustin Achille

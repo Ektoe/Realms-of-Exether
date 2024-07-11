@@ -3331,14 +3331,6 @@
 		}
 	}
   }
-  s:STATE_STILTEBRUZJE = {
-	region_state:SEE = {
-		create_pop = {
-			culture = stranfolk
-			size = 238172
-		}
-	}
-  }
   s:STATE_SINNEBRAN = {
 	region_state:SEE = {
 		create_pop = {
@@ -3351,7 +3343,7 @@
 	region_state:SEE = {
 		create_pop = {
 			culture = stranfolk
-			size = 226330
+			size = 466330
 		}
 	}
   }
