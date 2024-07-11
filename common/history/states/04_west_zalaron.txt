@@ -1363,14 +1363,6 @@ s:STATE_BLOEIJENDREAM = {
 add_homeland = cu:stranfolk
 }
 
-s:STATE_SKIMERSFJILD = {
-	create_state = {
-		country = c:BUT
-		owned_provinces = { "x55E0DF" "x76BBCB" "x7DD8F5" "xA8E8AE" "xAE88C9" "xE6EA36" "xFBF91C" "xFC37EB" "xFEBBF3" }
-}
-add_homeland = cu:waldgnomklaai
-}
-
 s:STATE_FLUSTERBEEK = {
 	create_state = {
 		country = c:DRI
@@ -1430,7 +1422,7 @@ add_homeland = cu:waldgnomklaai
 s:STATE_FLINTERWIIDTE = {
 	create_state = {
 		country = c:BUT
-		owned_provinces = { "x5EEEDA" "x6FFAAE" "xC1E161" "xC987F8" "xD0A3AA" "xE4E283" "xE7F5AD" "xF480EC" "xF6D9CE" }
+		owned_provinces = { "x55E0DF" "x5EEEDA" "x6FFAAE" "x76BBCB" "x7DD8F5" "xA8E8AE" "xAE88C9" "xC1E161" "xC987F8" "xD0A3AA" "xE4E283" "xE6EA36" "xE7F5AD" "xF480EC" "xF6D9CE" "xFBF91C" "xFC37EB" "xFEBBF3" }
 }
 add_homeland = cu:waldgnomklaai
 }
@@ -1454,15 +1446,7 @@ add_homeland = cu:waldgnomklaai
 s:STATE_NACHTSIMMER = {
 	create_state = {
 		country = c:SEE
-		owned_provinces = { "x5CEEB4" "xA3C9EA" "xCA7AC1" "xD5BAE6" "xDDCBD9" "xEF14F9" "xF78E9C" "xF852B0" }
-}
-add_homeland = cu:stranfolk
-}
-
-s:STATE_STILTEBRUZJE = {
-	create_state = {
-		country = c:SEE
-		owned_provinces = { "x8EEFB0" "x95EAEC" "x98A3F9" "x9BD890" "xB2BABD" "xC2E64D" "xD09BA9" "xD1D4DB" }
+		owned_provinces = { "x5CEEB4" "x8EEFB0" "xA3C9EA" "xCA7AC1" "xD5BAE6" "xDDCBD9" "xEF14F9" "xF78E9C" "xF852B0" }
 }
 add_homeland = cu:stranfolk
 }
@@ -1478,7 +1462,7 @@ add_homeland = cu:stranfolk
 s:STATE_SKIMERWALD = {
 	create_state = {
 		country = c:SEE
-		owned_provinces = { "x4CDFD8" "x9CC6CA" "xD285EE" "xE2B5EB" "xF2F8DF" "xFB4BF8" }
+		owned_provinces = { "x4CDFD8" "x95EAEC" "x98A3F9" "x9BD890" "x9CC6CA" "xB2BABD" "xC2E64D" "xD09BA9" "xD1D4DB" "xD285EE" "xE2B5EB" "xF2F8DF" "xFB4BF8" }
 }
 add_homeland = cu:stranfolk
 }
