@@ -698,7 +698,7 @@ STATE_DRUMAGAR = {
     capped_resources = {
         bg_logging = 1
         bg_fishing = 5
-        bg_wishstone_mining = 16 
+        bg_wishstone_mining = 16
     }
     naval_exit_id = 3039
 }

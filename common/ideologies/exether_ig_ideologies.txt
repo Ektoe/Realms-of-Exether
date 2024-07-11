@@ -102,7 +102,7 @@ ideology_pious_light = {
 	}
 }
 
-ideology_pious_inventor = {
+ideology_pious_inventors = {
 	icon = "gfx/interface/icons/ideology_icons/pious.dds"
 
 	lawgroup_education_system = {
