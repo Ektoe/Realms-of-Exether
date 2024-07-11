@@ -643,18 +643,18 @@ building_wizard_tower = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
-building_tavern = {
-	building_group = bg_taverns
+building_adventuring_guild = {
+	building_group = bg_adventuring_guilds
 	city_type = city
 	levels_per_mesh = 10
 
 	lens = infrastructure
 
-	texture = "gfx/interface/icons/building_icons/tavern.dds"
+	texture = "gfx/interface/icons/building_icons/adventuring_guild.dds"
 
 	production_method_groups = {
-		pmg_ownership_building_tavern
-		pmg_additional_ownership_building_tavern
+		pmg_ownership_building_adventuring_guild
+		pmg_additional_ownership_building_adventuring_guild
 	}
 	
 	investment_scores = {
@@ -709,8 +709,8 @@ building_tavern = {
 				}				
 			}
 		}
-		bg_adventuring = {
-			group = "bg_adventuring"
+		bg_entertainment = {
+			group = "bg_entertainment"
 			score = {
 				value = 3	
 			}
