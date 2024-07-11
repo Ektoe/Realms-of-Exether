@@ -3,7 +3,7 @@
 khanaruk = {
 	color= rgb{ 74 125 155 }
 	religion = hobgoblin_faith
-	traits = { kharai_urchu_culture_group goblin_heritage hobgoblin }
+	traits = { kharai_urchu_culture_group hobgoblin goblin_heritage }
 	obsessions = {
 		porcelain
 	}
@@ -61,7 +61,7 @@ khanaruk = {
 batukai = {
 	color= rgb{ 74 125 155 }
 	religion = hobgoblin_faith
-	traits = { kharai_urchu_culture_group goblin_heritage hobgoblin }
+	traits = { kharai_urchu_culture_group hobgoblin goblin_heritage }
 	male_common_first_names={
 		Aritomo
 		Gentaro
@@ -896,7 +896,7 @@ morevnamarya = {
 rethrashar = {
 	color= hsv{ 0.10 0.30 0.44 }
 	religion = goblin_faith
-	traits = { goblin_heritage gavkhani_culture_group }
+	traits = { gavkhani_culture_group goblin_heritage }
 	male_common_first_names={
 		Afanasiy
 		Aleksandr

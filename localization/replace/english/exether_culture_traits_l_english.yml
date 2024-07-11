@@ -16,6 +16,7 @@
   mechanical_heritage: "Mechanical Heritage"
   hippo_heritage: "Giff Heritage"
   monstrous_heritage: "Monstrous Heritage"
+  ogre_heritage: "Ogre Heritage"
   naga: "Naga"
   beast: "Beast"
   awakened: "Awakened Fauna"
@@ -34,7 +35,13 @@
   nogi_culture_group: "Nogi"
   settler_coast_culture_group: "Settler Coast"
   noric_culture_group: "Noric"
+  west_zalar_culture_group: "West Zalar" #will probably crack these up at some point
+  east_zalar_culture_group: "East Zalar" ##maybe rename
+  everfrostern_culture_group: "Everfrostern"
+  kailan_culture_group: "Kailan"
   vairia_culture_group: "Varinath"
+  hasalian: "Hasalian"
+  toftirite_culture_group: "Toftirite"
   southern_elf: "South Sea Elf"
   wood_gnome: "Wood Gnome"
   hobgoblin: "Hobgoblin"
@@ -43,3 +50,5 @@
   half_elf: "Half-Elf"
   cloud_dwarf: "Cloud Dwarf"
   tunnel_cursed: "Tunnel Cursed"
+  hobgoblin: "Hobgoblin"
+  nomadic: "Nomadic"

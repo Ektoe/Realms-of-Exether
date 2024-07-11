@@ -123,14 +123,6 @@ pmg_liquortrees = {
 	}
 }
 
-pmg_cloudsilver_roots = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_regional_logging
-		pm_cloudsilver_roots
-	}
-}
-
 pmg_base_building_haunted_grounds = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {

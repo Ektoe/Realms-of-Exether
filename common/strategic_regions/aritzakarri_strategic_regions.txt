@@ -1,4 +1,4 @@
-﻿region_placeholder= {
+﻿region_kartak= {
 	graphical_culture = "asian"
 	capital_province = xF7D5D4
 	map_color = { 0.7 0.7 0.8 }

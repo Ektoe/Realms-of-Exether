@@ -698,7 +698,7 @@ STATE_DRUMAGAR = {
     capped_resources = {
         bg_logging = 1
         bg_fishing = 5
-        bg_wishstone_mining = 16 
+        bg_wishstone_mining = 16
     }
     naval_exit_id = 3039
 }
@@ -2020,7 +2020,7 @@ STATE_SOLVIK = {
     farm = x8FC0B7
     mine = xB083D5
     port = xCB84C6
-    arable_land = 18
+    arable_land = 15
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 32

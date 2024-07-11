@@ -21,7 +21,7 @@
 		region_state:GDY = {
 			create_pop = {
 				culture = jungle_naga
-				size = 6634412
+				size = 2948484
 			}
 			create_pop = {
 				culture = jungle_naga
@@ -31,7 +31,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = jungle_naga
-				size = 110000
+				size = 500404
 			}
 			create_pop = {
 				pop_type = slaves
@@ -152,21 +152,21 @@
 		region_state:VIP = {
 			create_pop = {
 				culture = jungle_naga
-				size = 12479910
+				size = 1984030
 			}
 			create_pop = {
 				culture = gulf_naga
-				size = 871981
+				size = 2947389
 			}
 			create_pop = {
 				culture = gulf_naga
 				religion = animist
-				size = 565099
+				size = 1875638
 			}
 			create_pop = {
 				culture = jungle_naga
 				religion = animist
-				size = 109374
+				size = 520483
 			}
 			create_pop = {
 				pop_type = slaves
@@ -284,15 +284,15 @@
 		region_state:SAP = {
 			create_pop = {
 				culture = gulf_naga
-				size = 6724685
+				size = 3476737
 			}
 			create_pop = {
 				culture = jungle_naga
-				size = 951351
+				size = 3874739
 			}
 			create_pop = {
 				culture = awakened
-				size = 1164904
+				size = 4938383
 			}
 			create_pop = {
 				pop_type = slaves
@@ -373,12 +373,12 @@
 		region_state:JIV = {
 			create_pop = {
 				culture = gulf_naga
-				size = 9712168
+				size = 3348203
 			}
 			create_pop = {
 				culture = gulf_naga
 				religion = animist
-				size = 326095
+				size = 1394938
 			}
 			create_pop = {
 				pop_type = slaves
@@ -397,12 +397,12 @@
 		region_state:BHR = {
 			create_pop = {
 				culture = gulf_naga
-				size = 10312854
+				size = 4678949
 			}
 			create_pop = {
 				culture = gulf_naga
 				religion = animist
-				size = 2032854
+				size = 1038492
 			}
 			create_pop = {
 				pop_type = slaves
@@ -480,21 +480,21 @@
 		region_state:VIP = {
 			create_pop = {
 				culture = gulf_naga
-				size = 9370101
+				size = 3030493
 			}
 			create_pop = {
 				culture = gulf_naga
 				religion = animist
-				size = 109096
+				size = 500340
 			}
 			create_pop = {
 				culture = jungle_naga
-				size = 6602700
+				size = 2938403
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = awakened
-				size = 200310
+				size = 1373948
 			}
 			create_pop = {
 				pop_type = slaves
@@ -964,7 +964,7 @@
 				size = 166508
 			}
 			create_pop = {
-				culture = moluccan
+				culture = south_sea_ravager
 				religion = church_of_man
 				size = 79213
 			}
