@@ -389,7 +389,7 @@ add_claim = c:DIS
 s:STATE_OYSSARA = {
 	create_state = {
 		country = c:KVA
-		owned_provinces = { "x47DDE3" "x7ADADD" "x9390F6" "x9AB8D4" "xABFDE3" "xC78CDB" "xDBDECA" "xE5DFB9" }
+		owned_provinces = { "x47DDE3" "x61D8BD" "x7ADADD" "x9390F6" "x9AB8D4" "xABFDE3" "xAFE4F8" "xC78CDB" "xDBDECA" "xE5DFB9" }
 }
 add_homeland = cu:kotskarvi
 add_homeland = cu:illvasaari
@@ -466,16 +466,6 @@ s:STATE_LEPIDRA = {
 add_homeland = cu:illvasaari
 }
 
-s:STATE_HADRIA = {
-	create_state = {
-		country = c:KVA
-		owned_provinces = { "x61D8BD" "x9A9ADB" "x9EF2DB" "xAFE4F8" "xB9FDEB" "xCBCCF5" "xCCA6B8" "xE742D9" "xE9F5F1" "xF9AEE6" }
-}
-add_homeland = cu:kotskarvi
-add_homeland = cu:illvasaari
-add_claim = c:DIS
-}
-
 s:STATE_ZARTHOS = {
 	create_state = {
 		country = c:DIS
@@ -497,7 +487,7 @@ add_claim = c:DIS
 s:STATE_CYRRA = {
 	create_state = {
 		country = c:KVA
-		owned_provinces = { "x56F9CA" "x5FC4D2" "xA0AECC" "xA892F0" "xA981FD" "xB3C5F6" "xBDC7DD" "xC9D5CD" "xCCEF4C" "xD953E3" "xE560FB" "xF8F2BE" "xFEA38A" }
+		owned_provinces = { "x56F9CA" "x5FC4D2" "x9A9ADB" "x9EF2DB" "xA0AECC" "xA892F0" "xA981FD" "xB3C5F6" "xB9FDEB" "xBDC7DD" "xC9D5CD" "xCBCCF5" "xCCA6B8" "xCCEF4C" "xD953E3" "xE560FB" "xE742D9" "xE9F5F1" "xF8F2BE" "xF9AEE6" "xFEA38A" }
 }
 add_homeland = cu:kotskarvi
 add_homeland = cu:illvasaari
