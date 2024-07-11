@@ -118,7 +118,7 @@
 				      building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:EME"
                         levels=3
                         region="STATE_SHARINDLARS_NEEDLE"
@@ -193,7 +193,7 @@
 				      building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:EME"
                         levels=2
                         region="STATE_ABAISSE_DE_MARBRUN"
@@ -492,7 +492,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:CER"
                         levels=3
                         region="STATE_CAEL_VALEN"
@@ -672,7 +672,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:CER"
                         levels=3
                         region="STATE_LANDING_AT_SEA"
@@ -1032,7 +1032,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:CER"
                         levels=1
                         region="STATE_THE_CHASM"
@@ -1087,7 +1087,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:CER"
                         levels=6
                         region="STATE_PENDYM_GWYN_2"
@@ -1313,7 +1313,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SEB"
                         levels=2
                         region="STATE_SERBINELLE"
@@ -1873,7 +1873,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:BDB"
                         levels=1
                         region="STATE_OUTER_MOORWEALD"
@@ -2072,7 +2072,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SMA"
                         levels=2
                         region="STATE_OUTER_MOORWEALD_2"
@@ -2755,7 +2755,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:ARR"
                         levels=2
                         region="STATE_VICEROYS_PEARL"
@@ -2780,7 +2780,7 @@
 			building="building_adventuring_guild"
 			add_ownership={
 				building={
-					type="building_tavern"
+					type="building_adventuring_guild"
 					country="c:ARR"
 					levels=1
 					region="STATE_VICEROYS_PEARL"
@@ -3108,7 +3108,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SLB"
                         levels=3
                         region="STATE_FIRST_BOROUGH"
@@ -3157,7 +3157,7 @@
 				building="building_leviathan_outpost"
 					add_ownership={ 
 						building={ 
-							type="building_tavern"
+							type="building_adventuring_guild"
 							country="c:ARR"
 							levels=1
 							region="STATE_BYRIVER"
@@ -3202,7 +3202,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:ARR"
                         levels=3
                         region="STATE_BYRIVER"
@@ -3983,7 +3983,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:EBR"
                         levels=2
                         region="STATE_RUNEPORT_GALESTRUM"
@@ -4072,7 +4072,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:EBR"
                         levels=1
                         region="STATE_TWOTORS"
@@ -4242,7 +4242,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:AHO"
                         levels=3
                         region="STATE_GLIMMERING_COAST"
@@ -4530,7 +4530,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:AHO"
                         levels=2
                         region="STATE_THUNDERSPELL_COAST"
@@ -4580,7 +4580,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:AHO"
                         levels=4
                         region="STATE_SOLEMN_STONES"
@@ -5413,7 +5413,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DRO"
                         levels=3
                         region="STATE_ELF2"
@@ -5514,7 +5514,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DRO"
                         levels=3
                         region="STATE_ELF3"
@@ -5635,7 +5635,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:VOZ"
                         levels=2
                         region="STATE_ELF4"
@@ -6088,7 +6088,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:VOZ"
                         levels=1
                         region="STATE_SUNKEN_CLIFFS"

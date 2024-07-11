@@ -565,15 +565,15 @@ pm_wizard_tower_clergy_ownership = {
 	}
 }
 
-pm_tavern_adventurer_ownership = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_bureacrats.dds"
+pm_adventuring_guild_clergy_ownership = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds"
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_adventurers_add = 100
+			building_employment_clergymen_add = 100
 		}
 		unscaled = {
-			building_adventurers_shares_add = 1
+			building_clergymen_shares_add = 1
 		}		
 	}	
 }
@@ -591,13 +591,13 @@ pm_tavern_soldier_ownership = {
 			building_employment_soldiers_add = 100
 		}
 		unscaled = {
-			building_adventurers_shares_add = 1
+			building_soldiers_shares_add = 1
 		}		
 	}	
 }
 
-pm_tavern_watering_hole = {
-	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
+pm_adventuring_guild_problem_solvers = {
+	texture = "gfx/interface/icons/production_method_icons/problem_solvers.dds"
 	
 	building_modifiers = { 
 		level_scaled = {
@@ -612,8 +612,8 @@ pm_tavern_watering_hole = {
 	}
 }
 
-pm_tavern_rumor_hub = {
-	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+pm_adventuring_guild_questing_boards = {
+	texture = "gfx/interface/icons/production_method_icons/questing_boards.dds"
 	
 	unlocking_technologies = { hero_worship }
 	
