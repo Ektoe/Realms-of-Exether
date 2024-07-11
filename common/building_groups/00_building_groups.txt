@@ -715,7 +715,7 @@ bg_wizard_towers = {
 }
 
 # Needed for autonomous investment to track investments separately from other ownership buildings
-bg_taverns = {
+bg_adventuring_guilds = {
 	parent_group = bg_owner_buildings
 	
 	infrastructure_usage_per_level = 0.0

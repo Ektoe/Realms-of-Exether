@@ -98,23 +98,23 @@ pmg_ownership_building_financial_district = {
 	}
 }
 
-pmg_ownership_building_tavern = {
+pmg_ownership_building_adventuring_guild = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_tavern_watering_hole
-		pm_tavern_rumor_hub
+		pm_adventuring_guild_problem_solvers
+		pm_adventuring_guild_questing_boards
 	}
 }
 
-pmg_additional_ownership_building_tavern = {
+pmg_additional_ownership_building_adventuring_guild = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_tavern_adventurer_ownership
-		pm_tavern_soldier_ownership
+		pm_adventuring_guild_clergy_ownership
+		pm_adventuring_guild_soldier_ownership
 	}
 }
 
