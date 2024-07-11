@@ -75,6 +75,8 @@ bg_wishstone_extraction_sea = {
 	
 	economy_of_scale = yes
 	
+	discoverable_resource = yes
+	
 	default_building = building_whaling_station
 	
 	lens = fishing
