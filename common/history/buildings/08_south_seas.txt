@@ -45,7 +45,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming" }
 			}			
 			create_building={
 				building="building_tobacco_plantation"
@@ -148,7 +148,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -987,7 +987,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+				activate_production_methods={ "pm_simple_farming" }
 			}
 		}
 	}
@@ -1288,7 +1288,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming" }
 			}
 			create_building={
 				building="building_sugar_plantation"
@@ -1566,7 +1566,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+				activate_production_methods={ "pm_simple_farming" }
 			}
 			create_building={
 				building="building_cotton_plantation"
