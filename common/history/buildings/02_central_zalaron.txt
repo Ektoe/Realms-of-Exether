@@ -2942,7 +2942,7 @@ BUILDINGS = {
 				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled"  }
 			}
 			create_building={
-				building="building_observatory
+				building="building_observatory"
 				level=1
 				reserves=1
 			}
