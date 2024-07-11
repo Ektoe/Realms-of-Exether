@@ -8,7 +8,11 @@ pirate_raid.1 = {
     title = pirate_raid.1.t
     desc = pirate_raid.1.d
     flavor = pirate_raid.1.f
+    dlc = dlc_roe
 
+    event_image = {
+        video = "unspecific_naval_battle"
+    }
     immediate = {
         s:STATE_MERCHANT_BAY = {
             random_scope_state = {
@@ -57,7 +61,135 @@ pirate_raid.1 = {
         scope:empire_scope = {
             trigger_event = {
                 id = pirate_raid.11 
+                popup = yes
                 days = 7
+            }
+        }
+    }
+}
+
+#A night on the town with the lads 
+pirate_raid.2 = {
+    type = country_event
+    placement = root
+
+    title = pirate_raid.2.t
+    desc = pirate_raid.2.d
+    flavor = pirate_raid.2.f
+    dlc = dlc_roe
+
+    event_image = {
+        video = "unspecific_fire"
+    }
+
+    option = {
+        name = pirate_raid.2.a
+        default_option = yes
+
+        scope:main_pirate = {
+            add_investment_pool = 100000
+            create_military_formation = {
+                name = "Converted Traders"
+                type = fleet
+                hq_region = sr:region_elusive_coves
+                combat_unit = {
+                    type = unit_type:combat_unit_type_frigate
+                    state_region = s:STATE_ARGYSTSIK
+                    count = 4
+                }
+            }
+        }
+        
+        scope:minor_pirate_1 = {
+            add_investment_pool = 100000
+            create_military_formation = {
+                name = "Converted Traders"
+                type = fleet
+                hq_region = sr:region_elusive_coves
+                combat_unit = {
+                    type = unit_type:combat_unit_type_frigate
+                    state_region = s:STATE_MALANJAPORT
+                    count = 4
+                }
+            }
+            add_liberty_desire = -20
+        }
+
+        scope:minor_pirate_2 = {
+            add_investment_pool = 100000
+            create_military_formation = {
+                name = "Converted Traders"
+                type = fleet
+                hq_region = sr:region_elusive_coves
+                combat_unit = {
+                    type = unit_type:combat_unit_type_frigate
+                    state_region = s:STATE_JERMENION
+                    count = 4
+                }
+            }
+            add_liberty_desire = -20
+        }
+
+        scope:empire_scope = {
+            trigger_event = {
+                id = pirate_raid.21
+                days = 7
+                popup = yes
+            }
+        }
+    }
+    option = {
+        name = pirate_raid.2.b
+
+        scope:main_pirate = {
+            add_investment_pool = 200000
+            create_military_formation = {
+                name = "Converted Traders"
+                type = fleet
+                hq_region = sr:region_elusive_coves
+                combat_unit = {
+                    type = unit_type:combat_unit_type_frigate
+                    state_region = s:STATE_ARGYSTSIK
+                    count = 8
+                }
+            }
+        }
+
+        scope:minor_pirate_1 = {
+            add_investment_pool = 50000
+            create_military_formation = {
+                name = "Converted Traders"
+                type = fleet
+                hq_region = sr:region_elusive_coves
+                combat_unit = {
+                    type = unit_type:combat_unit_type_frigate
+                    state_region = s:STATE_MALANJAPORT
+                    count = 2
+                }
+            }
+            add_liberty_desire = 10
+        }
+
+        scope:minor_pirate_2 = {
+            add_investment_pool = 50000
+            create_military_formation = {
+                name = "Converted Traders"
+                type = fleet
+                hq_region = sr:region_elusive_coves
+                combat_unit = {
+                    type = unit_type:combat_unit_type_frigate
+                    state_region = s:STATE_JERMENION
+                    count = 2
+                }
+            }
+            add_liberty_desire = 10
+        }
+
+        scope:empire_scope = {
+            trigger_event = {
+                id = pirate_raid.21
+                days = 7
+                popup = yes
             }
         }
     }
@@ -71,6 +203,11 @@ pirate_raid.11 = {
     title = pirate_raid.11.t
     desc = pirate_raid.11.d
     flavor = pirate_raid.11.f
+    dlc = dlc_roe
+
+    event_image = {
+        video = "unspecific_naval_battle"
+    }
 
     option = {
         name = pirate_raid.11.a
@@ -81,5 +218,72 @@ pirate_raid.11 = {
             }
         }
         add_treasury = -80000
+    }
+}
+
+pirate_raid.21 = {
+    type = country_event
+    placement = root
+
+    title = pirate_raid.21.t
+    desc = pirate_raid.21.d
+    flavor = pirate_raid.21.f
+    dlc = dlc_roe
+
+    event_image = {
+        video = "unspecific_fire"
+    }
+
+    option = {
+        name = pirate_raid.21.a
+        default_option = yes
+        scope:empire_scope = {
+            add_treasury = -150000
+            add_radicals = {
+                value = 0.2
+                strata = rich
+            }
+        }
+        scope:cove_colony_scope = {
+            add_treasury = -150000
+            add_liberty_desire = 10
+            add_radicals = {
+                value = 0.2
+            }
+        }
+    }
+    option = {
+        name = pirate_raid.21.b
+        scope:empire_scope = {
+            add_treasury = -300000
+            add_radicals = {
+                value = 0.1
+                strata = rich
+            }
+        }
+        scope:cove_colony_scope = {
+            add_radicals = {
+                value = 0.1
+            }
+        }
+    }
+    option = {
+        name = pirate_raid.21.c
+        scope:empire_scope = {
+            add_radicals = {
+                value = 0.15
+                strata = rich
+            }
+            add_radicals = {
+                value = 0.1
+                strata = middle
+            }
+        }
+        scope:cove_colony_scope = {
+            add_radicals = {
+                value = 0.4
+            }
+            add_treasury = -300000
+        }
     }
 }

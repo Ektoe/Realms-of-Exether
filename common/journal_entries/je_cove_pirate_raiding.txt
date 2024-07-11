@@ -1,55 +1,50 @@
 je_cove_pirate_raiding = {
 
-	icon = "gfx/interface/icons/event_icons/event_diplomacy.dds"
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
 	group = je_group_historical_content
 
 	scripted_button = pirate_start_raids_button
+	scripted_button = pirate_consolidation_1_button
 
 	should_be_pinned_by_default = yes
-	
-	is_shown_when_inactive = {
-	
-		exists = c:BTR
-		exists = c:IMA
-		exists = c:CCO
-	}
 
 	immediate = {
-
+		root = {
+			save_scope_as = main_pirate
+		}
+		c:IMA = {
+			save_scope_as = minor_pirate_1
+		}	
+		c:BTR = {
+			save_scope_as = minor_pirate_2
+		}
+		c:DUM = {
+			save_scope_as = empire_scope
+		}
+		c:COV = {
+			save_scope_as = cove_colony_scope
+		}
+		c:SSC = {
+			save_scope_as = south_sea_company_scope
+		}
 	}
 
 	possible = {
-		OR {
-			AND = {
-				root = c:BTR
-				c:BTR = {
-					is_player = yes
-				}
-				
+		NOR = {
+			c:BTR = {
+				is_subject_of = c:DUM
 			}
-			AND = {
-				root = c:IMA
-				c:IMA = {
-					is_player = yes
-				}
-			}
-			AND = {
-				root = c:CCO
-				c:CCO = {
-					is_player = yes
-				}
-			}
-			
-		}	
-		AND {
-			OR {
-				c:COV = {
-					is_subject_of = c:DUM
-				}
-				c:SSC = {
-					is_subject_of = c:DUM
-				}
+			c:IMA = {
+				is_subject_of = c:DUM
 			}
 		}
-	}
+		OR = {
+			c:COV = {
+				is_subject_of = c:DUM
+			}
+			c:SSC = {
+				is_subject_of = c:DUM
+			}
+		}
+	}		
 }

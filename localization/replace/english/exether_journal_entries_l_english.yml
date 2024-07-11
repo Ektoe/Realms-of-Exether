@@ -12,3 +12,5 @@
   je_cove_pirate_raiding_status: "The Empire and it's lackeys have us heavily outnumbered. We are limited to small raids until we can regain the upper hand."
   pirate_start_raids_button_name: "Intensify Raids!"
   pirate_start_raids_button_desc: "We have gathered enough flotillas to put real hurt on the complacent Dunomians. Set Sail!"
+  pirate_consolidation_1_button_name: "Coordinate Raids!"
+  pirate_consolidation_1_button_desc: "By diplomacy or might, we are able to bring the other pirates in line with us. And we have the perfect goal in mind for our first combined foray..."

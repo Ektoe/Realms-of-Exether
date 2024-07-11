@@ -15,3 +15,16 @@
   pirate_raid.11.d: "Our lack of naval assets has allowed the various pirate groups of the South Sea to slip past our patrols and execute a raid on one of our treasure fleets. The cargo was lost and rumours swirl about the ships being outfitted to conduct further raids. An embarassing failure of the Emperor's plans in the region and something we can not allow to stand!"
   pirate_raid.11.f: "Was it merely a temporary setback? Or a troubling sign that the Emperor's promises would come with more obstacles than the speeches and proclamations had ever admitted to? The investor class of Merchant Bay certainly suspected the latter. They had substantial assets riding on these colonial ventures. Pirates sharpening sabres and loading their pistols didn't look good on the risk assesment reports."
   pirate_raid.11.a: "How dare they?!"
+
+  pirate_raid.2.t: "A Night on the Town with the Lads"
+  pirate_raid.2.d: "Our newly combined raiding forces have smashed through the Cove Colony's defenses. Their island capital was sacked and set alight, it's treasury plundered and we have seized twelve ships that were too slow to escape us. How should we divide these spoils?"
+  pirate_raid.2.f: "The vote came out roughly 3-1. As the flames of the colony tinted the night sky red, the show of hands decided the fate of the barrel of rum in their middle: Immediate execution by method of communal consumption. Bonetider, Serpent or Corsair, tonight, the distinctions vanished in a haze of booze and well-directed violence. Would this state last? Only time could tell."
+  pirate_raid.2.a: "Uphold the Pirate's Code: Equal distribution of spoils!"
+  pirate_raid.2.b: "We DID do most of the work here..."
+
+  pirate_raid.21.t: "And Night of Grief and Fire"
+  pirate_raid.21.d: "A pirate force far more coordinated than what we had previously thought possible has laid waste to our Cove Colony's capital. Most of it's treasures and many of the anchored ships have been seized, not to mention the widespread loss of life."
+  pirate_raid.21.f: "The survivors spoke of a all three pirate bands working in concert. Of their callous pillaging of the peaceful colony. Sympathetic head nods all over polite society, but they all knew the real questions: What would be done to prevent more threats to their investments? And more importantly: Who would foot the bill for this one?"
+  pirate_raid.21.a: "We will pay our fair share of the costs."
+  pirate_raid.21.b: "We will pay for all the damages."
+  pirate_raid.21.c: "We will pay for nothing. The Colony is responsible."
