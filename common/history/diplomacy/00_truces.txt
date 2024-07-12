@@ -24,3 +24,21 @@ DIPLOMACY = {
 		}
 	}
 }
+
+DIPLOMACY = {
+	c:CER = {
+		create_truce = {
+			country = c:RTD
+			months = 48
+		}
+	}
+}
+
+DIPLOMACY = {
+	c:CER = {
+		create_truce = {
+			country = c:BDB
+			months = 48
+		}
+	}
+}

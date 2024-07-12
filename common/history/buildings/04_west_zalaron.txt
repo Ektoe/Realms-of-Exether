@@ -38,7 +38,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:KGM"
                         levels=1
                         region="STATE_SHKODERIA"
@@ -100,7 +100,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:KGM"
                         levels=2
                         region="STATE_VALBARDA"
@@ -247,7 +247,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:ZIX"
                         levels=2
                         region="STATE_DURRESIA"
@@ -360,7 +360,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:LGZ"
                         levels=1
                         region="STATE_VLORIANA"
@@ -505,7 +505,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:REM"
                         levels=1
                         region="STATE_KRUJANA"
@@ -642,7 +642,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:ZIX"
                         levels=1
                         region="STATE_FIERANA"
@@ -702,7 +702,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:LGZ"
                         levels=1
                         region="STATE_VOSKOPOJANA"
@@ -1003,7 +1003,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DTH"
                         levels=1
                         region="STATE_KAVAJANA"
@@ -1150,7 +1150,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:MGR"
                         levels=1
                         region="STATE_NYZHNE_SENIA"
@@ -1186,7 +1186,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:MGR"
                         levels=2
                         region="STATE_BREZHKE"
@@ -1403,7 +1403,7 @@
         building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:MGR"
                         levels=1
                         region="STATE_TROPOJA"
@@ -1527,7 +1527,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:VLT"
                         levels=2
                         region="STATE_VITHKUQJA"
@@ -1938,7 +1938,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SNB"
                         levels=2
                         region="STATE_JUACHAI"
@@ -2257,7 +2257,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SNB"
                         levels=1
                         region="STATE_MAJIPEMBE"
@@ -2306,7 +2306,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SNB"
                         levels=1
                         region="STATE_SWAHAKLONG"
@@ -2850,7 +2850,7 @@
             building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SNB"
                         levels=1
                         region="STATE_KILIMAKAZI"
@@ -3566,7 +3566,7 @@
             building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:KHD"
                         levels=1
                         region="STATE_KEENAVOK"
@@ -3885,7 +3885,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:TLE"
                         levels=2
                         region="STATE_BELLENBERG"
@@ -4019,7 +4019,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:RAV"
                         levels=3
                         region="STATE_SMEERGOED"
@@ -4153,7 +4153,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:RAV"
                         levels=1
                         region="STATE_TIMMERSTEEN"
@@ -5058,7 +5058,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:TLE"
                         levels=1
                         region="STATE_GLIMMERDAM"
@@ -5132,7 +5132,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:RAV"
                         levels=3
                         region="STATE_KRULHOVEN"
@@ -5145,7 +5145,7 @@
 			building="building_whaling_station"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:KGM"
                         levels=1
                         region="STATE_SHKODERIA"
@@ -5526,7 +5526,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:RAV"
                         levels=1
                         region="STATE_KLOMPPLEIN"
@@ -5724,7 +5724,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:TLE"
                         levels=1
                         region="STATE_SUNDALE"
@@ -5822,7 +5822,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:TLE"
                         levels=1
                         region="STATE_WINDSONG"
@@ -5868,7 +5868,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:FIS"
                         levels=1
                         region="STATE_MAANSTIEN"
@@ -5960,9 +5960,6 @@
 		}
 	}
   }
-  s:STATE_SKIMERSFJILD = {
-
-  }
   s:STATE_FLUSTERBEEK = {
 	region_state:DRI={
 		create_building={
@@ -6044,7 +6041,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:FIS"
                         levels=1
                         region="STATE_WETTERWIIDTE"
@@ -6079,7 +6076,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SEE"
                         levels=1
                         region="STATE_NACHTSIMMER"
@@ -6203,7 +6200,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SEE"
                         levels=1
                         region="STATE_SKIMERWALD"
@@ -6319,7 +6316,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:YKU"
                         levels=1
                         region="STATE_SALTSHORE"

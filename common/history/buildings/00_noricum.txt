@@ -127,7 +127,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DUM"
                         levels=2
                         region="STATE_CROWNPEAK"
@@ -542,7 +542,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DUM"
                         levels=1
                         region="STATE_SERONTAIN"
@@ -688,7 +688,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DUM"
                         levels=2
                         region="STATE_SLUDGE_COAST"
@@ -764,7 +764,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DUM"
                         levels=4
                         region="STATE_LAST_HEARTH"
@@ -828,7 +828,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DUM"
                         levels=2
                         region="STATE_ZENDEN"
@@ -1159,7 +1159,7 @@
           building="building_livestock_ranch"
 				add_ownership={ 
 					building={ 
-						type="building_tavern"
+						type="building_adventuring_guild"
 						country="c:AUM"
 						levels=1
 						region="STATE_TEMPLE_HILL"
@@ -1547,7 +1547,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:ABR"
                         levels=2
                         region="STATE_MIDCLACK"
@@ -1971,7 +1971,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DUM"
                         levels=2
                         region="STATE_LOCHTYRE"
@@ -2009,7 +2009,7 @@
           building="building_livestock_ranch"
 				add_ownership={ 
 					building={ 
-						type="building_tavern"
+						type="building_adventuring_guild"
 						country="c:DUM"
 						levels=1
 						region="STATE_LOCHTYRE"
@@ -2101,7 +2101,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:AUM"
                         levels=2
                         region="STATE_COLNAIG"
@@ -2482,7 +2482,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DUM"
                         levels=3
                         region="STATE_MALINMORE"
@@ -2585,7 +2585,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:AUM"
                         levels=1
                         region="STATE_FALNALECK"
@@ -2870,7 +2870,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:ROF"
                         levels=2
                         region="STATE_BANCFAN"
@@ -2921,7 +2921,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:ROF"
                         levels=1
                         region="STATE_CAECARW"
@@ -3688,23 +3688,14 @@
           building="building_rice_farm"
           level=1
           reserves=1
-          activate_production_methods={
-            "pm_simple_farming_building_rice_farm"
-            "pm_no_secondary"
-            "pm_tools_disabled"
-            
+          activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" } 
           }
-        }
         create_building={ # Actually pineapple plantation, but pineapples don't exist
           building="building_banana_plantation"
           level=1
           reserves=1
-          activate_production_methods={
-            "default_building_banana_plantation"
-            "pm_road_carts"
-            
+          activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" }
           }
-        }
             create_building={
           building="building_logging_camp"
                 add_ownership={ 
@@ -3716,14 +3707,8 @@
                    }
                 }
           reserves=1
-          activate_production_methods={
-            "pm_simple_forestry"
-            "pm_hardwood"
-            "pm_no_equipment"
-            "pm_road_carts"
-            "pm_government_run_building_logging_camp"
+          activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
           }
-        }
             create_building={
           building="building_fishing_wharf"
           level=1
@@ -3827,7 +3812,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:ICE"
                         levels=3
                         region="STATE_ICEWIND"
@@ -3846,7 +3831,7 @@
           building="building_livestock_ranch"
 				add_ownership={ 
 					building={ 
-						type="building_tavern"
+						type="building_adventuring_guild"
 						country="c:ICE"
 						levels=1
 						region="STATE_ICEWIND"

@@ -45,7 +45,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming" }
 			}			
 			create_building={
 				building="building_tobacco_plantation"
@@ -148,7 +148,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" }
+				activate_production_methods={ "pm_simple_farming" }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -167,7 +167,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:AZI"
                         levels=1
                         region="STATE_MALANDA"
@@ -420,7 +420,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:AZI"
                         levels=1
                         region="STATE_BEXAMBA"
@@ -719,7 +719,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:LAC"
                         levels=1
                         region="STATE_ALENMAR"
@@ -904,7 +904,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DEV"
                         levels=1
                         region="STATE_ALAHAZOTRA"
@@ -987,7 +987,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+				activate_production_methods={ "pm_simple_farming" }
 			}
 		}
 	}
@@ -1262,7 +1262,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DEV"
                         levels=1
                         region="STATE_VAROTSOA"
@@ -1288,7 +1288,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming" }
 			}
 			create_building={
 				building="building_sugar_plantation"
@@ -1383,7 +1383,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:LEM"
                         levels=1
                         region="STATE_ZVEJYCATIA"
@@ -1509,7 +1509,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:PEL"
                         levels=1
                         region="STATE_SALASLITVA"
@@ -1546,7 +1546,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DEL"
                         levels=1
                         region="STATE_AKVALITVA"
@@ -1566,7 +1566,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+				activate_production_methods={ "pm_simple_farming" }
 			}
 			create_building={
 				building="building_cotton_plantation"

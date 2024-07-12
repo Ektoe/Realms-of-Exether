@@ -168,11 +168,11 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size = 385785
+			size = 325785
 		}
 		create_pop = {
 			culture = rivierling
-			size = 24465
+			size = 78465
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -334,7 +334,7 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size = 540400
+			size = 492400
 		}
 		create_pop = {
 			culture = plaguedweller
@@ -342,12 +342,12 @@ s:STATE_CAEL_VALEN_2 = {
 		}
 		create_pop = {
 			culture = rivierling
-			size = 871204
+			size = 961204
 		}
 		create_pop = {
 			culture = rivierling
 			religion = church_of_man
-			size = 141160
+			size = 181160
 		}
 	}
   }
@@ -356,7 +356,7 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size = 222400
+			size = 202400
 		}
 		create_pop = {
 			culture = vandori
@@ -365,11 +365,11 @@ s:STATE_CAEL_VALEN_2 = {
 		create_pop = {
 			culture = rivierling
 			religion = church_of_man
-			size = 94340
+			size = 104340
 		}
 		create_pop = {
 			culture = rivierling
-			size = 88400
+			size = 97400
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -382,7 +382,7 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size =306400
+			size = 289400
 		}
 		create_pop = {
 			culture = vandori
@@ -391,11 +391,11 @@ s:STATE_CAEL_VALEN_2 = {
 		create_pop = {
 			culture = rivierling
 			religion = church_of_man
-			size = 84000
+			size = 106000
 		}
 		create_pop = {
 			culture = rivierling
-			size = 128400
+			size = 137000
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -406,7 +406,7 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_RIVER_MEDDEN = {
 	region_state:MID = {
 		create_pop = {
-			culture =rivierling
+			culture = rivierling
 			size = 400989
 		}
 		create_pop = {
@@ -419,6 +419,7 @@ s:STATE_CAEL_VALEN_2 = {
 		}
 		create_pop = {
 			culture = rivierling
+                        religion = church_of_man
 			size = 15989
 		}
 	}

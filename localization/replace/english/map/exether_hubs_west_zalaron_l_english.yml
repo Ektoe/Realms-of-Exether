@@ -875,11 +875,11 @@
   HUB_NAME_STATE_BLOEIJENDREAM_port: "Paesens-Moddergat"
 
 
-  HUB_NAME_STATE_SKIMERSFJILD_city: "Mulksted"
-  HUB_NAME_STATE_SKIMERSFJILD_farm: "Aappelfjild"
-  HUB_NAME_STATE_SKIMERSFJILD_mine: "Steinekole"
-  HUB_NAME_STATE_SKIMERSFJILD_wood: "Skimerswald"
-  HUB_NAME_STATE_SKIMERSFJILD_port: "Hymelhyamel"
+  # HUB_NAME_STATE_SKIMERSFJILD_city: "Mulksted"
+  # HUB_NAME_STATE_SKIMERSFJILD_farm: "Aappelfjild"
+  # HUB_NAME_STATE_SKIMERSFJILD_mine: "Steinekole"
+  # HUB_NAME_STATE_SKIMERSFJILD_wood: "Skimerswald"
+  # HUB_NAME_STATE_SKIMERSFJILD_port: "Hymelhyamel"
 # gnomes frisian
   HUB_NAME_STATE_FLUSTERBEEK_city: "Stêdsgea"
   HUB_NAME_STATE_FLUSTERBEEK_farm: "Bûtenfjild"
@@ -948,11 +948,11 @@
   HUB_NAME_STATE_NACHTSIMMER_wood: "Mistwâld"
   HUB_NAME_STATE_NACHTSIMMER_port: "Wolkewâld"
 # gnomes frisian
-  HUB_NAME_STATE_STILTEBRUZJE_city: "Stiltebrûzje"
-  HUB_NAME_STATE_STILTEBRUZJE_farm: "Greideblom"
-  HUB_NAME_STATE_STILTEBRUZJE_mine: "Stilteberch"
-  HUB_NAME_STATE_STILTEBRUZJE_wood: "Wetterwâld"
-  HUB_NAME_STATE_STILTEBRUZJE_port: "Himmelhaven"
+  # HUB_NAME_STATE_STILTEBRUZJE_city: "Stiltebrûzje"
+  # HUB_NAME_STATE_STILTEBRUZJE_farm: "Greideblom"
+  # HUB_NAME_STATE_STILTEBRUZJE_mine: "Stilteberch"
+  # HUB_NAME_STATE_STILTEBRUZJE_wood: "Wetterwâld"
+  # HUB_NAME_STATE_STILTEBRUZJE_port: "Himmelhaven"
 # gnomes frisian
   HUB_NAME_STATE_SINNEBRAN_city: "Sinnebrân"
   HUB_NAME_STATE_SINNEBRAN_farm: "Swarte Greide"
