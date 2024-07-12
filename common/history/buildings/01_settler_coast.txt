@@ -347,7 +347,7 @@
 		}
                         create_building={
 			building="building_government_administration"
-			level=1
+			level=2
 			reserves=1
 			activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_vertical_filing_cabinets" }
 		}
@@ -482,6 +482,12 @@
 			reserves=1
 			activate_production_methods={ "default_building_vineyard_plantation" }
 		}
+                        create_building={
+			building="building_port"
+			level=2
+			reserves=1
+			activate_production_methods={ "pm_basic_port" }
+		}
 	}
 	}
 		
@@ -561,12 +567,42 @@
 		}
 		create_building={
 			building="building_port"
-			level=1
+			level=2
 			reserves=1
 			activate_production_methods={ "pm_basic_port" }
 		}
 	}
   }
+  s:STATE_CAEL_VALEN_2 = {
+	region_state:CER={
+            create_building={
+			     building="building_fishing_wharf"
+                             add_ownership={ 
+                                     building={ 
+                                             type="building_manor_houses"
+                                             country="c:CER"
+                                             levels=2
+                                             region="STATE_CAEL_VALEN_2"
+                        }
+                      }
+			        reserves=1
+			        activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+		     }
+              create_building={
+				building="building_livestock_ranch"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:CER"
+						levels=3
+						region="STATE_LANDING_AT_SEA_2"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+	}
+  }    
 
   s:STATE_LANDING_AT_SEA = {
 		region_state:CER={
@@ -1089,12 +1125,18 @@
                     building={ 
                         type="building_adventuring_guild"
                         country="c:CER"
-                        levels=6
+                        levels=3
                         region="STATE_PENDYM_GWYN_2"
                    }
                 }
 			reserves=1
 			activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+		}
+                        create_building={
+			building="building_port"
+			level=1
+			reserves=1
+			activate_production_methods={ "pm_basic_port" }
 		}
 	}
 	}
