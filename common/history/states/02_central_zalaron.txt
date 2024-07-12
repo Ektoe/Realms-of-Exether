@@ -234,6 +234,7 @@ s:STATE_CASTLECOURT = {
         owned_provinces = { "x1DEDFE" "x40E5DE" "x84D0DA" "xA7D0A5" "xB7E69C" "xC162E1" "xC55CD9" "xCCE69D" "xD199F6" "xD3E3B6" "xDA36E6" "xDF9AC7" "xE9DCF7" "xEECB44" "xF0CFB6" "xF4DF84" }
         state_type = unincorporated
     }
+add_homeland = cu:thiralian
 add_homeland = cu:erdei
 }
 
@@ -402,7 +403,6 @@ s:STATE_RIVER_SOLILOQUE = {
         country = c:FLU
         owned_provinces = { "x3AF4E1" "x59F1E5" "x69DBBA" "x81EDDE" "x8BF48D" "x9BC6FC" "xC262F7" "xCCD992" "xCE7CCE" "xD2D652" "xD3C5FB" "xD4FBE9" "xE78399" "xECBA81" "xEF51E7" "xF59D94" "xF7E66C" "xFBC0FD" }
 }
-add_homeland = cu:rannorian
 add_homeland = cu:beithaven
 }
 
@@ -411,7 +411,6 @@ s:STATE_RIVER_SOLILOQUE_2 = {
         country = c:FLU
         owned_provinces = { "x5EF4EB" "x95D0E1" "x99FBE2" "xA4EE72" "xBD91DB" "xC6AADD" "xD577C7" "xDAEED4" "xEBA766" "xEEB275" "xF18EBA" }
 }
-add_homeland = cu:rannorian
 add_homeland = cu:beithaven
 }
 
@@ -490,7 +489,7 @@ s:STATE_CAM_LIADRINE = {
         country = c:CLL
         owned_provinces = { "x5FDFBC" "x65CFE8" "x6CC3D9" "x6EF4BB" "x8DA0C9" "xACB4B8" "xCFC566" "xCFD772" "xD8F3E7" "xD98B9C" "xDE829B" "xE1E4E8" "xEBED66" "xEDCFA4" "xEEF7AC" "xF747F3" }
 }
-add_homeland = cu:tefereti
+add_homeland = cu:rannorian
 }
 
 s:STATE_CAM_CALLAIRD = {
@@ -1246,7 +1245,7 @@ s:STATE_PARSIMAH = {
         country = c:SET
         owned_provinces = { "x2ED3F6" "x6BEEC5" "x70DAD5" "x87B2C8" "xADDABF" "xAE76EB" "xB2CB9C" "xB7DEE0" "xB8B7DE" "xB9BDAC" "xBA80E3" "xBBFE77" "xC6B3F6" "xC96DFA" "xD9ECF6" "xDAC17E" "xDED3C5" "xE64BCC" "xF0F4BD" "xF1D8D0" "xF2A6F2" "xF738DE" "xFB976D" }
 }
-add_homeland = cu:tefereti
+add_homeland = cu:seleni
 }
 
 s:STATE_KASHAMAD = {
@@ -1294,7 +1293,7 @@ s:STATE_SHIRAZAN = {
         country = c:SET
         owned_provinces = { "x23EEF6" "x78CAC2" "x9AAEC6" "x9EF184" "xA5D6BD" "xA9FDDA" "xB292B3" "xB29EFD" "xBDABDF" "xC2A1AB" "xC2ECB9" "xC4D95E" "xCFFB61" "xD0E88B" "xD897EE" "xD9F4AF" "xDAEC76" "xE09CD0" "xE3E760" "xEDCB84" "xEFEFB5" "xF2AE72" "xF32DE0" "xFA61B1" "xFEC632" }
 }
-add_homeland = cu:tefereti
+add_homeland = cu:seleni
 }
 
 s:STATE_AZHARIM = {
@@ -1311,6 +1310,7 @@ s:STATE_AZHARIM = {
         owned_provinces = { "xA1BAD6" "xE8CD96" "xC7B08A" "x2EEED9" "xD4C8DB" "xDAFB4E" "xEB93F4" "xEE3AEC" "xF2EDAE" }
 }
 add_homeland = cu:nightwalker
+add_homeland = cu:seleni
 add_claim = c:SET
 }
 
