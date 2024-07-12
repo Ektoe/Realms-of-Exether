@@ -810,7 +810,7 @@ STATE_URIKS_GIFT = {
         bg_sulfur_mining = 40
         bg_logging = 24
         bg_hunting = 12
-        bg_wishstone_mining = 29
+        bg_wishstone_mining = 20
     }
     resource = {
         type = "bg_oil_extraction"
