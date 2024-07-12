@@ -740,6 +740,7 @@ s:STATE_RATELBERG = {
 		owned_provinces = { "x60E3B7" "x7DF2C2" "xA9C3D4" "xBCA794" "xCD9EBC" "xD6E148" "xDCF6AF" "xFADB38" "xFBC041" }
 }
 add_homeland = cu:west_thalorian
+add_homeland = cu:florishnom
 }
 
 s:STATE_PIEPERDORP = {
@@ -863,6 +864,7 @@ s:STATE_FLUITERHEIDE = {
 		country = c:RAV
 		owned_provinces = { "x56D1F8" "x99C6B8" "xC3C6DC" "xC6F77D" "xC875C0" "xC9C1D8" "xD684B9" "xEB54BF" "xFEE2A6" }
 }
+add_homeland = cu:ravikian
 add_homeland = cu:florishnom
 }
 
@@ -964,7 +966,7 @@ s:STATE_GNURKENSTAD = {
 		owned_provinces = { "x90D394" "x95F3CB" "xA86FF3" "xB190BD" "xE230E4" "xE9F387" "xEE63B5" "xF4DEE0" }
 }
 add_homeland = cu:west_thalorian
-add_homeland = cu:ravikian
+add_homeland = cu:florishnom
 }
 
 s:STATE_PIEPERHAVEN = {
@@ -1408,7 +1410,7 @@ s:STATE_REINFALL = {
 		country = c:RAV
 		owned_provinces = { "x6BFCF5" "x70D2B7" "xBBF176" "xEBABF7" }
 }
-add_homeland = cu:stranfolk
+add_homeland = cu:ravikian
 }
 
 s:STATE_ELZEKOEPEL = {
