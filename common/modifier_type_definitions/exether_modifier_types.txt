@@ -8,8 +8,17 @@
 	}
 }
 
-country_magical_reserves_add = {
+country_magic_reserves_total_add = {
 	color=good
+	percent = no
+	decimals=0
+	game_data={
+		ai_value=0
+	}
+}
+
+country_magic_reserves_total_subtract = {
+	color=bad
 	percent = no
 	decimals=0
 	game_data={

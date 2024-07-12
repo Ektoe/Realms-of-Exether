@@ -18,5 +18,5 @@ pmg_serfdom_building_subsistence_terrace_farms = {
 	production_methods = {
 		pm_serfdom_no
 		pmg_serfdom_building_subsistence_terrace_farms
-
+    }
 }

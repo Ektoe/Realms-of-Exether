@@ -1,10 +1,10 @@
 ﻿astrology = {
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/astrology.dds"
+	texture = "gfx/interface/icons/invention_icons/tech_mystical_studies.dds"
 	category = society
 	
 	modifier = {
-		
+		country_institution_magical_focus_max_investment_add = 1
 	}
 
 	unlocking_technologies = {
@@ -21,6 +21,7 @@ psionic_theory = {
 	category = society
 	
 	modifier = {
+		country_institution_magical_focus_max_investment_add=1
 		
 	}
 
@@ -54,10 +55,11 @@ organized_adventuring = {
 
 supernatural_studies = { #Unlocks wizard towers
 	era = era_1
-	texture = "gfx/interface/icons/invention_icons/placeholder.dds"
+	texture = "gfx/interface/icons/invention_icons/tech_mystical_studies.dds"
 	category = society
 	
 	modifier = {
+		country_institution_magical_focus_max_investment_add = 1
 	}
 
 	unlocking_technologies = {
@@ -67,6 +69,43 @@ supernatural_studies = { #Unlocks wizard towers
 	
 	ai_weight = {
 		value = 2
+	}
+}
+
+arcane_concentration = { #Upgrade magic institution
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/tech_arcane_concentration.dds"
+	category = society
+	
+	modifier = {
+		country_institution_magical_focus_max_investment_add = 1
+	}
+
+	unlocking_technologies = {
+		supernatural_studies
+		psychiatry
+	}
+	
+	ai_weight = {
+		value = 3
+	}
+}
+
+ethereal_mastery = { #Upgrade magic institution
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/tech_ethereal_mastery.dds"
+	category = society
+	
+	modifier = {
+		country_institution_magical_focus_max_investment_add = 1
+	}
+
+	unlocking_technologies = {
+		arcane_concentration
+	}
+	
+	ai_weight = {
+		value = 3
 	}
 }
 
