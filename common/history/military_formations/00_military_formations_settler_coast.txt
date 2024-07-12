@@ -926,4 +926,57 @@
 			}
 		}
 	}
+
+	c:WHI ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_moorweald
+			name = Whiskerfield_Guard
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WHISKER_FIELDS
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_WICKERRYE
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_WHISKER_FIELDS
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WHISKER_FIELDS
+				count = 25
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WICKERRYE
+				count = 5
+			}
+			save_scope_as = ratarmyone
+ 
+			create_character = {
+				is_general = yes
+				first_name = Tovia
+				last_name = Camondo
+				historical = yes
+				hq = sr:region_moorweald
+				commander_rank = commander_rank_3
+				age = 30
+				traits = {
+					Meticulous 
+					Expert Defensive Strategist
+				}
+				save_scope_as = ratdefender
+			}
+			scope:ratdefender = {
+				transfer_to_formation = scope:ratarmyone
+			}
+		}
+	}
 }

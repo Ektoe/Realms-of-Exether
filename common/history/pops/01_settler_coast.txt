@@ -847,15 +847,15 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:WHI = {
 		create_pop = {
 			culture = mousefolk
-			size = 1944404
+			size = 2444404
 		}
 		create_pop = {
 			culture = coast_halfling
-			size = 20004
+			size = 100299
 		}
 		create_pop = {
 			culture = wealder
-			size = 180000
+			size = 201113
 		}
 	}
   }
@@ -864,11 +864,11 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:PRI = {
 		create_pop = {
 			culture = wealder
-			size = 2213992
+			size = 1813992
 		}
 		create_pop = {
 			culture = mousefolk
-			size = 321996
+			size = 421996
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -1164,7 +1164,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:PRI = { # 
 		create_pop = {
 			culture = wealder
-			size = 533476
+			size = 933476
 		}
 		create_pop = {
 			culture = dorite 
@@ -1896,11 +1896,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:WHI = {
 		create_pop = {
 			culture = mousefolk
-			size = 1740004
+			size = 1540004
 		}
 		create_pop = {
 			culture = dorite
-			size = 28000
+			size = 58000
 		}
 		create_pop = {
 			culture = bossardi
@@ -1908,7 +1908,7 @@ s:STATE_FAR_SHORE_2 = {
 		}
 		create_pop = {
 			culture = wealder
-			size = 136000
+			size = 236000
 		}
 	}
 	region_state:ASW = {
