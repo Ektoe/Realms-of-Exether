@@ -291,7 +291,6 @@ STATE_THE_CHASM = {
         bg_sulfur_mining = 80
         bg_lead_mining = 35
         bg_logging = 6
-        bg_wishstone_mining = 2
     }
     naval_exit_id = 3238
 }
@@ -979,6 +978,7 @@ STATE_FAR_SHORE_2 = {
         bg_iron_mining = 3
         bg_lead_mining = 36
         bg_logging = 10
+        bg_wishstone_mining = 21
     }
     naval_exit_id = 3163
 }
@@ -1012,6 +1012,7 @@ STATE_DURANS_LAND_2 = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 4
+        bg_wishstone_mining = 4
     }
     naval_exit_id = 3164
 }
@@ -1223,6 +1224,7 @@ STATE_TWOTORS = {
     capped_resources = {
         bg_logging = 6
         bg_fishing = 10
+        bg_wishstone_mining = 4
     }
     naval_exit_id = 3026
 }
@@ -1243,6 +1245,7 @@ STATE_ACHONIAN_HIGHLANDS = {
         bg_logging = 34
         bg_hunting = 22
         bg_monuments = 1
+        bg_wishstone_mining = 3
     }
     naval_exit_id = 3119
 }
@@ -1261,6 +1264,7 @@ STATE_GLIMMERING_COAST = {
         bg_logging = 17
         bg_whaling = 4
         bg_fishing = 8
+        bg_wishstone_mining = 3
     }
     naval_exit_id = 3026
 }
@@ -1473,6 +1477,7 @@ STATE_UPPER_GOLDENLEAF = {
     capped_resources = {
         bg_iron_mining = 30
         bg_logging = 14
+        bg_wishstone_mining = 9
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1496,6 +1501,7 @@ STATE_NEWBANKS = {
     capped_resources = {
         bg_iron_mining = 24
         bg_logging = 13
+        bg_wishstone_mining = 7
     }
     naval_exit_id = 3201
 }
@@ -1938,6 +1944,7 @@ STATE_SILVERTARGE = {
         bg_iron_mining = 30
         bg_lead_mining = 30
         bg_logging = 17
+        bg_wishstone_mining = 10
     }
 }
 
