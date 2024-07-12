@@ -340,7 +340,7 @@ CDW = {
 
 	tier = principality
 
-	cultures = { dumonian } 
+	cultures = { cerunite } 
 	capital = STATE_VOZMEAD_BORDERLANDS
 }
 
