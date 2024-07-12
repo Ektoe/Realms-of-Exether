@@ -1747,7 +1747,7 @@ BUILDINGS = {
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_basic_shipbuilding" "pm_military_shipbuilding_wooden" }
+				activate_production_methods={ "pm_basic_shipbuilding" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -2942,7 +2942,7 @@ BUILDINGS = {
 				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled"  }
 			}
 			create_building={
-				building="building_observatory
+				building="building_observatory"
 				level=1
 				reserves=1
 			}
@@ -5876,7 +5876,7 @@ BUILDINGS = {
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled"  }
 			}
 			create_building={
-				building="building_observatory
+				building="building_observatory"
 				level=2
 				reserves=1
 			}
@@ -6688,7 +6688,7 @@ BUILDINGS = {
 			  reserves=1
 			}
 			create_building={
-			building="building_airshipyards
+			building="building_airshipyards"
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
@@ -7088,7 +7088,7 @@ BUILDINGS = {
 				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
-				building="building_observatory
+				building="building_observatory"
 				level=1
 				reserves=1
 			}
