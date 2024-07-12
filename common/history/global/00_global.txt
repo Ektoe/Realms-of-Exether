@@ -322,7 +322,13 @@ GLOBAL = {
 		value = 0
 	}
 
-	setup_rituals = yes
+	setup_ritual_active = yes
+	setup_ritual_divine = yes
+	setup_ritual_druidic = yes
+	setup_ritual_artificer = yes
+	setup_ritual_astrology = yes
+	setup_ritual_dark = yes
+	setup_ritual_antimagic = yes
 
 	every_country = {
 

@@ -1,0 +1,393 @@
+setup_ritual_active = {
+	clear_global_variable_list = ritual_id_list
+	add_to_global_variable_list = { name = ritual_id_list target = 1 }  #Divine 1
+	add_to_global_variable_list = { name = ritual_id_list target = 2 }  #Divine 2
+	add_to_global_variable_list = { name = ritual_id_list target = 3 }  #Divine 3
+	add_to_global_variable_list = { name = ritual_id_list target = 4 }  #Divine 4
+	add_to_global_variable_list = { name = ritual_id_list target = 5 }  #Divine 5
+	add_to_global_variable_list = { name = ritual_id_list target = 6 }  #Druidic 1
+	add_to_global_variable_list = { name = ritual_id_list target = 7 }  #Druidic 2
+	add_to_global_variable_list = { name = ritual_id_list target = 8 }  #Druidic 3
+	add_to_global_variable_list = { name = ritual_id_list target = 9 }  #Druidic 4
+	add_to_global_variable_list = { name = ritual_id_list target = 10 } #Druidic 5
+	add_to_global_variable_list = { name = ritual_id_list target = 11 } #Artificer 1
+	add_to_global_variable_list = { name = ritual_id_list target = 12 } #Artificer 2
+	add_to_global_variable_list = { name = ritual_id_list target = 13 } #Artificer 3
+	add_to_global_variable_list = { name = ritual_id_list target = 14 } #Artificer 4
+	add_to_global_variable_list = { name = ritual_id_list target = 15 } #Artificer 5
+	add_to_global_variable_list = { name = ritual_id_list target = 16 } #Astrology 1
+	add_to_global_variable_list = { name = ritual_id_list target = 17 } #Astrology 2
+	add_to_global_variable_list = { name = ritual_id_list target = 18 } #Astrology 3
+	add_to_global_variable_list = { name = ritual_id_list target = 19 } #Astrology 4
+	add_to_global_variable_list = { name = ritual_id_list target = 20 } #Astrology 5
+	add_to_global_variable_list = { name = ritual_id_list target = 21 } #Dark 1
+	add_to_global_variable_list = { name = ritual_id_list target = 22 } #Dark 2
+	add_to_global_variable_list = { name = ritual_id_list target = 23 } #Dark 3
+	add_to_global_variable_list = { name = ritual_id_list target = 24 } #Dark 4
+	add_to_global_variable_list = { name = ritual_id_list target = 25 } #Dark 5
+	add_to_global_variable_list = { name = ritual_id_list target = 26 } #Antimagic 1
+	add_to_global_variable_list = { name = ritual_id_list target = 27 } #Antimagic 2
+	add_to_global_variable_list = { name = ritual_id_list target = 28 } #Antimagic 3
+	add_to_global_variable_list = { name = ritual_id_list target = 29 } #Antimagic 4
+	add_to_global_variable_list = { name = ritual_id_list target = 30 } #Antimagic 5
+}
+
+setup_ritual_divine = {
+	clear_global_variable_list = ritual_id_divine_list
+	add_to_global_variable_list = { name = ritual_id_divine_list target = 1 }
+	add_to_global_variable_list = { name = ritual_id_divine_list target = 2 }
+	add_to_global_variable_list = { name = ritual_id_divine_list target = 3 }
+	add_to_global_variable_list = { name = ritual_id_divine_list target = 4 }
+	add_to_global_variable_list = { name = ritual_id_divine_list target = 5 }
+}
+
+setup_ritual_druidic = {
+	clear_global_variable_list = ritual_id_druidic_list
+	add_to_global_variable_list = { name = ritual_id_druidic_list target = 1 }
+	add_to_global_variable_list = { name = ritual_id_druidic_list target = 2 }
+	add_to_global_variable_list = { name = ritual_id_druidic_list target = 3 }
+	add_to_global_variable_list = { name = ritual_id_druidic_list target = 4 }
+	add_to_global_variable_list = { name = ritual_id_druidic_list target = 5 }
+}
+
+setup_ritual_artificer = {
+	clear_global_variable_list = ritual_id_artificer_list
+	add_to_global_variable_list = { name = ritual_id_artificer_list target = 1 }
+	add_to_global_variable_list = { name = ritual_id_artificer_list target = 2 }
+	add_to_global_variable_list = { name = ritual_id_artificer_list target = 3 }
+	add_to_global_variable_list = { name = ritual_id_artificer_list target = 4 }
+	add_to_global_variable_list = { name = ritual_id_artificer_list target = 5 }
+}
+
+setup_ritual_astrology = {
+	clear_global_variable_list = ritual_id_astrology_list
+	add_to_global_variable_list = { name = ritual_id_astrology_list target = 1 }
+	add_to_global_variable_list = { name = ritual_id_astrology_list target = 2 }
+	add_to_global_variable_list = { name = ritual_id_astrology_list target = 3 }
+	add_to_global_variable_list = { name = ritual_id_astrology_list target = 4 }
+	add_to_global_variable_list = { name = ritual_id_astrology_list target = 5 }
+}
+
+setup_ritual_dark = {
+	clear_global_variable_list = ritual_id_dark_list
+	add_to_global_variable_list = { name = ritual_id_dark_list target = 1 }
+	add_to_global_variable_list = { name = ritual_id_dark_list target = 2 }
+	add_to_global_variable_list = { name = ritual_id_dark_list target = 3 }
+	add_to_global_variable_list = { name = ritual_id_dark_list target = 4 }
+	add_to_global_variable_list = { name = ritual_id_dark_list target = 5 }
+}
+
+setup_ritual_antimagic = {
+	clear_global_variable_list = ritual_id_antimagic_list
+	add_to_global_variable_list = { name = ritual_id_antimagic_list target = 1 }
+	add_to_global_variable_list = { name = ritual_id_antimagic_list target = 2 }
+	add_to_global_variable_list = { name = ritual_id_antimagic_list target = 3 }
+	add_to_global_variable_list = { name = ritual_id_antimagic_list target = 4 }
+	add_to_global_variable_list = { name = ritual_id_antimagic_list target = 5 }
+}
+
+calculate_rituals_divine = {
+	clear_variable_list = available_ritual_id_divine_list
+	add_to_variable_list = { name = available_ritual_id_divine_list target = 1 }
+	add_to_variable_list = { name = available_ritual_id_divine_list target = 2 }
+	add_to_variable_list = { name = available_ritual_id_divine_list target = 3 }
+	add_to_variable_list = { name = available_ritual_id_divine_list target = 4 }
+	add_to_variable_list = { name = available_ritual_id_divine_list target = 5 }
+	if = {
+		limit = {
+			has_modifier = country_ritual_divine_1
+		}
+		remove_list_variable = { name = available_ritual_id_divine_list target = 1 }
+		add_to_variable_list = { name = active_ritual_id_list target = 1 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_divine_2
+		}
+		remove_list_variable = { name = available_ritual_id_divine_list target = 2 }
+		add_to_variable_list = { name = active_ritual_id_list target = 2 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_divine_3 
+		}
+		remove_list_variable = { name = available_ritual_id_divine_list target = 3 }
+		add_to_variable_list = { name = active_ritual_id_list target = 3 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_divine_4
+		}
+		remove_list_variable = { name = available_ritual_id_divine_list target = 4 }
+		add_to_variable_list = { name = active_ritual_id_list target = 4 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_divine_5
+		}
+		remove_list_variable = { name = available_ritual_id_divine_list target = 5 }
+		add_to_variable_list = { name = active_ritual_id_list target = 5 }
+	}
+}
+
+calculate_rituals_druidic = {
+	clear_variable_list = available_ritual_id_druidic_list
+	add_to_variable_list = { name = available_ritual_id_druidic_list target = 1 }
+	add_to_variable_list = { name = available_ritual_id_druidic_list target = 2 }
+	add_to_variable_list = { name = available_ritual_id_druidic_list target = 3 }
+	add_to_variable_list = { name = available_ritual_id_druidic_list target = 4 }
+	add_to_variable_list = { name = available_ritual_id_druidic_list target = 5 }
+	if = {
+		limit = {
+			has_modifier = country_ritual_druidic_1
+		}
+		remove_list_variable = { name = available_ritual_id_druidic_list target = 1 }
+		add_to_variable_list = { name = active_ritual_id_list target = 6 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_druidic_2
+		}
+		remove_list_variable = { name = available_ritual_id_druidic_list target = 2 }
+		add_to_variable_list = { name = active_ritual_id_list target = 7 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_druidic_3 
+		}
+		remove_list_variable = { name = available_ritual_id_druidic_list target = 3 }
+		add_to_variable_list = { name = active_ritual_id_list target = 8 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_druidic_4
+		}
+		remove_list_variable = { name = available_ritual_id_druidic_list target = 4 }
+		add_to_variable_list = { name = active_ritual_id_list target = 9 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_druidic_5
+		}
+		remove_list_variable = { name = available_ritual_id_druidic_list target = 5 }
+		add_to_variable_list = { name = active_ritual_id_list target = 10 }
+	}
+}
+
+calculate_rituals_artificer= {
+	clear_variable_list = available_ritual_id_artificer_list
+	if = {
+		limit = {
+			has_modifier = country_ritual_artificer_1
+		}
+		add_to_variable_list = { name = active_ritual_id_list target = 11 }
+	}
+	else = {
+		add_to_variable_list = { name = available_ritual_id_artificer_list target = 1 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_artificer_2
+		}
+		add_to_variable_list = { name = active_ritual_id_list target = 12 }
+	}
+	else = {
+		add_to_variable_list = { name = available_ritual_id_artificer_list target = 2 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_artificer_3 
+		}
+		add_to_variable_list = { name = active_ritual_id_list target = 13 }
+	}
+	else = {
+		add_to_variable_list = { name = available_ritual_id_artificer_list target = 3 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_artificer_4
+		}
+		add_to_variable_list = { name = active_ritual_id_list target = 14 }
+	}
+	else = {
+		add_to_variable_list = { name = available_ritual_id_artificer_list target = 4 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_artificer_5
+		}
+		add_to_variable_list = { name = active_ritual_id_list target = 15 }
+	}
+	else = {
+		add_to_variable_list = { name = available_ritual_id_artificer_list target = 5 }
+	}
+	
+}
+
+calculate_rituals_astrology= {
+	clear_variable_list = available_ritual_id_astrology_list
+	add_to_variable_list = { name = available_ritual_id_astrology_list target = 1 }
+	add_to_variable_list = { name = available_ritual_id_astrology_list target = 2 }
+	add_to_variable_list = { name = available_ritual_id_astrology_list target = 3 }
+	add_to_variable_list = { name = available_ritual_id_astrology_list target = 4 }
+	add_to_variable_list = { name = available_ritual_id_astrology_list target = 5 }
+	if = {
+		limit = {
+			has_modifier = country_ritual_astrology_1
+		}
+		remove_list_variable = { name = available_ritual_id_astrology_list target = 1 }
+		add_to_variable_list = { name = active_ritual_id_list target = 16 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_astrology_2
+		}
+		remove_list_variable = { name = available_ritual_id_astrology_list target = 2 }
+		add_to_variable_list = { name = active_ritual_id_list target = 17 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_astrology_3 
+		}
+		remove_list_variable = { name = available_ritual_id_astrology_list target = 3 }
+		add_to_variable_list = { name = active_ritual_id_list target = 18 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_astrology_4
+		}
+		remove_list_variable = { name = available_ritual_id_astrology_list target = 4 }
+		add_to_variable_list = { name = active_ritual_id_list target = 19 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_astrology_5
+		}
+		remove_list_variable = { name = available_ritual_id_astrology_list target = 5 }
+		add_to_variable_list = { name = active_ritual_id_list target = 20 }
+	}
+}
+
+calculate_rituals_dark = {
+	clear_variable_list = available_ritual_id_dark_list
+    add_to_variable_list = { name = available_ritual_id_dark_list target = 1 }
+	add_to_variable_list = { name = available_ritual_id_dark_list target = 2 }
+	add_to_variable_list = { name = available_ritual_id_dark_list target = 3 }
+	add_to_variable_list = { name = available_ritual_id_dark_list target = 4 }
+	add_to_variable_list = { name = available_ritual_id_dark_list target = 5 }
+	if = {
+		limit = {
+			has_modifier = country_ritual_dark_1
+		}
+		remove_list_variable = { name = available_ritual_id_dark_list target = 1 }
+		add_to_variable_list = { name = active_ritual_id_list target = 21 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_dark_2
+		}
+		remove_list_variable = { name = available_ritual_id_dark_list target = 2 }
+		add_to_variable_list = { name = active_ritual_id_list target = 22 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_dark_3 
+		}
+		remove_list_variable = { name = available_ritual_id_dark_list target = 3 }
+		add_to_variable_list = { name = active_ritual_id_list target = 23 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_dark_4
+		}
+		remove_list_variable = { name = available_ritual_id_dark_list target = 4 }
+		add_to_variable_list = { name = active_ritual_id_list target = 24 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_dark_5
+		}
+		remove_list_variable = { name = available_ritual_id_dark_list target = 5 }
+		add_to_variable_list = { name = active_ritual_id_list target = 25 }
+	}
+}
+
+calculate_rituals_antimagic = {
+	clear_variable_list = available_ritual_id_antimagic_list
+    add_to_variable_list = { name = available_ritual_id_antimagic_list target = 1 }
+	add_to_variable_list = { name = available_ritual_id_antimagic_list target = 2 }
+	add_to_variable_list = { name = available_ritual_id_antimagic_list target = 3 }
+	add_to_variable_list = { name = available_ritual_id_antimagic_list target = 4 }
+	add_to_variable_list = { name = available_ritual_id_antimagic_list target = 5 }
+	if = {
+		limit = {
+			has_modifier = country_ritual_antimagic_1
+		}
+		remove_list_variable = { name = available_ritual_id_antimagic_list target = 1 }
+		add_to_variable_list = { name = active_ritual_id_list target = 26 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_antimagic_2
+		}
+		remove_list_variable = { name = available_ritual_id_antimagic_list target = 2 }
+		add_to_variable_list = { name = active_ritual_id_list target = 27 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_antimagic_3 
+		}
+		remove_list_variable = { name = available_ritual_id_antimagic_list target = 3 }
+		add_to_variable_list = { name = active_ritual_id_list target = 28 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_antimagic_4
+		}
+		remove_list_variable = { name = available_ritual_id_antimagic_list target = 4 }
+		add_to_variable_list = { name = active_ritual_id_list target = 29 }
+	}
+
+	if = {
+		limit = {
+			has_modifier = country_ritual_antimagic_5
+		}
+		remove_list_variable = { name = available_ritual_id_antimagic_list target = 5 }
+		add_to_variable_list = { name = active_ritual_id_list target = 30 }
+	}
+}
+
+
+calculate_rituals = {
+	clear_variable_list = active_ritual_id_list
+	calculate_rituals_divine = yes
+	calculate_rituals_druidic = yes
+	calculate_rituals_artificer = yes
+	calculate_rituals_astrology = yes
+	calculate_rituals_dark = yes
+	calculate_rituals_antimagic = yes
+}
+

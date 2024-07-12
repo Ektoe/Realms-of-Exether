@@ -50,10 +50,8 @@ MAGIC_OVERVIEW: "Magic"
 BUTTON_MAGIC_OVERVIEW: "#header Magic#!"
 MAGIC_PANEL_HEADER: "Magic"
 
-MAGICAL_RITUALS: "Magical Rituals"
-ACTIVE_RITUALS: "Active Rituals"
-AVAILABLE_RITUALS: "Available Rituals"
-ATTAINABLE_RITUALS: "Attainable Rituals"
+MAGICAL_RITUALS: "Magic Tenets"
+ACTIVE_RITUALS: "Active Tenets"
 
 RITUAL_1: "Almsgiving"
 RITUAL_2: "Divine Right"
@@ -86,36 +84,35 @@ RITUAL_28: "Prescient Profiling"
 RITUAL_29: "Surveillance Scrying"
 RITUAL_30: "Residual Magic Regulations"
 
-RITUAL_1_desc: "Divine Ritual 1"
-RITUAL_2_desc: "Divine Ritual 2"
-RITUAL_3_desc: "Divine Ritual 3"
-RITUAL_4_desc: "Divine Ritual 4"
-RITUAL_5_desc: "Divine Ritual 5"
-RITUAL_6_desc: "We will expand our cities with the help of our surroundings, not in spite of them."
-RITUAL_7_desc: "Control when and where rain falls to improve yields."
-RITUAL_8_desc: "Command the land itself to safeguard your frontiers."
-RITUAL_9_desc: "Druidic Ritual 4"
-RITUAL_10_desc: "Druidic Ritual 5"
-RITUAL_11_desc: "Artificer Ritual 1"
-RITUAL_12_desc: "Artificer Ritual 2"
-RITUAL_13_desc: "Artificer Ritual 3"
-RITUAL_14_desc: "Artificer Ritual 4"
-RITUAL_15_desc: "Artificer Ritual 5"
-RITUAL_16_desc: "Astrology Ritual 1"
-RITUAL_17_desc: "Astrology Ritual 2"
-RITUAL_18_desc: "Astrology Ritual 3"
-RITUAL_19_desc: "Astrology Ritual 4"
-RITUAL_20_desc: "Astrology Ritual 5"
-RITUAL_21_desc: "Dark Ritual 1"
-RITUAL_22_desc: "Dark Ritual 2"
-RITUAL_23_desc: "Dark Ritual 3"
-RITUAL_24_desc: "Dark Ritual 4"
-RITUAL_25_desc: "Dark Ritual 5"
-RITUAL_26_desc: "Antimagic Ritual 1"
-RITUAL_27_desc: "Antimagic Ritual 2"
-RITUAL_28_desc: "Antimagic Ritual 3"
-RITUAL_29_desc: "Antimagic Ritual 4"
-RITUAL_30_desc: "Antimagic Ritual 5"
+RITUAL_DRUID_1: "Harmonious Construction"
+RITUAL_DRUID_2: "Environmental Regeneration"
+RITUAL_DRUID_3: "Rite of Thorns"
+RITUAL_DRUID_4: "Scenic Landscapes"
+RITUAL_DRUID_5: "Conjured Rainfall"
+
+RITUAL_ARTIFICER_1: "Clockwork Couriers"
+RITUAL_ARTIFICER_2: "Auto Scribes"
+RITUAL_ARTIFICER_3: "Everyday Wonders"
+RITUAL_ARTIFICER_4: "Builder Golems"
+RITUAL_ARTIFICER_5: "Enchanted Tools"
+
+RITUAL_ASTROLOGY_1: "Astral Mapping"
+RITUAL_ASTROLOGY_2: "Starlight Academia"
+RITUAL_ASTROLOGY_3: "Guiding Constellations"
+RITUAL_ASTROLOGY_4: "Stellar Guidance"
+RITUAL_ASTROLOGY_5: "Universal Knowledge"
+
+RITUAL_DARK_1: "Bound Thralls"
+RITUAL_DARK_2: "Dark Fanatics"
+RITUAL_DARK_3: "Cult Initiations"
+RITUAL_DARK_4: "Profane Bargains"
+RITUAL_DARK_5: "Peer Beyond the Veil"
+
+RITUAL_ANTIMAGIC_1: "Dampening Collars"
+RITUAL_ANTIMAGIC_2: "Divination of Secrets"
+RITUAL_ANTIMAGIC_3: "Prescient Profiling"
+RITUAL_ANTIMAGIC_4: "Surveillance Scrying"
+RITUAL_ANTIMAGIC_5: "Residual Magic Regulations"
 
 RITUAL_SOURCE_DIVINE: "[GetLawType('law_divine_miracles').GetName]"
 RITUAL_SOURCE_DRUIDIC: "[GetLawType('law_druidic_circles').GetName]"
@@ -126,14 +123,32 @@ RITUAL_SOURCE_ANTIMAGIC: "[GetLawType('law_mage_hunters').GetName]"
 
 RITUAL_NAME: "[AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)1'), 'RITUAL_1')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)2'), 'RITUAL_2')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)3'), 'RITUAL_3')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)4'), 'RITUAL_4')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)5'), 'RITUAL_5')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)6'), 'RITUAL_6')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)7'), 'RITUAL_7')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)8'), 'RITUAL_8')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)9'), 'RITUAL_9')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)10'), 'RITUAL_10')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)11'), 'RITUAL_11')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)12'), 'RITUAL_12')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)13'), 'RITUAL_13')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)14'), 'RITUAL_14')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)15'), 'RITUAL_15')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)16'), 'RITUAL_16')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)17'), 'RITUAL_17')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)18'), 'RITUAL_18')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)19'), 'RITUAL_19')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)20'), 'RITUAL_20')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)21'), 'RITUAL_21')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)22'), 'RITUAL_22')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)23'), 'RITUAL_23')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)24'), 'RITUAL_24')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)25'), 'RITUAL_25')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)26'), 'RITUAL_26')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)27'), 'RITUAL_27')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)28'), 'RITUAL_28')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)29'), 'RITUAL_29')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)30'), 'RITUAL_30')]"
 
+RITUAL_NAME_DRUIDIC: "[AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)1'), 'RITUAL_DRUID_1')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)2'), 'RITUAL_DRUID_2')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)3'), 'RITUAL_DRUID_3')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)4'), 'RITUAL_DRUID_4')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)5'), 'RITUAL_DRUID_5')]"
+
+RITUAL_NAME_ARTIFICER: "[AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)1'), 'RITUAL_ARTIFICER_1')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)2'), 'RITUAL_ARTIFICER_2')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)3'), 'RITUAL_ARTIFICER_3')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)4'), 'RITUAL_ARTIFICER_4')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)5'), 'RITUAL_ARTIFICER_5')]"
+
+RITUAL_NAME_ASTROLOGY: "[AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)1'), 'RITUAL_ASTROLOGY_1')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)2'), 'RITUAL_ASTROLOGY_2')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)3'), 'RITUAL_ASTROLOGY_3')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)4'), 'RITUAL_ASTROLOGY_4')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)5'), 'RITUAL_ASTROLOGY_5')]"
+
+RITUAL_NAME_DARK: "[AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)1'), 'RITUAL_DARK_1')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)2'), 'RITUAL_DARK_2')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)3'), 'RITUAL_DARK_3')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)4'), 'RITUAL_DARK_4')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)5'), 'RITUAL_DARK_5')]"
+
+RITUAL_NAME_ANTIMAGIC: "[AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)1'), 'RITUAL_ANTIMAGIC_1')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)2'), 'RITUAL_ANTIMAGIC_2')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)3'), 'RITUAL_ANTIMAGIC_3')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)4'), 'RITUAL_ANTIMAGIC_4')][AddLocalizationIf(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)5'), 'RITUAL_ANTIMAGIC_5')]"
+
 RITUAL_COST: "Cost: #white #underline #bold [Scope.ScriptValue('ritual_cost')]#!#!#! @magic! [concept_magic_reserves]"
 
 RITUAL_SOURCE: "Source: [AddLocalizationIf(Or(Or(Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)1'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)2')), Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)3'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)4'))), EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)5')), 'RITUAL_SOURCE_DIVINE')|0v][AddLocalizationIf(Or(Or(Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)6'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)7')), Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)8'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)9'))), EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)10')), 'RITUAL_SOURCE_DRUIDIC')|0v][AddLocalizationIf(Or(Or(Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)11'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)12')), Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)13'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)14'))), EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)15')), 'RITUAL_SOURCE_ARTIFICER')|0v][AddLocalizationIf(Or(Or(Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)16'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)17')), Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)18'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)19'))), EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)20')), 'RITUAL_SOURCE_ASTROLOGY')|0v][AddLocalizationIf(Or(Or(Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)21'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)22')), Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)23'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)24'))), EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)25')), 'RITUAL_SOURCE_DARK')|0v][AddLocalizationIf(Or(Or(Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)26'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)27')), Or(EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)28'),EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)29'))), EqualTo_CFixedPoint(Scope.GetValue, '(CFixedPoint)30')), 'RITUAL_SOURCE_ANTIMAGIC')|0v]"
 
-CAST_RITUAL: "Perform"
+DIVINE_MIRACLES_TEXT: "College of Divinity"
+DRUIDIC_TEXT: "College of Druidry"
+ARTIFICER_TEXT: "College of Artifice"
+ASTROLOGY_TEXT: "College of Astrology"
+DARK_TEXT: "College of Dark Arts"
+ANTIMAGIC_TEXT: "College of Sovereignty"
+
+
+CAST_RITUAL: "Embrace"
 CAST_RITUAL_DESC: "#header Cast the $RITUAL_NAME$ ritual#!\n$TOOLTIP_DELIMITER$\n [ScriptedButton.GetEffectDesc]"
 
-DISPEL_RITUAL: "Dispel"
+DISPEL_RITUAL: "Abandon"
 DISPEL_RITUAL_DESC: "#header Dispel the $RITUAL_NAME$ ritual#!\n$TOOLTIP_DELIMITER$\n [ScriptedButton.GetEffectDesc]"
 
 
