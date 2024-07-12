@@ -720,7 +720,6 @@ exether_is_coastal = {
 			state_region = s:STATE_ZVEJYCATIA
 			state_region = s:STATE_UPESTARR
 			state_region = s:STATE_BALTIJOSCAT
-			state_region = s:STATE_LIUTUKATAL
 			state_region = s:STATE_PAPLUDIMIS
 			state_region = s:STATE_BANGALITVA
 			state_region = s:STATE_VITHKUQJA
