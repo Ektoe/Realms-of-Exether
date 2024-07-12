@@ -150,7 +150,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_STILTEBRUZJE
+				state_region = s:STATE_SKIMERWALD
 				count = 10
 			}
 

@@ -782,7 +782,6 @@ exether_is_coastal = {
 			state_region = s:STATE_BLOEIJENDREAM
 			state_region = s:STATE_KLAVERBOSK
 			state_region = s:STATE_NACHTSIMMER
-			state_region = s:STATE_STILTEBRUZJE
 			state_region = s:STATE_SKIMERWALD
 			state_region = s:STATE_STREAMFLAMME
 			state_region = s:STATE_MISTGLANS
