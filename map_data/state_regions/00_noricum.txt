@@ -248,7 +248,6 @@ STATE_SOUTH_YANGER_STEPPE = {
     arable_land = 24
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 11
         bg_logging = 14
     }
     naval_exit_id = 3231
@@ -286,6 +285,7 @@ STATE_RIDERS_MOOT = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 6
+        bg_iron_mining = 11
         bg_wishstone_mining = 24
     }
     naval_exit_id = 3231
