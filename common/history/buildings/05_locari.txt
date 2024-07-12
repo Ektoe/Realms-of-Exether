@@ -717,6 +717,14 @@
 		region_state:MAI={
 			create_building={
 				building="building_fishing_wharf_rusttails"
+				add_ownership={ 
+					building={ 
+						type="building_tavern"
+						country="c:MAI"
+						levels=3
+						region="STATE_KURUBBA"
+				   }
+				}
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
 			}
