@@ -34,7 +34,7 @@ pick_ritual_id_divine = {
 	   ritual_divine_5 = yes
 	}
 
-	calculate_rituals = yes
+	calculate_rituals_divine = yes
 }
 
 ### DRUIDIC ###
@@ -73,7 +73,7 @@ pick_ritual_id_druidic = {
 	   ritual_druidic_5 = yes
 	}
 
-	calculate_rituals = yes
+	calculate_rituals_druidic = yes
 }
 
 ### ARTIFICER ###
@@ -112,7 +112,7 @@ pick_ritual_id_artificer = {
 	   ritual_artificer_5 = yes
 	}
 
-	calculate_rituals = yes
+	calculate_rituals_artificer = yes
 }
 
 ### ASTROLOGY ###
@@ -151,7 +151,7 @@ pick_ritual_id_astrology = {
 	   ritual_astrology_5 = yes
 	}
 
-	calculate_rituals = yes
+	calculate_rituals_astrology = yes
 }
 
 ### DARK ###
@@ -190,7 +190,7 @@ pick_ritual_id_dark = {
 	   ritual_dark_5 = yes
 	}
 
-	calculate_rituals = yes
+	calculate_rituals_dark = yes
 }
 
 ### ANTIMAGIC ###
@@ -229,7 +229,7 @@ pick_ritual_id_antimagic = {
 	   ritual_antimagic_5 = yes
 	}
 
-	calculate_rituals = yes
+	calculate_rituals_antimagic = yes
 }
 
 ### GENERAL ###
