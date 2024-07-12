@@ -720,7 +720,6 @@ STATE_CYRRA = {
         bg_fishing = 10
         bg_squidding = 10
         bg_lead_mining = 20
-        bg_wishstone_mining = 15
     }
     naval_exit_id = 3089
 }
@@ -1532,7 +1531,6 @@ STATE_PATARENI = {
     capped_resources = {
         bg_logging = 12
         bg_squidding = 10
-        bg_wishstone_mining = 16
     }
     naval_exit_id = 3089
 }
