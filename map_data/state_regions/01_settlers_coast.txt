@@ -374,6 +374,7 @@ STATE_RIVER_MEDDEN = {
     capped_resources = {
         bg_logging = 4
         bg_fishing = 1
+        bg_wishstone_mining = 4
     }
     naval_exit_id = 3028
 }
@@ -690,6 +691,7 @@ STATE_OUTER_MOORWEALD = {
     capped_resources = {
         bg_logging = 19
         bg_fishing = 5
+        bg_wishstone_mining = 3
     }
     naval_exit_id = 3038
 }
