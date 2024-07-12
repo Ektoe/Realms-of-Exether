@@ -65,3 +65,11 @@ state_trait_nogi_sands = {
 		state_infrastructure_mult = -0.25
     }
 }
+
+ state_trait_whiskerfields = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+		   
+	modifier = {
+        agriculture_throughput_mult = 0.15
+    }
+}

@@ -844,15 +844,6 @@
 		}
 	}
 
-	s:STATE_LIUTUKATAL = {
-		region_state:KUM = {
-			create_pop = {
-				culture = west_lacertian
-				size = 415000
-			}
-		}
-	}
-
 	s:STATE_UPESTARR = {
 		region_state:LEM = {
 			create_pop = {
@@ -883,7 +874,7 @@
 		region_state:KUM = {
 			create_pop = {
 				culture = west_lacertian
-				size = 100000
+				size = 618000
 			}
 		}
 	}
