@@ -287,7 +287,6 @@ STATE_RIDERS_MOOT = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_tea_plantations" }
     capped_resources = {
         bg_logging = 6
-        bg_wishstone_mining = 24
     }
     naval_exit_id = 3231
 }
@@ -810,7 +809,7 @@ STATE_URIKS_GIFT = {
         bg_sulfur_mining = 40
         bg_logging = 24
         bg_hunting = 12
-        bg_wishstone_mining = 29
+        bg_wishstone_mining = 20
     }
     resource = {
         type = "bg_oil_extraction"
