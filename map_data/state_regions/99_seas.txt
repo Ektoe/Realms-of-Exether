@@ -1142,7 +1142,7 @@ STATE_SANGARI_SHORES = {
 }
 
 STATE_SALTY_LANDING = {
- #where we dropping, boys?
+    #where we dropping, boys?
     id = 3244
     provinces = { "x7f0656" }
 }

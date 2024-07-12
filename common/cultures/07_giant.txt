@@ -1,7 +1,7 @@
 ﻿frost_giant ={
 	color= hsv{ 0.74 0.46 0.58 }
 	religion = giant_hierarchy
-	traits = { giant_heritage }
+	traits = {everfrostern_culture_group giant_heritage }
 	male_common_first_names={
 		Agnar
 		Bjorn_2
@@ -147,7 +147,7 @@ toftir_giant={
 fire_giant ={
 	color= hsv{ 0.94 0.56 0.58 }
 	religion = giant_hierarchy
-	traits = {  giant_heritage }
+	traits = {   everfrostern_culture_group giant_heritage}
 	male_common_first_names={
 		Agnar
 		Bjorn_2
@@ -220,7 +220,7 @@ fire_giant ={
 grendleth = {
 	color={ 72 79 127 }
 	religion = giant_hierarchy
-	traits = { giant_heritage }
+	traits = {  everfrostern_culture_group giant_heritage}
 	
 	male_common_first_names = {
 		Alexander Alasdair Archibald Andrew Angus Asher Auckland Arthur Aeneas Adam Alan
@@ -339,7 +339,7 @@ grendleth = {
 cloud_giant={
 	color= hsv{ 0.24 0.49 0.50 }
 	religion = giant_hierarchy
-	traits = { giant_heritage }
+	traits = {  everfrostern_culture_group giant_heritage}
 	male_common_first_names={
 		Aysen
 		Aytal

@@ -47,37 +47,38 @@
 
 	pop_potential = {
 		OR = {
-			OR = {
-				is_pop_type = archmages
-				is_pop_type = wizards
-				is_pop_type = starbrands
+			AND = {
+				OR = {
+					is_pop_type = archmages
+					is_pop_type = wizards
+					is_pop_type = starbrands
+				}
+				literacy_rate > 0.25
 			}
-			literacy_rate > 0.25
-		}
-		AND = {
-			OR = {
-				is_pop_type = aristocrats
-				is_pop_type = bureaucrats
-				is_pop_type = capitalists
-				is_pop_type = engineers
-				is_pop_type = archmages
-				is_pop_type = wizards
-				is_pop_type = starbrands
-				is_pop_type = clergymen
-				AND = {
-					is_pop_type = academics
-					owner = {
-						has_law = law_type:law_astrological_studies
+			AND = {
+				OR = {
+					is_pop_type = aristocrats
+					is_pop_type = bureaucrats
+					is_pop_type = capitalists
+					is_pop_type = engineers
+					is_pop_type = archmages
+					is_pop_type = wizards
+					is_pop_type = starbrands
+					is_pop_type = clergymen
+					AND = {
+						is_pop_type = academics
+						owner = {
+							has_law = law_type:law_astrological_studies
+						}
 					}
 				}
-			}
-			OR = {
-				pop_employment_building_group = bg_wizard_towers
-				pop_employment_building_group = bg_magic_manufacturing
-				pop_employment_building_group = bg_magic_resource
+				OR = {
+					pop_employment_building_group = bg_wizard_towers
+					pop_employment_building_group = bg_magic_manufacturing
+					pop_employment_building_group = bg_magic_resource
+				}
 			}
 		}
-
 	}
 
 	pop_weight = {

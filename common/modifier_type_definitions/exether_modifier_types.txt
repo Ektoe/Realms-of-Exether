@@ -8,8 +8,17 @@
 	}
 }
 
-country_magical_reserves_add = {
+country_magic_reserves_total_add = {
 	color=good
+	percent = no
+	decimals=0
+	game_data={
+		ai_value=0
+	}
+}
+
+country_magic_reserves_total_subtract = {
+	color=bad
 	percent = no
 	decimals=0
 	game_data={
@@ -133,6 +142,32 @@ building_employment_adventurers_add = {
 	}
 }
 
+building_adventurers_shares_add={
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+state_adventurers_investment_pool_contribution_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_adventurers_investment_pool_efficiency_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
 building_employment_heroes_add = {
 	color=good
 	percent = no
@@ -188,6 +223,33 @@ building_wizards_mortality_mult={
 	}
 }
 
+building_wizards_shares_add={
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+state_wizards_investment_pool_contribution_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_wizards_investment_pool_efficiency_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+
 
 country_archmages_pol_str_mult={
 	decimals=1
@@ -217,6 +279,31 @@ building_archmages_mortality_mult={
 	}
 }
 
+building_archmages_shares_add={
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+state_archmages_investment_pool_contribution_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_archmages_investment_pool_efficiency_mult={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
 
 country_heroes_pol_str_mult={
 	decimals=1
@@ -240,6 +327,32 @@ state_heroes_mortality_mult={
 building_heroes_mortality_mult={
 	decimals=1
 	color=bad
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_heroes_shares_add={
+	decimals=0
+	color=neutral
+	game_data={
+		ai_value=0
+	}
+}
+
+state_heroes_investment_pool_contribution_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_heroes_investment_pool_efficiency_mult={
+	decimals=0
+	color=good
 	percent=yes
 	game_data={
 		ai_value=0
@@ -275,6 +388,24 @@ building_employment_starbrands_add={
 building_starbrands_mortality_mult={
 	decimals=1
 	color=bad
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_starbrands_investment_pool_contribution_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_starbrands_investment_pool_efficiency_mult={
+	decimals=0
+	color=good
 	percent=yes
 	game_data={
 		ai_value=0

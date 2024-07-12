@@ -522,7 +522,7 @@ sandcircler = {
 blacktalon = {
 	color= hsv{ 0.72 0.25 0.28 }
 	religion = death_worship
-	traits = { bird_heritage }
+	traits = { toftirite_culture_group bird_heritage }
 	male_common_first_names={
 		Aadu
 		Alar

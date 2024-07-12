@@ -8,7 +8,7 @@
   law_artificer_guilds: "Artificer Guilds"
   law_astrological_studies: "Astrological Studies"
   law_dark_arts: "Dark Arts"
-  law_mage_hunters: "Witch Hunts"
+  law_mage_hunters: "State Regulations"
   law_court_mages: "Court Mages"
   law_magical_schools: "Wizardry Schools"
   law_magocracy: "Magocracy"
@@ -33,6 +33,8 @@
  ideology_corporatist_magoclast: "Corporatist"
  ideology_corporatist_magoclast_desc: "#lore This group believes in the resolution of conflict between classes through the application of religious principles.#!"
 
+ ideology_artificer_baron: "Artificer Baron"
+ ideology_artificer_baron_desc: "#lore This leader believes that the metaphorical mage hand of the free market should be the guiding force of the nation's economy."
 
  ideology_corporatist: "Corporatist"
  ideology_corporatist_desc: "#lore This group believes in the resolution of conflict between classes through the application of religious principles.#!"

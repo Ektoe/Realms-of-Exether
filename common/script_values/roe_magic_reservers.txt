@@ -53,17 +53,19 @@ magic_institution_level = {
 
   magic_institution_bonus = {
 	value = 0
-
 	add = magic_institution_level
-
 	multiply = 100
   }
 
 magic_reserves_total = {
-	value = 100 #Base Value
+	value = 100
+	add = modifier:country_magic_reserves_total_add
+	subtract = modifier:country_magic_reserves_total_subtract
+}
 
-	add = modifier:country_magical_reserves_add
-
+magic_ritual_costs = {
+	value = 0
+	subtract = modifier:country_magic_reserves_total_subtract
   }
 
 normalized_magic_surplus = {

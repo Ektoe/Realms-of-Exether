@@ -189,15 +189,6 @@ state_mortals_burden_standard_of_living_add = {
 		ai_value=0
 	}
 }
-
-
-	decimals=1
-	color=good
-	game_data={
-		ai_value=0
-	}
-}
-
 state_dwarven_dark_magic_standard_of_living_add = {
 	decimals=1
 	color=good
