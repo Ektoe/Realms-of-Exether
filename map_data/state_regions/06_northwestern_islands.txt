@@ -1511,6 +1511,7 @@ STATE_TAUMAROI = {
     capped_resources = {
         bg_lead_mining = 36
         bg_logging = 14
+        bg_wishstone_mining = 17
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1532,7 +1533,6 @@ STATE_PATARENI = {
     capped_resources = {
         bg_logging = 12
         bg_squidding = 10
-        bg_wishstone_mining = 16
     }
     naval_exit_id = 3089
 }
