@@ -110,7 +110,7 @@ korkaz = {
 
 kaalkid={
 	color= hsv{ 0.62 0.26 0.74 }
-	traits = { orc_heritage }
+	traits = {  orc_heritage }
 	religion = orc_father
 	obsessions = {
 		meat

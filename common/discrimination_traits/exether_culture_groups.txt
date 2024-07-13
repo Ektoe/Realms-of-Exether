@@ -70,3 +70,9 @@ west_zalar_culture_group = {
 
 toftirite_culture_group = {
 }
+
+fahavalan_culture_group = {
+}
+
+locari_culture_group = {
+}

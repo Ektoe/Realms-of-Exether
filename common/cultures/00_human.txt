@@ -4233,7 +4233,7 @@ south_sea_ravager={
 nivaskyan={
 	color= hsv{ 0.67 0 0.67 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names={
 		Ervko
 		Igney
@@ -4340,7 +4340,7 @@ nivaskyan={
 varyngi={
 	color= hsv{ 0.47 0.2 0.67 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group everfrostern_culture_group human_heritage }
 	male_common_first_names={
 		Ervko
 		Igney
