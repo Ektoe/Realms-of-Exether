@@ -283,6 +283,7 @@ STATE_THE_CHASM = {
     farm = x76F5D1
     mine = x7EB0DF
     port = x83D2C4
+    traits = { "state_trait_the_chasm_ceraun" }
     arable_land = 100
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
