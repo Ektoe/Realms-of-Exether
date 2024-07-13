@@ -17,7 +17,7 @@ country_ritual_antimagic_3 = {
 }
 country_ritual_antimagic_4 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	country_authority_mult = 0.1
+	country_authority_mult = 0.2
 	
 }
 country_ritual_antimagic_5 = {
@@ -51,7 +51,7 @@ country_ritual_astrology_1 = {
 }
 country_ritual_astrology_2 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_education_access_add = 0.10
+	state_education_access_add = 0.30
 	
 }
 country_ritual_astrology_3 = {
@@ -75,7 +75,7 @@ country_ritual_artificer_1 = {
 }
 country_ritual_artificer_2 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	country_bureaucracy_mult = 0.1
+	country_bureaucracy_mult = 0.2
 }
 country_ritual_artificer_3 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -121,6 +121,7 @@ country_ritual_divine_2 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	country_legitimacy_base_add = 10
 	interest_group_in_government_attraction_mult = 0.30
+	state_conversion_mult = 0.25
 }
 country_ritual_divine_3 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -129,6 +130,7 @@ country_ritual_divine_3 = {
 country_ritual_divine_4 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	country_influence_mult = 0.2
+	state_conversion_mult = 0.25
 }
 country_ritual_divine_5 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"

@@ -77,9 +77,10 @@ law_divine_miracles = {
 	}
 
 	institution = institution_magical_focus
+
 	institution_modifier = {
-		country_clergymen_pol_str_mult = 0.05
-		state_conversion_mult = 0.05
+		country_archmages_pol_str_mult = 0.05
+		country_clergymen_pol_str_mult = 0.10
 	}
 	
 	possible_political_movements = {
@@ -185,9 +186,9 @@ law_druidic_circles = {
 	}
 	
 	institution = institution_magical_focus
+
 	institution_modifier = {
-		
-		
+		country_archmages_pol_str_mult = 0.05
 	}
 
 	on_enact = {
@@ -269,7 +270,10 @@ law_artificer_guilds = {
 	}
 	
 	institution = institution_magical_focus
+
 	institution_modifier = {
+		country_archmages_pol_str_mult = 0.05
+		country_capitalists_pol_str_mult = 0.05
 		country_engineers_pol_str_mult = 0.05
 	}
 	
@@ -371,8 +375,10 @@ law_astrological_studies = {
 	}
 	
 	institution = institution_magical_focus
+
 	institution_modifier = {
-		country_magic_reserves_total_add = 100
+		country_academics_pol_str_mult = 0.10
+		country_archmages_pol_str_mult = 0.05
 	}
 	
 	possible_political_movements = {
@@ -473,9 +479,10 @@ law_dark_arts = {
 	}
 	
 	institution = institution_magical_focus
+
 	institution_modifier = {
-		state_birth_rate_mult = 0.01
-		state_mortality_mult = -0.01
+		country_archmages_pol_str_mult = 0.05
+		state_mortality_mult = 0.02
 	}
 
 	modifier = {
@@ -578,12 +585,9 @@ law_mage_hunters = {
 	}
 	
 	institution = institution_magical_focus
+
 	institution_modifier = {
-		country_authority_add = 50	
-		country_archmages_pol_str_mult = -0.1
-		country_magic_reserves_total_add = -100
-		country_archmages_pol_str_mult = -0.1
-		country_magical_reserves_add = -100
+		country_archmages_pol_str_mult = -0.20
 	}
 	
 	possible_political_movements = {
