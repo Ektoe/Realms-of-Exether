@@ -6,6 +6,7 @@ Settlers Coast Theme: Modernity
 		Halfling Estates
 			-Wealth Inequality
 			-Dramatic Cultural Shift
+			-Demographic shift (immigration)
 	
 	Ceraun: Building a Nation
 		-National Identity
