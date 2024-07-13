@@ -490,17 +490,44 @@
 		}
                 create_trade_route = {
 			goods = small_arms
-			level = 5
+			level = 3
 			direction = import
 			target = c:DUM.market
+		}
+                create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:SMA.market
 		}
                 create_trade_route = {
 			goods = sugar
 			level = 3
 			direction = import
-			target = c:EME.market
+			target = c:SMA.market
 		}
 	}
+        c:AHO ?= {
+		create_trade_route = {
+			goods = fabric
+			level = 2
+			direction = import
+			target = c:PFL.market
+		}
+                create_trade_route = {
+			goods = liquor
+			level = 2
+			direction = import
+			target = c:PFL.market
+		}
+                create_trade_route = {
+			goods = liquor
+			level = 3
+			direction = import
+			target = c:EBR.market
+		}
+	}
+
 	#Central Zalaron
 	c:OPA ?= {
 		create_trade_route = {
