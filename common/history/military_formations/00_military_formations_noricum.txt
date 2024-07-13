@@ -66,7 +66,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_central_noricum
-			name = Great_Dovedalian_Army
+			name = Dovedalian_National_Guard
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -94,7 +94,6 @@
 				state_region = s:STATE_BALLYNE
 				count = 1
 			}
-			save_scope_as = great_dovedalian_army
 		}
 
 		create_character = {
@@ -141,7 +140,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_ravencliff
-			name = The_White_Army
+			name = Vampire_Legion
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -151,44 +150,25 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SHROUDGUARD
-				count = 2
+				count = 15
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_YSTRAD
-				count = 4
+				count = 17
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_lancer
 				state_region = s:STATE_BLACKDON
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_RAVENCLIFF
-				count = 1
-			}
-			save_scope_as = white_army
-		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_ravencliff
-			name = black_armada
-		
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_PONTBRAN
 				count = 3
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_PONTBRAN
-				count = 6
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_RAVENCLIFF
+				count = 7
 			}
-			save_scope_as = black_fleet
+		
 		}
 
 	}
@@ -196,49 +176,36 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_central_noricum
-			name = Holy_Sacred_Army
+			name = The_Order
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_TEMPLE_HILL
-				count = 6
+				count = 25
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_COLNAIG
-				count = 2
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_FALNALECK
-				count = 2
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_TEMPLE_HILL
-				count = 2
+				count = 10
 			}
-			save_scope_as = hs_army
-		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_central_noricum
-			name = pontifical_armada
-		
 			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
+				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_TEMPLE_HILL
-				count = 2
+				count = 3
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_TEMPLE_HILL
-				count = 4
-			}
-			save_scope_as = pontifical_fleet
+
 		}
 
 	}
@@ -306,7 +273,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_ravencliff
-			name = The_Red_Army
+			name = Foxworth_National_Militia
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -334,7 +301,6 @@
 				state_region = s:STATE_INCHMARA
 				count = 3
 			}
-			save_scope_as = red_army
 		}
 	}
 	#Yanger steppe armys and armadas	

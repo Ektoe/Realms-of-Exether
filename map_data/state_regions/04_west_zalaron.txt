@@ -2277,6 +2277,7 @@ STATE_BELLENBOS = {
         bg_sulfur_mining = 32
         bg_logging = 23
         bg_hunting = 12
+        bg_wishstone_mining = 3
     }
     naval_exit_id = 3104
 }
@@ -2472,6 +2473,7 @@ STATE_KRULHOVEN = {
         bg_logging = 14
         bg_whaling = 8
         bg_fishing = 10
+        bg_wishstone_mining = 11
     }
     naval_exit_id = 3013
 }
@@ -2567,6 +2569,7 @@ STATE_GLIMMERWOUD = {
         bg_coal_mining = 64
         bg_sulfur_mining = 40
         bg_logging = 11
+        bg_wishstone_mining = 5
     }
     naval_exit_id = 3105
 }
