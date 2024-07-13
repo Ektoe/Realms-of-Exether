@@ -1734,7 +1734,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:ABR"
-                        levels=4
+                        levels=3
                         region="STATE_MIDCLACK"
                    }
                 }
@@ -1760,7 +1760,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:ABR"
-						levels=8
+						levels=2
 						region="STATE_MIDCLACK"
 				   }
 				}
@@ -1773,7 +1773,7 @@
                     building={ 
                         type="building_adventuring_guild"
                         country="c:ABR"
-                        levels=2
+                        levels=1
                         region="STATE_MIDCLACK"
                    }
                 }
@@ -1782,9 +1782,9 @@
         }
         create_building={
           building="building_port"
-          level=1
+          level=2
           reserves=1
-          activate_production_methods={ "pm_anchorage" }
+          activate_production_methods={ "pm_basic_port" }
         }
             create_building={
           building="building_logging_camp"
@@ -1792,7 +1792,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:ABR"
-                        levels=8
+                        levels=6
                         region="STATE_MIDCLACK"
                    }
                 }
@@ -1818,7 +1818,7 @@
                   building={
                       type="building_wizard_tower"
                       country="c:ABR"
-                      levels=2
+                      levels=1
                       region="STATE_MIDCLACK"
               }
     }
@@ -3315,7 +3315,65 @@
           building="building_port"
           level=1
           reserves=1
-          activate_production_methods={ "pm_basic_port" }
+          activate_production_methods={ "pm_anchorage" }
+        }
+        create_building={
+          building="building_furniture_manufacturies"
+                    add_ownership={ 
+                        building={ 
+                            type="building_financial_district"
+                            country="c:ROF"
+                            levels=2
+                            region="STATE_BANCFAN"
+                       }
+                    }
+          reserves=1
+          activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" }
+        }
+        create_building={
+          building="building_logging_camp"
+                    add_ownership={ 
+                        building={ 
+                            type="building_financial_district"
+                            country="c:ROF"
+                            levels=4
+                            region="STATE_BANCFAN"
+                       }
+                    }
+          reserves=1
+          activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+        }
+        create_building={
+          building="building_tooling_workshops"
+          add_ownership={ 
+            building={ 
+              type="building_financial_district"
+              country="c:ROF"
+              levels=1
+              region="STATE_BANCFAN"
+             }
+          }
+          reserves=1
+          activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" }
+        }
+        create_building={
+          building="building_livestock_ranch"
+            add_ownership={ 
+              building={ 
+                type="building_manor_house"
+                country="c:ROF"
+                levels=2
+                region="STATE_BANCFAN"
+               }
+            }
+          reserves=1
+          activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" }
+        }
+        create_building={
+          building="building_construction_sector"
+          level=2
+          reserves=1
+          activate_production_methods={ "pm_wooden_buildings" }
         }
       }
   }
@@ -3427,7 +3485,7 @@
           building="building_port"
           level=1
           reserves=1
-          activate_production_methods={ "pm_basic_port" }
+          activate_production_methods={ "pm_anchorage" }
         }			
       }
   }
@@ -3927,14 +3985,14 @@
            reserves=1
           activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
         }
-      }
+
       create_building={
         building="building_wishstone_mine"
                   add_ownership={ 
                     building={ 
                         type="building_financial_district"
                         country="c:ABR"
-                        levels=3
+                        levels=2
                         region="STATE_CARREGRICE"
                    }
                 }

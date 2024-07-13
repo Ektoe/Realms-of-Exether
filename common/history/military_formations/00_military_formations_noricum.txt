@@ -95,6 +95,7 @@
 				count = 1
 			}
 		}
+         save_scope_as = Dovedalian_National_Guard
 
 		create_character = {
 			#template = DOV_alf_cobcroft
@@ -111,18 +112,7 @@
 			type = fleet
 			hq_region = sr:region_central_noricum
 			name = dovedalian_armada
-		
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_GLASINBLAIR
-				count = 1
-			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_GLASINBLAIR
-				count = 3
-			}
 			save_scope_as = dovedalian_fleet
 		}
 
@@ -209,6 +199,43 @@
 		}
 
 	}
+	c:ABR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dumonian_heartlands
+			name = Albriar_Defense_Force
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_KOTHIAN
+				count = 25
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MIDCLACK
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CARREGRICE
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_CARREGRICE
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_CARREGRICE
+				count = 5
+			}
+
+
+		}
+
+	}
 	c:ROF ?= {
 		create_military_formation = {
 			type = army
@@ -236,36 +263,6 @@
 				count = 1
 			}
 			save_scope_as = first_army
-		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_worlds_end
-			name = the_great_fleet
-		
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_BANCFAN
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_CAECARW
-				count = 3
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_CAECARW
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_BANCFAN
-				count = 3
-			}
-			save_scope_as = the_great_fleet
 		}
 
 	}
