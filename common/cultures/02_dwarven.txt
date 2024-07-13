@@ -417,6 +417,9 @@ koshiri={
 castaway_dwarf={
 	color= hsv{ 0.71 0.54 0.78 }
 	religion = animist
+	obsessions = {
+		liquor
+	}
 	traits = {cloud_dwarf dwarf_heritage }
 	male_common_first_names={
 		Bing
