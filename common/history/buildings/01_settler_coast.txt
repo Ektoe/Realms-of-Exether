@@ -4971,6 +4971,19 @@
 			reserves=1
 			activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
 		}
+                create_building={
+				building="building_tooling_workshops"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:VHT"
+						levels=1
+						region="STATE_VYNDERVOHT"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_wrought_iron_tools" "pm_automation_disabled" }
+			}
 		create_building={
 			building="building_dwarf_tunnels"
 			level=1
