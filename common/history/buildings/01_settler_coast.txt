@@ -118,7 +118,7 @@
 				      building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:EME"
                         levels=3
                         region="STATE_SHARINDLARS_NEEDLE"
@@ -193,7 +193,7 @@
 				      building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:EME"
                         levels=2
                         region="STATE_ABAISSE_DE_MARBRUN"
@@ -347,7 +347,7 @@
 		}
                         create_building={
 			building="building_government_administration"
-			level=1
+			level=2
 			reserves=1
 			activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_vertical_filing_cabinets" }
 		}
@@ -449,7 +449,7 @@
                                         building={ 
                                                 type="building_financial_district"
                                                 country="c:CER"
-                                                levels=1
+                                                levels=2
                                                 region="STATE_LANDING_AT_SEA"
                                }
                             }
@@ -467,7 +467,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools"  }
+			activate_production_methods={ "pm_soil_enriching_farming" "pm_citrus_orchards" "pm_tools"  }
 		}
 			create_building={
 			building="building_vineyard_plantation"
@@ -482,6 +482,12 @@
 			reserves=1
 			activate_production_methods={ "default_building_vineyard_plantation" }
 		}
+                        create_building={
+			building="building_port"
+			level=2
+			reserves=1
+			activate_production_methods={ "pm_basic_port" }
+		}
 	}
 	}
 		
@@ -492,7 +498,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:CER"
                         levels=3
                         region="STATE_CAEL_VALEN"
@@ -561,12 +567,42 @@
 		}
 		create_building={
 			building="building_port"
-			level=1
+			level=2
 			reserves=1
 			activate_production_methods={ "pm_basic_port" }
 		}
 	}
   }
+  s:STATE_CAEL_VALEN_2 = {
+	region_state:CER={
+            create_building={
+			     building="building_fishing_wharf"
+                             add_ownership={ 
+                                     building={ 
+                                             type="building_manor_houses"
+                                             country="c:CER"
+                                             levels=2
+                                             region="STATE_CAEL_VALEN_2"
+                        }
+                      }
+			        reserves=1
+			        activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+		     }
+              create_building={
+				building="building_livestock_ranch"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:CER"
+						levels=3
+						region="STATE_LANDING_AT_SEA_2"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+	}
+  }    
 
   s:STATE_LANDING_AT_SEA = {
 		region_state:CER={
@@ -672,7 +708,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:CER"
                         levels=3
                         region="STATE_LANDING_AT_SEA"
@@ -1032,7 +1068,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:CER"
                         levels=1
                         region="STATE_THE_CHASM"
@@ -1087,14 +1123,20 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:CER"
-                        levels=6
+                        levels=3
                         region="STATE_PENDYM_GWYN_2"
                    }
                 }
 			reserves=1
 			activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+		}
+                        create_building={
+			building="building_port"
+			level=1
+			reserves=1
+			activate_production_methods={ "pm_basic_port" }
 		}
 	}
 	}
@@ -1144,21 +1186,46 @@
 	region_state:MID={
 		create_building={
 			building="building_textile_mills"
-			level=4
+			level=3
 			reserves=1
 			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 		}
 		create_building={
 			building="building_wheat_farm"
-			level=3
+			level=4
 			reserves=1
-			activate_production_methods={  "pm_tools_disabled" "pm_simple_farming" }
+			activate_production_methods={ "pm_tools_disabled" "pm_simple_farming" }
 		}
 		create_building={
 			building="building_livestock_ranch"
-			level=1
+			level=2
 			reserves=1
 			activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
+		}
+                create_building={
+			building="building_food_industry"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:SMA"
+                        levels=1
+                        region="STATE_OUTER_MOORWEALD"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_bakeries" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+		}
+                create_building={
+			building="building_barracks"
+			level=3
+			reserves=1
+			activate_production_methods={ "pm_no_organization" }
+		}
+                create_building={
+			building="building_port"
+			level=1
+			reserves=1
+			activate_production_methods={ "pm_basic_port" }
 		}
 	}
   }
@@ -1313,7 +1380,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SEB"
                         levels=2
                         region="STATE_SERBINELLE"
@@ -1619,7 +1686,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
+			activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_fig_orchards" }
 		}
 	}
   }
@@ -1835,7 +1902,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:BDB"
+                        country="c:SMA"
                         levels=4
                         region="STATE_OUTER_MOORWEALD"
                    }
@@ -1848,7 +1915,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:BDB"
+                        country="c:SMA"
                         levels=3
                         region="STATE_OUTER_MOORWEALD"
                    }
@@ -1861,7 +1928,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:BDB"
+                        country="c:SMA"
                         levels=3
                         region="STATE_OUTER_MOORWEALD"
                    }
@@ -1873,8 +1940,8 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
-                        country="c:BDB"
+                        type="building_adventuring_guild"
+                        country="c:SMA"
                         levels=1
                         region="STATE_OUTER_MOORWEALD"
                    }
@@ -1887,8 +1954,8 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:BDB"
-						levels=6
+						country="c:SMA"
+						levels=5
 						region="STATE_OUTER_MOORWEALD"
 				   }
 				}
@@ -1900,8 +1967,8 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:BDB"
-						levels=5
+						country="c:SMA"
+						levels=3
 						region="STATE_OUTER_MOORWEALD"
 				   }
 				}
@@ -1913,7 +1980,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:BDB"
+						country="c:SMA"
 						levels=1
 						region="STATE_OUTER_MOORWEALD"
 					}
@@ -1923,7 +1990,7 @@
 		}
 		create_building={
 			building="building_barracks"
-			level=5
+			level=7
 			reserves=1
 			activate_production_methods={ "pm_no_organization" }
 		}
@@ -1944,7 +2011,7 @@
 		}		
 		create_building={
 			building="building_wheat_farm"
-			level=2
+			level=3
 			reserves=1
 			activate_production_methods={ "pm_simple_farming" "pm_tools_disabled"  }
 		}
@@ -1953,6 +2020,31 @@
 			level=1
 			reserves=1
 			activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+		}
+                create_building={
+			building="building_barracks"
+			level=2
+			reserves=1
+			activate_production_methods={ "pm_no_organization" }
+		}
+                create_building={
+			building="building_port"
+			level=1
+			reserves=1
+			activate_production_methods={ "pm_basic_port" }
+		}
+                create_building={
+			building="building_logging_camp"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:SMA"
+                        levels=1
+                        region="STATE_OUTER_MOORWEALD"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
 		}
 	}
   }
@@ -1996,8 +2088,8 @@
                     building={ 
                         type="building_financial_district"
                         country="c:CER"
-                        levels=2
-                        region="STATE_THE_CHASM"
+                        levels=1
+                        region="STATE_LANDING_AT_SEA"
                    }
                 }
 			reserves=1
@@ -2043,7 +2135,7 @@
 			activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
 		}
 			create_building={
-			building="building_rye_farm"
+			building="building_wheat_farm"
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
@@ -2072,7 +2164,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SMA"
                         levels=2
                         region="STATE_OUTER_MOORWEALD_2"
@@ -2083,13 +2175,13 @@
 		}
 		create_building={
 			building="building_port"
-			level=5
+			level=3
 			reserves=1
 			activate_production_methods={ "pm_basic_port" }
 		}
 		create_building={
 			building="building_barracks"
-			level=5
+			level=6
 			reserves=1
 			activate_production_methods={ "pm_no_organization" }
 		}
@@ -2100,7 +2192,7 @@
 	region_state:SMA={
 		create_building={
 			building="building_barracks"
-			level=1
+			level=3
 			reserves=1
 			activate_production_methods={ "pm_no_organization" }
 		}
@@ -2117,6 +2209,19 @@
 			reserves=1
 			activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 		}	
+                        create_building={
+			building="building_wheat_farm"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:SMA"
+						levels=2
+						region="STATE_OUTER_MOORWEALD_3"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" }
+		}
 			create_building={
 			building="building_sugar_plantation"
 				add_ownership={ 
@@ -2149,12 +2254,12 @@
                     building={ 
                         type="building_financial_district"
                         country="c:SMA"
-                        levels=2
+                        levels=3
                         region="STATE_OUTER_MOORWEALD_3"
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
 		}
 			create_building={
 			building="building_cotton_plantation"
@@ -2168,6 +2273,12 @@
 				}
 			reserves=1
 			activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
+		}
+                        create_building={
+			building="building_port"
+			level=2
+			reserves=1
+			activate_production_methods={ "pm_basic_port" }
 		}
 	}
   }
@@ -2190,7 +2301,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:WHI"
-						levels=2
+						levels=13
 						region="STATE_WHISKER_FIELDS"
 				   }
 				}
@@ -2203,12 +2314,83 @@
 					building={ 
 						type="building_manor_house"
 						country="c:WHI"
-						levels=2
+						levels=3
 						region="STATE_WHISKER_FIELDS"
 				   }
 				}
 			reserves=1
 			activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+		}
+			create_building={
+			building="building_cotton_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:WHI"
+						levels=5
+						region="STATE_WHISKER_FIELDS"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" }
+		}
+					create_building={
+			building="building_textile_mills"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:WHI"
+						levels=2
+						region="STATE_WHISKER_FIELDS"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+		}
+					create_building={
+			building="building_furniture_manufacturies"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:WHI"
+						levels=2
+						region="STATE_WHISKER_FIELDS"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_lathe" "pm_automation_disabled" }
+		}
+					create_building={
+			building="building_paper_mills"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:WHI"
+						levels=2
+						region="STATE_WHISKER_FIELDS"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
+		}
+					create_building={
+			building="building_logging_camp"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:WHI"
+						levels=5
+						region="STATE_WHISKER_FIELDS"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+		}
+		create_building={
+			building="building_construction_sector"
+			level=3
+			reserves=1
+			activate_production_methods={ "pm_wooden_buildings" }
 		}
 	}
   }
@@ -2259,7 +2441,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:PRI"
-						levels=45
+						levels=32
 						region="STATE_WAYFARE_MEADOWS"
 				   }
 				}
@@ -2290,12 +2472,44 @@
 					building={ 
 						type="building_manor_house"
 						country="c:SLB"
-						levels=17
+						levels=5
 						region="STATE_FIRST_BOROUGH"
 				   }
 				}
 			reserves=1
 			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
+		}
+                create_building={
+			building="building_barracks"
+			level=3
+			reserves=1
+			activate_production_methods={ "pm_no_organization" }
+		}
+                create_building={
+			building="building_livestock_ranch"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:SLB"
+						levels=2
+						region="STATE_FIRST_BOROUGH"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+		}	
+                create_building={
+			building="building_logging_camp"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:SLB"
+                        levels=2
+                        region="STATE_FIRST_BOROUGH"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
 		}
 	}
   }
@@ -2755,7 +2969,7 @@
           building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:ARR"
                         levels=2
                         region="STATE_VICEROYS_PEARL"
@@ -2780,7 +2994,7 @@
 			building="building_adventuring_guild"
 			add_ownership={
 				building={
-					type="building_tavern"
+					type="building_adventuring_guild"
 					country="c:ARR"
 					levels=1
 					region="STATE_VICEROYS_PEARL"
@@ -3084,8 +3298,16 @@
                     building={ 
                         type="building_financial_district"
                         country="c:SLB"
-                        levels=5
+                        levels=2
                         region="STATE_FIRST_BOROUGH"
+                   }
+                }
+                 add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:ARR"
+                        levels=2
+                        region="STATE_VICEROYS_PEARL"
                    }
                 }
 			reserves=1
@@ -3108,7 +3330,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SLB"
                         levels=3
                         region="STATE_FIRST_BOROUGH"
@@ -3117,9 +3339,22 @@
 			reserves=1
 			activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
 		}
+                create_building={
+			building="building_rye_farm"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:SLB"
+						levels=3
+						region="STATE_FIRST_BOROUGH"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled"  }
+		}
 		create_building={
 			building="building_barracks"
-			level=5
+			level=7
 			reserves=1
 			activate_production_methods={ "pm_no_organization" }
 		}
@@ -3128,6 +3363,19 @@
 			level=3
 			reserves=1
 			activate_production_methods={ "pm_basic_port" }
+		}
+                create_building={
+			building="building_furniture_manufacturies"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:ARR"
+                        levels=1
+                        region="STATE_VICEROYS_PEARL"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_lathe" "pm_no_luxury" "pm_automation_disabled" }
 		}
 	}
   }
@@ -3157,7 +3405,7 @@
 				building="building_leviathan_outpost"
 					add_ownership={ 
 						building={ 
-							type="building_tavern"
+							type="building_adventuring_guild"
 							country="c:ARR"
 							levels=1
 							region="STATE_BYRIVER"
@@ -3202,7 +3450,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:ARR"
                         levels=3
                         region="STATE_BYRIVER"
@@ -3394,7 +3642,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:PRI"
-						levels=3
+						levels=16
 						region="STATE_GREENCOURT_2"
 				   }
 				}
@@ -3983,7 +4231,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:EBR"
                         levels=2
                         region="STATE_RUNEPORT_GALESTRUM"
@@ -4072,7 +4320,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:EBR"
                         levels=1
                         region="STATE_TWOTORS"
@@ -4242,7 +4490,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:AHO"
                         levels=3
                         region="STATE_GLIMMERING_COAST"
@@ -4530,7 +4778,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:AHO"
                         levels=2
                         region="STATE_THUNDERSPELL_COAST"
@@ -4580,7 +4828,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:AHO"
                         levels=4
                         region="STATE_SOLEMN_STONES"
@@ -5112,7 +5360,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled"  }
 		}
 			create_building={
 			building="building_livestock_ranch"
@@ -5413,7 +5661,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DRO"
                         levels=3
                         region="STATE_ELF2"
@@ -5514,7 +5762,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DRO"
                         levels=3
                         region="STATE_ELF3"
@@ -5635,7 +5883,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:VOZ"
                         levels=2
                         region="STATE_ELF4"
@@ -6088,7 +6336,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:VOZ"
                         levels=1
                         region="STATE_SUNKEN_CLIFFS"
@@ -6206,7 +6454,7 @@
 				building="building_government_administration"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+				activate_production_methods={ "pm_simple_organization" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -6214,12 +6462,25 @@
 					building={ 
 						type="building_manor_house"
 						country="c:WHI"
-						levels=2
+						levels=14
 						region="STATE_WICKERRYE"
 				   }
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled"  }
+				}
+			create_building={
+				building="building_iron_mine"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:WHI"
+						levels=1
+						region="STATE_WICKERRYE"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -6233,6 +6494,58 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+				}
+			create_building={
+				building="building_logging_camp"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:WHI"
+						levels=2
+						region="STATE_WICKERRYE"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
+				}
+			create_building={
+				building="building_arms_industry"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:WHI"
+						levels=1
+						region="STATE_WICKERRYE"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_muskets" "pm_automation_disabled" }
+				}
+			create_building={
+				building="building_artillery_foundries"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:WHI"
+						levels=1
+						region="STATE_WICKERRYE"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
+				}
+				create_building={
+				building="building_tooling_workshops"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:WHI"
+						levels=1
+						region="STATE_WICKERRYE"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" }
 			}
 		}
   }

@@ -61,7 +61,7 @@
   # Building Groups
   bg_mountain_maize_farms: "Mountain Maize Farms"
   bg_opium_plantations: "Chimesilt Fields"
-  bg_adventuring: "Adventuring Guilds"
+  bg_adventuring_guilds: "Adventuring Guilds"
   bg_cloud_collecting: "Cloud Collectors"
   bg_wishstone_extraction: "Wishstone Excavation"
   bg_wishstone_extraction_sea: "Wishstone Reefs"
