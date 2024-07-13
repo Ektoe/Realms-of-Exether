@@ -1184,7 +1184,41 @@ ai_strategy_default = {
 			divide = 1000000 # 1 level of barracks per 1 million unincorporated population	
 		}
 		
-		max = 250 # No more than 250 from population
+		## Coastal population reduces spending on army as that spending is needed for navy too
+		#subtract = {
+		#	value = cached_ai_incorporated_coastal_population
+		#	divide = 1000000 
+		#}		
+		#
+		#subtract = {
+		#	value = cached_ai_unincorporated_coastal_population
+		#	divide = 4000000 
+		#}			
+		#Broken by airships?	
+		
+		# Extra army size from rank
+		if = {
+			limit = { country_rank = rank_value:great_power }
+			add = 25
+		}
+		if = {
+			limit = { country_rank = rank_value:major_power }
+			add = 10
+		}
+
+		save_temporary_value_as = pre_overseas_empire_value
+	
+		# Countries with a huge overseas subject population should focus more on navy
+		subtract = {
+			value = cached_ai_overseas_subject_population
+			divide = 10000000
+			max = {
+				value = scope:pre_overseas_empire_value
+				divide = 2
+			}
+		}			
+		
+		max = 200 # No more than 200 from population & rank
 
 		add = {
 			value = gdp
