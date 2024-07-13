@@ -23,9 +23,6 @@ thalorian_culture_group={
 khussite_culture_group={
 }
 
-east_aritzakarri_culture_group={	
-}
-
 dragonborn_culture_group = {
 }
 
@@ -75,4 +72,10 @@ fahavalan_culture_group = {
 }
 
 locari_culture_group = {
+}
+
+west_aritzakarric_culture_group = {
+}
+
+east_aritzakarric_culture_group = {	
 }
