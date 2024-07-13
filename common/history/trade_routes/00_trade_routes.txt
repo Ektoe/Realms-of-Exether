@@ -490,15 +490,21 @@
 		}
                 create_trade_route = {
 			goods = small_arms
-			level = 5
+			level = 3
 			direction = import
 			target = c:DUM.market
+		}
+                create_trade_route = {
+			goods = small_arms
+			level = 2
+			direction = import
+			target = c:SMA.market
 		}
                 create_trade_route = {
 			goods = sugar
 			level = 3
 			direction = import
-			target = c:EME.market
+			target = c:SMA.market
 		}
 	}
 	#Central Zalaron
