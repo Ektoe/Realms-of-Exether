@@ -1159,7 +1159,7 @@
                         type="building_financial_district"
                         country="c:AKB"
                         levels=1
-                        region="STATE_PRABUDHYAMANA"
+                        region="STATE_TSEGYALNIPIY"
                    }
                 }
 				reserves=1

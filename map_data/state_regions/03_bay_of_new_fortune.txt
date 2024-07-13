@@ -626,8 +626,6 @@ STATE_QOMERQOCHA = {
         depleted_type = "bg_gold_mining"
         undiscovered_amount = 15
     }
-
-    naval_exit_id = 3106
 }
 STATE_ANTAQAQA = {
     id = 4485
