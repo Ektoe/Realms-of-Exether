@@ -4384,7 +4384,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:AHO"
-                        levels=7
+                        levels=3
                         region="STATE_ACHONIAN_HIGHLANDS"
                    }
                 }
@@ -4442,7 +4442,7 @@
 					building={ 
 						type="building_financial_district"
 						country="c:AHO"
-						levels=1
+						levels=3
 						region="STATE_ACHONIAN_HIGHLANDS"
 				   }
 				}
@@ -4538,7 +4538,7 @@
 	region_state:AHO={
 		create_building={
 			building="building_government_administration"
-			level=10
+			level=5
 			reserves=1
 			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 		}
@@ -4573,6 +4573,19 @@
                 }
 			reserves=1
 			activate_production_methods={ "pm_forest_glass" "pm_manual_glassblowing" "pm_disabled_ceramics" }
+		}
+             create_building={
+			building="building_paper_mills"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:AHO"
+                        levels=3
+                        region="STATE_LEYLINE_COAST"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
 		}
 		create_building={
 			building="building_arts_academy"
@@ -4780,12 +4793,12 @@
                     building={ 
                         type="building_financial_district"
                         country="c:AHO"
-                        levels=2
+                        levels=3
                         region="STATE_THUNDERSPELL_COAST"
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
 		}
 			create_building={
 			building="building_rye_farm"
@@ -4882,7 +4895,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:AHO"
-						levels=1
+						levels=3
 						region="STATE_SOLEMN_STONES"
 				   }
 				}
@@ -4900,7 +4913,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+			activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
 		}
 		create_building={
 			building="building_port"
