@@ -22,7 +22,7 @@ country_ritual_antimagic_4 = {
 }
 country_ritual_antimagic_5 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_veil_integrity_contribution = -1000
+	state_veil_integrity_contribution = -100
 }
 country_ritual_dark_1 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -42,7 +42,7 @@ country_ritual_dark_4 = {
 }
 country_ritual_dark_5 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	state_veil_integrity_contribution = 1000
+	state_veil_integrity_contribution = 100
 }
 country_ritual_astrology_1 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
@@ -137,18 +137,48 @@ country_ritual_divine_5 = {
 	state_mortality_mult = -0.15
 }
 
+country_ritual_psionic_1 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_construction_mult = 0.15
+}
+country_ritual_psionic_2 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_assimilation_mult = 0.20
+	state_bureaucracy_population_base_cost_factor_mult = -0.25
+}
+country_ritual_psionic_3 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_expected_sol_mult = -0.20
+}
+country_ritual_psionic_4 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	building_group_bg_manufacturing_throughput_add = 0.05
+	building_group_bg_military_throughput_add = 0.05
+	unit_recovery_rate_add = 0.05
+	unit_kill_rate_add = 0.05
+}
+country_ritual_psionic_5 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_prestige_mult = 0.10
+	country_tech_research_speed_mult = 0.10
+}
+
 country_magic_tenet_upkeep = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	country_magic_reserves_total_subtract = 1
+	country_magic_reserves_total_subtract = 500
 }
 
 country_magic_tenet_upkeep_moderate = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	country_magic_reserves_total_subtract = 2
+	country_magic_reserves_total_subtract = 400
 }
 
 country_magic_tenet_upkeep_high = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
-	country_magic_reserves_total_subtract = 3
+	country_magic_reserves_total_subtract = 600
 }
 
+surplus_arcana = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds"
+	country_tech_research_speed_mult = 0.25
+}

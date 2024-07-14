@@ -232,6 +232,45 @@ pick_ritual_id_antimagic = {
 	calculate_rituals_antimagic = yes
 }
 
+### PSIONIC ###
+###############
+###############
+
+pick_ritual_id_psionic = {
+	if = { 
+		limit = {
+			 scope:ritual_id_psionic = 1
+		} 
+		ritual_psionic_1 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id_psionic = 2
+	   } 
+	   ritual_psionic_2 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id_psionic = 3
+	   } 
+	   ritual_psionic_3 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id_psionic = 4
+	   } 
+	   ritual_psionic_4 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id_psionic = 5
+	   } 
+	   ritual_psionic_5 = yes
+	}
+
+	calculate_rituals_psionic = yes
+}
+
 ### GENERAL ###
 ###############
 ###############
@@ -416,6 +455,36 @@ pick_ritual = {
 			scope:ritual_id = 30
 	   } 
 	   ritual_antimagic_5 = yes
+	}
+	else_if = { 
+		limit = {
+			 scope:ritual_id = 31
+		} 
+		ritual_psionic_1 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id = 32
+	   } 
+	   ritual_psionic_2 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id = 33
+	   } 
+	   ritual_psionic_3 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id = 34
+	   } 
+	   ritual_psionic_4 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id = 35
+	   } 
+	   ritual_psionic_5 = yes
 	}
 }
 

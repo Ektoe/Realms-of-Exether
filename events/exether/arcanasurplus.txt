@@ -1,0 +1,11 @@
+namespace = arcane
+# Superevent template
+arcanasurplus.1 = {
+	type = country_event
+	hidden = yes
+	immediate = {
+		add_modifier = {
+			name = country_surplus_arcana
+		}
+	}
+}

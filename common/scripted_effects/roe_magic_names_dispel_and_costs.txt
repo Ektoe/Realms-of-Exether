@@ -183,6 +183,36 @@
 	   } 
 	   dispel_ritual_antimagic_5 = yes
 	}
+	else_if = { 
+		limit = {
+			 scope:ritual_id = 31
+		} 
+		dispel_ritual_psionic_1 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id = 32
+	   } 
+	   dispel_ritual_psionic_2 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id = 33
+	   } 
+	   dispel_ritual_psionic_3 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id = 34
+	   } 
+	   dispel_ritual_psionic_4 = yes
+	}
+	else_if = {
+		limit = {
+			scope:ritual_id = 35
+	   } 
+	   dispel_ritual_psionic_5 = yes
+	}
 
 	calculate_rituals = yes
 }
@@ -336,6 +366,32 @@ dispel_ritual_antimagic_5 = {
 	remove_modifier = country_ritual_antimagic_5
 	remove_cost = yes
 }
+
+dispel_ritual_psionic_1 = {
+	remove_modifier = country_ritual_psionic_1
+	remove_cost = yes
+}
+
+dispel_ritual_psionic_2 = {
+	remove_modifier = country_ritual_psionic_2
+	remove_cost = yes
+}
+
+dispel_ritual_psionic_3 = {
+	remove_modifier = country_ritual_psionic_3
+	remove_cost = yes
+}
+
+dispel_ritual_psionic_4 = {
+	remove_modifier = country_ritual_psionic_4
+	remove_cost = yes
+}
+
+dispel_ritual_psionic_5 = {
+	remove_modifier = country_ritual_psionic_5
+	remove_cost = yes
+}
+
 
 ritual_divine_1 = {
 	add_modifier = {
@@ -514,6 +570,36 @@ ritual_antimagic_4 = {
 ritual_antimagic_5 = {
 	add_modifier = {
 		name = country_ritual_antimagic_5
+	}
+}
+
+ritual_psionic_1 = {
+	add_modifier = {
+		name = country_ritual_psionic_1
+	}
+}
+
+ritual_psionic_2 = {
+	add_modifier = {
+		name = country_ritual_psionic_2
+	}
+}
+
+ritual_psionic_3 = {
+	add_modifier = {
+		name = country_ritual_psionic_3
+	}
+}
+
+ritual_psionic_4 = {
+	add_modifier = {
+		name = country_ritual_psionic_4
+	}
+}
+
+ritual_psionic_5 = {
+	add_modifier = {
+		name = country_ritual_psionic_5
 	}
 }
 

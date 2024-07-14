@@ -409,3 +409,12 @@ country_magic_reserves_total_subtract = {
 		ai_value=0
 	}
 }
+
+building_group_bg_military_throughput_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
