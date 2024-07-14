@@ -3,6 +3,7 @@ tools/mapeditor/mix_brush.txt
 *.psd
 tools/mapeditor/map_editor_status.txt
 *.log
+*.bak
 gfx/editor_terrain/reference_overlay_example.png
 tools/mapeditor/map_editor_status.txt
 tools/mapeditor/nudger_settings.json

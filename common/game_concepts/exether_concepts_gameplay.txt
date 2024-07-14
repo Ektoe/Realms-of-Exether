@@ -18,3 +18,6 @@ concept_sky_node  = {
 	texture = "gfx/interface/icons/generic_icons/roe_logo.dds"
 	is_loading_tip = yes
 }
+
+concept_magic_ritual  = {
+}

@@ -265,7 +265,7 @@ vozi={
 tolorr={
 	color= hsv{ 0.53 0.30 0.74 }
 	religion = dwarven_ancestors
-	traits = {cloud_dwarf dwarf_heritage }
+	traits = {settler_coast_culture_group cloud_dwarf dwarf_heritage }
 	male_common_first_names={
 		Kiras
 		Nerus
@@ -417,6 +417,9 @@ koshiri={
 castaway_dwarf={
 	color= hsv{ 0.71 0.54 0.78 }
 	religion = animist
+	obsessions = {
+		liquor
+	}
 	traits = {cloud_dwarf dwarf_heritage }
 	male_common_first_names={
 		Bing

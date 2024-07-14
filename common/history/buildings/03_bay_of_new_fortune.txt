@@ -115,7 +115,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:XOC"
                         levels=1
                         region="STATE_UZURIKILIMA"
@@ -174,7 +174,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:XOC"
                         levels=1
                         region="STATE_KILIMASHWARI"
@@ -275,7 +275,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:KUN"
                         levels=1
                         region="STATE_INTIWINA"
@@ -527,7 +527,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:YKU"
                         levels=2
                         region="STATE_ANTAQAQA"
@@ -556,7 +556,7 @@
 						type="building_financial_district"
 						country="c:YKU"
 						levels=1
-						region=STATE_ANTAQAQA"
+						region="STATE_ANTAQAQA"
 					}
 				}
 				reserves=1

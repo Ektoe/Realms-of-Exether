@@ -123,16 +123,56 @@
     region_state:YUL = {
       create_pop = {
         culture = khanaruk
-        size = 3435298
+        size = 5703216
       }
       create_pop = {
         culture = puarfejiin
-        size = 10973131
+        size = 18944513
+      }
+      create_pop = {
+        culture = batukai
+        size = 606322
+      }
+      create_pop = {
+        culture = shkemger
+        size = 90000
+      create_pop = {
+        culture = atiukura
+        size = 90000
+      }
+      create_pop = {
+        culture = yakamimbo
+        size = 111000
+      }
+      create_pop = {
+        culture = sarhbalb
+        size = 90840
+      }
+      create_pop = {
+        culture = morevnamarya
+        size = 91500
+      }
+      create_pop = {
+        culture = onikoku
+        size = 83610
+      }
+      create_pop = {
+        culture = onisazae
+        size = 68318
+      }
+      create_pop = {
+        culture = kojiniu
+        size = 51582
       }
 	  create_pop = {
+	    pop_type = slaves
+        culture = onikoku
+        size = 3500
+      }
+      create_pop = {
         pop_type = slaves
-		culture = puarfejiin
-        size = 500
+		culture = onisazae
+        size = 3500
       }
     }
   }
@@ -191,64 +231,64 @@
     }
   }
 
-  s:STATE_GURBA = {
-    region_state:YUL = {
-      create_pop = {
-        culture = khanaruk
-        size = 4703216
-      }
-      create_pop = {
-        culture = puarfejiin
-        size = 16744513
-      }
-      create_pop = {
-        culture = batukai
-        size = 606322
-      }
-      create_pop = {
-        culture = shkemger
-        size = 90000
-      }
-      create_pop = {
-        culture = atiukura
-        size = 90000
-      }
-      create_pop = {
-        culture = yakamimbo
-        size = 90000
-      }
-      create_pop = {
-        culture = sarhbalb
-        size = 90840
-      }
-      create_pop = {
-        culture = morevnamarya
-        size = 91500
-      }
-      create_pop = {
-        culture = onikoku
-        size = 83610
-      }
-      create_pop = {
-        culture = onisazae
-        size = 68318
-      }
-      create_pop = {
-        culture = kojiniu
-        size = 51582
-      }
-	  create_pop = {
-	    pop_type = slaves
-        culture = onikoku
-        size = 500
-      }
-      create_pop = {
-        pop_type = slaves
-		culture = onisazae
-        size = 500
-      }
-    }
-  }
+  # s:STATE_GURBA = {
+  #   region_state:YUL = {
+  #     create_pop = {
+  #       culture = khanaruk
+  #       size = 4703216
+  #     }
+  #     create_pop = {
+  #       culture = puarfejiin
+  #       size = 16744513
+  #     }
+  #     create_pop = {
+  #       culture = batukai
+  #       size = 606322
+  #     }
+  #     create_pop = {
+  #       culture = shkemger
+  #       size = 90000
+  #     }
+  #     create_pop = {
+  #       culture = atiukura
+  #       size = 90000
+  #     }
+  #     create_pop = {
+  #       culture = yakamimbo
+  #       size = 90000
+  #     }
+  #     create_pop = {
+  #       culture = sarhbalb
+  #       size = 90840
+  #     }
+  #     create_pop = {
+  #       culture = morevnamarya
+  #       size = 91500
+  #     }
+  #     create_pop = {
+  #       culture = onikoku
+  #       size = 83610
+  #     }
+  #     create_pop = {
+  #       culture = onisazae
+  #       size = 68318
+  #     }
+  #     create_pop = {
+  #       culture = kojiniu
+  #       size = 51582
+  #     }
+	#   create_pop = {
+	#     pop_type = slaves
+  #       culture = onikoku
+  #       size = 500
+  #     }
+  #     create_pop = {
+  #       pop_type = slaves
+	# 	culture = onisazae
+  #       size = 500
+  #     }
+  #   }
+  # }
 
   s:STATE_CHANMA = {
     region_state:YUL = {

@@ -10,7 +10,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:POA"
                         levels=2
                         region="STATE_HIRUMENDI"
@@ -34,7 +34,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:POA"
                         levels=1
                         region="STATE_KHANZULO"
@@ -85,7 +85,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:KCH"
                         levels=1
                         region="STATE_OLARRA"
@@ -140,7 +140,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:KCH"
                         levels=1
                         region="STATE_BATOHAIN"
@@ -207,7 +207,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:KCH"
                         levels=2
                         region="STATE_MENDARI"
@@ -333,7 +333,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:GAI"
                         levels=1
                         region="STATE_KIYOMU"
@@ -406,13 +406,13 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" }
 		}
             create_building={
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:LUR"
                         levels=1
                         region="STATE_GORRIMENDIA"
@@ -442,7 +442,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:CRG"
                         levels=1
                         region="STATE_ARTEAGA"
@@ -749,7 +749,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:LUR"
                         levels=1
                         region="STATE_MENDIALDE"
@@ -799,7 +799,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:PIU"
                         levels=2
                         region="STATE_OLABEGI"
@@ -842,7 +842,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:IHE"
                         levels=2
                         region="STATE_UDABERRI"
@@ -942,7 +942,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" }
 		}
 			create_building={
 			building="building_livestock_ranch"
@@ -985,7 +985,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" }
 		}
 			create_building={
 			building="building_livestock_ranch"
@@ -1230,7 +1230,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:PIU"
                         levels=1
                         region="STATE_IZOZKI"
@@ -1294,7 +1294,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:OKH"
                         levels=1
                         region="STATE_NABARR"
@@ -1348,7 +1348,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:LAZ"
                         levels=1
                         region="STATE_KOILARRA"
@@ -1541,7 +1541,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:KHE"
                         levels=2
                         region="STATE_TXINPART"
@@ -1653,7 +1653,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:KHE"
                         levels=1
                         region="STATE_OSTATU"
@@ -1735,7 +1735,7 @@
 			building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:BRY"
                         levels=2
                         region="STATE_ERDI"
