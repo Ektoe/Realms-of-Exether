@@ -187,7 +187,7 @@
                    }
                 }
               reserves=1
-              activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
+              activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
           }
             create_building={
 				      building="building_fishing_wharf"
@@ -201,6 +201,45 @@
                 }
 				      reserves=1
 				      activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+				  }
+				  create_building={
+					building="building_wishstone_mine"
+							  add_ownership={ 
+								building={ 
+									type="building_financial_district"
+									country="c:EME"
+									levels=2
+									region="STATE_ABAISSE_DE_MARBRUN"
+							   }
+							}
+					reserves=1
+					activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_no_potions" }
+				  }
+				  create_building={
+					building="building_textile_mills"
+						  add_ownership={ 
+							  building={ 
+								  type="building_financial_district"
+								  country="c:EME"
+								  levels=1
+								  region="STATE_ABAISSE_DE_MARBRUN"
+							 }
+						  }
+					reserves=1
+					activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_permanent_prestidigitation" "pm_that_scary_ass_shit_from_sleeping_beauty" }
+				  }
+				  create_building={
+					building="building_cotton_plantation"
+					  add_ownership={ 
+						building={ 
+						  type="building_manor_house"
+						  country="c:EME"
+						  levels=3
+						  region="STATE_ABAISSE_DE_MARBRUN"
+						 }
+					  }
+					reserves=1
+					activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
 				  }    
 			}			    
   }

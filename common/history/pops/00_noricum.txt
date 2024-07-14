@@ -909,7 +909,7 @@
       region_state:BCT = {
         create_pop = {
           culture = arcthar
-          size = 497210
+          size = 1497210
         }
       }
   }

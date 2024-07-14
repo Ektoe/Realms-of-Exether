@@ -560,6 +560,18 @@
 			direction = import
 			target = c:SMA.market
 		}
+		create_trade_route = {
+			goods = clothes
+			level = 7
+			direction = import
+			target = c:SMA.market
+		}
+		create_trade_route = {
+			goods = grain
+			level = 10
+			direction = import
+			target = c:DUM.market
+		}
 	}
         c:AHO ?= {
 		create_trade_route = {
