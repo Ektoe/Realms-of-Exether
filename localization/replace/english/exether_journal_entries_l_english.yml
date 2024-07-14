@@ -7,3 +7,8 @@
   union_of_the_sands_progress_bar_vozmead_desc: "[GetGlobalVariable('vozmead_gdp').GetValue|D]#!"
   union_of_the_sands_progress_bar_yavira_gdp: "[GetGlobalVariable('yavira_scope').GetCountry.GetName] GDP"
   union_of_the_sands_progress_bar_vozmead_gdp: "[GetGlobalVariable('vozmead_scope').GetCountry.GetName] GDP"
+  je_ravager_raids: "Ravager Raids"
+  ravager_raids_button: "Raid the Settler Fleets"
+  ravager_raids_button_desc: "To the deck! Fly the jolly roger! The [ROOT.GetCountry.GetAdjective] fleet'll make flotsam of these feeble drylanders."
+  is_colonizing_near_ravagers: "Colonizing near ravager fleets"
+  apply_colonizing_near_ravagers_modifier: "Applying Modifier"

@@ -1,0 +1,32 @@
+ravager_raids_button = {
+    name = "ravager_raids_button"
+    desc = "ravager_raids_button_desc"
+
+    visible = { always = yes}
+        
+
+
+    possible = {
+	    NOT = {
+            has_modifier = recent_ravager_raids
+    }
+        OR = {
+				any_scope_state = {
+					region = sr:region_elusive_coves
+					any_scope_building = {
+						is_building_type = building_naval_base
+						count >= 10
+						}
+					}
+				}
+        }
+    effect = {
+
+        }
+
+        
+    cooldown = { months = 6 }
+
+        }
+
+    

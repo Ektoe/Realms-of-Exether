@@ -1,0 +1,7 @@
+
+colonizing_near_ravagers_modifier = {
+    icon = "gfx/interface/icons/modifiers/colonial_policy.dds"
+    modifier = {
+        colonization_speed = -0.5
+    }
+}
