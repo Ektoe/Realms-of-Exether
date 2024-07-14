@@ -129,6 +129,7 @@ dragonblight.3 = { #event for Thassarcia receiving dragonblight migrants
 			}
 			create_mass_migration = {
 				origin = c:DIS
+				culture = cu:illvasaari
 			}
 		}
 	}
