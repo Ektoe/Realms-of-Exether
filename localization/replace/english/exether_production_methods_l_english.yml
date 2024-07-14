@@ -4,17 +4,16 @@
   # Arts Academy
   pmg_schools_of_art: "Schools of Art"
   pmg_ownership_building_adventuring_guild: "Patronage"
-  pmg_adventuring_focus: "Adventuring Focus"
-  pm_traditional_adventuring: "Traditional Adventuring"
-  pm_pest_control: "Pest Control"
-  pm_questing_brigades: "Questing Brigades"
-  pm_glory_seekers: "Glory Seekers"
   pm_traditional_sponsorship: "Traditional Sponsorship"
   pm_private_sponsorship: "Private Sponsorship"
   pm_independent_adventurers: "Independent Adventurers"
-  pm_trophy_hunting: "Trophy Hunting"
-  pm_community_service: "Community Service"
-  pm_objects_of_power: "Objects of Power"
+  pm_watering_hole: "Watering Holes"
+  pm_dive_bar: "Dive Bars"
+  pm_wine_bar: "Wine Bars"
+  pm_fantastic_cocktails: "Cocktail Bars"
+  pm_no_trinkets: "No Adventuring"
+  pm_trinkets: "Adventurer Hotspot"
+  pm_increased_trinkets: "Competetive Adventuring"
 
   pm_merchant_guilds_building_cloud_collector: "$pm_merchant_guilds$"
   pm_privately_owned_building_cloud_collector: "$pm_privately_owned$"
@@ -87,10 +86,10 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_wizard_tower_hedge_wizard_ownership: "Apprentice Programs"
   pmg_ownership_building_tavern: "Ownership"
   pmg_additional_ownership_building_tavern: "Additional Ownership"
-  pm_tavern_watering_hole: "Watering Hole"
-  pm_tavern_rumor_hub: "Rumor Hub"
-  pm_tavern_soldier_ownership: "Seasoned Veterans"
-  pm_tavern_adventurer_ownership: "Trusted Regulars"
+  pm_adventuring_guild_problem_solvers: "Problem Solvers"
+  pm_adventuring_guild_questing_boards: "Questing Boards"
+  pm_adventuring_guild_soldier_ownership: "Seasoned Veterans"
+  pm_adventuring_guild_clergy_ownership: "Holy Healers"
 
   #Monuments
   pmg_base_building_dwarf_tunnels: "$pm_base$"
@@ -159,6 +158,11 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pmg_glowfish: "Glowfish"
   pm_early_glowfish_harvesting: "Glowfishing"
   pm_dedicated_glowfish_harvesting: "Glowfisheries"
+  pm_wooden_jellyfishing_ships: "Wooden Jellyfishing Ships"
+  pm_steam_jellyfishing_ships: "Steam-Powered Jellyfishing Ships"
+  base_building_nonmagical_comet: "Meteor"
+  base_building_wishstone_comet: "Wishstone Comet"
+  pm_home_workshops_building_subsistence_terrace_farms: "Home Workshops"
 
   #Gizmo Workshops
   pmg_base_building_gizmo_workshop: "Gizmo Production"
@@ -166,6 +170,11 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_steel_gizmos: "Iron Gizmos"
   pm_rubber_gizmos: "Steel Gizmos"
   pm_plastic_gizmos: "Godsblood Gizmos"
+  pmg_automation_building_gizmo_workshop: "Automation"
+  pm_watertube_boiler_building_gizmo_workshop: "Watertube Boiler"
+  pm_rotary_valve_engine_building_gizmo_workshop: "Rotary Valve Engine"
+  pm_assembly_lines_building_gizmo_workshop: "Assembly Lines"
+  
   #Potion Industries
   pmg_base_building_potion_distillery: "Brewing Techniques"
   pm_simple_potion_production: "Basic Breweries"
@@ -179,3 +188,101 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_no_cosmetic_potion_production: "No Production"
   pm_base_cosmetic_potion_production: "Standard Luxury Potion Brewing"
   pm_advanced_cosmetic_potion_production: "Advanced Luxury Potion Brewing"
+  pmg_automation_building_potion_distillery: "Automation"
+  pm_watertube_boiler_building_potion_distillery: "Watertube Boiler"
+  pm_rotary_valve_engine_building_potion_distillery: "Rotary Valve Engine"
+  pm_assembly_line_bottling_blubber_building_potion_distillery: "Blubber Bottling"
+  pm_assembly_line_bottling_godsblood_building_potion_distillery: "Godsblood Bottling"
+  
+  # Food Industry
+  pm_live_dough: "Living Dough"
+  pm_monster_powder: "Monster Powder"
+  
+  # Textile Mills
+  pmg_magical_enhancements_building_textile_mills: "Magical Enhancements"
+  pm_no_magic_clothes: "No Magic Clothes"
+  pm_permanent_prestidigitation: "Permanent Prestidigitation"
+  pm_color_spray_guns: "Color Spray Guns"
+  pm_that_scary_ass_shit_from_sleeping_beauty: "Magical Looms"
+  pm_mechamagic_looms: "Mechamagic Looms"
+  
+  # Grain Farms
+  pm_seedspinners: "Seedspinners"
+  pm_ricerooters: "Ricerooters"
+  pm_rice_farms_basic_earth_shaping: "Earth Shaping"
+  pm_rice_farms_mass_plant_growth: "Magical Plant Growth"
+  pmg_farms_enhancements: "Magical Enhancements"
+  pm_farms_no_enhancement: "No Enhancement"
+  pm_farms_basic_earth_shaping: "Earth Shaping"
+  pm_farms_mass_plant_growth: "Magical Plant Growth"
+  
+  # Ranches
+  pmg_livestock_enhancements: "Magical Enhancements"
+  pm_livestock_no_enhancements: "No Enhancements"
+  pm_livestock_fertility_rites: "Fertility Rites"
+  pm_livestock_magical_selection: "Magical Selection"
+  
+  # Mines
+  pm_godsblood_pump_building_iron_mine: "Godsblood Pump"
+  pm_godsblood_pump_building_coal_mine: "Godsblood Pump"
+  pm_godsblood_pump_building_gold_mine: "Godsblood Pump"
+  pm_godsblood_pump_building_sulfur_mine: "Godsblood Pump"
+  pm_godsblood_pump_building_lead_mine: "Godsblood Pump"
+  pm_rockrollers_building_iron_mine: "Rockrollers"
+  pm_rockrollers_building_coal_mine: "Rockrollers"
+  pm_rockrollers_building_gold_mine: "Rockrollers"
+  pm_rockrollers_building_sulfur_mine: "Rockrollers"
+  pm_rockrollers_building_lead_mine: "Rockrollers"
+  
+  # Plantations
+  gizmo_waterwrangler_irrigation_building_dye_plantation: "Seedspewers" #don't worry, I'll name them for you
+  gizmo_waterwrangler_irrigation_building_opium_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_tea_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_tobacco_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_sugar_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_banana_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_silk_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_vineyard_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_cotton_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_wyrmfruit_plantation: "Seedspewers"
+  gizmo_waterwrangler_irrigation_building_songberry_plantation: "Seedspewers"
+  default_building_wyrmfruit_plantation: "Basic Production"
+  automatic_irrigation_building_wyrmfruit_plantation: "Automatic Irrigation"
+  default_building_songberry_plantation: "Basic Production"
+  automatic_irrigation_building_songberry_plantation: "Automatic Irrigation"
+  
+  # Furniture Manufacturies
+  pm_santa_clause_style: "Magical Assemblers"
+  pm_mechamagic_workshops: "Mechamagic Workshops"
+  pmg_magical_enhancements_furniture_manufacturies: "Magical Enhancements"
+  pm_no_magic_furniture: "No Enhancements"
+  pm_permanent_prestidigitation_furniture: "Permanent Prestidigitation"
+  
+  # Trains
+  pm_wishstone_trains: "Wishstone Trains"
+  pm_godsblood_trains: "Godsblood Trains"
+  
+  # Leviathan Outposts
+  pm_wooden_leviathan_ships: "Wooden Ships"
+  
+  # Construction Sectors
+  pm_early_wishstone_constructed_buildings: "Wishstone Buildings"
+
+  # Logging
+  default_building_subsistence_terrace_farms: "Basic Production"
+  pm_home_workshops_no_building_subsistence_terrace_farms: "No Home Workshops"
+  pm_simple_forestry_stonewood: "Simple Forestry"
+  pm_saw_mills_stonewood: "Stone Grinders"
+  pm_electric_saw_mills_stonewood: "Electric Stone Grinders"
+  pm_fey_simple_forestry: "Simple Forestry"
+  pm_fey_saw_mills: "Saw Mills"
+  pm_fey_electric_saw_mills: "Electric Saw Mills"
+  pm_liquortrees: "Liquor Orchards"
+  pm_canada_reference_here: "Syrup Tapping"
+  pm_mimosa_trees: "Mimosa Orchards"
+  pm_glass_bark: "Glass Bark Production"
+  pm_increased_glass_bark: "Increased Glass Bark Production"
+  
+  
+  ##misc
+  base_building_ship_graveyard: "Ship Graveyard"
