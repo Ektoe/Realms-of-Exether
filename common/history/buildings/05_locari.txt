@@ -1073,7 +1073,14 @@
 			}
             create_building={
 				building="building_logging_camp"
-                level = 1
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:AKB"
+                        levels=1
+                        region="STATE_TSEGYALNIPIY"
+                   }
+                }
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
 			}
