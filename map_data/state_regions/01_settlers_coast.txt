@@ -1771,11 +1771,12 @@ STATE_AZURETHORN = {
     farm = x9CFB9A
     mine = xA3AABD
     port = xA3FAF9
-    arable_land = 2
+    arable_land = 5
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 2
-        bg_fishing = 2
+        bg_fishing = 9
+        bg_whaling = 4
     }
     naval_exit_id = 3026
 }
