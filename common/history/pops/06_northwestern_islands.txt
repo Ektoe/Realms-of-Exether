@@ -696,11 +696,11 @@
 			}
 			create_pop = {
 				culture = blacktalon
-				size 7500
+				size = 7500
 			}
 			create_pop = {
 				culture = garagoz
-				size 8200
+				size = 8200
 			}
 		}
 	}
@@ -770,7 +770,7 @@
 			}
 			create_pop = {
 				culture = blacktalon
-				size 15000
+				size = 15000
 			}
 		}
 	}

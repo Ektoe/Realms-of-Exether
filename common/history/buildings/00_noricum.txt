@@ -830,7 +830,7 @@
 				   }
 				}
           reserves=1
-          activate_production_methods={ "pm_simple_farming" "no_secondary" "pm_tools_disabled"  }
+          activate_production_methods={ "pm_simple_farming" "pm_tools_disabled"  }
         }
             create_building={
           building="building_tooling_workshops"
@@ -1920,7 +1920,7 @@
 				   }
 				}
           reserves=1
-          activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
+          activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_apple_orchards" }
         }
         create_building={
           building="building_port"
@@ -3947,7 +3947,7 @@ reserves=1
                        }
                     }
           reserves=1
-          activate_production_methods={ "pm_handsewn_clothes"  "pm_permanent_prestidigitation" "pm_that_scary_ass_shit_from_sleeping_beauty" "pm_traditional_looms" }
+          activate_production_methods={ "pm_handsewn_clothes"  "pm_permanent_prestidigitation" "pm_that_scary_ass_shit_from_sleeping_beauty"  }
         }
 			create_building={
           building="building_rye_farm"
@@ -4173,7 +4173,8 @@ reserves=1
             }
     reserves=1
     activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
-  }
+    }
+    }
   }
 
 
@@ -4301,9 +4302,9 @@ reserves=1
                 }
         reserves=1
         activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_potions_of_fortitude" }
+        }
       }
-  }
-
+    }
 
     s:STATE_TALNANT = {
       region_state:EVR = {
