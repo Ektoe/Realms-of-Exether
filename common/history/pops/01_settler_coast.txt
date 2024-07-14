@@ -403,8 +403,8 @@ s:STATE_CAEL_VALEN_2 = {
 		}
 	}
   }
-  s:STATE_RIVER_MEDDEN = {
-	region_state:MID = {
+  s:STATE_PEARFIELDS = {
+	region_state:GCS = {
 		create_pop = {
 			culture = rivierling
 			size = 450989
@@ -777,7 +777,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
 	
 
-	region_state:MID = {
+	region_state:GCS = {
 		create_pop = {
 			culture = coast_halfling 
 			size = 202197
