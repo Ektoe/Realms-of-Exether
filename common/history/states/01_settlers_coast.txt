@@ -188,13 +188,13 @@ s:STATE_RIVER_MEDDEN = {
         owned_provinces = { "x32E5EF" "x60BBE0" "x7FABF5" "x9199F8" "xA4BBD6" "xB0DD71" "xB28DE0" "xC6E5ED" "xC76CD8" "xD579E6"  "xDC72FE" "xDFF289" "xE1CE5C" "xE2C1D9" "xEBD6A6" "xEF60E4" "xEF82EF" "xF05DA9" "xF0DB6E" "xF49BBD" "xFAB155" }
 }
 create_state = {
-    country = c:MID
+    country = c:GCS
     owned_provinces = { "xF3E5CF" "xB48CBB" "xDC35F7" "x9EC0A8" "x72C0C8"}
 }
 
 add_homeland = cu:coast_halfling
 add_homeland = cu:rivierling
-add_claim = c:MID
+add_claim = c:GCS
 }
 
 s:STATE_VOZMEAD_BORDERLANDS = {
@@ -331,7 +331,7 @@ s:STATE_OUTER_MOORWEALD = {
         owned_provinces = { "x32FAF2" "x94EC97" "x98DBDE" "x9BE89B" "x9CF4B4" "x9E7FEF" "xA6F7A0" "xAEB6BE" "xB7A2BE" "xCBC3D5" "xD1CB63" "xD2B5FC" "xD5C1B3" "xE0E3B4" "xF253D2" "xF317F9" }
     }
     create_state = {
-        country = c:MID
+        country = c:GCS
         owned_provinces = { "xD2B5FC" "x9CF4B4" "xB7A2BE" }
     }
 add_homeland = cu:coast_halfling
