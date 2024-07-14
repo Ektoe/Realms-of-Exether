@@ -1223,7 +1223,7 @@
 			activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
 		}
 	}
-	region_state:MID={
+	region_state:GCS={
 		create_building={
 			building="building_textile_mills"
 			level=3
@@ -2055,7 +2055,7 @@
 		}
 	}
 
-	region_state:MID={
+	region_state:GCS={
 		create_building={
 			building="building_government_administration"
 			level=1
