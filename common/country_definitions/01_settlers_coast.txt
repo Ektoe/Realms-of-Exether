@@ -94,8 +94,8 @@ CER = {
 	capital = STATE_LANDING_AT_SEA
 }
 
-#Middenfirth
-MID = {
+#Gladcross
+GCS = {
 	color = rgb{ 100  160  60 } 
 
 	country_type = recognized 
