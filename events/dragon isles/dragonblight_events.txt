@@ -28,10 +28,122 @@ dragonblight.1 = {
 
 	option = {
 		name = dragonblight.1.a
+		add_journal_entry = {
+			type = je_dragonblight_vaccine
+		}
+		trigger_event = {
+			#	id = dragonblight.not
+			}
 	}
 }
 
-# dragonblight.2 = { #outbreaks states receive this event + the other one for 5% total
+dragonblight.2 = { #opening event about closing the borders to people leaving to Thassarcia
+	type = country_event
+	placement = root
+	title = dragonblight.2.t
+	desc = dragonblight.2.d
+	flavor = dragonblight.2.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_factory_closed"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		add_journal_entry = {
+			type = je_dragonblight
+		}
+	}
+
+	option = { #they must be stopped
+		name = dragonblight.2.a 
+		ai_chance = {
+			base = 80
+		}
+        default_option = yes
+		c:SNB ?= {
+			
+			#trigger_event = { id = persia_events.8 popup = yes } #todo
+			create_diplomatic_catalyst = {  
+				type = catalyst_event_negative
+				target = root
+			}
+		}
+		change_relations = {
+			country = c:SNB
+			value = -30
+		}
+	}
+	option = { #perhaps it is for the best...
+		name = dragonblight.2.b
+		ai_chance = {
+			base = 20
+		}
+		c:SNB ?= {
+			trigger_event = { id = dragonblight.3 popup = yes }
+			create_diplomatic_catalyst = {  
+				type = catalyst_event_positive
+				target = root
+			}
+		}
+		change_relations = {
+			country = c:SNB
+			value = 25
+		}
+		
+	}
+}
+
+dragonblight.3 = { #event for Thassarcia receiving dragonblight migrants
+	type = country_event
+	placement = root
+	title = dragonblight.3.t
+	desc = dragonblight.3.d
+	flavor = dragonblight.3.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_factory_closed" #change this
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = {
+	}
+
+	immediate = {
+		random_scope_state = {
+			limit = {
+				exether_is_coastal = yes
+			}
+			create_mass_migration = {
+				origin = c:DIS
+			}
+		}
+	}
+
+	option = {
+		name = dragonblight.3.a
+
+		change_relations = {
+			country = c:DIS
+			value = 15
+		}
+	}
+}
+
+# dragonblight.pulse.x = { #outbreaks states receive this event + the other one for 5% total
 # 	type = country_event
 # 	placement = ROOT
 
@@ -725,7 +837,8 @@ dragonblight.1 = {
 					scope:party_rockers = {
 						add_modifier = {
 							name = defended_birthday_party
-							months = 40
+							months = 48
+							is_decaying = yes
 						}
 					}
 					scope:party_time_state = {
@@ -740,12 +853,13 @@ dragonblight.1 = {
 					scope:party_rockers = {
 						add_modifier = {
 							name = reprimanded_for_birthday_party
-							months = 40
+							months = 48
+							is_decaying = yes
 						}
 					}
 					scope:party_time_state = {
 						add_modifier = wealthy_abusing_disease_restrictions
-						months = 40
+						months = 48
 					}	
 				}	
 				
@@ -760,7 +874,7 @@ dragonblight.1 = {
 					scope:party_rockers = {
 						add_modifier = {
 							name = arrested_for_birthday_party
-							months = 40
+							months = 48
 						}
 					}
 				}
@@ -911,10 +1025,16 @@ dragonblight.1 = {
 						name = handling_naval_logistics
 						months = 48	
 					}
+					every_scope_pop = {
+						add_radicals = {
+							value = 0.025
+							strata = poor
+							culture = cu:illvasaari
+						}
+					}
 				}
 				option = {
 					name = dragonblight_pulse.16.b
-					default_option = yes
 					
 					add_modifier = {
 						name = sailing_in_fear
@@ -957,13 +1077,20 @@ dragonblight.1 = {
 
 					add_modifier = {
 						name = forced_back_to_work
-						months = 36	
+						months = 36
+						is_decaying = yes	
 						}
 					
 					scope:workers_stay_home_state = {
-					add_modifier = {
-						name = forced_back_to_work_state
-						months = 36	
+						add_modifier = {
+							name = forced_back_to_work_state
+							months = 36	
+							is_decaying = yes
+						}
+						add_radicals_in_state = {
+							value = 0.1
+							strata = poor
+							culture = cu:illvasaari
 						}
 					}
 				}
@@ -1031,11 +1158,17 @@ dragonblight.1 = {
 			
 
 			scope:not_in_my_backyard = {
-				add_modifier = {
-					name = yes_in_your_backyard
-					months = 36	
-					}
+				add_radicals_in_state = {
+					value = 0.15
+					strata = middle
+					culture = cu:illvasaari
 				}
+				add_radicals_in_state = {
+					value = 0.05
+					strata = rich
+					culture = cu:illvasaari
+				}
+			}
 		}
 		
 		option = {
@@ -1048,7 +1181,12 @@ dragonblight.1 = {
 					name = gave_into_sickhouse_protests
 					months = 36	
 					}
+				add_radicals_in_state = {
+					value = 0.1
+					strata = lower
+					culture = cu:illvasaari
 				}
+			}
 		}
 }
 
