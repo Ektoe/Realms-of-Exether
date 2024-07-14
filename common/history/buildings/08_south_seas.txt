@@ -78,9 +78,6 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building= "building_machu_picchu"
-			}
 		}
 	}
 
@@ -542,6 +539,7 @@
 			create_building={
 				building="building_rice_farm"
 				reserves=1
+				level = 1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
 			}
 			create_building={
