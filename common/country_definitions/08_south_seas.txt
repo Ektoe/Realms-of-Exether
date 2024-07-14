@@ -132,7 +132,7 @@ AES = {
 	tier = principality
 
 
-	cultures = { lacertian } 
+	cultures = { kailando_lacertian } 
 	capital = STATE_MAZALINO
 }
 
@@ -145,7 +145,7 @@ RAS = {
 	tier = principality
 
 
-	cultures = { lacertian } 
+	cultures = { kailando_lacertian } 
 	capital = STATE_YERNAGRIA
 }
 
@@ -171,7 +171,7 @@ SEP = {
 	tier = principality
 
 
-	cultures = { lacertian } 
+	cultures = { kailando_lacertian } 
 	capital = STATE_BEMVULA
 }
 
@@ -184,7 +184,7 @@ RAT = {
 	tier = principality
 
 
-	cultures = { lacertian } 
+	cultures = { kailando_lacertian } 
 	capital = STATE_MAXANGA
 }
 
