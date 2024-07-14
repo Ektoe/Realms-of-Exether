@@ -364,7 +364,7 @@ STATE_PENDYM_GWYN_2 = {
     }
     naval_exit_id = 3038
 }
-STATE_RIVER_MEDDEN = {
+STATE_PEARFIELDS = {
     id = 4149
     subsistence_building = "building_subsistence_farms"
     provinces = { "x32E5EF" "x60BBE0" "x72C0C8" "x7FABF5" "x9199F8" "x9EC0A8" "xA4BBD6" "xB0DD71" "xB28DE0" "xB48CBB" "xC6E5ED" "xC76CD8" "xD579E6" "xDC35F7" "xDC72FE" "xDFF289" "xE1CE5C" "xE2C1D9" "xEBD6A6" "xEF60E4" "xEF82EF" "xF05DA9" "xF0DB6E" "xF3E5CF" "xF49BBD" "xFAB155" }
