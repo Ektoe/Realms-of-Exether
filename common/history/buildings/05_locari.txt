@@ -66,7 +66,6 @@
 				building="building_fishing_wharf_rusttail"
 				reserves=1
 				level = 1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
 			}
 			create_building={
 				building="building_sugar_plantation"
@@ -115,7 +114,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated"  }
+				
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -394,7 +393,7 @@
 				building="building_fishing_wharf_rusttail"
 				reserves=1
 				level = 1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+				
 			}
 			create_building={
 				building="building_coffee_plantation"
@@ -639,7 +638,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+				
 			}
 			create_building={
 				building="building_silk_plantation"
@@ -681,7 +680,7 @@
 				building="building_fishing_wharf_rusttail"
 				reserves=1
 				level = 1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
+				
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -796,7 +795,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+				
 			}
 			create_building={
 				building="building_port"
@@ -815,7 +814,7 @@
 				building="building_fishing_wharf_rusttail"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+				
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -890,7 +889,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+				
 			}
 			create_building={
 				building="building_barracks"
@@ -996,7 +995,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
+				
 			}
 			create_building={
 				building="building_port"
@@ -1256,7 +1255,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
+				
 			}
 			create_building={
 				building="building_barracks"
@@ -1827,7 +1826,7 @@
 				building="building_banana_plantation"
 				level = 1
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
+
 			}
 			create_building={
 				building="building_barracks"
@@ -1871,7 +1870,7 @@
 				building="building_fishing_wharf_rusttail"
                 level = 2
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+				
 			}
 			create_building={
 				building="building_barracks"
@@ -1906,7 +1905,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+				
 			}
 
 			create_building = {
@@ -1996,7 +1995,7 @@
 				building="building_banana_plantation"
 				level = 1
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
+				
 			}
 			create_building={
 				building="building_port"
@@ -2080,7 +2079,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+				
 			}
             create_building={
 				building="building_paper_mills"
@@ -2133,7 +2132,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+				
 			}
 			create_building={
 				building="building_wheat_farm"
