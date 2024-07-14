@@ -488,7 +488,7 @@
         }
         create_pop = {
           culture = vampire
-          size = 28000
+          size = 98289
         }
       }
   }
@@ -498,15 +498,11 @@
         region_state:JUR = {
           create_pop = {
             culture = meriwyn
-            size = 602804
-          }
-          create_pop = {
-            culture = vampire
-            size = 2000
+            size = 902804
           }
           create_pop = {
             culture = sunkissed
-            size = 20000
+            size = 91782
           }
         }
   }
@@ -1180,19 +1176,15 @@
       region_state:JUR = {
         create_pop = {
           culture = sunkissed
-          size = 3900
+          size = 94791
         }
         create_pop = {
           culture = meriwyn
-          size = 690000
+          size = 997318
         }
         create_pop = {
           culture = hag
-          size = 400
-        }
-        create_pop = {
-          culture = vampire
-          size = 300
+          size = 1289
         }
       }
   }
@@ -1202,15 +1194,15 @@
       region_state:ROF = {
         create_pop = {
           culture = meriwyn
-          size = 573800
+          size = 603800
         }
         create_pop = {
           culture = jalian
-          size = 17392
+          size = 117392
         }
         create_pop = {
           culture = dumonian
-          size = 14600
+          size = 114600
         }
       }
   }
