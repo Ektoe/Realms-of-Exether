@@ -182,7 +182,7 @@ add_homeland = cu:cerunite
 add_homeland = cu:rivierling
 }
 
-s:STATE_RIVER_MEDDEN = {
+s:STATE_PEARFIELDS = {
     create_state = {
         country = c:CER
         owned_provinces = { "x32E5EF" "x60BBE0" "x7FABF5" "x9199F8" "xA4BBD6" "xB0DD71" "xB28DE0" "xC6E5ED" "xC76CD8" "xD579E6"  "xDC72FE" "xDFF289" "xE1CE5C" "xE2C1D9" "xEBD6A6" "xEF60E4" "xEF82EF" "xF05DA9" "xF0DB6E" "xF49BBD" "xFAB155" }
@@ -194,7 +194,6 @@ create_state = {
 
 add_homeland = cu:coast_halfling
 add_homeland = cu:rivierling
-add_claim = c:GCS
 }
 
 s:STATE_VOZMEAD_BORDERLANDS = {
