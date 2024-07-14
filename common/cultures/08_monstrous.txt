@@ -60,7 +60,7 @@
 gulf_naga={
 	color= hsv{ 0.81 0.38 0.60 }
 	religion = teomakti
-	traits = {  naga monstrous_heritage}
+	traits = { naga monstrous_heritage}
 	male_common_first_names={
 		Ashoka
 		Ashtravakra
@@ -102,7 +102,7 @@ gulf_naga={
 jungle_naga={
 	color= hsv{ 0.39 0.45 0.74 }
 	religion = xocarakti
-	traits = {  naga monstrous_heritage}
+	traits = { naga monstrous_heritage}
 	
 	
 	male_common_first_names={
@@ -268,7 +268,7 @@ wastecrawler = {
 gnoll={
 	color= hsv{ 0.58 0.51 0.96 }
 	religion = animist
-	traits = { monstrous_heritage gnoll }
+	traits = { gnoll monstrous_heritage  }
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -337,7 +337,7 @@ gnoll={
 jungle_gnoll={
 	color= hsv{ 0.68 0.51 0.96 }
 	religion = animist
-	traits = { monstrous_heritage gnoll }
+	traits = { gnoll monstrous_heritage  }
 	male_common_first_names={
 		Amadi
 		Andikan
