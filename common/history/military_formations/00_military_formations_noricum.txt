@@ -394,28 +394,6 @@
 			}
 		}
 
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_yanger_steppe
-		
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_KENLYNE
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_KENLYNE
-				count = 2
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_COLESSIE
-				count = 3
-			}
-		}
-
 	}
 	c:DRK ?= {
 		create_military_formation = {
@@ -437,23 +415,6 @@
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_CASTELL_DRYSGOLMARK
 				count = 1
-			}
-		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_yanger_steppe
-		
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_CASTELL_DRYSGOLMARK
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_CASTELL_DRYSGOLMARK
-				count = 2
 			}
 		}
 
