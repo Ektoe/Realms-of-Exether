@@ -678,6 +678,7 @@ law_psionics = {
 	
 	unlocking_technologies = {
 		empiricism
+		psionic_tech
 	}
 
 	disallowing_laws = {

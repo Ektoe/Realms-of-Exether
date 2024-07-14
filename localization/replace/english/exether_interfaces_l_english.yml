@@ -10,13 +10,13 @@
   MAGIC_INSTITUTION_RESERVE_BONUS: "\n[AccessPlayer.MakeScope.ScriptValue('magic_institution_bonus')|=+D] from [GetInstitutionType('institution_magical_focus').GetName]"
   magical_focus_institution_tooltip: "test"
   MAGIC_SURPLUS_EFFECTS: "[Multiply_CFixedPoint(AccessPlayer.MakeScope.ScriptValue('normalized_arcana'),'(CFixedPoint)10')|=+D%0] #yellow $country_tech_research_speed_mult$ #!"
-  MAGIC_DEFICIT_EFFECTS: "[Multiply_CFixedPoint(AccessPlayer.MakeScope.ScriptValue('normalized_arcana'),'(CFixedPoint)25')|=+D%0] #yellow $country_tech_research_speed_mult$ #!"
+  MAGIC_DEFICIT_EFFECTS: "[Multiply_CFixedPoint(AccessPlayer.MakeScope.ScriptValue('normalized_arcana'),'(CFixedPoint)10')|=+D%0] #yellow $country_tech_research_speed_mult$ #!"
 
 
 
 
 
-  country_surplus_arcana: "test"
+  surplus_arcana: "The Balance (Arcana)"
 
 dlc_roe: "Realms of Exether"
 dlc_roe_desc: "Total Overhaul mod set in the magical world of Exether"
@@ -97,7 +97,12 @@ RITUAL_34: "Psionic Augmentation"
 RITUAL_35: "Precognitive Insight"
 
 #Rituals
-country_ritual_cooldown: "Ritual Cooldown"
+country_ritual_cooldown: "Recently Changed Civics"
+country_ritual_cooldown_desc: "A recent overhaul in magic civics has introduced significant disruption and society will need time to readjust."
+
+country_magic_tenet_upkeep: "Minor Civic Upkeep"
+country_magic_tenet_upkeep_moderate: "Moderate Civic Upkeep"
+country_magic_tenet_upkeep_high: "High Civic Upkeep"
 
 country_ritual_divine_1: "Almsgiving"
 country_ritual_divine_2: "Divine Right"
@@ -223,9 +228,9 @@ VEIL_INTEGRITY_STATUS_STRENGTHENED: "#bold #o Strengthened#!#!"
 
 
 
-  VEIL_INTEGRITY_TOOLTIP: "$VEIL_INTEGRITY_BALANCE$[GetPlayer.GetCustom('magic_reserves_loc')][SelectLocalization(GetMetaPlayer.GetPlayedOrObservedCountry.IsValid, 'VEIL_INTEGRITY_TOOLTIP_DELAYED', 'OBSERVER_NO_COUNTRY_SELECTED') ]"
+  VEIL_INTEGRITY_TOOLTIP: "$VEIL_INTEGRITY_BALANCE$[SelectLocalization(GetMetaPlayer.GetPlayedOrObservedCountry.IsValid, 'VEIL_INTEGRITY_TOOLTIP_DELAYED', 'OBSERVER_NO_COUNTRY_SELECTED') ]"
   VEIL_INTEGRITY_TOOLTIP_DELAYED: "\n$TOOLTIP_DELIMITER$\nOur Veil Impact:  [AccessPlayer.MakeScope.ScriptValue('country_veil_damage')|1-]\n$TOOLTIP_DELIMITER$\nTop Veil Damage (Past Month):\n1. [GetGlobalVariable('veil_damage_top_1').GetCountry.GetName] - [GetGlobalVariable('veil_damage_top_1_value').GetValue|-1]\n2. [GetGlobalVariable('veil_damage_top_2').GetCountry.GetName] - [GetGlobalVariable('veil_damage_top_2_value').GetValue|-1]\n3. [GetGlobalVariable('veil_damage_top_3').GetCountry.GetName] - [GetGlobalVariable('veil_damage_top_3_value').GetValue|-1]"
-  VEIL_INTEGRITY_BALANCE: "@magic! #bold [concept_veil_integrity]#!\nCurrent integrity: $VEIL_INTEGRITY_STATUS$"
+  VEIL_INTEGRITY_BALANCE: "@veil! #bold [concept_veil_integrity]#!\nCurrent integrity: $VEIL_INTEGRITY_STATUS$"
 
 VEIL_INTEGRITY_VALUE_TEXT: "[AddLocalizationIf(GreaterThan_int32(FixedPointToInt(AccessPlayer.MakeScope.ScriptValue('veil_integrity_total')), '(int32)50'), 'VEIL_INTEGRITY_VALUE_GOLD')][AddLocalizationIf(EqualTo_int32(FixedPointToInt(AccessPlayer.MakeScope.ScriptValue('veil_integrity_total')), '(int32)50'), 'VEIL_INTEGRITY_VALUE')][AddLocalizationIf(LessThan_int32(FixedPointToInt(AccessPlayer.MakeScope.ScriptValue('veil_integrity_total')), '(int32)50'), 'VEIL_INTEGRITY_VALUE_BLUE')]"
 VEIL_INTEGRITY_VALUE: "#v [AccessPlayer.MakeScope.ScriptValue('veil_integrity_total')|1]%#!"

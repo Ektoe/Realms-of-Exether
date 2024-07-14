@@ -344,6 +344,11 @@ GLOBAL = {
 			value = 0
 		}
 
+		set_variale = {
+			name = player_rank
+			value = 99
+		}
+
 
 		calculate_rituals = yes
 

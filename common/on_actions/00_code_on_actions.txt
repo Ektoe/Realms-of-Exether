@@ -22,9 +22,6 @@ on_monthly_pulse = {
 		# Used to keep track of Council Republics for the purpose of the Red Scare.
 		# Our thanks to Brute for reporting this.
 		clear_global_variable_list = aes_country_list
-
-
-		
 		
 		every_country = {
 			limit = { 
@@ -36,6 +33,9 @@ on_monthly_pulse = {
 				target = THIS
 			}
 		}
+	}
+	on_actions = {
+		calculate_veil_top_damage
 	}
 }
 
@@ -79,11 +79,12 @@ on_monthly_pulse_country = {
 			name = veil_integrity_var
 			subtract = var:veil_damage
 		}
+
 		trigger_event = { id = unable_to_enact.1 }
 	}
 	on_actions = { # delay ensures events won't fire simultaneously
 		coup_monthly_events
-		calculate_arcana_surplus
+		calculate_arcana_surplus 
 		#delay = { days = 7 }
 		fund_lobbies_monthly_events
 	}
@@ -104,54 +105,66 @@ calculate_arcana_surplus = {
 
 calculate_veil_top_damage = {
 	effect = {
-		if = {
-			limit = {
-				var:veil_damage >= global_var:country_veil_damage_top_1_value
-			}
-			set_global_variable = {
-				name = country_veil_damage_top_1
-				value = this
-			}
-			set_global_variable = {
-				name = country_veil_damage_top_1_value
-				value = country_veil_damage
-			}
+		set_local_variable = {
+			name = current_rank
+			value = 0
 		}
-		else_if = {
+		ordered_country = {
 			limit = {
-				AND = {
-					NOT = { this ?= global_var:country_veil_damage_top_1 }
-					var:veil_damage > global_var:country_veil_damage_top_2_value
-
+				is_revolutionary = no
+			}
+			order_by = var:veil_damage
+			max = 3
+			change_local_variable = {
+				name = current_rank
+				add = 1
+			}
+			set_variable = {
+				name = player_rank
+				value = local_var:current_rank
+			}
+			
+			if = {
+				limit = {
+					var:player_rank = 1
+				}
+				set_global_variable = {
+					name = veil_damage_top_1
+					value = this
+				}
+				set_global_variable = {
+					name = veil_damage_top_1_value
+					value = var:veil_damage
 				}
 			}
-			set_global_variable = {
-				name = country_veil_damage_top_2
-				value = this
-			}
-			set_global_variable = {
-				name = country_veil_damage_top_2_value
-				value = country_veil_damage
-			}
-		}
-		else_if = {
-			limit = {
-				AND = {
-					NOT = { this ?= global_var:country_veil_damage_top_1 }
-					NOT = { this ?= global_var:country_veil_damage_top_2 }
-					var:veil_damage > global_var:country_veil_damage_top_3_value
-
+			else_if = {
+				limit = {
+					var:player_rank = 2
+				}
+				set_global_variable = {
+					name = veil_damage_top_2
+					value = this
+				}
+				set_global_variable = {
+					name = veil_damage_top_2_value
+					value = var:veil_damage
 				}
 			}
-			set_global_variable = {
-				name = country_veil_damage_top_3
-				value = this
-			}
-			set_global_variable = {
-				name = country_veil_damage_top_3_value
-				value = country_veil_damage
+			else_if = {
+				limit = {
+					var:player_rank = 3
+				}
+				set_global_variable = {
+					name = veil_damage_top_3
+					value = this
+				}
+				set_global_variable = {
+					name = veil_damage_top_3_value
+					value = var:veil_damage
+				}
 			}
 		}
+
 	}
 }
 

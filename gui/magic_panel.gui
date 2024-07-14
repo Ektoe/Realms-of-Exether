@@ -1481,21 +1481,21 @@ types magic_panel
 				maximumsize = { 380 -1 }
 				margin = { 10 10 }
 				spacing = 4
-				datacontext = "[GetScriptedGui('cast_ritual_description_psionic')]"
+				datacontext = "[GetScriptedGui('cast_ritual_description_antimagic')]"
 	
 				background = {
 					using = entry_bg_simple
 				}
 	
 				textbox = {				
-					text = "[ScriptedGui.ExecuteTooltip(GuiScope.SetRoot(AccessPlayer.MakeScope).AddScope('ritual_id_psionic', MakeScopeValue(Scope.GetValue)).End)]"
+					text = "[ScriptedGui.ExecuteTooltip(GuiScope.SetRoot(AccessPlayer.MakeScope).AddScope('ritual_id_antimagic', MakeScopeValue(Scope.GetValue)).End)]"
 					tooltip = "COMPANY_TYPE_PRODUCTIVITY_TOOLTIP"
 					using = ritual_item_text
 					margin_top = 5
 				}	
 	
 				textbox = {
-					text = "RITUAL_SOURCE_psionic"
+					text = "RITUAL_SOURCE_ANTIMAGIC"
 					using = ritual_item_text
 				}			
 				
