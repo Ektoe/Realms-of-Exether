@@ -1,37 +1,37 @@
 ﻿namespace = depletable
 
-depletable.1 = { 
-	type = country_event
-	placement = ROOT
-	title = "discover ship graveyard using force_resource_discovery & create_building"
-	duration = 8<
-	
-	
-	immediate = {
-		random_scope_state = {
-			limit = {
-			has_potential_resource = bg_ship_graveyard
-			}
-			save_scope_as = ship_graveyard_state
-		}
-	}
-	option = {
-		name = "oh no evil mine"
-		scope:ship_graveyard_state = {
-			force_resource_discovery = bg_ship_graveyard
-			create_building = {
-				building = building_ship_graveyard
-				reserves = 0.65
-				level = 1
-
-				}	
-			}
-		}
-	option = {
-		name = "CANCEL"
-		default_option = yes
-	}	
-	}
+#depletable.1 = { 
+#	type = country_event
+#	placement = ROOT
+#	title = "discover ship graveyard using force_resource_discovery & create_building"
+#	duration = 8<
+#	
+#	
+#	immediate = {
+#		random_scope_state = {
+#			limit = {
+#			has_potential_resource = bg_ship_graveyard
+#			}
+#			save_scope_as = ship_graveyard_state
+#		}
+#	}
+#	option = {
+#		name = "oh no evil mine"
+#		scope:ship_graveyard_state = {
+#			force_resource_discovery = bg_ship_graveyard
+#			create_building = {
+#				building = building_ship_graveyard
+#				reserves = 0.65
+#				level = 1
+#
+#				}	
+#			}
+#		}
+#	option = {
+#		name = "CANCEL"
+#		default_option = yes
+#	}	
+#}
 
     depletable.2 = { #forces depletion of ship graveyard
 	type = country_event

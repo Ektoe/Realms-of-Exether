@@ -187,7 +187,7 @@
                    }
                 }
               reserves=1
-              activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
+              activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
           }
             create_building={
 				      building="building_fishing_wharf"
@@ -201,6 +201,45 @@
                 }
 				      reserves=1
 				      activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+				  }
+				  create_building={
+					building="building_wishstone_mine"
+							  add_ownership={ 
+								building={ 
+									type="building_financial_district"
+									country="c:EME"
+									levels=2
+									region="STATE_ABAISSE_DE_MARBRUN"
+							   }
+							}
+					reserves=1
+					activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_no_potions" }
+				  }
+				  create_building={
+					building="building_textile_mills"
+						  add_ownership={ 
+							  building={ 
+								  type="building_financial_district"
+								  country="c:EME"
+								  levels=1
+								  region="STATE_ABAISSE_DE_MARBRUN"
+							 }
+						  }
+					reserves=1
+					activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_permanent_prestidigitation" "pm_that_scary_ass_shit_from_sleeping_beauty" }
+				  }
+				  create_building={
+					building="building_cotton_plantation"
+					  add_ownership={ 
+						building={ 
+						  type="building_manor_house"
+						  country="c:EME"
+						  levels=3
+						  region="STATE_ABAISSE_DE_MARBRUN"
+						 }
+					  }
+					reserves=1
+					activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
 				  }    
 			}			    
   }
@@ -572,37 +611,7 @@
 			activate_production_methods={ "pm_basic_port" }
 		}
 	}
-  }
-  s:STATE_CAEL_VALEN_2 = {
-	region_state:CER={
-            create_building={
-			     building="building_fishing_wharf"
-                             add_ownership={ 
-                                     building={ 
-                                             type="building_manor_houses"
-                                             country="c:CER"
-                                             levels=2
-                                             region="STATE_CAEL_VALEN_2"
-                        }
-                      }
-			        reserves=1
-			        activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
-		     }
-              create_building={
-				building="building_livestock_ranch"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:CER"
-						levels=3
-						region="STATE_LANDING_AT_SEA_2"
-				   }
-				}
-				reserves=1
-				activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
-			}
-	}
-  }    
+  }   
 
   s:STATE_LANDING_AT_SEA = {
 		region_state:CER={
@@ -1094,7 +1103,7 @@
 			building="building_government_administration"
 			level=2
 			reserves=1
-			activate_production_methods={ "pm_professional_bureaucrats" "pm_religious_bureaucrats" "pm_vertical_filing_cabinets" }
+			activate_production_methods={ "pm_professional_bureaucrats" "pm_vertical_filing_cabinets" }
 		}
             create_building={
 			building="building_logging_camp"
@@ -1213,7 +1222,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_bakeries" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
 		}
                 create_building={
 			building="building_barracks"
@@ -2158,7 +2167,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" }
+			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 		}
                         create_building={
 			building="building_sugar_plantation"
@@ -2246,7 +2255,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" }
+			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 		}
 			create_building={
 			building="building_sugar_plantation"
@@ -3017,7 +3026,7 @@
           activate_production_methods={ "pm_basic_port" }
         }
 		create_building={
-			building="building_adventuring_guild"
+			building="building_tavern"
 			add_ownership={
 				building={
 					type="building_adventuring_guild"
@@ -3027,7 +3036,7 @@
 				}
 			}
 			reserves=1
-			activate_production_methods={ "pm_traditional_adventuring" "pm_trophy_hunting" }
+			
 		  }
       }
     
@@ -3401,7 +3410,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_lathe" "pm_no_luxury" "pm_automation_disabled" }
+			activate_production_methods={ "pm_lathe" "pm_automation_disabled" }
 		}
 	}
   }
@@ -4982,7 +4991,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_wrought_iron_tools" "pm_automation_disabled" }
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" }
 			}
 		create_building={
 			building="building_dwarf_tunnels"
@@ -5431,7 +5440,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
 		}
 			create_building={
 			building="building_livestock_ranch"
