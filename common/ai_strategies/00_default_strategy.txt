@@ -2184,27 +2184,6 @@ ai_strategy_default = {
 				}
 				add = 500
 			}
-			
-			if = {
-				limit = {
-					c:GBR ?= this
-					has_variable = committed_to_afghanistan_assistance
-					scope:target_country = {
-						has_variable = AFG_appealed_to_RUS
-					}
-				}
-				add = 100
-			}
-			else_if = {
-				limit = {
-					c:RUS ?= this
-					has_variable = committed_to_afghanistan_assistance
-					scope:target_country = {
-						has_variable = AFG_appealed_to_GBR
-					}
-				}
-				add = 100
-			}
 
 			multiply = {
 				value = "ai_ideological_opinion(scope:target_country)"

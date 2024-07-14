@@ -1207,7 +1207,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_soil_enriching_farming" "pm_simple_farming" }
+			activate_production_methods={ "pm_soil_enriching_farming"  }
 		}
 			create_building={
 			building="building_livestock_ranch"
@@ -5471,7 +5471,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled"  }
 		}
 			create_building={
 			building="building_livestock_ranch"

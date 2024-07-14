@@ -10,15 +10,6 @@ on_monthly_pulse = {
 			kill_character = yes
 		}
 
-		if = {
-			limit = {
-				year < 1930
-				NOT = { has_global_variable = germany_formed }
-				c:GER ?= { is_country_alive = yes }
-			}
-			set_global_variable = germany_formed
-		}
-
 		# Used to keep track of Council Republics for the purpose of the Red Scare.
 		# Our thanks to Brute for reporting this.
 		clear_global_variable_list = aes_country_list
