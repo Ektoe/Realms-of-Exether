@@ -103,7 +103,7 @@ GCS = {
 	tier = grand_principality
 
 	cultures = { coast_halfling rivierling } 
-	capital = STATE_RIVER_MEDDEN
+	capital = STATE_PEARFIELDS
 }
 
 #Clearbough Estates
