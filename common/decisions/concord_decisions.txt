@@ -92,23 +92,6 @@
 			}
 			add = 50
 		}
-		modifier = {
-			trigger = {
-				exists = c:STK
-				exists = c:NRK
-				OR = {
-					AND = {
-						this = c:STK
-						has_war_with = c:NRK
-					}
-					AND = {
-						this = c:NRK
-						has_war_with = c:STK
-					}
-				}
-			}
-			add = 1000
-		}
 	}
 }
 
