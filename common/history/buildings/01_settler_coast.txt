@@ -613,22 +613,22 @@
 	}
   }
 
-  s:STATE_CAEL_VALEN_2 = {
-	region_state:CER={
+	s:STATE_CAEL_VALEN_2 = {
+		region_state:CER={
             create_building={
-			     building="building_fishing_wharf"
-                             add_ownership={ 
-                                     building={ 
-                                             type="building_manor_houses"
-                                             country="c:CER"
-                                             levels=2
-                                             region="STATE_CAEL_VALEN_2"
+			    building="building_fishing_wharf"
+                    add_ownership={ 
+                        building={ 
+                        	type="building_manor_house"
+                        	country="c:CER"
+                            levels=2
+                            region="STATE_CAEL_VALEN_2"
                         }
-                      }
-			        reserves=1
-			        activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
-		     }
-              create_building={
+                    }
+			    reserves=1
+			    activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+		    }
+            create_building={
 				building="building_livestock_ranch"
 				add_ownership={ 
 					building={ 
@@ -4700,7 +4700,7 @@
 			building="building_logging_camp"
                 add_ownership={ 
                     building={ 
-                        type="building_manor_houses"
+                        type="building_manor_house"
                         country="c:PFL"
                         levels=3
                         region="STATE_HORSELORDS_DEMESNE"
@@ -4750,7 +4750,7 @@
 			building="building_logging_camp"
                 add_ownership={ 
                     building={ 
-                        type="building_manor_houses"
+                        type="building_manor_house"
                         country="c:PFL"
                         levels=5
                         region="STATE_ROCHENSTONE"
