@@ -8,7 +8,7 @@
         c:DUM ?= {
 		create_diplomatic_pact = {
 			country = c:CER
-			type = guarantee
+			type = guarantee_independence
 		}	
 	}
 }
