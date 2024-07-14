@@ -244,16 +244,7 @@ effect_remove_wargoals_concord = {
 			war_goal = liberate_country 
 		}
 	}
-	every_diplomatic_play = {
-		limit = {
-			has_play_goal = force_recognition
-			is_war = yes
-		} 
-		remove_war_goal = { 
-			who = scope:asking_concord_intervention_country 
-			war_goal = force_recognition 
-		}
-	}
+	
 	every_diplomatic_play = {
 		limit = {
 			has_play_goal = independence

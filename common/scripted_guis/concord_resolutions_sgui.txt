@@ -161,11 +161,6 @@ concord_reject_membership = {
 }
 
 ##########################################
-showmodifier_declaration_human_rights = {
-	effect = {
-		add_modifier = declaration_of_human_rights
-	}
-}
 
 add_opposing_concord = {
 	effect = {
