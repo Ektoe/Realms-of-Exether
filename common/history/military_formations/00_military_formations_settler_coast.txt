@@ -383,7 +383,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_CAEL_VALEN
-				count = 9
+				count = 6
 			}
 
 			combat_unit = {
@@ -420,7 +420,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_FERNSEA
-				count = 9
+				count = 7
 			}
 
 			combat_unit = {
@@ -457,7 +457,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_FERNSEA
-				count = 9
+				count = 5
 			}
 
 			combat_unit = {
@@ -489,16 +489,16 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_ORCBANE_PASS
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_ORCBANE_PASS
 				count = 4
 			}
 
 			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_ORCBANE_PASS
+				count = 3
+			}
+
+			combat_unit = {
 				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_ORCBANE_PASS
 				count = 2
@@ -557,7 +557,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_RIVER_MEDDEN
-				count = 9
+				count = 5
 			}
 
 			combat_unit = {
@@ -588,7 +588,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_FERNSEA
-				count = 9
+				count = 7
 			}
 
 			combat_unit = {
@@ -621,7 +621,25 @@
 				count = 1
 			}
 
-			save_scope_as = first_fist
+			save_scope_as = plaguewood_bulwark
+		}
+
+                create_character = {
+			is_general = yes
+			first_name = Endri
+			last_name = Millersson
+			historical = yes
+			age = 57
+			hq = region_ceraun
+			commander_rank = commander_rank_2
+			traits = {
+				arrogant
+			}
+			save_scope_as = endri_millson_gen
+		}
+		
+		scope:endri_millson_gen = {
+			transfer_to_formation = scope:first_fist
 		}
  
 		create_character = {
@@ -639,7 +657,7 @@
 		}
 		
 		scope:wilhem_gen = {
-			transfer_to_formation = scope:first_fist
+			transfer_to_formation = scope:plaguewood_bulwark
 		}
 
 		create_military_formation = {
@@ -651,7 +669,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_SAINT_MER
-				count = 9
+				count = 5
 			}
 
 			combat_unit = {
@@ -702,7 +720,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_SAINT_MER
-				count = 9
+				count = 6
 			}
 
 			combat_unit = {
@@ -757,7 +775,25 @@
 			combat_unit = { 
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_CAEL_VALEN
-				count = 1
+				count = 6
+			}
+
+                        combat_unit = { 
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:LANDING_AT_SEA
+				count = 9
+			}
+
+                        combat_unit = { 
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:LANDING_AT_SEA_2
+				count = 2
+			}
+
+                        combat_unit = { 
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:PENDYM_GWYN
+				count = 5
 			}
 		}	
 
@@ -923,6 +959,59 @@
 				type = unit_type:combat_unit_type_hussars
 				state_region = s:STATE_UPPER_GOLDENLEAF
 				count = 1
+			}
+		}
+	}
+
+	c:WHI ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_moorweald
+			name = Whiskerfield_Guard
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WHISKER_FIELDS
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_WICKERRYE
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_WHISKER_FIELDS
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WHISKER_FIELDS
+				count = 25
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WICKERRYE
+				count = 5
+			}
+			save_scope_as = ratarmyone
+ 
+			create_character = {
+				is_general = yes
+				first_name = Tovia
+				last_name = Camondo
+				historical = yes
+				hq = sr:region_moorweald
+				commander_rank = commander_rank_3
+				age = 30
+				traits = {
+					Meticulous 
+					Expert Defensive Strategist
+				}
+				save_scope_as = ratdefender
+			}
+			scope:ratdefender = {
+				transfer_to_formation = scope:ratarmyone
 			}
 		}
 	}
