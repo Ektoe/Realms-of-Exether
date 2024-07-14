@@ -1181,7 +1181,7 @@
 	}
 	}
 
-  s:STATE_RIVER_MEDDEN = {
+  s:STATE_PEARFIELDS = {
 	region_state:CER={
             create_building={
 			building="building_textile_mills"
@@ -1190,7 +1190,7 @@
                         type="building_financial_district"
                         country="c:CER"
                         levels=1
-                        region="STATE_RIVER_MEDDEN"
+                        region="STATE_PEARFIELDS"
                    }
                 }
 			reserves=1
@@ -1203,7 +1203,7 @@
 						type="building_manor_house"
 						country="c:CER"
 						levels=2
-						region="STATE_RIVER_MEDDEN"
+						region="STATE_PEARFIELDS"
 				   }
 				}
 			reserves=1
