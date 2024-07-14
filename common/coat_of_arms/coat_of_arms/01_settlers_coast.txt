@@ -208,7 +208,7 @@ FEY = {
 }
 
 #Meddencross
-MID = {
+GCS = {
 	pattern = "pattern_solid.tga" #Choose a base from gfx\coat_of_arms\patterns
 	color1 = "green" #Use a predefined colour or you can do 'color1 = rgb{ x x x }'.
 
