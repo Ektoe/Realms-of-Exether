@@ -1783,7 +1783,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:AHO = {
 		create_pop = {
 			culture = achonian
-			size = 12000
+			size = 26000
 		}
 		create_pop = {
 			culture = changeling
