@@ -1222,16 +1222,25 @@ dragonblight_pulse.19 = { #kobold conversion cult appears
 			name = dragonblight_pulse.19.a
 			default_option = yes
 
-			add_modifier = {
-				name = tolerated_conversion_cult
-				months = 36	
+			every_scope_state = {
+				limit = {
+					owner = root #is this necessary or is it already implicit?
 				}
-			
+				add_modifier = {
+				name = tolerated_conversion_cult_state
+				months = 36	
+				is_decaying = yes
+				}
+			}
 			scope:dragon_cultist_state = {
 			add_modifier = {
 				name = active_conversion_cult
 				months = 36	
 				}
+			add_loyalists_in_state = {
+				value = 0.1
+				culture = cu:kotskarvi
+			}	
 			}
 			set_variable = conversion_cult_active
 			
@@ -1240,17 +1249,27 @@ dragonblight_pulse.19 = { #kobold conversion cult appears
 			name = dragonblight_pulse.19.b
 			default_option = yes
 			
-			add_modifier = {
-				name = crushed_conversion_cult
-				months = 36	
+			every_scope_state = {
+				add_modifier = {
+					name = crushed_conversion_cult
+					months = 36
+					is_decaying = yes	
 				}
-
+			}
 			scope:dragon_cultist_state = {
 				add_modifier = {
-					name = crushed_conversion_cult_state
-					months = 36	
+					name = crushed_local_conversion_cult_state
+					months = 36
 					}
+				add_radicals_in_state = {
+					value = 0.2
+					culture = cu:kotskarvi
 				}
+				kill_population_percent_in_state = {
+					percent = 0.01
+					culture = cu:kotskarvi
+				}
+			}
 		}
 		
 

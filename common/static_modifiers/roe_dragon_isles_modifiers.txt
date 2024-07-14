@@ -92,3 +92,17 @@ gave_into_sickhouse_protests = {
 	state_radicals_from_discrimination_mult = 0.2
 	state_poor_standard_of_living_add = -1
 }
+
+tolerated_conversion_cult_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_radicals_from_discrimination_mult = -0.20
+}
+
+active_conversion_cult = {  #this modifier triggers an effect in the dragonblight JE
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+}
+
+crushed_conversion_cult_state = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_radicals_from_discrimination_mult = 0.20
+}

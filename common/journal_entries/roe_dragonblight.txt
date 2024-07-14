@@ -43,7 +43,12 @@
 		every_scope_state = {
 			limit = {
 				owner = root
+				OR = {
+					has_modifier = gave_into_sickhouse_protests
+					has_modifier = active_conversion_cult
+				}
 				has_modifier = gave_into_sickhouse_protests
+
 				
 			}
 		every_scope_pop = {
