@@ -19,6 +19,7 @@
         type = "bg_oil_extraction"
         undiscovered_amount = 30
     }
+    naval_exit_id = 3048
 }
 STATE_KESHARQAN = {
     id = 4221
@@ -36,6 +37,7 @@ STATE_KESHARQAN = {
         bg_fishing = 7
         bg_whaling = 4
     }
+    naval_exit_id = 3048
 }
 STATE_DILAFSHAN = {
     id = 4222
@@ -166,7 +168,7 @@ STATE_AETHELBOSQUE = {
         type = "bg_oil_extraction"
         undiscovered_amount = 60
     }
-
+    naval_exit_id = 3011
 }
 STATE_LILAC_SHORE = {
     id = 4228
@@ -459,7 +461,7 @@ STATE_GIANTS_STRIDE = {
         bg_logging = 12
         bg_fishing = 7
     }
-
+    naval_exit_id = 3048
 }
 STATE_ROZANGAR = {
     id = 4244
@@ -482,7 +484,7 @@ STATE_ROZANGAR = {
         type = "bg_rubber"
         undiscovered_amount = 12
     }
-
+    naval_exit_id = 3011
 }
 STATE_COBALT_KEEP = {
     id = 4245
@@ -2358,6 +2360,7 @@ STATE_ZAFIRAN = {
         bg_logging = 14
         bg_fishing = 6
     }
+    naval_exit_id = 3002
 }
 STATE_KALIBRANTO = {
     id = 4349
@@ -2624,6 +2627,7 @@ STATE_SARABENDO = {
         bg_haunted_grounds = 9
         bg_gold_mining = 4
     }
+    naval_exit_id = 3002
 }
 STATE_ESPARASHIM = {
     id = 4364
@@ -3197,7 +3201,7 @@ STATE_BJERGHOLM = {
         bg_lead_mining = 21
         bg_logging = 3
     }
-
+    naval_exit_id = 3149
 }
 STATE_SANGARI_2 = {
     id = 4418
