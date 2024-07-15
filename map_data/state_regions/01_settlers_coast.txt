@@ -148,7 +148,7 @@ STATE_SAINT_MER_2 = {
         bg_logging = 17
         bg_fishing = 6
     }
-
+    naval_exit_id = 3023
 }
 STATE_CAEL_VALEN = {
     id = 4143
@@ -792,11 +792,11 @@ STATE_WHISKER_FIELDS = {
     farm = x9D90CA
     mine = xA1E083
     arable_land = 145
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations"}
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
         bg_coal_mining = 92
         bg_logging = 9
-		bg_sulfur_mining = 20
+        bg_sulfur_mining = 20
     }
     resource = {
         type = "bg_oil_extraction"
