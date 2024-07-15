@@ -9,7 +9,6 @@
 			}
 			create_building={
 				building="building_rice_farm"
-				level = 1
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
@@ -63,7 +62,7 @@
 				activate_production_methods={ "pm_handsewn_clothes" "pm_traditional_looms" "pm_no_luxury_clothes" }
 			}
 			create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
 				reserves=1
 				level = 1
 			}
@@ -104,7 +103,7 @@
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
 			}
             create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
@@ -390,7 +389,7 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
 			create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
 				reserves=1
 				level = 1
 				
@@ -628,7 +627,7 @@
 	s:STATE_MOGORRTI = {
 		region_state:BHR={
             create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
@@ -677,7 +676,7 @@
 	s:STATE_KURUBBA = {
 		region_state:MAI={
 			create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
 				reserves=1
 				level = 1
 				
@@ -785,7 +784,7 @@
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
             create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
@@ -811,7 +810,7 @@
 
 		region_state:AMR={
 			create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
 				level=1
 				reserves=1
 				
@@ -879,7 +878,7 @@
 				activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_no_secondary" }
 			}
             create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
@@ -985,7 +984,7 @@
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
 			}
             create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
@@ -1245,7 +1244,7 @@
 				activate_production_methods={ "default_building_vineyard_plantation"  }
 			}
             create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
@@ -1867,7 +1866,7 @@
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
 			}
             create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
                 level = 2
 				reserves=1
 				
@@ -1895,7 +1894,7 @@
 	s:STATE_JERMENION = {
 		region_state:BTR={
             create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
@@ -2069,7 +2068,7 @@
 				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
 			}
             create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
@@ -2122,7 +2121,7 @@
 	s:STATE_DUSHANBARYA = {
 		region_state:AMR={
             create_building={
-				building="building_fishing_wharf_rusttail"
+				building="building_fishing_wharf_rusttails"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"

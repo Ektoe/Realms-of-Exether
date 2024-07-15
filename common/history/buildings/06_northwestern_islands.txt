@@ -1197,10 +1197,6 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
-			create_building={
-				building="building_hagia_sophia"
-				level=1
-			}
 		}
 	}
 	s:STATE_THASPIA = {
@@ -2351,6 +2347,7 @@
 			create_building={
 				building="building_port"
 				reserves=1
+				level = 1
 				activate_production_methods={ "pm_anchorage" }
 			}
 			create_building={
@@ -2436,6 +2433,7 @@
 			create_building={
 				building="building_iron_mine"
 				reserves=1
+				level = 1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 		}
@@ -2448,6 +2446,7 @@
 			create_building={
 				building="building_government_administration"
 				reserves=1
+				level = 1
 				activate_production_methods={ "pm_simple_organization" }
 			}
 			create_building={

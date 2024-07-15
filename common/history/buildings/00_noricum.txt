@@ -1831,13 +1831,8 @@
 
     s:STATE_WYRMBONE_CLIFFS = {
       region_state:SDN={
-        create_building={
-          building="building_port"
-          level=1
-          reserves=1
-          activate_production_methods={ "pm_anchorage" }
-        }
-      }
+        
+    }
   }
 
 
@@ -2555,7 +2550,7 @@
           add_ownership={ 
             building={ 
               type="building_financial_district"
-              country="c:DUM"
+              country="c:MBR"
               levels=1
               region="STATE_GLASLIESH"
              }
@@ -3202,7 +3197,7 @@
             add_ownership={ 
               building={ 
                 type="building_manor_house"
-                country="c:CLR"
+                country="c:DOV"
                 levels=5
                 region="STATE_THORNWALL"
                }
@@ -3460,7 +3455,7 @@ reserves=1
                 type="building_financial_district"
                 country="c:BIE"
                 levels=2
-                region="KENLYNE"
+                region="STATE_KENLYNE"
            }
         }
     reserves=1
@@ -3923,16 +3918,16 @@ reserves=1
 
     s:STATE_GLYNFFORDD = {
       region_state:FOX={
-			create_building={
+			  create_building={
           building="building_livestock_ranch"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:FOX"
-						levels=1
-						region="STATE_GLYNFFORD"
-				   }
-				}
+				  add_ownership={ 
+					  building={ 
+						  type="building_manor_house"
+						  country="c:FOX"
+						  levels=1
+						  region="STATE_GLYNFFORDD"
+				    }
+				  }
           reserves=1
           activate_production_methods={ "pm_sheep_farms" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated"  }
         }
@@ -4453,7 +4448,7 @@ reserves=1
           reserves=1
           activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
         }
-      }
+      
       create_building={
         building="building_wishstone_mine"
                   add_ownership={ 
@@ -4467,6 +4462,7 @@ reserves=1
         reserves=1
         activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_no_potions" }
       }
+    }
   }
 
 
