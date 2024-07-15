@@ -164,8 +164,11 @@ starwoken={
 
 yelfi={
 	color= hsv{ 0.24 0.64 0.36 }
-	religion = dwarven_dark_magic
-	traits = { cloud_dwarf dwarf_heritage }
+	religion = dwarven_ancestors
+    traits = { cloud_dwarf dwarf_heritage }
+    obsessions = {
+        liquor
+    }
 	male_common_first_names={
 		Ang
 		Norodom
