@@ -1596,15 +1596,18 @@ STATE_MOUNT_YELFIS = {
     farm = xA3F4A4
     mine = xAFE8E9
     arable_land = 110
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_iron_mining = 27
+        bg_cloud_collecting = 49
         bg_lead_mining = 19
-        bg_logging = 7
+        bg_coal_mining = 36
+        bg_sulfur_mining = 11
+        bg_logging = 10
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 10
     }
     naval_exit_id = 3204
 }

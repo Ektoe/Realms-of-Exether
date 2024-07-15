@@ -1659,7 +1659,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:DAR = {
 		create_pop = {
 			culture = yelfi
-			size = 2070892
+			size = 2570892
 		}
 		create_pop = {
 			culture = bossardi
