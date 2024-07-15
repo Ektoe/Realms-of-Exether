@@ -556,13 +556,13 @@
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_RIVER_MEDDEN
+				state_region = s:STATE_PEARFIELDS
 				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_RIVER_MEDDEN
+				state_region = s:STATE_PEARFIELDS
 				count = 1
 			}
 
@@ -1012,6 +1012,32 @@
 			}
 			scope:ratdefender = {
 				transfer_to_formation = scope:ratarmyone
+			}
+		}
+	}
+
+	c:DAR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_lake_bossard
+			name = Hold_Defense_Force
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_MOUNT_YELFIS
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_MOUNT_YELFIS
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_MOUNT_YELFIS
+				count = 2
 			}
 		}
 	}

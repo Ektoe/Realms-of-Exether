@@ -359,7 +359,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_permanent_prestidigitation" "pm_automation_disabled" "pm_no_luxury_clothes" }
+				activate_production_methods={ "pm_handsewn_clothes" "pm_permanent_prestidigitation" "pm_no_luxury_clothes" }
 			}
 			create_building={
 				building="building_wishstone_mine"
