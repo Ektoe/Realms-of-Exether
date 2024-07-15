@@ -152,6 +152,7 @@ s:STATE_ORCBANE_PASS = {
         country = c:CER
         owned_provinces = { "x60D4C8" "x69C4D8" "x76BFF6" "x76D4D2" "x83E6DA" "x8ADF8D" "x8FA6DC" "x8FEFF8" "x92ADBF" "x99F1BB" "xA36CF6" "xA5EA72" "xA8AEFD" "xA8EAE0" "xB2EEF7" "xB4C2DF" "xBEE7E5" "xC3A4A4" "xC4D9AE" "xC4F960" "xC5CA9C" "xC77FB1" "xD1A2DE" "xD2CFCD" "xE0EB65" "xE2EB79" "xE9E5B6" "xEBE9CC" "xEFF4AE" "xF0DED8" "xF4F9E1" "xF5EBA8" "xF7D9B6" "xFA60F2" "xFCD52B" }
 }
+add_homeland = cu:cerunite
 add_homeland = cu:rivierling
 }
 
@@ -201,10 +202,8 @@ s:STATE_VOZMEAD_BORDERLANDS = {
     create_state = {
         country = c:TLD
         owned_provinces = { "x0BEFFB" "x30EFF4" "x58BEF1" "x6CDBDF" "x6FC8D0" "x9BF7A7" "xB6ADA6"  "xBBD5EA" "xBD56FC" "xC677CF" "xC9989C"  "xDEC5A4" "xE7AC99" "xE775E9" "xF0A29F" "xF4DDFD" "xF892D1" "xFDEAF9" }
-}
-
+    }
     add_homeland = cu:tolorr
-    add_homeland = cu:cerunite
 }
 
 s:STATE_CRAGGEDWYN = {
@@ -212,7 +211,6 @@ s:STATE_CRAGGEDWYN = {
         country = c:CDW
         owned_provinces = { "x8C82FA" "xC0D0A2" "xFDEAF9" "xDE84F6" "xC13EFC" "xF0A29F" "xC597CC" "x96EF9A" "xEAD7D3" "xB893EC" "x76F6EF" "xDBDEB3" "xDD96D1" "xF444F1" "x9ECFDD" "xEFAFA9" "x4DCFEC" "xD79791" "x64D7D4" }
     }
-    add_homeland = cu:tolorr
     add_homeland = cu:cerunite
 }
 
@@ -368,6 +366,7 @@ s:STATE_DEEPWOODS = {
         country = c:MOO
         owned_provinces = { "x62B6F1" "x6996FC" "x6AE4F0" "x86F67E" "x8AFB74" "xA0DEB1" "xA0E99B" "xB37AF2" "xC075D4" "xC3EE8A" "xD2EC61" "xD7BE98" "xDD6EDB" "xEC76E8" "xF3CB66" "xF4DC29" "xF729E1" }
 }
+add_homeland = cu:wealder
 add_homeland = cu:coast_halfling
 }
 
@@ -494,7 +493,7 @@ s:STATE_BYRIVER = {
         country = c:ARR
         owned_provinces = { "x1BFEF9" "x9CEBD7" "xBBDAAB" "xD658F4" "xDC87BA" "xE4B8A8" "xE8EC22" "xEBDF33" "xEE72FB" "xF0FDF4" "xFAE733" }
 }
-add_homeland = cu:wealder
+add_homeland = cu:dorite
 }
 
 s:STATE_GREENCOURT = {
