@@ -698,7 +698,7 @@ pm_barrels = {
 pm_automated_bottlers = {
 	texture = "gfx/interface/icons/production_method_icons/automated_bottle_blowers.dds"
 
-	unlocking_production_methods = {
+	unlocking_technologies = {
 		conveyors
 	}
 
@@ -717,7 +717,7 @@ pm_automated_bottlers = {
 pm_bottomless_bottles = {
 	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
 
-	unlocking_production_methods = {
+	unlocking_technologies = {
 		alchemical_transmutation
 	}
 
