@@ -60,7 +60,7 @@
 gulf_naga={
 	color= hsv{ 0.81 0.38 0.60 }
 	religion = teomakti
-	traits = {  locari_culture_group naga monstrous_heritage}
+	traits = { naga monstrous_heritage}
 	male_common_first_names={
 		Ashoka
 		Ashtravakra
@@ -102,7 +102,7 @@ gulf_naga={
 jungle_naga={
 	color= hsv{ 0.39 0.45 0.74 }
 	religion = xocarakti
-	traits = {  locari_culture_group naga monstrous_heritage}
+	traits = { naga monstrous_heritage}
 	
 	
 	male_common_first_names={
@@ -438,7 +438,7 @@ awakened={
 awakened_east={
 	color={ 122 127 111 }
 	religion = animist
-	traits = { locari_culture_group beast monstrous_heritage }
+	traits = { beast monstrous_heritage }
 	male_common_first_names={
 		Gaghaz
 		Yori
@@ -470,6 +470,9 @@ vampire={
 	color= hsv{ 0.12 0.41 0.54 }
 	religion = lords_of_avarice
 	traits = { noric_culture_group monstrous_heritage }
+	obsessions = {
+		fine_art
+	}
 	male_common_first_names={
 		Adrian
 		Alexandru
@@ -621,6 +624,9 @@ sunkissed={
 	color= hsv{ 0.22 0.41 0.64 }
 	religion = cult_of_the_sun
 	traits = { noric_culture_group monstrous_heritage}
+	obsessions = {
+		fine_art
+	}
 	male_common_first_names={
 		Adrian
 		Alexandru

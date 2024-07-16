@@ -928,7 +928,7 @@
                 french_empire_clothes_pop_trigger = yes
                 officers_clothes_pop_trigger = yes
 
-                c:FRA ?= {
+                root ?= {
                     has_technology_researched = automatic_machine_guns
                 }
             }
@@ -1055,7 +1055,7 @@
 
                 has_dlc_feature = ep1_cosmetics # the hat isn't DLC material but it doesn't make sense without DLC outfits
 
-                c:RUS ?= {
+                root ?= {
                     has_technology_researched = bolt_action_rifles
                 }
                 OR = {
@@ -1450,40 +1450,31 @@
                     arabic_fez_trigger = yes
                 }
             }
-            modifier = {
-                add = 10000
-
-                exists = c:EGY
-                OR = {
-                    AND = {
-                        scope:pop ?= {
-                            owner ?= {
-                                c:EGY = this
-                            }
-                        }
-                        OR = {
-                            officers_clothes_pop_trigger = yes
-                            soldier_clothes_pop_trigger = yes
-                        }
-                    }
-                    AND = {
-                        scope:character ?= {
-                            owner ?= {
-                                c:EGY = this
-                            }
-                            OR = {
-                                has_role = general
-                                is_ruler = yes
-                                is_heir = yes
-                                AND = {
-                                    armed_forces_clothes_trigger = yes
-                                    politician_clothes_trigger = yes
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+#            modifier = {
+#                add = 10000
+#
+#                OR = {
+#                    AND = {
+#                        OR = {
+#                            officers_clothes_pop_trigger = yes
+#                            soldier_clothes_pop_trigger = yes
+#                       }
+#                    }
+#                    AND = {
+#                        scope:character ?= {
+#                            OR = {
+#                                has_role = general
+#                                is_ruler = yes
+#                                is_heir = yes
+#                                AND = {
+#                                    armed_forces_clothes_trigger = yes
+#                                    politician_clothes_trigger = yes
+#                               }
+#                            }
+#                        }
+#                    }
+#                }
+#            }
             modifier = {
                 add = 90000
                 OR = {
@@ -2522,10 +2513,8 @@
                                 devout_clothes_trigger = yes
                                 AND = {
                                     exists = scope:character
-                                    exists = c:PAP
                                     scope:character = {
                                         exists = home_country
-                                        home_country = c:PAP
                                         has_ideology = ideology:ideology_theocrat
                                     }
                                 }

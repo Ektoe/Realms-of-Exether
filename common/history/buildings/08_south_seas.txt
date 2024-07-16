@@ -78,9 +78,6 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-			create_building={
-				building= "building_machu_picchu"
-			}
 		}
 	}
 
@@ -542,6 +539,7 @@
 			create_building={
 				building="building_rice_farm"
 				reserves=1
+				level = 1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm"  "pm_tools_disabled" "pm_fig_orchards_building_rice_farm" }
 			}
 			create_building={
@@ -714,9 +712,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:COV"
-						levels=2
-						region="STATE_BELENDLE"
+						country="c:DUM"
+						levels=4
+						region="STATE_CROWNPEAK"
 				   }
 				}
 				reserves=1
@@ -727,13 +725,13 @@
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
-                        country="c:LAC"
-                        levels=1
-                        region="STATE_ALENMAR"
+                        country="c:COV"
+                        levels=2
+                        region="STATE_BELENDLE"
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_sugar_plantation"
@@ -751,9 +749,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:COV"
+						country="c:DUM"
 						levels=1
-						region="STATE_BELENDLE"
+						region="STATE_CROWNPEAK"
 				   }
 				}
 				reserves=1
@@ -767,10 +765,88 @@
 			}
 			create_building={
 				building="building_port"
-				level=1
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
+			create_building={
+				building="building_logging_camp"
+						  add_ownership={ 
+							  building={ 
+								  type="building_financial_district"
+								  country="c:COV"
+								  levels=3
+								  region="STATE_BELENDLE"
+							 }
+						  }
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_increased_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_dye_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:DUM"
+						levels=5
+						region="STATE_CROWNPEAK"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_coffee_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:DUM"
+						levels=6
+						region="STATE_CROWNPEAK"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_shipyards"
+					  add_ownership={ 
+						  building={ 
+							  type="building_financial_district"
+							  country="c:COV"
+							  levels=3
+							  region="STATE_BELENDLE"
+						 }
+					  }
+				reserves=1
+				activate_production_methods={ "pm_basic_shipbuilding" }
+			  }
+			  create_building={
+				building="building_military_shipyards"
+				  add_ownership={ 
+					  building={ 
+						  type="building_financial_district"
+						  country="c:COV"
+						  levels=1
+						  region="STATE_BELENDLE"
+					 }
+				  }
+				reserves=1
+				activate_production_methods={ "pm_military_shipbuilding_wooden" }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				  add_ownership={ 
+					building={ 
+					  type="building_manor_house"
+					  country="c:COV"
+					  levels=6
+					  region="STATE_BELENDLE"
+					 }
+				  }
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
+			  }
 		}
 	}
 

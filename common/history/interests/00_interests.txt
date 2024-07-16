@@ -42,4 +42,7 @@
 	c:DUM ?= {
 		add_declared_interest = region_ceraun
 	}
+	c:FOX ?= {
+		add_declared_interest = region_yanger_steppe
+	}
 }

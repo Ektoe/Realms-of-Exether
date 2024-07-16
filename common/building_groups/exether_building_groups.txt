@@ -346,6 +346,11 @@ bg_hunting = {
 	
 	default_building = building_hunting_lodge
 }
+bg_game_hunting = {
+	parent_group = bg_magic_resource
+	
+	default_building = building_fur_hunting_lodge
+}
 
 bg_logging_stonewood = {
 	

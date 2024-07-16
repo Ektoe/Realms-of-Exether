@@ -20,13 +20,19 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_GREENCOURT
-				count = 5
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_DURANS_LAND
 				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_GREENCOURT
+				count = 3
 			}
 
 			save_scope_as = secondcorparr
@@ -58,15 +64,10 @@
 				count = 5
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_THE_MATCHES
-				count = 5
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_THE_MATCHES
+				state_region = s:STATE_VERDANT_VALE
 				count = 5
 			}
 			save_scope_as = thirdcorparr
@@ -94,7 +95,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_THE_MATCHES
+				state_region = s:STATE_GOLDENACRE
 				count = 5
 			}
 
@@ -105,14 +106,8 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_SHARPWOOD
-				count = 5
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_SHARPWOOD
+				state_region = s:STATE_LOWER_GOLDENLEAF
 				count = 5
 			}
 		}
@@ -168,19 +163,19 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_IRONWOOD_PENINSULA
-				count = 4
+				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_OLD_AUBERN
-				count = 4
+				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_WOODS_OF_THE_VOW
-				count = 1
+				count = 5
 			}
 
 			combat_unit = {
@@ -209,7 +204,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_LILAC_SHORE
-				count = 4
+				count = 10
 			}
 
 			combat_unit = {
@@ -221,19 +216,19 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CASTLECOURT
-				count = 3
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_IRONWOOD_PENINSULA
-				count = 1
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_HAAR_FEN
-				count = 4
+				count = 5
 			}
 
 			combat_unit = { 
@@ -269,13 +264,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_AUBERN_FLOW
-				count = 2
+				count = 4
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_OLD_AUBERN
-				count = 2
+				count = 5
 			}
 
 			combat_unit = {
@@ -292,13 +287,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CASTLECOURT
-				count = 7
+				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_FAR_SHORE_2
-				count = 2
+				count = 10
 			}
 
 			combat_unit = {
@@ -316,13 +311,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_FAR_SHORE_2
-				count = 1
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_AUBERN_FLOW
-				count = 2
+				count = 5
 			}
 		}
 
@@ -345,7 +340,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_AUBERN_FLOW
-				count = 3
+				count = 5
 			}
 
 			combat_unit = {
@@ -357,18 +352,18 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_IRONWOOD_PENINSULA
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_LILAC_SHORE
-				count = 2
+				count = 3
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_AETHELBOSQUE
-				count = 1
+				count = 2
 			}
 		}
 	}
@@ -556,13 +551,13 @@
 			
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_RIVER_MEDDEN
+				state_region = s:STATE_PEARFIELDS
 				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_RIVER_MEDDEN
+				state_region = s:STATE_PEARFIELDS
 				count = 1
 			}
 
@@ -816,7 +811,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SKYPIERCER_PEAK
-				count = 6
+				count = 3
 			}
 
 			combat_unit = {
@@ -828,34 +823,34 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_SKYPIERCER_PEAK
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CLOUDSILVER_SPINE
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_CLOUDSILVER_SPINE
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_CLOUDSILVER_SPINE
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GRAVELROCK_ROAD
 				count = 4
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_CLOUDSILVER_SPINE
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_CLOUDSILVER_SPINE
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_GRAVELROCK_ROAD
-				count = 6
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
 				state_region = s:STATE_GRAVELROCK_ROAD
 				count = 1
 			}
@@ -863,7 +858,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_GRAVELROCK_ROAD
-				count = 1
+				count = 2
 			}
 
 			save_scope_as = heroes_of_hanseath
@@ -906,7 +901,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_NEWBANKS
-				count = 2
+				count = 5
 			}
 
 			combat_unit = {
@@ -916,9 +911,9 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
+				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_NEWBANKS
-				count = 1
+				count = 2
 			}
 		}
 	}
@@ -932,13 +927,13 @@
 			combat_unit = { 
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_OVERBURROW
-				count = 3
+				count = 6
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_OVERBURROW
-				count = 1
+				count = 3
 			}
 		}
 	}
@@ -952,13 +947,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_UPPER_GOLDENLEAF
-				count = 2
+				count = 10
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_UPPER_GOLDENLEAF
-				count = 1
+				count = 5
 			}
 		}
 	}
@@ -1012,6 +1007,241 @@
 			}
 			scope:ratdefender = {
 				transfer_to_formation = scope:ratarmyone
+			}
+		}
+	}
+
+	c:DAR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_lake_bossard
+			name = Hold_Defense_Force
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_MOUNT_YELFIS
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_MOUNT_YELFIS
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_MOUNT_YELFIS
+				count = 2
+			}
+		}
+	}
+
+	c:EMP ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_lake_bossard
+			name = Emparal_Royal_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_THE_AMBER_RUN
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_THE_AMBER_RUN_2
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_THE_AMBER_RUN_3
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_HAZELDEEP
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_THE_AMBER_RUN_3
+				count = 3
+			}
+		}
+	}
+
+	c:CLR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_smallhills
+			name = Clearbough_National_Guard
+
+			combat_unit = { 
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SILVERTARGE
+				count = 5
+			}
+			combat_unit = { 
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CLEARBOUGH_ESTATES
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_STOUTHEART_BASIN
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_CROPHEART_DALE
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_CROPHEART_DALE
+				count = 3
+			}
+		}
+	}
+
+	c:PRI ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_moorweald
+			name = Prilyran_Guard
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WAYFARE_MEADOWS
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MISTREACH_2
+				count = 6
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_GREENCOURT_2
+				count = 3
+			}
+		}
+	}
+
+	c:SLB ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_moorweald
+			name = Estate_Forces
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_FIRST_BOROUGH
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_WAYFARE_MEADOWS_2
+				count = 2
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WAYFARE_MEADOWS_2
+				count = 3
+			}
+		}
+	}
+
+	c:SMA ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_moorweald
+			name = Green_Guard
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_OUTER_MOORWEALD
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_OUTER_MOORWEALD_2
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_OUTER_MOORWEALD_2
+				count = 2
+			}
+		}
+	}
+
+	c:GCS ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_moorweald
+			name = River_Guard
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GCS
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_GCS
+				count = 2
+			}
+		}
+	}
+
+	c:RTD ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_plaguewood
+			name = Rotdrinkers
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EASTERN_PLAGUEWOOD_2
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EASTERN_PLAGUEWOOD
+				count = 25
+			}
+		}
+	}
+	c:BDB ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_plaguewood
+			name = RBloodbound
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_FORESTS_HEART_2
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_PLAGUEWOOD_HINTERLANDS_2
+				count = 25
 			}
 		}
 	}
