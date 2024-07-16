@@ -811,42 +811,42 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SKYPIERCER_PEAK
-				count = 6
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_SKYPIERCER_PEAK
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_SKYPIERCER_PEAK
 				count = 3
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CLOUDSILVER_SPINE
-				count = 5
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_CLOUDSILVER_SPINE
+				state_region = s:STATE_SKYPIERCER_PEAK
 				count = 1
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_CLOUDSILVER_SPINE
+				state_region = s:STATE_SKYPIERCER_PEAK
 				count = 2
 			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CLOUDSILVER_SPINE
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cuirassiers
+				state_region = s:STATE_CLOUDSILVER_SPINE
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_CLOUDSILVER_SPINE
+				count = 1
+			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GRAVELROCK_ROAD
-				count = 8
+				count = 4
 			}
 
 			combat_unit = {
@@ -858,7 +858,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_GRAVELROCK_ROAD
-				count = 3
+				count = 2
 			}
 
 			save_scope_as = heroes_of_hanseath

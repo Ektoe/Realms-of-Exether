@@ -1910,12 +1910,12 @@
                     building={ 
                         type="building_financial_district"
                         country="c:SMA"
-                        levels=4
+                        levels=3
                         region="STATE_OUTER_MOORWEALD"
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" }
 		}
             create_building={
 			building="building_furniture_manufacturies"
@@ -1936,7 +1936,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:SMA"
-                        levels=3
+                        levels=12
                         region="STATE_OUTER_MOORWEALD"
                    }
                 }
@@ -1949,7 +1949,7 @@
                     building={ 
                         type="building_adventuring_guild"
                         country="c:SMA"
-                        levels=1
+                        levels=2
                         region="STATE_OUTER_MOORWEALD"
                    }
                 }
@@ -1962,12 +1962,12 @@
 					building={ 
 						type="building_manor_house"
 						country="c:SMA"
-						levels=6
+						levels=14
 						region="STATE_OUTER_MOORWEALD"
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_soil_enriching_farming" "pm_citrus_orchards" "pm_tools"  }
+			activate_production_methods={ "pm_soil_enriching_farming" "pm_no_secondary" "pm_tools"  }
 		}
 			create_building={
 			building="building_livestock_ranch"
@@ -1975,7 +1975,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:SMA"
-						levels=3
+						levels=1
 						region="STATE_OUTER_MOORWEALD"
 				   }
 				}
@@ -1988,7 +1988,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:SMA"
-						levels=3
+						levels=8
 						region="STATE_OUTER_MOORWEALD"
 				   }
 				}
@@ -2101,7 +2101,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" }
 		}
             create_building={
 			building="building_food_industry"
@@ -2109,7 +2109,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:SMA"
-                        levels=2
+                        levels=1
                         region="STATE_OUTER_MOORWEALD_2"
                    }
                 }
@@ -2122,7 +2122,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:SMA"
-						levels=4
+						levels=11
 						region="STATE_OUTER_MOORWEALD_2"
 				   }
 				}
@@ -2135,7 +2135,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:SMA"
-						levels=3
+						levels=5
 						region="STATE_OUTER_MOORWEALD_2"
 				   }
 				}
@@ -2148,7 +2148,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:SMA"
-						levels=3
+						levels=1
 						region="STATE_OUTER_MOORWEALD_2"
 				   }
 				}
@@ -2185,7 +2185,7 @@
 					building={ 
 						type="building_financial_district"
 						country="c:SMA"
-						levels=2
+						levels=3
 						region="STATE_OUTER_MOORWEALD_3"
 				   }
 				}
@@ -2198,7 +2198,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:SMA"
-						levels=2
+						levels=1
 						region="STATE_OUTER_MOORWEALD_3"
 				   }
 				}
@@ -2224,38 +2224,12 @@
                     building={ 
                         type="building_financial_district"
                         country="c:SMA"
-                        levels=1
+                        levels=2
                         region="STATE_OUTER_MOORWEALD_3"
                    }
                 }
 			reserves=1
 			activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" }
-		}
-            create_building={
-			building="building_logging_camp"
-                add_ownership={ 
-                    building={ 
-                        type="building_financial_district"
-                        country="c:SMA"
-                        levels=3
-                        region="STATE_OUTER_MOORWEALD_3"
-                   }
-                }
-			reserves=1
-			activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
-		}
-			create_building={
-			building="building_cotton_plantation"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:SMA"
-						levels=2
-						region="STATE_OUTER_MOORWEALD_3"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
 		}
                         create_building={
 			building="building_port"
@@ -5531,7 +5505,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:VOZ"
-						levels=1
+						levels=2
 						region="STATE_GRAVELROCK_ROAD"
 				   }
 				}

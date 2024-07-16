@@ -450,7 +450,7 @@
 		}
 		create_trade_route = {
 			goods = hardwood
-			level = 2
+			level = 1
 			direction = import
 			target = c:CER.market
 		}
@@ -461,8 +461,8 @@
 			target = c:DUM.market
 		}
 		create_trade_route = {
-			goods = grain
-			level = 5
+			goods = furniture
+			level = 2
 			direction = import
 			target = c:ARR.market
 		}
@@ -471,6 +471,18 @@
 			level = 2
 			direction = export
 			target = c:CER.market
+		}
+		create_trade_route = {
+			goods = tobacco
+			level = 8
+			direction = import
+			target = c:ARR.market
+		}
+		create_trade_route = {
+			goods = tobacco
+			level = 3
+			direction = import
+			target = c:DUM.market
 		}
 		create_trade_route = {
 			goods = luxury_furniture
@@ -485,14 +497,8 @@
 			target = c:WHI.market
 		}
 		create_trade_route = {
-			goods = silk
-			level = 1
-			direction = import
-			target = c:RDM.market
-		}
-		create_trade_route = {
 			goods = dye
-			level = 2
+			level = 4
 			direction = import
 			target = c:VOZ.market
 		}
