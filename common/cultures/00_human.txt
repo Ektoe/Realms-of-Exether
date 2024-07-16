@@ -1210,6 +1210,9 @@ vairian = {
 	color= hsv{ 0.52 0.51 0.75 }
 	religion = cult_of_the_sea
 	traits = { vairia_culture_group human_heritage }
+	obsessions = {
+		clippers
+	}
 	male_common_first_names={
 		Abel
 		Adriano
@@ -1865,6 +1868,9 @@ ocelian = {
 	color= rgb{ 164 193 223 }
 	religion = church_of_man
 	traits = { settler_coast_culture_group human_heritage }
+	obsessions = {
+		coffee
+	}
 
 	male_common_first_names={
 		August Adrian Antonin Avit AristO_tel Andrieu Arnaut AnfO_s Alexandre Agustin AlE_xi Armand
@@ -3726,6 +3732,9 @@ achonian={
 	color= hsv{ 0.40 0.03 0.58 }
 	religion = cult_of_knowledge
 	traits = { settler_coast_culture_group human_heritage }
+	obsessions = {
+		fine_art
+	}
 	male_common_first_names={
 		Alenka
 		Alfonz
@@ -4001,7 +4010,7 @@ dorite={
 	religion = church_of_man
 	traits = { settler_coast_culture_group human_heritage }
 	obsessions = {
-		tobacco
+		luxury_potions
 	}
 	male_common_first_names={
 		Aimery
@@ -4535,6 +4544,9 @@ yanger={
 	color= hsv{ 0.08 0.62 0.93 }
 	religion = horse_worship
 	traits = { nomadic human_heritage }
+	obsessions = {
+		meat
+	}
 		male_common_first_names={
 			Asleg
 			Buzas

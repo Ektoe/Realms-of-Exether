@@ -419,6 +419,7 @@ STATE_RAVENCLIFF = {
         bg_coal_mining = 36
         bg_iron_mining = 36
         bg_logging = 9
+        bg_hunting = 6
         bg_wishstone_mining = 18
     }
     naval_exit_id = 3229
@@ -1409,6 +1410,7 @@ STATE_BLACKDON = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 13
+        bg_hunting = 8
         bg_wishstone_mining = 15
     }
     naval_exit_id = 3229

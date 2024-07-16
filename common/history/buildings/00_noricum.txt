@@ -954,12 +954,12 @@
             building={ 
               type="building_manor_house"
               country="c:YAN"
-              levels=1
+              levels=2
               region="STATE_WEST_YANGER_STEPPE"
              }
           }
           reserves=1
-          activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+          activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated"  }
         }
       }
 
@@ -979,7 +979,7 @@
 				   }
 				}
           reserves=1
-          activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled"  }
+          activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools"  }
         }
 			create_building={
           building="building_livestock_ranch"
@@ -992,7 +992,7 @@
 				   }
 				}
           reserves=1
-          activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+          activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated"  }
         }
         create_building={
           building="building_logging_camp"
@@ -1038,12 +1038,25 @@
 					building={ 
 						type="building_manor_house"
 						country="c:YAN"
-						levels=14
+						levels=6
 						region="STATE_RIDERS_MOOT"
 				   }
 				}
           reserves=1
-          activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+          activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools"  }
+        }
+        create_building={
+          building="building_livestock_ranch"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:YAN"
+						levels=1
+						region="STATE_RIDERS_MOOT"
+				   }
+				}
+          reserves=1
+          activate_production_methods={ "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated"  }
         }
 			create_building={
           building="building_tea_plantation"
@@ -1064,7 +1077,7 @@
               building={ 
                 type="building_financial_district"
                 country="c:YAN"
-                levels=1
+                levels=2
                 region="STATE_RIDERS_MOOT"
                }
             }
@@ -1102,7 +1115,7 @@
                         building={ 
                             type="building_financial_district"
                             country="c:YAN"
-                            levels=1
+                            levels=2
                             region="STATE_RIDERS_MOOT"
                        }
                     }
@@ -1128,7 +1141,7 @@
                 building={ 
                     type="building_financial_district"
                     country="c:YAN"
-                    levels=1
+                    levels=2
                     region="STATE_RIDERS_MOOT"
                }
             }
@@ -1465,6 +1478,19 @@
           reserves=1
           activate_production_methods={ "pm_handsewn_clothes" "pm_permanent_prestidigitation" "pm_no_luxury_clothes" "pm_that_scary_ass_shit_from_sleeping_beauty" }
         }
+        create_building={
+          building="building_arts_academy"
+		  add_ownership={
+			building={
+				type="building_wizard_tower"
+				country="c:RVC"
+				levels=1
+				region="STATE_RAVENCLIFF"
+			}
+		}
+          reserves=1
+          activate_production_methods={ "pm_traditional_art" }
+        }	
 			create_building={
           building="building_rye_farm"
 				add_ownership={ 
@@ -1484,7 +1510,7 @@
                         building={ 
                             type="building_financial_district"
                             country="c:RVC"
-                            levels=2
+                            levels=3
                             region="STATE_RAVENCLIFF"
                        }
                     }
@@ -1562,6 +1588,19 @@
           activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
         }
         create_building={
+          building="building_arts_academy"
+		  add_ownership={
+			building={
+				type="building_wizard_tower"
+				country="c:JUR"
+				levels=1 
+				region="STATE_HUNTERS_HILL"
+			}
+		}
+          reserves=1
+          activate_production_methods={ "pm_traditional_art" }
+        }	
+        create_building={
           building="building_furniture_manufacturies"
                     add_ownership={ 
                         building={ 
@@ -1605,6 +1644,19 @@
                 }
           reserves=1
           activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+        }
+        create_building={
+          building="building_livestock_ranch"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:YAN"
+						levels=3
+						region="STATE_CROWNSHADE"
+				   }
+				}
+          reserves=1
+          activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated"  }
         }	
       }
   }
@@ -1632,8 +1684,6 @@
           }
       }
   }
-
-
     s:STATE_EOGHANS_SPEAR = {
       region_state:SRN = {
         create_building={
@@ -2359,12 +2409,12 @@
 					building={ 
 						type="building_manor_house"
 						country="c:YAN"
-						levels=2
+						levels=3
 						region="STATE_URIKS_GIFT"
 				   }
 				}
           reserves=1
-          activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+          activate_production_methods={ "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated"  }
         }
         create_building={
           building="building_rye_farm"
@@ -2372,12 +2422,12 @@
               building={ 
                 type="building_manor_house"
                 country="c:YAN"
-                levels=6
+                levels=3
                 region="STATE_URIKS_GIFT"
                }
             }
           reserves=1
-          activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools_disabled" }
+          activate_production_methods={ "pm_simple_farming" "pm_potatoes" "pm_tools" }
         }
         create_building={
           building="building_logging_camp"
@@ -3657,6 +3707,19 @@ reserves=1
           reserves=1
           activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_potatoes" }
         }
+        create_building={
+          building="building_arts_academy"
+		  add_ownership={
+			building={
+				type="building_wizard_tower"
+				country="c:JUR"
+				levels=1
+				region="STATE_MAESBELAN"
+			}
+		}
+          reserves=1
+          activate_production_methods={ "pm_traditional_art" }
+        }	
             create_building={
           building="building_logging_camp"
                 add_ownership={ 
@@ -5194,4 +5257,34 @@ reserves=1
         }
       }
     }
+    s:STATE_SOUTH_YANGER_STEPPE = {
+      region_state:YAN = {
+            create_building={
+          building="building_logging_camp"
+          add_ownership={ 
+            building={ 
+              type="building_manor_house"
+              country="c:YAN"
+              levels=1
+              region="STATE_SOUTH_YANGER_STEPPE"
+             }
+          }
+            reserves=1
+          activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+        }	
+        create_building={
+          building="building_livestock_ranch"
+        add_ownership={ 
+          building={ 
+            type="building_manor_house"
+            country="c:YAN"
+            levels=4
+            region="STATE_SOUTH_YANGER_STEPPE"
+           }
+        }
+          reserves=1
+          activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools"" "pm_livestock_no_enhancement" "pm_standard_fences" "pm_unrefrigerated"  }
+        }
+      }
+  }
   }

@@ -797,6 +797,18 @@
 			target = c:BIE.market
 			direction = import
 		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 2
+			target = c:DUM.market
+			direction = export
+		}
+		create_trade_route = {
+			goods = luxury_furniture
+			level = 1
+			target = c:FOX.market
+			direction = export
+		}
 }
 c:DOV ?= {
 	create_trade_route = {
