@@ -1,7 +1,0 @@
-﻿EME = { # Emerald League
-	flag_definition = {
-		coa = EME
-		subject_canton = EME_canton
-		priority = 1
-	}
-}
