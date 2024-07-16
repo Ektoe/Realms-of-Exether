@@ -916,7 +916,7 @@
 				reserves=1
 				activate_production_methods={ "pm_iron_frame_buildings" }
 			}				
-                        create_building={
+        create_building={
 				building="building_rice_farm"
 				add_ownership={ 
 					building={ 
@@ -929,14 +929,14 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
 			}
-                        create_building={
-                                building="building_food_industry"
-                                add_ownership={ 
-                                          building={ 
-                                                   type="building_financial_district"
-                                                   country="c:DUM"
-                                                   levels=3
-                                                   region="STATE_CROWNPEAK"
+          create_building={
+          building="building_food_industry"
+          add_ownership={ 
+             building={ 
+              type="building_financial_district"
+              country="c:DUM"
+              levels=3
+              region="STATE_CROWNPEAK"
                    }
                 }
           reserves=1
