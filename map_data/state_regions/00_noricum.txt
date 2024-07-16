@@ -1630,6 +1630,7 @@ STATE_HRAFNSDALR = {
         bg_iron_mining = 15
         bg_logging = 11
         bg_coal_mining = 15
+        bg_game_hunting = 7
     }
     resource = {
         type = "bg_gold_fields"

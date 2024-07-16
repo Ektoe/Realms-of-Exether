@@ -240,6 +240,7 @@ VEIL_INTEGRITY_VALUE_BLUE: "#bold #u [AccessPlayer.MakeScope.ScriptValue('veil_i
 VEIL_DAMAGE_COUNTRY: "[AccessPlayer.MakeScope.ScriptValue('country_veil_damage')]"
 
 STATE_VEIL_DAMAGE: "[Concept('concept_veil_integrity', 'Veil Impact')]\n  [State.MakeScope.ScriptValue('state_veil_damage')|1-] "
+STATE_VEIL_DAMAGE_DESC: "#header [Concept('concept_veil_integrity', 'Veil Impact')]#!: [State.GetModifier.GetFormattedValueFor('state_veil_integrity_contribution')]\n$TOOLTIP_DELIMITER$\n[State.GetModifier.GetDescFor('state_veil_integrity_contribution')]\n\nA decrease to global @veil! [concept_veil_integrity]"
 
 
 ASTRAL_CALENDAR_YEAR: "Year of the $ASTRAL_CALENDAR_YEAR_SIGN$"

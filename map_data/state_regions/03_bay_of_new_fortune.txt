@@ -536,7 +536,6 @@ STATE_PUKARAQOCHA = {
     wood = x53F8BE
     farm = x66CFDD
     mine = x71B0F4
-    port = x71E9FE
     arable_land = 40
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
