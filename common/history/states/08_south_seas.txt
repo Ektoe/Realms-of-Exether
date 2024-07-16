@@ -367,14 +367,6 @@ s:STATE_PLACIUKATAL = {
 add_homeland = cu:akmuociai
 }
 
-s:STATE_LIUTUKATAL = {
-	create_state = {
-		country = c:KUM
-		owned_provinces = { "x81FDCF" "x8D82FD" "xA1D3BF" "xC1FE3B" "xD49AF8" "xE0C8D7" "xF0CCDE" }
-}
-add_homeland = cu:west_lacertian
-}
-
 s:STATE_UPESTARR = {
 	create_state = {
 		country = c:LEM
@@ -394,7 +386,7 @@ add_homeland = cu:akmuociai
 s:STATE_PAPLUDIMIS = {
 	create_state = {
 		country = c:KUM
-		owned_provinces = { "x84E7E8" "xB59AB2" "xD2DADE" "xEDBBC7" "xF19C90" "xF277C9" }
+		owned_provinces = { "x81FDCF" "x84E7E8" "x8D82FD" "xA1D3BF" "xB59AB2" "xC1FE3B" "xD2DADE" "xD49AF8" "xE0C8D7" "xEDBBC7" "xF0CCDE" "xF19C90" "xF277C9" }
 }
 add_homeland = cu:west_lacertian
 }

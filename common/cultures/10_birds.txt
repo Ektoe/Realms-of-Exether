@@ -1,7 +1,7 @@
 ﻿whitefeather = {
 	color= hsv{ 0.12 0.56 0.86 }
 	religion = mountain_worship
-	traits = { bird_heritage }
+	traits = { east_aritzakarric_culture_group bird_heritage }
 	obsessions = {
 		luxury_clothes
 	}
@@ -112,7 +112,7 @@
 		de_Renteria
 		de_Ubisztongo
 	}
-	graphics = african
+	graphics = european
 	ethnicities = {
 		1 = whitefeather
 	}
@@ -271,7 +271,7 @@ cliffpercher = {
 	obsessions = {
 		trinkets
 	}
-	traits = { bird_heritage }
+	traits = { west_aritzakarric_culture_group bird_heritage }
 	male_common_first_names={
 		Abel
 		Adriano
@@ -460,7 +460,7 @@ cliffpercher = {
 sandcircler = {
 	color= hsv{ 0.94 0.27 0.87 }
 	religion = bonepicker
-	traits = { bird_heritage }
+	traits = { west_aritzakarric_culture_group bird_heritage }
 	male_common_first_names={
 		Aurelio
 		Camilo
@@ -671,7 +671,7 @@ blacktalon = {
 saglithan={
 	color= hsv{ 0.38 0.27 0.86 }
 	religion = druidic
-	traits = { bird_heritage }
+	traits = { east_aritzakarric_culture_group bird_heritage }
 	
 	
 	male_common_first_names={

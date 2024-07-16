@@ -103,7 +103,7 @@
 		}
 		create_pop = {
 			culture = ocelian
-			size = 93196
+			size = 398017
 		}
 		create_pop = {
 			culture = rivierling
@@ -121,7 +121,7 @@
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size = 469796
+			size = 528796
 		}
 		create_pop = {
 			culture = vandori
@@ -129,7 +129,7 @@
 		}
 		create_pop = {
 			culture = ocelian
-			size = 101196
+			size = 518017
 		}
 		create_pop = {
 			culture = rivierling
@@ -168,11 +168,11 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size = 385785
+			size = 325785
 		}
 		create_pop = {
 			culture = rivierling
-			size = 24465
+			size = 78465
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -189,19 +189,19 @@ s:STATE_CAEL_VALEN_2 = {
 		region_state:CER = {
 			create_pop = {
 				culture = cerunite
-				size = 1069083
+				size = 1169083
 			}
 			create_pop = {
 				culture = ocelian
-				size = 398017
+				size = 101196
 			}
 			create_pop = {
 				culture = rivierling
-				size = 128017
+				size = 112017
 			}
 			create_pop = {
 				culture = coast_halfling
-				size = 308017
+				size = 248017
 			}
 		}
   }
@@ -210,19 +210,19 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size = 599083
+			size = 679083
 		}
 		create_pop = {
 			culture = ocelian
-			size = 518017
+			size = 93196
 		}
 		create_pop = {
 			culture = rivierling
-			size = 158017
+			size = 128017
 		}
 		create_pop = {
 			culture = coast_halfling
-			size = 358017
+			size = 293017
 		}
 	}
 }  
@@ -317,11 +317,11 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = rivierling
-			size = 1196400
+			size = 656400
 		}
 		create_pop = {
 			culture = cerunite
-			size = 383996
+			size = 183996
 		}
 		create_pop = {
 			culture = plaguedweller
@@ -334,20 +334,20 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size = 540400
+			size = 122400
 		}
 		create_pop = {
 			culture = plaguedweller
-			size = 16000
+			size = 16200
 		}
 		create_pop = {
 			culture = rivierling
-			size = 871204
+			size = 561204
 		}
 		create_pop = {
 			culture = rivierling
 			religion = church_of_man
-			size = 141160
+			size = 121160
 		}
 	}
   }
@@ -355,21 +355,21 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_PENDYM_GWYN = {
 	region_state:CER = {
 		create_pop = {
+			culture = rivierling
+			religion = church_of_man
+			size = 484340
+		}
+		create_pop = {
+			culture = rivierling
+			size = 425900
+		}
+                create_pop = {
 			culture = cerunite
-			size = 222400
+			size = 220400
 		}
 		create_pop = {
 			culture = vandori
 			size = 2200
-		}
-		create_pop = {
-			culture = rivierling
-			religion = church_of_man
-			size = 94340
-		}
-		create_pop = {
-			culture = rivierling
-			size = 88400
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -381,21 +381,21 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_PENDYM_GWYN_2 = {
 	region_state:CER = {
 		create_pop = {
+			culture = rivierling
+			religion = church_of_man
+			size = 328600
+		}
+		create_pop = {
+			culture = rivierling
+			size = 314700
+		}
+                create_pop = {
 			culture = cerunite
-			size =306400
+			size = 281400
 		}
 		create_pop = {
 			culture = vandori
 			size = 2200
-		}
-		create_pop = {
-			culture = rivierling
-			religion = church_of_man
-			size = 84000
-		}
-		create_pop = {
-			culture = rivierling
-			size = 128400
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -403,11 +403,11 @@ s:STATE_CAEL_VALEN_2 = {
 		}
 	}
   }
-  s:STATE_RIVER_MEDDEN = {
-	region_state:MID = {
+  s:STATE_PEARFIELDS = {
+	region_state:GCS = {
 		create_pop = {
-			culture =rivierling
-			size = 400989
+			culture = rivierling
+			size = 450989
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -419,21 +419,31 @@ s:STATE_CAEL_VALEN_2 = {
 		}
 		create_pop = {
 			culture = rivierling
+                        religion = church_of_man
 			size = 15989
 		}
 	}
 	region_state:CER = {
 		create_pop = {
 			culture = rivierling
-			size = 1100989
+			size = 697589
+		}
+                create_pop = {
+			culture = rivierling
+                        religion = church_of_man
+			size = 115989
+		}
+                create_pop = {
+			culture = coast_halfling
+			size = 258989
 		}
 		create_pop = {
 			culture = cerunite
-			size = 100989
+			size = 50989
 		}
 		create_pop = {
 			culture = mousefolk
-			size = 50307
+			size = 40307
 		}
 	}
   }
@@ -767,7 +777,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
 	
 
-	region_state:MID = {
+	region_state:GCS = {
 		create_pop = {
 			culture = coast_halfling 
 			size = 202197
@@ -846,15 +856,15 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:WHI = {
 		create_pop = {
 			culture = mousefolk
-			size = 1944404
+			size = 5444404
 		}
 		create_pop = {
 			culture = coast_halfling
-			size = 20004
+			size = 100299
 		}
 		create_pop = {
 			culture = wealder
-			size = 180000
+			size = 201113
 		}
 	}
   }
@@ -863,11 +873,11 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:PRI = {
 		create_pop = {
 			culture = wealder
-			size = 2213992
+			size = 1813992
 		}
 		create_pop = {
 			culture = mousefolk
-			size = 321996
+			size = 421996
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -1163,7 +1173,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:PRI = { # 
 		create_pop = {
 			culture = wealder
-			size = 533476
+			size = 933476
 		}
 		create_pop = {
 			culture = dorite 
@@ -1782,7 +1792,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:AHO = {
 		create_pop = {
 			culture = achonian
-			size = 12000
+			size = 26000
 		}
 		create_pop = {
 			culture = changeling
@@ -1895,11 +1905,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:WHI = {
 		create_pop = {
 			culture = mousefolk
-			size = 1740004
+			size = 1540004
 		}
 		create_pop = {
 			culture = dorite
-			size = 28000
+			size = 58000
 		}
 		create_pop = {
 			culture = bossardi
@@ -1907,7 +1917,7 @@ s:STATE_FAR_SHORE_2 = {
 		}
 		create_pop = {
 			culture = wealder
-			size = 136000
+			size = 236000
 		}
 	}
 	region_state:ASW = {

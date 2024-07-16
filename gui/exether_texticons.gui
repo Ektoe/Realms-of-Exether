@@ -209,3 +209,12 @@ texticon = {
     fontsize = 82
   }
 }
+
+texticon = {
+  icon = veil
+  iconsize = {
+    offset = { 0 22 }
+    texture = "gfx/interface/icons/topbar/veil_icon.dds"
+    fontsize = 82
+  }
+}

@@ -41,7 +41,6 @@ s:STATE_BHAVANASARA = {
 		owned_provinces = { "x79A8F1" "x81C5B6" "xA2C6C5" "xA3C1E3" "xA683E5" "xB097AE" "xB8FEBD" "xBCB981" "xCEF3FD" "xD6F7BF" "xF04FD2" }
 }
 add_homeland = cu:awakened
-add_homeland = cu:navrozdok
 }
 
 s:STATE_SUKHODAYA = {
@@ -267,6 +266,7 @@ s:STATE_NYINGMAWASKAHIKAN = {
 		owned_provinces = { "x39FDE1" "x43EDE3" "x56F5FB" "x5DF3FB" "xA3F5A9" "xC1F9F8" "xCC8DBD" "xCD60D5" "xCEE4DB" "xD1BCCC" "xE0F2E0" "xEB69C4" "xF842D7" "xF9ED22" }
 }
 add_homeland = cu:taiamican
+add_homeland = cu:vystemian
 }
 
 s:STATE_POTALANIPIY = {
@@ -283,6 +283,7 @@ s:STATE_GANDNI = {
 		owned_provinces = { "x71F4D2" "x7DEBAE" "x9992CC" "x9BC7A0" "xC88CB4" "xE1A7F1" "xE66ABB" "xF93FDD" "xFBB14A" }
 }
 add_homeland = cu:koquilla
+add_homeland = cu:vystemian
 }
 
 s:STATE_KHANGYO = {
@@ -291,6 +292,7 @@ s:STATE_KHANGYO = {
 		owned_provinces = { "x8AC3D6" "xC4C390" "xCBC2FA" "xCEECC0" "xD8E4C3" "xECA475" "xEE3CFD" "xF751C9" }
 }
 add_homeland = cu:koquilla
+add_homeland = cu:vystemian
 }
 
 s:STATE_TSURWA = {
@@ -315,6 +317,7 @@ s:STATE_SHIGATSENIPIY = {
 		owned_provinces = { "x5FC6F8" "x6ED7B5" "x8EE8D6" "xB586D3" "xBFDEB9" "xC7E993" "xCEA4D4" "xD5F5B3" "xE076D4" "xE4E863" "xECEE46" "xF0A069" "xF4D537" "xF98B8A" }
 }
 add_homeland = cu:koquilla
+add_homeland = cu:vystemian
 }
 
 s:STATE_GANDENASKIY = {
@@ -411,6 +414,7 @@ s:STATE_ZANPIQ = {
 		owned_provinces = { "x88E5D6" "xA0B4AB" "xA7D2E3" "xC259F2" "xC776E4" "xD3AAFB" "xD9FE4F" "xE526FC" "xF3B0D0" "xF47BD2" }
 }
 add_homeland = cu:navrozdok
+add_homeland = cu:vystemian
 }
 
 s:STATE_ELENIKAR = {

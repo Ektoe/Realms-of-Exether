@@ -43,3 +43,6 @@ nomadic={
 
 cloud_dwarf={
 }
+
+locari_settler={
+}
