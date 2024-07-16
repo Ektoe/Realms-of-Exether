@@ -120,6 +120,20 @@ EMP = {
 	capital = STATE_THE_AMBER_RUN
 }
 
+
+#Darvak
+DAR = {
+	color = hsv360{ 173  255  41 }
+
+	country_type = recognized 
+
+	tier = kingdom
+
+	cultures = { yelfi } 
+	capital = STATE_MOUNT_YELFIS
+}
+
+
 #Lisinia
 LIS = {
 	color = rgb{ 120  200  100 } 
