@@ -725,6 +725,11 @@ onghori={
 	color= rgb{ 233 207 84 }
 	religion = lords_of_avarice
 	traits = { kharai_oni_culture_group ogre_heritage }
+
+	obsessions = {
+		luxury_potions
+	}
+
 	male_common_first_names={
 		Changlin
 		Deng
