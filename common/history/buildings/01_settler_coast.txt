@@ -1,4 +1,4 @@
-﻿BUILDINGS = {
+BUILDINGS = {
 #Settlers Coast Ownership is fixed, forgot to put a note here.
   s:STATE_SHARINDLARS_NEEDLE = {
 		  region_state:EME={  
@@ -493,7 +493,19 @@
                                }
                             }
 			reserves=1
-			activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" }
+			activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" }
+		}
+		create_building = {
+			building = "building_distillery"
+			add_ownership = {
+				building={ 
+                    type="building_financial_district"
+                    country="c:CER"
+                    levels=1
+                    region="STATE_LANDING_AT_SEA"
+				}
+			}
+			reserves = 1
 		}
 			create_building={
 			building="building_wheat_farm"
@@ -557,7 +569,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" }
+			activate_production_methods={"pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" }
 		}
                         create_building={
 			building="building_government_administration"
@@ -1070,7 +1082,19 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" }
+			activate_production_methods={"pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" }
+		}
+		create_building = {
+			building = "building_distillery"
+			add_ownership = {
+				building={ 
+                    type="building_financial_district"
+                    country="c:CER"
+                    levels=1
+                    region="STATE_LANDING_AT_SEA"
+                }
+			}
+			reserves = 1
 		}
 			create_building={
 			building="building_rye_farm"
@@ -1915,7 +1939,17 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" "pm_pot_stills" }
+			activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" }
+		}
+		create_building = {
+			building = "building_distillery"
+			add_ownership = {
+				type="building_financial_district"
+                country="c:SMA"
+                levels=1
+                region="STATE_OUTER_MOORWEALD"
+			}
+			reserves = 1
 		}
             create_building={
 			building="building_arms_industry"
@@ -2485,7 +2519,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing" "pm_pot_stills" }
+			activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing"}
 		}			
 			create_building={
 			building="building_wheat_farm"
@@ -2693,7 +2727,19 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" "pm_pot_stills" }
+				activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing"}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:KRC"
+                        levels=3
+                        region="STATE_MISTREACH"
+                   }
+                }
+				reserves = 1
 			}
             create_building={
 				building="building_logging_camp"
@@ -5349,7 +5395,19 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" "pm_pot_stills" }
+			activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing"}
+		}
+		create_building = {
+			building = "building_distillery"
+			add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:DAR"
+                        levels=2
+                        region="STATE_MOUNT_YELFIS"
+                   }
+                }
+			reserves=1
 		}
 		create_building={
 			building="building_furniture_manufacturies"
@@ -5698,7 +5756,19 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" "pm_pot_stills" }
+			activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" }
+		}
+		create_building = {
+			building = "building_distillery"
+			add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:VOZ"
+                        levels=1
+                        region="STATE_GRAVELROCK_ROAD"
+                   }
+                }
+			reserves=1
 		}
             create_building={
 			building="building_paper_mills"

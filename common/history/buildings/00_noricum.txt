@@ -243,7 +243,20 @@
             }
           }  
           reserves=1
-          activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
+          activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing" }
+        }
+        create_building = {
+          building = "building_distillery"
+          add_ownership={
+            building={
+              type="building_financial_district"
+              country="c:DUM"
+              levels=1
+              region="STATE_SERONTAIN"
+              }
+            }
+          reserves = 1
+          activate_production_methods = {"pm_some_fruit" "pm_monster_grapes"}
         }
         create_building={
           building="building_arms_industry"
@@ -415,9 +428,22 @@
             }
           }  
           reserves=1
-          activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
+          activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_manual_dough_processing" }
         }
-            create_building={
+        create_building = {
+          building = "building_distillery"
+          add_ownership = {
+            building={
+              type="building_financial_district"
+              country="c:DUM"
+              levels=2
+              region="STATE_HIGHPASS"
+            }
+          }
+          reserves = 1
+          activate_production_methods = {"pm_some_fruit" "pm_monster_grapes"}
+        }                                
+        create_building={
           building="building_glassworks"
                 add_ownership={ 
                     building={ 
@@ -1971,8 +1997,19 @@
                    }
                 }
           reserves=1
-          activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
+          activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing" }
         }
+      create_building = {
+        building = "building_distillery"
+        add_ownership = {
+          building={ 
+            type="building_financial_district"
+            country="c:DUM"
+            levels=1
+            region="STATE_CROWNPEAK"
+          }
+        }
+      }  
 			create_building={
           building="building_rye_farm"
 				add_ownership={ 
