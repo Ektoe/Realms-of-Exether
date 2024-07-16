@@ -599,3 +599,136 @@ pm_complex_airships = {
 
 	required_input_goods = electricity
 }
+
+pm_no_spice = {
+	texture = "gfx/interface/icons/production_method_icons/no_canning.dds"
+}
+
+pm_monster_grapes = {
+	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
+
+	unlocking_technologies = {
+		alchemy	
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_monster_essence_add = 10	# x40 = 400
+
+			goods_output_liquor_add = 25			# x30 = 750
+		}
+		level_scaled = {
+			building_employment_wizards_add = 100
+		}
+	}
+}
+
+pm_added_spirits = {
+	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+
+	unlocking_technologies = {
+		alchemical_transmutation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_monster_essence_add = 15	# x40 = 600
+			goods_input_ectoplasm_add = 2			# x50 = 100
+
+			goods_output_liquor_add = 40			# x30 = 1200
+		}
+		level_scaled = {
+			building_employment_wizards_add = 200
+		}
+	}
+}
+
+pm_no_fruit = {
+	texture = "gfx/interface/icons/production_method_icons/no_orchards.dds"
+}
+
+pm_some_fruit = {
+	texture = "gfx/interface/icons/production_method_icons/orchards.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 5	# x30 = 150
+			goods_input_grain_add =	-10	# x20 = -200
+		}
+	}
+}
+
+pm_more_fruit = {
+	texture = "gfx/interface/icons/production_method_icons/orchards.dds"
+
+	unlocking_production_methods = {
+		pm_pot_stills
+		pm_patent_stills
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 10	# x30 = 300
+			goods_input_grain_add =	-10	# x20 = -200
+			goods_input_sugar_add = -5 	# x30 = -150
+		}
+	}
+}
+
+pm_mostly_fruit = {
+	texture = "gfx/interface/icons/production_method_icons/orchards.dds"
+
+	unlocking_production_methods = {
+		pm_patent_stills
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fruit_add = 25	# x30 = 750
+			goods_input_grain_add =	-20	# x20 = -400
+			goods_input_sugar_add = -15	# x30 = -450
+		}
+	}
+}
+
+pm_barrels = {
+	texture = "gfx/interface/icons/production_method_icons/dive_bar.dds"
+}
+
+pm_automated_bottlers = {
+	texture = "gfx/interface/icons/production_method_icons/automated_bottle_blowers.dds"
+
+	unlocking_production_methods = {
+		conveyors
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_glass_add = 5
+			goods_input_oil_add = 10
+
+		}
+		level_scaled = {
+			building_employment_laborers_add = -2500
+		}
+	}
+}
+
+pm_bottomless_bottles = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+
+	unlocking_production_methods = {
+		alchemical_transmutation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_glass_add = 5
+			goods_input_wishstone_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2500
+		}
+	}
+}

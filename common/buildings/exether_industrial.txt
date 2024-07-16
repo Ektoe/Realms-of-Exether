@@ -71,6 +71,26 @@ building_potion_distillery = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
+building_distillery = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/food_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		distillation
+	}
+
+	production_method_groups = {
+		pmg_distillery_base_grain
+		pmg_distillery_base_fruit
+		pmg_distillery_monster
+		pmg_distillery_container
+	}
+
+	required_construction = construction_cost_high
+}
+
 building_airshipyards = {
 	building_group = bg_airshipyards
 	texture = "gfx/interface/icons/building_icons/airship_assembly.dds"
