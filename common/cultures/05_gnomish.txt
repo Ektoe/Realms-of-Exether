@@ -497,6 +497,9 @@ waldgnomklaai={
 	color= rgb{ 3 141 72 }
 	religion = druidic
 	traits = {  wood_gnome gnome_heritage}
+	obsessions = {
+		entertainment
+	}
 	male_common_first_names={
 		Abraham
 		Adolf
@@ -748,6 +751,9 @@ stranfolk={
 	color= rgb{ 43 141 172 }
 	religion = elf_nature
 	traits = { wood_gnome gnome_heritage }
+	obsessions = {
+		entertainment
+	}
 	male_common_first_names={
 		Adolf
 		Adolphe
