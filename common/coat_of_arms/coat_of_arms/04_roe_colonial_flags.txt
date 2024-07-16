@@ -105,3 +105,59 @@ colonial_new_dumonia = {
 		instance = { scale = { 0.55 0.55 } position = { 0.75 0.5 } }				
 	}
 }
+
+colonial_dreamweaver_jungle = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_kanaga.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 0.55 0.55 } position = { 0.75 0.5 } }				
+	}
+}
+
+colonial_sarpakshetra = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_kanaga.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 0.55 0.55 } position = { 0.75 0.5 } }				
+	}
+}
+
+colonial_west_kailando = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_kanaga.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 0.55 0.55 } position = { 0.75 0.5 } }				
+	}
+}
+
+colonial_lacertia = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "yellow"
+	
+	colored_emblem = {
+		texture = "ce_kanaga.dds"
+		color1 = "black"
+		color2 = "black"
+		color3 = "black"
+		instance = { scale = { 0.55 0.55 } position = { 0.75 0.5 } }				
+	}
+}
