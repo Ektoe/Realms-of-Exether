@@ -1102,3 +1102,141 @@ pm_steam_donkey_building_wishstone_mine = {
 pm_road_carts = {
 	texture = "gfx/interface/icons/production_method_icons/no_rail_transport.dds"
 }
+
+#Game Hunting
+pm_trapping_teams = {
+	texture = "gfx/interface/icons/production_method_icons/spears.dds"
+	building_modifiers = {
+		unscaled = {
+			building_adventurers_mortality_mult = 0.25
+		}
+
+		workforce_scaled = {
+			goods_output_fabric_add = 40
+			goods_output_meat_add = 5
+		}
+		
+		level_scaled = {
+			building_employment_adventurers_add = 2000
+			building_employment_laborers_add = 3000
+		}
+	}
+}
+pm_hunting_parties = {
+	texture = "gfx/interface/icons/production_method_icons/rifles.dds"
+	unlocking_technologies = {
+		gunsmithing
+	}
+	building_modifiers = {
+		unscaled = {
+			building_adventurers_mortality_mult = 0.20
+		}
+
+		workforce_scaled = {
+			goods_input_small_arms_add = 5
+			goods_output_fabric_add = 75
+			goods_output_meat_add = 10
+		}
+		
+		level_scaled = {
+			building_employment_adventurers_add = 1500
+			building_employment_soldiers_add = 500
+			building_employment_laborers_add = 3000
+		}
+	}
+}
+pm_hunting_expeditions = {
+	texture = "gfx/interface/icons/production_method_icons/repeaters.dds"
+	unlocking_technologies = {
+		percussion_cap
+	}
+	building_modifiers = {
+		unscaled = {
+			building_adventurers_mortality_mult = 0.15
+		}
+
+		workforce_scaled = {
+			goods_input_small_arms_add = 5
+			goods_input_ammunition_add = 5
+			goods_output_fabric_add = 100
+			goods_output_meat_add = 20
+		}
+		
+		level_scaled = {
+			building_employment_adventurers_add = 1000
+			building_employment_soldiers_add = 1000
+			building_employment_laborers_add = 3000
+		}
+	}
+}
+pm_no_exotic = {
+	texture = "gfx/interface/icons/production_method_icons/no_home_workshops.dds"
+}
+pm_exotic_hides = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	unlocking_technologies = {
+	hunting_lodges
+	}
+	building_modifiers = {
+		unscaled = {
+			building_adventurers_mortality_mult = 0.05
+			building_soldiers_mortality_mult = 0.05
+		}
+
+		workforce_scaled = {
+			goods_output_meat_add = -5
+			goods_output_silk_add = 10
+		}
+	}
+}
+pm_essence_extraction = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	unlocking_technologies = {
+    hunting_lodges
+	}
+	building_modifiers = {
+		unscaled = {
+			building_adventurers_mortality_mult = 0.15
+			building_soldiers_mortality_mult = 0.1
+		}
+
+		workforce_scaled = {
+			goods_output_meat_add = -5
+			goods_output_monster_essence_add = 10
+		}
+	}
+}
+pm_no_game_hunting_potions = {
+	texture = "gfx/interface/icons/production_method_icons/NO_potion_sap.dds"
+}
+pm_basic_game_hunting_potions = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	unlocking_technologies = {
+    alchemy
+	}
+	building_modifiers = {
+		unscaled = {
+			building_throughput_add = 0.1
+			building_adventurers_mortality_mult = -0.05
+		}
+		workforce_scaled = {
+			goods_input_potions_add = 5
+		}
+	}
+}
+pm_wash_it_down = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	unlocking_technologies = {
+    alchemy
+	}
+	building_modifiers = {
+		unscaled = {
+			building_throughput_add = 0.25
+			building_adventurers_mortality_mult = -0.15
+		}
+		workforce_scaled = {
+			goods_input_potions_add = 15
+			goods_input_liquor_add = 20
+		}
+	}
+}
