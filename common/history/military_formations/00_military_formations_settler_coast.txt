@@ -1206,4 +1206,43 @@
 			}
 		}
 	}
+
+	c:RTD ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_plaguewood
+			name = Rotdrinkers
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EASTERN_PLAGUEWOOD_2
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EASTERN_PLAGUEWOOD
+				count = 25
+			}
+		}
+	}
+	c:BDB ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_plaguewood
+			name = RBloodbound
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_FORESTS_HEART_2
+				count = 25
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_PLAGUEWOOD_HINTERLANDS_2
+				count = 25
+			}
+		}
+	}
 }
