@@ -142,7 +142,7 @@
                     building={ 
                         type="building_adventuring_guild"
                         country="c:DUM"
-                        levels=2
+                        levels=3
                         region="STATE_CROWNPEAK"
                    }
                 }
@@ -449,7 +449,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:DUM"
-                        levels=6
+                        levels=3
                         region="STATE_CROWNPEAK"
                    }
                 }
@@ -475,7 +475,7 @@
             building={
               type="building_financial_district"
               country="c:DUM"
-              levels=6
+              levels=5
               region="STATE_HIGHPASS"
             }
           }
@@ -488,7 +488,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=5
+						levels=3
 						region="STATE_HIGHPASS"
 				   }
 				}
@@ -501,7 +501,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=1
+						levels=2
 						region="STATE_CALDAMUS"
 				   }
 				}
@@ -510,7 +510,7 @@
         }
         create_building={
           building="building_barracks"
-          level=10
+          level=7
           reserves=1
           activate_production_methods={ "pm_advanced_tactics_training" }
         }
@@ -590,7 +590,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=1
+						levels=3
 						region="STATE_GULFWATCH"
 				   }
 				}
@@ -673,7 +673,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=7
+						levels=8
 						region="STATE_SLUDGE_COAST"
 				   }
 				}
@@ -723,7 +723,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=1
+						levels=5
 						region="STATE_MERCHANT_BAY"
 				   }
 				}
@@ -736,7 +736,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=3
+						levels=4
 						region="STATE_MERCHANT_BAY"
 				   }
 				}
@@ -749,7 +749,7 @@
                     building={ 
                         type="building_adventuring_guild"
                         country="c:DUM"
-                        levels=2
+                        levels=3
                         region="STATE_SLUDGE_COAST"
                    }
                 }
@@ -758,7 +758,7 @@
         }
         create_building={
           building="building_port"
-          level=1
+          level=2
           reserves=1
           activate_production_methods={ "pm_basic_port" }
         }
@@ -942,19 +942,32 @@
 				reserves=1
 				activate_production_methods={ "pm_iron_frame_buildings" }
 			}				
-      create_building={
+        create_building={
 				building="building_rice_farm"
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=47
+						levels=29
 						region="STATE_TAR_PITS"
 				   }
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
 			}
+          create_building={
+          building="building_food_industry"
+          add_ownership={ 
+             building={ 
+              type="building_financial_district"
+              country="c:DUM"
+              levels=3
+              region="STATE_CROWNPEAK"
+                   }
+                }
+          reserves=1
+          activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
+        }
 		}
 
 	}
@@ -2067,7 +2080,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:DUM"
-                        levels=2
+                        levels=3
                         region="STATE_MERCHANT_BAY"
                    }
                 }
