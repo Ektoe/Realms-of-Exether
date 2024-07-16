@@ -550,16 +550,12 @@
 
         weight = {
             base = 0
-            modifier = {
-                add = 1000
-                scope:character ?= {
-                    is_ruler = yes
-                    owner ?= {
-                        c:CHI ?= this
-                        has_law = law_type:law_monarchy
-                    }
-                }
-            }
+#            modifier = {
+#                add = 1000
+#                scope:character ?= {
+#                    is_ruler = yes
+#                }
+#            }
         }
     }
 

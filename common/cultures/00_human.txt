@@ -2339,7 +2339,7 @@ astreval={
 anwarthi={
 	color={ 255 156 156 }
 	religion = mortals_burden
-	traits = { human_heritage }
+	traits = { west_zalar_culture_group human_heritage }
 	male_common_first_names = {
 		Aho
 		Aram
@@ -3671,7 +3671,7 @@ zemvelo={
 bakibi={
 	color= hsv{ 0.28 0.59 0.64 }
 	religion = animist
-	traits = { human_heritage }
+	traits = { kailan_culture_group human_heritage }
 	male_common_first_names={
 		Chekandino
 		Chikumbu
@@ -4233,7 +4233,7 @@ south_sea_ravager={
 nivaskyan={
 	color= hsv{ 0.67 0 0.67 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names={
 		Ervko
 		Igney
@@ -4340,7 +4340,7 @@ nivaskyan={
 varyngi={
 	color= hsv{ 0.47 0.2 0.67 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names={
 		Ervko
 		Igney

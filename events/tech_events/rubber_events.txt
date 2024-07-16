@@ -24,7 +24,6 @@
 	trigger = {
 		has_potential_resource = bg_rubber
 		NOT = { has_modifier = state_rubber_modifier }
-		NOT = { region = sr:region_brazil }
 		state_region = {
 			remaining_undepleted = {
 				type = bg_rubber
