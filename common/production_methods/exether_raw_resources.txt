@@ -1236,7 +1236,7 @@ pm_wash_it_down = {
 			building_adventurers_mortality_mult = -0.15
 		}
 		workforce_scaled = {
-			goods_input_potions_add = 5
+			goods_input_potions_add = 15
 		}
 	}
 }
