@@ -296,6 +296,18 @@ SMA = {
 	capital = STATE_OUTER_MOORWEALD
 }
 
+#Gladshire
+GDS = {
+	color = rgb{ 255  121  0 } 
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { rivierling coast_halfling } 
+	capital = STATE_PENDYM_GWYN
+}
+
 #Mimic Demesne
 MMD = {
 	color = rgb{ 100  0  100 } 
