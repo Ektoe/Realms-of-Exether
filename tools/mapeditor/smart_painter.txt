@@ -355,8 +355,8 @@
 						pattern=3
 						curve=0
 						angle_l=0.000000
-						angle_r=105.000000
-						bleeding=4
+						angle_r=91.000000
+						bleeding=40
 						density=5
 						opacity_curve={
 							type="Linear"
@@ -369,7 +369,7 @@
 							Name=""
 							Materials={
 								Material={
-									MaterialId="permafrost_01"
+									MaterialId="grasslands_07"
 									Value=255
 								}
 							}
@@ -397,7 +397,7 @@
 							Name=""
 							Materials={
 								Material={
-									MaterialId="farmlands_05"
+									MaterialId="cliff_granite_07"
 									Value=255
 								}
 							}
@@ -410,9 +410,9 @@
 						name="New Pattern"
 						pattern=3
 						curve=0
-						angle_l=85.000000
-						angle_r=95.000000
-						bleeding=3
+						angle_l=87.000000
+						angle_r=89.000000
+						bleeding=4
 						density=4
 						opacity_curve={
 							type="Linear"
@@ -425,7 +425,7 @@
 							Name=""
 							Materials={
 								Material={
-									MaterialId="grasslands_07"
+									MaterialId="permafrost_01"
 									Value=255
 								}
 							}
@@ -935,7 +935,7 @@
 						pattern=3
 						curve=0
 						angle_l=0.000000
-						angle_r=89.000000
+						angle_r=90.000000
 						bleeding=4
 						density=4
 						opacity_curve={
@@ -2328,6 +2328,6 @@
 			}
 		}
 	}
-	CurrentPreset=13
+	CurrentPreset=2
 	Autosave=yes
 }
