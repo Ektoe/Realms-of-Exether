@@ -490,7 +490,7 @@ lumvareth = {
 		Nurmivaara
 		Valapuro
 	}
-	graphics = african
+	graphics = european
 	ethnicities = {
 		1 = elf_wood
 	}
