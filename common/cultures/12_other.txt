@@ -6,7 +6,7 @@
 		tea
 	}
 	
-	traits = { namkhazen_heritage }
+	traits = { locari_culture_group namkhazen_heritage }
 	male_common_first_names={
 		Andruk
 		Chamba
@@ -50,7 +50,7 @@
 taiamican ={
 	color= hsv { 0.272 0.75 0.54 }
 	religion = opened_eye
-	traits = { namkhazen_heritage }
+	traits = { locari_culture_group namkhazen_heritage }
 	male_common_first_names={
 		Alizu Attun Suniuo Baqah Bokeh Kilash Maraos Mona Paelabang Pelin Rapongan Sorong Tahas Taiban Uyongu Walis WaLiSsu Yohani YuKan Yungai Toril Botel Tawu Kanas Difang
 	}
@@ -124,7 +124,7 @@ koquilla={
 navrozdok = {
 	color= hsv{ 0.08 0.28 0.61 }
 	religion = opened_eye
-	traits = { namkhazen_heritage }
+	traits = { locari_culture_group namkhazen_heritage }
 	male_common_first_names={
 		Bennelong
 		Billibellary
@@ -187,7 +187,7 @@ navrozdok = {
 east_lacertian={
 	color= hsv{ 0.97 0.37 0.52 }
 	religion = animist
-	traits = { lizardfolk_heritage }
+	traits = { east_zalar_culture_group lizardfolk_heritage }
 	male_common_first_names={
 		Kakenya
 		Kimnyole
@@ -226,7 +226,7 @@ east_lacertian={
 lacertian={
 	color= hsv{ 0.50 0.36 0.80 }
 	religion = animist
-	traits = { lizardfolk_heritage }
+	traits = { fahavalan_culture_group lizardfolk_heritage }
 	obsessions = {
 		meat
 	}
@@ -275,7 +275,7 @@ lacertian={
 kailando_lacertian={
 	color= hsv{ 0.97 0.58 0.72 }
 	religion = animist
-	traits = { lizardfolk_heritage }
+	traits = { kailan_culture_group lizardfolk_heritage }
 	male_common_first_names={
 		Dukuzumuremyi
 		Gahiji
@@ -725,6 +725,11 @@ onghori={
 	color= rgb{ 233 207 84 }
 	religion = lords_of_avarice
 	traits = { kharai_oni_culture_group ogre_heritage }
+
+	obsessions = {
+		luxury_potions
+	}
+
 	male_common_first_names={
 		Changlin
 		Deng

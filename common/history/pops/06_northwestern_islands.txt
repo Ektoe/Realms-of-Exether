@@ -520,22 +520,11 @@
 			}
 		}
 	}
-	s:STATE_HADRIA = {
-		region_state:KVA = {
-			create_pop = {
-				culture = kotskarvi
-				size = 411090
-			}
-			create_pop = {
-				culture = vairian
-				size = 25000
-			}
-			create_pop = {
-				culture = ravikian
-				size = 10000
-			}
-		}
-	}
+	# s:STATE_HADRIA = {
+	# 	region_state:KVA = {
+
+	# 	}
+	# }
 	s:STATE_ZARTHOS = {
 		region_state:DIS = {
 			create_pop = {
@@ -577,7 +566,15 @@
 		region_state:KVA = {
 			create_pop = {
 				culture = kotskarvi
-				size = 302750
+				size = 711090
+			}
+			create_pop = {
+				culture = vairian
+				size = 35000
+			}
+			create_pop = {
+				culture = ravikian
+				size = 15000
 			}
 		}
 	}
@@ -699,11 +696,11 @@
 			}
 			create_pop = {
 				culture = blacktalon
-				size 7500
+				size = 7500
 			}
 			create_pop = {
 				culture = garagoz
-				size 8200
+				size = 8200
 			}
 		}
 	}
@@ -773,7 +770,7 @@
 			}
 			create_pop = {
 				culture = blacktalon
-				size 15000
+				size = 15000
 			}
 		}
 	}

@@ -1,7 +1,7 @@
 ﻿building_rice_farm_leechgardens = {
 	building_group = bg_rice_farms_leechgardens
 	
-	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
+	texture = "gfx/interface/icons/building_icons/leeches.dds"
 
 	city_type = farm
 	levels_per_mesh = 5

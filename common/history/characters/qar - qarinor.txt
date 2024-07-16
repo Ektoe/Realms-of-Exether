@@ -7,7 +7,7 @@
 			ruler = yes
 			age = 35
 			interest_group = ig_landowners
-			ideology = ideology_tradtionalist
+			ideology = ideology_traditionalist
 			traits = {
 				tactful
 			}
@@ -19,7 +19,7 @@
 			heir = yes
 			age = 4
 			interest_group = ig_landowners
-			ideology = ideology_tradtionalist
+			ideology = ideology_traditionalist
 			traits = {
 				trait_child
 			}

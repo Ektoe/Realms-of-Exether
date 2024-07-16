@@ -1,22 +1,16 @@
-﻿pm_traditional_adventuring = {
-	texture = "gfx/interface/icons/production_method_icons/traditional_adventuring.dds"
+﻿pm_watering_hole = {
+	texture = "gfx/interface/icons/production_method_icons/watering_hole.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_small_arms_add = 10 
-			goods_output_trinkets_add = 2
-		}
-	}
-
-	state_modifiers = {
-		workforce_scaled = {
-			state_adventurer_coverage_add = 10
+			goods_input_liquor_add = 3
+			goods_output_entertainment_add = 5
 		}
 	}
 }
 
-pm_pest_control = {
-	texture = "gfx/interface/icons/production_method_icons/realist_art.dds"
+pm_dive_bar = {
+	texture = "gfx/interface/icons/production_method_icons/dive_bar.dds"
 
 	unlocking_technologies = {
 		monster_hunters
@@ -24,21 +18,15 @@ pm_pest_control = {
 
 	building_modifiers = {
 
-		workforce_scaled = { # 550 profit
-			goods_input_small_arms_add = 15 # 450
-			goods_output_trinkets_add = 4 # 1000
-		}
-	}
-
-	state_modifiers = {
-		workforce_scaled = {
-			state_adventurer_coverage_add = 15
+		workforce_scaled = { 
+			goods_input_liquor_add = 5
+			goods_output_entertainment_add = 12
 		}
 	}
 }
 
-pm_questing_brigades = {
-	texture = "gfx/interface/icons/production_method_icons/photographic_art.dds"
+pm_wine_bar = {
+	texture = "gfx/interface/icons/production_method_icons/wine_bar.dds"
 
 	unlocking_technologies = {
 		hero_worship
@@ -46,23 +34,18 @@ pm_questing_brigades = {
 
 	building_modifiers = {
 
-		workforce_scaled = { # 630 profit
-			goods_input_small_arms_add = 15 # 450
-			goods_input_tools_add = 8 # 320
+		workforce_scaled = { 
+			goods_input_liquor_add = 5
+			goods_input_wine_add = 3
 
-			goods_output_trinkets_add = 5 # 1400
+			goods_output_entertainment_add = 20
 		}
 	}
 
-	state_modifiers = {
-		workforce_scaled = {
-			state_adventurer_coverage_add = 20
-		}
-	}
 }
 
-pm_glory_seekers = {
-	texture = "gfx/interface/icons/production_method_icons/film_art.dds"
+pm_fantastic_cocktails = {
+	texture = "gfx/interface/icons/production_method_icons/cocktail_bar.dds"
 
 	unlocking_technologies = {
 		hero_worship
@@ -71,21 +54,13 @@ pm_glory_seekers = {
 	building_modifiers = {
 
 		workforce_scaled = { # 690 profit
-			goods_input_tools_add = 10 # 400
-			goods_input_small_arms_add = 15 # 450
-			goods_input_electricity_add = 2 # 60
+			goods_input_liquor_add = 5 # 400
+			goods_input_wine_add = 5 # 450
+			goods_input_luxury_potions_add = 2 # 60
 
-			goods_output_trinkets_add = 7 # 1600
+			goods_output_entertainment_add = 30 # 1600
 		}
 	}
-
-	state_modifiers = {
-		workforce_scaled = {
-			state_adventurer_coverage_add = 25
-		}
-	}
-
-	required_input_goods = electricity
 }
 
 pm_traditional_sponsorship = {
@@ -98,15 +73,9 @@ pm_traditional_sponsorship = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_aristocrats_add = 100
-			building_employment_adventurers_add = 900
+			building_employment_adventurers_add = 1000
 			building_employment_clerks_add = 3000
 			building_employment_laborers_add = 1000
-		}
-
-		unscaled = {
-			building_aristocrats_shares_add = 10
-			building_adventurers_shares_add = 2
 		}
 	}
 }
@@ -125,15 +94,9 @@ pm_private_sponsorship = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_capitalists_add = 100
-			building_employment_adventurers_add = 900
-			building_employment_clerks_add = 3000
+			building_employment_adventurers_add = 1500
+			building_employment_clerks_add = 2500
 			building_employment_laborers_add = 1000
-		}
-
-		unscaled = {
-			building_capitalists_shares_add = 10
-			building_adventurers_shares_add = 2
 		}
 	}
 }
@@ -151,70 +114,66 @@ pm_independent_adventurers = {
 			building_employment_clerks_add = 2000
 			building_employment_laborers_add = 1000		
 		}
+	}
+}
+
+pm_no_trinkets = {
+	texture = "gfx/interface/icons/production_method_icons/no_trinkets.dds"
+}
+
+pm_trinkets = {
+	texture = "gfx/interface/icons/production_method_icons/trinkets.dds"
+
+	unlocking_technologies = {
+		organized_adventuring
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_small_arms_add = 2
+
+			goods_output_trinkets_add = 5
+		}
 
 		unscaled = {
-			building_adventurers_shares_add = 10
-			building_clerks_shares_add = 2
+			building_adventurers_mortality_mult = 0.1
+		}
+
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_adventurer_coverage_add = 5
 		}
 	}
 }
 
-pm_trophy_hunting = {
-	texture = "gfx/interface/icons/production_method_icons/trophy_hunting.dds"
+pm_increased_trinkets = {
+	texture = "gfx/interface/icons/production_method_icons/increased_trinkets.dds"
+
+	unlocking_technologies = {
+		organized_adventuring
+	}
+
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_monster_essence_add = 5
+			# input goods
+			goods_input_small_arms_add = 4
+
+			goods_output_trinkets_add = 12
 		}
 
 		unscaled = {
 			building_adventurers_mortality_mult = 0.1
 		}
 	}
-}
 
-pm_community_service = {
-	texture = "gfx/interface/icons/production_method_icons/community_service.dds"
-
-	unlocking_technologies = {
-		
-	}
-
-	building_modifiers = {
+	state_modifiers = {
 		workforce_scaled = {
-			goods_output_services_add = 5
-		}
-
-		level_scaled = {
-			building_employment_shopkeepers_add = 100
-			building_employment_clerks_add = 200
-			building_employment_laborers_add = -500
-		}
-	}
-}
-
-pm_objects_of_power = {
-	texture = "gfx/interface/icons/production_method_icons/public_motor_carriages.dds"
-
-	unlocking_technologies = {
-		
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			goods_output_wishstone_add = 2
-		}
-
-		level_scaled = {
-			building_employment_engineers_add = 200
-			building_employment_machinists_add = 400
-			building_employment_laborers_add = -1000
-		}
-
-		unscaled = {
-			building_adventurers_mortality_mult = 0.3
-			building_machinists_mortality_mult = 0.2
-			building_engineers_mortality_mult = 0.1
+			state_adventurer_coverage_add = 5
 		}
 	}
 }
@@ -249,7 +208,7 @@ pm_basic_port_airship = {
 	
 	building_modifiers = {
 		workforce_scaled = {	
-			goods_input_clippers_add = 5
+			goods_input_airships_add = 5
 			goods_input_cloudsilver_add = 5
 		}
 		level_scaled = {
@@ -280,7 +239,7 @@ pm_industrial_port_airship = {
 
 	building_modifiers = {
 		workforce_scaled = {	
-			goods_input_steamers_add = 5
+			goods_input_airships_add = 5
 			goods_input_cloudsilver_add = 10
 		}
 		level_scaled = {
@@ -293,7 +252,7 @@ pm_industrial_port_airship = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_convoys_capacity_add = 175
+			country_convoys_capacity_add = 200
 		}
 	}
 	state_modifiers = {
@@ -303,7 +262,7 @@ pm_industrial_port_airship = {
 	}	
 }
 
-pm_modern_port_airship = {
+#pm_modern_port_airship = {
 	texture = "gfx/interface/icons/production_method_icons/modern_port.dds"
 	unlocking_technologies = {
 		concrete_dockyards
@@ -312,7 +271,7 @@ pm_modern_port_airship = {
 	building_modifiers = {
 		workforce_scaled = {	
 			goods_input_cloudsilver_add = 10
-			goods_input_steamers_add = 5	
+			goods_input_skycruisers_add = 5	
 			goods_input_oil_add = 5
 		}
 		level_scaled = {
@@ -344,7 +303,7 @@ pm_magocrats = {
 	
 	building_modifiers = {
 		level_scaled = {
-			building_employment_hedge_wizards_add = 250
+			building_employment_wizards_add = 250
 			building_employment_bureaucrats_add = 250
 		}
 	}			

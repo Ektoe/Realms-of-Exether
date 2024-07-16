@@ -10,7 +10,7 @@
   waste_walker: "Waste Walker"
   vairian: "Vairian"
   achonian: "Achonite"
-  ceraunian: "Ceraunian"
+  cerunite: "Cerunite"
   kusichaki: "Kusichaki"
   dunaq: "Dunaq"
   morastlinge: "Morastlinge"
@@ -41,6 +41,7 @@
   south_sea_ravager: "South Sea Ravager"
   whiali: "Whiali"
   enelli: "Enelli"
+  vystemian: "Vystemian"
   #Gnome
   ravikian: "Raviki"
   florishnom: "Florishnom"
@@ -96,6 +97,7 @@
   yachaymanchi: "Yachaymanchi"
   vandori: "Vandori"
   changeling: "Changeling"
+  jazamandroso: "Jazamandroso"
   #Orc
   rahoru: "Rahoru"
   tqalt: "Tqalt"

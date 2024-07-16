@@ -130,7 +130,132 @@
 dumonian={
 	color={ 72 79 127 }
 	religion = church_of_man
-	traits = { human_heritage }
+	obsessions = {
+		wine
+	}
+	traits = { noric_culture_group human_heritage }
+	
+	male_common_first_names = {
+		Alexander Alasdair Archibald Andrew Angus Asher Auckland Arthur Aeneas Adam Alan
+		Benjamin
+		Christopher Charles
+		Dugald Daniel Duncan David Donald
+		Ewart Edward Eric
+		Frederick
+		George Gordon Graeme Gilbert
+		Humphrey Harley Herbert Hugh Harvey
+		Ivar Iain
+		John James
+		Lawrence Lauderdale Lewis
+		Malcolm Matthew Magnus
+		Niall Norman Neil
+		Philip Patrick Peter
+		Roderick Ralph Robert Ruaridh
+		Struan Samuel
+		Thomas Theodore_2 Torquil
+		Windham William
+	}
+	female_common_first_names = {
+		Ann Alexandra Alexandrina Agnes Alice Alma Arabella Annot Alice Amelia Aiofe Alison
+		Barbara
+		Clare Christina Charlotte Cecilia Constance Carolina
+		Dorothea Dinah
+		Eva Elsie Emily Elizabeth Edith Ella Ethel Eilidh Evelyn
+		Flora Frances Florence
+		Grace Grizel Georgina
+		Helen Harriet
+		Isabella Ida
+		Jane Jacobina Jemima
+		Katherine
+		Louisa Lydia
+		Matilda Mary Margaret Marion Martha Millicent Marjorie Mabel Monica
+		Niamh
+		Rachel Rose Rosaline
+		Susan Sarah Sophie
+		Victoria
+	}
+	noble_last_names = {
+		Anstruther Abercromby Arbuthnott Agnew Aikenhead Allardice Anderson Armstrong Auchinleck
+		Balfour Baillie Borthwick Baird Balfour Bannatyne Bannerman Bethune Beveridge Binning Blackadder Blackstock Brisbane Broun Byses Bowes-Lyon
+		Crichton-Stuart Crum-Ewing Campbell-Bannerman Colquhoun Cairns Calder Caldwell Callender Cameron Carmichael Carnegie Carruthers Clephane Congilton Cranstoun
+		Dalrymple-Hay Darroch Dalmahoy Dalziel Davidson Dennistoun Dewar Duncan Dundas Dunlop Durie Douglas-Home
+		Edmonstone Eliott Elphinstone Erskine Ewing
+		Ferguson-Davie Fairlie Falconer Farquharson Fenton Fergusson Fleming Fletcher Forbes Forrester Forsyth Fotheringham Fraser Fullarton
+		Gordon-Lennox Glencorse Galbraith Galloway Gardyne Gartshore Gayre Ged Graham Grant Gray Grierson Gunn Guthrie
+		Hamilton Hume-Campbell Haig Haldane Hannay Henderson Hogarth Hope
+		Innes Irvine Irving
+		Jardine Johnstone
+		Keith Kennedy Kerr Kincaid Kinloch Kinnaird
+		Lamont Leask Lennox Leslie Lindsay Lockhart Lumsden Livingstone
+		Mure-Campbell Montgomery-Cuninghame Moncreiffe Mackenzie Montagu-Scott MacDonell MacGregor McAlpin MacAlester McBain MacDougall MacDonald MacIntyre Mackay MacKenzie Mackinnon Maclachlan MacLaine MacLaren MacLennan MacLeod MacMillan Macnab Macnaghten MacNeil Macpherson MacTavish MacThomas Maitland Makgill McCallum Matheson Moncreiffe Moffat Morrison Murray Munro Maule
+		Napier Nesbitt
+		Orr-Ewing Ogilvy Oliphant
+		Paterson Primrose Pringle
+		Ramsay Robertson Rattray Riddell Rollo Ruthven
+		Stuart Swinton Scott Sempill Shaw Sinclair Skene Spens Strange Sutherland Sybil
+		Trotter
+		Urquhart
+		Wallace Wedderburn Wemyss Wood
+	}
+	common_last_names = {
+		Allan Aitken Annandale Arnott Asher Adamson Almon Aitchison Abercrombie
+		Baird Baildon Barnes Bell Blair Brown Bruce Burn Burt Brogan Barbour Bonnar Black Bryce Burnet Baikie Ballingall Ballantyne Barclay Beatson Begbie Boyd Bovell Bramwell Brunton Brightwen Beugo
+		Clark Connor Craig Cleghorn Carmichael Carruthers Chalmers Clerk Cowie Crichton Chesser Campbell Corson Cousin Cadell Cantlie Carne-Ross Carson Chapman Cheyne Chisholm Christie Christison Clark Clouston Cockburn Coghill Coldstream Collie Colledge Combe Copland Cormack Crawfurd Cream Cumin Cunningham
+		Davidson Drummond Dickson Dixon Dyer Deas Dewar Dickie Dickson Douglas Doyle Dudeon Dumbreck Dunbar Dunlop Dunsmure Dyce
+		Ennis Ewing Edington Edmondston Elmslie
+		Foggo Fairbairn Fairlie Fenton Fraiser Fulton Farquharson Ferusson Fyfe Fellowes Faulds Ferrier Finlay Finlayson Fleming Flett Forbes
+		Glenie Graham Gray Gildard Gowans Gregan Gairdner Gibson Gilchrist Gillespie Goodsir Graham Grant Greig Grieve Gunn Guy
+		Hastie Holmes Haldane Higgins Hamilton Hay Henderson Handyside Halliday Hare Harley Hepburn Hume Hunter Hutchison
+		Imlach Inglis Irving
+		Jackson Jameson Jamieson Johnston
+		Kennedy Kirk Keppie Kerr Kinnear Keith Kalley Keiller
+		Lambie Lessels Lorimer Lovi Lugar Lauder Liddell Lindsay Littlejohn Lochead
+		Maclae Manson McIntosh MacLaren MacNair Matheson McLachlan McRae Morham Murdoch MacAlister Macartney Macaulay Macdonald Macewen Macfie MacGillivray MacGregor Machlan Macintyre Mackay Mackenzie Mackie Mackinnon MacKintosh Maclagan MacLaurin Maclean Macleod Macnish MacPhail Main Mair Manson Marshall McAldowie McGill McGrigor McKellar McKendrick McNab McNeill McVail McWilliam Millar Milroy Mitchell Moir Monro Montgomery Moorhead Morison Muir Murchison Mouat Maule
+		Newlands Nicholson Nasmuth Neale Nisbet Niven
+		Oswald Oudney Oliphant
+		Parker Paterson Paton Peddie Pilkington Pagan Pettigrew Philip Pirie Pitcairn Poole Prentice Pringle
+		Ross Raeburn Rhind Robertson Rochead Riddell Rae Reid Ritchie Roberton Robson Russell Rutherford
+		Speirs Smellie Stirling Sturrock Swanwick Sellars Simpson Smith Souttar Stevenson Saunders Seller Shaw Shepherd Shortt Sibbald Skae Skirving Smart Somerville Spittal Steell Stewart Struthers Sutherland Selkirk
+		Thom Tosh Tait Talbert Taylor Thomson Tod Todd Towers Traill Trotter Tweedie Traquair
+		Urie Underhill Ure Usher
+		Wilson Walker Watson Wardrop Wise Wood Wright Whigham
+		Young
+	}
+	male_regal_first_names={
+		Benedict
+		Charles Constantine
+		David
+		James
+		Robert
+		Walter William
+	}
+	female_regal_first_names={
+		Anne Annabella
+		Elizabeth Euphemia
+		Henrietta
+		Joan Janet
+		Mary
+	}
+	regal_last_names={
+		of_Austria-Este
+		FitzJames FitzClarence
+		of_Galloway
+		Stewart
+	}	
+	
+	ethnicities = {
+		1 = caucasian
+	}
+	graphics = european
+}
+
+vystemian={
+	color={ 72 79 127 }
+	religion = cult_of_the_sun
+	obsessions = {
+		wine
+	}
+	traits = { locari_settler noric_culture_group human_heritage }
 	
 	male_common_first_names = {
 		Alexander Alasdair Archibald Andrew Angus Asher Auckland Arthur Aeneas Adam Alan
@@ -249,7 +374,7 @@ dumonian={
 gelidrumin={
 	color= hsv{ 0.22 0.22 0.45 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names={
 		Albert
 		Alexander
@@ -456,7 +581,7 @@ gelidrumin={
 ralaurian={
 	color= hsv{ 0.32 0.27 0.32 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names={
 		Anderson
 		Anselm
@@ -560,7 +685,7 @@ ralaurian={
 dewaric={
 	color= rgb{ 135 206 235 } # Sky Blue
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names = {
 		Albert Alexander Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Alvin August Abraham Abel Abijah Alonzo Ansel Amos Absalom
 		Benjamin Bartholomew Byron Benedict Barnabas Bildad
@@ -685,7 +810,7 @@ dewaric={
 uplander={
 	color=rgb{ 204 154 91 } # Butternut
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names = {
 		Andrew Alexander Atticus Alpheus Alfred Allen Arthur Augustus Archibald Algernon Ambrose Asa Arthur Angus Abner Auburn Archer Adam Arnold Amos Alben Alwyn
 		Braxton Basil Birkett Bushrod Benedict
@@ -803,7 +928,7 @@ uplander={
 avalorean={
 	color= rgb{ 117 127 174 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group human_heritage }
 	
 	male_common_first_names={
 		Abraham Abel Arthur
@@ -895,7 +1020,7 @@ avalorean={
 whiali = {
 	color= hsv{ 0.82 0.51 0.75 }
 	religion = church_of_man
-	traits = { human_heritage vairia_culture_group }
+	traits = {vairia_culture_group human_heritage }
 	male_common_first_names={
 		Abel
 		Adriano
@@ -1084,7 +1209,7 @@ whiali = {
 vairian = {
 	color= hsv{ 0.52 0.51 0.75 }
 	religion = cult_of_the_sea
-	traits = { human_heritage vairia_culture_group }
+	traits = { vairia_culture_group human_heritage }
 	male_common_first_names={
 		Abel
 		Adriano
@@ -1739,7 +1864,7 @@ waste_walker = {
 ocelian = {
 	color= rgb{ 164 193 223 }
 	religion = church_of_man
-	traits = {  human_heritage }
+	traits = { settler_coast_culture_group human_heritage }
 
 	male_common_first_names={
 		August Adrian Antonin Avit AristO_tel Andrieu Arnaut AnfO_s Alexandre Agustin AlE_xi Armand
@@ -1803,7 +1928,7 @@ ocelian = {
 enelli = {
 	color= rgb{ 114 213 163 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = {settler_coast_culture_group human_heritage }
 
 	male_common_first_names={
 		August Adrian Antonin Avit AristO_tel Andrieu Arnaut AnfO_s Alexandre Agustin AlE_xi Armand
@@ -1978,9 +2103,9 @@ qinnaat={
 thiralian={
 	color= hsv{ 0.62 0.54 0.72 }
 	religion = rose_court
-	traits = {  human_heritage }
+	traits = { east_zalar_culture_group human_heritage }
 	obsessions = {
-		wine
+		luxury_clothes
 	}
 	male_common_first_names={
 		Amos Anatole Aaron Augustin Achille
@@ -2066,7 +2191,7 @@ thiralian={
 astreval={
 	color= hsv{ 0.53 0.21 0.29 }
 	religion = rose_court
-	traits = { human_heritage }
+	traits = { east_zalar_culture_group human_heritage }
 	male_common_first_names={
 		Alexis
 		Andre
@@ -2214,7 +2339,7 @@ astreval={
 anwarthi={
 	color={ 255 156 156 }
 	religion = mortals_burden
-	traits = {  human_heritage }
+	traits = { west_zalar_culture_group human_heritage }
 	male_common_first_names = {
 		Aho
 		Aram
@@ -2330,7 +2455,7 @@ anwarthi={
 zakonish={
 	color= hsv{ 0.63 0.17 0.5 }
 	religion = cult_of_war
-	traits = {  human_heritage }
+	traits = { everfrostern_culture_group human_heritage }
 	male_common_first_names={
 		Arnost
 		Alojs
@@ -2407,7 +2532,7 @@ zakonish={
 glethach={
 	color= hsv{ 0.33 0.10 0.74 }
 	religion = verglas_crown
-	traits = { human_heritage }
+	traits = { everfrostern_culture_group human_heritage }
 	male_common_first_names={
 		Kiras
 		Nerus
@@ -2458,7 +2583,7 @@ glethach={
 jalian={
 	color= hsv{ 0.61 0.55 0.38 }
 	religion = church_of_man
-	traits = {  human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names={
 		Adrian
 		Alf
@@ -2582,7 +2707,7 @@ jalian={
 meriwyn={
 	color= hsv{ 0.61 0.50 0.68 }
 	religion = church_of_man
-	traits = {  human_heritage }
+	traits = {noric_culture_group human_heritage }
 	male_common_first_names={
 		Alexander
 		Arthur
@@ -2758,7 +2883,7 @@ meriwyn={
 kusichaki={
 	color= hsv{ 0.10 0.22 0.69 }
 	religion = house_of_fate
-	traits = { human_heritage qiin_culture_group }
+	traits = { qiin_culture_group human_heritage }
 	male_common_first_names={
 		Agustin
 		Alejandro
@@ -2851,7 +2976,7 @@ kusichaki={
 dunaq={
 	color= hsv{ 0.10 0.3 0.29 }
 	religion = lords_of_avarice
-	traits = { human_heritage qiin_culture_group }
+	traits = {qiin_culture_group human_heritage }
 	male_common_first_names={
 		Agustin
 		Alejandro
@@ -2943,7 +3068,7 @@ dunaq={
 morastlinge={
 	color= rgb{ 102 178 255 }
 	religion = church_of_man
-	traits = { swampwalker_culture_group human_heritage }
+	traits = { west_zalar_culture_group swampwalker_culture_group human_heritage }
 	male_common_first_names={
 		Adelbert
 		Adolf
@@ -3180,7 +3305,7 @@ morastlinge={
 beithaven={
 	color= hsv{ 0.13 0.80 0.99 }
 	religion = church_of_man
-	traits = { human_heritage } 
+	traits = { west_zalar_culture_group human_heritage } 
 	male_common_first_names={
 		Abraham
 		Albert
@@ -3264,10 +3389,10 @@ beithaven={
 	graphics = european
 }
 
-ceraunian={
+cerunite={
 	color= hsv{ 0.72 0.25 0.28 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { settler_coast_culture_group noric_culture_group human_heritage  }
 	male_common_first_names={
 		Aadu
 		Alar
@@ -3486,7 +3611,7 @@ korafri={
 zemvelo={
 	color= hsv{ 0.60 0.38 0.51 }
 	religion = animist
-	traits = { human_heritage }
+	traits = { kailan_culture_group human_heritage }
 	obsessions = {
 		coffee
 	}
@@ -3546,7 +3671,7 @@ zemvelo={
 bakibi={
 	color= hsv{ 0.28 0.59 0.64 }
 	religion = animist
-	traits = { human_heritage }
+	traits = { kailan_culture_group human_heritage }
 	male_common_first_names={
 		Chekandino
 		Chikumbu
@@ -3747,7 +3872,7 @@ achonian={
 eberri={
 	color= hsv{ 0.70 0.26 0.58 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { settler_coast_culture_group human_heritage }
 	male_common_first_names={
 		Aleksandar
 		Andrey
@@ -3875,6 +4000,9 @@ dorite={
 	color= hsv{ 0.16 0.39 0.95 }
 	religion = church_of_man
 	traits = { settler_coast_culture_group human_heritage }
+	obsessions = {
+		luxury_potions
+	}
 	male_common_first_names={
 		Aimery
 		Alphonse
@@ -3968,7 +4096,7 @@ dorite={
 south_sea_ravager={
 	color= hsv { 0.9 0.4 0.47 }
 	religion = lords_of_avarice
-	traits = { human_heritage }
+	traits = {kailan_culture_group human_heritage }
 	male_common_first_names={
 		Alberto
 		Alejandro
@@ -4105,7 +4233,7 @@ south_sea_ravager={
 nivaskyan={
 	color= hsv{ 0.67 0 0.67 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names={
 		Ervko
 		Igney
@@ -4212,7 +4340,7 @@ nivaskyan={
 varyngi={
 	color= hsv{ 0.47 0.2 0.67 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names={
 		Ervko
 		Igney
@@ -4320,7 +4448,7 @@ varyngi={
 bossardi={
 	color= hsv{ 0.20 0.53 0.23 }
 	religion = church_of_man
-	traits = { human_heritage }
+	traits = { east_zalar_culture_group human_heritage }
 	male_common_first_names={
 		Adolf Alexander Anton Augustus Albert Andreas Ambros Alois
 		Benedicht
@@ -4406,7 +4534,7 @@ bossardi={
 yanger={
 	color= hsv{ 0.08 0.62 0.93 }
 	religion = horse_worship
-	traits = { human_heritage }
+	traits = { nomadic human_heritage }
 		male_common_first_names={
 			Asleg
 			Buzas
@@ -4496,7 +4624,7 @@ yanger={
 	wealder={
 		color= hsv{ 0.13 0.80 0.99 }
 		religion = church_of_man
-		traits = { human_heritage } 
+		traits = {settler_coast_culture_group human_heritage  } 
 		# could have German-speaking, but would make them not discriminated which would be very ahistorical
 		male_common_first_names={
 			Abraham

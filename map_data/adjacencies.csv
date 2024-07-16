@@ -139,7 +139,6 @@ x24fc2c;x931b75;special;-1;1387;3613;1382;3613;;roughstone skies-->west amethyst
 x24fc2c;x87e5b3;special;-1;1387;3613;2809;2234;;roughstone skies-->savage lands 2
 x24fc2c;x8fa9d1;special;-1;1387;3613;2845;2134;;roughstone skies-->bloodaxe territory
 x24fc2c;x89c0fc;special;-1;1387;3613;2737;2146;;roughstone skies-->savage lands
-xfc9379;xdc8b7c;special;-1;2976;2244;1377;3613;;snailbane-->dead sea skies
 xab8fbc;xdc8b7c;special;-1;2925;2321;1377;3613;;roughstone territory-->dead sea skies
 x24fc2c;xdc8b7c;special;-1;1387;3613;1377;3613;;roughstone skies-->dead sea skies
 x24fc2c;x4a1f1f;special;-1;1387;3613;1358;3613;;roughstone skies-->oldslope skies
@@ -156,7 +155,6 @@ x7c4e02;x4b01c5;special;-1;1372;3613;1367;3613;;skimmersskies-->east amethyst he
 x4b01c5;x931b75;special;-1;1367;3613;1382;3613;;east amethyst heights-->west amethyst heights
 x2a2ee7;x51a14c;special;-1;1432;3613;1404;3613;;goldenpass skies-->qomerqocha skies
 x088515;x51a14c;special;-1;1400;3613;1404;3613;;south lake skies-->qomerqocha skies
-xb9a2d9;x51a14c;special;-1;2504;1779;1404;3613;;qomerqocha-->qomerqocha skies
 x643454;x7fc19f;special;-1;1149;3613;1196;955;;drukyn skies-->bay of lanterns (south)
 xe5943e;x7fc19f;special;-1;1135;3613;1196;955;;skies1-->bay of lanterns (south)
 xe5943e;xa916aa;special;-1;1135;3613;1128;3613;;skies1-->kyrzur skies
@@ -200,7 +198,6 @@ xc161b7;xe5c08c;special;-1;1323;3613;1328;3613;;krovadoran skies-->verdskies
 xaed3f8;xe5c08c;special;-1;3242;2547;1328;3613;;verdfaldo   -->verdskies
 xa6d7e7;xe5c08c;special;-1;3250;2450;1328;3613;;florbordo-->verdskies
 x89bb15;x051a24;special;-1;1312;3613;3226;2772;;montego heights-->steepcliff coast
-x89bb15;xe89399;special;-1;1312;3613;3355;2444;;montego heights-->zalanix
 x89bb15;xe5c08c;special;-1;1312;3613;1328;3613;;montego heights-->verdskies
 xc161b7;xfc74b7;special;-1;1323;3613;3227;2389;;krovadoran skies-->fikolik
 xc161b7;xef0569;canal_wolkara;-1;1323;3613;1317;3613;;krovadoran skies-->wolkara heights
@@ -388,8 +385,6 @@ x7d9d6b;x9b2375;special;-1;1582;3613;1602;3613;;sullenskies-->wastewall heights
 x248677;x9b2375;special;-1;1607;3613;1602;3613;;ashgate heights-->wastewall heights
 x248677;x248677;special;-1;1607;3613;1597;3613;;ashgate heights-->saharando skies
 xb46eee;xC951E7;special;-1;3650;2811;1612;3613;;najmakulo-->alvekskies
-x248677;xafa4cb;special;-1;1607;3613;3663;2702;;ashgate heights-->alzahrud tp
-x248677;xe789a0;special;-1;1607;3613;3642;2674;;ashgate heights-->alzahrud 
 x248677;x47fed3;special;-1;1607;3613;3610;2620;;ashgate heights-->sc5
 xC951E7;x248677;special;-1;1612;3613;1597;3613;;alvekskies-->saharando skies
 xC951E7;x05D1F1;special;-1;1612;3613;1622;3613;;alvekskies-->kaskadvivo heights

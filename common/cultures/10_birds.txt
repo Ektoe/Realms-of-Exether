@@ -1,7 +1,7 @@
 ﻿whitefeather = {
 	color= hsv{ 0.12 0.56 0.86 }
 	religion = mountain_worship
-	traits = { bird_heritage }
+	traits = { east_aritzakarric_culture_group bird_heritage }
 	obsessions = {
 		luxury_clothes
 	}
@@ -268,7 +268,10 @@ plumesong = {
 cliffpercher = {
 	color= hsv{ 0.52 0.51 0.75 }
 	religion = mountain_worship
-	traits = { bird_heritage }
+	obsessions = {
+		trinkets
+	}
+	traits = { west_aritzakarric_culture_group bird_heritage }
 	male_common_first_names={
 		Abel
 		Adriano
@@ -457,7 +460,7 @@ cliffpercher = {
 sandcircler = {
 	color= hsv{ 0.94 0.27 0.87 }
 	religion = bonepicker
-	traits = { bird_heritage }
+	traits = { west_aritzakarric_culture_group bird_heritage }
 	male_common_first_names={
 		Aurelio
 		Camilo
@@ -519,7 +522,7 @@ sandcircler = {
 blacktalon = {
 	color= hsv{ 0.72 0.25 0.28 }
 	religion = death_worship
-	traits = { bird_heritage }
+	traits = { toftirite_culture_group bird_heritage }
 	male_common_first_names={
 		Aadu
 		Alar
@@ -668,7 +671,7 @@ blacktalon = {
 saglithan={
 	color= hsv{ 0.38 0.27 0.86 }
 	religion = druidic
-	traits = { bird_heritage }
+	traits = { east_aritzakarric_culture_group bird_heritage }
 	
 	
 	male_common_first_names={

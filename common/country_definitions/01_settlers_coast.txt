@@ -90,12 +90,12 @@ CER = {
 
 	tier = kingdom
 
-	cultures = { ceraunian } 
+	cultures = { cerunite } 
 	capital = STATE_LANDING_AT_SEA
 }
 
-#Middenfirth
-MID = {
+#Gladcross
+GCS = {
 	color = rgb{ 100  160  60 } 
 
 	country_type = recognized 
@@ -103,7 +103,7 @@ MID = {
 	tier = grand_principality
 
 	cultures = { coast_halfling rivierling } 
-	capital = STATE_RIVER_MEDDEN
+	capital = STATE_PEARFIELDS
 }
 
 #Clearbough Estates
@@ -296,6 +296,18 @@ SMA = {
 	capital = STATE_OUTER_MOORWEALD
 }
 
+#Gladshire
+GDS = {
+	color = rgb{ 255  121  0 } 
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { rivierling coast_halfling } 
+	capital = STATE_PENDYM_GWYN
+}
+
 #Mimic Demesne
 MMD = {
 	color = rgb{ 100  0  100 } 
@@ -340,7 +352,7 @@ CDW = {
 
 	tier = principality
 
-	cultures = { dumonian } 
+	cultures = { cerunite } 
 	capital = STATE_VOZMEAD_BORDERLANDS
 }
 

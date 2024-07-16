@@ -1,7 +1,7 @@
 ﻿jazamandroso = {
 	color= hsv{ 0.35 0.26 0.64 }
 	religion = animist
-	traits = { planetouched_heritage }
+	traits = { fahavalan_culture_group planetouched_heritage }
 	male_common_first_names={
 		Andriamanely
 		Andriantsirotso
@@ -48,7 +48,7 @@
 yachaymanchi = {
 	color= hsv{ 0.50 0.62 0.69 }
 	religion = house_of_fate
-	traits = { planetouched_heritage qiin_culture_group }
+	traits = { qiin_culture_group planetouched_heritage }
 	male_common_first_names={
 		Agustin
 		Alejandro
@@ -140,7 +140,7 @@ yachaymanchi = {
 vandori={
 	color= hsv{ 0.17 0.41 0.34 }
 	religion = astral_path
-	traits = { planetouched_heritage nomadic}
+	traits = { nomadic planetouched_heritage}
 	obsessions = {
 		automobiles
 	}
@@ -226,7 +226,7 @@ vandori={
 changeling={
 	color= hsv{ 0.50 0.55 0.58 }
 	religion = church_of_man
-	traits = { planetouched_heritage }
+	traits = { settler_coast_culture_group planetouched_heritage }
 	male_common_first_names={
 		Abdulvehhab
 		Adnan

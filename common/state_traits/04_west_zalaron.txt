@@ -7,3 +7,7 @@
 		state_mortality_mult = 0.05
 	}
 }
+state_trait_lake_thalori = {
+	icon = "gfx/interface/icons/state_trait_icons/river.dds"
+	modifier = { state_infrastructure_add = 15 }
+}

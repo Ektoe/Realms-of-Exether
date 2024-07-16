@@ -33,7 +33,7 @@ newspaper_toggle.1 = {
 			has_variable = newspaper_events_bool
 		}
 		default_option = yes
-		custom_tooltip = newspaper_toggle_tt
+#		custom_tooltip = newspaper_toggle_tt
 		set_variable = {
             name = newspaper_events_bool
             value = yes
@@ -44,7 +44,7 @@ newspaper_toggle.1 = {
 		trigger = {
 			has_variable = newspaper_events_bool
 		}
-		custom_tooltip = newspaper_toggle_tt
+#		custom_tooltip = newspaper_toggle_tt
 		set_variable = {
             name = newspaper_events_bool
             value = no

@@ -50,6 +50,16 @@ texticon = {
 }
 
 texticon = {
+  icon = airships
+  iconsize = {
+    texture = "gfx/interface/icons/goods_icons/airships.dds"
+    size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+  }
+}
+
+texticon = {
   icon = blubber
   iconsize = {
     texture = "gfx/interface/icons/goods_icons/blubber.dds"
@@ -129,6 +139,24 @@ texticon = {
 }
 
 texticon = {
+  icon = archmages
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/archmages.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = archmages
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/archmages_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
   icon = wizards
   iconsize = {
     offset = { 0 50 }
@@ -142,24 +170,6 @@ texticon = {
   iconsize = {
     offset = { 0 5 }
     texture = "gfx/interface/icons/pops_icons/wizards_15.dds"
-    fontsize = 30
-  }
-}
-
-texticon = {
-  icon = hedge_wizards
-  iconsize = {
-    offset = { 0 50 }
-    texture = "gfx/interface/icons/pops_icons/hedge_wizards.dds"
-    fontsize = 250
-  }
-}
-
-texticon = {
-  icon = hedge_wizards
-  iconsize = {
-    offset = { 0 5 }
-    texture = "gfx/interface/icons/pops_icons/hedge_wizards_15.dds"
     fontsize = 30
   }
 }
@@ -196,6 +206,15 @@ texticon = {
   iconsize = {
     offset = { 0 22 }
     texture = "gfx/interface/icons/topbar/magic_reserves_icon.dds"
+    fontsize = 82
+  }
+}
+
+texticon = {
+  icon = veil
+  iconsize = {
+    offset = { 0 22 }
+    texture = "gfx/interface/icons/topbar/veil_icon.dds"
     fontsize = 82
   }
 }

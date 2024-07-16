@@ -187,7 +187,7 @@ COV = {
 	tier = principality
 
 	religion = cult_of_the_sun
-	cultures = { dumonian } 
+	cultures = { dumonian }
 	capital = STATE_LISAZISA
 }
 
@@ -211,7 +211,8 @@ SSC = {
 
 	tier = kingdom
 
-	cultures = { dumonian } 
+	religion = cult_of_the_sun
+	cultures = { vystemian }
 	capital = STATE_GANDNI
 }
 

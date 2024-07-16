@@ -23,9 +23,6 @@ thalorian_culture_group={
 khussite_culture_group={
 }
 
-east_aritzakarri_culture_group={	
-}
-
 dragonborn_culture_group = {
 }
 
@@ -48,4 +45,37 @@ saltwaste_survivor_culture_group = {
 }
 
 vairia_culture_group = {
+}
+
+nogi_culture_group = {
+}
+
+noric_culture_group = {
+}
+
+everfrostern_culture_group = {
+}
+
+kailan_culture_group = {
+}
+
+east_zalar_culture_group = {
+}
+
+west_zalar_culture_group = {
+}
+
+toftirite_culture_group = {
+}
+
+fahavalan_culture_group = {
+}
+
+locari_culture_group = {
+}
+
+west_aritzakarric_culture_group = {
+}
+
+east_aritzakarric_culture_group = {	
 }

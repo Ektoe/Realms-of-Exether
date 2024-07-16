@@ -26,12 +26,10 @@
 
 #Exether
 
-bg_adventuring = {
-	parent_group = bg_government
-}
+
 
 bg_cloud_collecting = {
-	parent_group = bg_mining
+	parent_group = bg_magic_resource
 	
 	default_building = building_cloud_collectors
 
@@ -39,7 +37,7 @@ bg_cloud_collecting = {
 }
 
 bg_wishstone_mining = { 
-	parent_group = bg_mining
+	parent_group = bg_magic_resource
 
 	category = rural
 
@@ -75,6 +73,8 @@ bg_wishstone_extraction_sea = {
 	
 	economy_of_scale = yes
 	
+	discoverable_resource = yes
+	
 	default_building = building_whaling_station
 	
 	lens = fishing
@@ -91,32 +91,6 @@ bg_wishstone_extraction_sea = {
 	can_use_slaves = yes
 
 	economy_of_scale_ai_factor = 2.0
-}
-
-bg_chimesilt_mounds = {
-	category = rural
-
-	capped_by_resources = yes
-	
-	economy_of_scale = yes
-	
-	can_use_slaves = yes
-	
-	default_building = building_logging_camp
-	
-	lens = forestry	
-	
-	cash_reserves_max = 25000
-	
-	urbanization = 5
-	infrastructure_usage_per_level = 1
-	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
-	
-	economy_of_scale_ai_factor = 1.5
-	foreign_investment_ai_factor = 0.75
 }
 
 bg_special_depletables = {  #use with resource_depletion and resource_discovery settings
@@ -259,9 +233,9 @@ bg_squidding = {
 	economy_of_scale_ai_factor = 2.0
 }
 
-bg_fishing_irontails = {
+bg_fishing_rusttails = {
 	parent_group = bg_fishing
-	default_building = building_fishing_wharf_irontails
+	default_building = building_fishing_wharf_rusttails
 }
 
 bg_fishing_blubberfish = {
@@ -354,7 +328,7 @@ bg_mint_tea_plantations = {
 bg_rice_farms_leechgardens = {
 	parent_group = bg_agriculture
 	
-	default_building = building_rice_farm
+	default_building = building_rice_farm_leechgardens
 	
 	cash_reserves_max = 25000
 }
@@ -368,28 +342,9 @@ bg_logging_mimosa = {
 }
 
 bg_hunting = {
-	category = rural
-
-	capped_by_resources = yes
-	
-	economy_of_scale = yes
-	
-	can_use_slaves = no
+	parent_group = bg_magic_resource
 	
 	default_building = building_hunting_lodge
-	
-	lens = forestry	
-	
-	cash_reserves_max = 25000
-	
-	urbanization = 5
-	infrastructure_usage_per_level = 1
-	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
-	
-	economy_of_scale_ai_factor = 1.5
 }
 
 bg_logging_stonewood = {
@@ -410,15 +365,38 @@ bg_logging_crystalwood = {
 }
 
 bg_haunted_grounds = {
+		parent_group = bg_magic_resource
+
+		default_building = building_haunted_grounds
+}
+
+bg_logging_syrup_trees = {
+	parent_group = bg_logging
+	
+	default_building = building_logging_camp_syrup_trees
+
+	can_use_slaves = yes
+}
+
+bg_logging_liquortrees = {
+	parent_group = bg_logging
+	
+	default_building = building_logging_camp_liquortrees
+
+	can_use_slaves = yes
+
+}
+
+bg_magic_resource = {
 	category = rural
 
 	capped_by_resources = yes
 	
+	discoverable_resource = yes
+
 	economy_of_scale = yes
 	
-	can_use_slaves = no
-	
-	default_building = building_haunted_grounds
+	can_use_slaves = yes
 	
 	lens = forestry	
 	
@@ -431,30 +409,60 @@ bg_haunted_grounds = {
 		default_auto_expand_rule = yes
 	}
 	
-	economy_of_scale_ai_factor = 1.5
+	economy_of_scale_ai_factor = 1.75
+	foreign_investment_ai_factor = 1.0
 }
 
-bg_logging_syrup_trees = {
-	parent_group = bg_logging
-	
-	default_building = building_logging_camp_syrup_trees
 
-	can_use_slaves = yes
+bg_magic_manufacturing = {
+	category = urban
+
+	always_possible = yes
+	
+	economy_of_scale = yes
+	
+	cash_reserves_max = 25000
+	
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+	
+	economy_of_scale_ai_factor = 2.0
+	foreign_investment_ai_factor = 0.25
 }
 
-bg_logging_cloudsilver_roots = {
-	parent_group = bg_logging
-	
-	default_building = building_logging_camp_cloudsilver_roots
+bg_magic_light_industry = {
+	parent_group = bg_magic_manufacturing
 
-	can_use_slaves = yes
+	lens = light_industry
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 2
 }
 
-bg_logging_liquortrees = {
-	parent_group = bg_logging
+bg_magic_heavy_industry = {
+	parent_group = bg_magic_manufacturing
+
+	lens = heavy_industry
 	
-	default_building = building_logging_camp_liquortrees
+	urbanization = 20
+	infrastructure_usage_per_level = 3
+}
 
-	can_use_slaves = yes
+bg_airshipyards = {
+	parent_group = bg_magic_heavy_industry
+	
+	urbanization = 20
+	infrastructure_usage_per_level = 1
+}
 
+bg_entertainment = {
+	parent_group = bg_urban_facilities
+	infrastructure_usage_per_level = 0.5
+}
+
+bg_taverns = {
+	parent_group = bg_entertainment
+	
+	default_building = building_tavern
 }
