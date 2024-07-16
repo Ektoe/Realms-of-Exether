@@ -31,7 +31,7 @@ je_colonial_administration = {
 				state_is_in_africa = yes
 			}
 		}
-		has_technology_researched = civilizing_mission
+		has_technology_researched = colonization
 	}
 
 	immediate = {
