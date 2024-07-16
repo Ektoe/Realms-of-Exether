@@ -82,6 +82,19 @@ EME = {
 	capital = STATE_MERACIEL_AUBELAC
 }
 
+#Darvak
+DAR = {
+	color = hsv360{ 200 100 110 }
+
+	country_type = recognized 
+
+	tier = kingdom
+
+	cultures = { yelfi } 
+	capital = STATE_MOUNT_YELFIS
+}
+
+
 #Ceraun
 CER = {
 	color = rgb{ 200  100  100 } 
