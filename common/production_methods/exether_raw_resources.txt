@@ -1220,7 +1220,8 @@ pm_basic_game_hunting_potions = {
 			building_adventurers_mortality_mult = -0.05
 		}
 		workforce_scaled = {
-			goods_input_potions_add = 5
+			goods_input_potions_add = 2
+			goods_input_liquor_add = 3
 		}
 	}
 }
@@ -1235,8 +1236,7 @@ pm_wash_it_down = {
 			building_adventurers_mortality_mult = -0.15
 		}
 		workforce_scaled = {
-			goods_input_potions_add = 15
-			goods_input_liquor_add = 20
+			goods_input_potions_add = 5
 		}
 	}
 }
