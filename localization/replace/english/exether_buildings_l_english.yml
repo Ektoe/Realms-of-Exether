@@ -70,7 +70,7 @@
   building_feywild_reserve: "Feywild Reserve"
   building_feywild_reserve_lens_option: "Expand $feywild_reserve$"
   building_fur_hunting_lodge: "Game Hunting Lodge"
-  building_fur_hunting_lodge_lens_option: "Expand $building_fur_hunting_lodge"
+  building_fur_hunting_lodge_lens_option: "Expand $building_fur_hunting_lodge$"
   # Building Groups
   bg_mountain_maize_farms: "Mountain Maize Farms"
   bg_opium_plantations: "Chimesilt Fields"
