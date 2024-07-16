@@ -8,8 +8,8 @@
 
   country_magic_reserves_total_subtract: "@magic! [concept_magic_reserves]"
   country_magic_reserves_total_subtract_desc:  "An increase or decrease in @magic! [concept_magic_reserves] Upkeep"
-  state_veil_integrity_contribution: "[concept_state] @veil! [Concept('concept_veil_integrity', 'Veil')] Disruption"
-  state_veil_integrity_contribution_desc: "An increase or decrease in [concept_state] @veil! [concept_veil_integrity]"
+  state_veil_integrity_contribution: "@veilneg! [Concept('concept_veil_integrity', 'Veil')] Disruption"
+  state_veil_integrity_contribution_desc: "A decrease in @veilneg! [concept_veil_integrity]"
 
  country_archmages_pol_str_mult: "[concept_political_strength] of $archmages$"
  country_archmages_pol_str_mult_desc: "An increase or decrease in the [concept_political_strength] of $archmages$"

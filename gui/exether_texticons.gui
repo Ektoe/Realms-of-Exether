@@ -218,3 +218,12 @@ texticon = {
     fontsize = 82
   }
 }
+
+texticon = {
+  icon = veilneg
+  iconsize = {
+    offset = { 0 22 }
+    texture = "gfx/interface/icons/topbar/veil_icon_negative.dds"
+    fontsize = 82
+  }
+}
