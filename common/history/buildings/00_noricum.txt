@@ -142,7 +142,7 @@
                     building={ 
                         type="building_adventuring_guild"
                         country="c:DUM"
-                        levels=2
+                        levels=3
                         region="STATE_CROWNPEAK"
                    }
                 }
@@ -564,7 +564,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=1
+						levels=3
 						region="STATE_GULFWATCH"
 				   }
 				}
@@ -647,7 +647,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=7
+						levels=8
 						region="STATE_SLUDGE_COAST"
 				   }
 				}
@@ -697,7 +697,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=1
+						levels=5
 						region="STATE_MERCHANT_BAY"
 				   }
 				}
@@ -710,7 +710,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DUM"
-						levels=3
+						levels=4
 						region="STATE_MERCHANT_BAY"
 				   }
 				}
@@ -723,7 +723,7 @@
                     building={ 
                         type="building_adventuring_guild"
                         country="c:DUM"
-                        levels=2
+                        levels=3
                         region="STATE_SLUDGE_COAST"
                    }
                 }
@@ -732,7 +732,7 @@
         }
         create_building={
           building="building_port"
-          level=1
+          level=2
           reserves=1
           activate_production_methods={ "pm_basic_port" }
         }
@@ -2043,7 +2043,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:DUM"
-                        levels=2
+                        levels=3
                         region="STATE_MERCHANT_BAY"
                    }
                 }
