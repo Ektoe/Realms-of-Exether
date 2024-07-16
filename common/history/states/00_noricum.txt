@@ -668,6 +668,7 @@ s:STATE_TYMANS_FOLLY = {
 	owned_provinces = { "x46EAC7" "x65B2EC" "x7FF6EC" "xAA9BF5" "xBAF5CA" "xCBF4BA" "xCCF048" "xD1A7CF" "xDD2CFB" "xDFF9CD" "xE0E357" "xE540FA" "xECBBAC" }
 	}
 	add_homeland = cu:avalorean #Sets the state to be a homeland for whatever culture you put here.
+	add_homeland = cu:nivaskyan
 }
 
 s:STATE_HJELTIAS_GLACIER = {

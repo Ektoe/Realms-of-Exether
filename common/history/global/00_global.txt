@@ -322,13 +322,31 @@ GLOBAL = {
 		value = 0
 	}
 
-	setup_rituals = yes
+	setup_ritual_active = yes
+	setup_ritual_divine = yes
+	setup_ritual_druidic = yes
+	setup_ritual_artificer = yes
+	setup_ritual_astrology = yes
+	setup_ritual_dark = yes
+	setup_ritual_antimagic = yes
+	setup_ritual_psionic = yes
+	setup_arcana_surplus = yes
+	
 
 	every_country = {
+
+		add_modifier = {
+			name = surplus_arcana
+		}
 
 		set_variable = {
 			name = veil_damage
 			value = 0
+		}
+
+		set_variale = {
+			name = player_rank
+			value = 99
 		}
 
 

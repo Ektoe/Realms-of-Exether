@@ -68,3 +68,35 @@ pmg_base_building_airshipyards = {
 		#pm_arc_welding_shipbuilding
 	}
 }
+
+pmg_distillery_base_fruit = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_fruit
+		pm_some_fruit
+		pm_more_fruit
+		pm_mostly_fruit
+	}
+}
+
+pmg_distillery_monster = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_no_spice
+		pm_monster_grapes
+		pm_added_spirits
+	}
+}
+
+pmg_distillery_container = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+
+	production_methods = {
+		pm_barrels
+		pm_bottomless_bottles
+		pm_automated_bottlers
+		
+	}
+}

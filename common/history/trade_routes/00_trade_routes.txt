@@ -481,8 +481,14 @@
 	}
 	c:ARR ?= {
 		create_trade_route = {
-			goods = silk
-			level = 6
+			goods = wood
+			level = 5
+			direction = import
+			target = c:THI.market
+		}
+		create_trade_route = {
+			goods = iron
+			level = 5
 			direction = import
 			target = c:THI.market
 		}
@@ -521,6 +527,18 @@
 			level = 4
 			direction = export
 			target = c:THI.market
+		}
+		create_trade_route = {
+			goods = liquor
+			level = 7
+			direction = export
+			target = c:THI.market
+		}
+		create_trade_route = {
+			goods = clothes
+			level = 4
+			direction = export
+			target = c:EMP.market
 		}
 
 	}
@@ -849,4 +867,25 @@ c:FOX ?= {
 		target = c:DUM.market
 		direction = import
 	}
+}
+c:DAR ?= {
+	create_trade_route = {
+		goods = hardwood
+		level = 3
+		target = c:THI.market
+		direction = import
+	}	
+	create_trade_route = {
+		goods = luxury_clothes
+		level = 3
+		target = c:ARR.market
+		direction = import
+	}
+	create_trade_route = {
+		goods = luxury_furniture
+		level = 4
+		target = c:THI.market
+		direction = import
+	}	
+
 }

@@ -132,3 +132,29 @@ pmg_train_automation_building_wishstone_mine = {
 		pm_rail_transport_mine
 	}
 }
+
+#Game Hunting
+pmg_base_building_fur_hunting = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_trapping_teams
+		pm_hunting_parties
+		pm_hunting_expeditions
+	}
+}
+pmg_exotic_game = {
+	texture = ""
+	production_methods = {
+		pm_no_exotic
+		pm_exotic_hides
+		pm_essence_extraction
+	}
+}
+pmg_game_hunting_potions = {
+	texture = ""
+	production_methods = {
+		pm_no_game_hunting_potions
+		pm_basic_game_hunting_potions
+		pm_wash_it_down
+	}
+}

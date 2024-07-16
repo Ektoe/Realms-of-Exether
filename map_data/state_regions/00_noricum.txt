@@ -937,6 +937,7 @@ STATE_KINGOUR = {
 }
 STATE_MALINMORE = {
     id = 4049
+    traits = { "state_trait_malinmore_bay" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1FFDFC" "x6BA5F7" "x88CAE1" "xA9E39B" "xB4A3F1" "xB7C6EE" "xB9E9B7" "xBCE06B" "xC07BED" "xC4B499" "xD990F4" "xE52CF3" "xF095A2" "xF5B494" }
     city = x1FFDFC
@@ -1632,6 +1633,7 @@ STATE_HRAFNSDALR = {
         bg_iron_mining = 15
         bg_logging = 11
         bg_coal_mining = 15
+        bg_game_hunting = 7
     }
     resource = {
         type = "bg_gold_fields"
