@@ -1497,7 +1497,19 @@ BUILDINGS = {
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" "pm_pot_stills" }
+				activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" }
+			}
+			create_building = {
+			building = "building_distillery"
+			add_ownership = {
+				building={ 
+                    type="building_financial_district"
+                    country="c:THI"
+                    levels=1
+                    region="STATE_HAAR_FEN"
+				}
+			}
+			reserves = 1
 			}
 			create_building={
 				building="building_sugar_plantation"
@@ -2140,9 +2152,17 @@ BUILDINGS = {
 					}
 				}
 				reserves = 1
-				activate_production_methods = {
-					"pm_pot_stills"
+				
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					country={ 
+            	        country="c:MNN"
+            	        levels=1
+					}
 				}
+			reserves = 1
 			}
 			create_building = {
 				building="building_arms_industry"
@@ -2542,7 +2562,19 @@ BUILDINGS = {
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing" "pm_pot_stills" }
+				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing"}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building={ 
+            	        type="building_financial_district"
+            	        country="c:CLL"
+            	        levels=1
+            	        region="STATE_CAM_CALLAIRD"
+					}
+				}
+			reserves = 1
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2999,7 +3031,19 @@ BUILDINGS = {
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" "pm_pot_stills" }
+				activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing"}
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building={ 
+            	        type="building_financial_district"
+            	        country="c:TEF"
+            	        levels=1
+            	        region="STATE_HIGH_HARAVA"
+					}
+				}
+			reserves = 1
 			}
             create_building={
 				building="building_logging_camp"
@@ -5206,8 +5250,8 @@ BUILDINGS = {
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" "pm_pot_stills" }
-			}			
+				activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing"}
+			}
 			create_building={
 				building="building_university"
 				level=1

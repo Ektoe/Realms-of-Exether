@@ -103,7 +103,7 @@
 		}
 		create_pop = {
 			culture = ocelian
-			size = 93196
+			size = 398017
 		}
 		create_pop = {
 			culture = rivierling
@@ -129,7 +129,7 @@
 		}
 		create_pop = {
 			culture = ocelian
-			size = 101196
+			size = 518017
 		}
 		create_pop = {
 			culture = rivierling
@@ -193,7 +193,7 @@ s:STATE_CAEL_VALEN_2 = {
 			}
 			create_pop = {
 				culture = ocelian
-				size = 488017
+				size = 101196
 			}
 			create_pop = {
 				culture = rivierling
@@ -214,7 +214,7 @@ s:STATE_CAEL_VALEN_2 = {
 		}
 		create_pop = {
 			culture = ocelian
-			size = 378017
+			size = 93196
 		}
 		create_pop = {
 			culture = rivierling

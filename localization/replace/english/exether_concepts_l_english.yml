@@ -35,7 +35,7 @@
   concept_material_plane_desc: "The material plane, also known as [concept_exether] exists in between all of the [concept_outer_planes]. The [concept_creation_of_exether] was the result over an eternal struggle between the outer gods."
 
   concept_veil_integrity: "Veil Integrity"
-  concept_veil_desc: "Veil Integrity is a measure of how much magic is seeping into the world through the [concept_veil]. Changes in Veil Integrity can have world-spanning repercussions that shape the future of [concept_exether]"
+  concept_veil_integrity_desc: "Veil Integrity is a measure of how much magic is seeping into the world through the [concept_veil]. Changes in Veil Integrity can have world-spanning repercussions that shape the future of [concept_exether]"
 
   concept_veil: "Veil"
   concept_veil_desc: "The veil was created to shield the [concept_material_plane] from the influence of the [concept_outer_planes]. Its creation ended the [concept_age_of_gods] and led to almost a thousand years without magic on [concept_exether]. During the [concept_nightfall], the veil was catastrophically damaged and magic has seeped into the material plane once more through the [concept_stars]."
@@ -108,6 +108,7 @@
   concept_angel_desc: "The #bold Angel#! is the twelfth astrological sign of the [concept_astral_calendar]. The Angel contains the [concept_outer_planes] of #bold Death#! that embody rot and decay."
   concept_magic_ritual: "Arcane Civics"
   concept_magic_ritual_desc: "#bold Arcane Civics#! are enacted using your country's [concept_magic_reserves] and provide powerful benefits."
+
 
 concept_subsidiary:0 "Subsidiary"
 concept_subsidiary_desc:1 "[Concept('concept_recognized_power','$concept_recognized_powers$')] may turn a weaker [concept_country] into their $concept_subsidiary$. A $concept_subsidiary$ is a more autonomous [concept_subject] type that are able to start their own [Concept('concept_diplomatic_play','$concept_diplomatic_plays$')] and are not forced to join their [Concept('concept_overlord','$concept_overlord_possessive$')] [Concept('concept_war','$concept_wars$')]. They must pay #v 25%#! of their [concept_treasury] income to their $concept_overlord$ each week."
