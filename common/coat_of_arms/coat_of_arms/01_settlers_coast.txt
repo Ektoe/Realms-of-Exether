@@ -194,6 +194,25 @@ THI = {
 
 }
 
+#Darvak
+DAR = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	
+	colored_emblem = { 
+		texture = "ce_roe_dwarf_deco1.dds"
+		color1 = "white"
+		color2 = "sapphire"
+	}
+	
+	
+	colored_emblem = {
+	texture = "ce_roe_dwarf_cloud.dds"
+		color1 = "white"
+		instance = {scale = {0.9 0.9} }
+	}
+}
+
 #Feylight
 FEY = {
 	pattern = "pattern_solid.tga" #Choose a base from gfx\coat_of_arms\patterns
