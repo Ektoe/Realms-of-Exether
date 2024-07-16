@@ -856,7 +856,7 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:WHI = {
 		create_pop = {
 			culture = mousefolk
-			size = 2444404
+			size = 5444404
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -1668,7 +1668,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:DAR = {
 		create_pop = {
 			culture = yelfi
-			size = 2570892
+			size = 2070892
 		}
 		create_pop = {
 			culture = bossardi
