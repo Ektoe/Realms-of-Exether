@@ -68,7 +68,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_pot_stills" "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" }
+			activate_production_methods={"pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" }
 		}
 			create_building={
 			building="building_millet_farm"
@@ -2448,7 +2448,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" "pm_pot_stills" }
+			activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing"}
 		}
 		create_building={
 			building="building_port"
@@ -2878,7 +2878,19 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
+			activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_manual_dough_processing" }
+		}
+		create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building={ 
+            	        type="building_financial_district"
+            	        country="c:COC"
+            	        levels=1
+            	        region="STATE_KISITONG"
+					}
+				}
+			reserves = 1
 		}
 			create_building={
 			building="building_maize_farm"
@@ -3226,7 +3238,19 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
+			activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_manual_dough_processing" }
+		}
+		create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building={ 
+            	        type="building_financial_district"
+            	        country="c:KHD"
+            	        levels=1
+            	        region="STATE_SHIMAKAI"
+					}
+				}
+			reserves = 1
 		}
 			create_building={
 			building="building_maize_farm"
@@ -4642,7 +4666,19 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
+			activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing" }
+		}
+		create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building={ 
+            	        type="building_financial_district"
+            	        country="c:RAV"
+            	        levels=1
+            	        region="STATE_RATELBERG"
+					}
+				}
+			reserves = 1
 		}
             create_building={
 			building="building_logging_camp"
@@ -5263,7 +5299,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_pot_stills" "pm_manual_dough_processing" }
+			activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_manual_dough_processing" }
 		}
 			create_building={
 			building="building_coal_mine"

@@ -419,6 +419,7 @@ STATE_RAVENCLIFF = {
         bg_coal_mining = 36
         bg_iron_mining = 36
         bg_logging = 9
+        bg_hunting = 6
         bg_wishstone_mining = 18
     }
     naval_exit_id = 3229
@@ -936,6 +937,7 @@ STATE_KINGOUR = {
 }
 STATE_MALINMORE = {
     id = 4049
+    traits = { "state_trait_malinmore_bay" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1FFDFC" "x6BA5F7" "x88CAE1" "xA9E39B" "xB4A3F1" "xB7C6EE" "xB9E9B7" "xBCE06B" "xC07BED" "xC4B499" "xD990F4" "xE52CF3" "xF095A2" "xF5B494" }
     city = x1FFDFC
@@ -1409,6 +1411,7 @@ STATE_BLACKDON = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 13
+        bg_hunting = 8
         bg_wishstone_mining = 15
     }
     naval_exit_id = 3229
