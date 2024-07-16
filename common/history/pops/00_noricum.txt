@@ -990,19 +990,19 @@
       region_state:RVC = {
         create_pop = {
           culture = meriwyn
-          size = 1057396
+          size = 1017396
         }
         create_pop = {
           culture = jalian
-          size = 24000
+          size = 24109
         }
         create_pop = {
           culture = dumonian
-          size = 8000
+          size = 8832
         }
         create_pop = {
           culture = vampire
-          size = 20000
+          size = 174291
         }
       }
   }
@@ -1244,11 +1244,11 @@
       region_state:RVC = {
         create_pop = {
           culture = meriwyn
-          size = 1676000
+          size = 1276291
         }
         create_pop = {
           culture = jalian
-          size = 20000
+          size = 21902
         }
         create_pop = {
           culture = dumonian
@@ -1256,7 +1256,7 @@
         }
         create_pop = {
           culture = vampire
-          size = 16000
+          size = 416102
         }
       }
   }

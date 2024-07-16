@@ -4979,6 +4979,19 @@ BUILDINGS = {
 			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 		}
 		create_building={
+			building="building_tavern"
+		  add_ownership={ 
+			building={ 
+			  type="building_adventuring_guild"
+			  country="c:CLR"
+			  levels=1
+			  region="STATE_STOUTHEART_BASIN"
+			 }
+		  }
+			reserves=1
+			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+		  }
+		create_building={
 			building="building_government_administration"
 			level=2
 			reserves=1
@@ -5022,12 +5035,25 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:CLR"
 						levels=6
-						region="STATE_CLEARBOUGH_ESTATES"
+						region="STATE_CROPHEART_DALE"
 				   }
 				}
 			reserves=1
 			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 		}
+		create_building={
+			building="building_tavern"
+		  add_ownership={ 
+			building={ 
+			  type="building_adventuring_guild"
+			  country="c:CLR"
+			  levels=1
+			  region="STATE_CROPHEART_DALE"
+			 }
+		  }
+			reserves=1
+			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+		  }
 			create_building={
 			building="building_wheat_farm"
 				add_ownership={ 
@@ -5059,6 +5085,19 @@ BUILDINGS = {
 			reserves=1
 			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 		}
+		create_building={
+			building="building_tavern"
+		  add_ownership={ 
+			building={ 
+			  type="building_adventuring_guild"
+			  country="c:CLR"
+			  levels=2
+			  region="STATE_CLEARBOUGH_ESTATES"
+			 }
+		  }
+			reserves=1
+			activate_production_methods={ "pm_dive_bar" "pm_trinkets" }
+		  }
 		create_building={
 			building="building_government_administration"
 			level=3
@@ -5122,6 +5161,19 @@ BUILDINGS = {
 			reserves=1
 			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 		}
+		create_building={
+			building="building_tavern"
+		  add_ownership={ 
+			building={ 
+			  type="building_adventuring_guild"
+			  country="c:CLR"
+			  levels=1
+			  region="STATE_GOLDENMOOR"
+			 }
+		  }
+			reserves=1
+			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+		  }
 		create_building={
 			building="building_government_administration"
 			level=1
@@ -6628,6 +6680,19 @@ BUILDINGS = {
 			reserves=1
 			activate_production_methods={ "pm_religious_bureaucrats" "pm_hereditary_bureaucrats" "pm_horizontal_drawer_cabinets" }
 		}
+		create_building={
+			building="building_tavern"
+		  add_ownership={ 
+			building={ 
+			  type="building_adventuring_guild"
+			  country="c:CLR"
+			  levels=1
+			  region="STATE_SILVERTARGE"
+			 }
+		  }
+			reserves=1
+			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+		  }
 		create_building={
 			building="building_university"
 			level=1
