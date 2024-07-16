@@ -4001,7 +4001,7 @@ dorite={
 	religion = church_of_man
 	traits = { settler_coast_culture_group human_heritage }
 	obsessions = {
-		tobacco
+		luxury_potions
 	}
 	male_common_first_names={
 		Aimery
