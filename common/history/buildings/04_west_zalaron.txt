@@ -4703,7 +4703,74 @@
 	  }
 	}
   }
-
+  s:STATE_PIEPERHAVEN = {
+	region_state:RAV={
+            create_building={
+			building="building_food_industry"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:RAV"
+                        levels=2
+                        region="STATE_PIEPERHAVEN"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing" }
+		}
+		create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building={ 
+            	        type="building_financial_district"
+            	        country="c:RAV"
+            	        levels=1
+            	        region="STATE_PIEPERHAVEN"
+					}
+				}
+			reserves = 1
+		}
+            create_building={
+			building="building_logging_camp"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:RAV"
+                        levels=1
+                        region="STATE_PIEPERHAVEN"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+		}
+			create_building={
+			building="building_livestock_ranch"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:RAV"
+						levels=1
+						region="STATE_PIEPERHAVEN"
+				   }
+				}
+			reserves=1
+			activate_production_methods={  "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" "pm_open_air_stockyards" }
+		}
+			create_building={
+			building="building_wheat_farm"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:RAV"
+						levels=3
+						region="STATE_SMEERGOED"
+				   }
+				}
+			reserves=1
+			activate_production_methods={  "pm_soil_enriching_farming" "pm_tools" "pm_farms_basic_earth_shaping }
+		}		
+	}
+  }
   s:STATE_SPRANKELMEER = {
 	region_state:RAV={
 		create_building={
