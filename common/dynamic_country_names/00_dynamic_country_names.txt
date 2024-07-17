@@ -277,7 +277,163 @@ DEFAULT = {
 			}
 		}
 	}
+	#Colonial Administrations
+	dynamic_country_name = {
+		name = colonial_admin_east_mindrend_sands
+		adjective = colonial_admin_east_mindrend_sands_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = east_mindrend_sands_subject_var
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = colonial_admin_west_mindrend_sands
+		adjective = colonial_admin_west_mindrend_sands_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = west_mindrend_sands_subject_var
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = colonial_admin_scalethane_realms
+		adjective = colonial_admin_scalethane_realms_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = scalethane_realms_subject_var
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = colonial_admin_new_dumonia
+		adjective = colonial_admin_new_dumonia_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = new_dumonia_subject_var
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = colonial_admin_thoughtsmith_ridge
+		adjective = colonial_admin_thoughtsmith_ridge_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = thoughtsmith_ridge_subject_var
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = colonial_admin_anantadesh
+		adjective = colonial_admin_anantadesh_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = anantadesh_subject_var
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = colonial_admin_dreamweaver_jungle
+		adjective = colonial_admin_dreamweaver_jungle_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = dreamweaver_jungle_subject_var
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = colonial_admin_sarpakshetra
+		adjective = colonial_admin_sarpakshetra_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = sarpakshetra_subject_var
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = colonial_admin_elusive_coves
+		adjective = colonial_admin_elusive_coves_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = elusive_coves_subject_var
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = colonial_admin_lacertia
+		adjective = colonial_admin_lacertia_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = lacertia_subject_var
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = colonial_admin_west_kailando
+		adjective = colonial_admin_west_kailando_adj
+		use_overlord_prefix = yes
+		
+		priority = 100
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor ?= {
+				has_variable = west_kailando_subject_var
+			}
+		}
+	}
 }
+
 
 DUM = { # Dumonia
 	dynamic_country_name = { # Dumonia Empire
