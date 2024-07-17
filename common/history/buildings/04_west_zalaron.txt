@@ -4767,7 +4767,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={  "pm_soil_enriching_farming" "pm_tools" "pm_farms_basic_earth_shaping }
+			activate_production_methods={  "pm_soil_enriching_farming" "pm_tools" "pm_farms_basic_earth_shaping" }
 		}		
 	}
   }
