@@ -256,7 +256,7 @@
               }
             }
           reserves = 1
-          activate_production_methods = {"pm_some_fruit" "pm_monster_grapes"}
+          activate_production_methods = { "pm_basic_distillery" "pm_no_fruit" "pm_no_spice"}
         }
         create_building={
           building="building_arms_industry"
@@ -441,7 +441,7 @@
             }
           }
           reserves = 1
-          activate_production_methods = {"pm_some_fruit" "pm_monster_grapes"}
+          activate_production_methods = {"pm_no_fruit" "pm_no_spice"}
         }                                
         create_building={
           building="building_glassworks"
