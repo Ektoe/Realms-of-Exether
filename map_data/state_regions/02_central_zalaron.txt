@@ -3213,6 +3213,7 @@ STATE_SANGARI_2 = {
         bg_coal_mining = 36
         bg_fishing = 10
     }
+    naval_exit_id = 3087
 }
 STATE_HANALLA_2 = {
     id = 4419

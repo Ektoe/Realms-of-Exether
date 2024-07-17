@@ -457,7 +457,7 @@ STATE_RUSYLESH = {
         bg_logging = 8
         bg_fishing = 8
     }
-
+    naval_exit_id = 3028
 }
 STATE_ZARJAPE = {
     id = 2422
@@ -474,7 +474,7 @@ STATE_ZARJAPE = {
         bg_logging = 6
         bg_fishing = 7
     }
-
+    naval_exit_id = 3028
 }
 STATE_DIBRA = {
     id = 2423
@@ -1719,7 +1719,7 @@ STATE_NAVOYAZH = {
     capped_resources = {
         bg_logging = 12
     }
-
+    naval_exit_id = 3072
 }
 STATE_SHINAKHAD = {
     id = 2528
@@ -3744,7 +3744,7 @@ STATE_BLOODAXE_TERRITORY = {
         bg_opium_plantations = 17
         bg_wishstone_mining = 17
     }
-
+    naval_exit_id = 3066
 }
 STATE_THIRSTRIDGE = {
     id = 2833
