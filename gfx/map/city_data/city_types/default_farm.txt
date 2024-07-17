@@ -72,6 +72,9 @@
 	}
 	building_livestock_ranch = {
 		"european_rural_ranch_01_mesh"}
+
+		building_fur_hunting_lodge = {
+			"european_rural_ranch_01_mesh"}
 	
 	building_coffee_plantation = {"european_rural_plantation_01_mesh"}
 	building_silk_plantation = {"european_rural_plantation_01_mesh"}	

@@ -48,6 +48,7 @@
 	building_mountain_maize_farm = {"african_farm_farmstead_01_mesh"}
 	building_millet_farm = {"african_farm_farmstead_01_mesh"}
 	building_livestock_ranch = {"african_farm_ranch_01_mesh"}
+	building_fur_hunting_lodge = {"african_farm_ranch_01_mesh"}
 	
 	building_coffee_plantation = {"african_farm_plantation_01_mesh"}
 	building_cotton_plantation = {"african_farm_plantation_01_mesh"}
