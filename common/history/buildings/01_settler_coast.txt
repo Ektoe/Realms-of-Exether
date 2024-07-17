@@ -440,7 +440,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:CER"
 						levels=4
-						region="STATE_SAINT_MER_4"
+						region="STATE_SAINT_MER_2"
 				   }
 				}
 			reserves=1
@@ -525,7 +525,7 @@ BUILDINGS = {
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:CER"
+						country="c:DUM"
 						levels=9
 						region="STATE_MALINMORE"
 				   }
@@ -630,7 +630,7 @@ BUILDINGS = {
 			     building="building_fishing_wharf"
                              add_ownership={ 
                                      building={ 
-                                             type="building_manor_houses"
+                                             type="building_manor_house"
                                              country="c:CER"
                                              levels=2
                                              region="STATE_CAEL_VALEN_2"
@@ -1297,7 +1297,7 @@ BUILDINGS = {
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_bakeries" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			activate_production_methods={ "pm_bakery" "pm_disabled_canning"   "pm_manual_dough_processing" }
 		}
                 create_building={
 			building="building_port"
@@ -1859,7 +1859,7 @@ BUILDINGS = {
 					type="building_manor_house"
 					country="c:DRO"
 					levels=5
-					region="PLAGUEWOOD_HINTERLANDS_3"
+					region="STATE_PLAGUEWOOD_HINTERLANDS_3"
 				}
 			}
 			reserves=1
@@ -1990,10 +1990,12 @@ BUILDINGS = {
 		create_building = {
 			building = "building_distillery"
 			add_ownership = {
-				type="building_financial_district"
-                country="c:SMA"
-                levels=1
-                region="STATE_OUTER_MOORWEALD"
+					building = {
+						type="building_financial_district"
+                	country="c:SMA"
+                	levels=1
+               	 region="STATE_OUTER_MOORWEALD"
+					}
 			}
 			reserves = 1
 		}
@@ -2121,18 +2123,25 @@ BUILDINGS = {
 			activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
 		}
 		create_building={
-			building="building_railway"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:SMA"
-						levels=1
-						region="STATE_OUTER_MOORWEALD"
-					}
-				}
+			building="building_barracks"
+			level=7
 			reserves=1
-			activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			activate_production_methods={ "pm_no_organization" }
 		}
+		create_building={
+			building="building_railway"
+			add_ownership={ 
+				building={ 
+					type="building_manor_house"
+					country="c:SMA"
+					levels=1
+					region="STATE_OUTER_MOORWEALD"
+				}
+			}
+			reserves=1
+		}
+	reserves=1
+	activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 		create_building={
 			building="building_port"
 			level=3
@@ -2252,7 +2261,7 @@ BUILDINGS = {
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_sweeteners" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			activate_production_methods={ "pm_sweeteners" "pm_disabled_canning"   "pm_manual_dough_processing" }
 		}
 			create_building={
 			building="building_wheat_farm"
@@ -2265,7 +2274,7 @@ BUILDINGS = {
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" }
+			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 		}
                         create_building={
 			building="building_sugar_plantation"
@@ -2341,7 +2350,7 @@ BUILDINGS = {
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_apple_orchards" "pm_tools_disabled" }
+			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled" }
 		}
 			create_building={
 			building="building_sugar_plantation"
@@ -3048,7 +3057,7 @@ BUILDINGS = {
           activate_production_methods={ "pm_basic_port" }
         }
 		create_building={
-			building="building_adventuring_guild"
+			building="building_tavern"
 			add_ownership={
 				building={
 					type="building_adventuring_guild"
@@ -3058,7 +3067,7 @@ BUILDINGS = {
 				}
 			}
 			reserves=1
-			activate_production_methods={ "pm_traditional_adventuring" "pm_trophy_hunting" }
+			activate_production_methods={ "pm_trinkets" }
 		  }
       }
     
@@ -3281,7 +3290,7 @@ BUILDINGS = {
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_steel_gizmos" "pmg_automation_building_gizmo_workshop" }
+				activate_production_methods={ "pm_steel_gizmos" }
 			}
 			create_building={
 				building="building_wishstone_mine"
@@ -3748,7 +3757,7 @@ BUILDINGS = {
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_leaded_glass" "pm_manual_glassblowing" "pm_farms_basic_earth_shaping" "pm_ceramics" }
+			activate_production_methods={ "pm_leaded_glass" "pm_manual_glassblowing" "pm_ceramics" }
 		}
 			create_building={
 			building="building_wheat_farm"
@@ -3792,7 +3801,7 @@ BUILDINGS = {
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing" "pm_disabled_distillery" }
+			activate_production_methods={ "pm_disabled_canning" "pm_sweeteners" "pm_manual_dough_processing"   }
 		}
             create_building={
 			building="building_logging_camp"
@@ -4569,7 +4578,7 @@ BUILDINGS = {
 			building="building_logging_camp"
                 add_ownership={ 
                     building={ 
-                        type="building_manor_houses"
+                        type="building_manor_house"
                         country="c:PFL"
                         levels=3
                         region="STATE_HORSELORDS_DEMESNE"
@@ -4619,7 +4628,7 @@ BUILDINGS = {
 			building="building_logging_camp"
                 add_ownership={ 
                     building={ 
-                        type="building_manor_houses"
+                        type="building_manor_house"
                         country="c:PFL"
                         levels=5
                         region="STATE_ROCHENSTONE"
@@ -4922,7 +4931,7 @@ BUILDINGS = {
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }
+			activate_production_methods={ "pm_bakery" "pm_disabled_canning"   "pm_manual_dough_processing" }
 		}
 			create_building={
 			building="building_wheat_farm"
@@ -5219,7 +5228,7 @@ BUILDINGS = {
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing" "pm_disabled_distillery" }
+			activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_manual_dough_processing" }
 		}
 			create_building={
 			building="building_rye_farm"
@@ -6382,12 +6391,6 @@ BUILDINGS = {
 		create_building={
 			building="building_dwarf_tunnels"
 			level=1
-		}
-		create_building={
-			building="building_observatory"
-			level=1
-			reserves=1
-			activate_production_methods={ "pm_enchanted_orreys" }
 		}
 		create_building={
 			building="building_government_administration"
