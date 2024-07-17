@@ -1158,7 +1158,7 @@ STATE_UOSTOCATAL = {
         type = "bg_rubber"
         undiscovered_amount = 12
     }
-
+    naval_exit_id = 3083
 }
 STATE_AKVALITVA = {
     id = 3998

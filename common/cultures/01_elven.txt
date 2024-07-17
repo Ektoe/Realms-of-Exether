@@ -3,7 +3,7 @@
 	religion = elf_magic
 	traits = { high_elf elf_heritage  }
 	obsessions = {
-		fine_art
+		porcelain
 	}
 	male_common_first_names={
 		Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali 
@@ -67,6 +67,9 @@ nangarlith={
 	color= hsv{ 0.76 0.34 0.60 }
 	religion = elf_magic
 	traits = { high_elf elf_heritage  }
+	obsessions = {
+		porcelain
+	}
 	male_common_first_names={
 		Abd_al-Quddus
 		Abd_al-Rahman
@@ -135,6 +138,9 @@ nangarlith={
 seleni={
 	religion = elf_magic
 	traits = { high_elf elf_heritage  }
+	obsessions = {
+		porcelain
+	}
 	male_common_first_names={
 		Ali
 		Aliagha
@@ -211,6 +217,9 @@ kashtarnel={
 	color= hsv{ 0.49 0.03 0.99 }
 	religion = elf_magic
 	traits = { high_elf elf_heritage }
+	obsessions = {
+		porcelain
+	}
 	male_common_first_names={
 		Caubvick
 		David
@@ -481,7 +490,7 @@ lumvareth = {
 		Nurmivaara
 		Valapuro
 	}
-	graphics = african
+	graphics = european
 	ethnicities = {
 		1 = elf_wood
 	}
@@ -636,7 +645,7 @@ aridrun = {
 	religion = elf_southern
 	traits = { nogi_culture_group southern_elf  elf_heritage  }
 	obsessions = {
-		tea
+		clippers
 	}
 	male_common_first_names={
 		Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali Albu  
@@ -702,7 +711,7 @@ cithrel = {
 	religion = elf_southern
 	traits = { southern_elf elf_heritage }
 	obsessions = {
-		tea
+		clippers
 	}
 	male_common_first_names={
 		Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Ahmad Ali 
