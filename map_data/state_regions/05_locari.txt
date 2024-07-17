@@ -286,7 +286,7 @@ STATE_CHINTANAGIRI = {
 #STATE_PRABUDHYAMANA = {
 #    id = 4850
 #    subsistence_building = "building_subsistence_orchards"
-#    provinces = { "x80DAED" "x83C2B1" "xA8BBE4" "xBAE1D5" "xEE7B8D" "xF0FC34" }
+#    provinces = { "x80DAED" "x83C2B1" "xA8BBE4" "xBAE1D5" "xF0FC34" }
 #    city = x80DAED
 #    wood = x83C2B1
 #    farm = xA8BBE4
@@ -695,7 +695,7 @@ STATE_NYINGMAWASKAHIKAN = {
         bg_logging = 9
         bg_fishing_rusttails = 8
     }
-
+    naval_exit_id = 3058
 }
 STATE_POTALANIPIY = {
     id = 4881
@@ -1017,6 +1017,7 @@ STATE_ZANPIQ = {
     capped_resources = {
         bg_coal_mining = 60
         bg_iron_mining = 30
+        bg_fishing_rusttails = 4
         bg_logging = 7
     }
     resource = {

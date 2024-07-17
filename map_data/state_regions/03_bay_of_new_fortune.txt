@@ -536,7 +536,6 @@ STATE_PUKARAQOCHA = {
     wood = x53F8BE
     farm = x66CFDD
     mine = x71B0F4
-    port = x71E9FE
     arable_land = 40
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
@@ -626,8 +625,6 @@ STATE_QOMERQOCHA = {
         depleted_type = "bg_gold_mining"
         undiscovered_amount = 15
     }
-
-    naval_exit_id = 3106
 }
 STATE_ANTAQAQA = {
     id = 4485
@@ -653,8 +650,8 @@ STATE_URQUNAYUQ = {
     city = x5DE4F9
     wood = x6AE4BE
     farm = x87CCDD
-    mine = x8AF9AB
-    port = x87BECD
+    mine = x87CCDD
+    port = x8AF9AB
     arable_land = 27
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
     capped_resources = {
@@ -698,7 +695,7 @@ STATE_KUNTURPAMPA = {
         bg_logging = 5
         bg_iron_mining = 12
     }
-
+    naval_exit_id = 3131
 }
 STATE_NAWIYANU = {
     id = 4489
@@ -734,5 +731,5 @@ STATE_TINKUYUQ = {
         bg_coal_mining = 22
         bg_opium_plantations = 10
     }
-
+    naval_exit_id = 3132
 }

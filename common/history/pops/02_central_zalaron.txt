@@ -248,7 +248,7 @@
 			size = 928804
 		}
 		create_pop = {
-			culture = buramog
+			culture = plaguedweller
 			size = 318804
 		}
 		create_pop = {
@@ -824,7 +824,7 @@
 			size = 135996
 		}
 		create_pop = {
-			religion = nuzaptan
+			culture = nuzaptan
 			size = 32000
 		}
 	}

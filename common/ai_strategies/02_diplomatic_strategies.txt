@@ -1008,16 +1008,6 @@ ai_strategy_economic_imperialism = {
 						limit = { is_diplomatic_play_involved_with = scope:target_country }
 						multiply = 0.2
 					}
-					else_if = { # Very high score for opening Japan
-						limit = { 
-							scope:target_country = { 
-								exists = c:JAP
-								this = c:JAP		
-								has_law = law_type:law_isolationism 				
-							} 	
-						}
-						multiply = 10
-					}
 				}
 			}
 		}		

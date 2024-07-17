@@ -175,9 +175,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
-                        country="c:XOC"
+                        country="c:KUN"
                         levels=1
-                        region="STATE_KILIMASHWARI"
+                        region="STATE_PACHAQULLU"
                    }
                 }
 				reserves=1
@@ -188,9 +188,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:XOC"
+						country="c:KUN"
 						levels=1
-						region="STATE_UZURIKILIMA"
+						region="STATE_PACHAQULLU"
 				   }
 				}
 				reserves=1
@@ -227,9 +227,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:XOC"
+						country="c:TIT"
 						levels=2
-						region="STATE_UZURIKILIMA"
+						region="STATE_WAYLLAPAMPA"
 				   }
 				}
 				reserves=1
@@ -240,9 +240,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:XOC"
+						country="c:TIT"
 						levels=1
-						region="STATE_UZURIKILIMA"
+						region="STATE_WAYLLAPAMPA"
 				   }
 				}
 				reserves=1
@@ -253,9 +253,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KUN"
+						country="c:TIT"
 						levels=1
-						region="STATE_INTIWINA"
+						region="STATE_WAYLLAPAMPA"
 				   }
 				}
 				reserves=1
@@ -319,9 +319,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KUN"
+						country="c:GPK"
 						levels=1
-						region="STATE_MALLKIYAKU"
+						region="STATE_WAMANPATA"
 				   }
 				}
 				reserves=1
@@ -340,26 +340,26 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:XOC"
+                        country="c:WAQ"
                         levels=1
-                        region="STATE_UZURIKILIMA"
+                        region="STATE_NAWI_OASIS"
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_santa_clause_style" "pm_permanent_prestidigitation_furniture" "pm_automation_disabled" "pm_no_luxuries" }
+				activate_production_methods={ "pm_santa_clause_style" "pm_permanent_prestidigitation_furniture" "pm_no_luxuries" }
 			}
             create_building={
 				building="building_textile_mills"
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:XOC"
+                        country="c:WAQ"
                         levels=1
-                        region="STATE_UZURIKILIMA"
+                        region="STATE_NAWI_OASIS"
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_permanent_prestidigitation" "pm_automation_disabled" "pm_no_luxury_clothes" }
+				activate_production_methods={ "pm_handsewn_clothes" "pm_permanent_prestidigitation" "pm_no_luxury_clothes" }
 			}
 			create_building={
 				building="building_wishstone_mine"
@@ -372,9 +372,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:XOC"
+						country="c:WAQ"
 						levels=1
-						region="STATE_UZURIKILIMA"
+						region="STATE_NAWI_OASIS"
 				   }
 				}
 				reserves=1
@@ -402,9 +402,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KUN"
+                        country="c:TIT"
                         levels=3
-                        region="STATE_PACHAQULLU"
+                        region="STATE_TIKAQULLU"
                    }
                 }
 				reserves=1
@@ -415,9 +415,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAN"
+						country="c:TIT"
 						levels=2
-						region="STATE_QAQAMANTA"
+						region="STATE_TIKAQULLU"
 				   }
 				}
 				reserves=1
@@ -428,9 +428,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:WAQ"
+						country="c:TIT"
 						levels=1
-						region="STATE_LLANKAYUQ"
+						region="STATE_TIKAQULLU"
 				   }
 				}
 				reserves=1
@@ -461,9 +461,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:WAY"
+						country="c:PAC"
 						levels=1
-						region="STATE_PUKARAQOCHA"
+						region="STATE_KUCHUYPATA"
 				   }
 				}
 				reserves=1
@@ -474,9 +474,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:WAY"
+                        country="c:PAC"
                         levels=1
-                        region="STATE_PUKARAQOCHA"
+                        region="STATE_KUCHUYPATA"
                    }
                 }
 				reserves=1
@@ -542,7 +542,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:YKU"
-						levels=1
+						levels=5
 						region="STATE_ANTAQAQA"
 				   }
 				}
@@ -589,9 +589,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:WAY"
+						country="c:HOR"
 						levels=1
-						region="STATE_PUKARAQOCHA"
+						region="STATE_URQUNAYUQ"
 				   }
 				}
 				reserves=1
@@ -612,9 +612,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:WAY"
+                        country="c:HOR"
                         levels=1
-                        region="STATE_PUKARAQOCHA"
+                        region="STATE_TAYTAQOCHA"
                    }
                 }
 				reserves=1
@@ -625,9 +625,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:TIT"
+						country="c:HOR"
 						levels=1
-						region="STATE_TIKAQULLU"
+						region="STATE_TAYTAQOCHA"
 				   }
 				}
 				reserves=1
@@ -642,9 +642,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:XOC"
+						country="c:HOR"
 						levels=2
-						region="STATE_UZURIKILIMA"
+						region="STATE_KUNTURPAMPA"
 				   }
 				}
 				reserves=1
@@ -655,9 +655,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:XOC"
+						country="c:HOR"
 						levels=1
-						region="STATE_KILIMASHWARI"
+						region="STATE_KUNTURPAMPA"
 				   }
 				}
 				reserves=1
@@ -688,9 +688,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KAW"
+                        country="c:HOR"
                         levels=1
-                        region="STATE_MIKHUYUQ"
+                        region="STATE_NAWIYANU"
                    }
                 }
 				reserves=1

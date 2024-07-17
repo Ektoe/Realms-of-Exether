@@ -2279,6 +2279,7 @@ STATE_BELLENBOS = {
         bg_sulfur_mining = 32
         bg_logging = 23
         bg_hunting = 12
+        bg_wishstone_mining = 3
     }
     naval_exit_id = 3104
 }
@@ -2476,6 +2477,7 @@ STATE_KRULHOVEN = {
         bg_logging = 14
         bg_whaling = 8
         bg_fishing = 10
+        bg_wishstone_mining = 11
     }
     naval_exit_id = 3013
 }
@@ -2571,6 +2573,7 @@ STATE_GLIMMERWOUD = {
         bg_coal_mining = 64
         bg_sulfur_mining = 40
         bg_logging = 11
+        bg_wishstone_mining = 5
     }
     naval_exit_id = 3105
 }
@@ -3640,7 +3643,7 @@ STATE_SAVAGE_REACH = {
         bg_opium_plantations = 20
         bg_wishstone_mining = 23
     }
-
+    naval_exit_id = 3133
 }
 STATE_SNAILBANE = {
     id = 2829
@@ -3692,6 +3695,7 @@ STATE_BLOODTHORN_WASTES_2 = {
         bg_iron_mining = 4
         bg_wishstone_mining = 14
     }
+    naval_exit_id = 3134
 }
 STATE_SALTSHORE = {
     id = 2831
@@ -3759,5 +3763,5 @@ STATE_THIRSTRIDGE = {
         bg_opium_plantations = 16
         bg_wishstone_mining = 20
     }
-
+    naval_exit_id = 3134
 }

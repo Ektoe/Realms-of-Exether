@@ -2195,7 +2195,7 @@
 
                 has_dlc_feature = ep1_cosmetics
 
-                c:RUS ?= {
+                root ?= {
                     has_technology_researched = bolt_action_rifles
                 }
                 OR = {
@@ -2372,7 +2372,7 @@
 
                 has_dlc_feature = ep1_cosmetics
 
-                c:USA ?= {
+                root ?= {
                     NOT = { has_technology_researched = rifling }
                 }
                 american_clothes_pop_trigger = yes
@@ -2503,7 +2503,7 @@
 
                 has_dlc_feature = ep1_cosmetics
 
-                c:USA ?= {
+                root ?= {
                     has_technology_researched = bolt_action_rifles
                 }
                 OR = {
@@ -2514,7 +2514,6 @@
                     AND = {
                         scope:character ?= {
                             exists = home_country
-                            home_country = c:USA
                             is_female = no
                             OR = {
                                 has_role = general
@@ -2814,7 +2813,7 @@
                     officers_clothes_pop_trigger = yes
                 }
 
-                c:FRA ?= {
+                root ?= {
                     has_technology_researched = automatic_machine_guns
                 }
             }
@@ -2842,12 +2841,12 @@
                 OR = {
                     AND = {
                         # innovative generals wear modern uniforms slightly earlier
-                        c:FRA ?= {
+                        root ?= {
                             has_technology_researched = bolt_action_rifles
                         }
                         scope:character ?= { has_trait = innovative }
                     }
-                    c:FRA ?= {
+                    root ?= {
                         has_technology_researched = automatic_machine_guns
                     }
                 }
@@ -5368,7 +5367,7 @@ indigenous_oceanic_high_clothes_recognized = {
                 british_empire_clothes_pop_trigger = yes
                 soldier_clothes_pop_trigger = yes
 
-                c:GBR ?= {
+                root ?= {
                     NOT = { has_technology_researched = repeaters }
                 }
             }
@@ -5472,7 +5471,7 @@ indigenous_oceanic_high_clothes_recognized = {
                     officers_clothes_pop_trigger = yes
                 }
 
-                c:GBR ?= {
+                root ?= {
                     has_technology_researched = bolt_action_rifles
                 }
             }
@@ -5488,7 +5487,7 @@ indigenous_oceanic_high_clothes_recognized = {
                     has_role = general
                 }
 
-                c:GBR ?= {
+                root= {
                     has_technology_researched = bolt_action_rifles
                 }
             }

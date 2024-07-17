@@ -46,7 +46,7 @@
 	}
 	c:SMA= {
 		create_diplomatic_pact = {
-			country = c:MID
+			country = c:GCS
 			type = personal_union
 		}
 	}
