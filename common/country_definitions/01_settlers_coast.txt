@@ -40,7 +40,7 @@ EBR = {
 
 	country_type = recognized 
 
-	tier = empire
+	tier = kingdom
 
 	cultures = { eberri } 
 	capital = STATE_RUNEPORT_GALESTRUM
@@ -100,7 +100,7 @@ GCS = {
 
 	country_type = recognized 
 
-	tier = grand_principality
+	tier = principality
 
 	cultures = { coast_halfling rivierling } 
 	capital = STATE_PEARFIELDS
@@ -290,7 +290,7 @@ SMA = {
 
 	country_type = recognized
 
-	tier = principality
+	tier = grand_principality
 
 	cultures = { coast_halfling } 
 	capital = STATE_OUTER_MOORWEALD
