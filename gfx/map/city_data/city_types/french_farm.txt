@@ -91,6 +91,10 @@
 	building_livestock_ranch = {
 		french_farm_ranch_01_mesh
 	}
+
+	building_fur_hunting_lodge = {
+		french_farm_ranch_01_mesh
+	}
 	
 
 	building_coffee_plantation = {"french_farm_plantation_01_mesh"}
