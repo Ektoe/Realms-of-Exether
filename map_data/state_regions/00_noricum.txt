@@ -1279,6 +1279,7 @@ STATE_GLYNFFORDD = {
         bg_hunting = 5
         bg_wishstone_mining = 11
     }
+    naval_exit_id = 3025
 }
 STATE_ALLTGLAS = {
     id = 4070
