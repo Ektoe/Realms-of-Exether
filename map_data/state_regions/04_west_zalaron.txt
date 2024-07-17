@@ -3643,7 +3643,7 @@ STATE_SAVAGE_REACH = {
         bg_opium_plantations = 20
         bg_wishstone_mining = 23
     }
-
+    naval_exit_id = 3133
 }
 STATE_SNAILBANE = {
     id = 2829
@@ -3695,6 +3695,7 @@ STATE_BLOODTHORN_WASTES_2 = {
         bg_iron_mining = 4
         bg_wishstone_mining = 14
     }
+    naval_exit_id = 3134
 }
 STATE_SALTSHORE = {
     id = 2831
@@ -3762,5 +3763,5 @@ STATE_THIRSTRIDGE = {
         bg_opium_plantations = 16
         bg_wishstone_mining = 20
     }
-
+    naval_exit_id = 3134
 }
