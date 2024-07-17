@@ -42,16 +42,20 @@
 	
 	building_construction_sector = {"asian_manufactory_03_mesh"}
 	building_food_industry = {"asian_manufactory_01_mesh"}
+	building_potion_distillery = {"asian_manufactory_01_mesh"}
+	building_distillery = {"asian_manufactory_01_mesh"}
 	building_textile_mills = {"asian_tools_manufactory_01_mesh"}
 	building_furniture_manufacturies= {"asian_furniture_manufactory_01_mesh"}
 	building_glassworks = {"asian_glassworks_manufactory_01_mesh"}
-	building_tooling_workshops = {"asian_tools_manufactory_01_mesh"}
+	building_banana_plantation = {"asian_tools_manufactory_01_mesh"}
+	building_gizmo_workshop = {"asian_tools_manufactory_01_mesh"}
 	building_paper_mills = {"asian_manufactory_02_mesh"}
 	building_chemical_plants = {"asian_colonial_manufactory_01_mesh"}
 	building_steel_mills = {"asian_manufactory_01_mesh"}
 	building_artillery_foundries = {"asian_manufactory_01_mesh"}
 	building_arms_industry = {"asian_colonial_manufactory_03_mesh"}
 	building_war_machine_industry = {"war_machines_manufactory_01_mesh"}
+	building_airshipyards = {"war_machines_manufactory_01_mesh"}
 	building_motor_industry = {"asian_colonial_manufactory_02_mesh"}
 	building_munition_plants = {"asian_colonial_manufactory_03_mesh"}
 	building_synthetics_plants = {"asian_glassworks_manufactory_01_mesh"}
