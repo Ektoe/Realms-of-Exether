@@ -219,7 +219,7 @@ east_lacertian={
 	ethnicities = {
 		1 = lizard_komodo
 	}
-	graphics = african
+	graphics = european
 }
 
 
@@ -269,7 +269,7 @@ lacertian={
 	ethnicities = {
 		1 = lizard_iguana
 	}
-	graphics = african
+	graphics = european
 }
 
 kailando_lacertian={
@@ -315,7 +315,7 @@ kailando_lacertian={
 	ethnicities = {
 		1 = lizard_iguana
 	}
-	graphics = african
+	graphics = european
 }
 
 west_lacertian={
@@ -366,7 +366,7 @@ west_lacertian={
 	ethnicities = {
 		1 = lizard_chameleon
 	}
-	graphics = african
+	graphics = european
 }
 
 onikoku={

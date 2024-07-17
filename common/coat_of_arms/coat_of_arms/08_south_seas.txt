@@ -114,33 +114,32 @@ AZI = {
 }
 
 #Lacertian Company
-LAC = {
+LAC_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "green_light"
-	
-	colored_emblem = {
-		texture = "ce_canton.dds"
-		color1 = "white"
-		color2 = "black"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
-	}	
-
-	colored_emblem = {
-		texture = "ce_flag_border_rectangle.dds"
-		color1 = "brown_light"
-		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }	
-	}	
-
-	colored_emblem = {
-		texture = "ce_triangles.dds"
-		color1 = "green_light"
-		color2 = "black"
-		instance = { scale = { 0.48 0.48 } position = { 0.25 0.25 } }	
-	}
 
 	colored_emblem = {
 		texture = "ce_roe_lacertian company.dds"
 		color1 = "white"
 		instance = { scale = { 1.3 1.3 } position = { 0.75 0.73 } }	
 	}		
+}
+
+#EME Canton
+EME_canton = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_flag_border_rectangle.dds"
+		color1 = "brown_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
+	}	
+
+	colored_emblem = {
+		texture = "ce_triangles.dds"
+		color1 = "green_light"
+		color2 = "black"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
+	}	
 }
