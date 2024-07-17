@@ -480,7 +480,7 @@ castaway_dwarf={
 	ethnicities = {
 		1 = dwarf_light
 	}
-	graphics = african
+	graphics = european
 }
 
 hornodukh={

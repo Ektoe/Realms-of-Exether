@@ -695,7 +695,7 @@ STATE_NYINGMAWASKAHIKAN = {
         bg_logging = 9
         bg_fishing_rusttails = 8
     }
-
+    naval_exit_id = 3058
 }
 STATE_POTALANIPIY = {
     id = 4881
