@@ -173,8 +173,8 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_essence_extraction: "Essence Extraction Teams"
   pmg_game_hunting_potions: "Potions"
   pm_no_game_hunting_potions: "No Potions"
-  pm_basic_game_hunting_potions: "Basic Potions"
-  pm_wash_it_down: "Potions & Liqour"
+  pm_basic_game_hunting_potions: "Warming Reagents"
+  pm_wash_it_down: "Liquid Hearths"
 
   #Gizmo Workshops
   pmg_base_building_gizmo_workshop: "Gizmo Production"
