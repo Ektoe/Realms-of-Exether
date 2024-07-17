@@ -69,6 +69,14 @@ pmg_base_building_leviathan_outpost = {
 				pm_steam_leviathan_ships
 			}
 }
+pmg_laborer_saving_leviathan_outpost = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_harvesting
+		pm_safety_potions
+		pm_automagical_harvesting
+	}
+}
 pmg_medical_supplies_leviathan_outpost = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
