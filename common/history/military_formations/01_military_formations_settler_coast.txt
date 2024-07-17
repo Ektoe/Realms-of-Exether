@@ -477,7 +477,7 @@
 				state_region = s:STATE_FERNSEA
 				count = 1
 			}
-
+			save_scope_as = first_fist
 		}
 
 		create_military_formation = {
@@ -568,19 +568,19 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_RIVER_MEDDEN
+				state_region = s:STATE_ORCBANE_PASS_2
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_RIVER_MEDDEN
+				state_region = s:STATE_ORCBANE_PASS_2
 				count = 1
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_RIVER_MEDDEN
+				state_region = s:STATE_ORCBANE_PASS_2
 				count = 1
 			}
 
@@ -780,19 +780,19 @@
 
                         combat_unit = { 
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:LANDING_AT_SEA
+				state_region = s:STATE_LANDING_AT_SEA
 				count = 9
 			}
 
                         combat_unit = { 
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:LANDING_AT_SEA_2
+				state_region = s:STATE_LANDING_AT_SEA_2
 				count = 2
 			}
 
                         combat_unit = { 
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:PENDYM_GWYN
+				state_region = s:STATE_PENDYM_GWYN
 				count = 5
 			}
 		}	
