@@ -90,7 +90,7 @@ x98d567;x947ff4;special;-1;1440;3613;2805;1455;;cloudless skies-->intiwina
 x98d567;x524ba5;special;-1;1440;3613;1436;3613;;cloudless skies-->barren skies
 x2a2ee7;x524ba5;special;-1;1432;3613;1436;3613;;goldenpass skies-->barren skies
 x2a2ee7;xcfd2ba;special;-1;1432;3613;2481;1560;;goldenpass skies-->navakai
-x2a2ee7;xcfd2ba;special;-1;1432;3613;2529;1609;;goldenpass skies-->suyanaku
+x2a2ee7;xfb46c5;special;-1;1432;3613;2529;1609;;goldenpass skies-->suyanaku
 x2a2ee7;xdbce87;special;-1;1432;3613;2514;1693;;goldenpass skies-->wamanpata
 x2a2ee7;x1d9e44;special;-1;1432;3613;1460;3613;;goldenpass skies-->diyanikhadd basin skies
 xe887c1;x961802;special;-1;1487;3613;1427;3613;;shoulderskies-->klingel heights
@@ -193,12 +193,12 @@ x750581;x2be7ec;special;-1;1332;3613;3340;2203;;kumaska skies-->kumaska
 x5d51b9;x051a24;special;-1;1337;3613;3226;2772;;idk peninsula skies-->steepcliff coast
 x5d51b9;xdf54ee;special;-1;1337;3613;3231;2612;;idk peninsula skies-->trankvilejo
 x5d51b9;xe5c08c;special;-1;1337;3613;3184;2601;;idk peninsula skies-->insuleco
-x5d51b9;xe5c08c;special;-1;1337;3613;1328;3613;;idk peninsula skies-->verdskies
-xc161b7;xe5c08c;special;-1;1323;3613;1328;3613;;krovadoran skies-->verdskies
-xaed3f8;xe5c08c;special;-1;3242;2547;1328;3613;;verdfaldo   -->verdskies
-xa6d7e7;xe5c08c;special;-1;3250;2450;1328;3613;;florbordo-->verdskies
+x5d51b9;x4e84bd;special;-1;1337;3613;1328;3613;;idk peninsula skies-->verdskies
+xc161b7;x4e84bd;special;-1;1323;3613;1328;3613;;krovadoran skies-->verdskies
+xaed3f8;x4e84bd;special;-1;3242;2547;1328;3613;;verdfaldo-->verdskies
+xa6d7e7;x4e84bd;special;-1;3250;2450;1328;3613;;florbordo-->verdskies
 x89bb15;x051a24;special;-1;1312;3613;3226;2772;;montego heights-->steepcliff coast
-x89bb15;xe5c08c;special;-1;1312;3613;1328;3613;;montego heights-->verdskies
+x89bb15;x4e84bd;special;-1;1312;3613;1328;3613;;montego heights-->verdskies
 xc161b7;xfc74b7;special;-1;1323;3613;3227;2389;;krovadoran skies-->fikolik
 xc161b7;xef0569;canal_wolkara;-1;1323;3613;1317;3613;;krovadoran skies-->wolkara heights
 x750581;xef0569;canal_wolkara;-1;1332;3613;1317;3613;;kumaska skies-->wolkara heights
@@ -305,14 +305,14 @@ x59814b;x28f6fb;special;-1;1527;3613;4243;2170;;cropheart winds-->clearbough est
 x59814b;xde56f8;special;-1;1527;3613;4280;2105;;cropheart winds-->goldenmoor tp
 x59814b;xdf94e8;special;-1;1527;3613;4308;2189;;cropheart winds-->cropheart dale
 x59814b;xa2cea8;special;-1;1527;3613;4299;2229;;cropheart winds-->cropheart dale tp
-xc0f815;xe5e3e1;special;-1;1532;3613;1522;3613;;faerondale heights-->emberland skies
-xc0f815;x3fd1e1;special;-1;1532;3613;1537;3613;;faerondale heights-->faolna winds
-xc0f815;x291364;special;-1;1532;3613;1227;3613;;faerondale heights-->northern feystalk skies
-xc0f815;x3fd1e1;special;-1;1532;3613;1537;3613;;faerondale heights-->faolna winds
-xc0f815;x9dbec0;special;-1;1532;3613;4088;2102;;faerondale heights-->faerondale
-xc0f815;xd28cd8;special;-1;1532;3613;4114;2129;;faerondale heights-->faerondale tp
-xc0f815;x5bfaea;special;-1;1532;3613;4017;2128;;faerondale heights-->autumn hills
-xc0f815;xecc083;special;-1;1532;3613;4009;2147;;faerondale heights-->autumn hills tp
+xc05815;xe5e3e1;special;-1;1532;3613;1522;3613;;faerondale heights-->emberland skies
+xc05815;x3fd1e1;special;-1;1532;3613;1537;3613;;faerondale heights-->faolna winds
+xc05815;x291364;special;-1;1532;3613;1227;3613;;faerondale heights-->northern feystalk skies
+xc05815;x3fd1e1;special;-1;1532;3613;1537;3613;;faerondale heights-->faolna winds
+xc05815;x9dbec0;special;-1;1532;3613;4088;2102;;faerondale heights-->faerondale
+xc05815;xd28cd8;special;-1;1532;3613;4114;2129;;faerondale heights-->faerondale tp
+xc05815;x5bfaea;special;-1;1532;3613;4017;2128;;faerondale heights-->autumn hills
+xc05815;xecc083;special;-1;1532;3613;4009;2147;;faerondale heights-->autumn hills tp
 xe0c5c3;x3fd1e1;special;-1;3923;2063;1537;3613;;faolna pass split-->faolna winds
 xe2e185;x3fd1e1;special;-1;3937;2105;1537;3613;;faolna pass-->faolna winds
 x291364;x3fd1e1;special;-1;3945;2128;1537;3613;;faolna pass tp-->faolna winds
@@ -379,8 +379,6 @@ xdecfab;x4DC8AC;special;-1;3912;2824;1587;3613;;zakiriya-->KAsida heights
 xe489fe;x4DC8AC;special;-1;4010;2925;1587;3613;;vivari shores-->KAsida heights
 xe489fe;x8376d6;special;-1;4010;2925;1592;3613;;vivari shores-->kajrando skies
 x7d9d6b;x9b2375;special;-1;1582;3613;1602;3613;;sullenskies-->wastewall heights
-xa4caa7;x9b2375;special;-1;3835;2547;1602;3613;;qamarud tp-->wastewall heights
-x84c1de;x9b2375;special;-1;3848;2573;1602;3613;;qamurud-->wastewall heights
 x7d9d6b;x9b2375;special;-1;1582;3613;1602;3613;;sullenskies-->wastewall heights
 x248677;x9b2375;special;-1;1607;3613;1602;3613;;ashgate heights-->wastewall heights
 x248677;x248677;special;-1;1607;3613;1597;3613;;ashgate heights-->saharando skies
@@ -602,3 +600,26 @@ x1916b0;x7f0656;special;-1;1352;3613;3105;2017;;savage skies-->salty shores
 x7f0656;x13dfb7;special;-1;3105;2017;1348;3613;;salty shores-->maplelake skies
 x750581;xb57da3;special;-1;1332;3613;3360;2015;;kumaska skies-->sangari shores
 x2ee350;xb57da3;special;-1;1287;3613;3360;2015;;chronicle heights-->sangari shores
+x2ee350;xb57da3;special;-1;1287;3613;3360;2015;;chronicle heights-->sangari shores
+xaae2c2;x1e95bc;special;-1;-1;-1;-1;-1;;khaulan-->hooked winds
+xc2c5b8;x1e95bc;special;-1;-1;-1;-1;-1;;batokyoan-->hooked winds
+xeb3bf6;x1e95bc;special;-1;-1;-1;-1;-1;;kitayamao-->hooked winds
+x96ccda;x8b2b55;special;-1;-1;-1;-1;-1;;oronk-->north lanternshores
+x8dfafa;x8b2b55;special;-1;-1;-1;-1;-1;;khurin-->north lanternshores
+xe574d0;x68484D;special;-1;-1;-1;-1;-1;;not khurin-->md skies
+xdc94e5;xa9180d;special;-1;-1;-1;-1;-1;;shinkanbata-->skies 7
+xb8abbd;xa9180d;special;-1;-1;-1;-1;-1;;arashihara-->skies 7
+xbbd2d8;x843b4e;special;-1;-1;-1;-1;-1;;kiyomorin-->kiyomorin skies
+xcc62e7;x843b4e;special;-1;-1;-1;-1;-1;;khulekka-->kiyomorin skies
+xdc56ef;x922174;special;-1;-1;-1;-1;-1;;tukhur-->nilbogyurt skies
+xf6aa9f;x922174;special;-1;-1;-1;-1;-1;;uldor-->nilbogyurt skies
+x888de7;x922174;special;-1;-1;-1;-1;-1;;khorta-->nilbogyurt skies
+xf0b6aa;x35e613;special;-1;-1;-1;-1;-1;;sukhia-->skies 3
+xcafe82;x35e613;special;-1;-1;-1;-1;-1;;saino-->skies 3
+xc4d17f;x35e613;special;-1;-1;-1;-1;-1;;erkhe-->skies 3
+x92fd94;x35e613;special;-1;-1;-1;-1;-1;;dalkh-->skies 3
+xc2e3f2;x35e613;special;-1;-1;-1;-1;-1;;altanu-->skies 3
+x8de18a;xe5943e;special;-1;-1;-1;-1;-1;;onon-->skies 1
+x65cad1;xe5943e;special;-1;-1;-1;-1;-1;;tsenk-->skies 1
+xde5dbf;xe5943e;special;-1;-1;-1;-1;-1;;dorno-->skies 1
+xd6b4c6;xe5943e;special;-1;-1;-1;-1;-1;;dorno-->skies 1
