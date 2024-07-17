@@ -300,16 +300,32 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_hasals_mirror
+			name = Kingsguard
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_VONKENDAM
-				count = 8
+				count = 10
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BELLENBERG
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GLIMMERDAM
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_SNAARBERG
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_VONKENDAM
-				count = 2
+				count = 12
 			}
 
 			save_scope_as = tle_army
@@ -324,6 +340,222 @@
 		scope:tle_general = {
 			transfer_to_formation = scope:tle_army
 		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_hasals_mirror
+			name = Army_of_Havenshire
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HAVENSHIRE
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_STORMWATCH
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_EVERLUND
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_FARREACH
+				count = 10
+			}
+
+			save_scope_as = tle_army2
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			hq = region_hasals_mirror
+			save_scope_as = tle_general2
+		}
+		
+		scope:tle_general = {
+			transfer_to_formation = scope:tle_army2
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_hasals_mirror
+			name = Windsong_Conscript_Legion
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WINDSONG
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_MOONSHADE
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WINDSONG
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_STORMHOLM
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_MISTVALE
+				count = 10
+			}
+
+			save_scope_as = tle_army3
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			hq = region_hasals_mirror
+			save_scope_as = tle_general3
+		}
+		
+		scope:tle_general = {
+			transfer_to_formation = scope:tle_army3
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_hasals_mirror
+			name = Royal_Thalorian_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VONKENDAM
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SNAARBERG
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SNAARGRACHT
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_VONKENDAM
+				count = 10
+			}
+
+			save_scope_as = tle_army4
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			hq = region_hasals_mirror
+			save_scope_as = tle_general4
+		}
+		
+		scope:tle_general = {
+			transfer_to_formation = scope:tle_army4
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_hasals_mirror
+			name = Royal_Homeguard_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SPRONKERGROEN
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SNAARGRACHT
+				count = 30
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_WINDSONG
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GLIMMERDAM
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_VONKENDAM
+				count = 10
+			}
+
+			save_scope_as = tle_army5
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_3
+			hq = region_hasals_mirror
+			save_scope_as = tle_general5
+		}
+		
+		scope:tle_general = {
+			transfer_to_formation = scope:tle_army5
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_hasals_mirror
+			name = Southern_Frontier_Militia
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_SUNDALE
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_BRIGHTWATER
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_THORNFIELD
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WHITESTONE
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_SNAARGRACHT
+				count = 10
+			}
+
+			save_scope_as = tle_army3
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			hq = region_hasals_mirror
+			save_scope_as = tle_general6
+		}
+		
+		scope:tle_general = {
+			transfer_to_formation = scope:tle_army6
+		}
+
 	}
 	c:ARD ?= {
 		create_military_formation = {
