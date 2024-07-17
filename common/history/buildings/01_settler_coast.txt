@@ -1,4 +1,4 @@
-BUILDINGS = {
+﻿BUILDINGS = {
 #Settlers Coast Ownership is fixed, forgot to put a note here.
   s:STATE_SHARINDLARS_NEEDLE = {
 		  region_state:EME={  
@@ -5383,7 +5383,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:DAR"
-                        levels=2
+                        levels=8
                         region="STATE_MOUNT_YELFIS"
                    }
                 }
@@ -5518,7 +5518,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:DAR"
-                        levels=4
+                        levels=2
                         region="STATE_MOUNT_YELFIS"
                    }
                 }
@@ -5531,7 +5531,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:DAR"
-                        levels=2
+                        levels=1
                         region="STATE_MOUNT_YELFIS"
                    }
                 }
@@ -5544,7 +5544,7 @@ BUILDINGS = {
 					building={ 
 						type="building_manor_house"
 						country="c:DAR"
-						levels=27
+						levels=28
 						region="STATE_MOUNT_YELFIS"
 				   }
 				}
@@ -5557,7 +5557,7 @@ BUILDINGS = {
 					building={ 
 						type="building_manor_house"
 						country="c:DAR"
-						levels=4
+						levels=2
 						region="STATE_MOUNT_YELFIS"
 				   }
 				}
@@ -5596,7 +5596,7 @@ BUILDINGS = {
 					  building={ 
 						  type="building_financial_district"
 						  country="c:DAR"
-						  levels=5
+						  levels=6
 						  region="STATE_MOUNT_YELFIS"
 					 }
 				  }
