@@ -118,14 +118,6 @@ state_orc_father_standard_of_living_add = {
 	}
 }
 
-state_	taboos_standard_of_living_add = {
-	decimals=1
-	color=good
-	game_data={
-		ai_value=0
-	}
-}
-
 state_orc_mother_standard_of_living_add = {
 	decimals=1
 	color=good
