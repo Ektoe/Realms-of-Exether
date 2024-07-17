@@ -210,11 +210,11 @@ xb85412;xc280f1;special;-1;1293;3613;1297;3613;;cantremember skies-->istrana ski
 xb85412;xf199a3;special;-1;1293;3613;3607;3187;;cantremember skies-->istrana skies
 xb85412;xf5c9ba;special;-1;1293;3613;3604;2279;;cantremember skies-->foban
 xb85412;xb992cc;special;-1;1293;3613;3540;2227;;cantremember skies-->mipolik
-xb85412;xb992cc;special;-1;1293;3613;1282;3613;;cantremember skies-->kamuy peaks
-xfcb9f1;xb992cc;special;-1;3601;2056;1282;3613;;sukonco_3-->kamuy peaks
-xf53efb;xb992cc;special;-1;3633;2139;1282;3613;;sukonco_2-->kamuy peaks
-xaae578;xb992cc;special;-1;3652;2107;1282;3613;;sukonco_2 split-->kamuy peaks
-xb6c1d0;xb992cc;special;-1;3560;2113;1282;3613;;inamgi_2-->kamuy peaks
+xb85412;xec5a49;special;-1;1293;3613;1282;3613;;cantremember skies-->kamuy peaks
+xfcb9f1;xec5a49;special;-1;3601;2056;1282;3613;;sukonco_3-->kamuy peaks
+xf53efb;xec5a49;special;-1;3633;2139;1282;3613;;sukonco_2-->kamuy peaks
+xaae578;xec5a49;special;-1;3652;2107;1282;3613;;sukonco_2 split-->kamuy peaks
+xb6c1d0;xec5a49;special;-1;3560;2113;1282;3613;;inamgi_2-->kamuy peaks
 x794c2e;x95b4bc;special;-1;1277;3613;5109;208;;paylazi heights-->dragon landing
 x794c2e;xd7f872;special;-1;1277;3613;5306;92;;paylazi heights-->hellenova tp
 x794c2e;x84cac3;special;-1;1277;3613;-1;-1;;paylazi heights-->hellenova
@@ -225,7 +225,7 @@ x794c2e;xc09f23;special;-1;3537;1869;1272;3613;;muschelhavn landing-->south suko
 x794c2e;xefa218;special;-1;3537;1869;1267;3613;;muschelhavn landing-->flussholm skies
 xe1ea7b;xc09f23;special;-1;3649;1993;1272;3613;;sukonco-->south sukonskies
 xddf694;xc09f23;special;-1;0;0;1272;3613;;sukonco_4-->south sukonskies
-x2ee350;xb992cc;special;-1;1287;3613;1282;3613;;chronicle heights-->kamuy peaks
+x2ee350;xec5a49;special;-1;1287;3613;1282;3613;;chronicle heights-->kamuy peaks
 x2ee350;x3fddf0;special;-1;1287;3613;3538;2038;;chronicle heights-->inamgi_3
 x2ee350;xe8eab6;special;-1;1287;3613;3486;2073;;chronicle heights-->inamgi
 xc280f1;xef0569;canal_wolkara;-1;1297;3613;1317;3613;;istrana skies-->wolkara heights
