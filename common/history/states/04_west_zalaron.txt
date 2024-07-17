@@ -678,7 +678,7 @@ add_homeland = cu:tozhi
 s:STATE_DINASHIN = {
 	create_state = {
 		country = c:KHD
-		owned_provinces = { "x49CFF2" "x71E1F0" "x7FF3BB" "x84C0B7" "x86C1D2" "x9978ED" "xACF882" "xAF94FB" "xAFDB81" "xB19BB2" "xDDEFB1" "xE06CAB" "xE17C9E" "xEBE855" "xED88E9" }
+		owned_provinces = { "x49CFF2" "x71E1F0" "x7FF3BB" "x84C0B7" "x86C1D2" "x9978ED" "xACF882" "xAF94FB" "xAFDB81" "xB19BB2" "xE06CAB" "xE17C9E" "xEBE855" "xED88E9" }
 }
 add_homeland = cu:duneshar
 add_homeland = cu:kaalkid
