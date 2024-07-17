@@ -354,6 +354,7 @@ STATE_MENDIALDE = {
         bg_lead_mining = 36
         bg_logging = 9
     }
+    naval_exit_id = 3064
 }
 STATE_KHANOR = {
     id = 4643
