@@ -1379,6 +1379,7 @@ STATE_GARPATIA = {
     arable_resources = { "bg_livestock_ranches" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" "bg_rye_farms" }
     capped_resources = {
         bg_coal_mining = 40
+        bg_game_hunting = 5
     }
 
     naval_exit_id = 3197
@@ -1396,6 +1397,7 @@ STATE_WHAKARAROA = {
     arable_resources = { "bg_livestock_ranches" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" "bg_rye_farms" }
     capped_resources = {
         bg_logging = 7
+        bg_game_hunting = 3
     }
     naval_exit_id = 3197
 }
@@ -1453,6 +1455,7 @@ STATE_TURAKINA = {
     capped_resources = {
         bg_logging = 9
         bg_squidding = 8
+        bg_game_hunting = 3
     }
     naval_exit_id = 3031
 }
@@ -1531,6 +1534,7 @@ STATE_PATARENI = {
     capped_resources = {
         bg_logging = 12
         bg_squidding = 10
+        bg_game_hunting = 4
     }
     naval_exit_id = 3089
 }
