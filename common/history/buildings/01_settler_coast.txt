@@ -2128,7 +2128,7 @@
 			reserves=1
 			activate_production_methods={ "pm_no_organization" }
 		}
-		create_building={
+		create_building={ #they do not have the tech for this
 			building="building_railway"
 			add_ownership={ 
 				building={ 
@@ -2149,7 +2149,6 @@
 			activate_production_methods={ "pm_basic_port" }
 		}
 	}
-  }
 	region_state:GCS={
 		create_building={
 			building="building_government_administration"
@@ -2189,7 +2188,8 @@
 			activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
 		}
 	}
-  
+  }
+ 
 
   s:STATE_OUTER_MOORWEALD_2 = {
 	region_state:SMA={
