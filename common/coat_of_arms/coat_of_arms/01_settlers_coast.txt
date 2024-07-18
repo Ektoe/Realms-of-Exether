@@ -207,10 +207,28 @@ FEY = {
 	}
 }
 
+#Smallshore
+SMA = {
+    pattern = "pattern_solid.tga"
+    color1 = "orange"
+
+    colored_emblem = {
+        texture = "ce_sun_sikh.dds"
+        color1 = "yellow"
+        instance = { scale = { 1 1 } position = { 0.5 0.75 } }    
+    }
+
+    colored_emblem = {
+        texture = "ce_waves_estonia.dds"
+    color1 = "blue_light"
+        instance = { scale = { 1.25 1.25 } position = { 0.5 1.2 } rotation = 180 }    
+    }   
+}
+
 #Gladcross
 GCS = {
-	pattern = "pattern_solid.tga" #Choose a base from gfx\coat_of_arms\patterns
-	color1 = "green" #Use a predefined colour or you can do 'color1 = rgb{ x x x }'.
+	pattern = "pattern_solid.tga"
+	color1 = "green" 
 
 	colored_emblem = {
 		texture = "ce_bicolor_top.dds"
@@ -230,6 +248,36 @@ GCS = {
 		instance = { scale = { 1 0.5 } position = { 0.5 0.25 } }
 		instance = { scale = { 1 0.5 } position = { 0.5 0.75 } }
 	}
+}
+
+#Gladcross with Smallshore PU
+GCS_subject_SMA = {
+    pattern = "pattern_solid.tga"
+    color1 = "orange"
+
+    colored_emblem = {
+        texture = "ce_bend_dexter.dds"
+        color1 = "green"
+        instance = { scale = { 0.75 0.75 } position = {  0.75 0.25 } }    
+    }   
+
+    colored_emblem = {
+        texture = "ce_bend_sinister.dds"
+        color1 = "green"
+        instance = { scale = { 0.75 0.75 } position = { 0.25 0.25 } }
+    }   
+
+    colored_emblem = {
+        texture = "ce_sun_sikh.dds"
+        color1 = "yellow"
+        instance = { scale = { 1 1 } position = { 0.5 0.75 } }    
+    }
+
+    colored_emblem = {
+        texture = "ce_waves_estonia.dds"
+        color1 = "blue_light"
+        instance = { scale = { 1.25 1.25 } position = { 0.5 1.2 } rotation = 180 }    
+    }   
 }
 
 #Gladshire

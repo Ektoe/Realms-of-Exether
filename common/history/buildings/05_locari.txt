@@ -66,7 +66,6 @@
 				   }
 				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_traditional_looms" "pm_no_luxury_clothes" }
 			}
 			create_building={
@@ -85,7 +84,6 @@
 				   }
 				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts"  }
 			}
 			create_building={
@@ -99,7 +97,6 @@
 				   }
 				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
 			create_building={
@@ -716,7 +713,6 @@
 				   }
 				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 			create_building={
@@ -730,7 +726,6 @@
 				   }
 				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
 			create_building={
@@ -744,7 +739,6 @@
 				   }
 				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts"  }
 			}
 			create_building={
@@ -794,7 +788,6 @@
                    }
                 }
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
 			create_building={
@@ -808,7 +801,6 @@
                    }
                 }
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
 			}
 			create_building={
@@ -822,7 +814,6 @@
                    }
                 }
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts"  }
 			}
 		}
@@ -1294,7 +1285,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SCC"
+						country="c:SSC"
 						levels=2
 						region="STATE_KHANGYO"
 				   }
@@ -1320,7 +1311,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
-                        country="c:JIV"
+                        country="c:SSC"
                         levels=1
                         region="STATE_KHANGYO"
                    }
@@ -1724,7 +1715,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
-                        country="c:TKI"
+                        country="c:PAY"
                         levels=2
                         region="STATE_HERMENIA"
                    }
@@ -1792,12 +1783,11 @@
                     building={ 
                         type="building_financial_district"
                         country="c:PAY"
-                        levels=1
+                        levels=2
                         region="STATE_GREOS"
                    }
                 }
 				reserves=1
-				level = 2
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 		}
@@ -2149,14 +2139,7 @@
 			}
             create_building={
 				building="building_fishing_wharf_rusttails"
-                add_ownership={ 
-                    building={ 
-                        type="building_adventuring_guild"
-                        country="c:CCO"
-                        levels=1
-                        region="STATE_MYTHOS"
-                   }
-                }
+                level = 1
 				reserves=1
 				
 			}
