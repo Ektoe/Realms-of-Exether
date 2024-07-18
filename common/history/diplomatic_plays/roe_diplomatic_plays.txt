@@ -8,7 +8,8 @@
 			war = yes
 			
 			type = dp_humiliation
-			
+
+		
 			add_war_goal = {
 				holder = c:TLE
 				type = return_state
