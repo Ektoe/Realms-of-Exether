@@ -931,7 +931,7 @@ c:DAR ?= {
 	}
 	create_trade_route = {
 		goods = sugar
-		level = 7
+		level = 4
 		target = c:THI.market
 		direction = import
 	}		
