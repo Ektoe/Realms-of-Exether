@@ -71,6 +71,12 @@ state_is_in_teferet = {
 	}
 }
 
+state_is_in_dragon_isles = {
+	OR = {
+		region = sr:region_west_dragon_isles
+		region = sr:region_amethyst_archipelago
+	}
+}
 state_is_in_west_locari = {
 	OR = {
 		region = sr:region_new_dumonia

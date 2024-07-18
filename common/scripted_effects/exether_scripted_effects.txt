@@ -20,7 +20,7 @@ dragonblight_killswitch_engage = {
 		}
 		change_pop_culture = {
 			target = cu:kotskarvi
-			value = 0.2
+			value = 0.4
 		}
 	}
 }

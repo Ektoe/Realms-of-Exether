@@ -243,9 +243,9 @@
 					value = 0.4
 				}
 			}
-				#  scope:klypyra_settler_scope = {
-				#  	trigger_event = todo_event
-				#  }
+				 scope:klypyra_settler_scope = {
+				 	trigger_event = dragonblight.4
+				 }
 				}
 				if = {
 					limit = {
@@ -268,7 +268,7 @@
 					s:STATE_ZAMARIS = {
 						set_owner_of_provinces = {
 							country = scope:zamaris_settler_scope
-							provinces = {xbfccfe xA1B4E7}
+							provinces = { xbfccfe xA1B4E7 }
 						}	
 					}
 					every_scope_pop = {
@@ -280,9 +280,9 @@
 						value = 0.4
 					}
 				}
-					#  scope:zamaris_settler_scope = {
-					#  	trigger_event = todo_event
-					#  }
+					 scope:zamaris_settler_scope = {
+					 	trigger_event = dragonblight.4
+					 }
 					}
 						if = {
 							limit = {
@@ -305,7 +305,7 @@
 							s:STATE_LEPIDRA = {
 								set_owner_of_provinces = {
 									country = scope:lepidra_settler_scope
-									provinces = {xe39a8f xb5dcc3}
+									provinces = { xe39a8f xb5dcc3 }
 								}	
 							}
 							every_scope_pop = {
@@ -317,9 +317,9 @@
 								value = 0.4
 							}
 						}
-							#  scope:lepidra_settler_scope = {
-							#  	trigger_event = todo_event
-							#  }
+							 scope:lepidra_settler_scope = {
+							 	trigger_event = dragonblight.4
+							 }
 							}
 							if = {
 								limit = {
@@ -342,7 +342,7 @@
 								s:STATE_ZARTHOS = {
 									set_owner_of_provinces = {
 										country = scope:zarthos_settler_scope
-										provinces = {x4ddff6 xbead9c }
+										provinces = { x4ddff6 xbead9c }
 									}	
 								}
 								every_scope_pop = {
@@ -354,9 +354,9 @@
 									value = 0.4
 								}
 							}
-								#  scope:zarthos_settler_scope = {
-								#  	trigger_event = todo_event
-								#  }
+								 scope:zarthos_settler_scope = {
+								 	trigger_event = dragonblight.4
+								 }
 								}
 								if = {
 									limit = {
@@ -391,13 +391,13 @@
 										value = 0.4
 									}
 								}
-									#  scope:caltha_settler_scope = {
-									#  	trigger_event = todo_event
-									#  }
+									 scope:caltha_settler_scope = {
+									 	trigger_event = dragonblight.4
+									 }
 									}
 									if = {
 										limit = {
-											state_region = s:STATE_SIGARA
+											state_region = s:STATE_SIGARA #todo; else_if
 											is_split_state = no
 										}
 										random_neighbouring_state = {
@@ -416,7 +416,7 @@
 										s:STATE_SIGARA = {
 											set_owner_of_provinces = {
 												country = scope:sigara_settler_scope
-												#provinces = {xA2D9B2 xC4F349} todo
+												provinces = { xec97c9 xc1a4d3 }
 											}	
 										}
 										every_scope_pop = {
@@ -428,47 +428,10 @@
 											value = 0.4
 										}
 									}
-										#  scope:sigara_settler_scope = {
-										#  	trigger_event = todo_event
-										#  }
+										 scope:sigara_settler_scope = {
+										 	trigger_event = dragonblight.4
+										 }
 								}
-									if = {
-										limit = {
-											state_region = s:STATE_SIGARA
-											is_split_state = no
-										}
-										random_neighbouring_state = {
-											limit = {
-												owner = {
-													OR = {
-														country_has_primary_culture = cu:kotskarvi
-														country_has_primary_culture = cu:lomarash
-													}
-												}
-											}
-											owner = {
-												save_scope_as = sigara_settler_scope
-											}
-										}
-										s:STATE_SIGARA = {
-											set_owner_of_provinces = {
-												country = scope:sigara_settler_scope
-												#provinces = {xA2D9B2 xC4F349} todo
-											}	
-										}
-										every_scope_pop = {
-										limit = {
-											culture = cu:kotskarvi
-										}
-										change_pop_culture = {
-											target = cu:illvasaari
-											value = 0.4
-										}
-									}
-										#  scope:sigara_settler_scope = {
-										#  	trigger_event = todo_event
-										#  }
-										}
 										if = {
 											limit = {
 												state_region = s:STATE_LEPTISCA
@@ -502,9 +465,9 @@
 												value = 0.4
 											}
 										}
-											#  scope:leptisca_settler_scope = {
-											#  	trigger_event = todo_event
-											#  }
+											 scope:leptisca_settler_scope = {
+											 	trigger_event = dragonblight.4
+											 }
 											}
 											if = {
 												limit = {
@@ -576,13 +539,13 @@
 														value = 0.4
 													}
 												}
-													#  scope:thaspyr_settler_scope = {
-													#  	trigger_event = todo_event
-													#  }
+													 scope:thaspyr_settler_scope = {
+													 	trigger_event = dragonblight.4
+													 }
 													}
 													if = {
 														limit = {
-															state_region = s:STATE_LILYBAEUM
+															state_region = s:STATE_LILYBAEUM #todo; else_if to release the other side depending on where neighboring kobold state is
 															is_split_state = no
 														}
 														random_neighbouring_state = {
@@ -613,10 +576,121 @@
 															value = 0.4
 														}
 													}
-														#  scope:lilybaeum_settler_scope = {
-														#  	trigger_event = todo_event
-														#  }
+														 scope:lilybaeum_settler_scope = {
+														 	trigger_event = dragonblight.4
+														 }
 														}
+														if = {
+															limit = {
+																state_region = s:STATE_ZYRAS
+																is_split_state = no
+															}
+															random_neighbouring_state = {
+																limit = {
+																	owner = {
+																		OR = {
+																			country_has_primary_culture = cu:kotskarvi
+																			country_has_primary_culture = cu:lomarash
+																		}
+																	}
+																}
+																owner = {
+																	save_scope_as = zyras_settler_scope
+																}
+															}
+															s:STATE_ZYRAS = {
+																set_owner_of_provinces = {
+																	country = scope:zyras_settler_scope
+																	provinces = { xcdbaf8 xa0dcb9 }
+																}	
+															}
+															every_scope_pop = {
+															limit = {
+																culture = cu:kotskarvi
+															}
+															change_pop_culture = {
+																target = cu:illvasaari
+																value = 0.4
+															}
+														}
+															 scope:zyras_settler_scope = {
+															 	trigger_event = dragonblight.4
+															 }
+															}
+															if = {
+																limit = {
+																	state_region = s:STATE_LEPTHAR
+																	is_split_state = no
+																}
+																random_neighbouring_state = {
+																	limit = {
+																		owner = {
+																			OR = {
+																				country_has_primary_culture = cu:kotskarvi
+																				country_has_primary_culture = cu:lomarash
+																			}
+																		}
+																	}
+																	owner = {
+																		save_scope_as = lepthar_settler_scope
+																	}
+																}
+																s:STATE_LEPTHAR = {
+																	set_owner_of_provinces = {
+																		country = scope:lepthar_settler_scope
+																		provinces = { xcebb93 xb2e1ec }
+																	}	
+																}
+																every_scope_pop = {
+																limit = {
+																	culture = cu:kotskarvi
+																}
+																change_pop_culture = {
+																	target = cu:illvasaari
+																	value = 0.4
+																}
+															}
+																 scope:lepthar_settler_scope = {
+																 	trigger_event = dragonblight.4
+																 }
+																}
+																if = {
+																	limit = {
+																		state_region = s:STATE_CLYPYA #todo; else_if to release the other side depending on where neighboring kobold state is
+																		is_split_state = no
+																	}
+																	random_neighbouring_state = {
+																		limit = {
+																			owner = {
+																				OR = {
+																					country_has_primary_culture = cu:kotskarvi
+																					country_has_primary_culture = cu:lomarash
+																				}
+																			}
+																		}
+																		owner = {
+																			save_scope_as = clypya_settler_scope
+																		}
+																	}
+																	s:STATE_CLYPYA = {
+																		set_owner_of_provinces = {
+																			country = scope:clypya_settler_scope
+																			provinces = { xcebb93 xb2e1ec }
+																		}	
+																	}
+																	every_scope_pop = {
+																	limit = {
+																		culture = cu:kotskarvi
+																	}
+																	change_pop_culture = {
+																		target = cu:illvasaari
+																		value = 0.4
+																	}
+																}
+																	 scope:clypya_settler_scope = {
+																	 	trigger_event = dragonblight.4
+																	 }
+																	}
 				}
 
 			}

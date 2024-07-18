@@ -144,6 +144,85 @@ dragonblight.3 = { #event for Thassarcia receiving dragonblight migrants
 	}
 }
 
+dragonblight.4 = { #event for Thassarcia receiving dragonblight migrants
+	type = country_event
+	placement = root
+	hidden = yes
+
+	immediate = {
+		every_scope_state = {
+			limit = {
+				is_split_state = yes
+				state_is_in_dragon_isles = yes
+				NOT = { has_variable = dragon_killswitch_var }
+			}
+			dragonblight_killswitch_engage = yes
+			set_variable = dragon_killswitch_var
+		}
+		if = {
+			limit = {
+				NOT =  { has_variable = kobold_land_secession_lobby }
+			}
+			trigger_event = { id = dragonblight.5 popup = yes }
+		}
+	}
+
+}
+
+dragonblight.5 = { #kobold states receive this event the first time the Dragon Isles clicks the kobold settlement button and give them free land
+	type = country_event
+	placement = root
+	title = dragonblight.5.t
+	desc = dragonblight.5.d
+	flavor = dragonblight.5.f
+
+	duration = 3
+
+	event_image = {
+		video = "unspecific_factory_closed" #change this
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+
+	trigger = { #triggered by dragonblight.4
+	}
+
+	immediate = {
+		set_variable = kobold_land_secession_lobby
+	}
+
+	option = { #gee thanks guys
+		name = dragonblight.5.a
+		ai_chance = {
+			base = 75
+		}
+		create_diplomatic_catalyst = {  
+			type = catalyst_event_positive
+			target = DIS
+		}
+		change_relations = {
+			country = c:DIS
+			value = 15
+		}
+	}
+
+	option = { #inshallah we shall take it all
+		name = dragonblight.5.b
+		ai_chance = {
+			base = 25
+		}
+		create_diplomatic_catalyst = {  
+			type = catalyst_event_negative
+			target = DIS
+		}
+		change_relations = {
+			country = c:DIS
+			value = -15
+		}
+	}
+}
 # dragonblight.pulse.x = { #outbreaks states receive this event + the other one for 5% total
 # 	type = country_event
 # 	placement = ROOT
