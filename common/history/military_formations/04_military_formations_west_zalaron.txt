@@ -421,7 +421,7 @@
 				state_region = s:STATE_VONKENDAM
 				count = 12
 			}
-
+		}
 			save_scope_as = tle_army8
 
 
@@ -435,9 +435,6 @@
 		scope:tle_general8 = {
 			transfer_to_formation = scope:tle_army8
 		}
-
-	}
-
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_hasals_mirror
@@ -466,7 +463,7 @@
 
 			save_scope_as = tle_army2
 		
-
+		}
 		create_character = {
 			is_general = yes
 			commander_rank = commander_rank_2
@@ -477,9 +474,6 @@
 		scope:tle_gener = {
 			transfer_to_formation = scope:tle_army2
 		}
-
-	}
-
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_hasals_mirror
@@ -552,7 +546,7 @@
 			}
 
 			save_scope_as = tleforce
-
+		}
 		create_character = {
 			is_general = yes
 			commander_rank = commander_rank_2
@@ -563,9 +557,6 @@
 		scope:tlegen = {
 			transfer_to_formation = scope:tleforce
 		}
-
-	}
-
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_hasals_mirror
@@ -655,7 +646,6 @@
 		scope:tle_general = {
 			transfer_to_formation = scope:tle_army6
 		}
-
 	}
 	c:ARD ?= {
 		create_military_formation = {
