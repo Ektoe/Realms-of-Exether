@@ -1124,6 +1124,7 @@ STATE_TOLFAR = {
     capped_resources = {
         bg_coal_mining = 44
         bg_lead_mining = 54
+        bg_wishstone_mining = 6
         bg_logging = 11
         bg_fishing = 8
     }

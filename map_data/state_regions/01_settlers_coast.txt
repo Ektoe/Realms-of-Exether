@@ -696,9 +696,9 @@ STATE_OUTER_MOORWEALD = {
     arable_land = 70
     arable_resources = { "bg_wheat_farms" "bg_tobacco_plantations" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
+        bg_wishstone_mining = 7
         bg_logging = 19
         bg_fishing = 5
-        bg_wishstone_mining = 2
     }
     naval_exit_id = 3038
 }

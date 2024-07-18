@@ -833,6 +833,7 @@ STATE_RIVER_SOLILOQUE = {
     arable_resources = { "bg_rice_farms_leechgardens" "bg_dye_plantations" "bg_cotton_plantations" "bg_vineyard_plantations" "bg_tobacco_plantations" }
     naval_exit_id = 3153
     capped_resources = {
+        bg_wishstone_mining = 2
         bg_logging = 19
     }
     naval_exit_id = 3152
@@ -1791,6 +1792,7 @@ STATE_SONGBIENO = {
         bg_coal_mining = 72
         bg_lead_mining = 36
         bg_sulfur_mining = 40
+        bg_wishstone_mining = 2
         bg_fishing = 18
     }
 
@@ -3301,6 +3303,7 @@ STATE_SC7 = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_coal_mining = 44
+        bg_wishstone_mining = 9
         bg_logging = 4
     }
     naval_exit_id = 3191
