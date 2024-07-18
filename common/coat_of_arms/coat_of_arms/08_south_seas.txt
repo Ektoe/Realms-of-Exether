@@ -114,6 +114,34 @@ AZI = {
 }
 
 #Lacertian Company
+LAC = {
+	pattern = "pattern_solid.tga"
+	color1 = "green_light"
+
+	colored_emblem = {
+		texture = "ce_frame_circle_outline.dds"
+		color1 = "black"
+		instance = { scale = { 0.9 0.9 } position = { 0.5 0.5 } }	
+	}
+	colored_emblem = {
+		texture = "ce_frame_circle.dds"
+		color1 = "white"
+		instance = { scale = { 0.83 0.83 } position = { 0.5 0.5 } }	
+	}
+	colored_emblem = {
+		texture = "ce_triangles.dds"
+		color1 = "green_light"
+		color2 = "black"
+		instance = { scale = { 0.7 0.5 } position = { 0.5 0.65 } }	
+	}
+	colored_emblem = {
+		texture = "ce_roe_crate.dds"
+		color1 = "green_light"
+		color2 = "black"
+		instance = { scale = { 1.15 1.35 } position = { 0.5 0.32 } }	
+	}
+}
+
 LAC_subject = {
 	pattern = "pattern_solid.tga"
 	color1 = "green_light"

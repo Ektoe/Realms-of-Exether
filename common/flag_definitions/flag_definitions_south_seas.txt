@@ -49,7 +49,7 @@ AZI = {
 
 LAC = { # Lacertian Company
 	flag_definition = {
-		coa = LAC_subject #Change to a default independence flag
+		coa = LAC #Change to a default independence flag
 		coa_with_overlord_canton = LAC_subject
 		allow_overlord_canton = yes
 		priority = 1
