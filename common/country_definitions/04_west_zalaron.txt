@@ -418,7 +418,7 @@ TLA = {
 	tier = empire
 	
 	cultures = { west_thalorian lake_thalorian central_thalorian }
-	capital = STATE_BRIGHTWATER
+	capital = STATE_VONKENDAM
 }
 
 #East Thaloria
@@ -430,7 +430,7 @@ TLE = {
 	tier = kingdom
 	
 	cultures = { lake_thalorian }
-	capital = STATE_VONKENDAM
+	capital = STATE_BRIGHTWATER
 }
 
 #West Thaloria
