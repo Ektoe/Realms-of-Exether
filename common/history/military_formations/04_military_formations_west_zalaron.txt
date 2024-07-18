@@ -243,16 +243,17 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_ravik
+			name = Trommelkustan_Assault_Army
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_TROMMELKUST
-				count = 6
+				count = 25
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
+				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_TROMMELKUST
-				count = 2
+				count = 15
 			}
 
 			save_scope_as = rav_army
@@ -260,6 +261,7 @@
 
 		create_character = {
 			is_general = yes
+			commander_rank = commander_rank_2
 			hq = region_ravik
 			save_scope_as = rav_general
 		}
@@ -267,10 +269,102 @@
 		scope:rav_general = {
 			transfer_to_formation = scope:rav_army
 		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_ravik
+			name = Raviki_National_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SPRANKELMEER
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_SPRANKELMEER
+				count = 15
+			}
+
+			save_scope_as = rav_army
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			hq = region_ravik
+			save_scope_as = rav_general
+		}
+		
+		scope:rav_general = {
+			transfer_to_formation = scope:rav_army
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_ravik
+			name = Raviki_Border_Defense_Force
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_FLUITVELD
+				count = 35
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_FLUITVELD
+				count = 10
+			}
+
+			save_scope_as = rav_army
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_3
+			hq = region_ravik
+			save_scope_as = rav_general
+		}
+		
+		scope:rav_general = {
+			transfer_to_formation = scope:rav_army
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_ravik
+			name = Soulwrought_Slave_Legion
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_RATELBERG
+				count = 100
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_GNURKENSTAD
+				count = 100
+			}
+
+			save_scope_as = rav_army
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_5
+			hq = region_ravik
+			save_scope_as = rav_general
+		}
+		
+		scope:rav_general = {
+			transfer_to_formation = scope:rav_army
+		}
+
 		
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_ravik
+			name = Raviki_Coastal_Fleet
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -452,18 +546,18 @@
 				count = 10
 			}
 
-			save_scope_as = tle_army4
+			save_scope_as = tle_army9
 		}
 
 		create_character = {
 			is_general = yes
-			commander_rank = commander_rank_2
+			commander_rank = commander_rank_1
 			hq = region_hasals_mirror
-			save_scope_as = tle_general4
+			save_scope_as = tle_general9
 		}
 		
 		scope:tle_general = {
-			transfer_to_formation = scope:tle_army4
+			transfer_to_formation = scope:tle_army9
 		}
 
 		create_military_formation = {
