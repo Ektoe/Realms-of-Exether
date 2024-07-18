@@ -422,18 +422,21 @@
 				count = 12
 			}
 
-			save_scope_as = tle_army
-		}
+			save_scope_as = tle_army8
+
 
 		create_character = {
 			is_general = yes
+			commander_rank = commander_rank_2
 			hq = region_hasals_mirror
-			save_scope_as = tle_general
+			save_scope_as = tle_general8
 		}
 		
-		scope:tle_general = {
-			transfer_to_formation = scope:tle_army
+		scope:tle_general8 = {
+			transfer_to_formation = scope:tle_army8
 		}
+
+	}
 
 		create_military_formation = {
 			type = army
@@ -462,18 +465,20 @@
 			}
 
 			save_scope_as = tle_army2
-		}
+		
 
 		create_character = {
 			is_general = yes
 			commander_rank = commander_rank_2
 			hq = region_hasals_mirror
-			save_scope_as = tle_general2
+			save_scope_as = tle_gener
 		}
 		
-		scope:tle_general = {
+		scope:tle_gener = {
 			transfer_to_formation = scope:tle_army2
 		}
+
+	}
 
 		create_military_formation = {
 			type = army
@@ -493,12 +498,12 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_WINDSONG
-				count = 5
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_STORMHOLM
-				count = 5
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
@@ -511,7 +516,7 @@
 
 		create_character = {
 			is_general = yes
-			commander_rank = commander_rank_2
+			commander_rank = commander_rank_3
 			hq = region_hasals_mirror
 			save_scope_as = tle_general3
 		}
@@ -546,19 +551,20 @@
 				count = 10
 			}
 
-			save_scope_as = tle_army9
-		}
+			save_scope_as = tleforce
 
 		create_character = {
 			is_general = yes
-			commander_rank = commander_rank_1
+			commander_rank = commander_rank_2
 			hq = region_hasals_mirror
-			save_scope_as = tle_general9
+			save_scope_as = tlegen
 		}
 		
-		scope:tle_general = {
-			transfer_to_formation = scope:tle_army9
+		scope:tlegen = {
+			transfer_to_formation = scope:tleforce
 		}
+
+	}
 
 		create_military_formation = {
 			type = army
