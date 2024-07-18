@@ -6,4 +6,11 @@ MILITARY_DEPLOYMENTS = {
 			teleport_to_front = p:xE9FE3B.front
 		}
 	}
+
+	c:RAV ?= {
+		every_military_formation = {
+			fully_mobilize_army = yes
+			teleport_to_front = p:xE9FE3B.front
+		}
+	}
 }
