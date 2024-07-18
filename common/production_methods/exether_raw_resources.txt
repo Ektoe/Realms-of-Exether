@@ -630,25 +630,25 @@ pm_shore_leviathan_hunting = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input
-			goods_input_clippers_add = 9 
+			goods_input_tools_add = 5					# x40 = 200
+			goods_input_artillery_add = 5 				# x70 = 450	
 			
 			# output
-			goods_output_meat_add = 4
-			goods_output_monster_essence_add = 10
-			goods_output_blubber_add =  15
+			goods_output_meat_add = 5					# x30 = 150
+			goods_output_monster_essence_add = 10		# x40 = 400
+			goods_output_blubber_add =  15				# x40 = 600
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = 3500
-			building_employment_machinists_add = 500
+			building_employment_laborers_add = 4000
+			building_employment_shopkeepers_add = 500
 			building_employment_adventurers_add = 500
 		}
 
 		unscaled = {
 			# mortality
 			building_laborers_mortality_mult = 0.8
-			building_machinists_mortality_mult = 0.5
 			building_adventurers_mortality_mult = 0.4
 		}
 	}
@@ -660,26 +660,27 @@ pm_wooden_leviathan_ships = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input
-			goods_input_clippers_add = 9 
-			
+			goods_input_clippers_add = 7 					# x60 = 420
+			goods_input_artillery_add = 8					# x70 = 560
+			goods_input_tools_add = 7						# x40 = 280
+
 			# output
-			goods_output_meat_add = 8
-			goods_output_monster_essence_add = 20
-			goods_output_blubber_add =  30
+			goods_output_meat_add = 8						# x30 = 240
+			goods_output_monster_essence_add = 20			# x40 = 800
+			goods_output_blubber_add =  30					# x40 = 1200
 		}
 
 		level_scaled = {
 			# employment
 			building_employment_laborers_add = 3500
-			building_employment_machinists_add = 500
-			building_employment_adventurers_add = 500
+			building_employment_shopkeepers_add = 500
+			building_employment_adventurers_add = 1000
 		}
 
 		unscaled = {
 			# mortality
-			building_laborers_mortality_mult = 0.8
-			building_machinists_mortality_mult = 0.5
-			building_adventurers_mortality_mult = 0.4
+			building_laborers_mortality_mult = 0.6
+			building_adventurers_mortality_mult = 0.3
 		}
 	}
 }
@@ -690,26 +691,27 @@ pm_manowar_leviathan_ships = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input
-			goods_input_manowars_add = 9 
-			
+			goods_input_manowars_add = 9 					# x70 = 630
+			goods_input_artillery_add = 8					# x70 = 560
+			goods_input_tools_add = 10						# x40 = 400
+
 			# output
-			goods_output_meat_add = 12
-			goods_output_monster_essence_add = 30
-			goods_output_blubber_add = 42
+			goods_output_meat_add = 12						# x30 = 360
+			goods_output_monster_essence_add = 30			# x40 = 1200
+			goods_output_blubber_add = 42					# x40 = 1680
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = 3500
-			building_employment_machinists_add = 500
-			building_employment_adventurers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_shopkeepers_add = 500
+			building_employment_adventurers_add = 1500
 		}
 		
 		unscaled = {
 			# mortality
-			building_laborers_mortality_mult = 0.6
-			building_machinists_mortality_mult = 0.35
-			building_adventurers_mortality_mult = 0.3
+			building_laborers_mortality_mult = 0.4
+			building_adventurers_mortality_mult = 0.2
 		}
 	}
 }
@@ -728,25 +730,26 @@ pm_steam_leviathan_ships = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input
-			goods_input_steamers_add = 9
-			goods_input_coal_add = 20
+			goods_input_ironclads_add = 10					# x80 = 800
+			goods_input_artillery_add = 10					# x70 = 700
+			goods_input_coal_add = 20						# x30 = 600
+			goods_input_tools_add = 10						# x40 = 400
 			
-			goods_output_meat_add = 18
-			goods_output_monster_essence_add = 40
-			goods_output_blubber_add = 62
+			goods_output_meat_add = 18						# x30 = 540
+			goods_output_monster_essence_add = 40			# x40 = 1600
+			goods_output_blubber_add = 62					# x40 = 2480
 		}
 
 		level_scaled = {
 			# employment
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 1000
-			building_employment_adventurers_add = 500
+			building_employment_laborers_add = 2500
+			building_employment_shopkeepers_add = 500
+			building_employment_adventurers_add = 2000
 		}
 		unscaled = {
 			# mortality
-			building_laborers_mortality_mult = 0.55
-			building_machinists_mortality_mult = 0.3
-			building_adventurers_mortality_mult = 0.25
+			building_laborers_mortality_mult = 0.2
+			building_adventurers_mortality_mult = 0.1
 		}
 	}
 	}
@@ -764,6 +767,67 @@ pm_steam_leviathan_ships = {
 		building_laborers_mortality_mult = -0.1
 		building_machinists_mortality_mult = -0.1
 		building_adventurers_mortality_mult = -0.05
+	}
+}
+pm_manual_harvesting = {
+	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
+}
+
+pm_safety_potions = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+
+	unlocking_technologies = {
+		alchemy
+	}
+	unlocking_production_methods = {
+		pm_wooden_leviathan_ships
+		pm_manowar_leviathan_ships
+		pm_steam_leviathan_ships
+	}
+
+	building_modifiers = {
+		
+		workforce_scaled = {
+			goods_input_potions_add = 4
+		}
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1000
+		}
+		unscaled = {
+			# mortality
+			building_laborers_mortality_mult = -0.1
+			building_adventurers_mortality_mult = -0.05
+		}
+	}
+}
+
+pm_automagical_harvesting = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
+
+	unlocking_technologies = {
+		wishstone_machines
+	}
+	unlocking_production_methods = {
+		pm_manowar_leviathan_ships
+		pm_steam_leviathan_ships
+	}
+	building_modifiers = {
+		
+		workforce_scaled = {
+			goods_input_gizmos_add = 6
+		}
+		
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -2000
+			building_employment_wizards_add = 500
+		}
+		unscaled = {
+			# mortality
+			building_laborers_mortality_mult = -0.15
+			building_adventurers_mortality_mult = -0.05
+		}
 	}
 }
 
@@ -1101,4 +1165,142 @@ pm_steam_donkey_building_wishstone_mine = {
 
 pm_road_carts = {
 	texture = "gfx/interface/icons/production_method_icons/no_rail_transport.dds"
+}
+
+#Game Hunting
+pm_trapping_teams = {
+	texture = "gfx/interface/icons/production_method_icons/spears.dds"
+	building_modifiers = {
+		unscaled = {
+			building_adventurers_mortality_mult = 0.25
+		}
+
+		workforce_scaled = {
+			goods_output_fabric_add = 40
+			goods_output_meat_add = 5
+		}
+		
+		level_scaled = {
+			building_employment_adventurers_add = 2000
+			building_employment_laborers_add = 3000
+		}
+	}
+}
+pm_hunting_parties = {
+	texture = "gfx/interface/icons/production_method_icons/rifles.dds"
+	unlocking_technologies = {
+		gunsmithing
+	}
+	building_modifiers = {
+		unscaled = {
+			building_adventurers_mortality_mult = 0.20
+		}
+
+		workforce_scaled = {
+			goods_input_small_arms_add = 5
+			goods_output_fabric_add = 75
+			goods_output_meat_add = 10
+		}
+		
+		level_scaled = {
+			building_employment_adventurers_add = 1500
+			building_employment_soldiers_add = 500
+			building_employment_laborers_add = 3000
+		}
+	}
+}
+pm_hunting_expeditions = {
+	texture = "gfx/interface/icons/production_method_icons/repeaters.dds"
+	unlocking_technologies = {
+		percussion_cap
+	}
+	building_modifiers = {
+		unscaled = {
+			building_adventurers_mortality_mult = 0.15
+		}
+
+		workforce_scaled = {
+			goods_input_small_arms_add = 5
+			goods_input_ammunition_add = 5
+			goods_output_fabric_add = 100
+			goods_output_meat_add = 20
+		}
+		
+		level_scaled = {
+			building_employment_adventurers_add = 1000
+			building_employment_soldiers_add = 1000
+			building_employment_laborers_add = 3000
+		}
+	}
+}
+pm_no_exotic = {
+	texture = "gfx/interface/icons/production_method_icons/no_home_workshops.dds"
+}
+pm_exotic_hides = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	unlocking_technologies = {
+	hunting_lodges
+	}
+	building_modifiers = {
+		unscaled = {
+			building_adventurers_mortality_mult = 0.05
+			building_soldiers_mortality_mult = 0.05
+		}
+
+		workforce_scaled = {
+			goods_output_fabric_add = -10
+			goods_output_silk_add = 10
+		}
+	}
+}
+pm_essence_extraction = {
+	texture = "gfx/interface/icons/production_method_icons/home_workshops.dds"
+	unlocking_technologies = {
+    hunting_lodges
+	}
+	building_modifiers = {
+		unscaled = {
+			building_adventurers_mortality_mult = 0.15
+			building_soldiers_mortality_mult = 0.1
+		}
+
+		workforce_scaled = {
+			goods_output_meat_add = -5
+			goods_output_monster_essence_add = 10
+		}
+	}
+}
+pm_no_game_hunting_potions = {
+	texture = "gfx/interface/icons/production_method_icons/NO_potion_sap.dds"
+}
+pm_basic_game_hunting_potions = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	unlocking_technologies = {
+    alchemy
+	}
+	building_modifiers = {
+		unscaled = {
+			building_throughput_add = 0.1
+			building_adventurers_mortality_mult = -0.05
+		}
+		workforce_scaled = {
+			goods_input_potions_add = 2
+			goods_input_liquor_add = 3
+		}
+	}
+}
+pm_wash_it_down = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	unlocking_technologies = {
+    alchemy
+	}
+	building_modifiers = {
+		unscaled = {
+			building_throughput_add = 0.25
+			building_adventurers_mortality_mult = -0.15
+		}
+		workforce_scaled = {
+			goods_input_potions_add = 15
+		}
+	}
 }

@@ -40,7 +40,7 @@ EBR = {
 
 	country_type = recognized 
 
-	tier = empire
+	tier = kingdom
 
 	cultures = { eberri } 
 	capital = STATE_RUNEPORT_GALESTRUM
@@ -94,16 +94,16 @@ CER = {
 	capital = STATE_LANDING_AT_SEA
 }
 
-#Middenfirth
-MID = {
+#Gladcross
+GCS = {
 	color = rgb{ 100  160  60 } 
 
 	country_type = recognized 
 
-	tier = grand_principality
+	tier = principality
 
 	cultures = { coast_halfling rivierling } 
-	capital = STATE_RIVER_MEDDEN
+	capital = STATE_PEARFIELDS
 }
 
 #Clearbough Estates
@@ -290,10 +290,22 @@ SMA = {
 
 	country_type = recognized
 
-	tier = principality
+	tier = grand_principality
 
 	cultures = { coast_halfling } 
 	capital = STATE_OUTER_MOORWEALD
+}
+
+#Gladshire
+GDS = {
+	color = rgb{ 255  121  0 } 
+
+	country_type = recognized
+
+	tier = principality
+
+	cultures = { rivierling coast_halfling } 
+	capital = STATE_PENDYM_GWYN
 }
 
 #Mimic Demesne

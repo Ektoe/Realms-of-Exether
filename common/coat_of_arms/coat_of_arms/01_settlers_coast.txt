@@ -207,10 +207,28 @@ FEY = {
 	}
 }
 
-#Meddencross
-MID = {
-	pattern = "pattern_solid.tga" #Choose a base from gfx\coat_of_arms\patterns
-	color1 = "green" #Use a predefined colour or you can do 'color1 = rgb{ x x x }'.
+#Smallshore
+SMA = {
+    pattern = "pattern_solid.tga"
+    color1 = "orange"
+
+    colored_emblem = {
+        texture = "ce_sun_sikh.dds"
+        color1 = "yellow"
+        instance = { scale = { 1 1 } position = { 0.5 0.75 } }    
+    }
+
+    colored_emblem = {
+        texture = "ce_waves_estonia.dds"
+    color1 = "blue_light"
+        instance = { scale = { 1.25 1.25 } position = { 0.5 1.2 } rotation = 180 }    
+    }   
+}
+
+#Gladcross
+GCS = {
+	pattern = "pattern_solid.tga"
+	color1 = "green" 
 
 	colored_emblem = {
 		texture = "ce_bicolor_top.dds"
@@ -231,6 +249,68 @@ MID = {
 		instance = { scale = { 1 0.5 } position = { 0.5 0.75 } }
 	}
 }
+
+#Gladcross with Smallshore PU
+GCS_subject_SMA = {
+    pattern = "pattern_solid.tga"
+    color1 = "orange"
+
+    colored_emblem = {
+        texture = "ce_bend_dexter.dds"
+        color1 = "green"
+        instance = { scale = { 0.75 0.75 } position = {  0.75 0.25 } }    
+    }   
+
+    colored_emblem = {
+        texture = "ce_bend_sinister.dds"
+        color1 = "green"
+        instance = { scale = { 0.75 0.75 } position = { 0.25 0.25 } }
+    }   
+
+    colored_emblem = {
+        texture = "ce_sun_sikh.dds"
+        color1 = "yellow"
+        instance = { scale = { 1 1 } position = { 0.5 0.75 } }    
+    }
+
+    colored_emblem = {
+        texture = "ce_waves_estonia.dds"
+        color1 = "blue_light"
+        instance = { scale = { 1.25 1.25 } position = { 0.5 1.2 } rotation = 180 }    
+    }   
+}
+
+#Gladshire
+GDS = {
+    pattern = "pattern_solid.tga"
+    color1 = "red"
+
+    colored_emblem = {
+        texture = "ce_frame_square.dds"
+        color1 = "green"
+        instance = { scale = { 1 2.55 } position = { 0.7 1.15 }  rotation = 63 }    
+    }    
+
+    colored_emblem = {
+        texture = "ce_flag_river.dds"
+    color1 = "white"
+        instance = { scale = { 1.5 1.5 } position = { 0.5 0.5 } rotation = 135 }    
+    }    
+
+    colored_emblem = {
+        texture = "ce_sun_sikh.dds"
+        color1 = "yellow"
+        color2 = "orange"
+        instance = { scale = { 0.45 0.45 } position = { 0.2 0.25 } }    
+    }
+
+    colored_emblem = {
+        texture = "ce_wheat_garb.dds"
+    color1 = "yellow"
+        instance = { scale = { -0.5 0.5 } position = { 0.825 0.725 } }    
+    }
+}
+
 
 #Dushambay
 DSB = {

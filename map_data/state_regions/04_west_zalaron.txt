@@ -457,7 +457,7 @@ STATE_RUSYLESH = {
         bg_logging = 8
         bg_fishing = 8
     }
-
+    naval_exit_id = 3028
 }
 STATE_ZARJAPE = {
     id = 2422
@@ -474,7 +474,7 @@ STATE_ZARJAPE = {
         bg_logging = 6
         bg_fishing = 7
     }
-
+    naval_exit_id = 3028
 }
 STATE_DIBRA = {
     id = 2423
@@ -1719,7 +1719,7 @@ STATE_NAVOYAZH = {
     capped_resources = {
         bg_logging = 12
     }
-
+    naval_exit_id = 3072
 }
 STATE_SHINAKHAD = {
     id = 2528
@@ -1803,7 +1803,7 @@ STATE_RATELBERG = {
     mine = xBCA794
     port = xCD9EBC
     arable_land = 160
-    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" }
+    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
         bg_coal_mining = 40
         bg_logging = 9
@@ -1941,7 +1941,7 @@ STATE_BELLENBERG = {
     farm = x8E9FCE
     mine = x94B4B5
     port = xAADEBC
-    arable_land = 40
+    arable_land = 50
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
         bg_iron_mining = 27
@@ -2186,7 +2186,7 @@ STATE_GLIMMERDAM = {
     farm = xACEDD0
     mine = xAFFCBC
     port = xC4F8C6
-    arable_land = 60
+    arable_land = 65
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_opium_plantations" }
     capped_resources = {
         bg_iron_mining = 17
@@ -2279,6 +2279,7 @@ STATE_BELLENBOS = {
         bg_sulfur_mining = 32
         bg_logging = 23
         bg_hunting = 12
+        bg_wishstone_mining = 3
     }
     naval_exit_id = 3104
 }
@@ -2476,6 +2477,7 @@ STATE_KRULHOVEN = {
         bg_logging = 14
         bg_whaling = 8
         bg_fishing = 10
+        bg_wishstone_mining = 11
     }
     naval_exit_id = 3013
 }
@@ -2571,6 +2573,7 @@ STATE_GLIMMERWOUD = {
         bg_coal_mining = 64
         bg_sulfur_mining = 40
         bg_logging = 11
+        bg_wishstone_mining = 5
     }
     naval_exit_id = 3105
 }
@@ -2600,7 +2603,7 @@ STATE_EVERLUND = {
     farm = x7CFD7D
     mine = xA45AFD
     port = xBB74D4
-    arable_land = 20
+    arable_land = 30
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" "bg_songberry_plantations" }
     capped_resources = {
         bg_logging = 4
@@ -2738,7 +2741,7 @@ STATE_MOONSHADE = {
     farm = xAD94C4
     mine = xD350E1
     port = xD6BBDF
-    arable_land = 30
+    arable_land = 50
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" "bg_songberry_plantations" }
     capped_resources = {
         bg_logging = 2
@@ -2808,7 +2811,7 @@ STATE_BRIGHTWATER = {
     farm = x8ECAEB
     mine = x9FDEEC
     port = xA5F36E
-    arable_land = 40
+    arable_land = 50
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_logging = 5
@@ -2844,7 +2847,7 @@ STATE_SUNDALE = {
     farm = xB699D3
     mine = xC674D2
     port = xC78BF3
-    arable_land = 40
+    arable_land = 45
     arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" }
     capped_resources = {
         bg_lead_mining = 18
@@ -2861,7 +2864,7 @@ STATE_WHITESTONE = {
     farm = xB3FB76
     mine = xB6C3F2
     port = xBDD46A
-    arable_land = 40
+    arable_land = 44
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
         bg_iron_mining = 21
@@ -3640,7 +3643,7 @@ STATE_SAVAGE_REACH = {
         bg_opium_plantations = 20
         bg_wishstone_mining = 23
     }
-
+    naval_exit_id = 3133
 }
 STATE_SNAILBANE = {
     id = 2829
@@ -3692,6 +3695,7 @@ STATE_BLOODTHORN_WASTES_2 = {
         bg_iron_mining = 4
         bg_wishstone_mining = 14
     }
+    naval_exit_id = 3134
 }
 STATE_SALTSHORE = {
     id = 2831
@@ -3740,7 +3744,7 @@ STATE_BLOODAXE_TERRITORY = {
         bg_opium_plantations = 17
         bg_wishstone_mining = 17
     }
-
+    naval_exit_id = 3066
 }
 STATE_THIRSTRIDGE = {
     id = 2833
@@ -3759,5 +3763,5 @@ STATE_THIRSTRIDGE = {
         bg_opium_plantations = 16
         bg_wishstone_mining = 20
     }
-
+    naval_exit_id = 3134
 }

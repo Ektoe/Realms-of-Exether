@@ -112,7 +112,7 @@
 		de_Renteria
 		de_Ubisztongo
 	}
-	graphics = african
+	graphics = european
 	ethnicities = {
 		1 = whitefeather
 	}
