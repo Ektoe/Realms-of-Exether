@@ -1,4 +1,4 @@
-BUILDINGS = {
+﻿BUILDINGS = {
 #Settlers Coast Ownership is fixed, forgot to put a note here.
   s:STATE_SHARINDLARS_NEEDLE = {
 		  region_state:EME={  
@@ -4286,7 +4286,7 @@ BUILDINGS = {
 	region_state:AHO={
 		create_building={
 			building="building_government_administration"
-			level=4
+			level=1
 			reserves=1
 			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 		}
@@ -4316,38 +4316,12 @@ BUILDINGS = {
 			activate_production_methods={ "pm_scholastic_education" }
 		}
             create_building={
-			building="building_textile_mills"
-                add_ownership={ 
-                    building={ 
-                        type="building_financial_district"
-                        country="c:AHO"
-                        levels=3
-                        region="STATE_ACHONIAN_HIGHLANDS"
-                   }
-                }
-			reserves=1
-			activate_production_methods={ "pm_handsewn_clothes" "pm_craftsman_sewing" "pm_traditional_looms" }
-		}
-            create_building={
-			building="building_furniture_manufacturies"
-                add_ownership={ 
-                    building={ 
-                        type="building_financial_district"
-                        country="c:AHO"
-                        levels=6
-                        region="STATE_ACHONIAN_HIGHLANDS"
-                   }
-                }
-			reserves=1
-			activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" "pm_luxury_furniture" }
-		}
-            create_building={
 			building="building_logging_camp"
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
                         country="c:AHO"
-                        levels=10
+                        levels=1
                         region="STATE_ACHONIAN_HIGHLANDS"
                    }
                 }
@@ -4477,7 +4451,7 @@ BUILDINGS = {
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			activate_production_methods={ "pm_handsewn_clothes" "pm_craftsman_sewing" "pm_traditional_looms" }
 		}
             create_building={
 			building="building_glassworks"
@@ -4661,6 +4635,38 @@ BUILDINGS = {
 			reserves=1
 			activate_production_methods={ "pm_scholastic_education" "pm_secular_academia" }
 		}
+		create_building={
+			building="building_government_administration"
+			level=3
+			reserves=1
+			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+		}
+		create_building={
+			building="building_logging_camp"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:AHO"
+                        levels=9
+                        region="STATE_SJETTSZCEK_MIRE"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+		}
+		create_building={
+			building="building_furniture_manufacturies"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:AHO"
+                        levels=6
+                        region="STATE_SJETTSZCEK_MIRE"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" "pm_luxury_furniture" }
+		}
 			create_building={
 			building="building_livestock_ranch"
 				add_ownership={ 
@@ -4680,7 +4686,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:AHO"
-                        levels=2
+                        levels=5
                         region="STATE_SJETTSZCEK_MIRE"
                    }
                 }
@@ -5392,7 +5398,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:DAR"
-                        levels=2
+                        levels=8
                         region="STATE_MOUNT_YELFIS"
                    }
                 }
@@ -5527,7 +5533,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:DAR"
-                        levels=4
+                        levels=2
                         region="STATE_MOUNT_YELFIS"
                    }
                 }
@@ -5540,7 +5546,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:DAR"
-                        levels=2
+                        levels=1
                         region="STATE_MOUNT_YELFIS"
                    }
                 }
@@ -5553,7 +5559,7 @@ BUILDINGS = {
 					building={ 
 						type="building_manor_house"
 						country="c:DAR"
-						levels=27
+						levels=28
 						region="STATE_MOUNT_YELFIS"
 				   }
 				}
@@ -5566,7 +5572,7 @@ BUILDINGS = {
 					building={ 
 						type="building_manor_house"
 						country="c:DAR"
-						levels=4
+						levels=2
 						region="STATE_MOUNT_YELFIS"
 				   }
 				}
@@ -5605,7 +5611,7 @@ BUILDINGS = {
 					  building={ 
 						  type="building_financial_district"
 						  country="c:DAR"
-						  levels=5
+						  levels=6
 						  region="STATE_MOUNT_YELFIS"
 					 }
 				  }
