@@ -80,8 +80,10 @@ GCS = {
         coa = GCS_subject_SMA       
         priority = 50
         trigger = { 
-            is_subject = yes
-			overlord = SMA
+			exists = c:SMA
+            c:GCS ?= {
+				is_subject_of ?= c:SMA
+			}
         }
     }    
 }
