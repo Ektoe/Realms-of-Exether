@@ -45,4 +45,7 @@
 	c:FOX ?= {
 		add_declared_interest = region_yanger_steppe
 	}
+	c:AHO ?= {
+		add_declared_interest = region_whisperpine
+	}
 }
