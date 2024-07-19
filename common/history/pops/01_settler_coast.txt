@@ -579,7 +579,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_FORESTS_HEART_2 = {
+  s:STATE_BURAMONG = {
 	region_state:BDB = {
 		create_pop = {
 			culture = plaguedweller
@@ -597,7 +597,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_FORESTS_HEART_3 = {
+  s:STATE_PLAGUEBRUSH = {
 	region_state:BDB = {
 		create_pop = {
 			culture = plaguedweller
@@ -664,7 +664,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_PLAGUEWOOD_HINTERLANDS_2 = {
+  s:STATE_SANDWOOD = {
 	region_state:BDB = {
 		create_pop = {
 			culture = plaguedweller
@@ -686,7 +686,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_PLAGUEWOOD_HINTERLANDS_3 = {
+  s:STATE_ZURMUND = {
 	region_state:DRO = {
 		create_pop = {
 			culture = aridrun
@@ -721,7 +721,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_ASHWICK_2 = {
+  s:STATE_WICKENWOOD = {
 	region_state:ASW = {
 		create_pop = {
 			culture = plaguedweller
@@ -739,7 +739,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_ASHWICK_3 = {
+  s:STATE_MENZONASSAD = {
 	region_state:DRO = {
 		create_pop = {
 			culture = aridrun
@@ -813,7 +813,7 @@ s:STATE_CAEL_VALEN_2 = {
   }
 
   
-  s:STATE_OUTER_MOORWEALD_3 = {
+  s:STATE_SMALLWOOD = {
 	region_state:SMA = {
 		create_pop = {
 			culture = coast_halfling

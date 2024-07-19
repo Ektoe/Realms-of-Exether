@@ -1279,13 +1279,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_FORESTS_HEART_2
+				state_region = s:STATE_BURAMONG
 				count = 25
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_PLAGUEWOOD_HINTERLANDS_2
+				state_region = s:STATE_SANDWOOD
 				count = 25
 			}
 		}
