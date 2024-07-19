@@ -1718,7 +1718,6 @@ STATE_FLORBORDO = {
         type = "bg_rubber"
         undiscovered_amount = 24
     }
-    naval_exit_id = 3139
 }
 STATE_VESPERVIDO = {
     id = 4317
@@ -2062,7 +2061,6 @@ STATE_FIKOLIK = {
         type = "bg_oil_extraction"
         undiscovered_amount = 5
     }
-    naval_exit_id = 3139
 }
 STATE_VOTILAN = {
     id = 4336
@@ -2131,7 +2129,6 @@ STATE_BANOKIK = {
         type = "bg_rubber"
         undiscovered_amount = 22
     }
-    naval_exit_id = 3140
 }
 STATE_KULIKAN = {
     id = 4339

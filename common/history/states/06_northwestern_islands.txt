@@ -171,7 +171,7 @@ add_homeland = cu:illvasaari
 s:STATE_THASPYR = {
 	create_state = {
 		country = c:DIS
-		owned_provinces = { "x6AF1B9" "x98F082" "xA6D0A1" "xA7AFC7" }
+		owned_provinces = { "x4DD294" "x6AF1B9" "x98F082" "xA6D0A1" "xA7AFC7" "xD64577" }
 }
 add_homeland = cu:illvasaari
 }

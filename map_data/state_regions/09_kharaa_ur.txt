@@ -1183,7 +1183,7 @@ STATE_KHULANJO = {
     capped_resources = {
         bg_logging = 2
     }
-
+    naval_exit_id = 3114
 }
 STATE_HOKUDAIHAN = {
     id = 4595
