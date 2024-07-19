@@ -836,7 +836,6 @@ STATE_RIVER_SOLILOQUE = {
         bg_wishstone_mining = 2
         bg_logging = 19
     }
-    naval_exit_id = 3152
 }
 STATE_RIVER_SOLILOQUE_2 = {
     id = 3791
@@ -1515,10 +1514,10 @@ STATE_VENTAFALCO = {
     subsistence_building = "building_subsistence_farms"
     provinces = { "x28DFEE" "x44FAF1" "x8AE68E" "xCB67FC" "xD960EA" "xDBE1B7" "xE3E6BB" "xFC6CE8" "xFCF00E" }
     city = x28DFEE
-    wood = x44FAF1
+    wood = xDBE1B7
     farm = x8AE68E
     mine = xCB67FC
-    port = xD7F466
+    port = x44FAF1
     arable_land = 190
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
