@@ -376,164 +376,74 @@
 
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CAEL_VALEN
 				count = 6
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_CAEL_VALEN
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_CAEL_VALEN
-				count = 1
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_CAEL_VALEN
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_CAEL_VALEN
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_CAEL_VALEN
-				count = 1
-			}
-
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_FERNSEA
-				count = 7
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_FERNSEA
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_FERNSEA
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_FERNSEA
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_FERNSEA
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_FERNSEA
-				count = 1
-			}
-
-			
-			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_FERNSEA
-				count = 5
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_FERNSEA
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_FERNSEA
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_FERNSEA
-				count = 1
+				state_region = s:STATE_CAEL_VALEN
+				count = 2
 			}
+
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_FERNSEA
+				count = 12
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_FERNSEA
+				count = 6
+			}
+
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_FERNSEA
+				count = 2
+			}
+
 			save_scope_as = first_fist
 		}
 
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_plaguewood
-			name = plaguewood_bulwark
+			name = plaguewood_garrison
 
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ORCBANE_PASS
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_ORCBANE_PASS
 				count = 4
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
-				state_region = s:STATE_ORCBANE_PASS
-				count = 3
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_ORCBANE_PASS
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_ORCBANE_PASS
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_ORCBANE_PASS
-				count = 1
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_ORCBANE_PASS
-				count = 1
+				count = 2
 			}
-
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_PENDYM_GWYN
-				count = 9
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_PENDYM_GWYN
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_PENDYM_GWYN
-				count = 2
+				count = 10
 			}
 
 			combat_unit = {
@@ -550,27 +460,16 @@
 
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_PEARFIELDS
 				count = 5
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_PEARFIELDS
-				count = 1
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_ORCBANE_PASS_2
-				count = 2
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_ORCBANE_PASS_2
-				count = 1
+				count = 2
 			}
 
 			combat_unit = {
@@ -581,34 +480,17 @@
 
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_FERNSEA
 				count = 7
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_FERNSEA
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_FERNSEA
-				count = 1
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_FERNSEA
-				count = 2
+				count = 4
 			}
 
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_FERNSEA
-				count = 1
-			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
@@ -662,27 +544,21 @@
 
 			
 			combat_unit = {
-				type = unit_type:combat_unit_type_skirmish_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SAINT_MER
 				count = 5
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_SAINT_MER
-				count = 2
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_SAINT_MER
-				count = 2
+				count = 3
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_SAINT_MER
-				count = 1
+				count = 2
 			}
 			save_scope_as = main_Armee
 		}
@@ -715,13 +591,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_SAINT_MER
-				count = 6
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_SAINT_MER
-				count = 2
+				count = 13
 			}
 
 			combat_unit = {
@@ -731,15 +601,9 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_SAINT_MER
-				count = 1
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_SAINT_MER
-				count = 1
+				count = 5
 			}
 			save_scope_as = second_fist
 		}
@@ -754,6 +618,7 @@
 			commander_rank = commander_rank_3
 			traits = {
 				plains_commander
+				expert_offensive_planner
 			}
 			save_scope_as = hans_ernst_gen
 		}
@@ -780,9 +645,9 @@
 			}
 
                         combat_unit = { 
-				type = unit_type:combat_unit_type_frigate
+				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_LANDING_AT_SEA_2
-				count = 2
+				count = 3
 			}
 
                         combat_unit = { 
