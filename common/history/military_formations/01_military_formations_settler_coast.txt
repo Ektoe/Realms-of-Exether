@@ -1221,12 +1221,12 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_OUTER_MOORWEALD_2
+				state_region = s:STATE_MOORESHIRE
 				count = 3
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_OUTER_MOORWEALD_2
+				state_region = s:STATE_MOORESHIRE
 				count = 2
 			}
 		}
@@ -1260,7 +1260,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_EASTERN_PLAGUEWOOD_2
+				state_region = s:STATE_NORTHERN_EXPANSE
 				count = 25
 			}
 

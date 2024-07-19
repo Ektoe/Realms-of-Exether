@@ -534,7 +534,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_EASTERN_PLAGUEWOOD_2 = {
+  s:STATE_NORTHERN_EXPANSE = {
 	region_state:RTD = {
 		create_pop = {
 			culture = plaguedweller
@@ -790,7 +790,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_OUTER_MOORWEALD_2 = {
+  s:STATE_MOORESHIRE = {
 	region_state:SMA = {
 		create_pop = {
 			culture = coast_halfling

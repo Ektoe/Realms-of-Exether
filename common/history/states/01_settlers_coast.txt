@@ -230,7 +230,7 @@ s:STATE_EASTERN_PLAGUEWOOD = {
 add_homeland = cu:plaguedweller
 }
 
-s:STATE_EASTERN_PLAGUEWOOD_2 = {
+s:STATE_NORTHERN_EXPANSE = {
     create_state = {
         country = c:RTD
         owned_provinces = { "x53FCDC" "x54A3FE" "x56FBF7" "x5BEDAE" "x60DBCE" "x69F9B7" "x7CEABF" "x81B5C4" "x8DDDC1" "x94D0E8" "xA3B1CB" "xA4C6B4" "xA6D7AC" "xB57BE4" "xC07EF9" "xCCCCC7" "xCE96A0" "xD167F1" "xD735F5" "xE0BEAA" "xEB33EB" "xEF5EF9" "xF4DDDE" "xF739EC" "xF8ABAC" "xF97B82" }
@@ -335,7 +335,7 @@ s:STATE_OUTER_MOORWEALD = {
 add_homeland = cu:coast_halfling
 }
 
-s:STATE_OUTER_MOORWEALD_2 = {
+s:STATE_MOORESHIRE = {
     create_state = {
         country = c:SMA
         owned_provinces = { "x58E8D0" "x61D1ED" "x78E2C4" "x8CD1C4" "xB3E97F" "xBBCDC1" "xC082E1" "xC8CF79" "xE364BE" "xEBF3DC" "xECC154" "xF8BFE4" }
