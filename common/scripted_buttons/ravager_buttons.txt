@@ -2,7 +2,7 @@ ravager_raids_button = {
     name = "ravager_raids_button"
     desc = "ravager_raids_button_desc"
 
-    visible = { always = yes }
+    visible = { always = yes}
         
 
 

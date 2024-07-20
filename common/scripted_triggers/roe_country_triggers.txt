@@ -20,9 +20,22 @@ is_authoritarian = {
 		has_law = law_type:law_autocracy
 	}
 }
-
-
-
+	
+	is_colonizing_near_ravagers = {
+		any_owned_province = {
+			OR = {
+				region = sr:region_lacertia
+				region = sr:region_elusive_coves
+				region = sr:region_west_kailando
+				region = sr:region_zafirsziget
+				region = sr:region_anantadesh
+				region = sr:region_new_dumonia
+				region = sr:region_scalethane_realms
+				region = sr:region_dreamweaver_jungle
+				region = sr:region_sarpakshetra
+			}
+			is_colony = yes
+			}
 			
-		
+		}
 	
