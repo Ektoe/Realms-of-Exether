@@ -6871,7 +6871,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:VOZ"
-                        levels=1
+                        levels=3
                         region="STATE_SKYPIERCER_PEAK"
                    }
                 }
@@ -6884,7 +6884,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:VOZ"
-						levels=28
+						levels=21
 						region="STATE_SKYPIERCER_PEAK"
 				   }
 				}

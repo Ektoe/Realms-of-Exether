@@ -726,12 +726,6 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_SKYPIERCER_PEAK
-				count = 1
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_SKYPIERCER_PEAK
 				count = 2
@@ -744,12 +738,6 @@
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_CLOUDSILVER_SPINE
-				count = 1
-			}
-
-			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_CLOUDSILVER_SPINE
 				count = 1
@@ -757,13 +745,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GRAVELROCK_ROAD
-				count = 4
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_GRAVELROCK_ROAD
-				count = 1
+				count = 3
 			}
 
 			combat_unit = {
@@ -782,19 +764,19 @@
 				combat_unit = { 
 					type = unit_type:combat_unit_type_man_o_war
 					state_region = s:STATE_SUNKEN_CLIFFS
-					count = 2
+					count = 1
 				}
 	
 							combat_unit = { 
 					type = unit_type:combat_unit_type_man_o_war
 					state_region = s:STATE_VOZMEAD_LOWLANDS
-					count = 2
+					count = 1
 				}
 	
 							combat_unit = { 
 					type = unit_type:combat_unit_type_frigate
 					state_region = s:STATE_ELF4
-					count = 15
+					count = 10
 				}
 			
 			}
