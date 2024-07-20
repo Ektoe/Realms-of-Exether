@@ -76,6 +76,16 @@ GCS = {
 		subject_canton = GCS
 		priority = 1
 	}
+	flag_definition = {
+        coa = GCS_subject_SMA       
+        priority = 50
+        trigger = { 
+			exists = c:SMA
+            c:GCS ?= {
+				is_subject_of ?= c:SMA
+			}
+        }
+    }    
 }
 
 GDS = {

@@ -4883,7 +4883,7 @@ reserves=1
 					building={ 
 						type="building_manor_house"
 						country="c:VAI"
-						levels=2
+						levels=4
 						region="STATE_ZAWADKA"
 				   }
 				}
@@ -4903,22 +4903,9 @@ reserves=1
           reserves=1
           activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
         }
-			create_building={
-          building="building_tobacco_plantation"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:VAI"
-						levels=2
-						region="STATE_ZAWADKA"
-				   }
-				}
-          reserves=1
-          activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
-        }
         create_building={
           building="building_port"
-          level=1
+          level=2
           reserves=1
           activate_production_methods={ "pm_basic_port" }
         }
@@ -4998,6 +4985,19 @@ reserves=1
           reserves=1
           activate_production_methods={ "pm_basic_shipbuilding" }
         }
+        create_building={
+          building="building_fur_hunting_lodge"
+          add_ownership = {
+            building = {
+              type="building_adventuring_guild"
+              country="c:ZKW"
+              levels=3
+              region="STATE_ZARKI"
+            }
+          }
+          reserves=1
+          activate_production_methods={ "pm_hunting_parties" "pm_exotic_hides" }
+        }
             create_building={
           building="building_military_shipyards"
           level=1
@@ -5021,7 +5021,7 @@ reserves=1
                    }
                 }
           reserves=1
-          activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+          activate_production_methods={ "pm_saw_mills" "pm_increased_hardwood" "pm_no_equipment" "pm_road_carts" }
         }
 			create_building={
           building="building_rye_farm"

@@ -85,7 +85,7 @@ STATE_LEPTHAR = {
 STATE_THASPYR = {
     id = 3696
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x6AF1B9" "x98F082" "xA6D0A1" "xA7AFC7" }
+    provinces = { "x4DD294" "x6AF1B9" "x98F082" "xA6D0A1" "xA7AFC7" "xD64577" }
     city = x6AF1B9
     wood = x98F082
     farm = xA6D0A1
@@ -165,6 +165,25 @@ STATE_THAPSARIS = {
         bg_fishing = 12
     }
     naval_exit_id = 3013
+}
+STATE_BLUMETO = {
+    id = 4313
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x40EBF9" "x5CD4D7" "x71BDD4" "x71C1EC" "xA5A5C9" "xAEABA1" "xDEABC2" "xE28195" "xED7BAF" "xF86DC0" "xFD36FE" }
+    city = x40EBF9
+    wood = x5CD4D7
+    farm = x71BDD4
+    mine = x71C1EC
+    port = xF86DC0
+    arable_land = 22
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" }
+    capped_resources = {
+        bg_whaling = 4
+        bg_fishing = 6
+        bg_squidding = 6
+        bg_game_hunting = 1
+    }
+    naval_exit_id = 3089
 }
 STATE_HADRUMEA = {
     id = 3701
@@ -1278,6 +1297,7 @@ STATE_WHIRINAKI = {
         bg_squidding = 7
         bg_fishing = 6
         bg_sulfur_mining = 20
+        bg_game_hunting = 1
     }
     naval_exit_id = 3089
 }
@@ -1341,7 +1361,6 @@ STATE_POUNAMOA = {
         type = "bg_cold_rubber"
         discovered_amount = 10
     }
-    naval_exit_id = 3197
 }
 STATE_RONGOMARA = {
     id = 3385
@@ -1379,6 +1398,7 @@ STATE_GARPATIA = {
     arable_resources = { "bg_livestock_ranches" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" "bg_rye_farms" }
     capped_resources = {
         bg_coal_mining = 40
+        bg_game_hunting = 5
     }
 
     naval_exit_id = 3197
@@ -1396,6 +1416,7 @@ STATE_WHAKARAROA = {
     arable_resources = { "bg_livestock_ranches" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" "bg_rye_farms" }
     capped_resources = {
         bg_logging = 7
+        bg_game_hunting = 3
     }
     naval_exit_id = 3197
 }
@@ -1414,6 +1435,7 @@ STATE_MARAMAROA = {
         bg_logging = 9
         bg_squidding = 3
         bg_iron_mining = 20
+        bg_game_hunting = 2
     }
     naval_exit_id = 3089
 }
@@ -1453,6 +1475,7 @@ STATE_TURAKINA = {
     capped_resources = {
         bg_logging = 9
         bg_squidding = 8
+        bg_game_hunting = 3
     }
     naval_exit_id = 3031
 }
@@ -1471,6 +1494,7 @@ STATE_RAROMARA = {
         bg_logging = 18
         bg_squidding = 4
         bg_fishing = 5
+        bg_game_hunting = 2
     }
     naval_exit_id = 3089
 }
@@ -1515,7 +1539,6 @@ STATE_TAUMAROI = {
         type = "bg_cold_rubber"
         discovered_amount = 8
     }
-    naval_exit_id = 3197
 }
 STATE_PATARENI = {
     id = 3394
@@ -1531,6 +1554,7 @@ STATE_PATARENI = {
     capped_resources = {
         bg_logging = 12
         bg_squidding = 10
+        bg_game_hunting = 4
     }
     naval_exit_id = 3089
 }

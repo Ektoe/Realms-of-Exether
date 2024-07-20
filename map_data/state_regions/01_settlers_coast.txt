@@ -478,7 +478,7 @@ STATE_EASTERN_PLAGUEWOOD = {
     }
     naval_exit_id = 3210
 }
-STATE_EASTERN_PLAGUEWOOD_2 = {
+STATE_NORTHERN_EXPANSE = {
     traits = { "state_trait_plaguewood" "state_trait_stokeford_heights" }
     id = 4705
     subsistence_building = "building_subsistence_farms"
@@ -526,7 +526,7 @@ STATE_FORESTS_HEART = {
     }
     naval_exit_id = 3208
 }
-STATE_FORESTS_HEART_2 = {
+STATE_BURAMONG = {
     traits = { "state_trait_plaguewood" }
     id = 4709
     subsistence_building = "building_subsistence_rice_paddies"
@@ -543,7 +543,7 @@ STATE_FORESTS_HEART_2 = {
         undiscovered_amount = 20
     }
 }
-STATE_FORESTS_HEART_3 = {
+STATE_PLAGUEBRUSH = {
     traits = { "state_trait_plaguewood" }
     id = 4710
     subsistence_building = "building_subsistence_rice_paddies"
@@ -603,7 +603,7 @@ STATE_PLAGUEWOOD_HINTERLANDS = {
     }
     naval_exit_id = 3208
 }
-STATE_PLAGUEWOOD_HINTERLANDS_2 = {
+STATE_SANDWOOD = {
     traits = { "state_trait_plaguewood" }
     id = 4708
     subsistence_building = "building_subsistence_farms"
@@ -625,7 +625,7 @@ STATE_PLAGUEWOOD_HINTERLANDS_2 = {
     }
     naval_exit_id = 3208
 }
-STATE_PLAGUEWOOD_HINTERLANDS_3 = {
+STATE_ZURMUND = {
     traits = { "state_trait_plaguewood" "state_trait_sandwall_mountains" }
     id = 4752
     subsistence_building = "building_subsistence_farms"
@@ -661,7 +661,7 @@ STATE_ASHWICK = {
     }
 
 }
-STATE_ASHWICK_2 = {
+STATE_WICKENWOOD = {
     id = 4712
     subsistence_building = "building_subsistence_farms"
     provinces = { "x5CE8D4" "x7CF2BC" "xA9EE6F" "xABDE87" "xAC65F9" "xACF971" "xB798EA" "xD5C8F8" "xD8F7E1" "xDCEEDA" "xDD9596" "xE087DE" "xE590EE" "xE9F1BC" "xED8FA8" "xF3F312" "xFA9689" "xFAED99" }
@@ -679,7 +679,7 @@ STATE_ASHWICK_2 = {
         bg_wishstone_mining = 9
     }
 }
-STATE_ASHWICK_3 = {
+STATE_MENZONASSAD = {
     id = 4713
     subsistence_building = "building_subsistence_farms"
     provinces = { "x71A4FE" "x7EDFB6" "x8282F1" "x8BFD90" "xA4C9A3" "xA6F1A2" "xA79EC7" "xAA96E7" "xB0F580" "xBBE0B8" "xBEF7DD" "xD4F3A5" "xDB62DA" "xE6C063" "xF77CA7" "xFB67A1" "xFCDBAA" }
@@ -703,13 +703,13 @@ STATE_OUTER_MOORWEALD = {
     arable_land = 87
     arable_resources = { "bg_wheat_farms" "bg_tobacco_plantations" "bg_livestock_ranches" "bg_cotton_plantations" }
     capped_resources = {
+        bg_wishstone_mining = 7
         bg_logging = 19
         bg_fishing = 5
-        bg_wishstone_mining = 2
     }
     naval_exit_id = 3038
 }
-STATE_OUTER_MOORWEALD_2 = {
+STATE_MOORESHIRE = {
     id = 4703
     subsistence_building = "building_subsistence_farms"
     provinces = { "x58E8D0" "x61D1ED" "x78E2C4" "x8CD1C4" "xB3E97F" "xBBCDC1" "xC082E1" "xC8CF79" "xE364BE" "xEBF3DC" "xECC154" "xF8BFE4" }
@@ -722,7 +722,7 @@ STATE_OUTER_MOORWEALD_2 = {
     }
     naval_exit_id = 3038
 }
-STATE_OUTER_MOORWEALD_3 = {
+STATE_SMALLWOOD = {
     id = 4704
     subsistence_building = "building_subsistence_farms"
     provinces = { "x32DCE8" "x37F6D5" "x52CBDC" "x65F5D8" "x76F2C3" "x87AFDA" "x8DFDF8" "x93C1C0" "x94B7CC" "x9ADDDC" "x9F9ED4" "xAB93E9" "xACA8C1" "xB0DEF3" "xB1C9CF" "xB2E469" "xB6A3F0" "xC5EEEE" "xCF92B0" "xD2F2CA" "xD3C0B8" "xD5AB81" "xD8B79F" "xDBC4EE" "xDE8DEF" "xF18DD7" "xF2CC45" "xF530F9" "xF93CF0" "xFDF0C3" }
@@ -1480,9 +1480,9 @@ STATE_UPPER_GOLDENLEAF = {
     subsistence_building = "building_subsistence_farms"
     provinces = { "x3DFDFB" "x5FDBD5" "x8180FE" "x8C83F0" "x928EF9" "x94CCE6" "x9EF6E0" "xBBEBCD" "xBCD082" "xC597B9" "xC8DEDD" "xDB9C9B" "xDD9BC7" "xE59FB9" "xE5E6FE" "xE722FD" "xECEBC8" "xEF42D3" "xF383B6" "xF3888E" "xFD7BE5" }
     city = x3DFDFB
-    wood = x64EDF8
-    farm = x6FE4F3
-    mine = x70B4D7
+    wood = xEF42D3
+    farm = xBBEBCD
+    mine = x8180FE
     port = xe722fd
     arable_land = 100
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_cotton_plantations" "bg_vineyard_plantations" }

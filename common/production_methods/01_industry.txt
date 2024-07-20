@@ -240,14 +240,14 @@ pm_basic_distillery = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_grain_add = 30				# x20 =  600
+			goods_input_grain_add = 20				# x20 =  400
 			
 			# output goods
-			goods_output_liquor_add = 25				# x30 = 750
+			goods_output_liquor_add = 30			# x30 = 900
 		}
 
 		level_scaled = {
-			# profit = 150 (13.6)
+			# profit = 500 (13.6)
 			building_employment_shopkeepers_add = 500
 			building_employment_laborers_add = 4500
 		}
@@ -264,7 +264,7 @@ pm_pot_stills = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_grain_add = 40				# x20 = 800
+			goods_input_grain_add = 30				# x20 = 600
 			goods_input_sugar_add = 20				# x30 = 600
 			
 			# output goods
@@ -272,7 +272,7 @@ pm_pot_stills = {
 		}
 
 		level_scaled = {
-			# profit = 400 (13.6)
+			# profit = 600 (13.6)
 			building_employment_shopkeepers_add = 500
 			building_employment_laborers_add = 4000
 			building_employment_machinists_add = 500

@@ -457,7 +457,7 @@ STATE_RUSYLESH = {
         bg_logging = 8
         bg_fishing = 8
     }
-
+    naval_exit_id = 3028
 }
 STATE_ZARJAPE = {
     id = 2422
@@ -474,7 +474,7 @@ STATE_ZARJAPE = {
         bg_logging = 6
         bg_fishing = 7
     }
-
+    naval_exit_id = 3028
 }
 STATE_DIBRA = {
     id = 2423
@@ -1719,7 +1719,7 @@ STATE_NAVOYAZH = {
     capped_resources = {
         bg_logging = 12
     }
-
+    naval_exit_id = 3072
 }
 STATE_SHINAKHAD = {
     id = 2528
@@ -2464,6 +2464,7 @@ STATE_KRULHOVEN = {
     id = 2774
     subsistence_building = "building_subsistence_farms"
     provinces = { "x55AAFC" "x81F5CA" "xC0EF46" "xCDE594" "xCEFD58" "xD738F6" "xDC69C2" "xF6BF67" "xF8B0DE" "xFC23E2" }
+    impassable = { "xDC69C2" }
     city = x55AAFC
     wood = x81F5CA
     farm = xD738F6
@@ -3744,7 +3745,7 @@ STATE_BLOODAXE_TERRITORY = {
         bg_opium_plantations = 17
         bg_wishstone_mining = 17
     }
-
+    naval_exit_id = 3066
 }
 STATE_THIRSTRIDGE = {
     id = 2833
