@@ -1468,9 +1468,79 @@
 	region_state:TLD={
 		create_building={
 			building="building_government_administration"
-			level=2
+			level=4
 			reserves=1
 			activate_production_methods={ "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+		}
+		create_building={
+			building="building_construction_sector"
+			level=1
+			reserves=1
+			activate_production_methods={ "pm_iron_frame_buildings" }
+		}	
+		create_building={
+			building="building_textile_mills"
+			add_ownership={ 
+				building={ 
+					type="building_financial_district"
+					country="c:TLD"
+					levels=2
+					region="STATE_VOZMEAD_BORDERLANDS"
+			   }
+			}
+			reserves=1
+			activate_production_methods={ "pm_handsewn_clothes" "pm_traditional_looms" "pm_no_luxury_clothes" }
+		}
+		create_building={
+			building="building_furniture_manufacturies"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:TLD"
+                        levels=2
+                        region="STATE_VOZMEAD_BORDERLANDS"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" "pm_no_luxuries" }
+		}
+		create_building = {
+			building = "building_distillery"
+			add_ownership = {
+					building = {
+						type="building_financial_district"
+                	country="c:TLD"
+                	levels=2
+               	 region="STATE_VOZMEAD_BORDERLANDS"
+					}
+			}
+			reserves = 1
+		}
+		create_building={
+			building="building_fishing_wharf"
+                add_ownership={ 
+                    building={ 
+                        type="building_adventuring_guild"
+                        country="c:TLD"
+                        levels=7
+                        region="STATE_VOZMEAD_BORDERLANDS"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+		}
+		create_building={
+			building="building_shipyards"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:TLD"
+                        levels=1
+                        region="STATE_VOZMEAD_BORDERLANDS"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_basic_shipbuilding" }
 		}
 			create_building={
 			building="building_wheat_farm"
@@ -1478,13 +1548,65 @@
 					building={ 
 						type="building_manor_house"
 						country="c:TLD"
-						levels=2
+						levels=5
 						region="STATE_VOZMEAD_BORDERLANDS"
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools"  }
 		}
+		create_building={
+			building="building_logging_camp"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:TLD"
+                        levels=4
+                        region="STATE_VOZMEAD_BORDERLANDS"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+		}
+		create_building={
+			building="building_tooling_workshops"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:TLD"
+                        levels=1
+                        region="STATE_VOZMEAD_BORDERLANDS"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" }
+		}
+		create_building={
+			building="building_iron_mine"
+			add_ownership={ 
+				building={ 
+					type="building_financial_district"
+					country="c:TLD"
+					levels=2
+					region="STATE_VOZMEAD_BORDERLANDS"
+			   }
+			}
+			reserves=1
+			activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+		}
+		create_building={
+			building="building_cotton_plantation"
+			  add_ownership={ 
+				building={ 
+				  type="building_manor_house"
+				  country="c:TLD"
+				  levels=5
+				  region="STATE_VOZMEAD_BORDERLANDS"
+				 }
+			  }
+			reserves=1
+			activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
+		  }
 			create_building={
 			building="building_vineyard_plantation"
 				add_ownership={ 
@@ -6273,7 +6395,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DRO"
-						levels=2
+						levels=3
 						region="STATE_ELF3"
 				   }
 				}
@@ -6286,7 +6408,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DRO"
-						levels=4
+						levels=2
 						region="STATE_ELF3"
 				   }
 				}
@@ -6299,7 +6421,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:DRO"
-                        levels=2
+                        levels=4
                         region="STATE_ELF3"
                    }
                 }

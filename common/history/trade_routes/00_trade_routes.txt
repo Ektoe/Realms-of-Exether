@@ -670,6 +670,12 @@
 			direction = import
 		}
 		create_trade_route = {
+			goods = artillery
+			level = 1
+			target = c:EME.market
+			direction = import
+		}
+		create_trade_route = {
 			goods = paper
 			level = 1
 			target = c:CER.market
