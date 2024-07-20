@@ -659,7 +659,7 @@
 	c:DRO ?= {
 		create_trade_route = {
 			goods = wood
-			level = 5
+			level = 4
 			target = c:VOZ.market
 			direction = export
 		}
