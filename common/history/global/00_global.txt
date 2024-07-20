@@ -376,30 +376,4 @@ GLOBAL = {
 			value = c:VOZ.gdp
 		}
 
-		#Ravager Raids
-		every_country = {
-			limit = {
-				exists = c:CCO
-				this = c:CCO
-			}
-			set_variable = ravager_raids_possible
-		}
-		every_country = {
-			limit = {
-				exists = c:BTR
-				this = c:BTR
-			}
-			set_variable = ravager_raids_possible
-		}
-		every_country = {
-			limit = {
-				exists = c:IMA
-				this = c:IMA
-			}
-			set_variable = ravager_raids_possible
-		}
-		
-			
 }
-
-
