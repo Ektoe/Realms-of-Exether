@@ -193,8 +193,7 @@ s:STATE_HUNTERS_HILL = {
 	country = c:JUR
 	owned_provinces = { "x7DE796" "xA793F7" "xAD94DF" "xBF89F8" "xDADF53" "xDB88CA" "xDDF09A" "xE1D344" "xE8E0EE" "xECF6C1" "xF09DD2" "xF1B4B2" }
 	}
-	add_homeland = cu:meriwyn
-	add_homeland = cu:vampire #Sets the state to be a homeland for whatever culture you put here.
+	add_homeland = cu:meriwyn #Sets the state to be a homeland for whatever culture you put here.
 }
 
 s:STATE_CROWNSHADE = {
