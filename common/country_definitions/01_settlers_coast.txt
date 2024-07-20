@@ -402,7 +402,7 @@ BDB = {
 	tier = principality
 
 	cultures = { plaguedweller } 
-	capital = STATE_FORESTS_HEART_2
+	capital = STATE_BURAMONG
 }
 
 #Plaguemonger

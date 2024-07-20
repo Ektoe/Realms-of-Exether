@@ -39,5 +39,11 @@
 			type = trade_agreement
 		}		
 	}	
-	
+	c:AHO?= {
+		create_diplomatic_pact = {
+			country = c:ZKW
+			type = trade_agreement
+		}
+		
+	}
 }

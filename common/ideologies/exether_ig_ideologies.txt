@@ -10,12 +10,12 @@
 	}	
 
 	lawgroup_magic = {
-		law_no_magic = disapprove
+		law_no_magic = strongly_disapprove
 		law_divine_miracles = approve
 		law_druidic_circles = approve
 		law_artificer_guilds = approve
 		law_astrological_studies = strongly_approve
-		law_dark_arts = approve
+		law_dark_arts = neutral
 		law_mage_hunters = strongly_disapprove
 	}
 }

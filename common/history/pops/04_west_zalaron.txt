@@ -1962,9 +1962,8 @@
 			size = 600
 		}
 		create_pop = {
-			pop_type = slaves
 			culture = soulwrought
-			size = 558900
+			size = 858900
 		}
 		create_pop = {
 			culture = ravikian
@@ -2006,12 +2005,7 @@
 		}
 		create_pop = {
 			culture = soulwrought
-			size = 303 
-		}
-		create_pop = {
-			pop_type = slaves
-			culture = soulwrought
-			size = 558310
+			size = 658310
 		}
 		create_pop = {
 			culture = west_thalorian
@@ -2494,11 +2488,6 @@
 			size = 47996
 		}
 		create_pop = {
-			culture = soulwrought
-			size = 817 
-		}
-		create_pop = {
-			pop_type = slaves
 			culture = soulwrought
 			size = 645319
 		}
