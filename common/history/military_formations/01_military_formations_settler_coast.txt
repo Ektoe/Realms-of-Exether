@@ -154,7 +154,52 @@
 
 		}	
 	}
+    c:AHO ?= {
 
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_achon
+
+            save_scope_as = mageguard_aho
+
+			name = "Achonite Mageguard"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_LEYLINE_COAST
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ACHONIAN_HIGHLANDS
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SJETTSZCEK_MIRE
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_THUNDERSPELL_COAST
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_LEYLINE_COAST
+				count = 2
+			}
+		}
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_1
+			save_scope_as = commanderaho1_gen			
+		}
+		scope:commanderaho1_gen = {
+			transfer_to_formation = scope:mageguard_aho
+		}
+	}
 	c:THI ?= {
 		create_military_formation = {
 			type = army
@@ -1176,12 +1221,12 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_OUTER_MOORWEALD_2
+				state_region = s:STATE_MOORESHIRE
 				count = 3
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_OUTER_MOORWEALD_2
+				state_region = s:STATE_MOORESHIRE
 				count = 2
 			}
 		}
@@ -1215,7 +1260,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_EASTERN_PLAGUEWOOD_2
+				state_region = s:STATE_NORTHERN_EXPANSE
 				count = 25
 			}
 
@@ -1234,13 +1279,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_FORESTS_HEART_2
+				state_region = s:STATE_BURAMONG
 				count = 25
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_PLAGUEWOOD_HINTERLANDS_2
+				state_region = s:STATE_SANDWOOD
 				count = 25
 			}
 		}
