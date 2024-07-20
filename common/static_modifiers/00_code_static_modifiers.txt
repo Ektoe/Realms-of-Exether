@@ -815,8 +815,3 @@ successfully_met_foreign_imposition_legitimacy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_legitimacy_base_add = 10
 }
-
-cringe_modifier = {
-    icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
-    state_mortality_mult = 0.5 # revise this
-}

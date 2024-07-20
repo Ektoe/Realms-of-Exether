@@ -1,26 +1,23 @@
-every_country = {   
+every_country = {
         limit = {
             any_scope_state = {
-                AND = {
-                    is_under_colonization = yes
-                    OR = {
-                        region = sr:region_lacertia
-                        region = sr:region_elusive_coves
-                        region = sr:region_west_kailando
-                        region = sr:region_zafirsziget
-                        region = sr:region_anantadesh
-                        region = sr:region_new_dumonia
-                        region = sr:region_scalethane_realms
-                        region = sr:region_dreamweaver_jungle
-                        region = sr:region_sarpakshetra
-                    }
+
+                OR = {
+                    region = sr:region_lacertia
+                    region = sr:region_elusive_coves
+                    region = sr:region_west_kailando
+                    region = sr:region_zafirsziget
+                    region = sr:region_anantadesh
+                    region = sr:region_new_dumonia
+                    region = sr:region_scalethane_realms
+                    region = sr:region_dreamweaver_jungle
+                    region = sr:region_sarpakshetra
                 }
             }
         }
         every_scope_state = {
             limit = {
                 AND = {
-                    is_under_colonization = yes
                     OR = {
                         region = sr:region_lacertia
                         region = sr:region_elusive_coves
@@ -34,14 +31,8 @@ every_country = {
                     }
                 }
             }
-            if = {
-                limit = {
-                    has_modifier = cringe_modifier 
-                }
-                remove_modifier = cringe_modifier
-            }
             add_modifier = {
-                name = cringe_modifier
+                name = colonizing_near_ravagers_modifier
             }
         }
     }
