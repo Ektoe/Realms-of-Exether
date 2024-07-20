@@ -194,6 +194,7 @@ s:STATE_HUNTERS_HILL = {
 	owned_provinces = { "x7DE796" "xA793F7" "xAD94DF" "xBF89F8" "xDADF53" "xDB88CA" "xDDF09A" "xE1D344" "xE8E0EE" "xECF6C1" "xF09DD2" "xF1B4B2" }
 	}
 	add_homeland = cu:meriwyn
+	add_homeland = cu:sunkissed
 	add_homeland = cu:vampire #Sets the state to be a homeland for whatever culture you put here.
 }
 
@@ -334,6 +335,7 @@ s:STATE_HAG_MARSHES = {
 	owned_provinces = { "x68C6CB" "x6FACFB" "x916FFA" "x938EF1" "x94E1B9" "x9769FE" "xABC498" "xACE685" "xB1FAD6" "xB5DEAF" "xB9EAF2" "xC589A9" "xC6BED1" "xD683CC" "xD8E999" "xDCFDA3" "xDEAAAF" "xDFEEF7" "xF46DB8" "xF9D0C9" "xFCE9D1" }
 	}
 	add_homeland = cu:hag #Sets the state to be a homeland for whatever culture you put here.
+	add_homeland = cu:vampire
 }
 
 s:STATE_BALLYNE = {
@@ -489,6 +491,7 @@ s:STATE_TOLFAR = {
 	owned_provinces = { "x69FCA8" "xB8F5BF" "xC1BEDC" "xC3DDF6" "xD7C98E" "xDB66BE" "xDB7FA9" "xDC93C9" "xE0D990" }
 	}
 	add_homeland = cu:hag #Sets the state to be a homeland for whatever culture you put here.
+	add_homeland = cu:vampire
 }
 
 s:STATE_KENLYNE = {
@@ -505,6 +508,7 @@ s:STATE_BANCFAN = {
 	owned_provinces = { "x26E6F4" "x5EC3F0" "x65F8BD" "x71B2D8" "x7DD0B7" "x8CC0C6" "x99D9BF" "xC1C2ED" "xDAF53E" "xDC31FE" "xE3C44F" "xF6A08C" "xF6C8FA" }
 	}
 	add_homeland = cu:meriwyn #Sets the state to be a homeland for whatever culture you put here.
+	add_homeland = cu:vampire
 }
 
 s:STATE_BRISINGAMEN = {
@@ -521,6 +525,7 @@ s:STATE_MAESBELAN = {
 	owned_provinces = { "x54E2EE" "x5ED4D6" "x8CD3AF" "x98A5F2" "xA2E6F0" "xA2FDC3" "xA5CD83" "xA6C0DE" "xBBF0B6" "xCABCD2" "xDA6CF1" "xF4C1FB" "xF9EC19" "xFCA766" }
 	}
 	add_homeland = cu:meriwyn #Sets the state to be a homeland for whatever culture you put here.
+	add_homeland = cu:vampire
 }
 
 s:STATE_CAECARW = {
@@ -529,6 +534,7 @@ s:STATE_CAECARW = {
 	owned_provinces = { "x50FEA9" "x7AFD90" "x91EFD0" "xBD97D9" "xC7F6C0" "xC9E74A" "xCB56F0" "xCCBF9D" "xD4F88D" "xDFE3B4" "xF13CD5" "xF45BA6" "xF931CB" }
 	}
 	add_homeland = cu:meriwyn #Sets the state to be a homeland for whatever culture you put here.
+	add_homeland = cu:vampire
 }
 
 s:STATE_PONTBRAN = {
@@ -537,6 +543,7 @@ s:STATE_PONTBRAN = {
 	owned_provinces = { "x56E7F8" "x5CC5F5" "x64C4E9" "x9FD8D8" "xA0F5A3" "xCC92C9" "xCFBE6D" "xE0D5B7" "xECECE7" "xEF82C1" }
 	}
 	add_homeland = cu:meriwyn
+	add_homeland = cu:vampire
 }
 
 s:STATE_ALLTBRAN = {
@@ -545,6 +552,7 @@ s:STATE_ALLTBRAN = {
 	owned_provinces = { "x57C8FA" "x8DE8D7" "x9DE27E" "xBCFD55" "xD1FD5E" "xE634E2" "xEF33F3" "xF7F819" }
 	}
 	add_homeland = cu:hag #Sets the state to be a homeland for whatever culture you put here.
+	add_homeland = cu:vampire
 }
 
 s:STATE_YSTRAD = {
@@ -563,6 +571,7 @@ s:STATE_GLYNFFORDD = {
 	}
 	add_homeland = cu:meriwyn #Sets the state to be a homeland for whatever culture you put here.
 	add_homeland = cu:jalian
+	add_homeland = cu:vampire
 }
 
 s:STATE_ALLTGLAS = {
@@ -587,6 +596,7 @@ s:STATE_GWYNWEN = {
 	owned_provinces = { "x80EC8F" "x8AFC81" "x8CBBE0" "xA1EE7F" "xA284F5" "xC87BEF" "xD1ACEB" "xD45EEA" "xD8D49C" "xE13FEE" "xEB9F7A" "xF0BF92" "xFAFCBB" "xFDE17F" }
 	}
 	add_homeland = cu:jalian
+	add_homeland = cu:vampire
 }
 
 s:STATE_CASTELL_DRYSGOLMARK = {
@@ -636,6 +646,7 @@ s:STATE_INCHMARA = {
 	owned_provinces = { "x6DEDAD" "x76EB97" "xA872DC" "xB99DCD" "xC2AE90" "xCBEB90" "xCCF5AE" "xDAE36D" "xF9DDAC" "xF9E8BA" "xFC8CB2" }
 	}
 	add_homeland = cu:jalian #Sets the state to be a homeland for whatever culture you put here.
+	add_homeland = cu:vampire
 }
 
 s:STATE_GLASINBLAIR = {
@@ -660,6 +671,7 @@ s:STATE_MALDARBLANE = {
 	owned_provinces = { "x2DF1DC" "x80D5F0" "x8DC8AD" "xA68BD1" "xA7B8B0" "xA8C0CC" "xAAC8AA" "xB87FC2" "xC3B3C4" "xDEEBD6" "xE18BAE" "xF47BA2" }
 	}
 	add_homeland = cu:hag #Sets the state to be a homeland for whatever culture you put here.
+	add_homeland = cu:vampire
 }
 
 s:STATE_TYMANS_FOLLY = {
