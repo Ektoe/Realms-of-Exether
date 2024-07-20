@@ -1707,7 +1707,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:DRO = {
 		create_pop = {
 			culture = aridrun
-			size = 132264
+			size = 332264
 		}
 		create_pop = {
 			culture = vozi
@@ -1717,7 +1717,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 448528
+			size = 648528
 		}
 		create_pop = {
 			culture = aridrun
@@ -1822,7 +1822,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 567210
+			size = 1567210
 		}
 		create_pop = {
 			culture = aridrun
@@ -1835,7 +1835,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 219260
+			size = 619260
 		}
 		create_pop = {
 			culture = aridrun
@@ -1874,7 +1874,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 56260
+			size = 256260
 		}
 		create_pop = {
 			culture = aridrun
