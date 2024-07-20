@@ -1500,6 +1500,23 @@ dragonblightpulse.22 = { #secession events
 	
 	trigger = {
 		any_scope_state = {
+			OR = {
+				state_region = s:STATE_KLYPYRA
+				state_region = s:STATE_ZAMARIS
+				state_region = s:STATE_MOTHYA
+				state_region = s:STATE_LEPIDRA
+				state_region = s:STATE_ZARTHOS
+				state_region = s:STATE_CALTHA
+				state_region = s:STATE_SIGARA
+				state_region = s:STATE_CLYPYA
+				state_region = s:STATE_LILYBAEUM
+				state_region = s:STATE_SABRYA
+				state_region = s:STATE_ZYRAS
+				state_region = s:STATE_CARTHI
+				state_region = s:STATE_THASPYR
+				state_region = s:STATE_LEPTHAR
+				state_region = s:STATE_LEPTISCA
+			}
 			culture_percent_state = { target = cu:kotskarvi value >= 0.51   }
 		}
 	}
@@ -1515,6 +1532,35 @@ dragonblightpulse.22 = { #secession events
 					state_region = s:STATE_KLYPYRA
 				}
 				if={
+					limit = {
+						any_neighbouring_state = {	
+								owner = {
+									OR = {
+										country_has_primary_culture = cu:kotskarvi
+										country_has_primary_culture = cu:lomarash
+									}
+								}
+						}	
+					}
+					random_neighbouring_state = {
+						limit = {
+							owner = {
+								OR = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
+							}
+						}
+						owner = {
+							save_scope_as = klypyra_secession_scope
+						}
+					}
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+						set_state_owner = scope:klypyra_secession_scope
+					}
+				}
+				else_if={
 					limit = {
 					#Relevant kobold tag
 					exists = c:RKO
@@ -1547,6 +1593,35 @@ dragonblightpulse.22 = { #secession events
 					state_region = s:STATE_ZAMARIS
 				}
 				if={
+					limit = {
+						any_neighbouring_state = {	
+								owner = {
+									OR = {
+										country_has_primary_culture = cu:kotskarvi
+										country_has_primary_culture = cu:lomarash
+									}
+								}
+						}	
+					}
+					random_neighbouring_state = {
+						limit = {
+							owner = {
+								OR = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
+							}
+						}
+						owner = {
+							save_scope_as = zamaris_secession_scope
+						}
+					}
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+						set_state_owner = scope:zamaris_secession_scope
+					}
+				}
+				else_if={
 					limit = {
 					#Relevant kobold tag
 					exists = c:GUR
@@ -1583,6 +1658,35 @@ dragonblightpulse.22 = { #secession events
 				}
 				if={
 					limit = {
+						any_neighbouring_state = {	
+								owner = {
+									OR = {
+										country_has_primary_culture = cu:kotskarvi
+										country_has_primary_culture = cu:lomarash
+									}
+								}
+						}	
+					}
+					random_neighbouring_state = {
+						limit = {
+							owner = {
+								OR = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
+							}
+						}
+						owner = {
+							save_scope_as = lepidra_secession_scope
+						}
+					}
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+						set_state_owner = scope:lepidra_secession_scope
+					}
+				}
+				else_if={
+					limit = {
 					#Relevant kobold tag
 					exists = c:GUR
 					}
@@ -1617,6 +1721,35 @@ dragonblightpulse.22 = { #secession events
 					state_region = s:STATE_ZARTHOS
 				}
 				if={
+					limit = {
+						any_neighbouring_state = {	
+								owner = {
+									OR = {
+										country_has_primary_culture = cu:kotskarvi
+										country_has_primary_culture = cu:lomarash
+									}
+								}
+						}	
+					}
+					random_neighbouring_state = {
+						limit = {
+							owner = {
+								OR = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
+							}
+						}
+						owner = {
+							save_scope_as = zarthos_secession_scope
+						}
+					}
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+						set_state_owner = scope:zarthos_secession_scope
+					}
+				}
+				else_if={
 					limit = {
 					#Relevant kobold tag
 					exists = c:GUR
@@ -1653,6 +1786,35 @@ dragonblightpulse.22 = { #secession events
 				}
 				if={
 					limit = {
+						any_neighbouring_state = {	
+								owner = {
+									OR = {
+										country_has_primary_culture = cu:kotskarvi
+										country_has_primary_culture = cu:lomarash
+									}
+								}
+						}	
+					}
+					random_neighbouring_state = {
+						limit = {
+							owner = {
+								OR = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
+							}
+						}
+						owner = {
+							save_scope_as = caltha_secession_scope
+						}
+					}
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+						set_state_owner = scope:caltha_secession_scope
+					}
+				}
+				else_if={
+					limit = {
 					#Relevant kobold tag
 					exists = c:GUR
 					}
@@ -1686,8 +1848,36 @@ dragonblightpulse.22 = { #secession events
 			limit = {
 					state_region = s:STATE_SIGARA
 				}
-			
-		if={
+				if={
+					limit = {
+						any_neighbouring_state = {	
+								owner = {
+									OR = {
+										country_has_primary_culture = cu:kotskarvi
+										country_has_primary_culture = cu:lomarash
+									}
+								}
+						}	
+					}
+					random_neighbouring_state = {
+						limit = {
+							owner = {
+								OR = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
+							}
+						}
+						owner = {
+							save_scope_as = sigara_secession_scope
+						}
+					}
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+						set_state_owner = scope:sigara_secession_scope
+					}
+				}						
+		else_if={
 			limit = {
 			#Relevant kobold tag
 			exists = c:SVN
@@ -1725,6 +1915,35 @@ dragonblightpulse.22 = { #secession events
 		}
 		if={
 			limit = {
+				any_neighbouring_state = {	
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+				}	
+			}
+			random_neighbouring_state = {
+				limit = {
+					owner = {
+						OR = {
+							country_has_primary_culture = cu:kotskarvi
+							country_has_primary_culture = cu:lomarash
+						}
+					}
+				}
+				owner = {
+					save_scope_as = mothya_secession_scope
+				}
+			}
+			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
+				set_state_owner = scope:mothya_secession_scope
+			}
+		}
+		else_if={
+			limit = {
 			#Relevant kobold tag
 			exists = c:SVN
 			}
@@ -1759,8 +1978,36 @@ dragonblightpulse.22 = { #secession events
 		limit = {
 			state_region = s:STATE_CLYPYA
 		}
-		
-	if={
+		if={
+			limit = {
+				any_neighbouring_state = {	
+						owner = {
+							OR = {
+								country_has_primary_culture = cu:kotskarvi
+								country_has_primary_culture = cu:lomarash
+							}
+						}
+				}	
+			}
+			random_neighbouring_state = {
+				limit = {
+					owner = {
+						OR = {
+							country_has_primary_culture = cu:kotskarvi
+							country_has_primary_culture = cu:lomarash
+						}
+					}
+				}
+				owner = {
+					save_scope_as = clypya_secession_scope
+				}
+			}
+			scope:outbreak_state = {
+				dragonblight_killswitch_engage = yes
+				set_state_owner = scope:clypya_secession_scope
+			}
+		}	
+	else_if={
 		limit = {
 		#Relevant kobold tag
 		exists = c:SVN
@@ -1792,48 +2039,40 @@ dragonblightpulse.22 = { #secession events
 	}
 	}
 
-	else_if = {
-			limit = {
-				state_region = s:STATE_MOTHYA
-			}
-		
-		if={
-			limit = {
-			#Relevant kobold tag
-			exists = c:SVN
-			}
-			scope:outbreak_state = {
-				dragonblight_killswitch_engage = yes
-				set_state_owner = c:SVN
-
-			}
-		}
-		else_if={
-			limit = {
-			#Relevant kobold tag
-				exists = c:IAL
-			}
-			scope:outbreak_state = {
-				dragonblight_killswitch_engage = yes
-				set_state_owner = c:IAL
-			}
-		}	
-		else = {
-			scope:outbreak_state = {
-				dragonblight_killswitch_engage = yes
-			}
-			create_country = {
-				tag = SVN
-				origin = this
-				state = scope:outbreak_state.region_state:DIS
-			}
-		}
-	}
 		else_if = {
 				limit = {
 					state_region = s:STATE_LILYBAEUM
 				}
 				if={
+					limit = {
+						any_neighbouring_state = {	
+								owner = {
+									OR = {
+										country_has_primary_culture = cu:kotskarvi
+										country_has_primary_culture = cu:lomarash
+									}
+								}
+						}	
+					}
+					random_neighbouring_state = {
+						limit = {
+							owner = {
+								OR = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
+							}
+						}
+						owner = {
+							save_scope_as = lilybaeum_secession_scope
+						}
+					}
+					scope:outbreak_state = {
+						dragonblight_killswitch_engage = yes
+						set_state_owner = scope:lilybaeum_secession_scope
+					}
+				}
+				else_if={
 					limit = {
 					#Relevant kobold tag
 					exists = c:IAL
