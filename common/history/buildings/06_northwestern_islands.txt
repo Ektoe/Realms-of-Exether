@@ -716,7 +716,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" "pm_disabled_distillery" }
+				activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing"}
 			}
 			create_building={
 				building="building_cotton_plantation"
@@ -1196,10 +1196,6 @@
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_hagia_sophia"
-				level=1
 			}
 		}
 	}
@@ -1707,7 +1703,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+				activate_production_methods={  "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -2351,6 +2347,7 @@
 			create_building={
 				building="building_port"
 				reserves=1
+				level = 1
 				activate_production_methods={ "pm_anchorage" }
 			}
 			create_building={
@@ -2436,6 +2433,7 @@
 			create_building={
 				building="building_iron_mine"
 				reserves=1
+				level = 1
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 		}
@@ -2448,6 +2446,7 @@
 			create_building={
 				building="building_government_administration"
 				reserves=1
+				level = 1
 				activate_production_methods={ "pm_simple_organization" }
 			}
 			create_building={

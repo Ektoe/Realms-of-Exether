@@ -147,3 +147,20 @@ building_logging_camp_syrup_trees = {
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
+building_fur_hunting_lodge = {
+	building_group = bg_game_hunting
+	texture = "gfx/interface/icons/building_icons/building_fur_lodge.dds"
+	city_type = wood
+	required_construction = construction_cost_low
+	terrain_manipulator = forestry
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_fur_hunting
+		pmg_exotic_game
+		pmg_game_hunting_potions
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}

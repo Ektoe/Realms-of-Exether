@@ -383,7 +383,7 @@ popneed_art = {
 	entry = {
 		goods = fine_art
 		
-		weight = 4
+		weight = 1
 		max_supply_share = 1.0
 		min_supply_share = 0.0
 	}
@@ -391,7 +391,7 @@ popneed_art = {
 	entry = {
 		goods = trinkets
 		
-		weight = 4
+		weight = 1
 		max_supply_share = 1.0
 		min_supply_share = 0.0
 	}
@@ -401,7 +401,7 @@ popneed_art = {
 		
 		weight = 1
 		max_supply_share = 0.5
-		min_supply_share = 0.1
+		min_supply_share = 0.0
 	}
 
 }
@@ -414,7 +414,7 @@ popneed_leisure = {
 		
 		weight = 1
 		max_supply_share = 1.0
-		min_supply_share = 0.1
+		min_supply_share = 0.3
 	}
 
 	entry = {

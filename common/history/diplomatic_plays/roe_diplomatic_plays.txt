@@ -7,8 +7,9 @@
 			
 			war = yes
 			
-			type = dp_humiliation
-			
+			type = dp_war_reparations
+
+		
 			add_war_goal = {
 				holder = c:TLE
 				type = return_state
