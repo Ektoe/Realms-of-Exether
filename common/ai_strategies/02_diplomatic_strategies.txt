@@ -2015,9 +2015,9 @@ ai_strategy_unify_thaloria = {
 				scope:target_state = {
 					state_region = {
 						OR = {
-						country_has_primary_culture = cu:lake_thalorian
-						country_has_primary_culture = cu:west_thalorian
-						country_has_primary_culture = cu:central_thalorian
+						state_has_primary_culture = cu:lake_thalorian
+						state_has_primary_culture = cu:west_thalorian
+						state_has_primary_culture = cu:central_thalorian
 						}
 					}
 				}
