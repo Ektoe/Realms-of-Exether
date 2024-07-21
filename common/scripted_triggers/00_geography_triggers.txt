@@ -537,6 +537,7 @@ exether_is_coastal = {
 			state_region = s:STATE_RAZOK
 			state_region = s:STATE_BALDBAN #TAKE YOUR FINASTERIDE
 			state_region = s:STATE_KYRGRUK
+			state_region = s:STATE_VOZMEAD_BORDERLANDS
 			state_region = s:STATE_KRAKYR
 			state_region = s:STATE_GNAKYR
 			state_region = s:STATE_DORAZ

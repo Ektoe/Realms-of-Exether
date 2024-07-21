@@ -722,36 +722,37 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SKYPIERCER_PEAK
-				count = 3
+				count = 10
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CLOUDSILVER_SPINE
+				count = 6
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GRAVELROCK_ROAD
+				count = 7
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_DWARVENHAMMER
+				count = 5
+			}
+
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_SKYPIERCER_PEAK
-				count = 2
+				count = 4
 			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_CLOUDSILVER_SPINE
-				count = 3
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_CLOUDSILVER_SPINE
-				count = 1
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
+				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_GRAVELROCK_ROAD
 				count = 3
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_GRAVELROCK_ROAD
-				count = 2
 			}
 
 		}
@@ -799,15 +800,6 @@
 		
 		scope:kiras_gen = {
 			transfer_to_formation = scope:heroes_of_hanseath
-		}
-
-		activate_production_method = {
-			building_type = building_naval_base
-			production_method = pm_no_naval_theory
-		}	
-		activate_production_method = {
-			building_type = building_barracks
-			production_method = pm_no_organization
 		}
 	}
 
@@ -1038,6 +1030,26 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_MOUNT_YELFIS
+				count = 2
+			}
+		}
+	}
+
+	c:TLD ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_lagoon_coast
+			name = Borderland_Watch
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VOZMEAD_BORDERLANDS
+				count = 7
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_VOZMEAD_BORDERLANDS
 				count = 2
 			}
 		}

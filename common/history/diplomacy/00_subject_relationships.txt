@@ -17,6 +17,12 @@
 			type =  protectorate
 		}
 	}
+	c:CER = {
+		create_diplomatic_pact = {
+			country = c:CDW
+			type = protectorate
+		}
+	}
 	c:EME = {
 		create_diplomatic_pact = {
 			country = c:LAC
