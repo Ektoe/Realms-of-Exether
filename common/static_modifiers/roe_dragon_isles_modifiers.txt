@@ -106,3 +106,30 @@ crushed_conversion_cult_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_radicals_from_discrimination_mult = 0.20
 }
+
+scorned_sick_friend = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -2
+	interest_group_pop_attraction_mult = -0.10
+}
+
+sent_warm_regards = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = 2
+	interest_group_pop_attraction_mult = 0.10
+}
+
+victims_of_dragonblight = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_pol_str_mult = -0.10
+}
+
+tolerated_kobold_pogroms = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_radicals_from_discrimination_mult = 0.35
+}
+
+stopped_kobold_pogroms = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_radicals_from_discrimination_mult = -0.15
+}

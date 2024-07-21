@@ -31,8 +31,15 @@ dragonblight.1 = {
 		add_journal_entry = {
 			type = je_dragonblight_vaccine
 		}
+		every_scope_state = {
+			limit = {
+				state_region = s:STATE_KLYPYRA
+				state_region = s:STATE_ZAMARIS
+			}
+			add_modifier = modifier_active_dragonblight_outbreak
+		}
 		trigger_event = {
-			#	id = dragonblight.not
+				id = dragonblight.2
 			}
 	}
 }
@@ -57,18 +64,13 @@ dragonblight.2 = { #opening event about closing the borders to people leaving to
 	trigger = {
 	}
 
-	immediate = {
-		add_journal_entry = {
-			type = je_dragonblight
-		}
-	}
-
 	option = { #they must be stopped
 		name = dragonblight.2.a 
 		ai_chance = {
 			base = 80
 		}
         default_option = yes
+		activate_law = law_type:law_closed_borders
 		c:SNB ?= {
 			
 			#trigger_event = { id = persia_events.8 popup = yes } #todo
@@ -494,9 +496,13 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 			
 				trigger = {
 					any_scope_state = {
-						limit = {
-								has_modifier = modifier_active_dragonblight_outbreak
+							any_neighbouring_state = {
+								owner = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
 							}
+							has_modifier = modifier_active_dragonblight_outbreak
 						}
 						save_scope_as = infected_neighbour
 				}		
@@ -861,6 +867,69 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 					}
 			}
 
+			dragonblight_pulse.10 = { #adjacent spread, from other kobold country
+				type = country_event
+				placement = ROOT
+
+				cooldown = { months = 48 }
+
+				title = dragonblight_pulse.10.t
+				desc = dragonblight_pulse.10.d
+				flavor = dragonblight_pulse.10.f
+			
+				duration = 3
+			
+				event_image = {
+					video = "europenorthamerica_opium_smoker"
+				}
+			
+				on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+			
+				icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+			
+				trigger = {
+					any_scope_state = {
+							any_neighbouring_state = {
+								owner = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
+							}
+							NOT = { 
+								has_modifier = modifier_active_dragonblight_outbreak 
+								has_decree = decree_special_measures
+							}
+						}
+						save_scope_as = infected_neighbour_state
+				}		
+				immediate = {
+					random_scope_state = {
+						limit = {
+							any_neighbouring_state = {
+								owner = {
+									country_has_primary_culture = cu:kotskarvi
+									country_has_primary_culture = cu:lomarash
+								}
+							}
+							NOT = { 
+								has_decree = decree_special_measures
+								has_modifier = modifier_active_dragonblight_outbreak }
+							}
+
+						add_modifier = modifier_active_dragonblight_outbreak
+						save_scope_as = kobold_neighbour_state
+						}	
+				}
+				option = {
+					name = dragonblight_pulse.10.a #there is nothing we can do
+					}
+				option = {
+					name = dragonblight_pulse.10.b #perhaps we should take special measures
+					possible = {
+						authority >= 100
+					}
+					}
+			}
 			dragonblight_pulse.11 = { #cure
 				type = country_event
 				placement = ROOT
@@ -1393,6 +1462,9 @@ dragonblight_pulse.19 = { #kobold conversion cult appears
 			default_option = yes
 			
 			every_scope_state = {
+				limit = {
+					NOT = { state_region = scope:dragon_cultist_state }
+				}
 				add_modifier = {
 					name = crushed_conversion_cult
 					months = 36
@@ -1441,6 +1513,11 @@ dragonblight_pulse.20 = { #dragonborn ig member gets sick
 		immediate = {
 			random_interest_group = {
 				save_scope_as = friends_of_the_diseased
+				add_modifier = {
+					name = victims_of_dragonblight
+					months = 36
+					is_decaying = yes	
+					}
 				random_scope_character = {
 					limit = {
 						culture = cu:illvasaari 
@@ -1488,7 +1565,7 @@ dragonblight_pulse.21 = { #kobold pogroms
 		type = country_event
 		placement = ROOT
 
-		cooldown = { months = 25 }
+		cooldown = { months = 28 }
 
 		title = dragonblight_pulse.21.t
 		desc = dragonblight_pulse.21.d
@@ -1520,14 +1597,17 @@ dragonblight_pulse.21 = { #kobold pogroms
 		option = {
 			name = dragonblight_pulse.21.a #allow the pogroms
 
-			add_modifier = {
-				name = tolerated_kobold_pogroms
-				months = 36	
+			every_scope_state = {
+				add_modifier = {
+					name = tolerated_kobold_pogroms
+					months = 36
+					is_decaying = yes	
 				}
+			}
 			
 			scope:kobold_pogrom_state = {
 				kill_population_in_state = {
-					value = 0.035
+					value = 0.04
 					culture = cu:kotskarvi
 				   }
 			}
@@ -1537,15 +1617,18 @@ dragonblight_pulse.21 = { #kobold pogroms
 			name = dragonblight_pulse.21.b #stop the pogroms
 			default_option = yes
 			
-			add_modifier = {
-				name = stopped_kobold_pogroms
-				months = 36	
+			every_scope_state = {
+				add_modifier = {
+					name = stopped_kobold_pogroms
+					months = 36
+					is_decaying = yes	
 				}
+			}
 
 			scope:kobold_pogrom_state = {
 				add_radicals_in_state = {
 					culture = cu:illvasaari
-					value = 0.075
+					value = 0.15
 					strata = poor
 				}
 				}

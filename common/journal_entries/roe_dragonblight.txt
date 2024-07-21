@@ -3,22 +3,20 @@
 
 	group = je_group_internal_affairs
 	
-	immediate = {
 
-	}
 
 	#scripted_button = je_positivist_movement_embrace_positivism_button
 
 
-	on_weekly_pulse = {
-		effect = {
-			# clamp_variable = {
-			# 	name = positivism_progress_var
-			# 	max = 100
-			# 	min = 0
-			# }
-		}
-	}
+	# on_weekly_pulse = {
+	# 	effect = {
+	# 		# clamp_variable = {
+	# 		# 	name = positivism_progress_var
+	# 		# 	max = 100
+	# 		# 	min = 0
+	# 		# }
+	# 	}
+	# }
 
 	on_monthly_pulse = {
 		effect = {
@@ -71,18 +69,19 @@
 					}
 					change_pop_culture = {
 						target = cu:kotskarvi
-						value = 0.0029
+						value = 0.0033
 					}
 				}
 			}	
 		}
 		random_events = {
-			88 = 0
+			85 = 0
 			3 = dragonblight_pulse.1 #trade route spread
 			4 = dragonblight_pulse.2 #adjacent spread
 			2 = dragonblight_pulse.3 #woe be upon ye
 			6 = dragonblight_pulse.4 #shoulda took the decision lmao nerd
 			7 = dragonblight_pulse.5 #adjacent spread, no health system
+			3 = dragonblight_pulse.10 #adjacent-to-kobolds spread
 			4 = dragonblight_pulse.6 #heal-by-decree
 			4 = dragonblight_pulse.7 #heal, institution + decree
 			14 = dragonblight_pulse.8 #heal, vaccine + institution + decree
@@ -95,7 +94,7 @@
 			7 = dragonblight_pulse.18
 			7 = dragonblight_pulse.19
 			7 = dragonblight_pulse.20
-			6 = dragonblight_pulse.21
+			6 = dragonblight_pulse.21 #kobold pogrom
 		}
 	}
 
@@ -109,12 +108,190 @@
 	}	
 
 	on_complete = {
-		remove_modifier = dragonblight_blues #todo
-		trigger_event = {
+		#remove_modifier = dragonblight_blues #todo
+		#trigger_event = {
 		#	id = dragonblight.not
 		}
-	}
 
+	fail = {
+		OR = {
+			culture_percent_country = {
+				target = cu:illvasaari
+				value <= 0.33
+			}
+			AND = {
+				culture_percent_country = {
+					target = cu:illvasaari
+					value <= 0.5
+				}
+				s:STATE_KLYPYRA = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_ZAMARIS = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_ZARTHOS = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_CALTHA = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_SIGARA = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_LEPTISCA = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_OYRSA = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_LEPIDRA = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_THASPYR = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_LILYBAEUM = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_ZYRAS = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_MOTHYA = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_LEPTHAR = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_CLYPYA = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+				s:STATE_CARTHI = {
+					any_scope_state = {
+						OR = {
+							culture_percent_state = {
+								target = cu:illvasaari
+								value <= 0.4
+							}
+							NOT = { owner = ROOT }
+						}
+					}
+				}
+			}
+		}
+	}
 	
 
 	# current_value = {
@@ -125,9 +302,7 @@
 	# 	add = 100
 	# }
 
-	weight = 100
-
-	progressbar = yes
+	weight = 1000
 
 	should_be_pinned_by_default = yes
 }
