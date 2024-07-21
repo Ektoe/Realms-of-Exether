@@ -461,6 +461,15 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 						add_modifier = modifier_active_dragonblight_outbreak
 					}
 				}
+				option = {
+					name = dragonblight_pulse.1.a #there is nothing we can do
+					}
+				option = {
+					name = dragonblight_pulse.1.b #perhaps we should take special measures
+					possible = {
+						authority >= 100
+					}
+					}
 			}	
 
 			dragonblight_pulse.2 = { #adjacent spread
@@ -508,6 +517,15 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 							save_scope_as = neighbour_infection
 						}
 				}
+				option = {
+					name = dragonblight_pulse.2.a #there is nothing we can do
+					}
+				option = {
+					name = dragonblight_pulse.2.b #perhaps we should take special measures
+					possible = {
+						authority >= 100
+					}
+					}
 			}
 			
 			dragonblight_pulse.3 = { #woe be upon ye
@@ -793,6 +811,9 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 						save_scope_as = vaccine_drive
 					}	
 				}
+				option = {
+					name = dragonblight_pulse.8.a
+					}
 			}
 
 			dragonblight_pulse.9 = { #cure + decree
@@ -835,6 +856,9 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 						save_scope_as = vaccine_mandate
 					}	
 				}
+				option = {
+					name = dragonblight_pulse.10.a
+					}
 			}
 
 			dragonblight_pulse.11 = { #cure
@@ -875,6 +899,9 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 						save_scope_as = herd_immunity
 					}	
 				}
+				option = {
+					name = dragonblight_pulse.11.a
+					}
 			}
 
 
