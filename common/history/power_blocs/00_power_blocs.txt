@@ -145,6 +145,8 @@
 			principle = principle_external_trade_1
 			
 			member = c:DRO
+			member = c:TLD
+			 
 		}
 		if = {
 			limit = {

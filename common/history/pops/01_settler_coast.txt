@@ -743,15 +743,15 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:DRO = {
 		create_pop = {
 			culture = aridrun
-			size = 418404
+			size = 318404
 		}
 		create_pop = {
 			culture = korkaz
-			size = 616427
+			size = 216427
 		}
 		create_pop = {
 			culture = plaguedweller
-			size = 202435
+			size = 102435
 		}
 	}
   }
@@ -1752,7 +1752,7 @@ s:STATE_FAR_SHORE_2 = {
 		region_state:DRO = {
 			create_pop = {
 				culture = aridrun
-				size = 1620800
+				size = 973219
 			}
 		}
   }
@@ -1877,7 +1877,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 296260
+			size = 496260
 		}
 		create_pop = {
 			culture = aridrun

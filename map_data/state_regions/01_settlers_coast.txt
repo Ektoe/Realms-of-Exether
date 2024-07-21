@@ -407,7 +407,7 @@ STATE_VOZMEAD_BORDERLANDS = {
         type = "bg_oil_extraction"
         undiscovered_amount = 5
     }
-    naval_exit_id = 3035
+    naval_exit_id = 1056
 }
 
 STATE_CRAGGEDWYN = {
@@ -1895,7 +1895,7 @@ STATE_DWARVENHAMMER = {
     mine = xA3B6E7
     port = xA5EFA2
     arable_resources = { "bg_livestock_ranches" }
-    arable_land = 10
+    arable_land = 15
     capped_resources = {
         bg_iron_mining = 12
         bg_gold_mining = 4
