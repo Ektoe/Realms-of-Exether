@@ -1,6 +1,6 @@
 ﻿POPS = {
 
-  s:STATE_SC5 = {
+  s:STATE_FUNÉTUN = {
 	region_state:OPA = {
 		create_pop = {
 			culture = kashtarnel
@@ -34,7 +34,7 @@
 	}
   }
     
-  s:STATE_SC6 = {
+  s:STATE_ILUCÉR = {
 	region_state:OPA = {
 		create_pop = {
 			culture = kashtarnel
@@ -61,7 +61,7 @@
 	}
   }
     
-  s:STATE_SC7 = {
+  s:STATE_URSHALSÍ = {
 	region_state:OPA = {
 		create_pop = {
 			culture = kashtarnel
@@ -88,7 +88,7 @@
 	}
   }
     
-  s:STATE_SC8 = {
+  s:STATE_WÉSSWÚL = {
 	region_state:OPA = {
 		create_pop = {
 			culture = kashtarnel
@@ -110,7 +110,7 @@
 	}
   }
     
-  s:STATE_SC9 = {
+  s:STATE_KÁLMBIQÚIS = {
 	region_state:OPA = {
 		create_pop = {
 			culture = kashtarnel
@@ -160,7 +160,7 @@
 	}
   }
     
-  s:STATE_SC10 = {
+  s:STATE_SITYU_CÍN = {
 	region_state:OPA = {
 		create_pop = {
 			culture = kashtarnel

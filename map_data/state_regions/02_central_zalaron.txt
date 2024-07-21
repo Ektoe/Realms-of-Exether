@@ -3252,7 +3252,7 @@ STATE_PINCER_PENINSULA = {
     }
     naval_exit_id = 3087
 }
-STATE_SC5 = {
+STATE_FUNÉTUN = {
     id = 4211
     subsistence_building = "building_subsistence_farms"
     provinces = { "x47FED3" "x7CFA8E" "x99F393" "xA4B7DD" "xA9D7B0" "xADC7CC" "xC366E1" "xC4BACA" "xD1E2D4" "xE2A193" "xE492CB" "xE5DFC8" "xEB7BCB" "xEF033B" "xF6CAB2" "xF9E4B7" "xFEB3BA" }
@@ -3271,7 +3271,7 @@ STATE_SC5 = {
     }
     naval_exit_id = 3189
 }
-STATE_SC6 = {
+STATE_ILUCÉR = {
     id = 4212
     subsistence_building = "building_subsistence_farms"
     provinces = { "x6ECEF3" "x93B5C9" "x94E084" "x9C7CE5" "x9DB6BE" "xBFB0E1" "xC0E7F1" "xCFA7DF" "xDDDEDA" "xE1CD89" "xE89799" "xE987C1" }
@@ -3288,7 +3288,7 @@ STATE_SC6 = {
     }
     naval_exit_id = 3191
 }
-STATE_SC7 = {
+STATE_URSHALSÍ = {
     id = 4213
     subsistence_building = "building_subsistence_farms"
     provinces = { "x11FDF1" "x40E0ED" "x62FDED" "x96A9D4" "xB6F075" "xBAE97E" "xC5DEDD" "xC8C2EA" "xC9EFBA" "xCDE74C" "xCFBFF4" "xD7DF8F" "xDAD17F" "xE255DA" "xE5AEDC" "xF8BC99" "xF9DD8B" }
@@ -3305,7 +3305,7 @@ STATE_SC7 = {
     }
     naval_exit_id = 3191
 }
-STATE_SC8 = {
+STATE_WÉSSWÚL = {
     id = 4214
     subsistence_building = "building_subsistence_farms"
     provinces = { "x4FCED9" "x68EBDC" "x8F7AF0" "xA8B5CE" "xBDF86A" "xC36ED6" "xC5F2C0" "xCBA3CE" "xCCC1B7" "xD3E662" "xE0E6A0" "xECBD86" "xEE99F5" "xF6988E" "xF6EF89" "xFAFA87" }
@@ -3329,7 +3329,7 @@ STATE_SC8 = {
     }
     naval_exit_id = 3194
 }
-STATE_SC9 = {
+STATE_KÁLMBIQÚIS = {
     id = 4215
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x54EAFA" "x57FED8" "x58C1ED" "x6DE3C7" "x74FAB9" "x8EC0B3" "x94E4C6" "x98F5AD" "xA9BDDA" "xB4E17F" "xB788CF" "xB7FE8A" "xB84DFB" "xC461F6" "xC4E88C" "xD061D5" "xD884CF" "xDA5ECE" "xE46DDC" "xF0DF91" "xF5C4DC" "xF989BA" "xF9B0B3" "xFCCF58" }
@@ -3356,7 +3356,7 @@ STATE_SC9 = {
     naval_exit_id = 3194
 
 }
-STATE_SC10 = {
+STATE_SITYU_CÍN = {
     id = 4216
     subsistence_building = "building_subsistence_farms"
     provinces = { "x28FDEC" "x66C9C7" "x76DFE5" "x9F84DD" "xA38AE8" "xACF8DE" "xADFB75" "xC1E4CC" "xC56EEE" "xC68DE1" "xD0C95C" "xD4EFE9" "xD7F9BA" "xF9B3AA" }
