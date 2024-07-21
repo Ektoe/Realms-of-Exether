@@ -1,4 +1,5 @@
 ﻿namespace = dragonblight
+namespace = dragonblight_pulse
 
 dragonblight.1 = {
 	type = country_event
