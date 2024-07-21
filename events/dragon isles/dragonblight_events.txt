@@ -729,10 +729,11 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 				icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 			
 				trigger = {
+					has_institution = institution_health_system
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
 								has_decree = decree_special_measures
-								has_institution = institution_health_system
+								
 						}
 	
 				}	
@@ -748,7 +749,7 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 					}	
 				}
 				option = {
-					name = dragonblight_pulse.6.a
+					name = dragonblight_pulse.7.a
 					}
 			}
 
@@ -996,7 +997,7 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 				}
 			}
 			
-			dragonblight_pulse.15 = { 
+			dragonblight_pulse.15 = { #industrialist builds sickhouses
 				type = country_event
 				placement = ROOT
 
@@ -1394,7 +1395,7 @@ dragonblight_pulse.20 = { #dragonborn ig member gets sick
 		type = country_event
 		placement = ROOT
 
-		cooldown = { months = 40 }
+		cooldown = { months = 48 }
 
 		title = dragonblight_pulse.20.t
 		desc = dragonblight_pulse.20.d
@@ -1526,7 +1527,7 @@ dragonblight_pulse.21 = { #kobold pogroms
 
 }
 
-dragonblightpulse.22 = { #secession events
+dragonblight_pulse.22 = { #secession events
 	type = country_event
 	placement = ROOT
 
