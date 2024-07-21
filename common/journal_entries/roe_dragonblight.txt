@@ -75,7 +75,7 @@
 			}	
 		}
 		random_events = {
-			85 = 0
+			85 = dragonblight_pulse.22 #the collapse event lmao t
 			3 = dragonblight_pulse.1 #trade route spread
 			4 = dragonblight_pulse.2 #adjacent spread
 			2 = dragonblight_pulse.3 #woe be upon ye
