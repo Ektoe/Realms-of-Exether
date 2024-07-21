@@ -5983,7 +5983,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:VOZ"
-						levels=2
+						levels=4
 						region="STATE_GRAVELROCK_ROAD"
 				   }
 				}
@@ -6693,7 +6693,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_no_magic_clothes" "pm_traditional_looms" }
+			activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_no_magic_clothes" "pm_traditional_looms" }
 		}
 			create_building={
 			building="building_iron_mine"
@@ -6880,7 +6880,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools"  }
 			}
 			create_building={
 				building="building_food_industry"
@@ -6943,7 +6943,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools"  }
 		}
             create_building={
 			building="building_fishing_wharf"
