@@ -431,8 +431,8 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 								importer.owner = root
 								exporter.owner = {
 									country_has_primary_culture = cu:kotskarvi
-									NOT = {actor_market.owner = root}
 								}
+								NOT = {actor_market.owner = root}
 								actor_market.owner = {
 									save_scope_as = disease_exporter
 								}
@@ -440,8 +440,8 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 							AND = {	
 								importer.owner = {
 									country_has_primary_culture = cu:kotskarvi
-									NOT = {actor_market.owner = root}
 								}
+								NOT = {actor_market.owner = root}
 								exporter.owner = root
 								actor_market.owner = {
 									save_scope_as = disease_exporter
@@ -501,7 +501,7 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 							limit = {
 								owner = root
 								NOT = { has_modifier = modifier_active_dragonblight_outbreak }
-							#	NOT = { has_decree = special_decree }
+							#	NOT = { has_decree = decree_special_measures }
 							}
 							
 							add_modifier = modifier_active_dragonblight_outbreak
@@ -543,11 +543,20 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 							NOT = { has_modifier = modifier_active_dragonblight_outbreak }
 						}
 						add_modifier = modifier_active_dragonblight_outbreak
+						save_scope_as = new_outbreak_state
 					}
 
 				}
+				option = {
+					name = dragonblight_pulse.3.a #there is nothing we can do
+					}
+				option = {
+					name = dragonblight_pulse.3.b #perhaps we should take special measures
+					possible = {
+						authority >= 100
+					}
+					}
 			}
-
 			dragonblight_pulse.4 = { #shoulda took the decision lmao nerd
 				type = country_event
 				placement = ROOT
@@ -583,8 +592,17 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 						add_modifier = modifier_active_dragonblight_outbreak
 						save_scope_as = dragonblight_port 
 					}
-
+					
 				}
+				option = {
+					name = dragonblight_pulse.4.a #there is nothing we can do
+					}
+				option = {
+					name = dragonblight_pulse.4.b #perhaps we should take special measures
+					possible = {
+						authority >= 100
+					}
+					}
 			}
 
 			dragonblight_pulse.5 = { #adjacent spread, no health system
@@ -609,6 +627,9 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 			
 				trigger = {
 					any_scope_state = {
+								any_neighbouring_state = {
+									NOT = { has_decree = decree_special_measures }
+								}
 								has_modifier = modifier_active_dragonblight_outbreak
 						}
 					NOT = {
@@ -626,13 +647,22 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 							limit = {
 								owner = root
 								NOT = { has_modifier = modifier_active_dragonblight_outbreak }
-							#	NOT = { has_decree = special_decree }
+								NOT = { has_decree = decree_special_measures }
 							}
 							
 							add_modifier = modifier_active_dragonblight_outbreak
 							save_scope_as = blighted_state
 						}
 				}
+				option = {
+					name = dragonblight_pulse.5.a #there is nothing we can do
+					}
+				option = {
+					name = dragonblight_pulse.5.b #perhaps we should take special measures
+					possible = {
+						authority >= 100
+					}
+					}
 			}
 
 			dragonblight_pulse.6 = { #heal-by-decree
@@ -658,7 +688,7 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 				trigger = {
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = special_decree
+								has_decree = decree_special_measures
 						}
 	
 				}	
@@ -667,12 +697,15 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = special_decree
+							has_decree = decree_special_measures
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
 						save_scope_as = tide_turned
 					}	
 				}
+				option = {
+					name = dragonblight_pulse.6.a
+					}
 			}
 
 			dragonblight_pulse.7 = { #heal-by-decree-and-also-a-health-system
@@ -698,7 +731,7 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 				trigger = {
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = special_decree
+								has_decree = decree_special_measures
 								has_institution = institution_health_system
 						}
 	
@@ -708,12 +741,15 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = special_decree
+							has_decree = decree_special_measures
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
 						save_scope_as = curve_flat
 					}	
 				}
+				option = {
+					name = dragonblight_pulse.6.a
+					}
 			}
 
 			dragonblight_pulse.8 = { #dragonblight cured
@@ -741,7 +777,7 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 					has_variable = dragonblight_vaccine
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = special_decree
+								has_decree = decree_special_measures
 						}
 	
 				}	
@@ -750,7 +786,7 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = special_decree
+							has_decree = decree_special_measures
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
 						save_scope_as = vaccine_drive
@@ -783,7 +819,7 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 					has_variable = dragonblight_vaccine
 					any_scope_state = {
 								has_modifier = modifier_active_dragonblight_outbreak
-								has_decree = special_decree
+								has_decree = decree_special_measures
 						}
 	
 				}	
@@ -792,7 +828,7 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 					random_scope_state = {
 						limit = {
 							has_modifier = modifier_active_dragonblight_outbreak
-							has_decree = special_decree
+							has_decree = decree_special_measures
 							}
 						remove_modifier = modifier_active_dragonblight_outbreak
 						save_scope_as = vaccine_mandate
