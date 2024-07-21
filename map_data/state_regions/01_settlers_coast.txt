@@ -1634,6 +1634,7 @@ STATE_COGSREST = {
         bg_coal_mining = 36
         bg_iron_mining = 45
         bg_logging = 4
+        bg_opium_plantations = 20
     }
     naval_exit_id = 3211
 }
@@ -1649,7 +1650,7 @@ STATE_NOGI_SANDS = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 32
-        bg_opium_plantations = 12
+        bg_opium_plantations = 20
     }
     resource = {
         type = "bg_oil_extraction"

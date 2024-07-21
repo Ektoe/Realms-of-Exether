@@ -472,6 +472,7 @@ STATE_CARTHAROS = {
         bg_iron_mining = 18
         bg_logging = 4
         bg_fishing = 10
+        bg_dragon_ruins = 5
     }
     naval_exit_id = 3052
 }
