@@ -473,6 +473,36 @@ ai_strategy_default = {
 				}
 				multiply = 0
 			}
+		
+			## RAV AND TLE
+			if = {
+				limit = {
+					country_has_primary_culture = cu:lake_thalorian
+					scope:target_state = {
+						owner = {
+							c:RAV ?= this
+						}
+					}
+				}
+				add = 100
+			}
+
+			if = {
+				limit = {
+					country_has_primary_culture = cu:ravikian
+					scope:target_state = {
+						owner = {
+							OR = {
+								c:TLE ?= this
+								c:TLA ?= this
+								c:TLW ?= this
+							}
+						}
+					}
+				}
+				add = 100
+			}
+		
 		}
 
 		
@@ -1144,11 +1174,25 @@ ai_strategy_default = {
 		
 		add = {
 			value = income
-					
-			divide = 2500 # 1 construction output per this much income
+			subtract = investment_pool_income	
+			divide = 1250 # 1 construction output per this much income
 
 			min = 0
-		}		
+		}
+		
+		subtract = {
+			value = expenses
+			divide = 2000
+			min = 0
+		}
+
+		add = {
+			value = 0
+			add = income
+			subtract = expenses
+			divie = 500
+			min = 0
+		}
 		
 		# Add a baseline if trying to industrialize
 		if = {
@@ -1195,11 +1239,6 @@ ai_strategy_default = {
 			}
 			multiply = 0.75
 		}
-		
-		if = {
-			limit = { has_strategy = ai_strategy_maintain_mandate_of_heaven }
-			multiply = 0.1		
-		}		
 
 		min = 1
 		max = 1000
@@ -1551,7 +1590,9 @@ ai_strategy_default = {
 	
 	# Add a multiplier to the score AI assigns to particular building groups (default 1)
 	# Using this value in other strategies will result in several multiplications
-	building_group_weights = {}
+	building_group_weights = {
+		bg_construction = 100
+	}
 	
 	# Which buildings should the AI subsidize
 	# Using a different value in a strategy will override this value
