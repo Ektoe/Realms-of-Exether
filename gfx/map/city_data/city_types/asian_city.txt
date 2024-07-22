@@ -41,6 +41,7 @@
 	}
 	
 	building_construction_sector = {"asian_manufactory_03_mesh"}
+	building_tooling_workshops = {"asian_tools_manufactory_01_mesh"}
 	building_food_industry = {"asian_manufactory_01_mesh"}
 	building_potion_distillery = {"asian_manufactory_01_mesh"}
 	building_distillery = {"asian_manufactory_01_mesh"}

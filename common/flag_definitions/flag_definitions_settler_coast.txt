@@ -62,10 +62,42 @@ THI = {
 	}
 }
 
+EMP = {
+	flag_definition = {
+		coa = EMP
+		subject_canton = EMP
+		priority = 1
+	}
+}
+
+SLB = {
+	flag_definition = {
+		coa = SLB
+		subject_canton = SLB
+		priority = 1
+	}
+}
+
+SEB = {
+	flag_definition = {
+		coa = SEB
+		subject_canton = SEB
+		priority = 1
+	}
+}
+
 FEY = {
 	flag_definition = {
 		coa = FEY
 		subject_canton = FEY
+		priority = 1
+	}
+}
+
+PRI = {
+	flag_definition = {
+		coa = PRI
+		subject_canton = PRI
 		priority = 1
 	}
 }
@@ -83,6 +115,24 @@ GCS = {
 			exists = c:SMA
             c:GCS ?= {
 				is_subject_of ?= c:SMA
+			}
+        }
+    }    
+}
+
+KRC = {
+	flag_definition = {
+		coa = KRC
+		subject_canton = KRC
+		priority = 1
+	}
+	flag_definition = {
+        coa = KRC_subject_EMP       
+        priority = 50
+        trigger = { 
+			exists = c:EMP
+            c:KRC ?= {
+				is_subject_of ?= c:EMP
 			}
         }
     }    

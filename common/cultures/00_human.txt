@@ -3399,6 +3399,9 @@ cerunite={
 	color= hsv{ 0.72 0.25 0.28 }
 	religion = church_of_man
 	traits = { settler_coast_culture_group noric_culture_group human_heritage  }
+	obsessions = {
+		potions
+	}
 	male_common_first_names={
 		Aadu
 		Alar
