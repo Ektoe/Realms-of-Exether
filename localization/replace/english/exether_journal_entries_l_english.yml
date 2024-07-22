@@ -86,3 +86,5 @@
   colonial_administration_events.2.f: ""[SCOPE.GetRootScope.GetCountry.GetCustom('GetDivinity')] has created us free, and did not make us into heritage or estate. So by [SCOPE.  GetRootScope.GetCountry.GetCustom('GetDivinity')], we shall be bequeathed or enslaved no more."" # Urabi
   colonial_administration_events.2.a: "May [SCOPE.GetRootScope.GetCountry.GetCustom('GetDivinity')] preserve [ROOT.GetCountry.GetNameNoFormatting], for we may lack the means to."
   colony_alone_modifier: "Masterless Colony"
+
+cult_1_tt: "Every state owned by [THIS.GetCountry.GetName] gets: "

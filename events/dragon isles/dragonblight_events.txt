@@ -1239,13 +1239,11 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 						name = handling_naval_logistics
 						months = 48	
 					}
-					every_scope_pop = {
 						add_radicals = {
 							value = 0.025
 							strata = poor
 							culture = cu:illvasaari
 						}
-					}
 				}
 				option = {
 					name = dragonblight_pulse.16.b
@@ -1433,18 +1431,20 @@ dragonblight_pulse.19 = { #kobold conversion cult appears
 
 		option = {
 			name = dragonblight_pulse.19.a
-			default_option = yes
-
-			every_scope_state = {
-				limit = {
-					owner = root #is this necessary or is it already implicit?
-				}
-				add_modifier = {
-				name = tolerated_conversion_cult_state
-				months = 36	
-				is_decaying = yes
+			custom_tooltip = cult_1_tt
+			show_as_tooltip = {
+				random_scope_state = {
+					limit = {
+						owner = root #is this necessary or is it already implicit?
+					}
+					add_modifier = {
+					name = tolerated_conversion_cult_state
+					months = 36	
+					is_decaying = yes
+					}
 				}
 			}
+
 			scope:dragon_cultist_state = {
 			add_modifier = {
 				name = active_conversion_cult
@@ -1455,28 +1455,48 @@ dragonblight_pulse.19 = { #kobold conversion cult appears
 				culture = cu:kotskarvi
 			}	
 			}
+			hidden_effect = {
+				every_scope_state = {
+					limit = {
+						owner = root #is this necessary or is it already implicit?
+					}
+					add_modifier = {
+					name = tolerated_conversion_cult_state
+					months = 36	
+					is_decaying = yes
+					}
+				}
+			}
 			set_variable = conversion_cult_active
 			
 		}
 		option = {
 			name = dragonblight_pulse.19.b
 			default_option = yes
-			
-			every_scope_state = {
-				limit = {
-					NOT = { state_region = scope:dragon_cultist_state }
-				}
-				add_modifier = {
-					name = crushed_conversion_cult
-					months = 36
-					is_decaying = yes	
+			custom_tooltip = cult_1_tt
+			show_as_tooltip = {
+				random_scope_state = {
+					limit = {
+						NOT = { state_region = scope:dragon_cultist_state }
+					}
+					add_modifier = {
+						name = crushed_conversion_cult
+						months = 36
+						is_decaying = yes	
+					}
 				}
 			}
-			scope:dragon_cultist_state = {
-				add_modifier = {
-					name = crushed_local_conversion_cult_state
-					months = 36
+			hidden_effect = {
+				every_scope_state = {
+					add_modifier = {
+						name = crushed_conversion_cult
+						months = 36
+						is_decaying = yes	
 					}
+				}
+			}
+
+			scope:dragon_cultist_state = {
 				add_radicals_in_state = {
 					value = 0.2
 					culture = cu:kotskarvi
@@ -1587,8 +1607,8 @@ dragonblight_pulse.21 = { #kobold pogroms
 						save_scope_as = kobold_pogrom_state
 				}
 			scope:kobold_pogrom_state = {
-				kill_population_in_state = {
-					value = 0.02
+				kill_population_percent_in_state = {
+					percent = 0.02
 					culture = cu:kotskarvi
 				   }
 			}
@@ -1597,18 +1617,29 @@ dragonblight_pulse.21 = { #kobold pogroms
 
 		option = {
 			name = dragonblight_pulse.21.a #allow the pogroms
-
-			every_scope_state = {
-				add_modifier = {
-					name = tolerated_kobold_pogroms
-					months = 36
-					is_decaying = yes	
+			custom_tooltip = cult_1_tt
+			show_as_tooltip = {
+				random_scope_state = {
+					add_modifier = {
+						name = tolerated_kobold_pogroms
+						months = 36
+						is_decaying = yes	
+					}
+				}		
+			}
+			hidden_effect = {
+				every_scope_state = {
+					add_modifier = {
+						name = tolerated_kobold_pogroms
+						months = 36
+						is_decaying = yes	
+					}
 				}
 			}
-			
+
 			scope:kobold_pogrom_state = {
-				kill_population_in_state = {
-					value = 0.04
+				kill_population_percent_in_state = {
+					percent = 0.04
 					culture = cu:kotskarvi
 				   }
 			}
@@ -1617,15 +1648,25 @@ dragonblight_pulse.21 = { #kobold pogroms
 		option = {
 			name = dragonblight_pulse.21.b #stop the pogroms
 			default_option = yes
-			
-			every_scope_state = {
-				add_modifier = {
-					name = stopped_kobold_pogroms
-					months = 36
-					is_decaying = yes	
+			custom_tooltip = cult_1_tt
+			show_as_tooltip = {
+				random_scope_state = {
+					add_modifier = {
+						name = stopped_kobold_pogroms
+						months = 36
+						is_decaying = yes	
+					}
 				}
 			}
-
+			hidden_effect = {
+				every_scope_state = {
+					add_modifier = {
+						name = stopped_kobold_pogroms
+						months = 36
+						is_decaying = yes	
+					}
+				}
+			}
 			scope:kobold_pogrom_state = {
 				add_radicals_in_state = {
 					culture = cu:illvasaari
