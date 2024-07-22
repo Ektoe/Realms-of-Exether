@@ -926,15 +926,6 @@
 		scope:kiras_gen = {
 			transfer_to_formation = scope:heroes_of_hanseath
 		}
-
-		activate_production_method = {
-			building_type = building_naval_base
-			production_method = pm_no_naval_theory
-		}	
-		activate_production_method = {
-			building_type = building_barracks
-			production_method = pm_no_organization
-		}
 	}
 
 	c:FTH ?= {

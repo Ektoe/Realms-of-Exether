@@ -46,6 +46,7 @@ default_city = {
 	}
 
 	building_construction_sector = {"generic_manufactory_03_mesh"}
+	building_tooling_workshops = {"tools_manufactory_01_mesh"}
 	building_food_industry = {"generic_manufactory_01_mesh"}
 	building_potion_distillery = {"generic_manufactory_01_mesh"}
 	building_distillery = {"generic_manufactory_01_mesh"}
@@ -70,6 +71,7 @@ default_city = {
 
 	building_urban_center = {}
 	building_airship_dock = {}
+	building_airshipyards = {}
 
 	building_adventuring_guild = {"european_city_government_administration_01_mesh"}
 	building_government_administration = {"european_city_government_administration_01_mesh"}
