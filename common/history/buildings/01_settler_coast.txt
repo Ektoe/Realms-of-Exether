@@ -2491,6 +2491,11 @@
 			activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 		}
 		create_building={
+			building="building_beekeeping"
+			level = 1
+			reserves=1
+		}
+		create_building={
 			building="building_construction_sector"
 			level=3
 			reserves=1
