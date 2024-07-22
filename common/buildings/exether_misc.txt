@@ -150,9 +150,9 @@ building_logging_camp_syrup_trees = {
 building_fur_hunting_lodge = {
 	building_group = bg_game_hunting
 	texture = "gfx/interface/icons/building_icons/building_fur_lodge.dds"
-	city_type = wood
+	city_type = farm
 	required_construction = construction_cost_low
-	terrain_manipulator = forestry
+	terrain_manipulator = farmland_rye
 	levels_per_mesh = 5
 
 	production_method_groups = {
