@@ -841,7 +841,6 @@ STATE_ELVERA = {
     wood = x6DFAB1
     farm = x84DEE1
     mine = xBBE5C5
-    port = xBCE6EC
     arable_land = 9
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
