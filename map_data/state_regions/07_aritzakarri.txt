@@ -544,7 +544,7 @@ STATE_OLABEGI = {
     naval_exit_id = 3059
 }
 STATE_OLABEGI_2 = {
-    id = 3792 
+    id = 3792
     subsistence_building = "building_subsistence_farms"
     provinces = { "x689BFC" "x6EC0E0" "x98B1B1" "x9BB4E1" "xA3DEB2" "xB2F5C3" "xD9DACD" "xEBEB9B" "xF5B1A2" "xFDC757" }
     city = x6EC0E0
