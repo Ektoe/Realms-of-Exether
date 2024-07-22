@@ -248,12 +248,12 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_TROMMELKUST
-				count = 25
+				count = 30
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_TROMMELKUST
-				count = 15
+				count = 20
 			}
 
 			save_scope_as = rav_army
