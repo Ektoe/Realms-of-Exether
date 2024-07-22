@@ -1023,6 +1023,7 @@ s:STATE_ALAMARA = {
         owned_provinces = { "x50F9CF" "x5CEDC1" "x65B2E2" "x73B7FC" "x88BEC2" "x91B4B3" "xE9DDBB" "xF349C3" "xF4D1FB" }
 }
 add_homeland = cu:azmaraan
+add_homeland = cu:qinnaat
 }
 
 s:STATE_ESPRANOOR = {
