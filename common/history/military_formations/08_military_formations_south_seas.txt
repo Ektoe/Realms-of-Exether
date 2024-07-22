@@ -33,6 +33,21 @@
 			transfer_to_formation = scope:pel_army
 		}
 	}
+	c:LAC ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_lacertia
+			name = company_mercenary_legion
+
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_APAFONTE
+				count = 15
+			}
+		}
+	}
+	
 	c:LEM ?= {
 		create_military_formation = {
 			type = army
