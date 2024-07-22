@@ -89,7 +89,7 @@ STATE_LEPTHAR = {
 }
 STATE_THASPYR = {
     id = 3696
-    subsistence_building = "building_subsistence_pastures"
+    subsistence_building = "building_subsistence_farms"
     provinces = { "x4DD294" "x6AF1B9" "x98F082" "xA6D0A1" "xA7AFC7" "xD64577" }
     city = x6AF1B9
     wood = x98F082
@@ -171,6 +171,7 @@ STATE_THAPSARIS = {
     capped_resources = {
         bg_fishing = 12
         bg_whaling = 7
+        bg_wishstone_mining = 26
     }
     naval_exit_id = 3013
 }
