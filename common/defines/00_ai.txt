@@ -198,8 +198,8 @@
 	CONSTRUCTION_MAX_NUM_GOVERNMENT_BUILDING_CONSTRUCTIONS_SCALED = 0.05 # If country has this number of government building constructions queued, don't add anymore (scaled by construction production)
 	CONSTRUCTION_MAX_NUM_GOVERNMENT_BUILDING_CONSTRUCTIONS_SCALED_MAX = 99 # CONSTRUCTION_MAX_NUM_GOVERNMENT_CONSTRUCTIONS_SCALED can't be higher than this
 	CONSTRUCTION_RESERVES_NEW_CONSTRUCTIONS = 0 # If gold reserves are less than this after adding the cost of a new construction, don't queue it
-	CONSTRUCTION_DEBT_RESUME = 0.4 # If constructions are paused, resume once debt is this low relative to ceiling
-	CONSTRUCTION_DEBT_PAUSE = 0.6 # If in this much relative debt to debt ceiling, pause all non-critical constructions
+	CONSTRUCTION_DEBT_RESUME = 0.05 # If constructions are paused, resume once debt is this low relative to ceiling
+	CONSTRUCTION_DEBT_PAUSE = 0.3 # If in this much relative debt to debt ceiling, pause all non-critical constructions
 	CONSTRUCTION_DEBT_RESUME_CRITICAL_CONSTRUCTION = 0.95 # If critical constructions are paused, resume once debt is this low relative to ceiling
 	CONSTRUCTION_DEBT_PAUSE_CRITICAL_CONSTRUCTION = 0.99 # If in this much relative debt to debt ceiling, pause all critical constructions
 
