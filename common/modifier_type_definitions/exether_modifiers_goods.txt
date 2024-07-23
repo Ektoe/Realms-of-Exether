@@ -190,6 +190,15 @@ goods_input_ectoplasm_add = {
 	}
 }
 
+goods_input_luxury_clothes_add = {
+	color=good
+	percent = no
+	game_data={
+		ai_value=0
+	}
+}
+
+
 goods_input_airships_add = {
 	color=good
 	percent = no
