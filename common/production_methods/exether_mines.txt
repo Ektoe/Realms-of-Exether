@@ -2,7 +2,7 @@
 texture = "gfx/interface/icons/production_method_icons/no_potion_sap.dds"
 }
 
-pm_mines_sleep_in_a_bottle = {
+pm_iron_mines_sleep_in_a_bottle = {
 	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
 	
 	unlocking_technologies = {
@@ -25,7 +25,151 @@ pm_mines_sleep_in_a_bottle = {
 	}
 }
 
-pm_mines_potions_of_fortitude = {
+pm_iron_mines_potions_of_fortitude = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_hardwood_add = 3	# x40 = 120
+
+			goods_output_iron_add =  20 	# x40 = 800
+			
+		}
+
+		unscaled = {
+			#building modifiers
+			building_laborers_mortality_mult = -0.1
+		}
+	}
+}
+
+pm_iron_mines_potions_of_strength = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy #later than this
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_steel_add = 4		# x50 = 200
+
+			goods_output_iron_add = 25		# x40 = 1000
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -200
+		}
+		unscaled = {
+			#building modifiers
+		}
+	}
+}
+
+pm_coal_mines_sleep_in_a_bottle = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 5		# x50 = 250
+			goods_input_coffee_add = 1		# x50 = 50
+
+			goods_output_coal_add = 15		# x30 = 450
+		}
+
+		unscaled = {
+			#building modifiers
+			building_laborers_mortality_mult = 0.05
+		}
+	}
+}
+
+pm_coal_mines_potions_of_fortitude = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_hardwood_add = 3	# x40 = 120
+
+			goods_output_coal_add =  25 	# x30 = 750
+			
+		}
+
+		unscaled = {
+			#building modifiers
+			building_laborers_mortality_mult = -0.1
+		}
+	}
+}
+
+pm_coal_mines_potions_of_strength = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy #later than this
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_steel_add = 3		# x50 = 200
+
+			goods_output_coal_add = 30		# x30 = 900
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -200
+		}
+		unscaled = {
+			#building modifiers
+		}
+	}
+}
+
+pm_gold_mines_sleep_in_a_bottle = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 5		# x50 = 250
+			goods_input_coffee_add = 1		# x50 = 50
+
+			goods_output_gold_add = 5		# x100 = 500
+		}
+
+		unscaled = {
+			#building modifiers
+			building_laborers_mortality_mult = 0.05
+		}
+	}
+}
+
+pm_gold_mines_potions_of_fortitude = {
 	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
 	
 	unlocking_technologies = {
@@ -38,7 +182,7 @@ pm_mines_potions_of_fortitude = {
 			goods_input_potions_add = 10	# x50 = 500
 			goods_input_hardwood_add = 2	# x40 = 80
 
-			goods_output_iron_add =  15 	# x40 = 600
+			goods_output_gold_add =  10 	# x100 = 1000
 			
 		}
 
@@ -49,7 +193,149 @@ pm_mines_potions_of_fortitude = {
 	}
 }
 
-pm_mines_potions_of_strength = {
+pm_gold_mines_potions_of_strength = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy #later than this
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_steel_add = 4		# x50 = 200
+
+			goods_output_iron_add = 12		# x100 = 1200
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -200
+		}
+		unscaled = {
+			#building modifiers
+		}
+	}
+}
+pm_lead_mines_sleep_in_a_bottle = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 5		# x50 = 250
+			goods_input_coffee_add = 1		# x50 = 50
+
+			goods_output_lead_add = 10		# x40 = 400
+		}
+
+		unscaled = {
+			#building modifiers
+			building_laborers_mortality_mult = 0.05
+		}
+	}
+}
+
+pm_lead_mines_potions_of_fortitude = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_hardwood_add = 3	# x40 = 120
+
+			goods_output_lead_add =  20 	# x40 = 800
+			
+		}
+
+		unscaled = {
+			#building modifiers
+			building_laborers_mortality_mult = -0.1
+		}
+	}
+}
+
+pm_lead_mines_potions_of_strength = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy #later than this
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_steel_add = 4		# x50 = 200
+
+			goods_output_lead_add = 25		# x40 = 1000
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -200
+		}
+		unscaled = {
+			#building modifiers
+		}
+	}
+}
+pm_sulfur_mines_sleep_in_a_bottle = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 5		# x50 = 250
+			goods_input_coffee_add = 1		# x50 = 50
+
+			goods_output_sulfur_add = 10		# x50 = 500
+		}
+
+		unscaled = {
+			#building modifiers
+			building_laborers_mortality_mult = 0.05
+		}
+	}
+}
+
+pm_sulfur_mines_potions_of_fortitude = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_hardwood_add = 2	# x40 = 80
+
+			goods_output_sulfur_add =  15 	# x50 = 750
+			
+		}
+
+		unscaled = {
+			#building modifiers
+			building_laborers_mortality_mult = -0.1
+		}
+	}
+}
+
+pm_sulfur_mines_potions_of_strength = {
 	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
 	
 	unlocking_technologies = {
@@ -62,7 +348,78 @@ pm_mines_potions_of_strength = {
 			goods_input_potions_add = 10	# x50 = 500
 			goods_input_steel_add = 3		# x50 = 150
 
-			goods_output_iron_add = 20		# x40 = 800
+			goods_output_sulfur_add = 20		# x50 = 1000
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -200
+		}
+		unscaled = {
+			#building modifiers
+		}
+	}
+}
+pm_wishstone_mines_sleep_in_a_bottle = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 5		# x50 = 250
+			goods_input_coffee_add = 1		# x50 = 50
+
+			goods_output_wishstone_add = 10		# x50 = 500
+		}
+
+		unscaled = {
+			#building modifiers
+			building_laborers_mortality_mult = 0.05
+		}
+	}
+}
+
+pm_wishstone_mines_potions_of_fortitude = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_hardwood_add = 3	# x40 = 120
+
+			goods_output_wishstone_add =  15 	# x50 = 750
+			
+		}
+
+		unscaled = {
+			#building modifiers
+			building_laborers_mortality_mult = -0.1
+		}
+	}
+}
+
+pm_wishstone_mines_potions_of_strength = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_technologies = {
+		alchemy #later than this
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_steel_add = 4		# x50 = 200
+
+			goods_output_iron_add = 20		# x50 = 1000
 		}
 
 		level_scaled = {
@@ -322,4 +679,27 @@ pm_wishstone_building_gold_mine = {
 			building_archmages_mortality_mult = 0.15
 		}
 	}
+}
+
+pm_gold_fields_potions = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_potions_add = 5
+			
+			goods_output_gold_add = 15
+		}
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4500
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_minting_add = 750
+		}
+	}
+
 }
