@@ -60,6 +60,7 @@
 	}
 
 	building_construction_sector = {"french_city_factory_construction_01_mesh"}
+	building_tooling_workshops = {"tools_manufactory_01_mesh"}
 	building_food_industry = {"french_city_factory_food_01_mesh"}
 	building_potion_distillery = {"french_city_factory_food_01_mesh"}
 	building_distillery = {"french_city_factory_food_01_mesh"}

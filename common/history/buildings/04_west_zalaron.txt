@@ -987,13 +987,13 @@
   s:STATE_SHKUMBINIA = {
 	region_state:MGR={
 			create_building={
-			building="building_rice_farm"
+			building="building_rice_farm_leechgardens"
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
 						country="c:KGM"
-						levels=1
-						region="STATE_SHKODERIA"
+						levels=4
+						region="STATE_SHKUMBINIA"
 				   }
 				}
 			reserves=1
@@ -1170,13 +1170,13 @@
 			activate_production_methods={ "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 		}
 			create_building={
-			building="building_rice_farm"
+			building="building_rice_farm_leechgardens"
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
 						country="c:MGR"
 						levels=2
-						region="STATE_NYZHNE_SENIA"
+						region="STATE_BREZHKE"
 				   }
 				}
 			reserves=1
@@ -1215,7 +1215,7 @@
 						type="building_manor_house"
 						country="c:EKA"
 						levels=1
-						region="STATE_PODBARDISHTA"
+						region="STATE_BREZHKE"
 				   }
 				}
 			reserves=1
@@ -1235,7 +1235,7 @@
   s:STATE_TROPOJA = {
 	region_state:MGR={
 			create_building={
-			building="building_rice_farm"
+			building="building_rice_farm_leechgardens"
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
@@ -1254,7 +1254,7 @@
 						type="building_manor_house"
 						country="c:EKA"
 						levels=1
-						region="STATE_STRUGOVA"
+						region="STATE_TROPOJA"
 				   }
 				}
 			reserves=1
