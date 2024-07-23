@@ -32,7 +32,7 @@ pmg_base_liquid_potion = {
 texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds" #could maybe use something more flavorful for these
 	production_methods = {
 		pm_water-based_potions
-		pm_alcohol-based_potion
+		pm_alcohol-based_potions
 		pm_oil-based_potions
 	}
 }

@@ -12,14 +12,15 @@ pm_mines_sleep_in_a_bottle = {
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
-			goods_input_potions_add = 5
-			goods_input_coffee_add = 1
+			goods_input_potions_add = 5		# x50 = 250
+			goods_input_coffee_add = 1		# x50 = 50
+
+			goods_output_iron_add = 10		# x40 = 400
 		}
 
 		unscaled = {
 			#building modifiers
-			building_throughput_add = 0.15
-			building_laborers_standard_of_living_add = -1.2 #does... does this work?
+			building_laborers_mortality_mult = 0.05
 		}
 	}
 }
@@ -34,16 +35,16 @@ pm_mines_potions_of_fortitude = {
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
-			goods_input_potions_add = 10
-			goods_input_hardwood_add = 2
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_hardwood_add = 2	# x40 = 80
+
+			goods_output_iron_add =  15 	# x40 = 600
 			
 		}
 
 		unscaled = {
 			#building modifiers
-			building_throughput_add = 0.15
-			building_laborers_mortality_mult = -0.15
-			building_laborers_standard_of_living_add = 1 #does... does this work?  should I be using the longer bg_building_group sol modifier?
+			building_laborers_mortality_mult = -0.1
 		}
 	}
 }
@@ -58,9 +59,10 @@ pm_mines_potions_of_strength = {
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
-			goods_input_potions_add = 13
-			goods_input_steel_add = 3
-			
+			goods_input_potions_add = 10	# x50 = 500
+			goods_input_steel_add = 3		# x50 = 150
+
+			goods_output_iron_add = 20		# x40 = 800
 		}
 
 		level_scaled = {
@@ -68,8 +70,6 @@ pm_mines_potions_of_strength = {
 		}
 		unscaled = {
 			#building modifiers
-			building_throughput_add = 0.25
-			 #does... does this work?  should I be using the longer bg_building_group sol modifier?
 		}
 	}
 }
