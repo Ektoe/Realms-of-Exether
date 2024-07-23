@@ -806,7 +806,7 @@ pm_automagical_harvesting = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 
 	unlocking_technologies = {
-		wishstone_machines
+		advanced_contraptions
 	}
 	unlocking_production_methods = {
 		pm_manowar_leviathan_ships
