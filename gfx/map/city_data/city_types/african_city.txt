@@ -41,6 +41,7 @@
 	}
 
 	building_construction_sector = {"african_manufactory_03_mesh"}
+	building_tooling_workshops = {"african_tools_manufactory_01_mesh"}
 	building_food_industry = {"african_manufactory_01_mesh"}
 	building_potion_distillery = {"african_manufactory_01_mesh"}
 	building_distillery = {"african_manufactory_01_mesh"}
