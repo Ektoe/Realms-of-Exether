@@ -111,7 +111,7 @@
 		create_power_bloc = {
 			name =  ASTRAL_CONSORTIUM
 
-			map_color = { 190 190 0 }
+			map_color = { 0 127 255 }
 
 			founding_date = 1063.03.04
 			identity = identity_trade_league
@@ -130,6 +130,30 @@
 			}
 			power_bloc = {
 				add_principle = principle_advanced_research_1
+			}
+		}
+	}
+
+	c:VOZ = {
+		create_power_bloc = {
+			name =  SILT_WINDS
+
+			map_color = { 250  250  0 }
+
+			founding_date = 1063.03.04
+			identity = identity_trade_league
+			principle = principle_external_trade_1
+			
+			member = c:DRO
+			member = c:TLD
+			 
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_freedom_of_movement_1
 			}
 		}
 	}
