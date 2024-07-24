@@ -66,7 +66,7 @@ bg_wishstone_mining = {
 	foreign_investment_ai_factor = 1.0
 }
 
-bg_wishstone_extraction_sea = {
+bg_wishstone_reef = {
 	parent_group = bg_magic_resource
 	
 	category = rural
