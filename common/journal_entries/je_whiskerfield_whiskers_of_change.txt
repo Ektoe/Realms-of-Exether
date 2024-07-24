@@ -1,0 +1,32 @@
+﻿je_whiskerfield_whiskers_of_change = {
+
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_historical_content
+
+	immediately = {
+		
+		trigger_event = {
+			id = whiskers_of_change.1
+		}
+	}
+
+	complete = {
+
+	}
+
+	can_deactivate = no
+	
+	possible = {
+		root = c:WHI
+	}
+
+
+	status_desc = {
+
+	}
+
+	should_be_pinned_by_default = yes
+	
+	weight = 2000	
+}
