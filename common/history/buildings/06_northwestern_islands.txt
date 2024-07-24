@@ -88,19 +88,6 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard_plantation"  }
 			}
-			create_building={
-				building="building_leviathan_outpost"
-				add_ownership={ 
-					building={ 
-						type="building_financial_district"
-						country="c:TKR"
-						levels=1
-						region="STATE_HADRA"
-				   }
-				}
-				  reserves=1
-				activate_production_methods={ "pm_shore_leviathan_hunting" }
-			}
 		}
 	}
 	s:STATE_BYRTHAS = {
@@ -1405,19 +1392,6 @@
 				reserves=1
 				activate_production_methods= { "pm_simple_squidding" "pm_unrefrigerated" }
 			  }
-			create_building={
-				building="building_leviathan_outpost"
-				add_ownership={ 
-					building={ 
-						type="building_financial_district"
-						country="c:KVA"
-						levels=1
-						region="STATE_OYSSARA"
-				   }
-				}
-				  reserves=1
-				activate_production_methods={ "pm_shore_leviathan_hunting" }
-			}
 		}
 	}
 	s:STATE_ZUCARA = {
@@ -1529,19 +1503,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
 			}
-			create_building={
-				building="building_leviathan_outpost"
-				add_ownership={ 
-					building={ 
-						type="building_financial_district"
-						country="c:RKO"
-						levels=1
-						region="STATE_KURTHARA"
-				   }
-				}
-				  reserves=1
-				activate_production_methods={ "pm_shore_leviathan_hunting" }
-			}
 		}
 	}
 	s:STATE_EBYSUS = {
@@ -1558,19 +1519,6 @@
                 }
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
-			}
-			create_building={
-				building="building_leviathan_outpost"
-				add_ownership={ 
-					building={ 
-						type="building_financial_district"
-						country="c:RKO"
-						levels=1
-						region="STATE_EBYSUS"
-				   }
-				}
-				  reserves=1
-				activate_production_methods={ "pm_shore_leviathan_hunting" }
 			}
 			create_building={
 				building="building_dragon_ruins"
@@ -1614,19 +1562,6 @@
                 }
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden" }
-			}
-			create_building={
-				building="building_leviathan_outpost"
-				add_ownership={ 
-					building={ 
-						type="building_adventuring_guild"
-						country="c:DIS"
-						levels=1
-						region="STATE_ZYRAS"
-				   }
-				}
-				reserves=1
-				activate_production_methods={ "pm_manowar_leviathan_ships" "pm_safety_potions" }
 			}
 			create_building={
 				building="building_artillery_foundries"
