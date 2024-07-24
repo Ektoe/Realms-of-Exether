@@ -216,6 +216,7 @@ goods_input_coffee_add = {
 }
 
 goods_output_grain_mult = {
+	decimals=0
 	color = good
 	percent = yes
 	game_data={
@@ -224,6 +225,7 @@ goods_output_grain_mult = {
 }
 
 goods_output_sugar_mult = {
+	decimals=0
 	color = good
 	percent = yes
 	game_data={
@@ -232,6 +234,7 @@ goods_output_sugar_mult = {
 }
 
 goods_output_liquor_mult = {
+	decimals=0
 	color = good
 	percent = yes
 	game_data={
@@ -240,6 +243,7 @@ goods_output_liquor_mult = {
 }
 
 goods_output_fruit_mult = {
+	decimals=0
 	color = good
 	percent = yes
 	game_data={
@@ -248,6 +252,7 @@ goods_output_fruit_mult = {
 }
 
 goods_input_fertilizer_mult = {
+	decimals = 0
 	color = bad
 	percent = yes
 	game_data={
@@ -256,6 +261,7 @@ goods_input_fertilizer_mult = {
 }
 
 goods_output_meat_mult = {
+	decimals=0
 	color = good
 	percent = yes
 	game_data={
@@ -264,6 +270,7 @@ goods_output_meat_mult = {
 }
 
 goods_output_fertilizer_mult = {
+	decimals=0
 	color = good
 	percent = yes
 	game_data={
