@@ -1239,9 +1239,10 @@ pm_on_that_oceangate_grind_wishstone_reef = {
 			# input goods
 			goods_input_engines_add = 10 # 60 x 10 #600
 			goods_input_steamers_add = 5 #70 x 5 #350
+			goods_input_steel_add =  5 #50 x 5 #250
 			
 			# output goods
-			goods_output_wishstone_add = 75 #2500
+			goods_output_wishstone_add = 75 #3750
 		}
 
 		level_scaled = {
@@ -1270,9 +1271,11 @@ pm_on_that_oceangate_grind_thaumacore_wishstone_reef = {
 			# input goods
 			goods_input_thaumacores_add = 10 # 100 x 10 #1000
 			goods_input_steamers_add = 5 #70 x 5 #350
+			goods_input_steel_add = 5 #50 x 5 #250
+			goods_input_ironclads_add = 2
 			
 			# output goods
-			goods_output_wishstone_add = 90 #3250
+			goods_output_wishstone_add = 90 #4500
 		}
 
 		level_scaled = {
