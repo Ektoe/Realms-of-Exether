@@ -379,6 +379,16 @@ bg_hunting = {
 	
 	default_building = building_hunting_lodge
 }
+bg_desert_hunting = {
+	parent_group = bg_magic_resource
+	
+	default_building = building_desert_hunting_lodge
+}
+bg_khuus_hunting = {
+	parent_group = bg_magic_resource
+	
+	default_building = building_khuus_hunting_lodge
+}
 bg_game_hunting = {
 	parent_group = bg_magic_resource
 	
