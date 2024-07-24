@@ -1,19 +1,19 @@
 ﻿pm_farms_no_enhancement = {
-texture = "gfx/interface/icons/production_method_icons/no_potion_sap.dds"
+	texture = "gfx/interface/icons/production_method_icons/no_potion_sap.dds"
 }
 
 pm_farms_basic_earth_shaping = {
 	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
 	
-	unlocking_laws = {
-		#druid shit idk
+	unlocking_technologies = {
+		druidry
 	}
 	
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
 			goods_input_wishstone_add = 2
-			goods_output_grain_add = 3
+			goods_output_grain_add = 5
 		}
 
 		level_scaled = {
@@ -23,7 +23,10 @@ pm_farms_basic_earth_shaping = {
 		}
 		unscaled = {
 			#building modifiers
-			building_throughput_add = 0.15
+			goods_output_grain_mult = 0.15
+			goods_output_liquor_mult = 0.15
+			goods_output_sugar_mult = 0.15
+			goods_output_fruit_mult = 0.15
 		}
 	}
 }
@@ -42,8 +45,9 @@ pm_farms_mass_plant_growth = {  #could also be "hastened growth cycles"
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
+			goods_input_potions_add = 2
 			goods_input_wishstone_add = 4
-			goods_output_grain_add = 6
+			goods_output_grain_add = 10
 		}
 
 		level_scaled = {
@@ -53,13 +57,18 @@ pm_farms_mass_plant_growth = {  #could also be "hastened growth cycles"
 		}
 		unscaled = {
 			#building modifiers
-			building_throughput_add = 0.3
+			goods_input_fertilizer_mult = -0.1
+
+			goods_output_grain_mult = 0.20
+			goods_output_liquor_mult = 0.20
+			goods_output_sugar_mult = 0.20
+			goods_output_fruit_mult = 0.20
 		}
 	}
 }
 
 pm_rice_farms_no_enhancement = {
-
+	texture = "gfx/interface/icons/production_method_icons/no_potion_sap.dds"
 }
 
 pm_rice_farms_basic_earth_shaping = {
@@ -72,7 +81,7 @@ pm_rice_farms_basic_earth_shaping = {
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
-			goods_input_wishstone_add = 4
+			goods_input_wishstone_add = 2
 			goods_output_grain_add = 6
 		}
 
@@ -83,7 +92,9 @@ pm_rice_farms_basic_earth_shaping = {
 		}
 		unscaled = {
 			#building modifiers
-			building_throughput_add = 0.15
+			goods_output_grain_mult = 0.15
+			goods_output_sugar_mult = 0.15
+			goods_output_fruit_mult = 0.15
 		}
 	}
 }
@@ -102,7 +113,8 @@ pm_rice_farms_mass_plant_growth = {  #could also be "hastened growth cycles"
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
-			goods_input_wishstone_add = 7
+			goods_input_potions_add = 2
+			goods_input_wishstone_add = 4
 			goods_output_grain_add = 12
 		}
 
@@ -113,7 +125,11 @@ pm_rice_farms_mass_plant_growth = {  #could also be "hastened growth cycles"
 		}
 		unscaled = {
 			#building modifiers
-			building_throughput_add = 0.3
+			goods_input_fertilizer_mult = -0.1
+
+			goods_output_grain_mult = 0.20
+			goods_output_sugar_mult = 0.20
+			goods_output_fruit_mult = 0.20
 		}
 	}
 }
@@ -132,8 +148,8 @@ pm_livestock_fertility_rites = {
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
-			goods_input_wishstone_add = 3
-			goods_output_meat_add = 3
+			goods_input_wishstone_add = 2
+			goods_output_fabric_add = 5
 		}
 
 		level_scaled = {
@@ -143,7 +159,9 @@ pm_livestock_fertility_rites = {
 		}
 		unscaled = {
 			#building modifiers
-			building_throughput_add = 0.15
+			goods_output_meat_mult = 0.1
+			goods_output_fabric_mult = 0.2
+			goods_output_fertilizer_mult = 0.1
 		}
 	}
 }
@@ -162,8 +180,9 @@ pm_livestock_magical_selection = {  #magical selection is a METAL fucking name o
 	building_modifiers = {
 		workforce_scaled = {
 			#input goods
-			goods_input_wishstone_add = 5
-			goods_output_meat_add = 5
+			goods_input_potions_add = 3
+			goods_input_wishstone_add = 2
+			goods_output_fabric_add = 10
 		}
 
 		level_scaled = {
@@ -173,7 +192,9 @@ pm_livestock_magical_selection = {  #magical selection is a METAL fucking name o
 		}
 		unscaled = {
 			#building modifiers
-			building_throughput_add = 0.3
+			goods_output_meat_mult = 0.15
+			goods_output_fabric_mult = 0.3
+			goods_output_fertilizer_mult = 0.1
 		}
 	}
 }
