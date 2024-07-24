@@ -37,3 +37,11 @@ state_trait_inland_state = {
 		state_building_military_shipyards_max_level_add = -99
 	}	
 }
+
+state_trait_leechgardens = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+
+	modifier = {
+		building_group_bg_rice_farms_leechgardens_throughput_add = 0.15
+	}
+}

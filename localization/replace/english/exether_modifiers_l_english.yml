@@ -78,13 +78,15 @@
   state_adventurer_coverage_mult: "Adventurer Coverage"
   state_adventurer_coverage_mult_desc: "A bonus or penalty to the [Concept('concept_state','$concept_state_possessive$')] [concept_adventurer_coverage]"
 
- building_group_bg_technology_throughput_add: "$bg_technology$ [concept_throughput]"
- building_group_bg_technology_throughput_add_desc: "A bonus or penalty to both input and output of $bg_technology$"
+  building_group_bg_technology_throughput_add: "$bg_technology$ [concept_throughput]"
+  building_group_bg_technology_throughput_add_desc: "A bonus or penalty to both input and output of $bg_technology$"
 
- building_group_bg_military_throughput_add: "$bg_military$ [concept_throughput]"
- building_group_bg_military_throughput_add_desc: "A bonus or penalty to both input and output of $bg_military$"
+  building_group_bg_military_throughput_add: "$bg_military$ [concept_throughput]"
+  building_group_bg_military_throughput_add_desc: "A bonus or penalty to both input and output of $bg_military$"
 
- country_institution_magical_focus_max_investment_add: "Max $institution_magical_focus$ [concept_institution] Investment"
- country_institution_magical_focus_max_investment_add_desc: "A bonus or penalty to the maximum investment level of the $institution_magical_focus$ [concept_institution]"
+  country_institution_magical_focus_max_investment_add: "Max $institution_magical_focus$ [concept_institution] Investment"
+  country_institution_magical_focus_max_investment_add_desc: "A bonus or penalty to the maximum investment level of the $institution_magical_focus$ [concept_institution]"
 
+  building_group_bg_rice_farms_leechgardens_throughput_add: "$bg_rice_farms_leechgardens$ [concept_throughput]"
+  building_group_bg_rice_farms_leechgardens_throughput_add_desc: "A bonus or penalty to the input and output of $bg_rice_farms_leechgardens$"
   #Veil Integrity 
