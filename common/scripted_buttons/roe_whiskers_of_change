@@ -1,0 +1,45 @@
+whiskers_of_change_VOZ_button = {
+    name = "WoC_vozmead_bargain_button_name"
+    desc = "WoC_vozmead_bargain_button_desc"
+
+    visible = {
+        exists = c:VOZ
+        not = {
+            has_variable = vozmead_bargain_accepted
+        }
+    }
+
+    possible = {
+        nor = {
+            has_variable = vozmead_bargain_offered
+            has_variable = vozmead_bargain_accepted
+        }
+    }
+
+    effect = {
+        set_variable = vozmead_bargain_offered
+        trigger_event = {
+            id = whiskers_of_change.2
+        }
+    }
+
+}
+
+whiskers_of_change_wickerrye_button = {
+    name = "WoC_wickerrye_gambit_button_name"
+    desc = "WoC_wickerrye_gambit_button_desc"
+
+    visible = {
+        not = {
+            has_variable = wickerrye_gambit_completed
+        }
+    }
+}
+
+whiskers_of_change_moorweald_button = {
+
+}
+
+whiskers_of_change_investment_button = {
+
+}

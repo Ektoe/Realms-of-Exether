@@ -4,6 +4,12 @@
 
 	group = je_group_historical_content
 
+	scripted_button = whiskers_of_change_VOZ_button
+	scripted_button = whiskers_of_change_wickerrye_button
+	scripted_button = whiskers_of_change_moorweald_button
+	scripted_button = whiskers_of_change_investment_button
+
+
 	immediately = {
 		
 		trigger_event = {
