@@ -183,10 +183,10 @@ pm_simple_potion_production = {
 	building_modifiers = {
 		workforce_scaled = {
 
-			goods_input_monster_essence_add = 20
+			goods_input_monster_essence_add = 20		# x40 = 800
 
 			# output goods
-			goods_output_potions_add = 30
+			goods_output_potions_add = 30				# x50 = 1500
 		}
 
 		level_scaled = {
@@ -206,11 +206,11 @@ pm_early_potion_vat_production = {
 	building_modifiers = {
 		workforce_scaled = {
             # input goods
-			goods_input_tools_add = 5
-			goods_input_monster_essence_add = 30
+			goods_input_tools_add = 5					# x40 = 200
+			goods_input_monster_essence_add = 30		# x40 = 1200
 
 			# output goods
-			goods_output_potions_add = 55
+			goods_output_potions_add = 55				# x50 = 2750
 		}
 
 		level_scaled = {
@@ -233,11 +233,11 @@ pm_wishtone_potion_process_production = {
 	building_modifiers = {
 		workforce_scaled = {
 
-			goods_input_monster_essence_add = 35
-			goods_input_wishstone_add = 10
-			goods_input_tools_add = 5
+			goods_input_monster_essence_add = 35		# x40 = 1400
+			goods_input_wishstone_add = 10				# x50 = 500
+			goods_input_tools_add = 5					# x40 = 200
 			
-			goods_output_potions_add = 70
+			goods_output_potions_add = 70				# x50 = 3500
 		}
 
 		level_scaled = {

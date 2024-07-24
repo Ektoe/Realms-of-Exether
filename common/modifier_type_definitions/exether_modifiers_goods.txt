@@ -206,3 +206,11 @@ goods_input_airships_add = {
 		ai_value=0
 	}
 }
+
+goods_input_coffee_add = {
+	color=good
+	percent = no
+	game_data={
+		ai_value=0
+	}
+}
