@@ -150,10 +150,12 @@ ai_strategy_resource_expansion = {
 	type = administrative	
 
 	building_group_weights = {
-		bg_rubber = 1.5
-		bg_oil_extraction = 1.5
+		bg_rubber = 1.25
+		bg_oil_extraction = 1.25
 		bg_mining = 1.5
-		bg_logging = 1.5
+		bg_iron_mining = 1.25
+		bg_logging = 1.75
+		bg_wishstone_fields = 1.5
 	}
 	
 	subsidies = {
@@ -169,6 +171,8 @@ ai_strategy_resource_expansion = {
 			}			
 		}	
 		tools = { stance = wants_high_supply }
+		wishstone = { stance = wants_high_supply }
+		gizmos = { stance = wants_high_supply }
 		coal = { stance = wants_export }
 		iron = { stance = wants_export }
 		oil = { stance = wants_export }
@@ -277,6 +281,8 @@ ai_strategy_industrial_expansion = {
 				has_technology_researched = pumpjacks
 			}			
 		}
+		wishstone = { stance = wants_high_supply }
+		gizmos = { stance = wants_high_supply }
 		dye = { stance = wants_high_supply }
 		silk = { stance = wants_high_supply }
 		tools = { stance = wants_high_supply }
@@ -296,6 +302,8 @@ ai_strategy_industrial_expansion = {
 		bg_rubber = 1.25
 		bg_oil_extraction = 1.25
 		bg_mining = 1.25
+		bg_iron_mining = 1.25
+		bg_wishstone_fields = 1.25
 		bg_logging = 1.25		
 	}
 	

@@ -360,7 +360,7 @@
 			}
 			create_pop = {
 				culture = bakibi
-				size = 32788
+				size = 432788
 			}
 			create_pop = {
 				pop_type = slaves
@@ -383,7 +383,7 @@
 		region_state:LAC = {
 			create_pop = {
 				culture = bakibi
-				size = 90122
+				size = 790122
 			}
 			create_pop = {
 				pop_type = slaves
@@ -465,7 +465,7 @@
 		region_state:LAC = {
 			create_pop = {
 				culture = bakibi
-				size = 130123
+				size = 930123
 			}
 			create_pop = {
 				pop_type = slaves

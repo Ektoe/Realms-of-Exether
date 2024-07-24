@@ -250,7 +250,7 @@
       region_state:DUM = {
         create_pop = {
           culture = dewaric
-          size = 719008
+          size = 1719008
         }
         create_pop = {
           culture = avalorean

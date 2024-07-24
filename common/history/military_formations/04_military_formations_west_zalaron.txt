@@ -308,12 +308,22 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_FLUITVELD
-				count = 15
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_FLUITVELD
 				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RATELBERG
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GNURKENSTAD
+				count = 5
 			}
 
 			save_scope_as = rav_army
@@ -344,6 +354,11 @@
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GNURKENSTAD
 				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_SPRANKELMEER
+				count = 5
 			}
 
 			save_scope_as = rav_army
@@ -399,17 +414,17 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_VONKENDAM
-				count = 5
+				count = 7
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BELLENBERG
-				count = 5
+				count = 7
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GLIMMERDAM
-				count = 5
+				count = 7
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers

@@ -59,4 +59,5 @@
 	building_naval_base = {"european_port_naval_base_01_mesh"}
 	building_shipyards = {}
 	building_military_shipyards = {}
+	building_airshipyards = {}
 }
