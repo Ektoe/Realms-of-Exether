@@ -50,7 +50,7 @@
 	ethnicities = {
 		1 = orc
 	}
-	graphics = african
+	graphics = european
 }
 
 korkaz = {
@@ -105,7 +105,7 @@ korkaz = {
 	ethnicities = {
 		1 = orc
 	}
-	graphics = african
+	graphics = european
 }
 
 kaalkid={
@@ -157,7 +157,7 @@ kaalkid={
 	ethnicities = {
 		1 = orc
 	}
-	graphics = african
+	graphics = european
 }
 
 tozhi={
@@ -209,7 +209,7 @@ tozhi={
 	ethnicities = {
 		1 = orc
 	}
-	graphics = african
+	graphics = european
 }
 
 #Salish
@@ -260,7 +260,7 @@ tqalt={
 	ethnicities = {
 		1 = orc
 	}
-	graphics = african
+	graphics = european
 }
 
 rahoru={
@@ -309,7 +309,7 @@ rahoru={
 	ethnicities = {
 		1 = orc
 	}
-	graphics = african
+	graphics = european
 }
 
 nuzaptan={
@@ -364,5 +364,5 @@ nuzaptan={
 	ethnicities = {
 		1 = orc
 	}
-	graphics = african
+	graphics = european
 }

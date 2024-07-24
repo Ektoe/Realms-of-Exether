@@ -695,7 +695,7 @@ STATE_NYINGMAWASKAHIKAN = {
         bg_logging = 9
         bg_fishing_rusttails = 8
     }
-
+    naval_exit_id = 3058
 }
 STATE_POTALANIPIY = {
     id = 4881
@@ -1358,9 +1358,9 @@ STATE_PULIKOTSK = {
 STATE_TERMEZSK = {
     id = 4927
     subsistence_building = "building_subsistence_rice_paddies"
-    provinces = { "x40FEC7" "x8BFC73" "x9DDDEC" "xA1A6D6" "xA2FBF5" "xCE8AB4" "xCE96A6" "xCEEE9A" "xDBC9B1" "xEDADDE" "xF5BDF4" }
+    provinces = { "x40FEC7" "x8BFC73" "x9DDDEC" "xA1A6D6" "xCE8AB4" "xCE96A6" "xCEEE9A" "xEDADDE" "xF5BDF4" }
     city = x8BFC73
-    wood = xA2FBF5
+    wood = xA1A6D6
     farm = xCE96A6
     mine = xEDADDE
     port = xF5BDF4

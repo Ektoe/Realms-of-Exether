@@ -94,8 +94,9 @@
 				state_region = s:STATE_BALLYNE
 				count = 1
 			}
+			save_scope_as = Dovedalian_National_Guard
 		}
-         save_scope_as = Dovedalian_National_Guard
+         
 
 		create_character = {
 			#template = DOV_alf_cobcroft
@@ -105,7 +106,7 @@
 		}
 
 		scope:cobcroft_gen = {
-			transfer_to_formation = scope:great_dovedalian_army
+			transfer_to_formation = scope:Dovedalian_National_Guard
 		}
 
 		create_military_formation = {
@@ -148,7 +149,7 @@
 				count = 17
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_lancer
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_BLACKDON
 				count = 3
 			}

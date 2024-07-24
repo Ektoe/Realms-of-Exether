@@ -54,3 +54,23 @@ building_mountain_maize_farm = {
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
+
+building_beekeeping = {
+	building_group = bg_beekeeping
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_beekeeping
+		pmg_beekeeping_mead
+		pmg_beekeeping_automation
+	}
+
+	required_construction = construction_cost_low
+}

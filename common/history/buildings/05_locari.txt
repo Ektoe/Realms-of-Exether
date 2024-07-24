@@ -57,8 +57,15 @@
 			}
 			create_building={
 				building="building_textile_mills"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:GDY"
+						levels=1
+						region="STATE_PANNYA"
+				   }
+				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_traditional_looms" "pm_no_luxury_clothes" }
 			}
 			create_building={
@@ -68,14 +75,28 @@
 			}
 			create_building={
 				building="building_sugar_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:GDY"
+						levels=1
+						region="STATE_PANNYA"
+				   }
+				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:GDY"
+						levels=1
+						region="STATE_PANNYA"
+				   }
+				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
 			create_building={
@@ -94,9 +115,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:GDY"
+						country="c:AKB"
 						levels=1
-						region="STATE_PANNYA"
+						region="STATE_SHANTINAGAR"
 				   }
 				}
 				reserves=1
@@ -120,9 +141,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:AKB"
 						levels=2
-						region="STATE_DHARMARAJYA"
+						region="STATE_SHANTINAGAR"
 				   }
 				}
 				reserves=1
@@ -133,9 +154,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:GDY"
-						levels=1
-						region="STATE_PANNYA"
+						country="c:AKB"
+						levels=2
+						region="STATE_SHANTINAGAR"
 				   }
 				}
 				reserves=1
@@ -184,9 +205,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:TEN"
 						levels=1
-						region="STATE_DHARMARAJYA"
+						region="STATE_SUKHODAYA"
 				   }
 				}
 				reserves=1
@@ -197,9 +218,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KAY"
+                        country="c:TEN"
                         levels=2
-                        region="STATE_DHARMARAJYA"
+                        region="STATE_SUKHODAYA"
                    }
                 }
 				reserves=1
@@ -210,9 +231,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KAY"
+                        country="c:TEN"
                         levels=1
-                        region="STATE_DHARMARAJYA"
+                        region="STATE_SUKHODAYA"
                    }
                 }
 				reserves=1
@@ -223,9 +244,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KAY"
+                        country="c:TEN"
                         levels=1
-                        region="STATE_DHARMARAJYA"
+                        region="STATE_SUKHODAYA"
                    }
                 }
 				reserves=1
@@ -253,9 +274,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:TEN"
 						levels=1
-						region="STATE_DHARMARAJYA"
+						region="STATE_BODHISATTVA"
 				   }
 				}
 				reserves=1
@@ -266,9 +287,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KAY"
+                        country="c:TEN"
                         levels=1
-                        region="STATE_DHARMARAJYA"
+                        region="STATE_BODHISATTVA"
                    }
                 }
 				reserves=1
@@ -279,9 +300,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:TEN"
 						levels=1
-						region="STATE_DHARMARAJYA"
+						region="STATE_BODHISATTVA"
 				   }
 				}
 				reserves=1
@@ -311,9 +332,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:TEN"
+						country="c:AKB"
 						levels=1
-						region="STATE_BODHISATTVA"
+						region="STATE_SADHANA_MANDAL"
 				   }
 				}
 				reserves=1
@@ -324,9 +345,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:TEN"
+						country="c:AKB"
 						levels=2
-						region="STATE_SUKHODAYA"
+						region="STATE_SADHANA_MANDAL"
 				   }
 				}
 				reserves=1
@@ -337,9 +358,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:AKB"
 						levels=1
-						region="STATE_DHARMARAJYA"
+						region="STATE_SADHANA_MANDAL"
 				   }
 				}
 				reserves=1
@@ -367,9 +388,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AKB"
+                        country="c:VIP"
                         levels=1
-                        region="STATE_SADHANA_MANDAL"
+                        region="STATE_VISHUDDHIKARA"
                    }
                 }
 				reserves=1
@@ -380,9 +401,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:KAY"
+						country="c:VIP"
 						levels=2
-						region="STATE_DHARMARAJYA"
+						region="STATE_VISHUDDHIKARA"
 				   }
 				}
 				reserves=1
@@ -399,9 +420,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:AKB"
+						country="c:VIP"
 						levels=2
-						region="STATE_SADHANA_MANDAL"
+						region="STATE_VISHUDDHIKARA"
 				   }
 				}
 				reserves=1
@@ -412,9 +433,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:VIP"
 						levels=4
-						region="STATE_DHARMARAJYA"
+						region="STATE_VISHUDDHIKARA"
 				   }
 				}
 				reserves=1
@@ -425,9 +446,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:TEN"
+						country="c:VIP"
 						levels=3
-						region="STATE_SUKHODAYA"
+						region="STATE_VISHUDDHIKARA"
 				   }
 				}
 				reserves=1
@@ -466,9 +487,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:TEN"
+                        country="c:WLR"
                         levels=1
-                        region="STATE_BODHISATTVA"
+                        region="STATE_CHINTANAGIRI"
                    }
                 }
 				reserves=1
@@ -490,9 +511,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:VIP"
+						country="c:SAP"
 						levels=3
-						region="STATE_VISHUDDHIKARA"
+						region="STATE_ANUTTARAPUR"
 				   }
 				}
 				reserves=1
@@ -514,9 +535,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:SAP"
 						levels=4
-						region="STATE_DHARMARAJYA"
+						region="STATE_SAMYAKVARTA"
 				   }
 				}
 				reserves=1
@@ -544,9 +565,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KAY"
+                        country="c:SAP"
                         levels=3
-                        region="STATE_DHARMARAJYA"
+                        region="STATE_NIRVANANANDA"
                    }
                 }
 				reserves=1
@@ -557,9 +578,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:SAP"
 						levels=2
-						region="STATE_DHARMARAJYA"
+						region="STATE_NIRVANANANDA"
 				   }
 				}
 				reserves=1
@@ -594,9 +615,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:VIP"
+						country="c:AKB"
 						levels=1
-						region="STATE_VISHUDDHIKARA"
+						region="STATE_YARLUWANDU"
 				   }
 				}
 				reserves=1
@@ -607,9 +628,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:VIP"
+						country="c:AKB"
 						levels=1
-						region="STATE_VISHUDDHIKARA"
+						region="STATE_YARLUWANDU"
 				   }
 				}
 				reserves=1
@@ -683,20 +704,41 @@
 			}
 			create_building={
 				building="building_tea_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:MAI"
+						levels=3
+						region="STATE_KURUBBA"
+				   }
+				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:MAI"
+						levels=3
+						region="STATE_KURUBBA"
+				   }
+				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_coffee_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:MAI"
+						levels=3
+						region="STATE_KURUBBA"
+				   }
+				}
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts"  }
 			}
 			create_building={
@@ -721,9 +763,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AKB"
+                        country="c:JIV"
                         levels=1
-                        region="STATE_YARLUWANDU"
+                        region="STATE_BOODJARRA"
                    }
                 }
 				reserves=1
@@ -737,20 +779,41 @@
 			}
 			create_building={
 				building="building_tobacco_plantation"
+				add_ownership={ 
+                    building={ 
+                        type="building_manor_house"
+                        country="c:JIV"
+                        levels=1
+                        region="STATE_BOODJARRA"
+                   }
+                }
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_dye_plantation"
+				add_ownership={ 
+                    building={ 
+                        type="building_manor_house"
+                        country="c:JIV"
+                        levels=1
+                        region="STATE_BOODJARRA"
+                   }
+                }
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_sugar_plantation"
+				add_ownership={ 
+                    building={ 
+                        type="building_manor_house"
+                        country="c:JIV"
+                        levels=1
+                        region="STATE_BOODJARRA"
+                   }
+                }
 				reserves=1
-				level = 1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts"  }
 			}
 		}
@@ -773,11 +836,11 @@
 			create_building={
 				building="building_tea_plantation"
 				add_ownership={ 
-					building={ 
+					building={  	
 						type="building_manor_house"
-						country="c:SAP"
+						country="c:BHR"
 						levels=6
-						region="STATE_SAMYAKVARTA"
+						region="STATE_GASHAWARRA"
 				   }
 				}
 				reserves=1
@@ -820,9 +883,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:AMR"
 						levels=4
-						region="STATE_DHARMARAJYA"
+						region="STATE_YARRAGANBALA"
 				   }
 				}
 				reserves=1
@@ -833,9 +896,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:MAI"
+						country="c:AMR"
 						levels=2
-						region="STATE_KURUBBA"
+						region="STATE_YARRAGANBALA"
 				   }
 				}
 				reserves=1
@@ -869,9 +932,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:BHR"
+						country="c:MAI"
 						levels=1
-						region="STATE_MOGORRTI"
+						region="STATE_KULUWANDU"
 				   }
 				}
 				reserves=1
@@ -930,9 +993,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:TEN"
+                        country="c:VIP"
                         levels=2
-                        region="STATE_BODHISATTVA"
+                        region="STATE_BUDAMURAYIRI"
                    }
                 }
 				reserves=1
@@ -943,9 +1006,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KAY"
+                        country="c:VIP"
                         levels=1
-                        region="STATE_DHARMARAJYA"
+                        region="STATE_BUDAMURAYIRI"
                    }
                 }
 				reserves=1
@@ -956,9 +1019,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KAY"
+                        country="c:VIP"
                         levels=1
-                        region="STATE_DHARMARAJYA"
+                        region="STATE_BUDAMURAYIRI"
                    }
                 }
 				reserves=1
@@ -969,9 +1032,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:AKB"
+						country="c:VIP"
 						levels=2
-						region="STATE_SADHANA_MANDAL"
+						region="STATE_BUDAMURAYIRI"
 				   }
 				}
 				reserves=1
@@ -1048,9 +1111,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:MAI"
+						country="c:IZA"
 						levels=1
-						region="STATE_KULUWANDU"
+						region="STATE_TSEGYALNIPIY"
 				   }
 				}
 				reserves=1
@@ -1061,9 +1124,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:IZA"
 						levels=1
-						region="STATE_DHARMARAJYA"
+						region="STATE_TSEGYALNIPIY"
 				   }
 				}
 				reserves=1
@@ -1074,7 +1137,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AKB"
+                        country="c:IZA"
                         levels=1
                         region="STATE_TSEGYALNIPIY"
                    }
@@ -1092,9 +1155,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:MAI"
+						country="c:SSC"
 						levels=1
-						region="STATE_KULUWANDU"
+						region="STATE_NYINGMAWASKAHIKAN"
 				   }
 				}
 				reserves=1
@@ -1157,7 +1220,7 @@
 						country="c:SEK"
 						levels=1
 						region="STATE_POTALANIPIY"
-				   }
+				    }
 				}
 				reserves=1
 				activate_production_methods={  "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_open_air_stockyards" }
@@ -1222,9 +1285,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SEK"
+						country="c:SSC"
 						levels=2
-						region="STATE_POTALANIPIY"
+						region="STATE_KHANGYO"
 				   }
 				}
 				reserves=1
@@ -1248,9 +1311,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
-                        country="c:JIV"
+                        country="c:SSC"
                         levels=1
-                        region="STATE_DAMARLARA"
+                        region="STATE_KHANGYO"
                    }
                 }
 				reserves=1
@@ -1278,9 +1341,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:MAI"
+						country="c:TKI"
 						levels=1
-						region="STATE_KULUWANDU"
+						region="STATE_TSURWA"
 				   }
 				}
 				reserves=1
@@ -1291,9 +1354,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:VIP"
+						country="c:TKI"
 						levels=1
-						region="STATE_BUDAMURAYIRI"
+						region="STATE_TSURWA"
 				   }
 				}
 				reserves=1
@@ -1304,9 +1367,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SSC"
+                        country="c:TKI"
                         levels=1
-                        region="STATE_NYINGMAWASKAHIKAN"
+                        region="STATE_TSURWA"
                    }
                 }
 				reserves=1
@@ -1328,9 +1391,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KAY"
+						country="c:SEK"
 						levels=1
-						region="STATE_DHARMARAJYA"
+						region="STATE_NAMTSOOSKIWAN"
 				   }
 				}
 				reserves=1
@@ -1341,9 +1404,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:TKI"
+						country="c:SEK"
 						levels=1
-						region="STATE_TSURWA"
+						region="STATE_NAMTSOOSKIWAN"
 				   }
 				}
 				reserves=1
@@ -1492,9 +1555,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SEK"
+						country="c:KRK"
 						levels=1
-						region="STATE_NAMTSOOSKIWAN"
+						region="STATE_GANDENASKIY"
 				   }
 				}
 				reserves=1
@@ -1505,9 +1568,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:SEK"
+                        country="c:KRK"
                         levels=1
-                        region="STATE_NAMTSOOSKIWAN"
+                        region="STATE_GANDENASKIY"
                    }
                 }
 				reserves=1
@@ -1544,7 +1607,7 @@
 						type="building_manor_house"
 						country="c:KRK"
 						levels=1
-						region="STATE_GANDENASKIY"
+						region="STATE_KHAMOSKIWAN"
 				   }
 				}
 				reserves=1
@@ -1555,9 +1618,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SEK"
+						country="c:KRK"
 						levels=1
-						region="STATE_NAMTSOOSKIWAN"
+						region="STATE_KHAMOSKIWAN"
 				   }
 				}
 				reserves=1
@@ -1592,9 +1655,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:TKI"
+						country="c:DUU"
 						levels=2
-						region="STATE_TSURWA"
+						region="STATE_LHASHI"
 				   }
 				}
 				reserves=1
@@ -1626,9 +1689,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:KRK"
+						country="c:PAY"
 						levels=1
-						region="STATE_GANDENASKIY"
+						region="STATE_HERMENIA"
 				   }
 				}
 				reserves=1
@@ -1639,22 +1702,22 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DUU"
+                        country="c:PAY"
                         levels=4
-                        region="STATE_LHASHI"
+                        region="STATE_HERMENIA"
                    }
                 }
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
             create_building={
-				building="building_fishing_wharf"
+				building="building_fishing_wharf_rusttails"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
-                        country="c:TKI"
+                        country="c:PAY"
                         levels=2
-                        region="STATE_TSURWA"
+                        region="STATE_HERMENIA"
                    }
                 }
 				reserves=1
@@ -1665,9 +1728,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:JIV"
+                        country="c:PAY"
                         levels=2
-                        region="STATE_DAMARLARA"
+                        region="STATE_HERMENIA"
                    }
                 }
 				reserves=1
@@ -1684,9 +1747,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KAY"
+                        country="c:PAY"
                         levels=1
-                        region="STATE_DHARMARAJYA"
+                        region="STATE_HERMENIA"
                    }
                 }
 				reserves=1
@@ -1697,9 +1760,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:KAY"
+                        country="c:PAY"
                         levels=1
-                        region="STATE_DHARMARAJYA"
+                        region="STATE_HERMENIA"
                    }
                 }
 				reserves=1
@@ -1716,8 +1779,15 @@
 		region_state:PAY = {
 			create_building={
 				building="building_iron_mine"
+				add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:PAY"
+                        levels=2
+                        region="STATE_GREOS"
+                   }
+                }
 				reserves=1
-				level = 2
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
 			}
 		}
@@ -1734,9 +1804,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SSC"
+						country="c:PAY"
 						levels=2
-						region="STATE_SHIGATSENIPIY"
+						region="STATE_KOTAYNOS"
 				   }
 				}
 				reserves=1
@@ -2033,9 +2103,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SSC"
+						country="c:GAH"
 						levels=1
-						region="STATE_ZANPIQ"
+						region="STATE_MYTHOS"
 				   }
 				}
 				reserves=1
@@ -2046,9 +2116,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SSC"
+						country="c:GAH"
 						levels=1
-						region="STATE_ZANPIQ"
+						region="STATE_MYTHOS"
 				   }
 				}
 				reserves=1
@@ -2059,9 +2129,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:PAY"
+                        country="c:GAH"
                         levels=3
-                        region="STATE_KOTAYNOS"
+                        region="STATE_MYTHOS"
                    }
                 }
 				reserves=1
@@ -2069,14 +2139,7 @@
 			}
             create_building={
 				building="building_fishing_wharf_rusttails"
-                add_ownership={ 
-                    building={ 
-                        type="building_adventuring_guild"
-                        country="c:CCO"
-                        levels=1
-                        region="STATE_ARTHERA"
-                   }
-                }
+                level = 1
 				reserves=1
 				
 			}
@@ -2085,9 +2148,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:PAY"
+                        country="c:GAH"
                         levels=2
-                        region="STATE_KOTAYNOS"
+                        region="STATE_MYTHOS"
                    }
                 }
 				reserves=1
@@ -2138,9 +2201,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:PAY"
+						country="c:AMR"
 						levels=1
-						region="STATE_HERMENIA"
+						region="STATE_DUSHANBARYA"
 				   }
 				}
 				reserves=1
@@ -2151,9 +2214,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:BTR"
+						country="c:AMR"
 						levels=1
-						region="STATE_GRAEA"
+						region="STATE_DUSHANBARYA"
 				   }
 				}
 				reserves=1
@@ -2164,9 +2227,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:CCO"
+						country="c:AMR"
 						levels=1
-						region="STATE_ARGYSTSIK"
+						region="STATE_DUSHANBARYA"
 				   }
 				}
 				reserves=1
@@ -2201,9 +2264,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:BTR"
+						country="c:DOB"
 						levels=1
-						region="STATE_GRAEA"
+						region="STATE_MAZAROV"
 				   }
 				}
 				reserves=1
@@ -2236,9 +2299,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:TEN"
+                        country="c:DOB"
                         levels=1
-                        region="STATE_BODHISATTVA"
+                        region="STATE_KUNDUZOV"
                    }
                 }
 				reserves=1
@@ -2249,9 +2312,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AMR"
+                        country="c:DOB"
                         levels=1
-                        region="STATE_DUSHANBARYA"
+                        region="STATE_KUNDUZOV"
                    }
                 }
 				reserves=1
@@ -2287,9 +2350,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:BHR"
+                        country="c:DOB"
                         levels=1
-                        region="STATE_GASHAWARRA"
+                        region="STATE_JALALABAKOV"
                    }
                 }
 				reserves=1
@@ -2302,7 +2365,7 @@
 						type="building_manor_house"
 						country="c:DOB"
 						levels=5
-						region="STATE_MAZAROV"
+						region="STATE_JALALABAKOV"
 				   }
 				}
 				reserves=1

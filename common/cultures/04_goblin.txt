@@ -5,7 +5,7 @@ khanaruk = {
 	religion = hobgoblin_faith
 	traits = { kharai_urchu_culture_group hobgoblin goblin_heritage }
 	obsessions = {
-		porcelain
+		small_arms
 	}
 	male_common_first_names={
 		Badamdorj
