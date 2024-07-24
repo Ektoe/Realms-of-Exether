@@ -756,8 +756,9 @@ pm_hunting_meat = {
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods										
-			goods_output_monster_essence_add = -12
-			goods_output_meat_add = 10
+			goods_output_monster_essence_add = -5		# x40 = -200
+
+			goods_output_meat_add = 15					# x30 = 450
 		}
 	}
 }
@@ -773,8 +774,9 @@ pm_increased_hunting_meat = {
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods
-			goods_output_monster_essence_add = -20
-			goods_output_meat_add = 20
+			goods_output_monster_essence_add = -10		# x40 = -400
+			
+			goods_output_meat_add = 25					# x30 = 750
 		}
 	}
 }
