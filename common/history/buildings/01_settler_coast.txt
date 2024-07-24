@@ -2431,7 +2431,7 @@
 	}
   
 
-  s:STATE_OUTER_MOORWEALD_2 = {
+  s:STATE_MOORESHIRE = {
 	region_state:SMA={
 		create_building={
 			building="building_government_administration"
@@ -2458,7 +2458,7 @@
                         type="building_financial_district"
                         country="c:SMA"
                         levels=3
-                        region="STATE_OUTER_MOORWEALD_2"
+                        region="STATE_MOORESHIRE"
                    }
                 }
 			reserves=1
@@ -2471,7 +2471,7 @@
                         type="building_financial_district"
                         country="c:SMA"
                         levels=2
-                        region="STATE_OUTER_MOORWEALD_2"
+                        region="STATE_MOORESHIRE"
                    }
                 }
 			reserves=1
@@ -2484,7 +2484,7 @@
                         type="building_financial_district"
                         country="c:SMA"
                         levels=4
-                        region="STATE_OUTER_MOORWEALD_2"
+                        region="STATE_MOORESHIRE"
                    }
                 }
 			reserves=1
@@ -2497,7 +2497,7 @@
                         type="building_financial_district"
                         country="c:SMA"
                         levels=1
-                        region="STATE_OUTER_MOORWEALD_2"
+                        region="STATE_MOORESHIRE"
                    }
                 }
 			reserves=1
@@ -2510,7 +2510,7 @@
 						type="building_manor_house"
 						country="c:SMA"
 						levels=11
-						region="STATE_OUTER_MOORWEALD_2"
+						region="STATE_MOORESHIRE"
 				   }
 				}
 			reserves=1
@@ -2523,7 +2523,7 @@
 						type="building_manor_house"
 						country="c:SMA"
 						levels=5
-						region="STATE_OUTER_MOORWEALD_2"
+						region="STATE_MOORESHIRE"
 				   }
 				}
 			reserves=1
@@ -2536,7 +2536,7 @@
 						type="building_manor_house"
 						country="c:SMA"
 						levels=1
-						region="STATE_OUTER_MOORWEALD_2"
+						region="STATE_MOORESHIRE"
 				   }
 				}
 			reserves=1
@@ -2549,7 +2549,7 @@
                         type="building_adventuring_guild"
                         country="c:SMA"
                         levels=2
-                        region="STATE_OUTER_MOORWEALD_2"
+                        region="STATE_MOORESHIRE"
                    }
                 }
 			reserves=1
@@ -2564,7 +2564,7 @@
 	}
   }
 
-  s:STATE_OUTER_MOORWEALD_3 = {
+  s:STATE_SMALLWOOD = {
 	region_state:SMA={
 			create_building={
 			building="building_iron_mine"
@@ -2573,7 +2573,7 @@
 						type="building_financial_district"
 						country="c:SMA"
 						levels=3
-						region="STATE_OUTER_MOORWEALD_3"
+						region="STATE_SMALLWOOD"
 				   }
 				}
 			reserves=1
@@ -2586,7 +2586,7 @@
 						type="building_manor_house"
 						country="c:SMA"
 						levels=1
-						region="STATE_OUTER_MOORWEALD_3"
+						region=="STATE_SMALLWOOD"
 				   }
 				}
 			reserves=1
@@ -2599,7 +2599,7 @@
 						type="building_manor_house"
 						country="c:SMA"
 						levels=1
-						region="STATE_OUTER_MOORWEALD_3"
+						region="STATE_SMALLWOOD"
 				   }
 				}
 			reserves=1
@@ -2612,7 +2612,7 @@
                         type="building_financial_district"
                         country="c:SMA"
                         levels=2
-                        region="STATE_OUTER_MOORWEALD_3"
+                        region="STATE_SMALLWOOD"
                    }
                 }
 			reserves=1
