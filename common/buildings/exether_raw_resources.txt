@@ -105,7 +105,7 @@ building_wishstone_reefs = {
 	required_construction = construction_cost_medium
 
 	unlocking_technologies = {
-		mechanical_tools
+		hydraulic_cranes
 	}
 	
 	production_method_groups = {
