@@ -1206,37 +1206,6 @@ pm_gantry_cranes_wishstone_reef = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_engines_add = 5 # 60 x 5 #300
-			goods_input_steamers_add = 5 #70 x 5 #350
-			
-			# output goods
-			goods_output_wishstone_add = 50 #2500
-		}
-
-		level_scaled = {
-			building_employment_shopkeepers_add = 500
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 1000
-			building_employment_engineers_add = 500
-		}
-	}
-}
-
-pm_gantry_cranes_wishstone_reef = {
-	texture = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds"
-	
-	unlocking_technologies = {
-		gantry_cranes
-	}
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 10 #nonmagic I guess?
-		}
-	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
 			goods_input_engines_add = 10 # 60 x 5 #300
 			goods_input_steamers_add = 5 #70 x 5 #350
 			
