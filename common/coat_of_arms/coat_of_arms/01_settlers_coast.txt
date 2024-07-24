@@ -27,15 +27,11 @@
 		instance = { scale = { 0.4 0.4 } position = { 0.75 0.25 } }	
 		instance = { scale = { 0.4 0.4 } position = { 0.25 0.75 } }	
 	}	
-
-
-
 }
 
 XXG = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
-
 }
 
 ARR = {
@@ -55,7 +51,6 @@ ARR = {
 		instance = { scale = { 0.1 1 } position = { 0.22 0.5 } }	
 		instance = { scale = { 0.1 1 } position = { 0.78 0.5 } }			
 	}		
-
 
     colored_emblem = {
 		texture = "ce_laurel_circled.dds"
@@ -95,6 +90,7 @@ VOZ = {
 		instance = { position = { 0.75 0.25 } rotation=-50deg scale = { 0.45 0.45 } }
 	}
 }
+
 #Union of the Sands
 UTS = {
 	pattern = "pattern_solid.tga" #Choose a base from gfx\coat_of_arms\patterns
@@ -137,6 +133,59 @@ VHT = {
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
 	}
 }
+
+#Whiskerfelds
+WHI = {
+    pattern = "pattern_solid.tga"
+        color1 = "white"
+
+    colored_emblem = {
+        texture = "ce_roe_sun_tribal.dds"
+        color1= "yellow_dark"
+        instance = { scale = { 0.5 0.5 } position = { 0.5 0.12 } }
+    }
+
+    colored_emblem = {
+        texture = "ce_bicolor_top.dds"
+        color1= "blue_light"
+        instance = { scale = { 1 1 } position = { 0.5 0.15 } }
+    }
+
+    colored_emblem = { 
+        texture = "ce_wheat_stalk.dds" 
+        color1 = "yellow_dark"
+        instance = { scale = { 0.4 0.4 } position = { 0.1 0.7 } }
+    }
+
+        colored_emblem = { 
+        texture = "ce_wheat_stalk.dds" 
+        color1 = "yellow_dark"
+        instance = { scale = { 0.4 0.4 } position = { 0.3 0.7 } }
+    }
+
+        colored_emblem = { 
+        texture = "ce_wheat_stalk.dds" 
+        color1 = "yellow_dark"
+        instance = { scale = { 0.4 0.4 } position = { 0.7 0.7 } }
+    }
+       
+        colored_emblem = { 
+        texture = "ce_wheat_stalk.dds" 
+        color1 = "yellow_dark"
+        instance = { scale = { 0.4 0.4 } position = { 0.9 0.7 } }
+    }
+        colored_emblem = { 
+        texture = "ce_rat_emblem.dds" 
+        color1 = "brown"
+        instance = { scale = { 0.6 0.6 } position = { 0.525 0.5 } }
+    }
+        colored_emblem = {
+        texture = "ce_bicolor_bottom.dds"
+        color1= "brown_light"
+        instance = { scale = { 1 1 } position = { 0.5 0.8 } }
+    }
+} 
+
 
 #Thiral
 THI = {
@@ -354,23 +403,30 @@ EMP = {
 		color2 = "brown"
                 color3 = "brown"
 		instance = { scale = { 0.5 0.5 } position = { 0.5 0.52 } }	
-	}	
+	}		
 }
 
 #Kracia
 KRC = {
 	pattern = "pattern_solid.tga"
-	color1 = "yellow"
+	color1 = "sapphire"
 
         colored_emblem = {
 		texture = "ce_bicolor_top.dds"
-		color1 = "blue"
+		color1 = "yellow_light"
 		instance = { scale = { 1 1 } position = { 0.9 0.5 } }	
 	}
 
         colored_emblem = {
+		texture = "ce_castle.dds"
+		color1 = "yellow_light"
+                color2 = "yellow_light" 
+		instance = { scale = { 0.5 0.5 } position = { 0.2 0.5 } }	
+	}
+
+        colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
-		color1 = "blue"
+		color1 = "yellow_light"
 		instance = { scale = { 1 1 } position = { 0.9 0.5 } }	
 	}
 
@@ -379,19 +435,11 @@ KRC = {
 		color1 = "red_light"
                 color2 = "yellow"
                 color3 = "yellow_light"
-		instance = { scale = { 0.8 0.8 } position = { 0.7 0.45 } }	
-	}
-
-        colored_emblem = {
-		texture = "ce_crown_ducal.dds"
-		color1 = "red_light"
-                color2 = "yellow"
-                color3 = "yellow_light"
-		instance = { scale = { 0.55 0.55 } position = { 0.2 0.5 } }	
-	}
+		instance = { scale = { 0.8 0.8 } position = { 0.7 0.5 } }	
+	}    
 }
 
-#Kracia subject of Emparal
+#Kracia subject Emparal
 KRC_subject_EMP = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -402,7 +450,7 @@ KRC_subject_EMP = {
 		instance = { scale = { 1 1 } position = { 0.35 0.2 } }	
 	}
 
-         colored_emblem = {
+        colored_emblem = {
 		texture = "ce_bicolor_bottom.dds"
 		color1 = "blue"
 		instance = { scale = { 1 1 } position = { 0.35 0.5 } }	
@@ -412,24 +460,48 @@ KRC_subject_EMP = {
 		texture = "ce_emblem_sword_1_3c.dds"
 		color1 = "white"
 		color2 = "white"
-        color3 = "white"
+                color3 = "white"
 		instance = { scale = { 0.7 0.7 } position = { 0.6 0.6 } }	
 	}
 
-         colored_emblem = {
+        colored_emblem = {
 		texture = "ce_emblem_sword_1_3c.dds"
 		color1 = "white"
 		color2 = "white"
-        color3 = "white"
+                color3 = "white"
 		instance = { scale = { 0.7 0.7 } position = { 0.4 0.6 } }	
 	}	
 
-         colored_emblem = {
+        colored_emblem = {
 		texture = "ce_emblem_sword_1_3c.dds"
 		color1 = "white"
 		color2 = "white"
-        color3 = "white"
+                color3 = "white"
 		instance = { scale = { 0.7 0.7 } position = { 0.2 0.6 } }	
+	}
+}
+
+#Prilyra
+PRI = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"	
+
+        colored_emblem = {
+		texture = "ce_wheat_garb.dds"
+                color1 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.8 0.25 } }	
+	}
+
+        colored_emblem = {
+		texture = "ce_wheat_garb.dds"
+                color1 = "yellow"
+		instance = { scale = { 0.5 0.5 } position = { 0.2 0.75 } }	
+	}
+
+        colored_emblem = {
+		texture = "ce_cross_burgundy2.dds"
+		color1 = "yellow"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
 	}
 }
 
@@ -439,75 +511,73 @@ SLB = {
 	color1 = "blue_light"	
         
         colored_emblem = {
-		texture = "ce_border_checkered.dds"
-		color1 = "sapphire"
-                color2 = "yellow"
+		texture = "ce_checkered_orle.dds"
+		color1 = "yellow"
+                color2 = "brown_light" 
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
 	}
 
         colored_emblem = {
-		texture = "ce_epiwheat.dds"
+		texture = "ce_beehive.dds"
+		color1 = "yellow_light"
+                color2 = "brown_light"
+		instance = { scale = { 0.65 0.65 } position = { 0.5 0.525 } }	
+	}
+}
+
+#Greenhand Estate
+GRH = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"	
+        
+        colored_emblem = {
+		texture = "ce_border_orle.dds"
 		color1 = "yellow"
+                color2 = "green"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
+	}
+
+        colored_emblem = {
+		texture = "ce_wreath_peru.dds"
+		color1 = "yellow"
+                color2 = "red"
+                color3 = "red_light"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }	
 	}
 }
 
-#Whiskerfields
-WHI = {
-    pattern = "pattern_solid.tga"
-        color1 = "white"
+#Clearbough Estate
+CLR = {
+	pattern = "pattern_solid.tga"
+	color1 = "green_light"	
 
-    colored_emblem = {
-        texture = "ce_roe_sun_tribal.dds"
-        color1= "yellow_dark"
-        instance = { scale = { 0.5 0.5 } position = { 0.5 0.12 } }
-    }
-
-    colored_emblem = {
-        texture = "ce_bicolor_top.dds"
-        color1= "blue_light"
-        instance = { scale = { 1 1 } position = { 0.5 0.15 } }
-    }
-
-    colored_emblem = { 
-        texture = "ce_wheat_stalk.dds" 
-        color1 = "yellow_dark"
-        instance = { scale = { 0.4 0.4 } position = { 0.1 0.7 } }
-    }
-
-        colored_emblem = { 
-        texture = "ce_wheat_stalk.dds" 
-        color1 = "yellow_dark"
-        instance = { scale = { 0.4 0.4 } position = { 0.3 0.7 } }
-    }
-
-        colored_emblem = { 
-        texture = "ce_wheat_stalk.dds" 
-        color1 = "yellow_dark"
-        instance = { scale = { 0.4 0.4 } position = { 0.7 0.7 } }
-    }
-       
-        colored_emblem = { 
-        texture = "ce_wheat_stalk.dds" 
-        color1 = "yellow_dark"
-        instance = { scale = { 0.4 0.4 } position = { 0.9 0.7 } }
-    }
-        colored_emblem = { 
-        texture = "ce_rat_emblem.dds" 
-        color1 = "brown"
-        instance = { scale = { 0.6 0.6 } position = { 0.525 0.5 } }
-    }
         colored_emblem = {
-        texture = "ce_bicolor_bottom.dds"
-        color1= "brown_light"
-        instance = { scale = { 1 1 } position = { 0.5 0.8 } }
-    }
-} 
+		texture = "ce_collar_golden_fleece.dds"
+                color1 = "yellow_light"
+                color2 = "red"
+                color3 = "red_light"
+		instance = { scale = { 0.7 0.7 } position = { 0.5 0.55 } }	
+	}
+        
+        colored_emblem = {
+		texture = "ce_bicolor_bottom.dds"
+		color1 = "green_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.78 } }	
+	} 
+        
+        colored_emblem = {
+		texture = "ce_border_checkered.dds"
+		color1 = "yellow_light"
+                color2 = "red_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
+	}       
+}
 
 #Serbinelle
 SEB = {
 	pattern = "pattern_solid.tga"
-	color1 = "black"	     
+	color1 = "black"	
+              
         
         colored_emblem = {
 		texture = "ce_flag_river.dds"
@@ -549,14 +619,14 @@ SEB = {
 		texture = "ce_coa_rounded_base_2c.dds"
                 color1 = "blue_light"
                 color2 = "white"
-		instance = { scale = { 0.55 0.55 } position = { 0.5 0.65 } }	
+		instance = { scale = { 0.55 0.55 } position = { 0.50 0.65 } }	
 	}
 
          colored_emblem = {
 		texture = "ce_fleur_fransaskois.dds"
                 color1 = "white"
                 color2 = "white"
-		instance = { scale = { 0.45 0.45 } position = { 0.5 0.65 } }	
+		instance = { scale = { 0.45 0.45 } position = { 0.50 0.65 } }	
 	}
 
         colored_emblem = {
@@ -571,30 +641,6 @@ SEB = {
                 color1 = "blue_light"
                 color2 = "white"
 		instance = { scale = { 0.35 0.35 } position = { 0.8 0.3 } }	
-	}
-}
-
-#Prilyra
-PRI = {
-	pattern = "pattern_solid.tga"
-	color1 = "green"	
-
-        colored_emblem = {
-		texture = "ce_wheat_garb.dds"
-        color1 = "yellow"
-		instance = { scale = { 0.5 0.5 } position = { 0.8 0.25 } }	
-	}
-
-        colored_emblem = {
-		texture = "ce_wheat_garb.dds"
-        color1 = "yellow"
-		instance = { scale = { 0.5 0.5 } position = { 0.2 0.75 } }	
-	}
-
-        colored_emblem = {
-		texture = "ce_cross_burgundy2.dds"
-		color1 = "yellow"
-		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
 	}
 }
 
@@ -617,8 +663,6 @@ DRO = {
 		color2 = "black"
 		instance = { scale = { 0.5 0.5 } position = { 0.5 0.4 } }
 	}
-
-
 }
 
 #Emerald League
@@ -660,7 +704,6 @@ EBR = {
 		instance = { scale = { 1.75 1.75 } position = { 0.5 0.5 } }	
 	}	
 
-
 	colored_emblem = {
 		texture = "ce_emblem_eagle_wenceslas_base.dds"
 		color1 = "black"
@@ -668,7 +711,6 @@ EBR = {
 		color3 = "white"
 		instance = { scale = { 0.5 0.5 } position = { 0.5 0.5 } }	
 	}	
-
 }
 
 CDW = {
@@ -710,7 +752,6 @@ CDW = {
 		instance = { scale = { 0.1 0.1 } position = { 0.175 0.35 } }	
 		instance = { scale = { 0.1 0.1 } position = { 0.175 0.7 } }	
 	}	
-
 }
 
 FTH = {
@@ -733,8 +774,6 @@ FTH = {
 		color3 = "red_light"
 		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
 	}	
-
-	
 }
 
 BRB	 = {
