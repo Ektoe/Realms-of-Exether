@@ -120,6 +120,13 @@ bg_mountain_maize_farms = {
 	cash_reserves_max = 25000
 }
 
+bg_beekeeping = {
+	parent_group = bg_logging
+
+	default_building = building_beekeeping
+	can_use_slaves = no
+}
+
 bg_dragon_ruins = {
 	category = rural
 

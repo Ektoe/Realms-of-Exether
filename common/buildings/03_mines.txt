@@ -12,7 +12,7 @@
 	production_method_groups = {
 		pmg_mining_equipment_building_coal_mine
 		pmg_explosives_building_coal_mine
-		pmg_mines_potions
+		pmg_coal_mines_potions
 		pmg_steam_automation_building_coal_mine
 		pmg_train_automation_building_coal_mine
 	}
@@ -36,7 +36,7 @@ building_iron_mine = {
 	production_method_groups = {
 		pmg_mining_equipment_building_iron_mine
 		pmg_explosives_building_iron_mine
-		pmg_mines_potions
+		pmg_iron_mines_potions
 		pmg_steam_automation_building_iron_mine
 		pmg_train_automation_building_iron_mine
 	}
@@ -59,7 +59,7 @@ building_lead_mine = {
 	production_method_groups = {
 		pmg_mining_equipment_building_lead_mine
 		pmg_explosives_building_lead_mine
-		pmg_mines_potions
+		pmg_lead_mines_potions
 		pmg_steam_automation_building_lead_mine
 		pmg_train_automation_building_lead_mine
 	}
@@ -82,7 +82,7 @@ building_sulfur_mine = {
 	production_method_groups = {
 		pmg_mining_equipment_building_sulfur_mine
 		pmg_explosives_building_sulfur_mine
-		pmg_mines_potions
+		pmg_sulfur_mines_potions
 		pmg_steam_automation_building_sulfur_mine
 		pmg_train_automation_building_sulfur_mine
 	}
@@ -109,7 +109,7 @@ building_gold_mine = {
 	production_method_groups = {
 		pmg_mining_equipment_building_gold_mine
 		pmg_explosives_building_gold_mine
-		pmg_mines_potions
+		pmg_gold_mines_potions
 		pmg_steam_automation_building_gold_mine
 		pmg_train_automation_building_gold_mine
 	}

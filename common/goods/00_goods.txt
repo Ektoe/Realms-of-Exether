@@ -658,7 +658,7 @@ monster_essence = {
 
 potions = {
 	texture = "gfx/interface/icons/goods_icons/potions.dds"
-	cost = 55 #50?  60?
+	cost = 50
 	category = industrial #WIP?
 	
 	prestige_factor = 10
