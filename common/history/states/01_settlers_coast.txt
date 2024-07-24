@@ -504,7 +504,7 @@ s:STATE_GREENCOURT = {
 add_homeland = cu:dorite
 }
 
-s:STATE_GREENCOURT_2 = {
+s:STATE_PRILYRA = {
     create_state = {
         country = c:PRI
         owned_provinces = { "x7B99E1" "x99D4E8" "xA1E3B4" "xA4A1EA" "xB8EF82" "xC1FE51" "xC9EF58" "xCF77C4" "xD2C86D" "xDDF5B3" "xE1CA72" "xE7CBC1" "xEDB3A4" "xF2F7E7" "xF5B592" "xFCB261" }

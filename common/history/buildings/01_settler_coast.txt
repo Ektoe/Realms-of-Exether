@@ -3636,7 +3636,7 @@
 	}
   }
 
-  s:STATE_GREENCOURT_2 = {
+  s:STATE_PRILYRA = {
 	region_state:PRI={
 		create_building={
 			building="building_construction_sector"
@@ -3651,7 +3651,7 @@
 						type="building_manor_house"
 						country="c:PRI"
 						levels=16
-						region="STATE_GREENCOURT_2"
+						region="STATE_PRILYRA"
 				   }
 				}
 			reserves=1
@@ -3694,7 +3694,7 @@
                         type="building_financial_district"
                         country="c:PRI"
                         levels=1
-                        region="STATE_GREENCOURT_2"
+                        region="STATE_PRILYRA"
                    }
                 }
 			reserves=1
@@ -3897,7 +3897,7 @@
 						type="building_financial_district"
 						country="c:PRI"
 						levels=6
-						region="STATE_GREENCOURT_2"
+						region="STATE_PRILYRA"
 				   }
 				}
 			reserves=1
@@ -3910,7 +3910,7 @@
                         type="building_financial_district"
                         country="c:PRI"
                         levels=1
-                        region="STATE_GREENCOURT_2"
+                        region="STATE_PRILYRA"
                    }
                 }
 			reserves=1
