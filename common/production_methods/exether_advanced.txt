@@ -8,6 +8,11 @@
 			goods_output_entertainment_add = 5		# x30 = 150
 			goods_output_trinkets_add = 1			# x200 = 200
 		}
+		level_scaled = {
+			building_employment_adventurers_add = 500
+			building_employment_clerks_add = 500
+			building_employment_laborers_add = 4000
+		}
 	}
 }
 
@@ -25,6 +30,11 @@ pm_dive_bar = {
 
 			goods_output_entertainment_add = 10		# x30 = 300
 			goods_output_trinkets_add = 2			# x200 = 400
+		}
+		level_scaled = {
+			building_employment_adventurers_add = 1000
+			building_employment_clerks_add = 500
+			building_employment_laborers_add = 3500
 		}
 	}
 }
@@ -44,6 +54,11 @@ pm_wine_bar = {
 
 			goods_output_entertainment_add = 15		# x30 = 450
 			goods_output_trinkets_add = 3			# x200 = 600
+		}
+		level_scaled = {
+			building_employment_adventurers_add = 1000
+			building_employment_clerks_add = 1000
+			building_employment_laborers_add = 3000
 		}
 	}
 
@@ -66,59 +81,10 @@ pm_fantastic_cocktails = {
 			goods_output_entertainment_add = 20 	# x30 = 600
 			goods_output_trinkets_add = 4			# x200 = 800
 		}
-	}
-}
-
-pm_traditional_sponsorship = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_aristocrats.dds"
-
-	disallowing_laws = {
-		law_command_economy
-		law_cooperative_ownership
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_adventurers_add = 1000
-			building_employment_clerks_add = 3000
-			building_employment_laborers_add = 1000
-		}
-	}
-}
-
-pm_private_sponsorship = {
-	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
-
-	unlocking_technologies = {
-		realism
-	}
-
-	disallowing_laws = {
-		law_command_economy
-		law_cooperative_ownership
-	}
-
-	building_modifiers = {
 		level_scaled = {
 			building_employment_adventurers_add = 1500
-			building_employment_clerks_add = 2500
-			building_employment_laborers_add = 1000
-		}
-	}
-}
-
-pm_independent_adventurers = {
-	texture = "gfx/interface/icons/production_method_icons/independent_artists.dds"
-
-	unlocking_technologies = {
-		hero_worship
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_adventurers_add = 2000
-			building_employment_clerks_add = 2000
-			building_employment_laborers_add = 1000		
+			building_employment_clerks_add = 1500
+			building_employment_laborers_add = 2000
 		}
 	}
 }
