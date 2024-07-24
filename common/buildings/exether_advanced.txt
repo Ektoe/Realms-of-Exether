@@ -9,7 +9,6 @@
 
 	production_method_groups = {
 		pmg_base_building_tavern
-		pmg_adventuring_focus
 		pmg_ownership_building_tavern
 	}
 	

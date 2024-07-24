@@ -19,15 +19,6 @@ pmg_ownership_building_tavern = {
 	}
 }
 
-pmg_adventuring_focus = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	production_methods = {
-		pm_no_trinkets
-		pm_trinkets
-		pm_increased_trinkets
-	}
-}
-
 pmg_base_building_airship_dock = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
