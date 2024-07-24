@@ -173,20 +173,20 @@
       region_state:DUM = {
         create_pop = {
           culture = dewaric
-          size = 1019008
+          size = 1119008
         }
         create_pop = {
           culture = dumonian
-          size = 16004
+          size = 116984
         }
         create_pop = {
           culture = dewaric
           religion = cult_of_the_sun
-          size = 218400
+          size = 318400
         }
         create_pop = {
           culture = uplander
-          size = 60000
+          size = 163988
         }
       }
   }
@@ -250,7 +250,7 @@
       region_state:DUM = {
         create_pop = {
           culture = dewaric
-          size = 1719008
+          size = 1319898
         }
         create_pop = {
           culture = avalorean
