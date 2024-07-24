@@ -105,12 +105,14 @@ building_wishstone_reefs = {
 	required_construction = construction_cost_medium
 
 	unlocking_technologies = {
-		pumpjacks
+		mechanical_tools
 	}
 	
 	production_method_groups = {
-		pmg_base_building_oil_rig
-		pmg_transportation_building_oil_rig
+		pmg_base_building_wishstone_reef
+		pmg_potions_wishstone_reef
+		pmg_transportation_building_wishtone_reef
+		
 		
 	}
 

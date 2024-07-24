@@ -67,6 +67,8 @@ bg_wishstone_mining = {
 }
 
 bg_wishstone_extraction_sea = {
+	parent_group = bg_magic_resource
+	
 	category = rural
 
 	capped_by_resources = yes
@@ -75,7 +77,7 @@ bg_wishstone_extraction_sea = {
 	
 	discoverable_resource = yes
 	
-	default_building = building_whaling_station
+	default_building = building_wishstone_reefs
 	
 	lens = fishing
 	
