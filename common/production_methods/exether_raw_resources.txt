@@ -1294,14 +1294,14 @@ pm_potions_of_waterbreathing_wishstone_reef = { #now this is podracing
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_potions_add = 5 #200
+			goods_input_potions_add = 5 #250
 			
 			# output goods
-			goods_output_wishstone_add = 4 #200
+			goods_output_wishstone_add = 5 #250
 		}
 
 		unscaled = {
-			building_output_add = 0.1
+			building_output_add = 0.15
 			building_laborers_mortality_mult = -0.1
 		}
 	}
