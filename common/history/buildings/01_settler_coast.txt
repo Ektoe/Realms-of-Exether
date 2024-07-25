@@ -1780,7 +1780,7 @@
 	}
   }
 
-  s:STATE_PLAGUEWOOD_HINTERLANDS_3 = {
+  s:STATE_RIBAGAR = {
 	region_state:DRO={
 		create_building={
 			building="building_livestock_ranch"
@@ -1803,7 +1803,7 @@
   }
 
   
-  s:STATE_ASHWICK_3 = {
+  s:STATE_MINUPHOSS = {
 	region_state:DRO={
 		create_building={
 			building="building_rice_farm"
@@ -1812,13 +1812,13 @@
 					type="building_manor_house"
 					country="c:DRO"
 					levels=2
-					region="STATE_ASHWICK_3"
+					region="STATE_MINUPHOSS"
 				}
 				building={
 					type="building_manor_house"
 					country="c:DRO"
 					levels=2
-					region="STATE_ASHWICK_3"
+					region="STATE_MINUPHOSS"
 				}
 			}
 			reserves=1
@@ -1831,7 +1831,7 @@
 					type="building_manor_house"
 					country="c:DRO"
 					levels=1
-					region="STATE_ASHWICK_3"
+					region="STATE_MINUPHOSS"
 				}
 			}
 			reserves=1
@@ -1844,7 +1844,7 @@
 					type="building_manor_house"
 					country="c:DRO"
 					levels=3
-					region="STATE_ASHWICK_3"
+					region="STATE_MINUPHOSS"
 				}
 			}
 			reserves=1
@@ -1857,7 +1857,7 @@
 					type="building_manor_house"
 					country="c:DRO"
 					levels=2
-					region="STATE_ASHWICK_3"
+					region="STATE_MINUPHOSS"
 				}
 			}
 			reserves=1
@@ -5618,7 +5618,7 @@
 	}
   }
 
-  s:STATE_COGSREST = {
+  s:STATE_RIRGEN = {
 		region_state:DRO={
 			create_building={
 				building="building_livestock_ranch"
@@ -5627,7 +5627,7 @@
 						type="building_manor_house"
 						country="c:DRO"
 						levels=5
-						region="STATE_COGSREST"
+						region="STATE_RIRGEN"
 				   }
 				}
 				reserves=1
@@ -5640,7 +5640,7 @@
 						type="building_financial_district"
 						country="c:DRO"
 						levels=1
-						region="STATE_COGSREST"
+						region="STATE_RIRGEN"
 				   }
 				}
         reserves=3
@@ -5650,7 +5650,7 @@
 
   }
 
-  s:STATE_NOGI_SANDS = {
+  s:STATE_RICHAR_JEDD = {
 		region_state:DRO={
 			create_building={
 				building="building_livestock_ranch"
@@ -5659,7 +5659,7 @@
 						type="building_manor_house"
 						country="c:DRO"
 						levels=1
-						region="STATE_NOGI_SANDS"
+						region="STATE_RICHAR_JEDD"
 				   }
 				}
 				reserves=1
@@ -5668,7 +5668,7 @@
 		}
   }
 
-  s:STATE_GRAVELROCK_ROAD = {
+  s:STATE_DEPHEL_PATH = {
 	region_state:VOZ={
 		create_building={
 			building="building_airship_dock"
@@ -5682,7 +5682,7 @@
 						type="building_manor_house"
 						country="c:VOZ"
 						levels=1
-						region="STATE_GRAVELROCK_ROAD"
+						region="STATE_DEPHEL_PATH"
 				   }
 				}
 			reserves=1
@@ -5694,7 +5694,7 @@
                         type="building_financial_district"
                         country="c:VOZ"
                         levels=2
-                        region="STATE_GRAVELROCK_ROAD"
+                        region="STATE_DEPHEL_PATH"
                    }
                 }
 			reserves=1
@@ -5707,7 +5707,7 @@
                         type="building_financial_district"
                         country="c:VOZ"
                         levels=1
-                        region="STATE_GRAVELROCK_ROAD"
+                        region="STATE_DEPHEL_PATH"
                    }
                 }
 			reserves=1
@@ -5720,7 +5720,7 @@
                         type="building_financial_district"
                         country="c:VOZ"
                         levels=1
-                        region="STATE_GRAVELROCK_ROAD"
+                        region="STATE_DEPHEL_PATH"
                    }
                 }
 			reserves=1
@@ -5733,7 +5733,7 @@
                         type="building_financial_district"
                         country="c:VOZ"
                         levels=1
-                        region="STATE_GRAVELROCK_ROAD"
+                        region="STATE_DEPHEL_PATH"
                    }
                 }
 			reserves=1
@@ -5747,7 +5747,7 @@
 	}
   }
 
-  s:STATE_ELF1 = {
+  s:STATE_TOPHNATH = {
 		region_state:DRO={
 			create_building={
 				building="building_livestock_ranch"
@@ -5756,7 +5756,7 @@
 						type="building_manor_house"
 						country="c:DRO"
 						levels=3
-						region="STATE_ELF1"
+						region="STATE_TOPHNATH"
 				   }
 				}
 				reserves=1
@@ -5775,7 +5775,7 @@
 						type="building_financial_district"
 						country="c:DRO"
 						levels=1
-						region="STATE_ELF1"
+						region="STATE_TOPHNATH"
 				   }
 				}
 				reserves=1
@@ -5784,7 +5784,7 @@
 		}
   }
 
-  s:STATE_ELF2 = {
+  s:STATE_CINPHNPHAINN = {
 		region_state:DRO={
 			create_building={
 				building="building_government_administration"
@@ -5805,7 +5805,7 @@
                         type="building_financial_district"
                         country="c:DRO"
                         levels=1
-                        region="STATE_ELF2"
+                        region="STATE_CINPHNPHAINN"
                    }
                 }
 				reserves=1
@@ -5818,7 +5818,7 @@
                         type="building_adventuring_guild"
                         country="c:DRO"
                         levels=3
-                        region="STATE_ELF2"
+                        region="STATE_CINPHNPHAINN"
                    }
                 }
 				reserves=1
@@ -5831,7 +5831,7 @@
 						type="building_manor_house"
 						country="c:DRO"
 						levels=2
-						region="STATE_ELF2"
+						region="STATE_CINPHNPHAINN"
 				   }
 				}
 				reserves=1
@@ -5844,7 +5844,7 @@
 						type="building_manor_house"
 						country="c:DRO"
 						levels=2
-						region="STATE_ELF2"
+						region="STATE_CINPHNPHAINN"
 				   }
 				}
 				reserves=1
@@ -5857,7 +5857,7 @@
                         type="building_financial_district"
                         country="c:DRO"
                         levels=1
-                        region="STATE_ELF2"
+                        region="STATE_CINPHNPHAINN"
                    }
                 }
 				reserves=1
@@ -5870,7 +5870,7 @@
                         type="building_financial_district"
                         country="c:DRO"
                         levels=1
-                        region="STATE_ELF2"
+                        region="STATE_CINPHNPHAINN"
                    }
                 }
 				reserves=1
@@ -5891,7 +5891,7 @@
 		}
   }
 
-  s:STATE_ELF3 = {
+  s:STATE_LHIPH = {
 		region_state:DRO={
 			create_building={
 				building="building_government_administration"
@@ -5906,7 +5906,7 @@
                         type="building_financial_district"
                         country="c:DRO"
                         levels=2
-                        region="STATE_ELF3"
+                        region="STATE_LHIPH"
                    }
                 }
 				reserves=1
@@ -5919,7 +5919,7 @@
                         type="building_adventuring_guild"
                         country="c:DRO"
                         levels=3
-                        region="STATE_ELF3"
+                        region="STATE_LHIPH"
                    }
                 }
 				reserves=1
@@ -5932,7 +5932,7 @@
 						type="building_manor_house"
 						country="c:DRO"
 						levels=3
-						region="STATE_ELF3"
+						region="STATE_LHIPH"
 				   }
 				}
 				reserves=1
@@ -5945,7 +5945,7 @@
 						type="building_manor_house"
 						country="c:DRO"
 						levels=2
-						region="STATE_ELF3"
+						region="STATE_LHIPH"
 				   }
 				}
 				reserves=1
@@ -5958,7 +5958,7 @@
 						type="building_manor_house"
 						country="c:DRO"
 						levels=4
-						region="STATE_ELF3"
+						region="STATE_LHIPH"
 				   }
 				}
 				reserves=1
@@ -5971,7 +5971,7 @@
                         type="building_financial_district"
                         country="c:DRO"
                         levels=2
-                        region="STATE_ELF3"
+                        region="STATE_LHIPH"
                    }
                 }
 				reserves=1

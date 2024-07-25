@@ -686,7 +686,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_PLAGUEWOOD_HINTERLANDS_3 = {
+  s:STATE_RIBAGAR = {
 	region_state:DRO = {
 		create_pop = {
 			culture = aridrun
@@ -739,7 +739,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_ASHWICK_3 = {
+  s:STATE_MINUPHOSS = {
 	region_state:DRO = {
 		create_pop = {
 			culture = aridrun
@@ -1677,7 +1677,7 @@ s:STATE_FAR_SHORE_2 = {
 	}
   }
 
-  s:STATE_COGSREST = {
+  s:STATE_RIRGEN = {
 		region_state:DRO = {
 			create_pop = {
 				culture = aridrun
@@ -1690,7 +1690,7 @@ s:STATE_FAR_SHORE_2 = {
 		}
   }
 
-  s:STATE_NOGI_SANDS = {
+  s:STATE_RICHAR_JEDD = {
 		region_state:DRO = {
 			create_pop = {
 				culture = aridrun
@@ -1703,7 +1703,7 @@ s:STATE_FAR_SHORE_2 = {
 		}
   }
 
-  s:STATE_GRAVELROCK_ROAD = {
+  s:STATE_DEPHEL_PATH = {
 	region_state:DRO = {
 		create_pop = {
 			culture = aridrun
@@ -1727,7 +1727,7 @@ s:STATE_FAR_SHORE_2 = {
 	}
   }
 
-  s:STATE_ELF1 = {
+  s:STATE_TOPHNATH = {
 		region_state:DRO = {
 			create_pop = {
 				culture = aridrun
@@ -1736,7 +1736,7 @@ s:STATE_FAR_SHORE_2 = {
 		}
   }
 
-  s:STATE_ELF2 = {
+  s:STATE_CINPHNPHAINN = {
 		region_state:DRO = {
 			create_pop = {
 				culture = aridrun
@@ -1745,7 +1745,7 @@ s:STATE_FAR_SHORE_2 = {
 		}
   }
 
-  s:STATE_ELF3 = {
+  s:STATE_LHIPH = {
 		region_state:DRO = {
 			create_pop = {
 				culture = aridrun
