@@ -192,6 +192,10 @@ STATE_BLUMETO = {
         bg_squidding = 6
         bg_game_hunting = 1
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3089
 }
 STATE_HADRUMEA = {
@@ -207,6 +211,10 @@ STATE_HADRUMEA = {
     capped_resources = {
         bg_logging = 5
         bg_fishing = 12
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 4
     }
     naval_exit_id = 3040
 }
@@ -544,7 +552,7 @@ STATE_LEPTARIA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 4
+        undiscovered_amount = 7
     }
     naval_exit_id = 3089
 }
@@ -563,6 +571,10 @@ STATE_OYSSARA = {
         bg_fishing = 6
         bg_squidding = 6
         bg_whaling = 16
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 11
     }
     naval_exit_id = 3089
 }
@@ -793,7 +805,7 @@ STATE_BYSARIS = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 3
+        undiscovered_amount = 28
     }
     naval_exit_id = 3040
 }
@@ -1298,7 +1310,7 @@ STATE_SILENTWISP = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 3
+        undiscovered_amount = 17
     }
     naval_exit_id = 3047
 }
