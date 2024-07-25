@@ -859,12 +859,6 @@
 			target = c:EBR.market
 		}
 		create_trade_route = {
-			goods = hardwood
-			level = 2
-			direction = import
-			target = c:EBR.market
-		}
-		create_trade_route = {
 			goods = tools
 			level = 2
 			direction = export
