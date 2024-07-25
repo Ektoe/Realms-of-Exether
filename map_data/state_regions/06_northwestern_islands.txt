@@ -171,7 +171,7 @@ STATE_THAPSARIS = {
     capped_resources = {
         bg_fishing = 12
         bg_whaling = 7
-        bg_wishstone_mining = 26
+        bg_wishstone_reefs = 31
     }
     naval_exit_id = 3013
 }
@@ -192,6 +192,10 @@ STATE_BLUMETO = {
         bg_squidding = 6
         bg_game_hunting = 1
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 5
+    }
     naval_exit_id = 3089
 }
 STATE_HADRUMEA = {
@@ -207,6 +211,10 @@ STATE_HADRUMEA = {
     capped_resources = {
         bg_logging = 5
         bg_fishing = 12
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 4
     }
     naval_exit_id = 3040
 }
@@ -503,6 +511,10 @@ STATE_THASPIA = {
         bg_logging = 9
         bg_fishing = 8
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 13
+    }
     naval_exit_id = 3008
 }
 STATE_GADIRIS = {
@@ -538,6 +550,10 @@ STATE_LEPTARIA = {
         bg_squidding = 4
         bg_whaling = 4
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 7
+    }
     naval_exit_id = 3089
 }
 STATE_OYSSARA = {
@@ -555,6 +571,10 @@ STATE_OYSSARA = {
         bg_fishing = 6
         bg_squidding = 6
         bg_whaling = 16
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 11
     }
     naval_exit_id = 3089
 }
@@ -591,6 +611,10 @@ STATE_CERNIA = {
         bg_logging = 8
         bg_fishing = 9
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 11
+    }
     naval_exit_id = 3008
 }
 STATE_NEOSCARPIA = {
@@ -608,6 +632,10 @@ STATE_NEOSCARPIA = {
         bg_coal_mining = 72
         bg_logging = 11
         bg_fishing = 10
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 8
     }
     naval_exit_id = 3008
 }
@@ -774,6 +802,10 @@ STATE_BYSARIS = {
     capped_resources = {
         bg_fishing = 6
         bg_whaling = 6
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 28
     }
     naval_exit_id = 3040
 }
@@ -1272,9 +1304,13 @@ STATE_SILENTWISP = {
     arable_land = 10
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 12
+        bg_logging = 4
         bg_fishing = 10
         bg_whaling = 6
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 17
     }
     naval_exit_id = 3047
 }

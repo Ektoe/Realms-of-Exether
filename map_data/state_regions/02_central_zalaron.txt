@@ -2303,6 +2303,7 @@ STATE_ALAMARA = {
         bg_fishing = 6
         bg_whaling = 2
     }
+    
     naval_exit_id = 3002
 }
 STATE_ESPRANOOR = {
