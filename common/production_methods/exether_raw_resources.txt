@@ -1167,6 +1167,148 @@ pm_road_carts = {
 	texture = "gfx/interface/icons/production_method_icons/no_rail_transport.dds"
 }
 
+pm_diving_bells_wishstone_reef = { #diving bells to recover wishstone
+	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5 #40 x 5 #200
+			goods_input_clippers_add = 5 #60 x 5 #300
+			
+			# output goods
+			goods_output_wishstone_add = 25 #1250
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4500
+		}
+
+		unscaled = {
+		building_laborers_mortality_mult = 0.2
+		}
+	}
+}
+
+pm_gantry_cranes_wishstone_reef = {
+	texture = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds"
+	
+	unlocking_technologies = {
+		gantry_cranes
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10 #nonmagic I guess?
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 10 # 60 x 5 #300
+			goods_input_steamers_add = 5 #70 x 5 #350
+			
+			# output goods
+			goods_output_wishstone_add = 50 #2500
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2750
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_on_that_oceangate_grind_wishstone_reef = {
+	texture = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds"
+	
+	unlocking_technologies = {
+		submarine
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15 #nonmagic I guess?
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 10 # 60 x 10 #600
+			goods_input_steamers_add = 5 #70 x 5 #350
+			goods_input_steel_add =  5 #50 x 5 #250
+			
+			# output goods
+			goods_output_wishstone_add = 75 #3750
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2750
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_on_that_oceangate_grind_thaumacore_wishstone_reef = {
+	texture = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds"
+	
+	unlocking_technologies = {
+		submarine
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20 #magic
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_thaumacores_add = 10 # 100 x 10 #1000
+			goods_input_steamers_add = 5 #70 x 5 #350
+			goods_input_steel_add = 5 #50 x 5 #250
+			goods_input_ironclads_add = 2
+			
+			# output goods
+			goods_output_wishstone_add = 90 #4500
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2750
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_potions_of_waterbreathing_wishstone_reef = { #now this is podracing
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+
+	unlocking_technologies = {	
+		alchemy
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_potions_add = 5 #250
+			
+			# output goods
+			goods_output_wishstone_add = 5 #250
+		}
+
+		unscaled = {
+			building_output_add = 0.15
+			building_laborers_mortality_mult = -0.1
+		}
+	}
+}
 #Game Hunting
 pm_trapping_teams = {
 	texture = "gfx/interface/icons/production_method_icons/spears.dds"

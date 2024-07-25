@@ -248,12 +248,12 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_TROMMELKUST
-				count = 25
+				count = 30
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_TROMMELKUST
-				count = 15
+				count = 20
 			}
 
 			save_scope_as = rav_army
@@ -279,6 +279,12 @@
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SPRANKELMEER
 				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SPRANKELMEER
+				service_type = conscript
+				count = 15
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
@@ -326,6 +332,13 @@
 				count = 5
 			}
 
+			combat_unit = {
+                type = unit_type:combat_unit_type_line_infantry
+                state_region = s:STATE_RATELBERG
+                service_type = conscript
+                count = 10
+            }
+
 			save_scope_as = rav_army
 		}
 
@@ -352,7 +365,19 @@
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RATELBERG
+				service_type = conscript
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GNURKENSTAD
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GNURKENSTAD
+				service_type = conscript
 				count = 20
 			}
 			combat_unit = {
@@ -462,6 +487,12 @@
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HAVENSHIRE
+				service_type = conscript
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_STORMWATCH
 				count = 5
 			}
@@ -501,8 +532,20 @@
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WINDSONG
+				service_type = conscript
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_MOONSHADE
 				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MOONSHADE
+				service_type = conscript
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -515,9 +558,21 @@
 				count = 3
 			}
 			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_STORMHOLM
+				service_type = conscript
+				count = 7
+			}
+			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_MISTVALE
 				count = 7
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MISTVALE
+				service_type = conscript
+				count = 10
 			}
 
 			save_scope_as = tle_army3
@@ -584,8 +639,20 @@
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SPRONKERGROEN
+			    service_type = conscript
+				count = 12
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_SNAARGRACHT
 				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SNAARGRACHT
+			    service_type = conscript
+				count = 12
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -601,6 +668,12 @@
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_VONKENDAM
 				count = 7
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VONKENDAM
+			    service_type = conscript
+				count = 10
 			}
 
 			save_scope_as = tle_army5
@@ -634,6 +707,12 @@
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BRIGHTWATER
+				service_type = conscript
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_THORNFIELD
 				count = 3
 			}
@@ -641,6 +720,12 @@
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_WHITESTONE
 				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WHITESTONE
+				service_type = conscript
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
