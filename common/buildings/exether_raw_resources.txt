@@ -98,19 +98,21 @@ building_wishstone_fields = {
 }
 
 building_wishstone_reefs = {
-	building_group = bg_wishstone_extraction_sea
+	building_group = bg_wishstone_reefs
 	texture = "gfx/interface/icons/building_icons/wishstone_reefs.dds"
 	city_type = port
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
 
 	unlocking_technologies = {
-		pumpjacks
+		hydraulic_cranes
 	}
 	
 	production_method_groups = {
-		pmg_base_building_oil_rig
-		pmg_transportation_building_oil_rig
+		pmg_base_building_wishstone_reef
+		pmg_potions_wishstone_reef
+		pmg_transportation_building_wishtone_reef
+		
 		
 	}
 

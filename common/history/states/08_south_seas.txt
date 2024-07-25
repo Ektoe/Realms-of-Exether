@@ -216,7 +216,7 @@ s:STATE_ALAHAZOTRA = {
 		country = c:DEV
 		owned_provinces = { "x6FA5E7" "x98E9CC" "xD4CED6" "xE8F09D" }
 }
-add_homeland = cu:east_lacertian
+add_homeland = cu:jazamandroso
 }
 
 s:STATE_IVONDRO = {
@@ -274,7 +274,7 @@ s:STATE_MAROMITA = {
 		country = c:AYE
 		owned_provinces = { "x94DADB" "xE1F7B2" "xEAABA6" "xED68AE" "xF47B97" }
 }
-add_homeland = cu:jazamandroso
+add_homeland = cu:lacertian
 }
 
 s:STATE_TOMBONT = {
