@@ -5,7 +5,7 @@
 	
 
 
-	#scripted_button = je_positivist_movement_embrace_positivism_button
+	scripted_button = negotiate_kobold_settlements_button
 
 
 	# on_weekly_pulse = {
@@ -45,7 +45,7 @@
 					has_modifier = gave_into_sickhouse_protests
 					has_modifier = active_conversion_cult
 				}
-				has_modifier = gave_into_sickhouse_protests
+				
 
 				
 			}
@@ -74,8 +74,8 @@
 				}
 			}	
 		}
-		random_events = {
-			1 = 0
+		random_events = { #this originally all added up to 200 but I'm pretty sure that events whose triggers aren't met aren't included in the calculation and that fucked stuff up
+			110 = 0
 			84 = dragonblight_pulse.22 #the collapse event lmao
 			3 = dragonblight_pulse.1 #trade route spread
 			4 = dragonblight_pulse.2 #adjacent spread
@@ -128,165 +128,256 @@
 				s:STATE_KLYPYRA = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_ZAMARIS = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_ZARTHOS = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_CALTHA = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_SIGARA = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
+							}	
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
 							}
-							NOT = { owner = ROOT }
 						}
 					}
 				}
 				s:STATE_LEPTISCA = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_OYRSA = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_LEPIDRA = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_THASPYR = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+							NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_LILYBAEUM = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_ZYRAS = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_MOTHYA = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_LEPTHAR = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+							NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_CLYPYA = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+										NOT = { 
+								is_split_state = no
+								owner = ROOT 
+							}
 						}
 					}
 				}
 				s:STATE_CARTHI = {
 					any_scope_state = {
 						OR = {
-							culture_percent_state = {
-								target = cu:illvasaari
-								value <= 0.4
+							AND = {
+								owner = root
+								culture_percent_state = {
+									target = cu:illvasaari
+									value <= 0.4
+								}
 							}
-							NOT = { owner = ROOT }
+														NOT = { 
+								is_split_state = yes
+								owner = ROOT 
+							}
 						}
 					}
 				}

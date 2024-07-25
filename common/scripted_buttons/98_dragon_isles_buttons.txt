@@ -1,6 +1,6 @@
 ﻿negotiate_kobold_settlements_button = {
-	name = "persia_british_aid_button"
-	desc = "persia_british_aid_button_desc"
+	name = "negotiate_kobold_settlements_button"
+	desc = "negotiate_kobold_settlements_button_desc"
 
 	# selected = {
 	# 	has_variable = PER_appealed_to_GBR
