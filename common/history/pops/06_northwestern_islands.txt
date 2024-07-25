@@ -915,7 +915,7 @@
 		region_state:ORO = {
 			create_pop = {
 				culture = garagoz
-				size = 164000
+				size = 194000
 			}
 			create_pop = {
 				culture = blacktalon
@@ -947,7 +947,7 @@
 		region_state:ORO = {
 			create_pop = {
 				culture = garagoz
-				size = 77000
+				size = 107000
 			}
 		}
 	}
