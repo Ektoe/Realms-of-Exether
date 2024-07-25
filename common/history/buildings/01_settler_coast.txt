@@ -4547,12 +4547,6 @@
 			level=4
 			reserves=1
 			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
-		}
-		create_building={
-			building="building_construction_sector"
-			level=2
-			reserves=1
-			activate_production_methods={ "pm_wooden_buildings" }
 		}			
             create_building={
 			building="building_tooling_workshops"
@@ -4605,25 +4599,12 @@
                     building={ 
                         type="building_financial_district"
                         country="c:AHO"
-                        levels=10
+                        levels=3
                         region="STATE_ACHONIAN_HIGHLANDS"
                    }
                 }
 			reserves=1
 			activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
-		}
-			create_building={
-			building="building_iron_mine"
-				add_ownership={ 
-					building={ 
-						type="building_financial_district"
-						country="c:AHO"
-						levels=3
-						region="STATE_ACHONIAN_HIGHLANDS"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 		}
 	}
   }
@@ -4926,6 +4907,12 @@
 			reserves=1
 			activate_production_methods={ "pm_scholastic_education" "pm_secular_academia" }
 		}
+		create_building={
+			building="building_construction_sector"
+			level=2
+			reserves=1
+			activate_production_methods={ "pm_wooden_buildings" }
+		}
             create_building={
 			building="building_textile_mills"
                 add_ownership={ 
@@ -4939,13 +4926,52 @@
 			reserves=1
 			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 		}
+		create_building={
+			building="building_furniture_manufacturies"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:AHO"
+                        levels=2
+                        region="STATE_SJETTSZCEK_MIRE"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" "pm_no_luxuries" }
+		}
+		create_building={
+			building="building_iron_mine"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:AHO"
+						levels=4
+						region="STATE_SJETTSZCEK_MIRE"
+				   }
+				}
+			reserves=1
+			activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+		}
+		create_building={
+			building="building_logging_camp"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:AHO"
+                        levels=10
+                        region="STATE_SJETTSZCEK_MIRE"
+                   }
+                }
+			reserves=1
+			activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+		}
 			create_building={
 			building="building_rye_farm"
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
 						country="c:AHO"
-						levels=1
+						levels=3
 						region="STATE_SJETTSZCEK_MIRE"
 				   }
 				}
