@@ -2300,7 +2300,11 @@ STATE_ALAMARA = {
         bg_fishing = 6
         bg_whaling = 2
     }
-    
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 15
+    }
+
     naval_exit_id = 3002
 }
 STATE_ESPRANOOR = {
@@ -2357,6 +2361,10 @@ STATE_KALIBRANTO = {
     capped_resources = {
         bg_fishing = 12
         bg_whaling = 8
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 17
     }
     naval_exit_id = 3002
 }
