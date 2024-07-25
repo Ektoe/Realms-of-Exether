@@ -200,7 +200,7 @@ add_claim = c:MID
 s:STATE_VOZMEAD_BORDERLANDS = {
     create_state = {
         country = c:TLD
-        owned_provinces = { "x0BEFFB" "x30EFF4" "x58BEF1" "x6CDBDF" "x6FC8D0" "x9BF7A7" "xB6ADA6"  "xBBD5EA" "xBD56FC" "xC677CF" "xC9989C"  "xDEC5A4" "xE7AC99" "xE775E9" "xF0A29F" "xF4DDFD" "xF892D1" "xFDEAF9" }
+        owned_provinces = { "x0BEFFB" "x30EFF4" "x58BEF1" "x6CDBDF" "x6FC8D0" "x9BF7A7" "xB6ADA6"  "xBBD5EA" "xBD56FC" "xC677CF" "xC9989C"  "xDEC5A4" "xE7AC99" "xE775E9" "xF4DDFD" "xF892D1" "xFDEAF9" }
 }
 
     add_homeland = cu:tolorr
@@ -801,6 +801,7 @@ s:STATE_HAZELDEEP = {
         country = c:EMP
         owned_provinces = {  "x49DEFB" "x4ACEE6" "x70B4EE" "x75DDC0" "x789BFE" "x78C7E0" "x80FE85" "x948CED" "x9DD2AE" "xAAD088" "xB1BFE2" "xB7DEC4" "xBBDFB7" "xBFDAE1" "xDE72D3" "xE49BC9" "xE4E8BF" "xE8D78E" "xE9D3CE" "xEDF9CD" "xF726E3" "xFAF661" "xFB29E4" "xFCA25B" }
 }
+add_homeland = cu:bossardi
 add_homeland = cu:astreval
 }
 

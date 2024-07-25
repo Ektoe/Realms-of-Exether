@@ -60,7 +60,7 @@
 gulf_naga={
 	color= hsv{ 0.81 0.38 0.60 }
 	religion = teomakti
-	traits = {  naga monstrous_heritage}
+	traits = {  locari_culture_group naga monstrous_heritage}
 	male_common_first_names={
 		Ashoka
 		Ashtravakra
@@ -102,7 +102,7 @@ gulf_naga={
 jungle_naga={
 	color= hsv{ 0.39 0.45 0.74 }
 	religion = xocarakti
-	traits = {  naga monstrous_heritage}
+	traits = {  locari_culture_group naga monstrous_heritage}
 	
 	
 	male_common_first_names={
@@ -605,7 +605,7 @@ awakened={
 awakened_east={
 	color={ 122 127 111 }
 	religion = animist
-	traits = { beast monstrous_heritage }
+	traits = { locari_culture_group beast monstrous_heritage }
 	male_common_first_names={
 		Gaghaz
 		Yori

@@ -336,30 +336,6 @@
 			}
 			save_scope_as = red_army
 		}
-
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_ravencliff
-			name = black_armada
-		
-			combat_unit = {
-				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_INCHMARA
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_INCHMARA
-				count = 5
-			}
-			combat_unit = {
-				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_GWYNWEN
-				count = 3
-			}
-			save_scope_as = black_fleet
-		}
-
 	}
 	#Yanger steppe armys and armadas	
 	c:EVR ?= {
@@ -797,5 +773,29 @@
 			}
 		}
 
-	}		
+	}	
+	c:YAN ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_yanger_steppe
+			name = Yanger_Nomads
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_RIDERS_MOOT
+				count = 25
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_EAST_YANGER_STEPPE
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_URIKS_GIFT
+				count = 15
+			}
+
+		}
+	}	
 }

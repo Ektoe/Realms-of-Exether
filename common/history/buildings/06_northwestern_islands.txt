@@ -48,7 +48,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=4
                         region="STATE_CARTHI"
@@ -248,7 +248,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=4
                         region="STATE_THASPYR"
@@ -359,7 +359,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=1
                         region="STATE_HADRUMEA"
@@ -395,7 +395,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=1
                         region="STATE_CARTHALIA"
@@ -444,7 +444,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=1
                         region="STATE_SABRATHOS"
@@ -493,7 +493,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:IMR"
                         levels=1
                         region="STATE_MALYBA"
@@ -673,7 +673,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:IMR"
                         levels=2
                         region="STATE_ZAMARA"
@@ -735,7 +735,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:SVN"
                         levels=2
                         region="STATE_EBYSS"
@@ -797,7 +797,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=2
                         region="STATE_SIGARA"
@@ -827,7 +827,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=3
                         region="STATE_MOTHYA"
@@ -968,7 +968,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=2
                         region="STATE_LILYBAEUM"
@@ -1017,7 +1017,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=1
                         region="STATE_EBRUS"
@@ -1040,7 +1040,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=1
                         region="STATE_ACRAS"
@@ -1143,7 +1143,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:MVI"
                         levels=2
                         region="STATE_BYSSYRA"
@@ -1254,7 +1254,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=1
                         region="STATE_THASPIA"
@@ -1335,7 +1335,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=2
                         region="STATE_CERNIA"
@@ -1410,7 +1410,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=3
                         region="STATE_NEOSCARPIA"
@@ -1509,7 +1509,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:RKO"
                         levels=4
                         region="STATE_KURTHARA"
@@ -1577,7 +1577,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=2
                         region="STATE_LEPIDRA"
@@ -1771,7 +1771,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=3
                         region="STATE_ZARTHOS"
@@ -1863,7 +1863,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:GUR"
                         levels=2
                         region="STATE_THYRIS"
@@ -1986,7 +1986,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:NRA"
                         levels=2
                         region="STATE_SYLVARIN"
@@ -2172,7 +2172,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:VAR"
                         levels=2
                         region="STATE_ELVERWISP"
@@ -2257,7 +2257,7 @@
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:NRA"
                         levels=3
                         region="STATE_AIGAI"
@@ -2329,7 +2329,7 @@
 				building="building_whaling_station"
                 add_ownership={ 
                     building={ 
-                        type="building_tavern"
+                        type="building_adventuring_guild"
                         country="c:DIS"
                         levels=2
                         region="STATE_CARTHI"
