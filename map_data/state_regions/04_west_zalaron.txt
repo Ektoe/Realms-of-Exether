@@ -3250,6 +3250,10 @@ STATE_FLUSTERBEEK = {
         bg_logging = 6
         bg_fishing = 16
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 4
+    }
     naval_exit_id = 3013
 }
 STATE_DAUWBLED = {
@@ -3266,6 +3270,10 @@ STATE_DAUWBLED = {
     capped_resources = {
         bg_logging = 4
         bg_fishing = 7
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 3
     }
     naval_exit_id = 3013
 }
@@ -3332,6 +3340,10 @@ STATE_REINFALL = {
         bg_logging = 2
         bg_whaling = 2
         bg_fishing = 3
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 2
     }
     naval_exit_id = 3013
 }
