@@ -512,6 +512,7 @@ exether_is_coastal = {
 			state_region = s:STATE_JARGALYO
 			state_region = s:STATE_KHASUNEN
 			state_region = s:STATE_TSUKHANJUKU
+			state_region = s:STATE_CLYPYA
 			state_region = s:STATE_HARUGAWASAI
 			state_region = s:STATE_MONGOROKKU
 			state_region = s:STATE_KAMISHINBA

@@ -66,7 +66,9 @@ bg_wishstone_mining = {
 	foreign_investment_ai_factor = 1.0
 }
 
-bg_wishstone_extraction_sea = {
+bg_wishstone_reefs = {
+	parent_group = bg_magic_resource
+	
 	category = rural
 
 	capped_by_resources = yes
@@ -75,7 +77,7 @@ bg_wishstone_extraction_sea = {
 	
 	discoverable_resource = yes
 	
-	default_building = building_whaling_station
+	default_building = building_wishstone_reefs
 	
 	lens = fishing
 	
@@ -118,6 +120,13 @@ bg_mountain_maize_farms = {
 	default_building = building_mountain_maize_farm
 	
 	cash_reserves_max = 25000
+}
+
+bg_beekeeping = {
+	parent_group = bg_logging
+
+	default_building = building_beekeeping
+	can_use_slaves = no
 }
 
 bg_dragon_ruins = {

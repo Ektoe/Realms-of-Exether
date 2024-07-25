@@ -476,7 +476,7 @@
 		}
 		create_trade_route = {
 			goods = opium
-			level = 9
+			level = 10
 			direction = export
 			target = c:DUM.market
 		}
@@ -488,27 +488,21 @@
 		}
 		create_trade_route = {
 			goods = opium
-			level = 1
+			level = 3
 			direction = export
 			target = c:SMA.market
 		}
 		create_trade_route = {
 			goods = opium
-			level = 1
+			level = 2
 			direction = export
 			target = c:FOX.market
 		}
 		create_trade_route = {
 			goods = opium
-			level = 2
-			direction = export
-			target = c:DOV.market
-		}
-		create_trade_route = {
-			goods = opium
 			level = 3
 			direction = export
-			target = c:RAV.market
+			target = c:DOV.market
 		}
 		create_trade_route = {
 			goods = paper
@@ -533,12 +527,6 @@
 			level = 10
 			direction = export
 			target = c:ARR.market
-		}
-		create_trade_route = {
-			goods = opium
-			level = 6
-			direction = export
-			target = c:SNB.market
 		}
 		create_trade_route = {
 			goods = clippers
@@ -1348,5 +1336,19 @@ c:THI ?= {
 		target = c:DAR.market
 		direction = import
 	}
+}
+c:DIS ?= {
+	create_trade_route = {
+		goods = tea
+		level = 7
+		target = c:RAV.market
+		direction = export
+	}
+	create_trade_route = {
+		goods = wishstone
+		level = 7
+		target = c:RAV.market
+		direction = export
+	}		
 }
 }
