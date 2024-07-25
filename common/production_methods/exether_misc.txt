@@ -936,6 +936,13 @@ pm_heavy_weapons_desert_hunting = {
 			building_employment_laborers_add = 3000
 			building_employment_soldiers_add = 1000
 		}
+
+		unscaled = {
+			# mortality
+			building_laborers_mortality_mult = 0.10
+			building_adventurers_mortality_mult = 0.20
+		}
+		
 }
 
 	state_modifiers = {
