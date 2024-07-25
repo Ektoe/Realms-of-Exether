@@ -848,39 +848,15 @@
         c:AHO ?= {
 		create_trade_route = {
 			goods = fabric
-			level = 5
-			direction = import
-			target = c:ZKW.market
-		}
-                create_trade_route = {
-			goods = liquor
-			level = 3
-			direction = import
-			target = c:EBR.market
-		}
-		create_trade_route = {
-			goods = tools
-			level = 2
-			direction = export
-			target = c:ZKW.market
-		}
-		create_trade_route = {
-			goods = silk
-			level = 2
+			level = 6
 			direction = import
 			target = c:ZKW.market
 		}
 	}
 	c:ZKW ?= {
 		create_trade_route = {
-			goods = tools
-			level = 2
-			direction = import
-			target = c:AHO.market
-		}
-		create_trade_route = {
 			goods = small_arms
-			level = 3
+			level = 2
 			direction = import
 			target = c:AHO.market
 		}
@@ -888,12 +864,6 @@
 			goods = clothes
 			level = 2
 			direction = import
-			target = c:AHO.market
-		}
-		create_trade_route = {
-			goods = silk
-			level = 2
-			direction = export
 			target = c:AHO.market
 		}
 	}

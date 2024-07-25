@@ -1675,6 +1675,7 @@ STATE_NIWKA = {
     capped_resources = {
         bg_logging = 9
         bg_coal_mining = 22
+        bg_lead_mining = 4
         bg_game_hunting = 3
     }
     naval_exit_id = 3017
