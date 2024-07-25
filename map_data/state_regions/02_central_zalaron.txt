@@ -1294,8 +1294,8 @@ STATE_POMMELFALL_2 = {
     }
 
     resource = {
-        type = "bg_wishstone_fields"
-        depleted_type = "bg_wishstone_mining_depletable"
+        type = "bg_wishstone_mining_depletable"
+        depleted_type = "bg_wishstone_fields"
         undiscovered_amount = 8
     }
 
@@ -1415,8 +1415,8 @@ STATE_VERDFALDO = {
     }
 
     resource = {
-        type = "bg_wishstone_fields"
-        depleted_type =  "bg_wishstone_mining_depletable"
+        type = "bg_wishstone_mining_depletable"
+        depleted_type = "bg_wishstone_fields"
         undiscovered_amount = 7
     }
 
@@ -1526,8 +1526,8 @@ STATE_VENTAFALCO = {
     }
 
     resource = {
-        type =  "bg_wishstone_fields"
-        depleted_type = "bg_wishstone_mining_depletable"
+        type = "bg_wishstone_mining_depletable"
+        depleted_type = "bg_wishstone_fields"
         undiscovered_amount = 7
     }
 
@@ -3330,8 +3330,8 @@ STATE_SC9 = {
     }
 
     resource = {
-        type = "bg_wishstone_fields"
-        depleted_type = "bg_wishstone_mining_depletable"
+        type = "bg_wishstone_mining_depletable"
+        depleted_type = "bg_wishstone_fields"
         undiscovered_amount = 8
     }
 
