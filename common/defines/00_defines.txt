@@ -17,7 +17,7 @@ NJominiMap = {
 NCountry = {
 	DEFAULT_COUNTRY_TYPE = "recognized"
 	MAX_NUM_COUNTRY_FORMATION_CANDIDATES = 3
-	COUNTRY_FORMATION_CANDIDATE_MIN_RANK = 2				# countries with a lower rank value than this cannot be formation candidates
+	COUNTRY_FORMATION_CANDIDATE_MIN_RANK = 6				# countries with a lower rank value than this cannot be formation candidates
 	MOVE_CAPITAL_COOLDOWN_YEARS = 5
 	MOVE_MARKET_CAPITAL_COOLDOWN_YEARS = 5
 	MAX_POWER_EFFECT = 1.0 # The max by which a power excess/deficiency modifier can scale
@@ -530,7 +530,7 @@ NMilitary = {
     GENERAL_AUTO_TRAVEL_MAX_DAYS = 30               # Disables auto traveling if the travel takes more than `GENERAL_AUTO_TRAVEL_MAX_DAYS`. Makes general standby the nearest HQ.
     GENERAL_TRAVEL_OVERSEAS_SCALE = 1.25            # Used if a general is traveling overseas. So the total duration of the travel becomes Duration * GENERAL_TRAVEL_OVERSEAS_SCALE
     GENERAL_TRAVEL_AUTO_REASSIGN_INSTANTLY = 15		# If General is being auto reassigned (front destruction for example) and travel time is below this number of days make them travel instantly
-    GENERAL_INVALID_TRAVEL_DAYS = 0                 # If our system fails to compute travel time due to invalid front/HQ position, then use this value as travel time instead. This prevents such cases from causing >300 days travels. This ignores GENERAL_TRAVEL_AUTO_REASSIGN_INSTANTLY.
+    GENERAL_INVALID_TRAVEL_DAYS = 0                 # CHANGE FROM VANILLA If our system fails to compute travel time due to invalid front/HQ position, then use this value as travel time instead. This prevents such cases from causing >300 days travels. This ignores GENERAL_TRAVEL_AUTO_REASSIGN_INSTANTLY.
 
 	FORMATION_TRAVEL_NETWORK_SPEED = 15				# (Temp) base speed of formations when they travel via the travel network
 
@@ -1275,7 +1275,7 @@ NEvents = {
 
 NTechnology = {
 	TECH_SPREAD_RANDOM_RANGE = 0.5 # How much can distribution of tech spread vary each week
-	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.25	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
+	TECH_AHEAD_OF_TIME_PENALTY_FACTOR = 0.20	# For every tech in a previous era not already researched in this category, take this multiple of the cost as an additional penalty (multiplied by number of eras between the techs)
 }
 
 NCharacters = {
@@ -1431,7 +1431,7 @@ NTravelNetwork = {
 	ARMY_CONNECTION_UNDEVELOPED_COST_MULT = 2.0		# Travel cost multiplier for undeveloped land connections
 	ARMY_CONNECTION_UNDEVELOPED_HARSH_COST_MULT = 4.0		# Travel cost multiplier for undeveloped land connections in harsh environments (deserts, mountains, etc)
 	ARMY_CONNECTION_DIRT_ROAD_COST_MULT = 1.5		# Travel cost multiplier for dirt road land connections
-	ARMY_CONNECTION_HARDENED_ROAD_COST_MULT = 1.25	# Travel cost multiplier for hardened road land connections (currently unused)
+	ARMY_CONNECTION_HARDENED_ROAD_COST_MULT = 100 #exether, airship related	# Travel cost multiplier for hardened road land connections (currently unused)
 	ARMY_CONNECTION_RAILWAY_COST_MULT = 1.0			# Travel cost multiplier for railway land connections
 	ARMY_CONNECTION_CHARTED_COST_MULT = 1.0			# Travel cost multiplier for ocean/coastal water connections
 	ARMY_CONNECTION_CANAL_COST_MULT = 1.0			# Travel cost multiplier for channel water connections
@@ -1452,9 +1452,9 @@ NTravelNetwork = {
 	FLEET_CONNECTION_DOCKING_COST = 10				# Fixed docking/undocking cost for going from a harbor node to a port node (overrides docking connection length)
 	FLEET_CONNECTION_STRAIT_CROSSING_COST = 100		# Fixed additional cost for crossing a strait connection (unused by fleets)
 
-	DIRECT_CONNECTION_NODE_MAX_NODES = 10			# Only search the closest X travel nodes for direct line map travel
-	DIRECT_CONNECTION_NODE_SEARCH_DISTANCE = 1200	# Default distance allowed to pathfind in a direct line from a (start/target) map point to a travel node (if no valid are found, it is expanded)
-	DIRECT_CONNECTION_MAP_MAX_DISTANCE = 200 		# Maximum distance allowed to pathfind in a direct line between start and target map points directly
+	DIRECT_CONNECTION_NODE_MAX_NODES = 2	#exether, fixes bug where navies cross impassable seas to enter air tiles connected to a canal		# Only search the closest X travel nodes for direct line map travel
+	DIRECT_CONNECTION_NODE_SEARCH_DISTANCE = 10 #exether	# Default distance allowed to pathfind in a direct line from a (start/target) map point to a travel node (if no valid are found, it is expanded)
+	DIRECT_CONNECTION_MAP_MAX_DISTANCE = 2 		#exether # Maximum distance allowed to pathfind in a direct line between start and target map points directly
 
 	STRAIT_CROSSING_NODE_CREATION_DISTANCE = 5		# Minimum distance between travel nodes, when considering to insert a new travel node for strait-connection
 

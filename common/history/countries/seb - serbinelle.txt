@@ -19,5 +19,9 @@
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}
+
+		set_tariffs_import_priority = g:liquor
+		set_tariffs_export_priority = g:wood
+		set_tariffs_export_priority = g:fabric
 	}
 }

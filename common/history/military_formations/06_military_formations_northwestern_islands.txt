@@ -525,9 +525,19 @@
 				count = 20
 			}
 			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_SIGARA
+				count = 20
+			}
+			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_CARTHAROS
 				count = 18
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_SIGARA
+				count = 10
 			}
 			save_scope_as = dis_fleet
 		}
@@ -538,7 +548,7 @@
 			save_scope_as = dis_admiral
 		}
 		scope:dis_admiral = {
-			set_commander_rank = 2
+			set_commander_rank = 4
 			transfer_to_formation = scope:dis_fleet
 		}
 	}
