@@ -566,7 +566,6 @@ s:STATE_NAVAKAI = {
 		owned_provinces = { "x41C8FA" "x60EFE4" "x62ECF0" "x9FA3E4"  "xC4EFD1" "xC6C6D9" "xCA9BE1" "xCFD2BA" "xD9B9A4" "xDA7CFB" "xE968DB" "xFBF408" }
 }
 add_homeland = cu:mgzavri
-add_homeland = cu:kusichaki
 }
 
 s:STATE_SHANAKONG = {
@@ -618,6 +617,7 @@ s:STATE_KAINAVA = {
 		owned_provinces = { "x4FF1D9" "x70DDF6" "xAA7EE7" "xBCCEEB" "xC094A6" "xCBEBB6" "xCDA0B3" "xD2A7A5" "xD3FA67" "xD5C4C6" "xDFBBD2" "xE2F760" "xE5E732" "xFDA6E6" }
 }
 add_homeland = cu:kaalkid
+add_homeland = cu:jungle_gnoll
 }
 
 s:STATE_DIYINAKHAD = {

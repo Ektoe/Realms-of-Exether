@@ -1285,16 +1285,10 @@
   s:STATE_MAJIPEMBE = {
 		region_state:SNB = {
 			create_pop = {
-				culture = pabardian
-				size = 111297
-			}
-			create_pop = {
-				pop_type = slaves
 				culture = gnoll
-				size = 83379
+				size = 143379
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = gnoll
 				religion = gnollsuncult
 				size = 78468
@@ -1305,30 +1299,24 @@
 			}
 			create_pop = {
 				culture = cithrel
-				size = 13646
+				size = 69646
 			}
 		}
   }
   s:STATE_CHANGAVUTA = {
 		region_state:SNB = {
 			create_pop = {
-				pop_type = slaves
 				culture = gnoll
-				size = 112000
+				size = 142000
 			}
 			create_pop = {
-				pop_type slaves
 				culture = gnoll
 				religion = gnollsuncult
 				size = 62002
 			}
 			create_pop = {
-				culture = pabardian
-				size = 5792
-			}
-			create_pop = {
 				culture = cithrel
-				size = 13646
+				size = 83646
 			}
 			create_pop = {
 				culture = west_lacertian
@@ -1531,6 +1519,7 @@
 			}
 			create_pop = {
 				culture = gnoll
+				religion = orc_father
 				size = 35014
 			}
 			create_pop = {
@@ -1626,6 +1615,7 @@
 		}
 		create_pop = {
 			culture = gnoll
+			religion = orc_father
 			size = 16000
 		}
 		create_pop = {
@@ -3681,6 +3671,7 @@
 			}
 			create_pop = {
 				culture = jungle_gnoll
+				religion = orc_father
 				size = 61528
 			}
 		}
