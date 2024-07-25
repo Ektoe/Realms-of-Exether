@@ -4,7 +4,7 @@ s:STATE_KILIMASAWA = {
 		country = c:GHR
 		owned_provinces = { "x28FCF7" "x9CD4DA" "xBDFD75" "xCDA7E3" "xDBC3D3" "xDDFBF9" "xE2DC41" "xE3EF2F" "xE9C677" "xE9FDA2" "xEBE47F" "xF6C1CB" }
 }
-add_homeland = cu:gnoll
+add_homeland = cu:equatorial_gnoll
 }
 
 s:STATE_MAJIMBA = {
@@ -13,6 +13,7 @@ s:STATE_MAJIMBA = {
 		owned_provinces = { "x00F160" "x30FADE" "x76D9F7" "xA9C3A8" "xB690F3" "xB6E7C0" "xBBF478" "xBD7DD7" "xBDC5B2" "xBDD6E0" "xCC39FB" "xD0F178" "xE588BE" "xE7A18B" "xE7EABF" "xEBBD51" "xF1A7EB" "xF6DC97" "xFDAAAE" }
 }
 add_homeland = cu:gnoll
+add_homeland = cu:equatorial_gnoll
 }
 
 s:STATE_PWANIQWA = {
@@ -60,7 +61,7 @@ s:STATE_UZURIPWA = {
 		country = c:THT
 		owned_provinces = { "x74EEB1" "x7FE0A8" "x8FC5BB" "xADE075" "xBCECC0" "xBCF9DA" "xC1B8C8" "xCD94AD" "xE4DB84" "xE5D57B" "xE76ACA" "xE8ADF0" "xEA9FBE" }
 }
-add_homeland = cu:gnoll
+add_homeland = cu:equatorial_gnoll
 }
 
 s:STATE_SAWAMREMBO = {
@@ -77,6 +78,7 @@ s:STATE_MAJILIMA = {
 		owned_provinces = { "x3FF3E5" "x6DCED4" "x7B88F2" "xC1E1DB" "xC8C8D1" "xC9E3DC" "xD7E2E8" "xE465BC" "xE98995" "xED8EAB" "xF1D53A" "xF38892" }
 }
 add_homeland = cu:gnoll
+add_homeland = cu:equatorial_gnoll
 }
 
 s:STATE_KIJITOQWA = {
@@ -92,7 +94,7 @@ s:STATE_KILIMADADA = {
 		country = c:GHR
 		owned_provinces = { "x4DF8C0" "x5EFBDE" "x7FBFCA" "x8DD5E7" "x90B5E8" "x9F60FD" "xB2E8E6" "xBF4FEA" "xC4C6D7" "xC4FBFE" "xC879C2" "xCAC5EF" "xD0A7F4" "xD2E14B" "xDE99DF" "xE2C584" "xE5C2A0" "xE8AF7C" "xE9D88E" "xF08EF7" "xF0C9A9" "xFCC8A9" }
 }
-add_homeland = cu:gnoll
+add_homeland = cu:equatorial_gnoll
 }
 
 s:STATE_MAWIMBIMAJI = {
@@ -125,6 +127,7 @@ s:STATE_JITOMREMBO = {
 		owned_provinces = { "x6FC6F5" "x77AAFE" "x8BC1AC" "xA7A7C1" "xA9DCA8" "xB5ADD0" "xC473D5" "xE26FC0" "xECBDCD" "xF3C1AF" }
 }
 add_homeland = cu:gnoll
+add_homeland = cu:equatorial_gnoll
 }
 
 s:STATE_PWAWAKATI = {
@@ -142,6 +145,7 @@ s:STATE_PACHAQULLU = {
 }
 add_homeland = cu:yachaymanchi
 add_homeland = cu:kusichaki
+add_homeland = cu:equatorial_gnoll
 }
 
 s:STATE_INTIWINA = {

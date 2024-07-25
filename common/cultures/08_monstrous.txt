@@ -267,77 +267,144 @@ wastecrawler = {
 
 gnoll={
 	color= hsv{ 0.58 0.51 0.96 }
-	religion = animist
+	religion = gnollmooncult
 	traits = { monstrous_heritage gnoll }
+	obsessions = {
+		meat
+	}
 	male_common_first_names={
-		Amadi
-		Andikan
-		Aren
-		Averey
-		Bahari
-		Bakari
-		Bash
-		Bayode
-		Bitalo
-		Chane
-		Chata
-		Dakarai
-		Davu
-		Dume
-		Fabunni
-		Gamba
-		Genet
-		Guban
-		Hajari
-		Haruni
-		Ife
-		Ilo
-		Issay
-		Jabari
-		Jabilo
-		Jaguan
-		Kabili
-		Kamwimbile
-		Kasim
-		Kenyi
-		Khairi
-		Makalo
-		Mansa
-		Morathi
-		Musawenkosi
-		Raimi
-		Razi
-		Reth
+		Asep
+		Alpra
+		Altunopa
+		Asalup
+		Ayepa
+		Begluk
+		Baytursun
+		Chemgura
+		Chilbuk
+		Ele
+		Eltut
+		Etrek
+		Girgen
+		Gzi
+		Itlar
+		Ituk
+		Kemenche
+		Kitzes
+		Kolo
+		Kopti
+		Kubasar
+		Kutan
+		Kutlu
+		Lavor
+		Manj
+		Menk
+		Ovlur
+		Pulad
+		Saru
+		Seyhan
+		Sicgan
+		Sotan
+		Suthoi
+		Togli
+		Tolun
+		Zeyhan
+		Mutlu
 	}
 	female_common_first_names = {
-		Jokate
-		Kajala
-		Khalila
-		Wema
-		Yobnesh
+		Akgul
+		Asli
+		Ayasun
+		Ayten
+		Dilek
+		Esin
+		Gulay
+		Gunduz
+		Gundes
+		Gunes
+		Guranduk
+		Ilkay
+		Ipek
+		Ipekel
+		Irge
+		Jiajak
+		Karacik
+		Mala
+		Mutlu
+		Peksen
+		Samur
+		Sarica
+		Sati
+		Sevilay
+		Sevindik
+		Sirin
+		Sibel
+		Sirma
+		Songul
+		Tura
+		Umay
+		Usunbike
+		Yasar
+		Yeldem
+		Yildiz
+		Mutlu
 	}	
 	noble_last_names = {
 		Kasanda
-		Watuta
-		Zwagendaba
+		Olberlik
+		Uran
+		Chenegrepa
+		Chagraq
+		Buranli
+		Burchogli
+		Bayawut
+		Baraq
+		Barat
+		Badach
+		Mugod
+		Sygnak
+		Turgai
+		Kaisalo
+		Chigil
+		Gyurgesh
+		Turgish
+		Azkish
+		Bayat
 	}
 	common_last_names={
-		Bulungute
-		Mirambo
-		Mkasiwa
-		Mnywasele
-		Msemwa
-		Mudimbe
+		Kasanda
+		Olberlik
+		Uran
+		Chenegrepa
+		Chagraq
+		Buranli
+		Burchogli
+		Bayawut
+		Baraq
+		Barat
+		Badach
+		Mugod
+		Sygnak
+		Turgai
+		Kaisalo
+		Chigil
+		Gyurgesh
+		Turgish
+		Azkish
+		Bayat
 	}
 	ethnicities = {
 		1 = gnoll
 	}
-	graphics = african
+	graphics = east_asian
 }
 jungle_gnoll={
 	color= hsv{ 0.68 0.51 0.96 }
-	religion = animist
+	religion = gnollsuncult
 	traits = { monstrous_heritage gnoll }
+	obsessions = {
+		meat
+	}
 	male_common_first_names={
 		Amadi
 		Andikan
@@ -403,6 +470,106 @@ jungle_gnoll={
 	}
 	graphics = african
 }
+
+equatorial_gnoll={
+	color= hsv{ 0.68 0.51 0.96 }
+	religion = gnollmooncult
+	traits = { monstrous_heritage gnoll }
+	obsessions = {
+		fruit
+	}
+	male_common_first_names={
+		Aho
+		Aram
+		Ayoub
+		Bartel
+		Butrus
+		Daniyel
+		Elios
+		Fadi
+		Farid
+		Farouk
+		Freydun
+		Gewargis
+		Hanna
+		Hormuzd
+		Iskhaq
+		Luqa
+		Malik
+		Mikal
+		Moshe
+		Moushe
+		Munir 
+		Murad
+		Narsai 
+		Naum
+		Ninos
+		Nukh
+		Saadi 
+		Sanharib
+		Shalimoon 
+		Sharbel
+		Sharro
+		Shimun 
+		Shlemon 
+		Sohdo
+		Sorishu
+		Tolmai
+		Toma 
+		Yaghoub
+		Yomadan
+		Younan
+		Zakay
+	}
+	female_common_first_names = {
+		Anoush
+		Arram
+		Aaliyah
+		Bagiyeh
+		Bethani
+		Brula
+		Diyana
+		Dunya
+		Dwura
+		Emmita
+		Hawah
+		Huda
+		Iman
+		Insoph
+		Istir
+		Jamila
+		Khannah
+		Layla
+		Marbita
+		Marta
+		Nada
+		Nahrin
+		Nour 
+		Nura
+		Rebqah
+		Shafira
+		Shafri
+		Shamura
+		Shlama
+		Tabitha
+		Talitha
+		Walita
+		Wardiya
+	}	
+	noble_last_names = {
+		Malika
+	}
+	common_last_names={
+		Butrus
+		Rowil
+		Yohannan
+	}
+	ethnicities = {
+		1 = gnoll
+	}
+	graphics = arabic
+}
+
 
 awakened={
 	color={ 182 87 111 }

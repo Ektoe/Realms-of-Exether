@@ -2,8 +2,8 @@
 	s:STATE_KILIMASAWA = {
 		region_state:GHR = {
 			create_pop = {
-				culture = gnoll
-				size = 194000
+				culture = equatorial_gnoll
+				size = 247000
 			}
 		}
 	}
@@ -13,13 +13,27 @@
 				culture = gnoll
 				size = 97000
 			}
+			create_pop = {
+				culture = equatorial_gnoll
+				size = 157000
+			}
+			create_pop = {
+				culture = equatorial_gnoll
+				religion = gnollsuncult
+				size = 47211
+			}
 		}
 	}
 	s:STATE_PWANIQWA = {
 		region_state:SKR = {
 			create_pop = {
 				culture = gnoll
-				size = 536000
+				size = 236000
+			}
+			create_pop = {
+				culture = gnoll
+				religion = gnollsuncult
+				size = 354353
 			}
 		}
 	}
@@ -27,7 +41,12 @@
 		region_state:SKR = {
 			create_pop = {
 				culture = gnoll
-				size = 383000
+				size = 183000
+			}
+			create_pop = {
+				culture = gnoll
+				religion = gnollsuncult
+				size = 200123
 			}
 		}
 	}
@@ -35,7 +54,12 @@
 		region_state:YIP = {
 			create_pop = {
 				culture = gnoll
-				size = 196000
+				size = 126000
+			}
+			create_pop = {
+				culture = gnoll
+				religion = gnollsuncult
+				size = 78812
 			}
 		}
 	}
@@ -43,7 +67,12 @@
 		region_state:SKR = {
 			create_pop = {
 				culture = gnoll
-				size = 496000
+				size = 246000
+			}
+			create_pop = {
+				culture = gnoll
+				religion = gnollsuncult
+				size = 288724
 			}
 		}
 	}
@@ -51,7 +80,12 @@
 		region_state:PRO = {
 			create_pop = {
 				culture = gnoll
-				size = 412908
+				size = 222908
+			}
+			create_pop = {
+				culture = gnoll
+				religion = gnollsuncult
+				size = 200124
 			}
 			create_pop = {
 				pop_type = slaves
@@ -63,8 +97,8 @@
 	s:STATE_UZURIPWA = {
 		region_state:THT = {
 			create_pop = {
-				culture = gnoll
-				size = 191000
+				culture = equatorial_gnoll
+				size = 231000
 			}
 		}
 	}
@@ -72,19 +106,57 @@
 		region_state:YUY = {
 			create_pop = {
 				culture = gnoll
-				size = 27796
+				size = 17796
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = gnollsuncult
+				size = 46242
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = gnollmooncult
+				size = 6242
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = lords_of_avarice
+				size = 16242
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = house_of_fate
+				size = 18020
 			}
 			create_pop = {
 				culture = dunaq
-				size = 18000
+				size = 38000
 			}
 		}
 	}
 	s:STATE_MAJILIMA = {
 		region_state:RIK = {
 			create_pop = {
-				culture = gnoll
+				culture = equatorial_gnoll
 				size = 164000
+			}
+			create_pop = {
+				culture = equatorial_gnoll
+				religion = gnollsuncult
+				size = 47211
+			}
+			create_pop = {
+				culture = gnoll
+				size = 77211
+			}
+			create_pop = {
+				culture = gnoll
+				religion = gnollsuncult
+				size = 17211
 			}
 		}
 	}
@@ -92,15 +164,20 @@
 		region_state:SKR = {
 			create_pop = {
 				culture = gnoll
-				size = 342000
+				religion = gnollsuncult
+				size = 272000
+			}
+			create_pop = {
+				culture = gnoll
+				size = 89000
 			}
 		}
 	}
 	s:STATE_KILIMADADA = {
 		region_state:GHR = {
 			create_pop = {
-				culture = gnoll
-				size = 182000
+				culture = equatorial_gnoll
+				size = 212000
 			}
 		}
 	}
@@ -108,7 +185,12 @@
 		region_state:PRO = {
 			create_pop = {
 				culture = gnoll
-				size = 378129
+				religion = gnollsuncult
+				size = 275822
+			}
+			create_pop = {
+				culture = gnoll
+				size = 115834
 			}
 			create_pop = {
 				culture = kaalkid
@@ -134,8 +216,9 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = gnoll
-				size = 2000
+				culture = equatorial_gnoll
+				religion = elf_southern
+				size = 56000
 			}
 		}
 	}
@@ -147,8 +230,9 @@
 			}
 			create_pop = {
 				pop_type = slaves
-				culture = gnoll
-				size = 2000
+				culture = equatorial_gnoll
+				religion = elf_southern
+				size = 77000
 			}
 		}
 	}
@@ -156,7 +240,16 @@
 		region_state:THT = {
 			create_pop = {
 				culture = gnoll
-				size = 141000
+				size = 111000
+			}
+			create_pop = {
+				culture = gnoll
+				religion = gnollsuncult
+				size = 30123
+			}
+			create_pop = {
+				culture = equatorial_gnoll
+				size = 81000
 			}
 		}
 	}
@@ -164,7 +257,12 @@
 		region_state:YIP = {
 			create_pop = {
 				culture = gnoll
-				size = 181000
+				size = 141000
+			}
+			create_pop = {
+				culture = gnoll
+				religion = gnollsuncult
+				size = 54362
 			}
 		}
 	}
@@ -187,8 +285,26 @@
 				size = 36000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = gnoll
-				size = 16800
+				religion = lords_of_avarice
+				size = 10242
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = house_of_fate
+				size = 18020
+			}
+			create_pop = {
+				culture = equatorial_gnoll
+				religion = lords_of_avarice
+				size = 46242
+			}
+			create_pop = {
+				culture = equatorial_gnoll
+				religion = house_of_fate
+				size = 89122
 			}
 		}
 	}
@@ -208,8 +324,16 @@
 			}
 			create_pop = {
 				#RIP Equatorial Bantu
+				pop_type = slaves
 				culture = gnoll
-				size = 6000
+				religion = lords_of_avarice
+				size = 6242
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = house_of_fate
+				size = 8020
 			}
 		}
 	}
@@ -234,7 +358,24 @@
 			create_pop = {
 				pop_type = slaves
 				culture = gnoll
-				size = 32020
+				religion = lords_of_avarice
+				size = 10000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = house_of_fate
+				size = 18000
+			}
+			create_pop = {
+				culture = equatorial_gnoll
+				religion = lords_of_avarice
+				size = 6242
+			}
+			create_pop = {
+				culture = equatorial_gnoll
+				religion = house_of_fate
+				size = 12353
 			}
 		}
 	}
@@ -259,7 +400,24 @@
 			create_pop = {
 				pop_type = slaves
 				culture = gnoll
-				size = 20000
+				religion = lords_of_avarice
+				size = 11000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = house_of_fate
+				size = 8000
+			}
+			create_pop = {
+				culture = equatorial_gnoll
+				religion = lords_of_avarice
+				size = 16242
+			}
+			create_pop = {
+				culture = equatorial_gnoll
+				religion = house_of_fate
+				size = 22353
 			}
 		}
 	}
@@ -273,6 +431,18 @@
 				pop_type = slaves
 				culture = kusichaki
 				size = 5200
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = lords_of_avarice
+				size = 6242
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = house_of_fate
+				size = 8020
 			}
 			create_pop = {
 				culture = kusichaki
@@ -366,9 +536,9 @@
 				size = 3000
 			}
 			create_pop = {
-				pop_type = slaves
 				culture = gnoll
-				size = 2000
+				religion = house_of_fate
+				size = 14000
 			}
 		}
 	}
@@ -416,7 +586,14 @@
 			create_pop = {
 				pop_type = slaves
 				culture = gnoll
-				size = 13000
+				religion = lords_of_avarice
+				size = 1000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = house_of_fate
+				size = 3000
 			}
 		}
 	}
@@ -438,7 +615,14 @@
 			create_pop = {
 				pop_type = slaves
 				culture = gnoll
-				size = 5000
+				religion = lords_of_avarice
+				size = 10242
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = gnoll
+				religion = house_of_fate
+				size = 8020
 			}
 			create_pop = {
 				culture = dunaq
