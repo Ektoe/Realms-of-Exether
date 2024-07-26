@@ -365,7 +365,7 @@
 				building="building_wishstone_mine"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_no_potions" }
+				activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" }
 			}
 			create_building={
 				building="building_cotton_plantation"
