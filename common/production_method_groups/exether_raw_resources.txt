@@ -239,6 +239,16 @@ pmg_secondary_building_underfarm = {
 	}
 }
 
+pmg_base_building_spider_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_simple_spiders
+		pm_advanced_spiders
+		pm_professional_spiders
+		pm_mechanized_spiders
+	}
+}
+
 pmg_silk_refinement = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
@@ -248,13 +258,12 @@ pmg_silk_refinement = {
 	}
 }
 
-pmg_base_building_spider_ranch = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+pmg_spider_enhancements = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_simple_ranching
-		pm_advanced_ranching
-		pm_professional_ranching
-		pm_mechanized_ranching
+		pm_spider_no_enhancement
+		pm_spider_enlargement
+		pm_big_safe_spiders
 	}
 }
 
@@ -274,5 +283,23 @@ pmg_warding = {
 		pm_no_warding
 		pm_basic_warding
 		pm_advanced_warding
+	}
+}
+
+pmg_base_building_mushroom_logging = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_mushrooms
+		pm_mushroom_mills
+		pm_electric_mushrooms
+	}
+}
+
+pmg_more_wood = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_wood
+		pm_woodwood
+		pm_extra_wood
 	}
 }
