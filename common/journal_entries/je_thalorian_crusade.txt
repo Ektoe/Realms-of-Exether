@@ -18,20 +18,18 @@
 	}
 
 	complete = {
-				custom_tooltip = {
+		custom_tooltip = {
 			text = won_crusade
 		OR = {
 			AND = {
 				root = c:RAV
-				ROOT = {
-					has_diplomatic_pact = {
-						who = c:TLE
-						type = humiliation
-						is_initiator = yes
-					}
+				OR = {
+					exists = c:THY
 				}
+
 			}
 			AND = {
+				exists = c:TLE
 				root = c:TLE
 				ROOT = {
 					has_diplomatic_pact = {
@@ -55,9 +53,15 @@
 			text = invalid_crusade
 			OR = {
 				OR = {
-					NOT = {
-						exists = c:TLE
-					} 
+					AND = {
+						NOT = {
+							exists = c:TLE
+						} 
+						NOT = {
+							exists = c:THY
+						} 
+					}
+
 					NOT = {
 						exists = c:RAV
 					} 
@@ -65,13 +69,17 @@
 				#White peace
 				AND = {
 					#use is_war_participant properly here
-					c:TLE = {
-						is_at_war = no
-						has_diplomatic_pact = {
-							who = c:RAV
-							type = humiliation
+					AND = {
+						exists = c:TLE
+						c:TLE ?= {
+							is_at_war = no
+							has_diplomatic_pact = {
+								who = c:RAV
+								type = humiliation
+							}
 						}
 					}
+
 					c:RAV = {
 						is_at_war = no
 						NOT = {
@@ -95,6 +103,7 @@
 			text = lost_crusade
 			OR = {
 				AND = {
+					exists = c:TLE
 					root = c:TLE
 					c:RAV = {
 						has_diplomatic_pact = {
@@ -105,7 +114,7 @@
 				}
 				AND = {
 					root = c:RAV
-					c:TLE = {
+					c:TLE ?= {
 						has_diplomatic_pact = {
 							who = c:RAV
 							type = humiliation
@@ -118,7 +127,128 @@
 	}
 
 	on_fail = {
+		if = {
+			limit = {
+				exists = c:TLE
+				root = c:TLE
+			}
+			custom_tooltip = {
+				text = thaloria_shatters
+		
+			ruler = {
+				kill_character = yes
+			}
+
+			#Create Dunavara
+			create_country = {
+				tag = DNV
+				origin = c:TLE
+				state = s:STATE_STORMHOLM.region_state:TLE
+				on_created = { 
+					save_scope_as = dnv_scope
+				}
+			}
+
+			if = {
+				limit = {
+					exist = c:DNV
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_WINDSONG
+							state_region = s:STATE_MISTVALE
+							state_region = s:STATE_MOONSHADE
+							state_region = s:STATE_IRONWOOD
+							state_region = s:STATE_TIMMERHAVEN
+						}
+					}
+					set_state_owner = c:DNV
+				}
+			}
+
+			#Create Thalrea
+
+			create_country = {
+				tag = THA
+				origin = c:TLE
+				state = s:STATE_STORMWATCH.region_state:TLE
+				on_created = { 
+					save_scope_as = tha_scope
+				}
+			}
+			
+			if = {
+				limit = {
+					exist = c:THA
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+							state_region = s:STATE_HIGHMOOR
+							state_region = s:STATE_FARREACH
+							state_region = s:STATE_EVERLUND
+							state_region = s:STATE_HAVENSHIRE
+							state_region = s:STATE_MOONSHADE
+						}
+					}
+					set_state_owner = c:THA
+				}
+			}
+
+			#Create Oltora
+			create_country = {
+				tag = OLT
+				origin = c:TLE
+				state = s:STATE_SILVERCREST.region_state:TLE
+				on_created = { 
+					save_scope_as = olt_scope
+				}
+			}
+
+			if = {
+				limit = {
+					exist = c:OLT
+				}
+				every_scope_state = {
+					limit = {
+						state_region = s:STATE_THORNFIELD
+					}
+					set_state_owner = c:OLT
+				}
+			}
+
+			#Create Vranceana
+			create_country = {
+				tag = VRC
+				origin = c:TLE
+				state = s:STATE_BRIGHTWATER.region_state:TLE
+				on_created = { 
+					save_scope_as = vrc_scope
+				}
+			}
+
+			if = {
+				limit = {
+					exist = c:VRC
+				}
+				every_scope_state = {
+					limit = {
+						OR = {
+						state_region = s:STATE_SUNDALE
+						state_region = s:STATE_WHITESTONE
+						}
+					}
+					set_state_owner = c:VRC
+				}
+			}
+
+
+			change_tag = THY
+		}	
+	}
 		trigger_event = { id = thalorian_crusade.2 popup = yes}
+
 	}
 
 	should_be_pinned_by_default = yes
