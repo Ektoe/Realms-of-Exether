@@ -1,0 +1,139 @@
+#road infra building
+pm_base_road_quality = {
+	texture = ""
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 5
+		}
+}
+building_modifiers = {
+	level_scaled = {
+		building_employment_laborers_add = 1000
+		}
+}
+}
+pm_stone_road_quality = {
+	texture = ""
+	unlocking_technologies = {
+		modern_sewerage
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 7.5
+		}
+}
+building_modifiers = {
+	level_scaled = {
+		building_employment_laborers_add = 1500
+		}
+}
+}
+pm_paved_road_quality = {
+	texture = ""
+	unlocking_technologies = {
+		paved_roads
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 10
+		}
+}
+	building_modifiers = {
+	level_scaled = {
+		building_employment_laborers_add = 2000
+		}
+}
+}
+pm_covered_road_wagons = {
+	texture = ""
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 5
+			goods_input_fabric_add = 5
+			goods_output_transportation_add = 5
+		}
+	}
+
+}
+pm_steam_fired_engines = {
+	texture = ""
+	unlocking_technologies = {
+		water-tube_boiler
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 5
+			goods_input_coal_add = 5
+			goods_output_transportation_add = 10
+		}
+}
+}
+pm_early_compression_engines = {
+	texture = ""
+	unlocking_technologies = {
+		steam_donkey
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 5
+			goods_input_blubber_add = 5
+			goods_output_transportation_add = 20
+		}
+}
+}
+pm_no_security = {
+	texture = ""
+}
+pm_basic_security = {
+	texture = ""
+	building_modifiers = {
+	level_scaled = {
+		building_employment_adventurers_add = 500
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+		state_adventurer_coverage_add = 5
+		}
+		}
+}
+pm_experienced_security = {
+	texture = ""
+	unlocking_technologies = {
+		gunsmithing
+	}
+	state_modifiers = {
+		workforce_scaled = {
+		state_adventurer_coverage_add = 7.5
+		}
+		}
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_small_arms_add = 5
+		}
+		level_scaled = {
+			building_employment_adventurers_add = 750
+			}
+		}
+}
+pm_militarized_security = {
+	texture = ""
+	unlocking_technologies = {
+		percussion_cap
+	}
+	state_modifiers = {
+		workforce_scaled = {
+		state_adventurer_coverage_add = 10
+		}
+		}
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_small_arms_add = 5
+		goods_input_ammunition_add = 5
+		}
+		level_scaled = {
+		building_employment_adventurers_add = 500
+		building_employment_soldiers_add = 500
+		}
+		}
+}
