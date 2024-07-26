@@ -48,10 +48,10 @@ pm_iron_frame_buildings = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_wood_add = 40
-			goods_input_fabric_add = 20
-			goods_input_iron_add = 50
-			goods_input_tools_add = 10
+			goods_input_wood_add = 40   #20 = 800
+			goods_input_fabric_add = 20  #20 = 400
+			goods_input_iron_add = 50   #40 = 2000
+			goods_input_tools_add = 10  #40 = 400    == 3600 expenses
 		}
 
 		level_scaled = {

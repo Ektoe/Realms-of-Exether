@@ -2759,7 +2759,6 @@ STATE_QAMARUD = {
         bg_iron_mining = 30
         bg_sulfur_mining = 48
         bg_haunted_grounds = 5
-        bg_khuus_hunting = 2
     }
     resource = {
         type = "bg_gold_fields"
@@ -2843,7 +2842,6 @@ STATE_ALQADIM = {
         bg_cloud_collecting = 38
         bg_coal_mining = 35
         bg_iron_mining = 25
-        bg_khuus_hunting = 2
         bg_monuments = 1
     }
     naval_exit_id = 3194
