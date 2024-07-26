@@ -35,3 +35,30 @@ pmg_secondary_building_rice_farm_leechgardens = {
 		pm_leechgardens
 	}
 }
+
+pmg_base_beekeeping = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_traditional_beekeeping
+		pm_dedicated_apiaries
+		pm_large_scale_bees
+	}
+}
+
+pmg_beekeeping_mead = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_mead
+		pm_yes_mead
+		pm_magic_mead
+	}
+}
+
+pmg_beekeeping_automation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_pet_the_bees
+		pm_centrifuges
+		pm_automagic_assistants
+	}
+}

@@ -1169,7 +1169,7 @@ s:STATE_FAR_SHORE_2 = {
 	}
   }
 
-  s:STATE_GREENCOURT_2 = {
+  s:STATE_PRILYRA = {
 	region_state:PRI = { # 
 		create_pop = {
 			culture = wealder
