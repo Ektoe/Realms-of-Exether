@@ -738,6 +738,7 @@ s:STATE_CZERWIONKA = {
 	country = c:ZKW
 	owned_provinces = { "x6CD6D3" "x8185F8" "x8AB0D8" "x91F2E4" "x95EEA3" "x979DDD" "x97B8C7" "xABA9C5" "xAEF7B0" "xBCFC88" "xCF60E6" "xD197D5" "xD443FC" "xD58FBC" "xD75ADE" "xDAC2D0" "xE99C87" "xEAF51D" "xEBB38C" "xF2EBAA" "xF6DCDD" "xF8E1E8" "xF8F4C4" "xFAC356" }
 	}
+	add_homeland = cu:zakonish
 	add_homeland = cu:wood_giant
 }
 s:STATE_SKALKA = {

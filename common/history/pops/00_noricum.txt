@@ -1596,11 +1596,15 @@
       region_state:ZKW = {
         create_pop = {
           culture = wood_giant
-          size = 11980
+          size = 7880
         }
         create_pop = {
           culture = frost_giant
           size = 980
+        }
+        create_pop = {
+          culture = zakonish
+          size = 4100
         }
       }
   }
