@@ -55,6 +55,7 @@ STATE_SERONTAIN = {
 }
 STATE_NORTH_HIGHLANDS = {
     id = 4003
+    traits = { "state_trait_highlands_coal" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x4DEAFB" "x4ED5F7" "x66DFC1" "x78C0F9" "x87F2CA" "x8AF9A3" "x8BFDD4" "x9FCEE9" "xAAC0B3" "xB58AFE" "xBC73DC" "xCDF83B" "xD0B482" "xD3B585" "xD690BE" "xD7D1DF" "xD8F9B9" "xDABBEA" "xDC93BB" "xDCAA9A" "xDFECF1" "xDFFB32" "xE6C9F5" "xE8E036" "xEE7CD7" "xF3B3BB" "xF3D4D2" "xF4BF46" "xFDDF34" }
     traits = { "state_trait_mount_surriden" }
@@ -73,6 +74,7 @@ STATE_NORTH_HIGHLANDS = {
 }
 STATE_HIGHPASS = {
     id = 4004
+    traits = { "state_trait_highlands_coal" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x73E3A1" "x94DCC3" "xABB0B9" "xB1F179" "xB2EB58" "xB5F6A7" "xB7C09E" "xBB4FEF" "xC3C1ED" "xCFEDE9" "xD349DE" "xD3DE9F" "xD5B6CE" "xD741F9" "xD8ABD3" "xD96EF1" "xDEB4B8" "xE070E0" "xF0AF67" "xF298B3" "xF2CBAE" "xF68D77" "xFA50C9" "xFCBEC3" "xFE907E" }
     city = x73E3A1
@@ -90,6 +92,7 @@ STATE_HIGHPASS = {
 }
 STATE_SOUTH_HIGHLANDS = {
     id = 4005
+    traits = { "state_trait_highlands_coal" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x14FCE7" "x18F8ED" "x51FEAD" "x56BFE5" "x5AF7E2" "x60BBFA" "x76C0C1" "x80E9BE" "x85CBFC" "x85F285" "x99ADE6" "x99F6E8" "x9DC3F6" "xA7CCF2" "xA9EFF8" "xAD7BF7" "xAD93F0" "xB8BEC8" "xB8D67E" "xBBED88" "xBD87E2" "xBEB193" "xBEE197" "xC5A5BA" "xC6DDBE" "xC8EAF7" "xC987AA" "xCEFE68" "xD88BA6" "xE1D5EA" "xE2A079" "xE39D8A" "xE596C9" "xE994BE" "xECAEFC" "xEE5AC4" "xEEB8D7" "xF2FBD4" "xF8ECA7" "xF98D91" "xFEF62A" }
     city = x14FCE7
@@ -125,6 +128,7 @@ STATE_GULFWATCH = {
 }
 STATE_SLUDGE_COAST = {
     id = 4007
+    traits = { "state_trait_sludge_pits" }
     subsistence_building = "building_rice_paddies"
     provinces = { "x27ECE9" "x6597FE" "x6DF7A0" "xA4E56E" "xA597E9" "xABF9A3" "xB85DE7" "xC1F0D7" "xC2E7EE" "xC777DE" "xC7C792" "xC8B29F" "xCBFC4F" "xD44FF4" "xD684B5" "xE5D597" "xE5EFDC" "xEAA6EF" "xF4F61D" "xF8F668" "xFCF8A6" "xFD9F8F" }
     city = x27ECE9
@@ -201,6 +205,7 @@ STATE_ZENDEN = {
 }
 STATE_TAR_PITS = {
     id = 4011
+    traits = { "state_trait_sludge_pits" }
     subsistence_building = "building_rice_paddies"
     provinces = { "x3AFCBF" "x5BE9C2" "x68EEBF" "x69D2D5" "x70D6E8" "x72D7BF" "x8BB2BB" "x96BCEF" "x99E1B3" "xA6F56C" "xA8DEA6" "xB382F6" "xB5CB7A" "xBAA7DB" "xC4FDE8" "xC762E9" "xD2F15D" "xD2F659" "xE14ED7" "xE6D462" "xE853F2" "xEA48D3" "xEAF2A7" "xEAF63A" }
     city = x3AFCBF
@@ -623,6 +628,7 @@ STATE_BANEKERT = {
     capped_resources = {
         bg_coal_mining = 24
         bg_logging = 7
+        bg_fishing = 6
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1669,6 +1675,7 @@ STATE_NIWKA = {
     capped_resources = {
         bg_logging = 9
         bg_coal_mining = 22
+        bg_lead_mining = 4
         bg_game_hunting = 3
     }
     naval_exit_id = 3017
@@ -1788,6 +1795,10 @@ STATE_MARAMAROVA = {
         bg_logging = 2
         bg_fishing = 3
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 17
+    }
     naval_exit_id = 3041
 }
 STATE_HALDORHEIMR = {
@@ -1819,6 +1830,10 @@ STATE_POLYNKALA = {
         bg_whaling = 8
         bg_fishing = 5
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 19
+    }
     naval_exit_id = 3041
 }
 STATE_NGURULAN = {
@@ -1838,6 +1853,10 @@ STATE_NGURULAN = {
         bg_logging = 14
         bg_whaling = 10
         bg_fishing = 8
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 10
     }
     naval_exit_id = 3041
 }
@@ -1870,6 +1889,10 @@ STATE_LUMO = {
         bg_logging = 2
         bg_whaling = 3
         bg_fishing = 3
+        resource = {
+            type = "bg_wishstone_reefs"
+            undiscovered_amount = 21
+        }
     }
     naval_exit_id = 3041
 }
@@ -1890,6 +1913,10 @@ STATE_ZEPHROPULU = {
         bg_whaling = 3
         bg_fishing = 3
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 28
+    }
     naval_exit_id = 3041
 }
 STATE_BARICORA = {
@@ -1908,6 +1935,10 @@ STATE_BARICORA = {
         bg_logging = 2
         bg_whaling = 4
         bg_fishing = 4
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 11
     }
     naval_exit_id = 3041
 }

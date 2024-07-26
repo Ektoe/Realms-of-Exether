@@ -181,7 +181,7 @@ building_squid_squad = {
 }
 
 building_seasnake_wharf = {
-	building_group = bg_fishing
+	building_group = bg_seasnake_wharf
 	texture = "gfx/interface/icons/building_icons/sea_snakes.dds"
 	city_type = port
 	required_construction = construction_cost_low

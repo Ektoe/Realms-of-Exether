@@ -1793,6 +1793,10 @@ STATE_AZURETHORN = {
         bg_fishing = 9
         bg_whaling = 4
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 35
+    }
     naval_exit_id = 3026
 }
 STATE_FERNSEA = {
