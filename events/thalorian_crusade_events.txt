@@ -5,8 +5,32 @@
 	type = country_event
 	placement = root
 	title =  thalorian_crusade.1.t
-	desc =  thalorian_crusade.1.d
-	flavor =  thalorian_crusade.1.f
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = thalorian_crusade.1.d
+				trigger = {
+					root = c:RAV
+				}
+			}
+			triggered_desc = {
+				desc = thalorian_crusade.1.d_thaloria
+			}
+		}
+	}
+	flavor = {
+		first_valid = {
+			triggered_desc = {
+				desc = thalorian_crusade.1.f
+				trigger = {
+					root = c:RAV
+				}
+			}
+			triggered_desc = {
+				desc = thalorian_crusade.1.f_thaloria
+			}
+		}
+	}
 
 	duration = 3
 
@@ -22,6 +46,34 @@
 		ruler = {
 			save_scope_as = ruler_scope
 		}
+
+			if = {
+				limit = {
+					 root = c:RAV
+				}
+	
+				c:DNV = {
+					save_scope_as = dnv_scope
+				}
+				c:VRC = {
+					save_scope_as = vrc_scope
+				}
+				c:THA = {
+					save_scope_as = tha_scope
+				}
+				c:THY = {
+					save_scope_as = thy_scope
+				}
+				c:OLT = {
+					save_scope_as = olt_scope
+				}
+			}
+			else = {
+				c:RAV = {
+					save_scope_as = rav_scope
+				}
+			}
+		
 	}		
 
 	option = {
@@ -35,57 +87,14 @@
 			months = very_long_modifier_time
 		}
 		add_loyalists = {
-			value = 0.2
+			value = 0.1
 		}
-			show_as_tooltip = {
-				c:TLE = {
-					ruler = {
-						kill_character = yes
-					}
-		
-					#Create Dunavara
-					create_country = {
-						tag = DNV
-						origin = c:TLE
-						state = s:STATE_STORMHOLM.region_state:TLE
-					}
-					
-		
-					#Create Thalrea
-		
-					create_country = {
-						tag = THA
-						origin = c:TLE
-						state = s:STATE_STORMWATCH.region_state:TLE
-					}
-					
-
-		
-					#Create Oltora
-					create_country = {
-						tag = OLT
-						origin = c:TLE
-						state = s:STATE_SILVERCREST.region_state:TLE
-					}
-		
-
-		
-					#Create Vranceana
-					create_country = {
-						tag = VRC
-						origin = c:TLE
-						state = s:STATE_BRIGHTWATER.region_state:TLE
-					}
-		
-
-		
-					change_tag = THY
-	
-				}
-			}
+		custom_tooltip = {
+			text = thaloria_shatters
+		}
 	}
 	option = {
-		name =  thalorian_crusade.1.a
+		name =  thalorian_crusade.1.b
 		default_option = yes
 		trigger = {
 			NOT ={
@@ -99,6 +108,18 @@
 		add_loyalists = {
 			value = 0.2
 		}
+		every_scope_state = {
+			limit = {
+				region = sr:region_hasals_mirror
+				state_region = {
+					is_homeland = cu:ravikian
+				}
+			}
+			state_region = {
+				remove_homeland = cu:ravikian
+				add_homeland = cu:lake_thalorian
+			}
+		}
 	}
 }
 
@@ -107,112 +128,93 @@
 	type = country_event
 	placement = root
 	title =  thalorian_crusade.2.t
-	desc =  thalorian_crusade.2.d
-	flavor =  thalorian_crusade.2.f
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = thalorian_crusade.2.d
+				trigger = {
+					root = c:RAV
+				}
+			}
+			triggered_desc = {
+				desc = thalorian_crusade.2.d_thaloria
+			}
+		}
+	}
+	flavor = {
+		first_valid = {
+			triggered_desc = {
+				desc = thalorian_crusade.2.f
+				trigger = {
+					root = c:RAV
+				}
+			}
+			triggered_desc = {
+				desc = thalorian_crusade.2.f_thaloria
+			}
+		}
+	}
 
 	duration = 3
 
 	event_image = {
-		video = "europenorthamerica_political_extremism"
+		video = "unspecific_devastation"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 
-	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
 
 	immediate = {
+		
+		ruler = {
+			save_scope_as = ruler_scope
+		}
+
 		if = {
 			limit = {
-				root = c:TLE
+				root = c:RAV
 			}
-		
-			ruler = {
-				kill_character = yes
+			c:TLE = {
+				save_scope_as = tle_scope
 			}
-
-			#Create Dunavara
-			create_country = {
-				tag = DNV
-				origin = c:TLE
-				state = s:STATE_STORMHOLM.region_state:TLE
-			}
-			
-			every_scope_state = {
-				limit = {
-					OR = {
-						state_region = s:STATE_WINDSONG
-						state_region = s:STATE_MISTVALE
-						state_region = s:STATE_MOONSHADE
-						state_region = s:STATE_IRONWOOD
-						state_region = s:STATE_TIMMERHAVEN
-					}
-				}
-				set_state_owner = c:DNV
-			}
-
-			#Create Thalrea
-
-			create_country = {
-				tag = THA
-				origin = c:TLE
-				state = s:STATE_STORMWATCH.region_state:TLE
-			}
-			
-			every_scope_state = {
-				limit = {
-					OR = {
-						state_region = s:STATE_HIGHMOOR
-						state_region = s:STATE_FARREACH
-						state_region = s:STATE_EVERLUND
-						state_region = s:STATE_HAVENSHIRE
-						state_region = s:STATE_MOONSHADE
-					}
-				}
-				set_state_owner = c:THA
-			}
-
-			#Create Oltora
-			create_country = {
-				tag = OLT
-				origin = c:TLE
-				state = s:STATE_SILVERCREST.region_state:TLE
-			}
-
-			every_scope_state = {
-				limit = {
-					state_region = s:STATE_THORNFIELD
-				}
-				set_state_owner = c:OLT
-			}
-
-			#Create Vranceana
-			create_country = {
-				tag = VRC
-				origin = c:TLE
-				state = s:STATE_BRIGHTWATER.region_state:TLE
-			}
-
-			every_scope_state = {
-				limit = {
-					OR = {
-					state_region = s:STATE_SUNDALE
-					state_region = s:STATE_WHITESTONE
-					}
-				}
-				set_state_owner = c:VRC
-			}
-
-			change_tag = THY
-
-			
 		}
+		else = {
+			c:RAV = {
+				save_scope_as = rav_scope
+			}
+			c:DNV = {
+				save_scope_as = dnv_scope
+			}
+			c:VRC = {
+				save_scope_as = vrc_scope
+			}
+			c:THA = {
+				save_scope_as = tha_scope
+			}
+			c:THY = {
+				save_scope_as = thy_scope
+			}
+			c:OLT = {
+				save_scope_as = olt_scope
+			}
+		}
+
+
 	}
 
 	option = {
 		name =  thalorian_crusade.2.a
 		trigger = {
 			root = c:RAV
+		}
+		add_modifier = {
+			name = thalorian_loser
+			months = long_modifier_time
+		}
+		add_radicals = {
+			value = 0.25
 		}
 	}
 	option = {
@@ -224,7 +226,7 @@
 		}
 	}
 	option = {
-		name =  thalorian_crusade.3.b
+		name =  thalorian_crusade.2.c
 		trigger = {
 			NOT = {
 				root = c:RAV
@@ -233,7 +235,7 @@
 		play_as = c:VRC
 	}
 	option = {
-		name =  thalorian_crusade.4.b
+		name =  thalorian_crusade.2.e
 		trigger = {
 			NOT = {
 				root = c:RAV
@@ -242,7 +244,7 @@
 		play_as = c:OLT
 	}
 	option = {
-		name =  thalorian_crusade.5.b
+		name =  thalorian_crusade.2.g
 		trigger = {
 			NOT = {
 				root = c:RAV
@@ -251,7 +253,7 @@
 		play_as = c:DNV
 	}
 	option = {
-		name =  thalorian_crusade.6.b
+		name =  thalorian_crusade.2.l
 		trigger = {
 			NOT = {
 				root = c:RAV

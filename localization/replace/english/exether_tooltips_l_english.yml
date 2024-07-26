@@ -7,3 +7,4 @@ bureaucrats_mg_ig_shift_effect_tt: "The [GetInterestGroupVariant('ig_mages',GetP
   lost_crusade: "We have lost the Third Thalorian Crusade"
   won_crusade: "We have won the Third Thalorian Crusade"
   invalid_crusade: "The Third Thalorian Crusade has ended inconclusively"
+  thaloria_shatters: "#BOLD East Thaloria Shatters!#!"
