@@ -186,3 +186,39 @@ pmg_transportation_hunting_lodges = {
 		pm_log_carts
 	}
 }
+pmg_base_building_desert_hunting_lodge = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_desert_hunting
+		pm_firearms_desert_hunting
+		pm_heavy_weapons_desert_hunting
+	}
+}
+
+pmg_hunting_chimesilt = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_hunting_chimesilt
+		pm_hunting_chimesilt
+		pm_increased_hunting_chimesilt
+	}
+}
+
+pmg_base_building_khuus_hunting_lodge = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_khuus_hunting
+		pm_firearms_khuus_hunting
+		pm_heavy_weapons_khuus_hunting
+	}
+}
+
+pmg_hunting_khuus_silt = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_hunting_khuus_silt
+		pm_hunting_khuus_silt
+		pm_increased_hunting_khuus_silt
+	}
+}
+

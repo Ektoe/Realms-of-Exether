@@ -1475,6 +1475,8 @@ pm_complex_accumulation_dragon_ruins = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
+
+			goods_input_groceries_add = 10
 		
 			
 			# output goods
@@ -1499,6 +1501,7 @@ pm_uses_gizmo_accumulation_dragon_ruins = {
 		workforce_scaled = {
 			# input goods
 			goods_input_gizmos_add = 10
+			goods_input_groceries_add = 10
 			
 			# output goods
 			goods_output_iron_add = 15
@@ -1506,9 +1509,10 @@ pm_uses_gizmo_accumulation_dragon_ruins = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 4000
+			building_employment_laborers_add = 3500
 			building_employment_shopkeepers_add = 500
 			building_employment_machinists_add = 500
+			building_employment_wizards_add = 500
 		}
 	}
 }
@@ -1546,3 +1550,501 @@ pm_trinket_trinket_city_b = {
 	}
 }
 
+# Underground survival
+
+pm_simple_underfarming = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_grain_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 8000
+			building_employment_farmers_add = 2000
+		}
+	}
+}
+
+pm_goo_infused_underfarming = {
+	texture = "gfx/interface/icons/production_method_icons/soil_enriching_farming.dds"
+	
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods													
+			goods_input_monster_essence_add = 8			
+			
+			# output goods													
+			goods_output_grain_add = 60
+		}
+
+		level_scaled = {
+			# earnings														
+			building_employment_laborers_add = 7000
+			building_employment_farmers_add = 3000
+		}
+	}
+}
+
+pm_super_goo_underfarming = {
+	texture = "gfx/interface/icons/production_method_icons/fertilization.dds"
+	
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods													
+			goods_input_monster_essence_add = 16			
+			
+			# output goods												   
+			goods_output_grain_add = 90
+		}
+
+		level_scaled = {
+			# earnings														
+			building_employment_laborers_add = 6000
+			building_employment_farmers_add = 4000
+		}
+	}
+}
+
+pm_extra_essence_on_top = {
+	texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers.dds"
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods												   
+			goods_input_monster_essence_add = 24		
+			
+			# output goods												   
+			goods_output_grain_add = 140
+		}
+
+		level_scaled = {
+			# earnings														
+			building_employment_laborers_add = 5000
+			building_employment_farmers_add = 5000
+		}
+	}
+}
+
+pm_no_lichen_dyes = {
+	texture = "gfx/interface/icons/production_method_icons/no_orchards.dds"
+}
+
+pm_lichen_dyes = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_grain_add = -10
+			goods_output_dye_add = 5
+		}
+	}
+}
+
+pm_lichen_park = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_grain_add = -20
+			goods_output_dye_add = 10
+		}
+	}
+}
+
+pm_simple_spiders = {
+	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"		
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_meat_add = 5
+			goods_output_fabric_add = 45
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 1000
+		}
+	}
+}		
+
+pm_advanced_spiders = {
+	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"			
+	building_modifiers = {				
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_input_meat_add = 10
+			goods_output_fabric_add = 80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_farmers_add = 1500
+		}
+	}							
+}
+
+pm_professional_spiders = {
+	texture = "gfx/interface/icons/production_method_icons/slaughterhouses.dds"	
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		mechanical_tools
+	}	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10 #40 400
+			goods_input_meat_add = 15 #30  450
+			goods_output_fabric_add = 120 #20  2400
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2500
+			building_employment_farmers_add = 2500
+		}
+	}
+}
+
+pm_mechanized_spiders = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"	
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		mechanized_farming
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10 #40 400
+			goods_input_gizmos_add = 5 #60 300
+			goods_input_meat_add = 30 #30 900
+			goods_output_fabric_add = 170 #20 3400
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2250
+			building_employment_farmers_add = 1750
+			building_employment_machinists_add = 1000
+		}
+	}
+}
+
+pm_no_spidey_silk = {
+	texture = "gfx/interface/icons/production_method_icons/sheep_ranch.dds"
+
+}
+
+pm_spidey_silk = {
+	texture = "gfx/interface/icons/production_method_icons/sheep_farms.dds"
+	
+	unlocking_technologies = {
+		intensive_agriculture
+	}	
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_fabric_add = -20
+			goods_output_silk_add = 10
+		}
+	}
+}
+
+pm_spiderman = {
+	texture = "gfx/interface/icons/production_method_icons/large_sheep_ranch.dds"
+
+	unlocking_technologies = {
+		mechanized_farming
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_fabric_add = -40
+			goods_output_silk_add = 20
+		}
+	}
+}
+
+pm_spider_no_enhancement = {
+	texture = "gfx/interface/icons/production_method_icons/no_potion_sap.dds"
+}
+
+pm_spider_enlargement = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_laws = {
+		#druid shit idk
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 5
+			goods_output_monster_essence_add = 15
+		}
+
+		level_scaled = {
+			#employment
+			building_employment_wizards_add = 500
+			building_employment_laborers_add = -1000
+		}
+		unscaled = {
+			#building modifiers
+			goods_output_fabric_mult = 0.2
+			goods_output_silk_mult = 0.2
+		}
+		unscaled = {
+	
+			# mortality
+			building_laborers_mortality_mult = 0.2
+			building_farmers_mortality_mult = 0.1
+		}
+	}
+}
+
+pm_big_safe_spiders = {  
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	
+	unlocking_laws = {
+		#druid shit idk
+	}
+
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input goods
+			goods_input_potions_add = 10
+			goods_output_monster_essence_add = 25
+		}
+
+		level_scaled = {
+			#employment
+			building_employment_wizards_add = 500
+			building_employment_laborers_add = -1000
+		}
+		unscaled = {
+			#building modifiers
+			goods_output_fabric_mult = 0.4
+			goods_output_silk_mult = 0.3
+		}
+	}
+}
+
+pm_standard_spidey_fence = {
+	texture = "gfx/interface/icons/production_method_icons/standard_fences.dds"
+}
+
+pm_wooden_enclosures = {
+	texture = "gfx/interface/icons/production_method_icons/barbed_wire_fencing.dds"
+	unlocking_technologies = {
+	}	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -300
+		}
+	}
+}		
+
+pm_basic_magic_enclosure = {
+	texture = "gfx/interface/icons/production_method_icons/electric_fencing.dds"	
+	unlocking_technologies = {
+		wishstone_machines	
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wishstone_add = 2
+			goods_input_potions_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -600
+		}
+	}
+
+	required_input_goods = potions
+}
+
+pm_gizmo_enclosures = {
+	texture = "gfx/interface/icons/production_method_icons/electric_fencing.dds"	
+	unlocking_technologies = {
+		advanced_contraptions	
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_gizmos_add = 3
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -900
+		}
+	}
+
+	required_input_goods = gizmos
+}
+
+pm_no_warding = {
+	texture = "gfx/interface/icons/production_method_icons/no_refrigeration.dds"
+}
+
+pm_basic_warding = {
+	texture = "gfx/interface/icons/production_method_icons/refrigerated_storage.dds"
+
+	unlocking_technologies = {
+		ghost_busters
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wishstone_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -300
+		}
+	}
+
+	required_input_goods = wishstone
+}
+
+pm_advanced_warding = {
+	texture = "gfx/interface/icons/production_method_icons/refrigerated_rail_cars.dds"
+	
+	unlocking_technologies = {
+		supernatural_pursuit
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_gizmos_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -600
+		}
+	}
+
+	required_input_goods = gizmos
+}
+
+pm_simple_mushrooms = {
+	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_wood_add = 16 #320
+			goods_output_monster_essence_add = 7
+
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4500
+		}
+	}
+}
+
+pm_mushroom_mills = {
+	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
+	unlocking_technologies = {
+		steelworking
+	}				
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5
+			
+			# output goods
+			goods_output_wood_add = 40
+			goods_output_monster_essence_add = 10
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+		}
+	}
+}	
+
+pm_electric_mushrooms = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	unlocking_technologies = {
+		electrical_generation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			goods_input_electricity_add = 5
+			
+			# output goods
+			goods_output_wood_add = 70
+			goods_output_monster_essence_add = 15
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_no_focus = {
+	texture = "gfx/interface/icons/production_method_icons/no_hardwood_selection.dds"
+}
+
+pm_extra_essence = {
+	texture = "gfx/interface/icons/production_method_icons/hardwood_selection.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods										
+			goods_output_monster_essence_add = 5
+			goods_output_wood_add = -10
+		}
+	}
+}
+
+pm_extra_wood = {
+	texture = "gfx/interface/icons/production_method_icons/increased_hardwood.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_monster_essence_add = -5
+			goods_output_wood_add = 10
+		}
+	}
+}
