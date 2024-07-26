@@ -1,0 +1,110 @@
+﻿je_thalorian_crusade = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+	group = je_group_crises
+
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = thalorian_crusade_status_desc_RAV
+				trigger = {
+					root = c:RAV
+				}
+			}
+			triggered_desc = {
+				desc = thalorian_crusade_status_desc_TLE
+			}
+		}
+	}
+
+	complete = {
+		OR = {
+			AND = {
+				root = c:RAV
+				has_diplomatic_pact = {
+					who = c:TLE
+					type = humiliation
+				}
+			}
+			AND = {
+				root = c:TLE
+				has_diplomatic_pact = {
+					who = c:RAV
+					type = humiliation
+				}
+			}
+		}
+
+	}
+
+	on_complete = {
+		trigger_event = { id = thalorian_crusade.1 popup = yes}
+	}
+
+	invalid = {
+		OR = {
+			OR = {
+				NOT = {
+					exists = c:TLE
+				} 
+				NOT = {
+					exists = c:RAV
+				} 
+			}
+			#White peace
+			AND = {
+				#use is_war_participant properly here
+				c:TLE = {
+					is_at_war = no
+					NOT = {
+						has_diplomatic_pact = {
+						who = c:TLE
+						type = humiliation
+						}
+					}
+				}
+				c:RAV = {
+					is_at_war = no
+					NOT = {
+						has_diplomatic_pact = {
+						who = c:RAV
+						type = humiliation
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	on_invalid = {
+		trigger_event = { id = thalorian_crusade.2 popup = yes}
+	} 
+
+	fail = {
+		OR = {
+			AND = {
+				root = c:RAV
+				has_diplomatic_pact = {
+					who = c:RAV
+					type = humiliation
+				}
+			}
+			AND = {
+				root = c:TLE
+				has_diplomatic_pact = {
+					who = c:TLE
+					type = humiliation
+				}
+			}
+		}
+	}
+
+	on_fail = {
+		trigger_event = { id = thalorian_crusade.3 popup = yes}
+	}
+
+	should_be_pinned_by_default = yes
+
+	weight = 1000
+}
