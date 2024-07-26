@@ -2023,34 +2023,28 @@ pm_electric_mushrooms = {
 	required_input_goods = electricity
 }
 
-pm_no_wood = {
+pm_no_focus = {
 	texture = "gfx/interface/icons/production_method_icons/no_hardwood_selection.dds"
 }
 
-pm_woodwood = {
+pm_extra_essence = {
 	texture = "gfx/interface/icons/production_method_icons/hardwood_selection.dds"
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods										
-			goods_output_monster_essence_add = -5
-			goods_output_wood_add = 10
+			goods_output_monster_essence_add = 5
+			goods_output_wood_add = -10
 		}
 	}
 }
 
 pm_extra_wood = {
 	texture = "gfx/interface/icons/production_method_icons/increased_hardwood.dds"
-
-	unlocking_production_methods = {
-		pm_mushroom_mills
-		pm_electric_mushrooms
-	}
-
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods
-			goods_output_monster_essence_add = -15
-			goods_output_wood_add = 30
+			goods_output_monster_essence_add = -5
+			goods_output_wood_add = 10
 		}
 	}
 }

@@ -298,8 +298,8 @@ pmg_base_building_mushroom_logging = {
 pmg_more_wood = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_no_wood
-		pm_woodwood
+		pm_no_focus
+		pm_extra_essence
 		pm_extra_wood
 	}
 }
