@@ -18,23 +18,32 @@
 	}
 
 	complete = {
+				custom_tooltip = {
+			text = won_crusade
 		OR = {
 			AND = {
 				root = c:RAV
-				has_diplomatic_pact = {
-					who = c:TLE
-					type = humiliation
+				ROOT = {
+					has_diplomatic_pact = {
+						who = c:TLE
+						type = humiliation
+						is_initiator = yes
+					}
 				}
 			}
 			AND = {
 				root = c:TLE
-				has_diplomatic_pact = {
-					who = c:RAV
-					type = humiliation
+				ROOT = {
+					has_diplomatic_pact = {
+						who = c:RAV
+						type = humiliation
+						is_initiator = yes
+					}
 				}
+
 			}
 		}
-
+	}
 	}
 
 	on_complete = {
@@ -42,66 +51,74 @@
 	}
 
 	invalid = {
-		OR = {
+		custom_tooltip = {
+			text = invalid_crusade
 			OR = {
-				NOT = {
-					exists = c:TLE
-				} 
-				NOT = {
-					exists = c:RAV
-				} 
-			}
-			#White peace
-			AND = {
-				#use is_war_participant properly here
-				c:TLE = {
-					is_at_war = no
+				OR = {
 					NOT = {
+						exists = c:TLE
+					} 
+					NOT = {
+						exists = c:RAV
+					} 
+				}
+				#White peace
+				AND = {
+					#use is_war_participant properly here
+					c:TLE = {
+						is_at_war = no
 						has_diplomatic_pact = {
-						who = c:TLE
-						type = humiliation
+							who = c:RAV
+							type = humiliation
 						}
 					}
-				}
-				c:RAV = {
-					is_at_war = no
-					NOT = {
-						has_diplomatic_pact = {
-						who = c:RAV
-						type = humiliation
+					c:RAV = {
+						is_at_war = no
+						NOT = {
+							c:RAV = {
+								has_diplomatic_pact = {
+									who = c:TLE
+									type = humiliation
+								}
+							}
 						}
 					}
+	
 				}
-
 			}
 		}
+
 	}
 
-	on_invalid = {
-		trigger_event = { id = thalorian_crusade.2 popup = yes}
-	} 
-
 	fail = {
-		OR = {
-			AND = {
-				root = c:RAV
-				has_diplomatic_pact = {
-					who = c:RAV
-					type = humiliation
+		custom_tooltip = {
+			text = lost_crusade
+			OR = {
+				AND = {
+					root = c:TLE
+					c:RAV = {
+						has_diplomatic_pact = {
+							who = c:TLE
+							type = humiliation
+						}
+					}
 				}
-			}
-			AND = {
-				root = c:TLE
-				has_diplomatic_pact = {
-					who = c:TLE
-					type = humiliation
+				AND = {
+					root = c:RAV
+					c:TLE = {
+						has_diplomatic_pact = {
+							who = c:RAV
+							type = humiliation
+						}
+					}
 				}
 			}
 		}
+
 	}
 
 	on_fail = {
-		trigger_event = { id = thalorian_crusade.3 popup = yes}
+		trigger_event = { id = thalorian_crusade.2 popup = yes}
 	}
 
 	should_be_pinned_by_default = yes
