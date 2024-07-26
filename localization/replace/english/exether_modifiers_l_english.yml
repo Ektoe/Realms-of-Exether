@@ -88,3 +88,7 @@
  country_institution_magical_focus_max_investment_add_desc: "A bonus or penalty to the maximum investment level of the $institution_magical_focus$ [concept_institution]"
 
   #Veil Integrity 
+
+  #Modifiers
+  thalorian_victor: "Thalorian Crusade Victor"
+  thalorian_loser: "Thalorian Crusade Loser"

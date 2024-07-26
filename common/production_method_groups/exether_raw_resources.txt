@@ -124,6 +124,33 @@ pmg_explosives_building_wishstone_mine = {
 	}
 }
 
+pmg_base_building_wishstone_reef = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_diving_bells_wishstone_reef
+		pm_gantry_cranes_wishstone_reef
+		pm_on_that_oceangate_grind_wishstone_reef
+		pm_on_that_oceangate_grind_thaumacore_wishstone_reef
+	}
+}
+
+pmg_transportation_building_wishtone_reef ={
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+
+
+}
+
+pmg_potions_wishstone_reef  = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_mines_no_potions
+		pm_potions_of_waterbreathing
+	}
+}
 pmg_steam_automation_building_wishstone_mine = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {

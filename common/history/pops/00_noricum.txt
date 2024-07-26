@@ -50,7 +50,7 @@
       region_state:DUM = {
         create_pop = {
           culture = dumonian
-          size = 1375796
+          size = 1475796
         }
         create_pop = {
           culture = avalorean
@@ -87,11 +87,11 @@
         create_pop = {
           culture = uplander
           religion = cult_of_the_sun
-          size = 286000
+          size = 246000
         }
         create_pop = {
           culture = dumonian
-          size = 388000
+          size = 328000
         }
         create_pop = {
           culture = vandori
@@ -99,11 +99,11 @@
         }
         create_pop = {
           culture = dewaric
-          size = 164000
+          size = 134000
         }
         create_pop = {
           culture = uplander
-          size = 142000
+          size = 112000
         }
         create_pop = {
           culture = gelidrumin
@@ -117,12 +117,12 @@
       region_state:DUM = {
         create_pop = {
           culture = uplander
-          size = 867200
+          size = 690200
         }
         create_pop = {
           culture = uplander
           religion = cult_of_the_sun
-          size = 128000
+          size = 158400
         }
         create_pop = {
           culture = gelidrumin
@@ -163,7 +163,7 @@
       region_state:DUM = {
         create_pop = {
           culture = gelidrumin
-          size = 561996
+          size = 651996
         }
       }
   }
@@ -173,7 +173,7 @@
       region_state:DUM = {
         create_pop = {
           culture = dewaric
-          size = 1119008
+          size = 1019008
         }
         create_pop = {
           culture = dumonian
@@ -210,11 +210,11 @@
       region_state:DUM = {
         create_pop = {
           culture = ralaurian
-          size = 1855196
+          size = 1925196
         }
         create_pop = {
           culture = cerunite
-          size = 8000
+          size = 56000
         }
       }
     }
@@ -224,15 +224,15 @@
       region_state:DUM = {
         create_pop = {
           culture = dewaric
-          size = 59044
+          size = 109044
         }
         create_pop = {
           culture = cerunite
-          size = 3000
+          size = 9000
         }
         create_pop = {
           culture = ralaurian
-          size = 90004
+          size = 110004
         }
         create_pop = {
           culture = uplander
@@ -240,7 +240,7 @@
         }
         create_pop = {
           culture = dumonian
-          size = 76000
+          size = 89000
         }
       }
   }
@@ -250,7 +250,7 @@
       region_state:DUM = {
         create_pop = {
           culture = dewaric
-          size = 1319898
+          size = 698498
         }
         create_pop = {
           culture = avalorean
@@ -258,12 +258,12 @@
         }
         create_pop = {
           culture = uplander
-          size = 212800
+          size = 122800
         }
         create_pop = {
           culture = dewaric
           religion = cult_of_the_sun
-          size = 198400
+          size = 138400
         }
         create_pop = {
           culture = dumonian
@@ -413,15 +413,15 @@
       region_state:DUM = {
         create_pop = {
           culture = dewaric
-          size = 189292
+          size = 219292
         }
         create_pop = {
           culture = ralaurian
-          size = 288000
+          size = 296500
         }
         create_pop = {
           culture = dumonian
-          size = 117004
+          size = 124004
         }
         create_pop = {
           culture = uplander
