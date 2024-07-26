@@ -1365,7 +1365,11 @@
         }
         create_pop = {
           culture = avalorean
-          size = 1532000
+          size = 1120000
+        }
+        create_pop = {
+          culture = nivaskyan
+          size = 412000
         }
       }
   }
@@ -1803,7 +1807,7 @@
           size = 17396
         }
         create_pop = {
-          culture = frost_giant
+          culture = fire_giant
           size = 65200
         }
       }
