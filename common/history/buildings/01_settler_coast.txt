@@ -197,7 +197,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_santa_clause_style" "pm_permanent_prestidigitation" "pm_that_scary_ass_shit_from_sleeping_beauty" }
+				activate_production_methods={ "pm_santa_clause_style" }
 			}		    
             create_building={
 			        building="building_textile_mills"
@@ -297,7 +297,7 @@
 							   }
 							}
 					reserves=1
-					activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_no_potions" }
+					activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine"    }
 				  }
 				  create_building={
 					building="building_textile_mills"
@@ -577,7 +577,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_no_luxury_clothes" "pm_traditional_looms" }
+			activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" }
 		}
                         create_building={
 			building="building_food_industry"
@@ -1038,7 +1038,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_mines_sleep_in_a_bottle" "pm_road_carts" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation"    "pm_road_carts" }
 		}
 			create_building={
 			building="building_lead_mine"
@@ -1051,7 +1051,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_mines_sleep_in_a_bottle" "pm_no_steam_automation" "pm_road_carts" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives"    "pm_no_steam_automation" "pm_road_carts" }
 		}
 		create_building={
 			building="building_university"
@@ -1091,7 +1091,7 @@
                                  }
                                }
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_mines_sleep_in_a_bottle" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine"    "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 		}
 		create_building={
 			building="building_sulfur_mine"
@@ -1104,7 +1104,7 @@
 		 }
 	   }
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives" "pm_mines_sleep_in_a_bottle" "pm_no_steam_automation" "pm_road_carts" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_no_explosives"    "pm_no_steam_automation" "pm_road_carts" }
 		}
 			create_building={
 			building="building_rye_farm"
@@ -2870,7 +2870,7 @@
 					   }
 					}
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_mines_potions_of_fortitude" "pm_rockrollers_mine" "pm_road_carts" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives"    "pm_rockrollers_mine" "pm_road_carts" }
 			}		
 			create_building={
 				building="building_gizmo_workshop"
@@ -2883,7 +2883,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_steel_gizmos" "pmg_automation_building_gizmo_workshop" }
+				activate_production_methods={ "pm_steel_gizmos" }
 			}		
 			create_building={
 				building="building_coal_mine"
@@ -2896,7 +2896,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_mines_potions_of_fortitude" "pm_no_explosives" "pm_rockrollers_building_coal_mine" "pm_road_carts" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine"    "pm_no_explosives" "pm_rockrollers_building_coal_mine" "pm_road_carts" }
 			}
             create_building={
 				building="building_furniture_manufacturies"
@@ -2909,7 +2909,7 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_santa_clause_style" "pm_permanent_prestidigitation" "pm_that_scary_ass_shit_from_sleeping_beauty" }
+				activate_production_methods={ "pm_santa_clause_style" }
 			}
             create_building={
 				building="building_logging_camp"
@@ -2935,7 +2935,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "soil_enriching_farming" "pm_farms_basic_earth_shaping" "pm_tools"  }
+				activate_production_methods={ "pm_soil_enriching_farming" "pm_farms_basic_earth_shaping" "pm_tools"  }
 			}
 		}
   }
@@ -2959,7 +2959,7 @@
 						   }
 						}
 				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_no_potions" }
+				activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine"    }
 			  }
             create_building={
 				building="building_arms_industry"
@@ -3312,7 +3312,6 @@
 				}
 			}
 			reserves=1
-			activate_production_methods={ "pm_trinkets" }
 		  }
       }
     
@@ -3548,7 +3547,7 @@
 						   }
 						}
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine" "pm_mines_potions_of_fortitude" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine"    }
 			  }
 
 		}
@@ -3592,7 +3591,7 @@
 					   }
 					}
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine" "pm_mines_potions_of_fortitude" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine"    }
 		  }
 	}
 }
@@ -3891,7 +3890,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_mines_no_potions" "pm_rockrollers_building_coal_mine" "pm_road_carts" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives"    "pm_rockrollers_building_coal_mine" "pm_road_carts" }
 		}
 			create_building={
 			building="building_iron_mine"
@@ -3904,7 +3903,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_mines_potions_of_fortitude" "pm_rockrollers_mine" "pm_road_carts" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives"    "pm_rockrollers_mine" "pm_road_carts" }
 		}		
 			create_building={
 			building="building_wheat_farm"
@@ -3997,7 +3996,7 @@
 			 }
 		  }
 			reserves=1
-			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+			activate_production_methods={ "pm_watering_hole"    }
 		  }
 	}
   }
@@ -4041,7 +4040,7 @@
 			 }
 		  }
 			reserves=1
-			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+			activate_production_methods={ "pm_watering_hole"    }
 		  }
 	}
   }
@@ -4098,7 +4097,7 @@
 			 }
 		  }
 			reserves=1
-			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+			activate_production_methods={ "pm_watering_hole"    }
 		  }
 	}
   }
@@ -4345,7 +4344,7 @@
 			 }
 		  }
 			reserves=1
-			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+			activate_production_methods={ "pm_watering_hole"    }
 		  }
 	}
   }
@@ -5158,7 +5157,7 @@
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_wrought_iron_tools" "pm_automation_disabled" }
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" }
 			}
 		create_building={
 			building="building_dwarf_tunnels"
@@ -5298,7 +5297,7 @@
 					   }
 					}
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine" "pm_mines_potions_of_fortitude" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine"    }
 		  }
 		create_building={
 			building="building_cotton_plantation"
@@ -5360,7 +5359,7 @@
 			 }
 		  }
 			reserves=1
-			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+			activate_production_methods={ "pm_watering_hole"    }
 		  }
 		create_building={
 			building="building_government_administration"
@@ -5423,7 +5422,7 @@
 			 }
 		  }
 			reserves=1
-			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+			activate_production_methods={ "pm_watering_hole"    }
 		  }
 			create_building={
 			building="building_wheat_farm"
@@ -5467,7 +5466,7 @@
 			 }
 		  }
 			reserves=1
-			activate_production_methods={ "pm_dive_bar" "pm_trinkets" }
+			activate_production_methods={ "pm_dive_bar"    }
 		  }
 		create_building={
 			building="building_government_administration"
@@ -5543,7 +5542,7 @@
 			 }
 		  }
 			reserves=1
-			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+			activate_production_methods={ "pm_watering_hole"    }
 		  }
 		create_building={
 			building="building_government_administration"
@@ -7181,7 +7180,7 @@
 			 }
 		  }
 			reserves=1
-			activate_production_methods={ "pm_watering_hole" "pm_trinkets" }
+			activate_production_methods={ "pm_watering_hole"    }
 		  }
 		create_building={
 			building="building_university"
@@ -7239,7 +7238,7 @@
 					   }
 					}
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine" "pm_mines_potions_of_fortitude" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine"    }
 		  }
 	  }
   	}
