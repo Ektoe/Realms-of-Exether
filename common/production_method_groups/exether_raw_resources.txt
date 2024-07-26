@@ -219,3 +219,60 @@ pmg_dragon_trinket_priority = {
 		pm_trinket_trinket_city_b
 	}
 }
+
+pmg_base_building_underfarm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_underfarming
+		pm_goo_infused_underfarming
+		pm_super_goo_underfarming
+		pm_extra_essence_on_top
+	}
+}
+
+pmg_secondary_building_underfarm = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_lichen_dyes
+		pm_lichen_dyes
+		pm_lichen_park
+	}
+}
+
+pmg_silk_refinement = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_spidey_silk
+		pm_spidey_silk
+		pm_spiderman
+	}
+}
+
+pmg_base_building_spider_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_simple_ranching
+		pm_advanced_ranching
+		pm_professional_ranching
+		pm_mechanized_ranching
+	}
+}
+
+pmg_spider_fencing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_standard_spidey_fence
+		pm_wooden_enclosures
+		pm_basic_magic_enclosure
+		pm_gizmo_enclosures
+	}
+}
+
+pmg_warding = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_warding
+		pm_basic_warding
+		pm_advanced_warding
+	}
+}

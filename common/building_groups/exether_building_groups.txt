@@ -463,6 +463,23 @@ bg_magic_resource = {
 	foreign_investment_ai_factor = 1.0
 }
 
+#Underground Survival
+bg_underfarms = {
+	parent_group = bg_agriculture
+	
+	default_building = building_underfarm
+	
+	cash_reserves_max = 25000
+}
+
+bg_spider_ranch = {
+	parent_group = bg_agriculture
+	
+	default_building = building_spider_ranch
+	
+	cash_reserves_max = 25000
+}
+
 
 bg_magic_manufacturing = {
 	category = urban

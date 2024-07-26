@@ -1550,3 +1550,115 @@ pm_trinket_trinket_city_b = {
 	}
 }
 
+# Underground survival
+
+pm_simple_underfarming = {
+	texture = "gfx/interface/icons/production_method_icons/simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods													
+			goods_output_grain_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 8000
+			building_employment_farmers_add = 2000
+		}
+	}
+}
+
+pm_goo_infused_underfarming = {
+	texture = "gfx/interface/icons/production_method_icons/soil_enriching_farming.dds"
+	
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods													
+			goods_input_monster_essence_add = 8			
+			
+			# output goods													
+			goods_output_grain_add = 60
+		}
+
+		level_scaled = {
+			# earnings														
+			building_employment_laborers_add = 7000
+			building_employment_farmers_add = 3000
+		}
+	}
+}
+
+pm_super_goo_underfarming = {
+	texture = "gfx/interface/icons/production_method_icons/fertilization.dds"
+	
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods													
+			goods_input_monster_essence_add = 16			
+			
+			# output goods												   
+			goods_output_grain_add = 90
+		}
+
+		level_scaled = {
+			# earnings														
+			building_employment_laborers_add = 6000
+			building_employment_farmers_add = 4000
+		}
+	}
+}
+
+pm_extra_essence_on_top = {
+	texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers.dds"
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods												   
+			goods_input_monster_essence_add = 24		
+			
+			# output goods												   
+			goods_output_grain_add = 140
+		}
+
+		level_scaled = {
+			# earnings														
+			building_employment_laborers_add = 5000
+			building_employment_farmers_add = 5000
+		}
+	}
+}
+
+pm_no_lichen_dyes = {
+	texture = "gfx/interface/icons/production_method_icons/no_orchards.dds"
+}
+
+pm_lichen_dyes = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_grain_add = -10
+			goods_output_dye_add = 5
+		}
+	}
+}
+
+pm_lichen_park = {
+	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_grain_add = -20
+			goods_output_dye_add = 10
+		}
+	}
+}

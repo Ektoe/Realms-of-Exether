@@ -912,11 +912,13 @@ STATE_LIGHTSCOURGE = {
     farm = xE69C9B
     mine = xF6F21F
     arable_land = 50
-    arable_resources = { "bg_livestock_ranches" }
+    arable_resources = { "bg_underfarms" }
     capped_resources = {
         bg_cloud_collecting = 38
         bg_coal_mining = 65
         bg_iron_mining = 45
+        bg_sulfur_mining = 10
+        bg_lead_mining = 4
         bg_monuments = 1
     }
 }
