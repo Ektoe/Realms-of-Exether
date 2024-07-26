@@ -23,6 +23,14 @@
 			type = protectorate
 		}
 	}
+	c:AHO = {
+		 = {
+		create_diplomatic_pact = {
+			country = c:VHT
+			type = protectorate
+		}
+	}
+}
 	c:EME = {
 		create_diplomatic_pact = {
 			country = c:LAC
