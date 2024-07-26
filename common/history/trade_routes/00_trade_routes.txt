@@ -1134,24 +1134,6 @@ c:SEB ?= {
 }
 c:DAR ?= {
 	create_trade_route = {
-		goods = hardwood
-		level = 4
-		target = c:THI.market
-		direction = import
-	}	
-	create_trade_route = {
-		goods = luxury_clothes
-		level = 3
-		target = c:ARR.market
-		direction = import
-	}
-	create_trade_route = {
-		goods = luxury_furniture
-		level = 4
-		target = c:THI.market
-		direction = import
-	}
-	create_trade_route = {
 		goods = sugar
 		level = 4
 		target = c:THI.market

@@ -4642,6 +4642,9 @@ yanger={
 	wealder={
 		color= hsv{ 0.13 0.80 0.99 }
 		religion = church_of_man
+		obsessions = {
+			small_arms
+		}
 		traits = {settler_coast_culture_group human_heritage  } 
 		# could have German-speaking, but would make them not discriminated which would be very ahistorical
 		male_common_first_names={
