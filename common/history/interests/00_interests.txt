@@ -30,6 +30,9 @@
 	c:SEB ?= {
 		add_declared_interest = region_nogi_desert
 	}
+	c:EBR ?= {
+		add_declared_interest = region_arrador
+	}
 	c:DIS ?= {
 		add_declared_interest = region_ravik
 		add_declared_interest = region_exiles_burden
