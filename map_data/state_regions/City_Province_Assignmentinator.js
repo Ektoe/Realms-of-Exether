@@ -20,7 +20,7 @@ const files = [
   "09_kharaa_ur.txt",
 ];
 
-files.foreach((file) => {
+files.forEach((file) => {
   try {
     let data = fs.readFileSync(file, "utf8");
     const matches = [...data.matchAll(regex)];
@@ -40,16 +40,23 @@ files.foreach((file) => {
       const mine = stateProvinces.pop();
       const wood = stateProvinces.pop();
 
-      const replacementString = `${match[0]}${port && `\n    port = ${port}`}${
-        city && `\n    city = ${city}`
-      }${farm && `\n    farm = ${farm}`}${mine && `\n    mine = ${mine}`}${
-        wood && `\n    wood = ${wood}`
+      const replacementString = `${match[0]}${
+        port !== undefined ? `\n    port = ${port}` : ""
+      }${city !== undefined ? `\n    city = ${city}` : ""}${
+        farm !== undefined ? `\n    farm = ${farm}` : ""
+      }${mine !== undefined ? `\n    mine = ${mine}` : ""}${
+        wood !== undefined ? `\n    wood = ${wood}` : ""
       }`;
 
       data = data.replace(match[0], replacementString);
     });
     console.log(data);
-    fs.writeFile(file, data);
+    fs.writeFile(file, data, (err) => {
+      if (err) console.log(err);
+      else {
+        console.log(file + " File written successfully\n");
+      }
+    });
   } catch (err) {
     console.error(err);
   }
