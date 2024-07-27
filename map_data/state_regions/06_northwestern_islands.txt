@@ -1226,7 +1226,7 @@ STATE_SAMIEL = {
         bg_fishing = 8
         bg_whaling = 2
     }
-
+    naval_exit_id = 3047
 }
 STATE_GUHKESLUOKTA = {
     id = 3762
