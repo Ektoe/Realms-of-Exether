@@ -206,7 +206,7 @@ bg_special_depletables_taxable = {  #use with resource_depletion and resource_di
 	auto_place_buildings = no
 
 	discoverable_resource = yes
-	
+	capped_by_resources = yes
 	depletable_resource = yes
 	
 	fired_pops_become_radical = no  #could change this to yes, but we might want to lower depletion amount if we do that so that 25000 people don't get fired all at once

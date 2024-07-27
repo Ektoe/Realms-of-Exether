@@ -69,7 +69,7 @@ building_wishstone_mine_depletable = {
 		pmg_train_automation_building_wishstone_mine
 		
 	}
-
+	cannot_switch_owner = yes
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
@@ -82,6 +82,7 @@ building_wishstone_fields = {
 	levels_per_mesh = 5
 	buildable = no
 	expandable = no
+	cannot_switch_owner = yes
 	terrain_manipulator = mining
 	
 	unlocking_technologies = {
@@ -362,6 +363,7 @@ building_dragon_ruins = {
 		pmg_dragon_trinket_priority
 		pmg_train_automation_building_dragon_ruins
 	}
+	cannot_switch_owner = yes
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"

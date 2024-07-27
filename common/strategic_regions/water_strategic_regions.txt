@@ -964,3 +964,8 @@ region_vairian_skies = {
 region_renalpan_heights = { 
 	states = { STATE_RENALPAN_HEIGHTS }
 }
+
+region_east_amethyst_heigths = {
+	states = {STATE_EAST_AMETHYST_HEIGHTS}
+
+}
