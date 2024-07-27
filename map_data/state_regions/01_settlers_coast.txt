@@ -1091,7 +1091,7 @@ STATE_GREENCOURT = {
     }
     naval_exit_id = 3203
 }
-STATE_GREENCOURT_2 = {
+STATE_PRILYRA = {
     id = 4719
     subsistence_building = "building_subsistence_farms"
     provinces = { "x7B99E1" "x99D4E8" "xA1E3B4" "xA4A1EA" "xB8EF82" "xC1FE51" "xC9EF58" "xCF77C4" "xD2C86D" "xDDF5B3" "xE1CA72" "xE7CBC1" "xEDB3A4" "xF2F7E7" "xF5B592" "xFCB261" }
@@ -1792,6 +1792,10 @@ STATE_AZURETHORN = {
         bg_logging = 2
         bg_fishing = 9
         bg_whaling = 4
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 35
     }
     naval_exit_id = 3026
 }

@@ -8,6 +8,11 @@
   union_of_the_sands_progress_bar_yavira_gdp: "[GetGlobalVariable('yavira_scope').GetCountry.GetName] GDP"
   union_of_the_sands_progress_bar_vozmead_gdp: "[GetGlobalVariable('vozmead_scope').GetCountry.GetName] GDP"
 
+  je_thalorian_crusade: "Third Thalorian Crusade"
+  je_thalorian_crusade_reason: "The Thalorian Crusades mark a series of brutal conflicts between the gnomes and Thalorian humans. The first crusade began when Hasal Nezzelech taught the gnomes the dark art of necromancy, empowering them to repel human incursions and reclaim their sacred woods. This initial victory emboldened the gnomes and left the Thalorians reeling.\n\nIn the second crusade, the gnomes unleashed the Soulwrought—resurrected humans encased in metal bodies—against the Thalorian forces. The devastation was immense, fracturing the western reaches of the Thalorian Empire and leaving a scar on the land and its people.\n\nINow, the third crusade ignites, with the gnomes determined to dismantle what remains of the Eastern Thalorian Empire. As both sides prepare for another brutal confrontation, the fate of the empire hangs in the balance, and the echoes of past conflicts threaten to shape the future in unforeseen ways."
+  thalorian_crusade_status_desc_RAV: "Finish Hasal's vision, end the human threat once and for all!"
+  thalorian_crusade_status_desc_TLE: "Defend against the gnomish assault, for Thaloria!"
+
   je_colonial_administration: "Establish Colonial Administration"
   je_colonial_administration_reason: "In order to best leverage our rule over our colonial holdings, a #bold Colonial Administration#! may be established over a given region of Exether. #bold Colonial Administrations#! will expand into neighboring [Concept('concept_decentralized_nation', '$concept_decentralized_nations$')] on their own, and may be given jurisdiction over our other regional holdings.\n\n#lore The Scramble for the untamed wilds of Exether, is underway in earnest. Every power worth a hoot is seeking slices of the world as more jewels in their crowns. Rich in untapped resources and filled with people yet to be put to work, power and prestige are the prizes for the victors. Make no mistake: blood will be spilled long before the scramble ends. Exether awaits.#!"
 

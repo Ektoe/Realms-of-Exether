@@ -69,7 +69,7 @@ building_wishstone_mine_depletable = {
 		pmg_train_automation_building_wishstone_mine
 		
 	}
-
+	cannot_switch_owner = yes
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
@@ -82,6 +82,7 @@ building_wishstone_fields = {
 	levels_per_mesh = 5
 	buildable = no
 	expandable = no
+	cannot_switch_owner = yes
 	terrain_manipulator = mining
 	
 	unlocking_technologies = {
@@ -98,19 +99,21 @@ building_wishstone_fields = {
 }
 
 building_wishstone_reefs = {
-	building_group = bg_wishstone_extraction_sea
+	building_group = bg_wishstone_reefs
 	texture = "gfx/interface/icons/building_icons/wishstone_reefs.dds"
 	city_type = port
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
 
 	unlocking_technologies = {
-		pumpjacks
+		hydraulic_cranes
 	}
 	
 	production_method_groups = {
-		pmg_base_building_oil_rig
-		pmg_transportation_building_oil_rig
+		pmg_base_building_wishstone_reef
+		pmg_potions_wishstone_reef
+		pmg_transportation_building_wishtone_reef
+		
 		
 	}
 
@@ -178,7 +181,7 @@ building_squid_squad = {
 }
 
 building_seasnake_wharf = {
-	building_group = bg_fishing
+	building_group = bg_seasnake_wharf
 	texture = "gfx/interface/icons/building_icons/sea_snakes.dds"
 	city_type = port
 	required_construction = construction_cost_low
@@ -360,6 +363,7 @@ building_dragon_ruins = {
 		pmg_dragon_trinket_priority
 		pmg_train_automation_building_dragon_ruins
 	}
+	cannot_switch_owner = yes
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"

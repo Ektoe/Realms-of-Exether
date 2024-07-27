@@ -1169,7 +1169,7 @@ s:STATE_FAR_SHORE_2 = {
 	}
   }
 
-  s:STATE_GREENCOURT_2 = {
+  s:STATE_PRILYRA = {
 	region_state:PRI = { # 
 		create_pop = {
 			culture = wealder
@@ -1668,7 +1668,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:DAR = {
 		create_pop = {
 			culture = yelfi
-			size = 2070892
+			size = 2680892
 		}
 		create_pop = {
 			culture = bossardi

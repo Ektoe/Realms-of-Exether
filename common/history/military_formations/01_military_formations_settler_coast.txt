@@ -199,6 +199,23 @@
 		scope:commanderaho1_gen = {
 			transfer_to_formation = scope:mageguard_aho
 		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_achon
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_LEYLINE_COAST
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_LEYLINE_COAST
+				count = 1
+			}
+		}
 	}
 	c:THI ?= {
 		create_military_formation = {
