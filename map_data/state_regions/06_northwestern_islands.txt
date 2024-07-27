@@ -198,26 +198,6 @@ STATE_BLUMETO = {
     }
     naval_exit_id = 3089
 }
-STATE_HADRUMEA = {
-    id = 3701
-    subsistence_building = "building_subsistence_fishing_villages"
-    provinces = {}
-    city = x7CEDDF
-    farm = xB0C2DF
-    mine = xD5C8E4
-    port = xDC8AD7
-    arable_land = 10
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
-    capped_resources = {
-        bg_logging = 5
-        bg_fishing = 12
-    }
-    resource = {
-        type = "bg_wishstone_reefs"
-        undiscovered_amount = 4
-    }
-    naval_exit_id = 3040
-}
 STATE_CARTHALIA = {
     id = 3702
     subsistence_building = "building_subsistence_fishing_villages"
@@ -789,25 +769,6 @@ STATE_CYRRA = {
         bg_whaling = 2
     }
     naval_exit_id = 3089
-}
-STATE_BYSARIS = {
-    id = 3734
-    subsistence_building = "building_subsistence_fishing_villages"
-    provinces = {}
-    city = xBFCAAC
-    farm = xF3DEE2
-    port = xE662BE
-    arable_land = 6
-    arable_resources = { "bg_livestock_ranches" "bg_rye_farms" }
-    capped_resources = {
-        bg_fishing = 6
-        bg_whaling = 6
-    }
-    resource = {
-        type = "bg_wishstone_reefs"
-        undiscovered_amount = 28
-    }
-    naval_exit_id = 3040
 }
 STATE_CALTHA = {
     id = 3735

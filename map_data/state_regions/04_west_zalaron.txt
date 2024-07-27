@@ -943,22 +943,6 @@ STATE_MILOTI = {
     }
     naval_exit_id = 3009
 }
-STATE_LISIJA = {
-    id = 2448
-    subsistence_building = "building_subsistence_farms"
-    provinces = {}
-    city = x8591E1
-    wood = xD4E4C4
-    farm = xFEECAE
-    arable_land = 28
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tea_plantations" "bg_silk_plantations" "bg_tobacco_plantations" }
-    capped_resources = {
-        bg_logging = 2
-        bg_fishing = 5
-        bg_whaling = 6
-    }
-    naval_exit_id = 3083
-}
 STATE_KILIMAMAI = {
     id = 2491
     subsistence_building = "building_subsistence_orchards"
