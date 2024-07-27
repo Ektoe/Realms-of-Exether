@@ -217,6 +217,54 @@
 			}
 		}
 	}
+
+	c:PFL ?= {
+
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_achon
+
+            save_scope_as = mimic_army
+
+			name = "Pefril Republican Guard"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ROCHENSTONE
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_ROCHENSTONE
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_ROCHENSTONE
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_HORSELORDS_DEMESNE
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HORSELORDS_DEMESNE
+				count = 10
+			}
+		}
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			save_scope_as = commanderpfl1_gen			
+		}
+		scope:commanderpfl1_gen = {
+			transfer_to_formation = scope:mimic_army
+		}
+
+	}
 	c:THI ?= {
 		create_military_formation = {
 			type = army

@@ -1132,6 +1132,42 @@ c:SEB ?= {
 		direction = export
 	}	
 }
+c:PFL ?= {
+	create_trade_route = {
+		goods = fabric
+		level = 2
+		target = c:ARR.market
+		direction = import
+	}	
+	create_trade_route = {
+		goods = clothes
+		level = 1
+		target = c:ARR.market
+		direction = import
+	}		
+
+}
+c:EBR ?= {
+	create_trade_route = {
+		goods = iron
+		level = 2
+		target = c:AHO.market
+		direction = import
+	}	
+	create_trade_route = {
+		goods = fabric
+		level = 2
+		target = c:ARR.market
+		direction = import
+	}	
+	create_trade_route = {
+		goods = fabric
+		level = 2
+		target = c:AHO.market
+		direction = import
+	}		
+
+}
 c:DAR ?= {
 	create_trade_route = {
 		goods = sugar
