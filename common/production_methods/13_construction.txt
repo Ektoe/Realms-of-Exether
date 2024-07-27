@@ -72,6 +72,46 @@ pm_iron_frame_buildings = {
 	}
 }
 
+pm_early_cloudsilver_buildings = { 
+	texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	
+	unlocking_technologies = {
+		cloudsilver_refining
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 5
+		}
+
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_iron_add = 10 #40 = 400
+			goods_input_fabric_add = 20 #20 = 400
+			goods_input_cloudsilver_add = 49 #45 = 2200
+			goods_input_tools_add = 15 #40 = 600     == 3600 expenses
+		}
+	
+		level_scaled = {
+			building_employment_bureaucrats_add = 250
+			building_employment_clerks_add = 500
+			building_employment_machinists_add = 1000
+			building_employment_laborers_add = 3000
+			building_employment_engineers_add = 250
+		}
+		unscaled = {
+			building_laborers_mortality_mult = 0.05
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_construction_mult = 0.005
+		}	
+	}
+}
+
 pm_steel_frame_buildings = {
 	texture = "gfx/interface/icons/production_method_icons/steel_frame_buildings.dds"
 

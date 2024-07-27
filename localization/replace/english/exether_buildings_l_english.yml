@@ -67,8 +67,6 @@
   building_desert_hunting_lodge_lens_option: "Expand $building_desert_hunting_lodge$"
   building_khuus_hunting_lodge: "Khuus Monster Region"
   building_khuus_hunting_lodge_lens_option: "Expand $building_khuus_hunting_lodge$"
-  building_underfarm: "Lichen Farm"
-  building_underfarm_lens_option: "Expand $building_underfarm$"
   building_snowrubber_plantation: "Rimerubber Plantation"
   building_snowrubber_plantation_lens_option: "Expand $building_snowrubber_plantation$"
   building_mountain_maize_farm: "Mountain Maize Farms"
@@ -96,6 +94,14 @@
   bg_hunting: "Hunting Lodges"
   bg_rice_farms_leechgardens: "Leech Gardens"
   #Factories
+
+  #Underground Survival :DD
+  building_underfarm: "Lichen Farms"
+  building_underfarm_lens_option: "Expand $building_underfarm$"
+  building_mushroom_logging: "Mushroom Logging Camps"
+  building_mushroom_logging_lens_option: "Expand $building_mushroom_logging$"
+  building_spider_ranch: "Spider Ranches"
+  building_spider_ranch_lens_option: "Expand $building_spider_ranch$"
 
   # Infrastructure
   building_airshipyard: "Airshipyard"
