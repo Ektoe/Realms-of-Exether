@@ -1,0 +1,13 @@
+namespace = whiskers_of_change
+
+whiskers_of_change.1 = {
+	dlc = dlc_roe
+	type = country_event
+	title = whiskers_of_change.1.t
+	flavor = whiskers_of_change.1.f
+	desc = whiskers_of_change.1.d
+
+	option = {
+		
+	}
+}

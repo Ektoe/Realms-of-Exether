@@ -15,9 +15,45 @@
 		trigger_event = {
 			id = whiskers_of_change.1
 		}
+		set_variable = {
+			name = whi_steps
+			value = 0
+		}
+		
+		c:VOZ = {
+			save_scope_as = voz_scope
+		}
+
+		c:DAR = {
+			save_scope_as = dar_scope
+		}
+			
+		c:CER = {
+			save_scope_as = cer_scope
+		}
+
+		c:PRI = {
+			save_scope_as = pri_scope
+		}
+
+		c:SMA = {
+			save_scope_as = sma_scope
+		}
 	}
 
 	complete = {
+
+	}
+
+	on_complete = {
+
+	}
+
+	fail = {
+
+	}
+
+	on_fail = {
 
 	}
 
