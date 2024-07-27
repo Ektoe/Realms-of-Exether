@@ -149,5 +149,4 @@
 	#		 set_relations = { country = c:BIC value = 50 }
 	#		 add_liberty_desire = -20
 	#	}
-	#}	
-}
+	#}
