@@ -838,7 +838,7 @@ STATE_RIVER_SOLILOQUE = {
         bg_wishstone_mining = 2
         bg_logging = 19
     }
-    naval_exit_id = 3152    
+    naval_exit_id = 3152
 }
 STATE_RIVER_SOLILOQUE_2 = {
     id = 3791

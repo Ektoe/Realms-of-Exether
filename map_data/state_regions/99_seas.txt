@@ -1133,7 +1133,7 @@ STATE_BUYANT_LANDING = {
 
 STATE_THE_NORTHERN_HORIZON = {
     id = 3242
-    provinces = { "x5274cf" }
+    provinces = {}
 }
 
 STATE_SANGARI_SHORES = {
