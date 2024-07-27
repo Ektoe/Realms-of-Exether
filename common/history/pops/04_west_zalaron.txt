@@ -2241,6 +2241,10 @@
 			size = 329008
 		}
 		create_pop = {
+			culture = ravikian
+			size = 142393
+		}
+		create_pop = {
 			culture = soulwrought
 			size = 1806
 		}
@@ -2268,7 +2272,11 @@
 	region_state:RAV = {
 		create_pop = {
 			culture = florishnom
-			size = 251997
+			size = 190997
+		}
+		create_pop = {
+			culture = ravikian
+			size = 61394
 		}
 		create_pop = {
 			culture = soulwrought
