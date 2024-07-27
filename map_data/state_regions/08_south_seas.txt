@@ -299,6 +299,10 @@ STATE_UMAGAMA = {
         bg_whaling = 8
         bg_fishing = 5
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 6
+    }
     naval_exit_id = 3018
 }
 STATE_ALMADOURO = {
@@ -332,6 +336,10 @@ STATE_CIDADOURO = {
     capped_resources = {
         bg_logging = 2
         bg_fishing = 5
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 4
     }
     naval_exit_id = 3018
 }
@@ -1392,6 +1400,10 @@ STATE_SAMARTHYA = {
         type = "bg_rubber"
         undiscovered_amount = 27
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 12
+    }
     naval_exit_id = 3045
 }
 STATE_JIVANTA = {
@@ -1412,6 +1424,10 @@ STATE_JIVANTA = {
     resource = {
         type = "bg_rubber"
         undiscovered_amount = 20
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 9
     }
     naval_exit_id = 3045
 }

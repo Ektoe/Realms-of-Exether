@@ -25,7 +25,7 @@
 				   }
 				}
 				  reserves=1
-				  activate_production_methods={ "pm_manowar_leviathan_ships" "pm_safety_potions" }
+				  activate_production_methods={ "pm_manowar_leviathan_ships" "pm_manual_harvesting" }
 			}
 			create_building={
 				building="building_military_shipyards"
@@ -68,7 +68,7 @@
 			   }
 			}
 			reserves=1
-			activate_production_methods={ "pm_manowar_leviathan_ships" "pm_safety_potions" }
+			activate_production_methods={ "pm_manowar_leviathan_ships" "pm_manual_harvesting" }
 		}
 		
 	}
@@ -111,7 +111,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:TKR"
-						levels=1
+						levels=2
 						region="STATE_BYRTHAS"
 				   }
 				}
@@ -133,7 +133,7 @@
 					   }
 					}
 				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_mines_sleep_in_a_bottle" "pm_no_steam_automation" "pm_road_carts" }
+				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives"    "pm_no_steam_automation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -386,7 +386,7 @@
 				activate_production_methods={ "pm_basic_shipbuilding" }
 			}
 			create_building={
-				building="building_wishstone_mine"
+				building="building_wishstone_reefs"
 						  add_ownership={ 
 							building={ 
 								type="building_financial_district"
@@ -396,7 +396,7 @@
 						   }
 						}
 				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_potions_of_fortitude" }
+				activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine"    }
 			  }
 			create_building={
 				building="building_fishing_wharf"
@@ -1165,7 +1165,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:DIS"
-                        levels=3
+                        levels=2
                         region="STATE_CARTHAROS"
                    }
                 }
@@ -1359,6 +1359,23 @@
 		}
 	}
 	s:STATE_GADIRIS = {
+		region_state:MVI = {
+
+			create_building={
+				building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:MVI"
+						levels=1
+						region="STATE_GADIRIS"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+			}
+			
+		}
 		
 	}
 	s:STATE_LEPTARIA = {
@@ -1369,6 +1386,19 @@
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
 			}
+			create_building={
+				building="building_squid_squad"
+				add_ownership={ 
+				  building={ 
+					  type="building_financial_district"
+					  country="c:KVA"
+					  levels=1
+					  region="STATE_LEPTARIA"
+				 }
+			  }
+				reserves=1
+				activate_production_methods= { "pm_simple_squidding" "pm_unrefrigerated" }
+			  }
 		}
 	}
 	s:STATE_OYSSARA = {
@@ -1395,6 +1425,23 @@
 		}
 	}
 	s:STATE_ZUCARA = {
+		region_state:MVI = {
+
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:DIS"
+						levels=2
+						region="STATE_LEPTISCA"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
+			}
+			
+		}
 		
 	}
 	s:STATE_CERNIA = {
@@ -1495,7 +1542,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:DIS"
+						country="c:RKO"
 						levels=1
 						region="STATE_KURTHARA"
 				   }
@@ -1512,7 +1559,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DIS"
+                        country="c:RKO"
                         levels=2
                         region="STATE_EBYSUS"
                    }
@@ -1525,7 +1572,7 @@
 				add_ownership={ 
 					building={ 
                         type="building_adventuring_guild"
-						country="c:DIS"
+						country="c:RKO"
 						levels=2
 						region="STATE_EBYSUS"
 				   }
@@ -1764,8 +1811,8 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:GUR"
-                        levels=4
+                        country="c:KVA"
+                        levels=2
                         region="STATE_CYRRA"
                    }
                 }
@@ -2412,7 +2459,6 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_manowar_leviathan_ships" "pm_safety_potions" }
 			}
 
 		}

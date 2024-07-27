@@ -2,7 +2,7 @@
 	c:AHO = {
 		
 		effect_starting_politics_liberal = yes
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology_tier_knowledge_tech = yes
 		
 		activate_law = law_type:law_magocracy
 		activate_law = law_type:law_census_voting
