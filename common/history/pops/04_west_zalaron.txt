@@ -1918,7 +1918,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = soulwrought
-			size = 142960
+			size = 42960
 		}
 		create_pop = {
 			culture = yrian
@@ -1943,7 +1943,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = soulwrought
-			size = 161879
+			size = 61879
 		}
 		create_pop = {
 			culture = yrian
@@ -1960,6 +1960,14 @@
 		create_pop = {
 			culture = florishnom
 			size = 600
+		}
+		create_pop = {
+			culture = soulwrought
+			size = 858900
+		}
+		create_pop = {
+			culture = ravikian
+			size = 42021
 		}
 	}
   }
@@ -1988,17 +1996,16 @@
 			size = 12635
 		}
 		create_pop = {
+			culture = ravikian
+			size = 42891
+		}		
+		create_pop = {
 			culture = florishnom
 			size = 33857
 		}
 		create_pop = {
 			culture = soulwrought
-			size = 303 
-		}
-		create_pop = {
-			pop_type = slaves
-			culture = soulwrought
-			size = 15689
+			size = 658310
 		}
 		create_pop = {
 			culture = west_thalorian
@@ -2044,7 +2051,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = soulwrought
-			size = 318693
+			size = 18693
 		}
 	}
   }
@@ -2093,7 +2100,7 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = lake_thalorian
-			size = 99087
+			size = 499087
 		}
 		create_pop = {
 			culture = central_thalorian
@@ -2134,7 +2141,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = soulwrought
-			size = 87057
+			size = 7057
 		}
 	}
   }
@@ -2185,7 +2192,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = soulwrought
-			size = 112994
+			size = 12994
 		}
 
 	}
@@ -2234,13 +2241,17 @@
 			size = 329008
 		}
 		create_pop = {
+			culture = ravikian
+			size = 142393
+		}
+		create_pop = {
 			culture = soulwrought
 			size = 1806
 		}
 		create_pop = {
 			pop_type = slaves
 			culture = soulwrought
-			size = 229998
+			size = 29998
 		}
 		create_pop = {
 			culture = florishnom
@@ -2261,7 +2272,11 @@
 	region_state:RAV = {
 		create_pop = {
 			culture = florishnom
-			size = 251997
+			size = 190997
+		}
+		create_pop = {
+			culture = ravikian
+			size = 61394
 		}
 		create_pop = {
 			culture = soulwrought
@@ -2270,7 +2285,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = soulwrought
-			size = 58467
+			size = 8467
 		}
 	}
   }
@@ -2315,6 +2330,11 @@
 			culture = ravikian
 			size = 199228
 		}
+		create_pop = {
+			pop_type = slaves
+			culture = soulwrought
+			size = 65819
+		}
 	}
   }
   s:STATE_DRAAIVELD = {
@@ -2338,15 +2358,15 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = lake_thalorian
-			size = 113841
+			size = 713841
 		}
 		create_pop = {
 			culture = ravikian
-			size = 20000
+			size = 288211
 		}
 		create_pop = {
 			culture = yrian
-			size = 1100
+			size = 1178
 		}
 	}
   }
@@ -2376,10 +2396,6 @@
 			culture = lake_thalorian
 			size = 266461
 		}
-		create_pop = {
-			culture = ravikian
-			size = 25162
-		}
 
 	}
   }
@@ -2407,15 +2423,11 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = central_thalorian
-			size = 800000
+			size = 482891
 		}
 		create_pop = {
 			culture = lake_thalorian
-			size = 320000
-		}
-		create_pop = {
-			culture = ravikian
-			size = 250000
+			size = 421019
 		}
 	}
   }
@@ -2449,7 +2461,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = soulwrought
-			size = 312079
+			size = 12079
 		}
 	}
   }
@@ -2477,16 +2489,15 @@
 		}
 		create_pop = {
 			culture = soulwrought
-			size = 817 
-		}
-		create_pop = {
-			pop_type = slaves
-			culture = soulwrought
-			size = 31183
+			size = 645319
 		}
 		create_pop = {
 			culture = west_thalorian
-			size = 8000
+			size = 8867
+		}
+		create_pop = {
+			culture = ravikian
+			size = 28899
 		}
 	}
   }
@@ -2564,15 +2575,15 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = lake_thalorian
-			size = 201061
+			size = 981861
 		}	
 		create_pop = {
 			culture = yrian
-			size = 41061
+			size = 41661
 		}	
 		create_pop = {
 			culture = ravikian
-			size = 11061
+			size = 331561
 		}		
 	}
   }
@@ -2667,7 +2678,7 @@
 		create_pop = {
 			pop_type = slaves
 			culture = soulwrought
-			size = 222862
+			size = 2862
 		}
 		create_pop = {
 			culture = west_thalorian
@@ -2711,11 +2722,11 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = lake_thalorian
-			size = 150000
+			size = 399281
 		}
 		create_pop = {
 			culture = waldgnomklaai
-			size = 200000
+			size = 320591
 		}
 	}
   }
@@ -2755,19 +2766,15 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = lake_thalorian
-			size = 500000
-		}
-		create_pop = {
-			culture = ravikian
-			size = 201000
+			size = 792919
 		}
 		create_pop = {
 			culture = yrian
-			size = 33000
+			size = 33181
 		}
 		create_pop = {
 			culture = waldgnomklaai
-			size = 25000
+			size = 25427
 		}
 	}
   }
@@ -2825,15 +2832,15 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = dunaq
-			size = 76000
+			size = 92018
 		}
 		create_pop = {
 			culture = rahoru
-			size = 74000
+			size = 74898
 		}
 		create_pop = {
 			culture = lake_thalorian
-			size = 212000
+			size = 612097
 		}
 	}
   }
@@ -2865,15 +2872,15 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = lake_thalorian
-			size = 250000
+			size = 75371
 		}
 		create_pop = {
 			culture = yrian
-			size = 100000
+			size = 118199
 		}
 		create_pop = {
 			culture = waldgnomklaai
-			size = 30000
+			size = 31718
 		}
 	}
   }
@@ -2898,10 +2905,6 @@
 		create_pop = {
 			culture = rethrashar
 			size = 52000
-		}
-		create_pop = {
-			culture = ravikian
-			size = 2000
 		}
 	}
   }
@@ -2929,20 +2932,20 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = lake_thalorian
-			size = 121499
+			size = 792149
 		}
 		create_pop = {
 			culture = dunaq
-			size = 27000
+			size = 27208
 		}
 		create_pop = {
 			culture = dunaq
 			religion = old_faith
-			size = 70004
+			size = 73814
 		}
 		create_pop = {
 			culture = kusichaki
-			size = 6000
+			size = 6764
 		}
 	}
   }
@@ -2967,15 +2970,15 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = lake_thalorian
-			size = 139895
+			size = 839895
 		}
 		create_pop = {
 			culture = kusichaki
-			size = 8000
+			size = 8392
 		}
 		create_pop = {
 			culture = dunaq
-			size = 16000
+			size = 16218
 		}
 	}
   }
@@ -2983,15 +2986,15 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = lake_thalorian
-			size = 14000
+			size = 585895
 		}
 		create_pop = {
 			culture = dunaq
-			size = 8004
+			size = 8819
 		}
 		create_pop = {
 			culture = kusichaki
-			size = 3000
+			size = 3192
 		}
 	}
   }

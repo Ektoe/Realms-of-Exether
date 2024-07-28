@@ -1,3 +1,24 @@
+# Arrador - ARR
+
+ARR_queen_soranda_template = {
+    first_name = Soranda
+    last_name = Taldren
+    historical = yes
+	ruler = yes
+    female = yes
+    noble = yes
+    birth_date = 1141.2.26
+    dna = dna_queen_soranda
+    culture = cu:dorite
+    interest_group = ig_industrialists
+    ideology = ideology_market_liberal
+    traits = {
+		ambitious
+		arrogant
+		political_appointee
+    }
+}
+
 ARR_mathieu_le_bris = {
 	first_name = Mathieu
 	last_name = Le_Bris

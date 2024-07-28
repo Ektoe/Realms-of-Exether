@@ -230,7 +230,7 @@ s:STATE_EASTERN_PLAGUEWOOD = {
 add_homeland = cu:plaguedweller
 }
 
-s:STATE_EASTERN_PLAGUEWOOD_2 = {
+s:STATE_NORTHERN_EXPANSE = {
     create_state = {
         country = c:RTD
         owned_provinces = { "x53FCDC" "x54A3FE" "x56FBF7" "x5BEDAE" "x60DBCE" "x69F9B7" "x7CEABF" "x81B5C4" "x8DDDC1" "x94D0E8" "xA3B1CB" "xA4C6B4" "xA6D7AC" "xB57BE4" "xC07EF9" "xCCCCC7" "xCE96A0" "xD167F1" "xD735F5" "xE0BEAA" "xEB33EB" "xEF5EF9" "xF4DDDE" "xF739EC" "xF8ABAC" "xF97B82" }
@@ -246,7 +246,7 @@ s:STATE_FORESTS_HEART = {
 add_homeland = cu:plaguedweller
 }
 
-s:STATE_FORESTS_HEART_2 = {
+s:STATE_BURAMONG = {
     
     create_state = {
         country = c:BDB
@@ -255,7 +255,7 @@ s:STATE_FORESTS_HEART_2 = {
 add_homeland = cu:plaguedweller
 }
 
-s:STATE_FORESTS_HEART_3 = {
+s:STATE_PLAGUEBRUSH = {
     create_state = {
         country = c:BDB
         owned_provinces = { "x49DEFE" "x83F8E4" "x91BDEC" "xA3D8DB" "xA8CFE0" "xB39CCC" "xB4FC70" "xB9E382" "xC28FFC" "xD1C670" "xD1E0F6" "xE69B99" "xEA94A4" "xED9F6B" "xEEB873" "xF2EC8C" "xF2FEFB" "xF8D27E" "xFC39CF" }
@@ -280,7 +280,7 @@ add_homeland = cu:plaguedweller
 add_homeland = cu:korkaz
 }
 
-s:STATE_PLAGUEWOOD_HINTERLANDS_2 = {
+s:STATE_SANDWOOD = {
     create_state = {
         country = c:BDB
         owned_provinces = { "x8CDBA9" "xAF8BED" "xC096BE" "xC998FD" "xD3A8C6" "xD9F86B" "xEB88C2" "xEBE557" "xEEB798" "xFA70A7" }
@@ -302,16 +302,16 @@ s:STATE_ASHWICK = {
         owned_provinces = { "x25FCE1" "x4FE2FC" "x96B8B4" "xB4FDAF" "xC2E295" "xCC76DB" "xD2AFA0" "xD48BEA" "xD5D09F" "xE97AAE" "xED89D1" "xF69DE7" "xF749C1" "xF7DD51" }
 }
 add_homeland = cu:plaguedweller
-add_claim = c:ARR
+add_claim = c:BDB
 }
 
-s:STATE_ASHWICK_2 = {
+s:STATE_WICKENWOOD = {
     create_state = {
         country = c:ASW
         owned_provinces = { "x5CE8D4" "x7CF2BC" "xA9EE6F" "xABDE87" "xAC65F9" "xACF971" "xB798EA" "xD5C8F8" "xD8F7E1" "xDCEEDA" "xDD9596" "xE087DE" "xE590EE" "xE9F1BC" "xED8FA8" "xF3F312" "xFA9689" "xFAED99" }
 }
 add_homeland = cu:plaguedweller
-add_claim = c:ARR
+add_claim = c:BDB
 }
 
 s:STATE_MINUPHOSS = {
@@ -335,7 +335,7 @@ s:STATE_OUTER_MOORWEALD = {
 add_homeland = cu:coast_halfling
 }
 
-s:STATE_OUTER_MOORWEALD_2 = {
+s:STATE_MOORESHIRE = {
     create_state = {
         country = c:SMA
         owned_provinces = { "x58E8D0" "x61D1ED" "x78E2C4" "x8CD1C4" "xB3E97F" "xBBCDC1" "xC082E1" "xC8CF79" "xE364BE" "xEBF3DC" "xECC154" "xF8BFE4" }
@@ -343,7 +343,7 @@ s:STATE_OUTER_MOORWEALD_2 = {
     add_homeland = cu:coast_halfling
 }
 
-s:STATE_OUTER_MOORWEALD_3 = {
+s:STATE_SMALLWOOD = {
     create_state = {
         country = c:SMA
         owned_provinces = { "x32DCE8" "x37F6D5" "x52CBDC" "x65F5D8" "x76F2C3" "x87AFDA" "x8DFDF8" "x93C1C0" "x94B7CC" "x9ADDDC" "x9F9ED4" "xAB93E9" "xACA8C1" "xB0DEF3" "xB1C9CF" "xB2E469" "xB6A3F0" "xC5EEEE" "xCF92B0" "xD2F2CA" "xD3C0B8" "xD5AB81" "xD8B79F" "xDBC4EE" "xDE8DEF" "xF18DD7" "xF2CC45" "xF530F9" "xF93CF0" "xFDF0C3" }
@@ -504,7 +504,7 @@ s:STATE_GREENCOURT = {
 add_homeland = cu:dorite
 }
 
-s:STATE_GREENCOURT_2 = {
+s:STATE_PRILYRA = {
     create_state = {
         country = c:PRI
         owned_provinces = { "x7B99E1" "x99D4E8" "xA1E3B4" "xA4A1EA" "xB8EF82" "xC1FE51" "xC9EF58" "xCF77C4" "xD2C86D" "xDDF5B3" "xE1CA72" "xE7CBC1" "xEDB3A4" "xF2F7E7" "xF5B592" "xFCB261" }
@@ -879,6 +879,7 @@ s:STATE_WICKERRYE = {
     }
 add_homeland = cu:mousefolk
 add_homeland = cu:plaguedweller
+add_claim = c:RTD
 }
 
 s:STATE_SILVERTARGE = {

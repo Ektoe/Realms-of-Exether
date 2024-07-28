@@ -40,7 +40,7 @@ building_logging_camp_liquortrees = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
-building_hunting_lodge = {
+building_hunting_lodge  = {
 	building_group = bg_hunting
 	texture = "gfx/interface/icons/building_icons/essence_temperate.dds"
 	city_type = wood
@@ -55,6 +55,54 @@ building_hunting_lodge = {
 	production_method_groups = {
 		pmg_base_building_hunting_lodge
 		pmg_hunting_meat
+		pmg_hunting_equipment
+		pmg_transportation_hunting_lodges
+		
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+
+building_desert_hunting_lodge = {
+	building_group = bg_desert_hunting
+	texture = "gfx/interface/icons/building_icons/essence_temperate.dds"
+	city_type = wood
+	required_construction = construction_cost_low
+	terrain_manipulator = forestry
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		hunting_lodges
+	}
+
+	production_method_groups = {
+		pmg_base_building_desert_hunting_lodge
+		pmg_hunting_chimesilt
+		pmg_hunting_equipment
+		pmg_transportation_hunting_lodges
+		
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+
+building_khus_hunting_lodge = {
+	building_group = bg_khus_hunting
+	texture = "gfx/interface/icons/building_icons/essence_temperate.dds"
+	city_type = wood
+	required_construction = construction_cost_low
+	terrain_manipulator = forestry
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		hunting_lodges
+	}
+
+	production_method_groups = {
+		pmg_base_building_khus_hunting_lodge
+		pmg_hunting_khus_chimesilt
 		pmg_hunting_equipment
 		pmg_transportation_hunting_lodges
 		
@@ -142,6 +190,23 @@ building_logging_camp_syrup_trees = {
 		pmg_syrup_trees
 		pmg_transportation_building_logging_camp
 		
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+building_fur_hunting_lodge = {
+	building_group = bg_game_hunting
+	texture = "gfx/interface/icons/building_icons/building_fur_lodge.dds"
+	city_type = farm
+	required_construction = construction_cost_low
+	terrain_manipulator = farmland_rye
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_fur_hunting
+		pmg_exotic_game
+		pmg_game_hunting_potions
 	}
 	ownership_type = self
 

@@ -243,16 +243,17 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_ravik
+			name = Trommelkustan_Assault_Army
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_TROMMELKUST
-				count = 6
+				count = 30
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
+				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_TROMMELKUST
-				count = 2
+				count = 20
 			}
 
 			save_scope_as = rav_army
@@ -260,6 +261,7 @@
 
 		create_character = {
 			is_general = yes
+			commander_rank = commander_rank_2
 			hq = region_ravik
 			save_scope_as = rav_general
 		}
@@ -267,10 +269,142 @@
 		scope:rav_general = {
 			transfer_to_formation = scope:rav_army
 		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_ravik
+			name = Raviki_National_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SPRANKELMEER
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SPRANKELMEER
+				service_type = conscript
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_SPRANKELMEER
+				count = 5
+			}
+
+			save_scope_as = rav_army
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			hq = region_ravik
+			save_scope_as = rav_general
+		}
+		
+		scope:rav_general = {
+			transfer_to_formation = scope:rav_army
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_ravik
+			name = Raviki_Border_Defense_Force
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_FLUITVELD
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_FLUITVELD
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RATELBERG
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GNURKENSTAD
+				count = 5
+			}
+
+			combat_unit = {
+                type = unit_type:combat_unit_type_line_infantry
+                state_region = s:STATE_RATELBERG
+                service_type = conscript
+                count = 10
+            }
+
+			save_scope_as = rav_army
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_3
+			hq = region_ravik
+			save_scope_as = rav_general
+		}
+		
+		scope:rav_general = {
+			transfer_to_formation = scope:rav_army
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_ravik
+			name = Soulwrought_Slave_Legion
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RATELBERG
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_RATELBERG
+				service_type = conscript
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GNURKENSTAD
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GNURKENSTAD
+				service_type = conscript
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_SPRANKELMEER
+				count = 5
+			}
+
+			save_scope_as = rav_army
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_5
+			hq = region_ravik
+			save_scope_as = rav_general
+		}
+		
+		scope:rav_general = {
+			transfer_to_formation = scope:rav_army
+		}
+
 		
 		create_military_formation = {
 			type = fleet
 			hq_region = sr:region_ravik
+			name = Raviki_Coastal_Fleet
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -300,29 +434,317 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_hasals_mirror
+			name = Kingsguard
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_VONKENDAM
-				count = 8
+				count = 7
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BELLENBERG
+				count = 7
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GLIMMERDAM
+				count = 7
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_SNAARBERG
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_VONKENDAM
+				count = 12
+			}
+		}
+			save_scope_as = tle_army8
+
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			hq = region_hasals_mirror
+			save_scope_as = tle_general8
+		}
+		
+		scope:tle_general8 = {
+			transfer_to_formation = scope:tle_army8
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_hasals_mirror
+			name = Army_of_Havenshire
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HAVENSHIRE
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HAVENSHIRE
+				service_type = conscript
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_STORMWATCH
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_EVERLUND
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_VONKENDAM
-				count = 2
+				state_region = s:STATE_FARREACH
+				count = 10
 			}
 
-			save_scope_as = tle_army
+			save_scope_as = tle_army2
+		
+		}
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			hq = region_hasals_mirror
+			save_scope_as = tle_gener
+		}
+		
+		scope:tle_gener = {
+			transfer_to_formation = scope:tle_army2
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_hasals_mirror
+			name = Windsong_Conscript_Legion
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WINDSONG
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WINDSONG
+				service_type = conscript
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MOONSHADE
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MOONSHADE
+				service_type = conscript
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WINDSONG
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_STORMHOLM
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_STORMHOLM
+				service_type = conscript
+				count = 7
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_MISTVALE
+				count = 7
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MISTVALE
+				service_type = conscript
+				count = 10
+			}
+
+			save_scope_as = tle_army3
 		}
 
 		create_character = {
 			is_general = yes
+			commander_rank = commander_rank_1
 			hq = region_hasals_mirror
-			save_scope_as = tle_general
+			save_scope_as = tle_general3
 		}
 		
 		scope:tle_general = {
-			transfer_to_formation = scope:tle_army
+			transfer_to_formation = scope:tle_army3
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_hasals_mirror
+			name = Royal_Thalorian_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VONKENDAM
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SNAARBERG
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SNAARGRACHT
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_VONKENDAM
+				count = 10
+			}
+
+			save_scope_as = tleforce
+		}
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_1
+			hq = region_hasals_mirror
+			save_scope_as = tlegen
+		}
+		
+		scope:tlegen = {
+			transfer_to_formation = scope:tleforce
+		}
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_hasals_mirror
+			name = Royal_Homeguard_Army
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SPRONKERGROEN
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SPRONKERGROEN
+			    service_type = conscript
+				count = 12
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SNAARGRACHT
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SNAARGRACHT
+			    service_type = conscript
+				count = 12
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WINDSONG
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GLIMMERDAM
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_VONKENDAM
+				count = 7
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VONKENDAM
+			    service_type = conscript
+				count = 10
+			}
+
+			save_scope_as = tle_army5
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_1
+			hq = region_hasals_mirror
+			save_scope_as = tle_general5
+		}
+		
+		scope:tle_general = {
+			transfer_to_formation = scope:tle_army5
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_hasals_mirror
+			name = Southern_Frontier_Militia
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SUNDALE
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BRIGHTWATER
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_BRIGHTWATER
+				service_type = conscript
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_THORNFIELD
+				count = 3
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WHITESTONE
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_WHITESTONE
+				service_type = conscript
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_SNAARGRACHT
+				count = 7
+			}
+
+			save_scope_as = tle_army3
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_1
+			hq = region_hasals_mirror
+			save_scope_as = tle_general6
+		}
+		
+		scope:tle_general = {
+			transfer_to_formation = scope:tle_army6
 		}
 	}
 	c:ARD ?= {

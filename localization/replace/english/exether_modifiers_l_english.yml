@@ -8,8 +8,8 @@
 
   country_magic_reserves_total_subtract: "@magic! [concept_magic_reserves]"
   country_magic_reserves_total_subtract_desc:  "An increase or decrease in @magic! [concept_magic_reserves] Upkeep"
-  state_veil_integrity_contribution: "[concept_state] @veil! [Concept('concept_veil_integrity', 'Veil')] Disruption"
-  state_veil_integrity_contribution_desc: "An increase or decrease in [concept_state] @veil! [concept_veil_integrity]"
+  state_veil_integrity_contribution: "@veilneg! [Concept('concept_veil_integrity', 'Veil')] Disruption"
+  state_veil_integrity_contribution_desc: "A decrease in @veilneg! [concept_veil_integrity]"
 
  country_archmages_pol_str_mult: "[concept_political_strength] of $archmages$"
  country_archmages_pol_str_mult_desc: "An increase or decrease in the [concept_political_strength] of $archmages$"
@@ -78,13 +78,19 @@
   state_adventurer_coverage_mult: "Adventurer Coverage"
   state_adventurer_coverage_mult_desc: "A bonus or penalty to the [Concept('concept_state','$concept_state_possessive$')] [concept_adventurer_coverage]"
 
- building_group_bg_technology_throughput_add: "$bg_technology$ [concept_throughput]"
- building_group_bg_technology_throughput_add_desc: "A bonus or penalty to both input and output of $bg_technology$"
+  building_group_bg_technology_throughput_add: "$bg_technology$ [concept_throughput]"
+  building_group_bg_technology_throughput_add_desc: "A bonus or penalty to both input and output of $bg_technology$"
 
- building_group_bg_military_throughput_add: "$bg_military$ [concept_throughput]"
- building_group_bg_military_throughput_add_desc: "A bonus or penalty to both input and output of $bg_military$"
+  building_group_bg_military_throughput_add: "$bg_military$ [concept_throughput]"
+  building_group_bg_military_throughput_add_desc: "A bonus or penalty to both input and output of $bg_military$"
 
- country_institution_magical_focus_max_investment_add: "Max $institution_magical_focus$ [concept_institution] Investment"
- country_institution_magical_focus_max_investment_add_desc: "A bonus or penalty to the maximum investment level of the $institution_magical_focus$ [concept_institution]"
+  country_institution_magical_focus_max_investment_add: "Max $institution_magical_focus$ [concept_institution] Investment"
+  country_institution_magical_focus_max_investment_add_desc: "A bonus or penalty to the maximum investment level of the $institution_magical_focus$ [concept_institution]"
 
+  building_group_bg_rice_farms_leechgardens_throughput_add: "$bg_rice_farms_leechgardens$ [concept_throughput]"
+  building_group_bg_rice_farms_leechgardens_throughput_add_desc: "A bonus or penalty to the input and output of $bg_rice_farms_leechgardens$"
   #Veil Integrity 
+
+ #Static Modifiers
+  thalorian_victor: "Thalorian Crusade Victor"
+  thalorian_loser: "Thalorian Crusade Loser"

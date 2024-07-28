@@ -60,7 +60,15 @@
 		rotation = 0.0
 	}
 	
-	building_rye_farm = {
+	building_rye_farm = { 
+		"european_province_farm_01_mesh"
+		"european_province_farm_02_mesh"
+	}
+	building_beekeeping = { 
+		"european_province_farm_01_mesh"
+		"european_province_farm_02_mesh"
+	}
+	building_underfarm = { 
 		"european_province_farm_01_mesh"
 		"european_province_farm_02_mesh"
 	}
@@ -88,7 +96,9 @@
 		"european_province_farm_01_mesh"
 		"european_province_farm_02_mesh"
 	}
-	building_livestock_ranch = {"european_rural_ranch_01_mesh"}
+	building_livestock_ranch = { "european_rural_ranch_01_mesh"}
+	building_spider_ranch = { "european_rural_ranch_01_mesh"}
+	building_fur_hunting_lodge = {"european_rural_ranch_01_mesh"}
 	
 	building_coffee_plantation = {"southern_plantation_mesh"}
 	building_silk_plantation = {"southern_plantation_mesh"}	
@@ -99,6 +109,7 @@
 	building_tobacco_plantation = {"southern_plantation_mesh"}
 	building_sugar_plantation = {"southern_plantation_mesh"}
 	building_banana_plantation = {"southern_plantation_mesh"}
+	building_songberry_plantation = {"southern_plantation_mesh"}
 	building_vineyard_plantation = {"southern_plantation_mesh"}
 
 	building_manor_house = {"european_rural_manorhouse_01_mesh"}

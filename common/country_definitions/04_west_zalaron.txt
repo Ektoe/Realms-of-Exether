@@ -430,7 +430,7 @@ TLE = {
 	tier = kingdom
 	
 	cultures = { lake_thalorian }
-	capital = STATE_VONKENDAM
+	capital = STATE_BRIGHTWATER
 }
 
 #West Thaloria

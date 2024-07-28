@@ -405,7 +405,7 @@ ZKW = {
 	tier = kingdom
 
 	cultures = { zakonish } 
-	capital = STATE_WYRMBONE_CLIFFS
+	capital = STATE_ZARKI
 }
 
 

@@ -71,11 +71,11 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = kotskarvi
-				size = 304908
+				size = 204908
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 372400
+				size = 472400
 			}
 		}
 	}
@@ -107,11 +107,11 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = illvasaari
-				size = 598129
+				size = 698129
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 374120
+				size = 274120
 			}
 		}
 	}
@@ -231,15 +231,15 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = drogori
-				size = 76208
+				size = 36208
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 935900
+				size = 1035900
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 104000
+				size = 54000
 			}
 		}
 	}
@@ -263,11 +263,11 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = kotskarvi
-				size = 43764
+				size = 13764
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 100012
+				size = 130012
 			}
 		}
 	}
@@ -275,11 +275,11 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = kotskarvi
-				size = 157296
+				size = 57296
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 384000
+				size = 484000
 			}
 			create_pop = {
 				culture = drogori
@@ -335,11 +335,11 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = illvasaari
-				size = 832996
+				size = 1032996
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 281992
+				size = 181992
 			}
 			create_pop = {
 				culture = garagoz
@@ -476,15 +476,15 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = illvasaari
-				size = 210000
+				size = 311891
 			}
 			create_pop = {
 				culture = garagoz
-				size = 110000
+				size = 12819
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 80000
+				size = 82901
 			}
 		}
 	}
@@ -492,15 +492,15 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = illvasaari
-				size = 197800
+				size = 597800
 			}
 			create_pop = {
 				culture = garagoz
-				size = 344504
+				size = 44504
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 124000
+				size = 24000
 			}
 		}
 	}
@@ -529,11 +529,11 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = kotskarvi
-				size = 273408
+				size = 173408
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 497600
+				size = 597600
 			}
 			create_pop = {
 				culture = drogori
@@ -582,15 +582,15 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = garagoz
-				size = 45000
+				size = 25000
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 38000
+				size = 88000
 			}
 			create_pop = {
 				culture = blacktalon
-				size = 32000
+				size = 12000
 			}
 		}
 	}
@@ -598,11 +598,11 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = kotskarvi
-				size = 274808
+				size = 174808
 			}
 			create_pop = {
 				culture =  illvasaari
-				size = 376000
+				size = 476000
 			}
 			create_pop = {
 				culture = drogori
@@ -915,7 +915,7 @@
 		region_state:ORO = {
 			create_pop = {
 				culture = garagoz
-				size = 164000
+				size = 194000
 			}
 			create_pop = {
 				culture = blacktalon
@@ -947,7 +947,7 @@
 		region_state:ORO = {
 			create_pop = {
 				culture = garagoz
-				size = 77000
+				size = 107000
 			}
 		}
 	}

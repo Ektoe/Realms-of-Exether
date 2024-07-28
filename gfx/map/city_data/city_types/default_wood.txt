@@ -43,7 +43,13 @@
 		rotation = 360.0
 	}
 
-	building_logging_camp = {
+	building_hunting_lodge  = { "generic_forestry_lumberdepo_01_mesh" }
+	building_mushroom_logging  = { "generic_forestry_lumberdepo_01_mesh" }
+	building_dragon_ruins = { "generic_forestry_lumberdepo_01_mesh" }
+	building_desert_hunting_lodge = { "generic_forestry_lumberdepo_01_mesh" }
+	building_khuus_hunting_lodge = { "generic_forestry_lumberdepo_01_mesh" }
+
+	building_logging_camp = { 
 		"generic_forestry_lumberdepo_01_mesh"
 		"generic_forestry_lumberdepo_02_mesh"
 	}

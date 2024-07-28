@@ -936,4 +936,28 @@
 			transfer_to_formation = scope:oaz_fleet
 		}
 	}
+	c:OCR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_equine_plains
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_PLAGUES_END
+				count = 20
+			}
+
+			save_scope_as = ocr_army
+		}
+
+		create_character = {
+			is_general = yes
+			hq = sr:region_equine_plains
+			save_scope_as = ocr_general
+		}
+		
+		scope:ocr_general = {
+			transfer_to_formation = scope:ocr_army
+		}
+	}
 }
