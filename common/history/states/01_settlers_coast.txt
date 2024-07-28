@@ -302,7 +302,7 @@ s:STATE_ASHWICK = {
         owned_provinces = { "x25FCE1" "x4FE2FC" "x96B8B4" "xB4FDAF" "xC2E295" "xCC76DB" "xD2AFA0" "xD48BEA" "xD5D09F" "xE97AAE" "xED89D1" "xF69DE7" "xF749C1" "xF7DD51" }
 }
 add_homeland = cu:plaguedweller
-add_claim = c:ARR
+add_claim = c:BDB
 }
 
 s:STATE_WICKENWOOD = {
@@ -311,7 +311,7 @@ s:STATE_WICKENWOOD = {
         owned_provinces = { "x5CE8D4" "x7CF2BC" "xA9EE6F" "xABDE87" "xAC65F9" "xACF971" "xB798EA" "xD5C8F8" "xD8F7E1" "xDCEEDA" "xDD9596" "xE087DE" "xE590EE" "xE9F1BC" "xED8FA8" "xF3F312" "xFA9689" "xFAED99" }
 }
 add_homeland = cu:plaguedweller
-add_claim = c:ARR
+add_claim = c:BDB
 }
 
 s:STATE_MENZONASSAD = {
@@ -879,6 +879,7 @@ s:STATE_WICKERRYE = {
     }
 add_homeland = cu:mousefolk
 add_homeland = cu:plaguedweller
+add_claim = c:RTD
 }
 
 s:STATE_SILVERTARGE = {
