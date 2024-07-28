@@ -489,7 +489,7 @@ STATE_CARTHAROS = {
     farm = xFB6EB1
     mine = xF2FC97
     wood = xECC7FD
-    arable_land = 40
+    arable_land = 55
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 4
@@ -650,12 +650,13 @@ STATE_KURTHARA = {
     farm = xF7BADA
     mine = xECB25A
     wood = xE99195
-    arable_land = 43
-    arable_resources = { "bg_livestock_ranches" "bg_rye_farms" }
+    arable_land = 50
+    arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
-        bg_fishing = 9
+        bg_fishing = 13
         bg_whaling = 3
         bg_logging = 7
+        bg_game_hunting = 5
         bg_dragon_ruins = 1
     }
     naval_exit_id = 3040
@@ -669,12 +670,13 @@ STATE_EBYSUS = {
     farm = xE0CBBE
     mine = xDEF5E8
     wood = xD0E154
-    arable_land = 57
-    arable_resources = { "bg_livestock_ranches" "bg_rye_farms" }
+    arable_land = 65
+    arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
-        bg_fishing = 10
+        bg_fishing = 15
         bg_logging = 2
         bg_whaling = 2
+        bg_game_hunting = 4
         bg_dragon_ruins = 2
     }
     naval_exit_id = 3052
@@ -763,7 +765,7 @@ STATE_MYSARA = {
     farm = xD9F13B
     mine = xD348E3
     wood = xD0BEE9
-    arable_land = 45
+    arable_land = 52
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_coal_mining = 15
@@ -839,7 +841,7 @@ STATE_THYRIS = {
     farm = xF8D18D
     mine = xF3F5FA
     wood = xE233E3
-    arable_land = 35
+    arable_land = 45
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 8
@@ -1368,21 +1370,21 @@ STATE_RAHKIS = {
 }
 STATE_WHIRINAKI = {
     id = 3381
-    subsistence_building = "building_subsistence_farms"
+    subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x53B0F6" "x62BADF" "x83FCE8" "x86E2EA" "xB7DE78" "xBEC67E" "xCD9ECC" "xCE54EA" "xCFE758" "xD4B58D" "xDCE897" "xEBEFCC" "xEEFE4A" "xEFC6B0" "xF8A276" "xFB719F" }
     port = x53B0F6
     city = xFB719F
     farm = xF8A276
     mine = xEFC6B0
     wood = xEEFE4A
-    arable_land = 17
-    arable_resources = { "bg_livestock_ranches" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" "bg_rye_farms" }
+    arable_land = 55
+    arable_resources = { "bg_livestock_ranches" "bg_rye_farms" "bg_wyrmfruit_plantations" "bg_mint_tea_plantations" }
     capped_resources = {
         bg_logging = 16
         bg_squidding = 7
         bg_fishing = 6
         bg_sulfur_mining = 20
-        bg_game_hunting = 1
+        bg_game_hunting = 5
     }
     naval_exit_id = 3089
 }
@@ -1501,7 +1503,7 @@ STATE_WHAKARAROA = {
     arable_resources = { "bg_livestock_ranches" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" "bg_rye_farms" }
     capped_resources = {
         bg_logging = 7
-        bg_game_hunting = 3
+        bg_game_hunting = 6
     }
     naval_exit_id = 3197
 }
@@ -1533,16 +1535,17 @@ STATE_PUCOVATU = {
     farm = xF5E4BC
     mine = xEBDF56
     wood = xEAD09F
-    arable_land = 18
+    arable_land = 43
     arable_resources = { "bg_livestock_ranches" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" }
     capped_resources = {
         bg_iron_mining = 12
         bg_logging = 6
         bg_squidding = 8
+        bg_game_hunting = 5
     }
     resource = {
         type = "bg_cold_rubber"
-        discovered_amount = 4
+        undiscovered_amount = 5
     }
     naval_exit_id = 3089
 }
@@ -1566,20 +1569,24 @@ STATE_TURAKINA = {
 }
 STATE_RAROMARA = {
     id = 3391
-    subsistence_building = "building_subsistence_farms"
+    subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x94ED9A" "xB7CCF9" "xC1D388" "xC6F3BA" "xCCCBF8" "xD4D686" "xD5AD81" "xDBCABA" "xDFD553" "xE3C6D4" "xE3D267" "xE6AEE9" "xE7C55E" "xE8F584" "xE9E2A4" "xF3996E" }
     port = x94ED9A
     city = xF3996E
     farm = xE9E2A4
     mine = xE8F584
     wood = xE7C55E
-    arable_land = 19
-    arable_resources = { "bg_livestock_ranches" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" "bg_rye_farms" }
+    arable_land = 90
+    arable_resources = { "bg_livestock_ranches" "bg_rye_farms" "bg_wyrmfruit_plantations" "bg_mint_tea_plantations" }
     capped_resources = {
         bg_logging = 18
         bg_squidding = 4
         bg_fishing = 5
-        bg_game_hunting = 2
+        bg_game_hunting = 5
+    }
+    resource = {
+        type = "bg_cold_rubber"
+        undiscovered_amount = 5
     }
     naval_exit_id = 3089
 }
@@ -1634,12 +1641,16 @@ STATE_PATARENI = {
     farm = xFCFC7F
     mine = xF4EE58
     wood = xF164DB
-    arable_land = 25
-    arable_resources = { "bg_livestock_ranches" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" "bg_rye_farms" }
+    arable_land = 48
+    arable_resources = { "bg_livestock_ranches" "bg_rye_farms" "bg_mint_tea_plantations" "bg_wyrmfruit_plantations" }
     capped_resources = {
         bg_logging = 12
         bg_squidding = 10
-        bg_game_hunting = 4
+        bg_game_hunting = 6
+    }
+    resource = {
+        type = "bg_cold_rubber"
+        undiscovered_amount = 2      
     }
     naval_exit_id = 3089
 }
