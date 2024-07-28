@@ -368,6 +368,20 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_glass_bark: "Glass Bark Production"
   pm_increased_glass_bark: "Increased Glass Bark Production"
   
-  
+  # Roads
+  pmg_base_road_quality: "Road Quality"
+  pm_base_road_quality: "Dirt Roads"
+  pm_stone_road_quality: "Stone Roads"
+  pm_paved_road_quality: "Paved Roads"
+  pmg_road_vehicles: "Vehicle Types"
+  pm_covered_road_wagons: "Covered Wagons"
+  pm_steam_fired_engines: "Steam-Fired Motors"
+  pm_early_compression_engines: "Early Compression Engines"
+  pmg_road_security: "Road Security"
+  pm_no_security: "No Road Security"
+  pm_basic_security: "Standard Patrols"
+  pm_experienced_security: "Armed Patrols"
+  pm_militarized_security: "Disciplined Patrols"
+
   ##misc
   base_building_ship_graveyard: "Ship Graveyard"
