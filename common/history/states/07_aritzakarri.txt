@@ -135,6 +135,7 @@ s:STATE_ARTEAGA = {
 		owned_provinces = { "x62E0DB" "x6BE4D7" "xA2A0CB" "xA6EACE" "xABFCB3" "xACF864" "xADE2B7" "xC2ECA1" "xCCFBCA" "xE4FD17" "xED20EA" "xF1BBC5" }
 }
 add_homeland = cu:saglithan
+add_homeland = cu:cliffpercher
 }
 
 s:STATE_MENDIALDE = {
@@ -170,6 +171,7 @@ s:STATE_URDIN = {
 		owned_provinces = { "x50E5F5" "x60DAFC" "x8EFDDE" "x9BEDD1" "xA4BAB1" "xB6E7B8" "xB9B0C2" "xBDCC89" "xF464D4" }
 }
 add_homeland = cu:saglithan
+add_homeland = cu:cliffpercher
 }
 
 s:STATE_KHIARHI = {

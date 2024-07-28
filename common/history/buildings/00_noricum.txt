@@ -104,6 +104,19 @@
         reserves=1
         activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine"   }
       }
+      create_building={
+        building="building_iron_mine"
+      add_ownership={ 
+        building={ 
+          type="building_financial_district"
+          country="c:DUM"
+          levels=1
+          region="STATE_CROWNPEAK"
+         }
+      }
+        reserves=1
+        activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+      }
 		}
 	}
 
@@ -226,19 +239,6 @@
           activate_production_methods={ "pm_iron_frame_buildings" }
         }		
         create_building={
-          building="building_coal_mine"
-          add_ownership={
-            building={
-              type="building_financial_district"
-              country="c:DUM"
-              levels=13
-              region="STATE_SERONTAIN"
-            }
-          }
-          reserves=1
-          activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
-        }
-        create_building={
           building="building_food_industry"
           add_ownership={
             building={
@@ -347,6 +347,19 @@
           reserves=1
           activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
         }
+        create_building={
+          building="building_coal_mine"
+          add_ownership={
+            building={
+              type="building_financial_district"
+              country="c:DUM"
+              levels=5
+              region="STATE_NORTH_HIGHLANDS"
+            }
+          }
+          reserves=1
+          activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+        }
       }
   }
 
@@ -397,12 +410,25 @@
             building={
               type="building_financial_district"
               country="c:DUM"
-              levels=1
+              levels=12
               region="STATE_HIGHPASS"
             }
           }  
           reserves=1
           activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+        }
+        create_building={
+          building="building_iron_mine"
+          add_ownership={
+            building={
+              type="building_financial_district"
+              country="c:DUM"
+              levels=2
+              region="STATE_HIGHPASS"
+            }
+          }
+          reserves=1
+          activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
         }
       }
   }
@@ -435,6 +461,32 @@
 				}
           reserves=1
           activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+        }
+        create_building={
+          building="building_lead_mine"
+          add_ownership={ 
+            building={ 
+              type="building_financial_district"
+              country="c:DUM"
+              levels=2
+              region="STATE_CROWNPEAK"
+             }
+          }
+          reserves=1
+          activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+        }
+        create_building={
+          building="building_coal_mine"
+          add_ownership={
+            building={
+              type="building_financial_district"
+              country="c:DUM"
+              levels=4
+              region="STATE_CROWNPEAK"
+            }
+          }
+          reserves=1
+          activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
         }
       }
   }
@@ -532,19 +584,6 @@
           reserves=1
           activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" }
         }			
-			create_building={
-          building="building_iron_mine"
-				add_ownership={ 
-					building={ 
-						type="building_financial_district"
-						country="c:DUM"
-						levels=1
-						region="STATE_SLUDGE_COAST"
-				   }
-				}
-          reserves=1
-          activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
-        }
         create_building={
           building="building_rice_farm_leechgardens"
           add_ownership={ 
@@ -794,20 +833,7 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_soil_enriching_farming_building_rice_farm" "pm_no_secondary" "pm_tools_building_rice_farm"  }
-			}
-      create_building={
-        building="building_iron_mine"
-        add_ownership={
-          building={
-            type="building_financial_district"
-            country="c:DUM"
-            levels=2
-            region="STATE_TAR_PITS"
-          }
-        }
-        reserves=1
-        activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
-      }		
+			}	
       create_building={
         building="building_sulfur_mine"
         add_ownership={ 

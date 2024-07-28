@@ -36,6 +36,14 @@ state_trait_squid_breeding_grounds = {
 	}
 }
 
+state_trait_crownpeak_leadfield = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+	
+	modifier = {
+		building_lead_mine_throughput_add = 0.15
+	}
+}
+
 state_trait_sludge_pits = {
     icon = "gfx/interface/icons/state_trait_icons/swamp.dds"   
 	modifier = {
@@ -52,4 +60,3 @@ state_trait_highlands_coal = {
         building_coal_mine_throughput_add = 0.10
     }
 }
-
