@@ -1,7 +1,6 @@
 building_roads = {
 	building_group = bg_private_infrastructure
-	texture = ""
-	background = ""
+	texture = "gfx/interface/icons/building_icons/road.dds"
 	ai_nationalization_desire = 0.5 #same reluctance as railways, both will likely need subsidies to run. value is in the infra anyways
 	production_method_groups = {
 		pmg_base_road_quality
