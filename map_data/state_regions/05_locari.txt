@@ -1346,6 +1346,7 @@ STATE_KUNDUZOV = {
 }
 STATE_PULIKOTSK = {
     id = 4926
+    traits = {"state_trait_malaria"}
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x5AD0EA" "x7889FB" "xE6D2D6" "xEB8CD9" "xECF559" "xEEC3D0" }
     port = xEEC3D0
@@ -1363,6 +1364,7 @@ STATE_PULIKOTSK = {
 }
 STATE_TERMEZSK = {
     id = 4927
+    traits = {"state_trait_malaria"}
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x40FEC7" "x8BFC73" "x9DDDEC" "xA1A6D6" "xCE8AB4" "xCE96A6" "xCEEE9A" "xEDADDE" "xF5BDF4" }
     port = x40FEC7
@@ -1413,6 +1415,7 @@ STATE_FARGHANOV = {
 }
 STATE_GHAZNINSKIY = {
     id = 4930
+    traits = {"state_trait_malaria"}
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x32E7E0" "x85F6E9" "x8DDC8C" "xA5EF6C" "xA9A1AB" "xC8ED7E" "xE25FDB" "xED59C0" "xEEAED2" }
     port = x32E7E0
@@ -1432,6 +1435,7 @@ STATE_GHAZNINSKIY = {
 }
 STATE_ANDIZHANSK = {
     id = 4931
+    traits = {"state_trait_malaria"}
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x4BF0BA" "x80D6EF" "xA770FC" "xADFB7B" "xBD96CE" "xC193C7" "xDF997E" "xE21CFC" "xEA97DB" "xFABCD8" "xFB7AD7" }
     port = xBD96CE
