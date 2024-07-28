@@ -40,14 +40,18 @@
 		rotation = 360.0
 	}	
 	
-	building_rye_farm = {"asian_farm_farmstead_01_mesh"}
+	building_rye_farm = { "asian_farm_farmstead_01_mesh"}
+	building_beekeeping  = { "asian_farm_farmstead_01_mesh"}
+	building_underfarm = { "asian_farm_farmstead_01_mesh"}
 	building_wheat_farm = {"asian_farm_farmstead_01_mesh"}
 	building_rice_farm = {"asian_farm_farmstead_01_mesh"}
 	building_rice_farm_leechgardens = {"asian_farm_farmstead_01_mesh"}
 	building_maize_farm = {"asian_farm_farmstead_01_mesh"}
 	building_mountain_maize_farm = {"asian_farm_farmstead_01_mesh"}
 	building_millet_farm = {"asian_farm_farmstead_01_mesh"}
-	building_livestock_ranch = {"asian_rural_ranch_01_mesh"}
+	building_livestock_ranch = { "asian_rural_ranch_01_mesh"}
+	building_spider_ranch = { "asian_rural_ranch_01_mesh"}
+	building_fur_hunting_lodge = {"asian_rural_ranch_01_mesh"}
 	
 	building_coffee_plantation = {"asian_rural_plantation_01_mesh"}
 	building_cotton_plantation = {"asian_rural_plantation_01_mesh"}
@@ -58,6 +62,7 @@
 	building_tobacco_plantation = {"asian_rural_plantation_01_mesh"}
 	building_sugar_plantation = {"asian_rural_plantation_01_mesh"}
 	building_banana_plantation = {"asian_rural_plantation_01_mesh"}
+	building_songberry_plantation = {"asian_rural_plantation_01_mesh"}
 	building_vineyard_plantation = {"asian_rural_plantation_01_mesh"}
 
 	building_manor_house = {"asian_rural_manorhouse_01_mesh"}

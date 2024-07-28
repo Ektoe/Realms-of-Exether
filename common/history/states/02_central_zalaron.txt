@@ -904,7 +904,6 @@ s:STATE_XODAN = {
         owned_provinces = { "x78CBD5" "x8AF2AF" "x9DE5D0" "xBC65F7" "xC0D46B" "xCEC1EC" "xD2D797" "xD8BCC5" "xE1F1B5" "xE479B1" "xF2F6E2" }
 }
 add_homeland = cu:stranfolk
-add_homeland = cu:glabrekthorn
 }
 
 s:STATE_ZALULIK = {
@@ -936,7 +935,7 @@ s:STATE_VOTILAN = {
         country = c:KRO
         owned_provinces = { "x82D2C4" "x8597DF" "x85C3E1" "xC8E8DC" "xDDB798" "xE64AED" "xF3FDBD" "xF4F795" "xF6E26D" "xFA27FD" "xFD986A" }
 }
-add_homeland = cu:tefereti
+add_homeland = cu:glabrekthorn
 }
 
 s:STATE_ZALANIX = {
@@ -1024,6 +1023,7 @@ s:STATE_ALAMARA = {
         owned_provinces = { "x50F9CF" "x5CEDC1" "x65B2E2" "x73B7FC" "x88BEC2" "x91B4B3" "xE9DDBB" "xF349C3" "xF4D1FB" }
 }
 add_homeland = cu:azmaraan
+add_homeland = cu:qinnaat
 }
 
 s:STATE_ESPRANOOR = {

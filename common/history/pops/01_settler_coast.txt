@@ -77,7 +77,7 @@
 		  region_state:EME = {
 			    create_pop = {
 				      culture = ocelian 
-				      size = 360796
+				      size = 960796
 			    }     
 		  }
   }
@@ -103,7 +103,7 @@
 		}
 		create_pop = {
 			culture = ocelian
-			size = 93196
+			size = 398017
 		}
 		create_pop = {
 			culture = rivierling
@@ -121,7 +121,7 @@
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size = 469796
+			size = 528796
 		}
 		create_pop = {
 			culture = vandori
@@ -129,7 +129,7 @@
 		}
 		create_pop = {
 			culture = ocelian
-			size = 101196
+			size = 518017
 		}
 		create_pop = {
 			culture = rivierling
@@ -189,19 +189,19 @@ s:STATE_CAEL_VALEN_2 = {
 		region_state:CER = {
 			create_pop = {
 				culture = cerunite
-				size = 1069083
+				size = 1169083
 			}
 			create_pop = {
 				culture = ocelian
-				size = 398017
+				size = 101196
 			}
 			create_pop = {
 				culture = rivierling
-				size = 128017
+				size = 112017
 			}
 			create_pop = {
 				culture = coast_halfling
-				size = 308017
+				size = 248017
 			}
 		}
   }
@@ -210,19 +210,19 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size = 599083
+			size = 679083
 		}
 		create_pop = {
 			culture = ocelian
-			size = 518017
+			size = 93196
 		}
 		create_pop = {
 			culture = rivierling
-			size = 158017
+			size = 128017
 		}
 		create_pop = {
 			culture = coast_halfling
-			size = 358017
+			size = 293017
 		}
 	}
 }  
@@ -317,11 +317,11 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = rivierling
-			size = 1196400
+			size = 656400
 		}
 		create_pop = {
 			culture = cerunite
-			size = 383996
+			size = 183996
 		}
 		create_pop = {
 			culture = plaguedweller
@@ -334,20 +334,20 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = cerunite
-			size = 492400
+			size = 122400
 		}
 		create_pop = {
 			culture = plaguedweller
-			size = 16000
+			size = 16200
 		}
 		create_pop = {
 			culture = rivierling
-			size = 961204
+			size = 561204
 		}
 		create_pop = {
 			culture = rivierling
 			religion = church_of_man
-			size = 181160
+			size = 121160
 		}
 	}
   }
@@ -355,21 +355,21 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_PENDYM_GWYN = {
 	region_state:CER = {
 		create_pop = {
+			culture = rivierling
+			religion = church_of_man
+			size = 484340
+		}
+		create_pop = {
+			culture = rivierling
+			size = 425900
+		}
+                create_pop = {
 			culture = cerunite
-			size = 202400
+			size = 220400
 		}
 		create_pop = {
 			culture = vandori
 			size = 2200
-		}
-		create_pop = {
-			culture = rivierling
-			religion = church_of_man
-			size = 104340
-		}
-		create_pop = {
-			culture = rivierling
-			size = 97400
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -381,21 +381,21 @@ s:STATE_CAEL_VALEN_2 = {
   s:STATE_PENDYM_GWYN_2 = {
 	region_state:CER = {
 		create_pop = {
+			culture = rivierling
+			religion = church_of_man
+			size = 328600
+		}
+		create_pop = {
+			culture = rivierling
+			size = 314700
+		}
+                create_pop = {
 			culture = cerunite
-			size = 289400
+			size = 281400
 		}
 		create_pop = {
 			culture = vandori
 			size = 2200
-		}
-		create_pop = {
-			culture = rivierling
-			religion = church_of_man
-			size = 106000
-		}
-		create_pop = {
-			culture = rivierling
-			size = 137000
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -403,11 +403,11 @@ s:STATE_CAEL_VALEN_2 = {
 		}
 	}
   }
-  s:STATE_RIVER_MEDDEN = {
-	region_state:MID = {
+  s:STATE_PEARFIELDS = {
+	region_state:GCS = {
 		create_pop = {
 			culture = rivierling
-			size = 400989
+			size = 450989
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -426,15 +426,24 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:CER = {
 		create_pop = {
 			culture = rivierling
-			size = 1100989
+			size = 697589
+		}
+                create_pop = {
+			culture = rivierling
+                        religion = church_of_man
+			size = 115989
+		}
+                create_pop = {
+			culture = coast_halfling
+			size = 258989
 		}
 		create_pop = {
 			culture = cerunite
-			size = 100989
+			size = 50989
 		}
 		create_pop = {
 			culture = mousefolk
-			size = 50307
+			size = 40307
 		}
 	}
   }
@@ -525,7 +534,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_EASTERN_PLAGUEWOOD_2 = {
+  s:STATE_NORTHERN_EXPANSE = {
 	region_state:RTD = {
 		create_pop = {
 			culture = plaguedweller
@@ -570,7 +579,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_FORESTS_HEART_2 = {
+  s:STATE_BURAMONG = {
 	region_state:BDB = {
 		create_pop = {
 			culture = plaguedweller
@@ -588,7 +597,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_FORESTS_HEART_3 = {
+  s:STATE_PLAGUEBRUSH = {
 	region_state:BDB = {
 		create_pop = {
 			culture = plaguedweller
@@ -655,7 +664,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_PLAGUEWOOD_HINTERLANDS_2 = {
+  s:STATE_SANDWOOD = {
 	region_state:BDB = {
 		create_pop = {
 			culture = plaguedweller
@@ -677,7 +686,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_PLAGUEWOOD_HINTERLANDS_3 = {
+  s:STATE_ZURMUND = {
 	region_state:DRO = {
 		create_pop = {
 			culture = aridrun
@@ -712,7 +721,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_ASHWICK_2 = {
+  s:STATE_WICKENWOOD = {
 	region_state:ASW = {
 		create_pop = {
 			culture = plaguedweller
@@ -730,19 +739,19 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_ASHWICK_3 = {
+  s:STATE_MENZONASSAD = {
 	region_state:DRO = {
 		create_pop = {
 			culture = aridrun
-			size = 418404
+			size = 318404
 		}
 		create_pop = {
 			culture = korkaz
-			size = 616427
+			size = 216427
 		}
 		create_pop = {
 			culture = plaguedweller
-			size = 202435
+			size = 102435
 		}
 	}
   }
@@ -768,7 +777,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
 	
 
-	region_state:MID = {
+	region_state:GCS = {
 		create_pop = {
 			culture = coast_halfling 
 			size = 202197
@@ -781,7 +790,7 @@ s:STATE_CAEL_VALEN_2 = {
 	}
   }
 
-  s:STATE_OUTER_MOORWEALD_2 = {
+  s:STATE_MOORESHIRE = {
 	region_state:SMA = {
 		create_pop = {
 			culture = coast_halfling
@@ -804,7 +813,7 @@ s:STATE_CAEL_VALEN_2 = {
   }
 
   
-  s:STATE_OUTER_MOORWEALD_3 = {
+  s:STATE_SMALLWOOD = {
 	region_state:SMA = {
 		create_pop = {
 			culture = coast_halfling
@@ -847,7 +856,7 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:WHI = {
 		create_pop = {
 			culture = mousefolk
-			size = 2444404
+			size = 5444404
 		}
 		create_pop = {
 			culture = coast_halfling
@@ -1160,7 +1169,7 @@ s:STATE_FAR_SHORE_2 = {
 	}
   }
 
-  s:STATE_GREENCOURT_2 = {
+  s:STATE_PRILYRA = {
 	region_state:PRI = { # 
 		create_pop = {
 			culture = wealder
@@ -1288,7 +1297,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:EBR = {
 		create_pop = {
 			culture = eberri
-			size = 647996
+			size = 947996
 		}
 		create_pop = {
 			culture = achonian
@@ -1305,7 +1314,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:EBR = {
 		create_pop = {
 			culture = eberri
-			size = 530908
+			size = 1130908
 		}
 		create_pop = {
 			culture = achonian
@@ -1318,11 +1327,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:AHO = {
 		create_pop = {
 			culture = achonian
-			size = 653196
+			size = 1153196
 		}
 		create_pop = {
 			culture = changeling
-			size = 2200
+			size = 5189
 		}
 	}
   }
@@ -1344,7 +1353,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:AHO = {
 		create_pop = {
 			culture = achonian
-			size = 858808
+			size = 1458808
 		}
 		create_pop = {
 			culture = eberri
@@ -1365,7 +1374,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:PFL = {
 		create_pop = {
 			culture = changeling
-			size = 897396
+			size = 1197396
 		}
 		create_pop = {
 			culture = changeling
@@ -1391,7 +1400,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:PFL = {
 		create_pop = {
 			culture = changeling
-			size = 1057396
+			size = 1557396
 		}
 		create_pop = {
 			culture = changeling
@@ -1417,12 +1426,12 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:AHO = {
 		create_pop = {
 			culture = changeling
-			size = 1040004
+			size = 1340004
 		}
 		create_pop = {
 			culture = changeling
 			religion = cult_of_knowledge
-			size = 740004
+			size = 840004
 		}
 		create_pop = {
 			culture = eberri
@@ -1465,15 +1474,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VHT = {
 		create_pop = {
 			culture = vynduri
-			size = 677296
-		}
-		create_pop = {
-			culture = changeling
-			size = 5996
+			size = 2277296
 		}
 		create_pop = {
 			culture = achonian
-			size = 13504
+			size = 493504
 		}
 	}
   }
@@ -1659,11 +1664,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:DAR = {
 		create_pop = {
 			culture = yelfi
-			size = 2070892
+			size = 3380892
 		}
 		create_pop = {
 			culture = bossardi
-			size = 306996
+			size = 406996
 		}
 	}
   }
@@ -1671,26 +1676,29 @@ s:STATE_FAR_SHORE_2 = {
   s:STATE_COGSREST = {
 		region_state:DRO = {
 			create_pop = {
-				culture = aridrun
-				size = 751104
+				culture = vozi
+				size = 615996
 			}
 			create_pop = {
-				culture = vozi
-				size = 15996
+				culture = aridrun
+				size = 151104
 			}
+
 		}
   }
 
   s:STATE_NOGI_SANDS = {
 		region_state:DRO = {
-			create_pop = {
-				culture = aridrun
-				size = 476392
-			}
+
 			create_pop = {
 				culture = vozi # nanfaren
-				size = 11600
+				size = 507992
 			}
+			create_pop = {
+				culture = aridrun
+				size = 146392
+			}
+
 		}
   }
 
@@ -1698,7 +1706,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:DRO = {
 		create_pop = {
 			culture = aridrun
-			size = 132264
+			size = 332264
 		}
 		create_pop = {
 			culture = vozi
@@ -1712,7 +1720,7 @@ s:STATE_FAR_SHORE_2 = {
 		}
 		create_pop = {
 			culture = aridrun
-			size = 48528
+			size = 248528
 		}
 
 	}
@@ -1722,7 +1730,7 @@ s:STATE_FAR_SHORE_2 = {
 		region_state:DRO = {
 			create_pop = {
 				culture = aridrun
-				size = 372508
+				size = 772508
 			}
 		}
   }
@@ -1740,7 +1748,7 @@ s:STATE_FAR_SHORE_2 = {
 		region_state:DRO = {
 			create_pop = {
 				culture = aridrun
-				size = 1620800
+				size = 973219
 			}
 		}
   }
@@ -1783,11 +1791,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:AHO = {
 		create_pop = {
 			culture = achonian
-			size = 12000
+			size = 119146
 		}
 		create_pop = {
 			culture = changeling
-			size = 500
+			size = 4919
 		}
 	}
   }
@@ -1813,7 +1821,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 567210
+			size = 1567210
 		}
 		create_pop = {
 			culture = aridrun
@@ -1826,7 +1834,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 219260
+			size = 1119260
 		}
 		create_pop = {
 			culture = aridrun
@@ -1839,11 +1847,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 92790
+			size = 142790
 		}
 		create_pop = {
 			culture = aridrun
-			size = 61170
+			size = 461170
 		}
 	}
   }
@@ -1852,11 +1860,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 100680
+			size = 380689
 		}
 		create_pop = {
 			culture = aridrun
-			size = 75840
+			size = 5840
 		}
 	}
   }
@@ -1865,11 +1873,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 56260
+			size = 796260
 		}
 		create_pop = {
 			culture = aridrun
-			size = 35840
+			size = 5840
 		}
 	}
   }

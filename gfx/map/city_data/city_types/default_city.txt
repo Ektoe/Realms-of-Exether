@@ -46,17 +46,22 @@ default_city = {
 	}
 
 	building_construction_sector = {"generic_manufactory_03_mesh"}
+	building_tooling_workshops = {"tools_manufactory_01_mesh"}
 	building_food_industry = {"generic_manufactory_01_mesh"}
+	building_potion_distillery = {"generic_manufactory_01_mesh"}
+	building_distillery = {"generic_manufactory_01_mesh"}
 	building_textile_mills = {"tools_manufactory_01_mesh"}
 	building_furniture_manufacturies= {"furniture_manufactory_01_mesh"}
 	building_glassworks = {"glassworks_manufactory_01_mesh"}
-	building_tooling_workshops = {"tools_manufactory_01_mesh"}
+	building_banana_plantation = {"tools_manufactory_01_mesh"}
+	building_gizmo_workshop = {"tools_manufactory_01_mesh"}
 	building_paper_mills = {"generic_manufactory_02_mesh"}
 	building_chemical_plants = {"colonial_manufactory_01_mesh"}
 	building_steel_mills = {"generic_manufactory_01_mesh"}
 	building_arms_industry = {"colonial_manufactory_03_mesh"}
 	building_artillery_foundries = {"colonial_manufactory_03_mesh"}
 	building_war_machine_industry = {"war_machines_manufactory_01_mesh"}
+	building_airshipyards = {"war_machines_manufactory_01_mesh"}
 	building_motor_industry = {"colonial_manufactory_02_mesh"}
 	building_munition_plants = {"colonial_manufactory_03_mesh"}
 	building_synthetics_plants = {"glassworks_manufactory_01_mesh"}
@@ -66,6 +71,7 @@ default_city = {
 
 	building_urban_center = {}
 	building_airship_dock = {}
+	building_airshipyards = {}
 
 	building_adventuring_guild = {"european_city_government_administration_01_mesh"}
 	building_government_administration = {"european_city_government_administration_01_mesh"}

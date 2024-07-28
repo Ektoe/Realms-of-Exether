@@ -1335,7 +1335,7 @@ types state_panel_types
 					alwaystransparent = no
 
 					blockoverride "texture" {
-						texture = "gfx/interface/icons/state_status_icons/state_adventuring_coverage.dds"
+						texture = "gfx/interface/icons/state_status_icons/state_veil_impact.dds"
 					}
 
 					blockoverride "name" {

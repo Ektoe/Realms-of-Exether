@@ -17,6 +17,18 @@
 			type =  protectorate
 		}
 	}
+	c:CER = {
+		create_diplomatic_pact = {
+			country = c:CDW
+			type = protectorate
+		}
+	}
+	c:AHO = {
+		create_diplomatic_pact = {
+			country = c:VHT
+			type = protectorate
+		}
+	}
 	c:EME = {
 		create_diplomatic_pact = {
 			country = c:LAC
@@ -46,7 +58,7 @@
 	}
 	c:SMA= {
 		create_diplomatic_pact = {
-			country = c:MID
+			country = c:GCS
 			type = personal_union
 		}
 	}
@@ -124,7 +136,7 @@
 			type =  protectorate
 		}
 	}
-
+}
 	
 	
 	# Starting liberty desire
@@ -137,5 +149,4 @@
 	#		 set_relations = { country = c:BIC value = 50 }
 	#		 add_liberty_desire = -20
 	#	}
-	#}	
-}
+	#}

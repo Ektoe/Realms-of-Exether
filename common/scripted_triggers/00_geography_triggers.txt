@@ -24,6 +24,14 @@ state_is_in_noricum = {
 	}
 }
 
+state_is_in_kailando = {
+	OR = {
+		region = sr:region_elusive_coves
+		region = sr:region_lacertia
+		region = sr:region_west_kailando
+	}
+}
+
 state_is_in_locari = {
 	OR = {
 		region = sr:region_east_mindrend_sands	
@@ -253,6 +261,13 @@ country_is_in_east_locari = {
 	exists = capital
 	capital = {
 		state_is_in_east_locari = yes
+	}
+}
+
+country_is_in_kailando = {
+	exists = capital
+	capital = {
+		state_is_in_kailando = yes
 	}
 }
 
@@ -497,6 +512,7 @@ exether_is_coastal = {
 			state_region = s:STATE_JARGALYO
 			state_region = s:STATE_KHASUNEN
 			state_region = s:STATE_TSUKHANJUKU
+			state_region = s:STATE_CLYPYA
 			state_region = s:STATE_HARUGAWASAI
 			state_region = s:STATE_MONGOROKKU
 			state_region = s:STATE_KAMISHINBA
@@ -522,6 +538,7 @@ exether_is_coastal = {
 			state_region = s:STATE_RAZOK
 			state_region = s:STATE_BALDBAN #TAKE YOUR FINASTERIDE
 			state_region = s:STATE_KYRGRUK
+			state_region = s:STATE_VOZMEAD_BORDERLANDS
 			state_region = s:STATE_KRAKYR
 			state_region = s:STATE_GNAKYR
 			state_region = s:STATE_DORAZ
@@ -825,10 +842,10 @@ exether_is_coastal = {
 			state_region = s:STATE_VICEROYS_PEARL
 			state_region = s:STATE_BYRIVER
 			state_region = s:STATE_FIRST_BOROUGH
-			state_region = s:STATE_OUTER_MOORWEALD_3
-			state_region = s:STATE_OUTER_MOORWEALD_2
+			state_region = s:STATE_SMALLWOOD
+			state_region = s:STATE_MOORESHIRE
 			state_region = s:STATE_OUTER_MOORWEALD
-			state_region = s:STATE_RIVER_MEDDEN
+			state_region = s:STATE_PEARFIELDS
 			state_region = s:STATE_PENDYM_GWYN
 			state_region = s:STATE_PENDYM_GWYN_2
 			state_region = s:STATE_CAEL_VALEN
@@ -846,7 +863,7 @@ exether_is_coastal = {
 			state_region = s:STATE_ELF3
 			state_region = s:STATE_ELF2
 			state_region = s:STATE_ELF1
-			state_region = s:STATE_ASHWICK_3
+			state_region = s:STATE_MENZONASSAD
 			state_region = s:STATE_PLAGUES_END
 			state_region = s:STATE_KESHARQAN
 			state_region = s:STATE_EASTERN_EQUINE_PLAIN

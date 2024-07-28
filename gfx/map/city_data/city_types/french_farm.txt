@@ -58,7 +58,15 @@
 	}
 		
 	
-	building_rye_farm = {
+	building_rye_farm = { 
+		"french_farm_farmstead_01_mesh"
+		"french_farm_farmstead_02_mesh"
+	}
+	building_beekeeping  = { 
+		"french_farm_farmstead_01_mesh"
+		"french_farm_farmstead_02_mesh"
+	}
+	building_underfarm = { 
 		"french_farm_farmstead_01_mesh"
 		"french_farm_farmstead_02_mesh"
 	}
@@ -88,7 +96,14 @@
 	}
 
 
-	building_livestock_ranch = {
+	building_livestock_ranch = { 
+		french_farm_ranch_01_mesh
+	}
+	building_spider_ranch = { 
+		french_farm_ranch_01_mesh
+	}
+
+	building_fur_hunting_lodge = {
 		french_farm_ranch_01_mesh
 	}
 	
@@ -102,6 +117,7 @@
 	building_tobacco_plantation = {"french_farm_plantation_01_mesh"}
 	building_sugar_plantation = {"french_farm_plantation_01_mesh"}
 	building_banana_plantation = {"french_farm_plantation_01_mesh"}
+	building_songberry_plantation = {"french_farm_plantation_01_mesh"}
 	building_vineyard_plantation = {"french_farm_plantation_01_mesh"}
 
 	building_manor_house = {"french_rural_manorhouse_01_mesh"}

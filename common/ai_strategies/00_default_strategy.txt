@@ -133,7 +133,10 @@ ai_strategy_default = {
 		}		
 		institution_home_affairs = {	
 			value = 10		
-		}				
+		}
+		institution_magical_focus = {	
+			value = 10		
+		}			
 	}	
 	
 	# How much value does the AI place on an obligation from another country?
@@ -408,7 +411,7 @@ ai_strategy_default = {
 						OR = {
 							scope:target_state = { 
 								is_split_state = yes 
-								region = { 
+								state_region = { 
 									any_scope_state = { owner = ROOT }
 								}
 							}
@@ -470,6 +473,36 @@ ai_strategy_default = {
 				}
 				multiply = 0
 			}
+		
+			## RAV AND TLE
+			if = {
+				limit = {
+					country_has_primary_culture = cu:lake_thalorian
+					scope:target_state = {
+						owner = {
+							c:RAV ?= this
+						}
+					}
+				}
+				add = 100
+			}
+
+			if = {
+				limit = {
+					country_has_primary_culture = cu:ravikian
+					scope:target_state = {
+						owner = {
+							OR = {
+								c:TLE ?= this
+								c:TLA ?= this
+								c:TLW ?= this
+							}
+						}
+					}
+				}
+				add = 100
+			}
+		
 		}
 
 		
@@ -495,7 +528,7 @@ ai_strategy_default = {
 			limit = {	
 				scope:target_state = { 
 					is_treaty_port = yes 
-					region = { 
+					state_region = {
 						any_scope_state = { 
 							OR = {
 								owner = { is_subject_of = ROOT }
@@ -510,6 +543,9 @@ ai_strategy_default = {
 
 		if = {
 			limit = {
+				NOT = { is_country_type = unrecognized }
+				scope:target_country = { is_country_type = unrecognized }
+				NOT = { is_adjacent_to_country = scope:target_country } # No interest in treaty ports right next to our lands
 				OR = {
 					scope:target_country = {
 						has_diplomatic_pact = {
@@ -565,19 +601,16 @@ ai_strategy_default = {
 				
 				if = {
 					limit = {
-						OR = {
-							is_country_type = unrecognized
-							scope:target_country = { NOT = { is_country_type = unrecognized } }
-						}						
+						has_strategic_adjacency = scope:target_state		
 					}
-					multiply = 0.5
+					multiply = 1.50
 				}
 					
 				if = {
 					limit = {
-						has_strategic_adjacency = scope:target_state		
+						scope:target_state = { is_incorporated = no	}
 					}
-					multiply = 1.25
+					multiply = 0.25
 				}	
 
 				if = {
@@ -793,13 +826,39 @@ ai_strategy_default = {
 			}	
 		}
 		
-		min = 0
+		# AI should open up large isolationist powers, not subjugate them
 		if = {
-			limit = { scope:target_country = { is_subject_of = root } }
-			max = 1000			
+			limit = {
+				has_strategy = ai_strategy_economic_imperialism
+				scope:target_country = { 
+					has_law = law_type:law_isolationism
+					gdp >= 5000000
+				} 			
+			}
+			multiply = 0.0
+		}
+		
+		if = {
+			limit = {
+				scope:target_country = { is_subject_of = root }
+			}
+			min = 100
+			max = 1000
+		}
+		else_if = {
+			limit = {
+				has_secret_goal = {
+					who = scope:target_country
+					secret_goal = dominate
+				}
+			}
+			
+			min = 50
+			max = 200
 		}
 		else = {
-			max = 200		
+			min = 0
+			max = 200
 		}
 	}
 
@@ -1021,7 +1080,17 @@ ai_strategy_default = {
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
 	# Using this value in other strategies will function additively
 	aggression = {
-		value = 0
+		value = 0.5
+		
+		# More fighting between unrecognized powers
+		if = {
+			limit = {
+				is_country_type = unrecognized
+				scope:target_country = { is_country_type = unrecognized }
+			}
+			
+			add = 0.5
+		}
 
 		# Higher aggression against subject/overlord if domineering or rebellious
 		if = {
@@ -1048,7 +1117,7 @@ ai_strategy_default = {
 					}
 				}
 			}
-			add = 25
+			add = 100
 		}		
 		
 		# Aggression against radical leftists
@@ -1061,7 +1130,7 @@ ai_strategy_default = {
 					}
 				}
 			}
-			add = 5
+			add = 1
 		}
 		
 		if = {
@@ -1100,16 +1169,30 @@ ai_strategy_default = {
 
 		add = {
 			value = investment_pool_income
-			divide = 750 # 1 construction output per this much into the investment pool				
+			divide = 500 # 1 construction output per this much into the investment pool				
 		}
 		
 		add = {
 			value = income
-					
-			divide = 3000 # 1 construction output per this much income
+			subtract = investment_pool_income	
+			divide = 1500 # 1 construction output per this much income
 
 			min = 0
-		}		
+		}
+		
+		subtract = {
+			value = expenses
+			divide = 2000
+			min = 0
+		}
+
+		add = {
+			value = 0
+			add = income
+			subtract = expenses
+			divide = 500
+			min = 0
+		}
 		
 		# Add a baseline if trying to industrialize
 		if = {
@@ -1125,7 +1208,12 @@ ai_strategy_default = {
 				add = 50
 			}		
 			else_if = {
-				limit = { country_rank >= rank_value:major_power }
+				limit = { 
+					OR = {
+						country_rank >= rank_value:major_power
+						country_rank >= rank_value:unrecognized_major_power
+					}
+				}
 				add = 25
 			}	
 			else = {
@@ -1151,11 +1239,6 @@ ai_strategy_default = {
 			}
 			multiply = 0.75
 		}
-		
-		if = {
-			limit = { has_strategy = ai_strategy_maintain_mandate_of_heaven }
-			multiply = 0.1		
-		}		
 
 		min = 1
 		max = 1000
@@ -1184,17 +1267,16 @@ ai_strategy_default = {
 			divide = 1000000 # 1 level of barracks per 1 million unincorporated population	
 		}
 		
-		## Coastal population reduces spending on army as that spending is needed for navy too
-		#subtract = {
-		#	value = cached_ai_incorporated_coastal_population
-		#	divide = 1000000 
-		#}		
-		#
-		#subtract = {
-		#	value = cached_ai_unincorporated_coastal_population
-		#	divide = 4000000 
-		#}			
-		#Broken by airships?	
+		# Coastal population reduces spending on army as that spending is needed for navy too
+		subtract = {
+			value = cached_ai_incorporated_coastal_population
+			divide = 1000000 
+		}		
+		
+		subtract = {
+			value = cached_ai_unincorporated_coastal_population
+			divide = 4000000 
+		}	
 		
 		# Extra army size from rank
 		if = {
@@ -1221,51 +1303,50 @@ ai_strategy_default = {
 		max = 200 # No more than 200 from population & rank
 
 		add = {
-			value = gdp
-			divide = 500000 # 1 level of barracks per 500k gdp
-		}				
+			value = income
+			multiply = {
+				value = 1
+				subtract = { # Coastal population reduces spending on army as that spending is needed for navy too
+					value = cached_ai_incorporated_coastal_population
+					divide = cached_ai_incorporated_population
+					divide = 4
+				}		
+			}
+			divide = 2000 # 1 level of barracks per 2k income					
+		}			
 		
 		# More advanced standing armies are expensive and should be smaller relative to population
 		if = {
 			limit = { has_technology_researched = line_infantry }
-			multiply = 0.9
+			multiply = 0.8
 		}
 
 		if = {
 			limit = { has_technology_researched = general_staff }
-			multiply = 0.9
+			multiply = 0.8
 		}
 
 		if = {
 			limit = { has_technology_researched = trench_works }
-			multiply = 0.9
+			multiply = 0.8
 		}
 
 		if = {
 			limit = { has_technology_researched = nco_training }
-			multiply = 0.9
+			multiply = 0.8
 		}
 		
 		if = {
 			limit = { has_technology_researched = mobile_armor }
-			multiply = 0.9
+			multiply = 0.8
 		}	
 
-		# Factor in strategies
 		if = {
-			limit = { 
-				OR = {
-					has_strategy = ai_strategy_territorial_expansion 
-					has_strategy = ai_strategy_unify_germany
-					has_strategy = ai_strategy_unify_italy
-					has_strategy = ai_strategy_unify_ethiopia
-					has_strategy = ai_strategy_unify_china
-				}
-			}
-			multiply = 1.25
-		}		
+			limit = { has_law = law_type:law_national_militia }
+			multiply = 0.33
+		}				
 
-		max = 500
+		max = 1000
 		min = 1
 	}
 	
@@ -1274,48 +1355,48 @@ ai_strategy_default = {
 	wanted_navy_size = {
 		value = 0
 	
-		# 1 level of naval base per 350k coastal incorporated population							
+		# 1 level of naval base per 500k coastal incorporated population							
 		add = {
 			value = cached_ai_incorporated_coastal_population
-			divide = 350000 
+			divide = 500000 
 		}
 
-		# 1 level of naval base per 1 million coastal unincorporated population					
+		# 1 level of naval base per 2 million coastal unincorporated population					
 		add = {
 			value = cached_ai_unincorporated_coastal_population
-			divide = 1000000 
+			divide = 2000000 
 		}
 
-		# 1 level of naval base per 1 million population in direct overseas subjects	
+		# 1 level of naval base per 2 million population in direct overseas subjects	
 		add = {
 			value = cached_ai_overseas_subject_population
-			divide = 1000000 
+			divide = 2000000 
 		}	
 
-		max = 250 # No more than 250 from population		
+		max = 100 # No more than 100 from population		
 
-		# 1 level of naval base per 1 million gdp, multiplied by relative incorporated coastal population to total incorporated population
+		# 1 level of naval base per 3k income, multiplied by relative incorporated coastal population to total incorporated population
 		add = {
-			value = gdp
+			value = income
 			divide = cached_ai_incorporated_population
 			multiply = cached_ai_incorporated_coastal_population
-			divide = 1000000 
+			divide = 3000
 		}			
 		
 		# More advanced navies are expensive and should be smaller relative to population
 		if = {
 			limit = { has_technology_researched = ironclad_tech }
-			multiply = 0.8
+			multiply = 0.75
 		}
 
 		if = {
 			limit = { has_technology_researched = dreadnought }
-			multiply = 0.8
+			multiply = 0.75
 		}
 
 		if = {
 			limit = { has_technology_researched = battleship_tech }
-			multiply = 0.8
+			multiply = 0.75
 		}
 
 		# Factor in strategies
@@ -1336,7 +1417,7 @@ ai_strategy_default = {
 		
 		if = {
 			limit = { country_rank < rank_value:major_power }
-			multiply = 0.75
+			multiply = 0.5
 		}						
 		
 		if = {
@@ -1445,23 +1526,50 @@ ai_strategy_default = {
 	# scope:military_formation = military formation
 	# Using this value in other strategies will function additively
 	conscript_battalion_ratio = {
-		value = 0
+		value = 0.5
 		if = {
 			limit = { has_law = law_type:law_national_militia }
-			add = 5
-		}
-		else_if = {
-			limit = { has_law = law_type:law_professional_army }
-			add = 0.5
+			add = 2.5
 		}			
 		else_if = {
 			limit = { has_law = law_type:law_peasant_levies }
-			add = 1
+			add = 0.5
 		}	
 		else_if = {
 			limit = { has_law = law_type:law_mass_conscription }
-			add = 2
-		}		
+			add = 0.5
+		}	
+
+		if = {
+			limit = { 
+				has_technology_researched = mandatory_service
+			}
+			multiply = 1.15
+		}
+		if = {
+			limit = { 
+				has_technology_researched = army_reserves
+			}
+			multiply = 1.15
+		}
+		if = {
+			limit = { 
+				has_technology_researched = logistics
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = { 
+				has_technology_researched = enlistment_offices
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = { 
+				has_technology_researched = war_propaganda
+			}
+			multiply = 1.25
+		}
 	}
 	
 	# What's the base AI desire to nationalize/privatize buildings
@@ -1482,7 +1590,9 @@ ai_strategy_default = {
 	
 	# Add a multiplier to the score AI assigns to particular building groups (default 1)
 	# Using this value in other strategies will result in several multiplications
-	building_group_weights = {}
+	building_group_weights = {
+		bg_construction = 100
+	}
 	
 	# Which buildings should the AI subsidize
 	# Using a different value in a strategy will override this value
@@ -1695,7 +1805,7 @@ ai_strategy_default = {
 				limit = {
 					has_je_befriend_reason = { TARGET = scope:target_country }
 				}
-				add = 500
+				add = 10000
 			}					
 			
 			multiply = {
@@ -1823,6 +1933,18 @@ ai_strategy_default = {
 				}
 				multiply = 0.0
 			}
+			
+			# Don't befriend large isolationist powers
+			if = {
+				limit = { 	
+					scope:target_country = {
+						has_law = law_type:law_isolationism
+						gdp >= 5000000			
+					}
+				}
+
+				multiply = 0
+			}
 		}
 		reconcile = {
 			value = 0
@@ -1840,6 +1962,22 @@ ai_strategy_default = {
 				}
 				
 				add = 100	
+
+				if = {
+					limit = {
+						has_journal_entry = je_earn_recognition
+						scope:target_country = { country_rank >= rank_value:great_power }
+						var:recognition_progress_var >= 100
+					}
+					add = 200
+				}				
+
+				if = {
+					limit = {
+						has_je_befriend_reason = { TARGET = scope:target_country }
+					}
+					add = 10000
+				}		
 
 				if = {
 					limit = {
@@ -2004,7 +2142,7 @@ ai_strategy_default = {
 				limit = {
 					has_je_protect_reason = { TARGET = scope:target_country }
 				}
-				add = 500
+				add = 10000
 			}			
 			
 			multiply = {
@@ -2145,6 +2283,18 @@ ai_strategy_default = {
 					is_subject_of = scope:target_country	
 				}
 				multiply = 0.0	
+			}
+			
+			# Don't protect large isolationist powers
+			if = {
+				limit = { 
+					scope:target_country = {
+						has_law = law_type:law_isolationism
+						gdp >= 5000000		
+					}
+				}
+
+				multiply = 0
 			}				
 		}		
 		antagonize = {
@@ -2183,27 +2333,6 @@ ai_strategy_default = {
 					}
 				}
 				add = 500
-			}
-			
-			if = {
-				limit = {
-					c:GBR ?= this
-					has_variable = committed_to_afghanistan_assistance
-					scope:target_country = {
-						has_variable = AFG_appealed_to_RUS
-					}
-				}
-				add = 100
-			}
-			else_if = {
-				limit = {
-					c:RUS ?= this
-					has_variable = committed_to_afghanistan_assistance
-					scope:target_country = {
-						has_variable = AFG_appealed_to_GBR
-					}
-				}
-				add = 100
 			}
 
 			multiply = {
@@ -2251,7 +2380,7 @@ ai_strategy_default = {
 				limit = {
 					has_game_rule = low_ai_aggression
 				}
-				multiply = 1.5 # Yes, this is actually intended to be an increase - it's to partially compensate for lowered conquer/dominate desires
+				multiply = 1.25 # Yes, this is actually intended to be an increase - it's to partially compensate for lowered conquer/dominate desires
 			}				
 			
 			if = {
@@ -2343,21 +2472,41 @@ ai_strategy_default = {
 
 			if = {
 				limit = { has_je_conquest_reason = { TARGET = scope:target_country } }
-				add = 500
+				add = 10000
 			}		
 
 			if = {
 				limit = {
 					NOT = { is_country_type = unrecognized }
 					scope:target_country = { is_country_type = unrecognized }
+					has_technology_researched = colonization
+					institution_investment_level = {
+						institution = institution_colonial_affairs
+						value >= 1
+					}					
 				}
 				add = 50
 
 				if = {
 					limit = { has_technology_researched = civilizing_mission }
-					add = 50
+					add = 100
+					
+					if = {
+						limit = {
+							is_adjacent_to_country = scope:target_country
+							"relations(scope:target_country)" < relations_threshold:amicable							
+						}
+						add = 1000
+					}
 				}
-			}		
+				
+				if = {
+					limit = {
+						power_bloc ?= { has_principle_group = principle_group:principle_group_colonial_offices }
+					}
+					add = 50
+				}						
+			}			
 
 			if = {
 				limit = {
@@ -2463,14 +2612,14 @@ ai_strategy_default = {
 				limit = {
 					has_game_rule = high_ai_aggression
 				}
-				multiply = 1.5
+				multiply = 1.25
 			}
 			
 			if = {
 				limit = {
 					has_game_rule = low_ai_aggression
 				}
-				multiply = 0.5
+				multiply = 0.75
 			}		
 			
 			# AI implications for Power Blocs: 'conquer' secret goal is more likely towards the country from another Bloc
@@ -2479,6 +2628,14 @@ ai_strategy_default = {
 					country_is_in_different_power_bloc = { TARGET = scope:target_country }
 				}
 				multiply = 1.5
+			}
+
+			# AI implications for Power Blocs: 'conquer' secret goal is much less likely towards the Bloc members
+				if = {
+					limit = {
+						is_in_same_power_bloc = scope:target_country
+					}
+					multiply = 0.25
 			}
 
 			if = {
@@ -2520,7 +2677,7 @@ ai_strategy_default = {
 					has_je_subjugation_reason = { TARGET = scope:target_country }
 					NOT = { is_subject_of = root }
 				}
-				add = 500
+				add = 10000
 			}					
 
 			if = {
@@ -2541,13 +2698,33 @@ ai_strategy_default = {
 					NOT = { is_country_type = unrecognized }
 					scope:target_country = { is_country_type = unrecognized }
 					scope:target_country = { NOT = { is_subject_of = root }	}
+					has_technology_researched = colonization
+					institution_investment_level = {
+						institution = institution_colonial_affairs
+						value >= 1
+					}			
 				}
 				add = 25
 				
 				if = {
 					limit = { has_technology_researched = civilizing_mission }
-					add = 25
-				}					
+					add = 100
+					
+					if = {
+						limit = {
+							is_adjacent_to_country = scope:target_country
+							"relations(scope:target_country)" < relations_threshold:amicable							
+						}
+						add = 1000
+					}					
+				}
+			
+				if = {
+					limit = {
+						power_bloc ?= { has_principle_group = principle_group:principle_group_colonial_offices }
+					}
+					add = 50
+				}				
 			}			
 			
 			if = {
@@ -2653,14 +2830,14 @@ ai_strategy_default = {
 				limit = {
 					has_game_rule = high_ai_aggression
 				}
-				multiply = 1.5
+				multiply = 1.25
 			}
 			
 			if = {
 				limit = {
 					has_game_rule = low_ai_aggression
 				}
-				multiply = 0.5
+				multiply = 0.75
 			}
 			
 			# Shouldn't usually upset diplomatic pacts unless they're bankrupt or infamous

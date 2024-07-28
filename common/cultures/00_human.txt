@@ -1210,6 +1210,9 @@ vairian = {
 	color= hsv{ 0.52 0.51 0.75 }
 	religion = cult_of_the_sea
 	traits = { vairia_culture_group human_heritage }
+	obsessions = {
+		clippers
+	}
 	male_common_first_names={
 		Abel
 		Adriano
@@ -1865,6 +1868,9 @@ ocelian = {
 	color= rgb{ 164 193 223 }
 	religion = church_of_man
 	traits = { settler_coast_culture_group human_heritage }
+	obsessions = {
+		coffee
+	}
 
 	male_common_first_names={
 		August Adrian Antonin Avit AristO_tel Andrieu Arnaut AnfO_s Alexandre Agustin AlE_xi Armand
@@ -3393,6 +3399,9 @@ cerunite={
 	color= hsv{ 0.72 0.25 0.28 }
 	religion = church_of_man
 	traits = { settler_coast_culture_group noric_culture_group human_heritage  }
+	obsessions = {
+		potions
+	}
 	male_common_first_names={
 		Aadu
 		Alar
@@ -3726,6 +3735,9 @@ achonian={
 	color= hsv{ 0.40 0.03 0.58 }
 	religion = cult_of_knowledge
 	traits = { settler_coast_culture_group human_heritage }
+	obsessions = {
+		fine_art
+	}
 	male_common_first_names={
 		Alenka
 		Alfonz
@@ -4001,7 +4013,7 @@ dorite={
 	religion = church_of_man
 	traits = { settler_coast_culture_group human_heritage }
 	obsessions = {
-		tobacco
+		luxury_potions
 	}
 	male_common_first_names={
 		Aimery
@@ -4340,7 +4352,7 @@ nivaskyan={
 varyngi={
 	color= hsv{ 0.47 0.2 0.67 }
 	religion = church_of_man
-	traits = { noric_culture_group everfrostern_culture_group human_heritage }
+	traits = { noric_culture_group human_heritage }
 	male_common_first_names={
 		Ervko
 		Igney
@@ -4449,6 +4461,9 @@ bossardi={
 	color= hsv{ 0.20 0.53 0.23 }
 	religion = church_of_man
 	traits = { east_zalar_culture_group human_heritage }
+	obsessions = {
+		wine
+	}
 	male_common_first_names={
 		Adolf Alexander Anton Augustus Albert Andreas Ambros Alois
 		Benedicht
@@ -4535,6 +4550,9 @@ yanger={
 	color= hsv{ 0.08 0.62 0.93 }
 	religion = horse_worship
 	traits = { nomadic human_heritage }
+	obsessions = {
+		meat
+	}
 		male_common_first_names={
 			Asleg
 			Buzas
@@ -4624,6 +4642,9 @@ yanger={
 	wealder={
 		color= hsv{ 0.13 0.80 0.99 }
 		religion = church_of_man
+		obsessions = {
+			small_arms
+		}
 		traits = {settler_coast_culture_group human_heritage  } 
 		# could have German-speaking, but would make them not discriminated which would be very ahistorical
 		male_common_first_names={

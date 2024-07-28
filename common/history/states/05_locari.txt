@@ -41,7 +41,6 @@ s:STATE_BHAVANASARA = {
 		owned_provinces = { "x79A8F1" "x81C5B6" "xA2C6C5" "xA3C1E3" "xA683E5" "xB097AE" "xB8FEBD" "xBCB981" "xCEF3FD" "xD6F7BF" "xF04FD2" }
 }
 add_homeland = cu:awakened
-add_homeland = cu:navrozdok
 }
 
 s:STATE_SUKHODAYA = {
@@ -561,7 +560,7 @@ add_homeland = cu:awakened_east
 s:STATE_TERMEZSK = {
 	create_state = {
 		country = c:GAN
-		owned_provinces = { "x40FEC7" "x8BFC73" "x9DDDEC" "xA1A6D6" "xA2FBF5" "xCE8AB4" "xCE96A6" "xCEEE9A" "xDBC9B1" "xEDADDE" "xF5BDF4" }
+		owned_provinces = { "x40FEC7" "x8BFC73" "x9DDDEC" "xA1A6D6" "xCE8AB4" "xCE96A6" "xCEEE9A" "xEDADDE" "xF5BDF4" }
 }
 add_homeland = cu:awakened_east
 }
