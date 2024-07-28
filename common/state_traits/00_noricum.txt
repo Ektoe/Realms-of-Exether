@@ -9,6 +9,7 @@
 state_trait_everfrost_terrain = {
     icon = "gfx/interface/icons/state_trait_icons/cold_climate.dds"
 	
+	required_techs_for_colonization = { "railways" }
 	modifier = {
 		building_group_bg_ranching_throughput_add = -0.1
 		state_construction_mult = -0.2
