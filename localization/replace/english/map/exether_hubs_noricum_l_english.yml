@@ -5,7 +5,7 @@
 
   HUB_NAME_STATE_CROWNPEAK_city: "Halstal" # Havencrown?
   HUB_NAME_STATE_CROWNPEAK_farm: "Crownwick"
-  HUB_NAME_STATE_CROWNPEAK_mine: "Stonefield"
+  HUB_NAME_STATE_CROWNPEAK_mine: "leadfield"
   HUB_NAME_STATE_CROWNPEAK_wood: "Woodhill"
   HUB_NAME_STATE_CROWNPEAK_port: "The Harbor"
   HUB_NAME_STATE_CALDAMUS_city: "Calensbury"

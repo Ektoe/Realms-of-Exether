@@ -3,7 +3,7 @@
     subsistence_building = "building_subsistence_farms"
     provinces = { "x41C5FD" "x91B3B1" "xABE279" "xAF99FB" "xB7B7E1" "xB8F076" "xD8EA93" "xD9B0B2" "xDAE643" "xECF754" "xEEDD37" "xF08BCE" "xF4B6B2" "xFADD57" "xFAE3EE" "xFDB84F" }
     impassable = { "xD9B0B2" "x41C5FD" "xFDB84F" "xD8EA93" }
-    traits = { "state_trait_colicier_mountains" }
+    traits = { "state_trait_colicier_mountains" "state_trait_crownpeak_leadfield" }
     city = x41C5FD
     wood = x91B3B1
     farm = xABE279
@@ -12,9 +12,11 @@
     arable_land = 100
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
+        bg_iron_mining = 30
         bg_coal_mining = 44
-        bg_logging = 7
+        bg_lead_mining = 54
         bg_wishstone_mining = 20
+        bg_logging = 7
     }
     naval_exit_id = 3225
 }
@@ -47,7 +49,6 @@ STATE_SERONTAIN = {
     arable_land = 120
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 84
         bg_logging = 7
         bg_wishstone_mining = 24
     }
@@ -65,8 +66,9 @@ STATE_NORTH_HIGHLANDS = {
     arable_land = 50
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 48
+        bg_coal_mining = 54
         bg_iron_mining = 63
+        bg_lead_mining = 14
         bg_logging = 13
     }
     naval_exit_id = 3222
@@ -82,8 +84,9 @@ STATE_HIGHPASS = {
     arable_land = 48
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
-        bg_coal_mining = 60
-        bg_iron_mining = 15
+        bg_coal_mining = 72
+        bg_iron_mining = 55
+        bg_lead_mining = 17
         bg_logging = 14
     }
     naval_exit_id = 3222
@@ -100,6 +103,7 @@ STATE_SOUTH_HIGHLANDS = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 45
+        bg_coal_mining = 66
         bg_lead_mining = 45
         bg_logging = 17
     }
@@ -136,7 +140,6 @@ STATE_SLUDGE_COAST = {
     arable_resources = { "bg_rice_farms_leechgardens" }
     capped_resources = {
         bg_coal_mining = 60
-        bg_iron_mining = 30
         bg_sulfur_mining = 40
         bg_logging = 8
         bg_fishing = 9
@@ -211,8 +214,6 @@ STATE_TAR_PITS = {
     arable_resources = { "bg_rice_farms_leechgardens" }
     capped_resources = {
         bg_coal_mining = 120
-        bg_iron_mining = 40
-        bg_lead_mining = 54
         bg_sulfur_mining = 60
         bg_logging = 14
         bg_wishstone_mining = 2
