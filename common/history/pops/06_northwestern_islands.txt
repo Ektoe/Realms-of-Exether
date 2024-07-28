@@ -554,11 +554,7 @@
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 581800
-			}
-			create_pop = {
-				culture = drogori
-				size = 192596
+				size = 981800
 			}
 		}
 	}
@@ -618,11 +614,7 @@
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 660000
-			}
-			create_pop = {
-				culture = drogori
-				size = 4004
+				size = 960191
 			}
 		}
 	}
@@ -634,11 +626,7 @@
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 391914
-			}
-			create_pop = {
-				culture = drogori
-				size = 76191
+				size = 591914
 			}
 		}
 	}
@@ -975,8 +963,8 @@
 	s:STATE_WHIRINAKI = {
 		region_state:QAR = {
 			create_pop = {
-				culture = kotskarvi
-				size = 209000
+				culture = drogori
+				size = 1109000
 			}
 			create_pop = {
 				culture = kealohi
@@ -1063,8 +1051,8 @@
 			  size = 264796
 			}
 			create_pop = {
-				culture = kotskarvi
-				size = 44796
+				culture = drogori
+				size = 444796
 			  }
 		  }
 	}
@@ -1079,8 +1067,8 @@
 	s:STATE_RAROMARA = {
 		region_state:QAR = {
 			create_pop = {
-				culture = kotskarvi
-				size = 237000
+				culture = drogori
+				size = 2237000
 			}
 			create_pop = {
 				culture = kealohi
@@ -1107,8 +1095,8 @@
 	s:STATE_PATARENI = {
 		region_state:QAR = {
 			create_pop = {
-				culture = kotskarvi
-				size = 365000
+				culture = drogori
+				size = 865000
 			}
 			create_pop = {
 				culture = kealohi
