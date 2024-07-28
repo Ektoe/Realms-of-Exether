@@ -1224,7 +1224,7 @@ STATE_PORCELAINGATE = {
 }
 STATE_LAERANELS_DESOLATION = {
     id = 4288
-    traits = { "state_trait_starshimmer_pool" }
+    traits = { "state_trait_starshimmer_pool" "state_trait_frayed_veil" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x31E8E9" "x45F5D8" "x4AD9DF" "x59D7CE" "x68F6B3" "x8AD9C2" "x8EDB92" "x9AB9B5" "x9BFCF6" "xB664DD" "xC5DD56" "xC994B1" "xD0EB95" "xD3F6B6" "xDEC06A" "xDF9BE9" "xE5CDE1" "xE9B1CE" "xEC61B0" "xECD39C" "xF4B2A8" "xF4BA4F" "xFEE7E5" }
     port = xFEE7E5
@@ -2337,6 +2337,7 @@ STATE_ESPRANOOR = {
 }
 STATE_ZAFIRAN = {
     id = 4348
+    traits = {"state_trait_frayed_veil"}
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x99F7FC" "xC9FBF3" "xCBC288" "xD86FFA" "xDCB6C5" "xDED3D6" "xE7C390" "xEAE3A7" "xECB2FE" "xF28BBF" "xF39B8D" "xFEDDEC" }
     port = x99F7FC
@@ -2378,6 +2379,9 @@ STATE_KALIBRANTO = {
 }
 STATE_SAHARANDO = {
     id = 4350
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x91E5CC" "xB4A6BC" "xB8FB98" "xDA8D9A" "xE0D6EE" "xE6E753" "xE7E434" "xEA92DF" "xEEAEF2" "xF0D6CF" "xF564E4" }
     port = xF564E4
@@ -2610,6 +2614,9 @@ STATE_KAJRANDO = {
 }
 STATE_SARABENDO = {
     id = 4363
+    traits = {
+        "state_trait_frayed_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x48E6D3" "x71EFFD" "x7DFDE6" "x84ECBD" "x8BE4B1" "x9AF383" "x9CCAD1" "xACE27B" "xC1D9FB" "xCBFD4B" "xD18BDA" "xDAC866" "xDEEB36" "xEE9595" "xF0D898" "xFCACEE" }
     port = x48E6D3
@@ -2628,6 +2635,9 @@ STATE_SARABENDO = {
 }
 STATE_ESPARASHIM = {
     id = 4364
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x4FF5BE" "x7B91F9" "x8A92DD" "x90BAC2" "x99F7D5" "x9F98C8" "xA98BC1" "xADC2E8" "xB275F8" "xB8DEE2" "xC34BFC" "xC7BB76" "xCDD8A2" "xCEF9C8" "xCF9DCD" "xDFA7B8" "xE8DF92" "xF3ABB9" "xFAF691" "xFCBAE6" }
     port = xFCBAE6
@@ -2663,6 +2673,9 @@ STATE_ALMAKSURO = {
 }
 STATE_AZAROON = {
     id = 4366
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x57FDAE" "x84EDB6" "x86EFEB" "xA5C9E7" "xB07CE0" "xB68CFA" "xCEA5B7" "xD9E1F6" "xDB4AEE" "xE2E0E9" "xF4A0D1" "xF4BCBC" "xFAD435" "xFEF451" }
     port = xFEF451
@@ -2702,6 +2715,9 @@ STATE_KASHANIR = {
 }
 STATE_ALZAHRUD = {
     id = 4368
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x5BBDF2" "x80E8CF" "x85C8E1" "x909AE1" "x93EC88" "xA4CEF5" "xAB6CEC" "xAFA4CB" "xCDD3D0" "xCFF454" "xDBF4C7" "xE34CF2" "xE485F3" "xE789A0" "xF0F239" "xFAF42A" "xFC96BB" }
     port = xFC96BB
@@ -2726,6 +2742,9 @@ STATE_ALZAHRUD = {
 }
 STATE_SHIRAFIQ = {
     id = 4369
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x44C7F0" "x77D0FA" "x80E0CA" "xA2CEB9" "xACDAB4" "xB0BFF2" "xB4A4E4" "xB587D9" "xB7BAE1" "xC2EB86" "xC554E0" "xD1BE6B" "xDAA876" "xF1BAEB" "xF6C366" "xF7EAA2" "xFBB091" "xFDB5CA" "xFDEDF0" "xFEB052" }
     port = xFEB052
@@ -2741,6 +2760,9 @@ STATE_SHIRAFIQ = {
 }
 STATE_NADHARIM = {
     id = 4370
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x4EEDF4" "x90E9EF" "x9EF287" "x9FCD9B" "xB2ADB7" "xB9ECEC" "xCF8DE5" "xD160D3" "xDDF8AD" "xE59899" "xE8FD67" "xEFF174" "xF2C0D3" "xF3B56E" "xF4E69F" }
     port = xF4E69F
@@ -2762,6 +2784,9 @@ STATE_NADHARIM = {
 }
 STATE_QAMARUD = {
     id = 4371
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x4EFDD0" "x5BB6F6" "x76F4BE" "x78C7C7" "x7AC1C8" "x80ED99" "x83E0C3" "x84C1DE" "x91D8D6" "x94B3F5" "xA4CAA7" "xC8D0B9" "xCA91E9" "xD2B79B" "xD6AA92" "xE8ADAD" "xF1E0CB" "xFA15F6" "xFADEA6" "xFC8AB9" "xFDB8E9" "xFDD469" }
     port = xFDD469
@@ -2786,6 +2811,9 @@ STATE_QAMARUD = {
 }
 STATE_ZAHRAFI = {
     id = 4372
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x4EB6F8" "x59CCDF" "x6EEFC2" "x72CBEB" "x9EF0BF" "xADEC70" "xB5A7A2" "xC7A88E" "xDB6ED7" "xE4D092" "xF0D59B" "xFE4EFB" }
     port = xFE4EFB
@@ -2827,6 +2855,9 @@ STATE_PARSIMAH = {
 }
 STATE_KASHAMAD = {
     id = 4374
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x53E9D7" "x58C5F3" "x83FCE2" "x9AEFEA" "x9B90D5" "xAACABE" "xACBCBF" "xB8A7A4" "xBACCCB" "xBC98B2" "xBEE659" "xCBE07C" "xCCD897" "xCDE865" "xCF95A2" "xD172E0" "xD2C8F6" "xD6D692" "xD6F48A" "xD7B6EA" "xDC79D3" "xE1E7AA" "xE599AD" "xF220F3" }
     port = xF220F3
@@ -2865,6 +2896,9 @@ STATE_ALQADIM = {
 }
 STATE_ZAHRIFAR = {
     id = 4376
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x8B79F1" "x9CD8D5" "xBEAFCC" "xC28EE1" "xC99DE4" "xCAA8DB" "xD0F341" "xD48FE0" "xDCBF7D" "xDE89E4" "xE7EEC1" "xE7F092" "xE89693" "xF152BC" "xF5C2DC" "xF9EACB" }
     port = xF9EACB
@@ -2910,6 +2944,9 @@ STATE_FARASHIL = {
 }
 STATE_ALNAHFID = {
     id = 4378
+    traits = {
+        "state_trait_fractured_veil"
+    }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x50CFD9" "x61D4F4" "x73EBBA" "x7CB0DA" "x90ED94" "xAFFCE4" "xB6B4E6" "xBDD0F3" "xC2D0CC" "xCD7FCE" "xDA6ED2" "xDF76B8" "xE979A2" "xEBDED8" "xEFC98B" "xF0CD44" "xF3ECF9" "xF5AC98" "xF8E0FE" "xFE63D9" "xFEA2E6" }
     port = xFEA2E6
@@ -2951,7 +2988,7 @@ STATE_SHIRAZAN = {
 }
 STATE_AZHARIM = {
     id = 4380
-    traits = { "state_trait_starshimmer_pool" }
+    traits = { "state_trait_starshimmer_pool" "state_trait_frayed_veil"}
     subsistence_building = "building_subsistence_farms"
     provinces = { "x2EEED9" "x40DBFB" "x57CBF5" "x6BD7D1" "x75EF9B" "x96E580" "x98CFDB" "x9D8EEC" "xA0A1EB" "xA1BAD6" "xA3F6A0" "xA5BFF4" "xB3E064" "xBDA4DD" "xC5CFB7" "xC7B08A" "xC7B8CC" "xCEC6E0" "xD4C8DB" "xD4D3A2" "xDAFB4E" "xE555F9" "xE8CD96" "xEB93F4" "xEE3AEC" "xF2EDAE" "xF4EDA6" }
     port = xF4EDA6
