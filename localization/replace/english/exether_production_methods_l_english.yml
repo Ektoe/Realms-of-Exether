@@ -57,9 +57,9 @@
 	pmg_hunting_chimesilt: "Chimesilt Expeditions"
 	pmg_ownership_capital_building_desert_hunting_lodge: "$pmg_ownership$"
 
-	pmg_base_building_khuus_hunting_lodge: "$pm_base$"
-	pmg_hunting_khuus_silt: "Chimesilt Expeditions"
-	pmg_ownership_capital_building_khuus_hunting_lodge: "$pmg_ownership$"
+	pmg_base_building_khus_hunting_lodge: "$pm_base$"
+	pmg_hunting_khus_chimesilt: "Chimesilt Expeditions"
+	pmg_ownership_capital_building_khus_hunting_lodge: "$pmg_ownership$"
 
 #Gizmo Workshop
 	pmg_wooden_gizmos: "Wooden Gizmos"
@@ -81,12 +81,12 @@ pm_no_hunting_chimesilt: "No Chimesilt Expeditions"
 pm_hunting_chimesilt: "Chimesilt Expeditions"
 pm_increased_hunting_chimesilt: "Focused Chimesilt Expeditions"
 
-pm_simple_khuus_hunting: "Suicidal Ventures"
-pm_firearms_khuus_hunting: "Veteran Expeditions"
-pm_heavy_weapons_khuus_hunting: "Military Detachments"
-pm_no_hunting_khuus_silt: "No Silt Hunting"
-pm_hunting_khuus_silt: "Chimesilt Hunts"
-pm_increased_hunting_khuus_silt: "Intense Chimesilt Hunts"
+pm_simple_khus_hunting: "Suicidal Ventures"
+pm_firearms_khus_hunting: "Veteran Expeditions"
+pm_heavy_weapons_khus_hunting: "Military Detachments"
+pm_no_hunting_khus_chimesilt: "No Silt Hunting"
+pm_hunting_khus_chimesilt: "Chimesilt Hunts"
+pm_increased_hunting_khus_chimesilt: "Intense Chimesilt Hunts"
 
 
 pm_no_equipment_hunting_lodges: "No Equipment"
