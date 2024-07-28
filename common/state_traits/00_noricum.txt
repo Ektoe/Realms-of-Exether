@@ -43,3 +43,20 @@ state_trait_crownpeak_leadfield = {
 		building_lead_mine_throughput_add = 0.15
 	}
 }
+
+state_trait_sludge_pits = {
+    icon = "gfx/interface/icons/state_trait_icons/swamp.dds"   
+	modifier = {
+        building_coal_mine_throughput_add = 0.10
+		building_sulfur_mine_throughput_add = 0.15
+        state_poor_standard_of_living_add = -1
+    }
+}
+
+
+state_trait_highlands_coal = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"   
+	modifier = {
+        building_coal_mine_throughput_add = 0.10
+    }
+}

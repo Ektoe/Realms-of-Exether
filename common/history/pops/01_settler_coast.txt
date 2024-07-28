@@ -77,7 +77,7 @@
 		  region_state:EME = {
 			    create_pop = {
 				      culture = ocelian 
-				      size = 360796
+				      size = 960796
 			    }     
 		  }
   }
@@ -1297,7 +1297,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:EBR = {
 		create_pop = {
 			culture = eberri
-			size = 647996
+			size = 947996
 		}
 		create_pop = {
 			culture = achonian
@@ -1314,7 +1314,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:EBR = {
 		create_pop = {
 			culture = eberri
-			size = 530908
+			size = 1130908
 		}
 		create_pop = {
 			culture = achonian
@@ -1327,11 +1327,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:AHO = {
 		create_pop = {
 			culture = achonian
-			size = 653196
+			size = 1153196
 		}
 		create_pop = {
 			culture = changeling
-			size = 2200
+			size = 5189
 		}
 	}
   }
@@ -1353,7 +1353,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:AHO = {
 		create_pop = {
 			culture = achonian
-			size = 858808
+			size = 1458808
 		}
 		create_pop = {
 			culture = eberri
@@ -1374,7 +1374,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:PFL = {
 		create_pop = {
 			culture = changeling
-			size = 897396
+			size = 1197396
 		}
 		create_pop = {
 			culture = changeling
@@ -1400,7 +1400,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:PFL = {
 		create_pop = {
 			culture = changeling
-			size = 1057396
+			size = 1557396
 		}
 		create_pop = {
 			culture = changeling
@@ -1426,12 +1426,12 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:AHO = {
 		create_pop = {
 			culture = changeling
-			size = 1040004
+			size = 1340004
 		}
 		create_pop = {
 			culture = changeling
 			religion = cult_of_knowledge
-			size = 740004
+			size = 840004
 		}
 		create_pop = {
 			culture = eberri
@@ -1474,15 +1474,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VHT = {
 		create_pop = {
 			culture = vynduri
-			size = 677296
-		}
-		create_pop = {
-			culture = changeling
-			size = 5996
+			size = 2277296
 		}
 		create_pop = {
 			culture = achonian
-			size = 13504
+			size = 493504
 		}
 	}
   }
@@ -1668,11 +1664,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:DAR = {
 		create_pop = {
 			culture = yelfi
-			size = 2070892
+			size = 3380892
 		}
 		create_pop = {
 			culture = bossardi
-			size = 306996
+			size = 406996
 		}
 	}
   }
@@ -1734,7 +1730,7 @@ s:STATE_FAR_SHORE_2 = {
 		region_state:DRO = {
 			create_pop = {
 				culture = aridrun
-				size = 372508
+				size = 772508
 			}
 		}
   }
@@ -1795,11 +1791,11 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:AHO = {
 		create_pop = {
 			culture = achonian
-			size = 26000
+			size = 119146
 		}
 		create_pop = {
 			culture = changeling
-			size = 500
+			size = 4919
 		}
 	}
   }
@@ -1838,7 +1834,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 619260
+			size = 1119260
 		}
 		create_pop = {
 			culture = aridrun
@@ -1855,7 +1851,7 @@ s:STATE_FAR_SHORE_2 = {
 		}
 		create_pop = {
 			culture = aridrun
-			size = 261170
+			size = 461170
 		}
 	}
   }
@@ -1864,7 +1860,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 180689
+			size = 380689
 		}
 		create_pop = {
 			culture = aridrun
@@ -1877,7 +1873,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:VOZ = {
 		create_pop = {
 			culture = vozi
-			size = 496260
+			size = 796260
 		}
 		create_pop = {
 			culture = aridrun
