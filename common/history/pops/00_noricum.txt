@@ -1137,7 +1137,7 @@
       region_state:ROF = {
         create_pop = {
           culture = meriwyn
-          size = 1047496
+          size = 747496
         }
         create_pop = {
           culture = dumonian
@@ -1190,7 +1190,7 @@
       region_state:ROF = {
         create_pop = {
           culture = meriwyn
-          size = 603800
+          size = 903800
         }
         create_pop = {
           culture = jalian
