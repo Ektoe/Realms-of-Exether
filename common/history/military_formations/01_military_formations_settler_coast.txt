@@ -825,7 +825,7 @@
 			create_military_formation = {
 				type = fleet
 				hq_region = sr:region_nogi_desert
-				name = the_great_silt_fleet
+				name = the_great_chimesilt_fleet
 	
 				combat_unit = { 
 					type = unit_type:combat_unit_type_man_o_war

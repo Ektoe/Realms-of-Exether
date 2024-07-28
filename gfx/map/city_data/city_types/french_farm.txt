@@ -58,7 +58,15 @@
 	}
 		
 	
-	building_rye_farm = {
+	building_rye_farm = { 
+		"french_farm_farmstead_01_mesh"
+		"french_farm_farmstead_02_mesh"
+	}
+	building_beekeeping  = { 
+		"french_farm_farmstead_01_mesh"
+		"french_farm_farmstead_02_mesh"
+	}
+	building_underfarm = { 
 		"french_farm_farmstead_01_mesh"
 		"french_farm_farmstead_02_mesh"
 	}
@@ -88,7 +96,10 @@
 	}
 
 
-	building_livestock_ranch = {
+	building_livestock_ranch = { 
+		french_farm_ranch_01_mesh
+	}
+	building_spider_ranch = { 
 		french_farm_ranch_01_mesh
 	}
 

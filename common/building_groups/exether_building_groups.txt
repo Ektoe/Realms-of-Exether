@@ -123,7 +123,7 @@ bg_mountain_maize_farms = {
 }
 
 bg_beekeeping = {
-	parent_group = bg_logging
+	parent_group = bg_agriculture
 
 	default_building = building_beekeeping
 	can_use_slaves = no
@@ -386,10 +386,10 @@ bg_desert_hunting = {
 	
 	default_building = building_desert_hunting_lodge
 }
-bg_khuus_hunting = {
+bg_khus_hunting = {
 	parent_group = bg_magic_resource
 	
-	default_building = building_khuus_hunting_lodge
+	default_building = building_khus_hunting_lodge
 }
 bg_game_hunting = {
 	parent_group = bg_magic_resource
