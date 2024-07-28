@@ -288,7 +288,7 @@ s:STATE_SANDWOOD = {
 add_homeland = cu:plaguedweller
 }
 
-s:STATE_ZURMUND = {
+s:STATE_RIBAGAR = {
     create_state = {
         country = c:DRO
         owned_provinces = { "x37DFFC" "x4CDAD5" "x97F989" "xA3ADCE" "xB394D4" "xDACBC5" "xE6DED2" "xE8DB33" }
@@ -314,7 +314,7 @@ add_homeland = cu:plaguedweller
 add_claim = c:BDB
 }
 
-s:STATE_MENZONASSAD = {
+s:STATE_MINUPHOSS = {
     create_state = {
         country = c:DRO
         owned_provinces = { "x71A4FE" "x7EDFB6" "x8282F1" "x8BFD90" "xA4C9A3" "xA6F1A2" "xA79EC7" "xAA96E7" "xB0F580" "xBBE0B8" "xBEF7DD" "xD4F3A5" "xDB62DA" "xE6C063" "xF77CA7" "xFB67A1" "xFCDBAA" }
@@ -732,7 +732,7 @@ s:STATE_MOUNT_YELFIS= {
 add_homeland = cu:yelfi
 }
 
-s:STATE_COGSREST = {
+s:STATE_RIRGEN = {
     create_state = {
         country = c:DRO
         owned_provinces = { "x16F9F5" "x37F1DB" "x41E6EE" "x61DCCB" "x62EFB6" "x70C7C9" "x7DDDCB" "x87CBDF" "x91D8EA" "xADE7E4" "xB2F865" "xB3C0A6" "xB6D7E3" "xB754F8" "xC07AD7" "xC084C0" "xC5EF47" "xCAE961" "xD1DA4A" "xDC75DE" "xDE4BEE" "xE06DAF" "xE85EF0" "xEA6DB2" "xEF63E7" "xEF859A" "xF49FF4" "xF592E2" "xF8E1F0" "xFA4BD4" "xFAEC54" }
@@ -740,7 +740,7 @@ s:STATE_COGSREST = {
 add_homeland = cu:aridrun
 }
 
-s:STATE_NOGI_SANDS = {
+s:STATE_RICHAR_JEDD = {
     create_state = {
         country = c:DRO
         owned_provinces = { "x22E8ED" "x3BE7E4" "x61BAE9" "x69F6FB" "x70F89D" "x74DCC5" "x7FF1B2" "x81ED8D" "x81FBDD" "x92FCC8" "x95F0AA" "x97B3BC" "x9BE6E1" "x9D75F2" "xA4A5F8" "xA5F0E6" "xA6A1AF" "xA7C1EE" "xB1B896" "xB3B0B1" "xB4AAE9" "xB5A1B5" "xB6F27B" "xBAD7D7" "xC3D0E0" "xCA97D5" "xCEDB65" "xCFB8CB" "xD0FC8D" "xD7A5B6" "xD8E53A" "xDAFE2F" "xDEE2BD" "xDEE837" "xDFDCDC" "xE0ACD7" "xE6C0E7" "xE7C952" "xE8A874" "xE99DE9" "xEBD2A0" "xECFA1D" "xED97C9" "xEDC3D8" "xEE4ED3" "xEEE750" "xEEEEA7" "xF082A6" "xF1C3E6" "xF241E1" "xF3AAE7" "xF486C3" "xF6A675" "xF6DBE9" "xF73BCD" "xF8DF79" "xFA14EC" "xFA99C7" "xFC80BA" "xFED6B1" }
@@ -748,7 +748,7 @@ s:STATE_NOGI_SANDS = {
 add_homeland = cu:aridrun
 }
 
-s:STATE_GRAVELROCK_ROAD = {
+s:STATE_DEPHEL_PATH = {
     create_state = {
         country = c:VOZ
         owned_provinces = { "x63DAD0" "x6A94FC" "x8FA2F7" "xB58BCD" "xC1EDA1"  "xDC76D7" "xE7CF8E"  "xFAE19F" }
@@ -761,7 +761,7 @@ create_state = {
     add_homeland = cu:aridrun
 }
 
-s:STATE_ELF1 = {
+s:STATE_TOPHNATH = {
     create_state = {
         country = c:DRO
         owned_provinces = { "x12F6FE" "x93D5DF" "x95C7CE" "xA2BF9A" "xC0A0CE" "xD7E9BB" "xDA86C6" "xDBA8A2" "xE1A6E8" "xF7BB79" }
@@ -769,7 +769,7 @@ s:STATE_ELF1 = {
 add_homeland = cu:aridrun
 }
 
-s:STATE_ELF2 = {
+s:STATE_CINPHNPHAINN = {
     create_state = {
         country = c:DRO
         owned_provinces = { "x69D0D0" "x94EC76" "x97F4E5" "x9EE0C8" "xA8F8EA" "xBABDC8" "xC8BD96" "xDBDA7C" "xE2F7BA" "xE6BD7C" }
@@ -777,7 +777,7 @@ s:STATE_ELF2 = {
 add_homeland = cu:aridrun
 }
 
-s:STATE_ELF3 = {
+s:STATE_LHIPH = {
     create_state = {
         country = c:DRO
         owned_provinces = { "x60F0C6" "x82C7BE" "x91B3C3" "xA1E2C3" "xA8B0A3" "xADE6C9" "xB5D6E3" "xC1B8CB" "xCBAF8E" "xCBB3A7" "xDDD161" "xDDD471" "xDFC17D" "xE3E8A6" "xF635F9" }
