@@ -7,6 +7,22 @@ building_roads = {
 		pmg_road_vehicles
 		pmg_road_security
 	}
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			cash_reserves_ratio > 0.5
+			is_subsidized = yes
+		}
+		OR = {
+			state = {
+				sg:transportation = { 
+					state_goods_pricier > 0.5 
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+	}
 	required_construction = construction_cost_low
 	ownership_type = self
 		background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
