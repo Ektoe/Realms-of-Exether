@@ -9,6 +9,7 @@
 		add_technology_researched = line_infantry
 		add_technology_researched = paddle_streamers
 		add_technology_researched = alchemy
+		add_technology_researched = hydraulic_cranes
 		
 		set_tax_level = medium
 		set_military_wage_level = low

@@ -1137,7 +1137,7 @@
       region_state:ROF = {
         create_pop = {
           culture = meriwyn
-          size = 1047496
+          size = 747496
         }
         create_pop = {
           culture = dumonian
@@ -1190,7 +1190,7 @@
       region_state:ROF = {
         create_pop = {
           culture = meriwyn
-          size = 603800
+          size = 903800
         }
         create_pop = {
           culture = jalian
@@ -1365,7 +1365,11 @@
         }
         create_pop = {
           culture = avalorean
-          size = 1532000
+          size = 1120000
+        }
+        create_pop = {
+          culture = nivaskyan
+          size = 412000
         }
       }
   }
@@ -1592,11 +1596,15 @@
       region_state:ZKW = {
         create_pop = {
           culture = wood_giant
-          size = 11980
+          size = 7880
         }
         create_pop = {
           culture = frost_giant
           size = 980
+        }
+        create_pop = {
+          culture = zakonish
+          size = 4100
         }
       }
   }
@@ -1803,7 +1811,7 @@
           size = 17396
         }
         create_pop = {
-          culture = frost_giant
+          culture = fire_giant
           size = 65200
         }
       }

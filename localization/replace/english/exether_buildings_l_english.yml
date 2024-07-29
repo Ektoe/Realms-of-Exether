@@ -61,8 +61,12 @@
   building_rice_farm_leechgardens_lens_option: "Expand $building_rice_farm_leechgardens$"
   building_haunted_grounds: "Haunted Grounds"
   building_haunted_grounds_lens_option: "Expand $building_haunted_grounds$"
-  building_hunting_lodge: "Hunting Lodge"
+  building_hunting_lodge: "Woodland Hunting Lodge"
   building_hunting_lodge_lens_option: "Expand $building_hunting_lodge$"
+  building_desert_hunting_lodge: "Desert Hunting Lodge"
+  building_desert_hunting_lodge_lens_option: "Expand $building_desert_hunting_lodge$"
+  building_khus_hunting_lodge: "Khuus Monster Region"
+  building_khus_hunting_lodge_lens_option: "Expand $building_khus_hunting_lodge$"
   building_snowrubber_plantation: "Rimerubber Plantation"
   building_snowrubber_plantation_lens_option: "Expand $building_snowrubber_plantation$"
   building_mountain_maize_farm: "Mountain Maize Farms"
@@ -71,6 +75,8 @@
   building_feywild_reserve_lens_option: "Expand $feywild_reserve$"
   building_fur_hunting_lodge: "Trapper's Lodge"
   building_fur_hunting_lodge_lens_option: "Expand $building_fur_hunting_lodge$"
+  building_dragon_ruins: "Ruins Excavation"
+  building_dragon_ruins_lens_option: "Expand $building_dragon_ruins$"
   # Building Groups
   bg_mountain_maize_farms: "Mountain Maize Farms"
   bg_opium_plantations: "Chimesilt Fields"
@@ -86,10 +92,20 @@
   bg_fishing_squidlets: "Fishing Wharves"
   bg_squid_squad: "Squidding Stations"
   bg_hunting: "Hunting Lodges"
+  bg_rice_farms_leechgardens: "Leech Gardens"
   #Factories
+
+  #Underground Survival :DD
+  building_underfarm: "Lichen Farms"
+  building_underfarm_lens_option: "Expand $building_underfarm$"
+  building_mushroom_logging: "Mushroom Logging Camps"
+  building_mushroom_logging_lens_option: "Expand $building_mushroom_logging$"
+  building_spider_ranch: "Spider Ranches"
+  building_spider_ranch_lens_option: "Expand $building_spider_ranch$"
 
   # Infrastructure
   building_airshipyard: "Airshipyard"
+  building_roads: "Roads"
 
     #Academies
 

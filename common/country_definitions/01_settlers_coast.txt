@@ -139,7 +139,7 @@ DRO = {
 	tier = kingdom
 
 	cultures = { aridrun } 
-	capital = STATE_ELF2
+	capital = STATE_CINPHNPHAINN
 }
 
 #Union of the Sands
@@ -239,13 +239,24 @@ GES = {
 
 #Smalland
 SLD = {
-	color = rgb{ 78  120  60 } #random
+	color = rgb{ 0 255 80 }
 
 	country_type = recognized
 
 	tier = empire
 	cultures = { highland_halfling clearbough } 
 	capital = STATE_OVERBURROW
+}
+
+#Cherryn
+CHE = {
+	color = rgb{ 255 0 45 }
+
+	country_type = recognized
+
+	tier = empire
+	cultures = { coast_halfling rivierling } 
+	capital = STATE_OUTER_MOORWEALD
 }
 
 #Greenhand
@@ -316,7 +327,7 @@ MMD = {
 
 	tier = principality
 
-	cultures = { dumonian } 
+	cultures = { changeling } 
 	capital = STATE_SHIFTING_SCAR
 }
 

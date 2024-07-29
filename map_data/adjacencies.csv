@@ -15,7 +15,6 @@ xacd6bb;xc1b6a2;sea;-1;1670;1048;1668;1037;;Takayamaan
 x63d5fb;x45f2d7;sea;-1;1705;1031;1676;1027;;Takayamaan
 x1ff3ee;xe3f38c;sea;-1;1316;1395;1320;1403;;Urthor
 xc7e19a;x1d0734;sea;-1;766;1730;778;1728;;aratzirri
-x81c285;x934017;special;-1;3452;1388;3551;1868;;fortune_skies_1--->unnamed_bay
 x81c285;xbb69f1;special;-1;3452;1388;3742;2095;;fortune_skies_1--->brokenpillar
 x0A1205;x24fc2c;special;-1;2657;2315;1665;3609;;--->central zalaron skies 1
 x012136;x6D80F3;special;-1;2191;1658;1495;3612;;shipshatter-->midwest zaloron skies
@@ -214,7 +213,8 @@ x794c2e;x95b4bc;special;-1;1277;3613;5109;208;;paylazi heights-->dragon landing
 x794c2e;xd7f872;special;-1;1277;3613;5306;92;;paylazi heights-->hellenova tp
 x794c2e;x84cac3;special;-1;1277;3613;-1;-1;;paylazi heights-->hellenova
 x794c2e;x8ac9ee;special;-1;1277;3613;5376;33;;paylazi heights-->greos
-x794c2e;xee39ed;special;-1;1277;3613;-1;-1;;paylazi heights-->artaxiahan
+x794c2e;xee39ed;special;-1;1277;3613;-1;-1;;paylazi heights-->greos tp
+x794c2e;xfd52e3;special;-1;1277;3613;-1;-1;;paylazi heights-->artaxian
 x794c2e;xe3a185;special;-1;1277;3613;-1;-1;;paylazi heights-->elenikar tp
 x794c2e;xc09f23;special;-1;3537;1869;1272;3613;;muschelhavn landing-->south sukonskies
 x794c2e;xefa218;special;-1;3537;1869;1267;3613;;muschelhavn landing-->flussholm skies
@@ -322,7 +322,6 @@ xd8061f;x3fd1e1;special;-1;1542;3613;1537;3613;;marblegate heights-->faolna wind
 xd8061f;xcdf571;special;-1;1542;3613;4055;2265;;marblegate heights-->marblegate
 xd8061f;xccd5d7;special;-1;1542;3613;4038;2239;;marblegate heights-->shirbin lowlands
 xd8061f;xee93d8;special;-1;1542;3613;4073;2189;;marblegate heights-->zyrelianar tp
-xd8061f;xc4e7ad;special;-1;1542;3613;4055;2196;;marblegate heights-->zyrelianar
 xd8061f;x3373ef;special;-1;1542;3613;1547;3613;;marblegate heights-->south starshimmer skies
 x1cc382;x3373ef;special;-1;1552;3613;1547;3613;;south anwarth skies-->south starshimmer skies
 x1cc382;xbb69f1;special;-1;1552;3613;3742;2097;;south anwarth skies-->brokenpillar
@@ -368,7 +367,7 @@ x8376d6;xBACDD0;special;-1;1592;3613;3853;2874;;kajrando skies-->kajrando TP
 x7d9d6b;x4DC8AC;special;-1;1582;3613;1587;3613;;sullenskies-->KAsida heights
 x85f8b8;x4DC8AC;special;-1;4018;2798;1587;3613;;kasida tp-->KAsida heights
 xaa96e2;x4DC8AC;special;-1;1582;3613;1587;3613;;kasida-->KAsida heights
-xccdcb5;x4DC8AC;special;-1;3774;2910;1587;3613;;almaksuro-->KAsida heights
+xccdcb5;x8376d6;special;-1;3774;2910;1587;3613;;almaksuro-->Kajrando skies
 xf9cfae;x4DC8AC;special;-1;3939;2852;1587;3613;;zakiriya tp-->KAsida heights
 xdecfab;x4DC8AC;special;-1;3912;2824;1587;3613;;zakiriya-->KAsida heights
 xe489fe;x4DC8AC;special;-1;4010;2925;1587;3613;;vivari shores-->KAsida heights
@@ -598,7 +597,7 @@ xaae2c2;x1e95bc;special;-1;-1;-1;-1;-1;;khaulan-->hooked winds
 xc2c5b8;x1e95bc;special;-1;-1;-1;-1;-1;;batokyoan-->hooked winds
 xeb3bf6;x1e95bc;special;-1;-1;-1;-1;-1;;kitayamao-->hooked winds
 x96ccda;x8b2b55;special;-1;-1;-1;-1;-1;;oronk-->north lanternshores
-x8dfafa;x8b2b55;special;-1;-1;-1;-1;-1;;khurin-->north lanternshores
+x8dfafa;x68484D;special;-1;-1;-1;-1;-1;;chanma-->md skies
 xe574d0;x68484D;special;-1;-1;-1;-1;-1;;not khurin-->md skies
 xdc94e5;xa9180d;special;-1;-1;-1;-1;-1;;shinkanbata-->skies 7
 xb8abbd;xa9180d;special;-1;-1;-1;-1;-1;;arashihara-->skies 7
