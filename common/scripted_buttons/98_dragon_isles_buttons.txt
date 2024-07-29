@@ -20,7 +20,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -32,7 +33,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -44,7 +46,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -56,7 +59,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -68,7 +72,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -80,7 +85,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -92,7 +98,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -104,7 +111,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -116,7 +124,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -128,7 +137,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -140,7 +150,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -152,7 +163,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -164,7 +176,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -176,7 +189,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -188,7 +202,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -205,7 +220,8 @@
 					owner = {
 						OR = {
 							country_has_primary_culture = cu:kotskarvi
-							country_has_primary_culture = cu:lomarash
+								country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 						}
 					}
 				}
@@ -220,7 +236,8 @@
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 					}
@@ -257,7 +274,8 @@
 							owner = {
 								OR = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 						}
@@ -294,7 +312,8 @@
 									owner = {
 										OR = {
 											country_has_primary_culture = cu:kotskarvi
-											country_has_primary_culture = cu:lomarash
+												country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 										}
 									}
 								}
@@ -331,7 +350,8 @@
 										owner = {
 											OR = {
 												country_has_primary_culture = cu:kotskarvi
-												country_has_primary_culture = cu:lomarash
+													country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 											}
 										}
 									}
@@ -368,7 +388,8 @@
 											owner = {
 												OR = {
 													country_has_primary_culture = cu:kotskarvi
-													country_has_primary_culture = cu:lomarash
+														country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 												}
 											}
 										}
@@ -405,7 +426,8 @@
 												owner = {
 													OR = {
 														country_has_primary_culture = cu:kotskarvi
-														country_has_primary_culture = cu:lomarash
+															country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 													}
 												}
 											}
@@ -442,7 +464,8 @@
 													owner = {
 														OR = {
 															country_has_primary_culture = cu:kotskarvi
-															country_has_primary_culture = cu:lomarash
+																country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 														}
 													}
 												}
@@ -479,7 +502,8 @@
 														owner = {
 															OR = {
 																country_has_primary_culture = cu:kotskarvi
-																country_has_primary_culture = cu:lomarash
+																	country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 															}
 														}
 													}
@@ -516,7 +540,8 @@
 															owner = {
 																OR = {
 																	country_has_primary_culture = cu:kotskarvi
-																	country_has_primary_culture = cu:lomarash
+																		country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 																}
 															}
 														}
@@ -553,7 +578,8 @@
 																owner = {
 																	OR = {
 																		country_has_primary_culture = cu:kotskarvi
-																		country_has_primary_culture = cu:lomarash
+																			country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 																	}
 																}
 															}
@@ -590,7 +616,8 @@
 																	owner = {
 																		OR = {
 																			country_has_primary_culture = cu:kotskarvi
-																			country_has_primary_culture = cu:lomarash
+																				country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 																		}
 																	}
 																}
@@ -627,7 +654,8 @@
 																		owner = {
 																			OR = {
 																				country_has_primary_culture = cu:kotskarvi
-																				country_has_primary_culture = cu:lomarash
+																					country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 																			}
 																		}
 																	}
@@ -664,7 +692,8 @@
 																			owner = {
 																				OR = {
 																					country_has_primary_culture = cu:kotskarvi
-																					country_has_primary_culture = cu:lomarash
+																						country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 																				}
 																			}
 																		}

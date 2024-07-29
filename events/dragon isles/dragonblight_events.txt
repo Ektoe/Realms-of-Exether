@@ -500,7 +500,8 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 							any_neighbouring_state = {
 								owner = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 							has_modifier = modifier_active_dragonblight_outbreak
@@ -893,7 +894,8 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 							any_neighbouring_state = {
 								owner = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 							NOT = { 
@@ -909,7 +911,8 @@ dragonblight.5 = { #kobold states receive this event the first time the Dragon I
 							any_neighbouring_state = {
 								owner = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 							NOT = { 
@@ -1706,14 +1709,14 @@ dragonblight_pulse.22 = { #secession events
 				state_region = s:STATE_LEPTHAR
 				state_region = s:STATE_LEPTISCA
 			}
-			culture_percent_state = { target = cu:kotskarvi value >= 0.51   }
+			culture_percent_state = { target = cu:illvasaari value <= 0.5   }
 		}
 	}
 
 	immediate = {
 		random_scope_state = {
 			limit = {
-				culture_percent_state = { target = cu:kotskarvi value >= 0.51 }
+				culture_percent_state = { target = cu:illvasaari value <= 0.5 }
 			}
 			save_scope_as = outbreak_state
 			if = {
@@ -1726,7 +1729,8 @@ dragonblight_pulse.22 = { #secession events
 								owner = {
 									OR = {
 										country_has_primary_culture = cu:kotskarvi
-										country_has_primary_culture = cu:lomarash
+											country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 									}
 								}
 						}	
@@ -1736,7 +1740,8 @@ dragonblight_pulse.22 = { #secession events
 							owner = {
 								OR = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 						}
@@ -1787,7 +1792,8 @@ dragonblight_pulse.22 = { #secession events
 								owner = {
 									OR = {
 										country_has_primary_culture = cu:kotskarvi
-										country_has_primary_culture = cu:lomarash
+											country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 									}
 								}
 						}	
@@ -1797,7 +1803,8 @@ dragonblight_pulse.22 = { #secession events
 							owner = {
 								OR = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 						}
@@ -1851,7 +1858,8 @@ dragonblight_pulse.22 = { #secession events
 								owner = {
 									OR = {
 										country_has_primary_culture = cu:kotskarvi
-										country_has_primary_culture = cu:lomarash
+											country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 									}
 								}
 						}	
@@ -1861,7 +1869,8 @@ dragonblight_pulse.22 = { #secession events
 							owner = {
 								OR = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 						}
@@ -1915,7 +1924,8 @@ dragonblight_pulse.22 = { #secession events
 								owner = {
 									OR = {
 										country_has_primary_culture = cu:kotskarvi
-										country_has_primary_culture = cu:lomarash
+											country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 									}
 								}
 						}	
@@ -1925,7 +1935,8 @@ dragonblight_pulse.22 = { #secession events
 							owner = {
 								OR = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 						}
@@ -1979,7 +1990,8 @@ dragonblight_pulse.22 = { #secession events
 								owner = {
 									OR = {
 										country_has_primary_culture = cu:kotskarvi
-										country_has_primary_culture = cu:lomarash
+											country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 									}
 								}
 						}	
@@ -1989,7 +2001,8 @@ dragonblight_pulse.22 = { #secession events
 							owner = {
 								OR = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 						}
@@ -2043,7 +2056,8 @@ dragonblight_pulse.22 = { #secession events
 								owner = {
 									OR = {
 										country_has_primary_culture = cu:kotskarvi
-										country_has_primary_culture = cu:lomarash
+											country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 									}
 								}
 						}	
@@ -2053,7 +2067,8 @@ dragonblight_pulse.22 = { #secession events
 							owner = {
 								OR = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 						}
@@ -2108,7 +2123,8 @@ dragonblight_pulse.22 = { #secession events
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 				}	
@@ -2118,7 +2134,8 @@ dragonblight_pulse.22 = { #secession events
 					owner = {
 						OR = {
 							country_has_primary_culture = cu:kotskarvi
-							country_has_primary_culture = cu:lomarash
+								country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 						}
 					}
 				}
@@ -2173,7 +2190,8 @@ dragonblight_pulse.22 = { #secession events
 						owner = {
 							OR = {
 								country_has_primary_culture = cu:kotskarvi
-								country_has_primary_culture = cu:lomarash
+									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 							}
 						}
 				}	
@@ -2183,7 +2201,8 @@ dragonblight_pulse.22 = { #secession events
 					owner = {
 						OR = {
 							country_has_primary_culture = cu:kotskarvi
-							country_has_primary_culture = cu:lomarash
+								country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 						}
 					}
 				}
@@ -2238,7 +2257,8 @@ dragonblight_pulse.22 = { #secession events
 								owner = {
 									OR = {
 										country_has_primary_culture = cu:kotskarvi
-										country_has_primary_culture = cu:lomarash
+											country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 									}
 								}
 						}	
@@ -2248,7 +2268,8 @@ dragonblight_pulse.22 = { #secession events
 							owner = {
 								OR = {
 									country_has_primary_culture = cu:kotskarvi
-									country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:lomarash
+										country_has_primary_culture = cu:drogori
 								}
 							}
 						}
