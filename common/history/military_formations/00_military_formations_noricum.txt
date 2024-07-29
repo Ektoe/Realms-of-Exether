@@ -292,6 +292,17 @@
 				state_region = s:STATE_BANCFAN
 				count = 2
 			}
+
+			save_scope_as = rofarmy
+		}
+		create_character = {
+			is_general = yes
+			hq = sr:region_worlds_end
+			save_scope_as = rofgen
+		}
+		scope:rofgen = {
+			commander_rank = commander_rank_2
+			transfer_to_formation = scope:rofarmy
 		}
 
 	}
@@ -351,6 +362,17 @@
 				state_region = s:STATE_INCHMARA
 				count = 5
 			}
+			save_scope_as = foxarmy
+
+		}
+		create_character = {
+			is_general = yes
+			hq = sr:region_ravencliff
+			save_scope_as = foxgen
+		}
+		scope:foxgen= {
+			commander_rank = commander_rank_2
+			transfer_to_formation = scope:foxarmy
 		}
 	}
 	#Yanger steppe armys and armadas	
