@@ -1134,7 +1134,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_ELF2
+				state_region = s:STATE_CINPHNPHAINN
 				count = 10
 			}
 
@@ -1158,7 +1158,7 @@
 
 						combat_unit = { 
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_ELF2
+				state_region = s:STATE_CINPHNPHAINN
 				count = 3
 			}
 

@@ -6457,7 +6457,7 @@
 					  type="building_manor_house"
 					  country="c:DRO"
 					  levels=6
-					  region="STATE_ELF2"
+					  region="STATE_CINPHNPHAINN"
 					 }
 				  }
 				reserves=1

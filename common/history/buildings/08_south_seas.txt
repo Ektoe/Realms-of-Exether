@@ -1183,7 +1183,7 @@
 
 	}
 
-	s:STATE_SAHONDRA = {
+	s:STATE_SUISGOIL = {
 		region_state:LIR={
 		}
 	}
@@ -1192,7 +1192,7 @@
 
 	}
 
-	s:STATE_TOMBONT = {
+	s:STATE_YNTHOLG = {
 		region_state:LIR={
 			create_building={
 				building="building_livestock_ranch"
@@ -1214,7 +1214,7 @@
 						type="building_manor_house"
 						country="c:LIR"
 						levels=1
-						region="STATE_SAHONDRA"
+						region="STATE_SUISGOIL"
 				   }
 				}
 				reserves=1
@@ -1260,7 +1260,7 @@
 		}
 	}
 
-	s:STATE_IVOLOINA = {
+	s:STATE_MASC_PEIW = {
 		region_state:LIR={
 			create_building={
 				building="building_government_administration"
@@ -1320,7 +1320,7 @@
 						type="building_manor_house"
 						country="c:LIR"
 						levels=1
-						region="STATE_IVOLOINA"
+						region="STATE_MASC_PEIW"
 				   }
 				}
 				reserves=1
@@ -1339,7 +1339,7 @@
 						type="building_manor_house"
 						country="c:LIR"
 						levels=2
-						region="STATE_IVOLOINA"
+						region="STATE_MASC_PEIW"
 				   }
 				}
 				reserves=1
@@ -1357,7 +1357,7 @@
                         type="building_financial_district"
                         country="c:LIR"
                         levels=2
-                        region="STATE_IVOLOINA"
+                        region="STATE_MASC_PEIW"
                    }
                 }
 				reserves=1
@@ -1394,7 +1394,7 @@
 						type="building_manor_house"
 						country="c:LIR"
 						levels=1
-						region="STATE_SAHONDRA"
+						region="STATE_SUISGOIL"
 				   }
 				}
 				reserves=1
@@ -1407,7 +1407,7 @@
 						type="building_manor_house"
 						country="c:LIR"
 						levels=1
-						region="STATE_IVOLOINA"
+						region="STATE_MASC_PEIW"
 				   }
 				}
 				reserves=1
@@ -1471,7 +1471,7 @@
 						type="building_manor_house"
 						country="c:LIR"
 						levels=2
-						region="STATE_SAHONDRA"
+						region="STATE_SUISGOIL"
 				   }
 				}
 				reserves=1
@@ -1834,7 +1834,7 @@
 
 	}
 
-	s:STATE_VEDAMALA = {
+	s:STATE_LHEIPH_VA = {
 		region_state:COC={
 			create_building={
 				building="building_government_administration"
@@ -1964,7 +1964,7 @@
 
 	}
 
-	s:STATE_MANASI = {
+	s:STATE_MYCOLGA = {
 		region_state:COC={
 			create_building={
 				building="building_logging_camp"
