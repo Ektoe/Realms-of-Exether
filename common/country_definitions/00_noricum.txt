@@ -577,7 +577,7 @@ ROF = {
 	tier = principality
 
 	cultures = { meriwyn } 
-	capital = STATE_BANCFAN
+	capital = STATE_CAECARW
 }
 
 #Foxworth 

@@ -270,29 +270,28 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_worlds_end
-			name = First_Army
+			name = "Bancfan Border Guard"
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BANCFAN
-				count = 2
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CAECARW
-				count = 2
+				count = 10
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_BANCFAN
-				count = 1
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_BANCFAN
-				count = 1
+				count = 2
 			}
-			save_scope_as = first_army
 		}
 
 	}
@@ -437,21 +436,41 @@
 			type = army
 			hq_region = sr:region_yanger_steppe
 
+			name = "Drysgolmarkian Citizen Milita"
+
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CASTELL_DRYSGOLMARK
 				count = 3
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_CASTELL_DRYSGOLMARK
+				service_type = conscript
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
 				state_region = s:STATE_CASTELL_DRYSGOLMARK
 				count = 1
 			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_CASTELL_DRYSGOLMARK
+				service_type = conscript
+				count = 4
+			}
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
+				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_CASTELL_DRYSGOLMARK
 				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_CASTELL_DRYSGOLMARK
+				service_type = conscript
+				count = 4
 			}
 		}
 
