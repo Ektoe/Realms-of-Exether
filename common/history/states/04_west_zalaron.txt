@@ -1077,6 +1077,7 @@ s:STATE_EVERLUND = {
 }
 add_homeland = cu:lake_thalorian 
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_HAVENSHIRE = {
@@ -1299,6 +1300,7 @@ s:STATE_GRINWALD = {
 		owned_provinces = { "x29F5F7" "x57EAC1" "x7CFD7D" "x9FBBC0" "xA0D8FD" "xBFDAAC" "xCA8DF9" "xCB77E0" "xD6BBDF" "xD7C3EE" "xD7C5D9" "xD9DB5C" "xEF8988" "xFBF3E9" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_MAANSTIEN = {
@@ -1315,6 +1317,7 @@ s:STATE_NATUURBRUZJE = {
 		owned_provinces = { "x1DFDEA" "xA885DF" "xA9EBC0" "xB7EE67" "xDAA8D0" "xE073FC" "xF74CF2" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_SINNEBEAM = {
@@ -1323,6 +1326,7 @@ s:STATE_SINNEBEAM = {
 		owned_provinces = { "x29F5D7" "x69F5CE" "x84B9D4" "x9ABBBD" "x9EE2EC" "x9EFBCF" "xACAAAB" "xBAE9F0" "xD1E5CE" "xD57FB4" "xDAF9E7" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_STJERRENFAL = {
@@ -1331,6 +1335,7 @@ s:STATE_STJERRENFAL = {
 		owned_provinces = { "x59F3BD" "x98DA94" "xA2EFA6" "xA7F9DA" "xB2F850" "xD1B48B" "xD5E97D" "xD9C382" "xDBE9DD" "xF3ACAF" "xF48FDB" "xFE65FD" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_MISTDAL = {
@@ -1339,6 +1344,7 @@ s:STATE_MISTDAL = {
 		owned_provinces = { "x37FDFB" "x9BE0CC" "xA6FD81" "xBBB7D9" "xBEAFDC" "xD0E6D4" "xF56CDC" "xFAD875" "xFBD4D1" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_EKENKUST = {
@@ -1347,6 +1353,7 @@ s:STATE_EKENKUST = {
 		owned_provinces = { "x7F9FEC" "x92BAC7" "x9E7CF7" "xA6C7D9" "xB7F492" "xCEE0E9" "xD3A598" "xD6C3A1" "xE9CDAA" "xEAAFBF" "xEDEFDF" "xF6DD56" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_WETTERWIIDTE = {
@@ -1387,6 +1394,7 @@ s:STATE_SULVERSTREAM = {
 		owned_provinces = { "x524BA4" "x9487ED" "xAAF079" "xB4E7AE" "xC7B4C9" "xD6E3A1" "xD6F446" "xEC22F9" "xF614FB" "xF9D25A" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_WOLKENEVEL = {
@@ -1395,6 +1403,7 @@ s:STATE_WOLKENEVEL = {
 		owned_provinces = { "x5DECC7" "x63D6EA" "x6ADFE3" "x93F5FE" "x99B7BE" "xA1B69E" "xB260E8" "xB4A6C1" "xB8EBA9" "xC499E1" "xCD8FC4" "xD2A78B" "xD2D0D3" "xD765FA" "xDAB8CC" "xDD62FD" "xDD88AB" "xF8B8C5" "xF9DBE6" "xFCB366" "xFDE429" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_KLAVERBOSK = {
@@ -1419,6 +1428,7 @@ s:STATE_ELZEKOEPEL = {
 		owned_provinces = { "x71FBD3" "x88C5DA" "x9FC5CA" "xACD7AA" "xB0C4BF" "xB19BB3" "xBED5EE" "xC3C88D" "xC3E1F8" "xC5A1C5" "xD6869C" "xF987F0" "xFAF1EC" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_FLINTERWIIDTE = {
@@ -1427,6 +1437,7 @@ s:STATE_FLINTERWIIDTE = {
 		owned_provinces = { "x55E0DF" "x5EEEDA" "x6FFAAE" "x76BBCB" "x7DD8F5" "xA8E8AE" "xAE88C9" "xC1E161" "xC987F8" "xD0A3AA" "xE4E283" "xE6EA36" "xE7F5AD" "xF480EC" "xF6D9CE" "xFBF91C" "xFC37EB" "xFEBBF3" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_HIMMELSTIM = {
@@ -1435,6 +1446,7 @@ s:STATE_HIMMELSTIM = {
 		owned_provinces = { "x3A2006" "x54D2E5" "x7C82FA" "x99F4D4" "x9D82D7" "x9EC597" "xBEE6C0" "xC1D3C6" "xC9FA96" "xD6F467" "xE685BD" "xE6DF81" "xE6FD50" "xE9BB68" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_WALDLJOCHT = {
@@ -1443,6 +1455,7 @@ s:STATE_WALDLJOCHT = {
 		owned_provinces = { "x5CCDFE" "x8290F5" "x83C2F4" "x93F8D1" "x95C7BB" "xB5A3F2" "xB7E788" "xB993DB" "xC29AB6" "xE5A793" "xF871ED" "xF9CFAF" "xFEF881" }
 }
 add_homeland = cu:waldgnomklaai
+	add_claim = c:RAV
 }
 
 s:STATE_NACHTSIMMER = {

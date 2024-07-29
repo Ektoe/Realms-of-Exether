@@ -18,7 +18,6 @@ country_ritual_antimagic_3 = {
 country_ritual_antimagic_4 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	country_authority_mult = 0.10
-	
 }
 country_ritual_antimagic_5 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"

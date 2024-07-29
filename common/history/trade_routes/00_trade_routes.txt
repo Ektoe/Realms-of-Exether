@@ -848,45 +848,15 @@
         c:AHO ?= {
 		create_trade_route = {
 			goods = fabric
-			level = 5
-			direction = import
-			target = c:ZKW.market
-		}
-                create_trade_route = {
-			goods = liquor
-			level = 3
-			direction = import
-			target = c:EBR.market
-		}
-		create_trade_route = {
-			goods = hardwood
-			level = 2
-			direction = import
-			target = c:EBR.market
-		}
-		create_trade_route = {
-			goods = tools
-			level = 2
-			direction = export
-			target = c:ZKW.market
-		}
-		create_trade_route = {
-			goods = silk
-			level = 2
+			level = 6
 			direction = import
 			target = c:ZKW.market
 		}
 	}
 	c:ZKW ?= {
 		create_trade_route = {
-			goods = tools
-			level = 2
-			direction = import
-			target = c:AHO.market
-		}
-		create_trade_route = {
 			goods = small_arms
-			level = 3
+			level = 2
 			direction = import
 			target = c:AHO.market
 		}
@@ -894,12 +864,6 @@
 			goods = clothes
 			level = 2
 			direction = import
-			target = c:AHO.market
-		}
-		create_trade_route = {
-			goods = silk
-			level = 2
-			direction = export
 			target = c:AHO.market
 		}
 	}
@@ -1168,28 +1132,52 @@ c:SEB ?= {
 		direction = export
 	}	
 }
+c:PFL ?= {
+	create_trade_route = {
+		goods = fabric
+		level = 2
+		target = c:ARR.market
+		direction = import
+	}	
+	create_trade_route = {
+		goods = clothes
+		level = 1
+		target = c:ARR.market
+		direction = import
+	}		
+
+}
+c:EBR ?= {
+	create_trade_route = {
+		goods = iron
+		level = 2
+		target = c:AHO.market
+		direction = import
+	}	
+	create_trade_route = {
+		goods = fabric
+		level = 2
+		target = c:ARR.market
+		direction = import
+	}	
+	create_trade_route = {
+		goods = fabric
+		level = 2
+		target = c:AHO.market
+		direction = import
+	}		
+
+}
 c:DAR ?= {
 	create_trade_route = {
-		goods = hardwood
+		goods = sugar
 		level = 4
 		target = c:THI.market
 		direction = import
 	}	
 	create_trade_route = {
-		goods = luxury_clothes
-		level = 3
-		target = c:ARR.market
-		direction = import
-	}
-	create_trade_route = {
-		goods = luxury_furniture
-		level = 4
-		target = c:THI.market
-		direction = import
-	}
-	create_trade_route = {
-		goods = sugar
-		level = 4
+		goods = hardwood
+		level = 2
 		target = c:THI.market
 		direction = import
 	}		

@@ -1,0 +1,139 @@
+#road infra building
+pm_base_road_quality = {
+	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 5
+		}
+}
+building_modifiers = {
+	level_scaled = {
+		building_employment_laborers_add = 1000
+		}
+}
+}
+pm_stone_road_quality = {
+	texture = "gfx/interface/icons/production_method_icons/iron_frame_buildings.dds"
+	unlocking_technologies = {
+		modern_sewerage
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 7.5
+		}
+}
+building_modifiers = {
+	level_scaled = {
+		building_employment_laborers_add = 1500
+		}
+}
+}
+pm_paved_road_quality = {
+	texture = "gfx/interface/icons/production_method_icons/steel_frame_buildings.dds"
+	unlocking_technologies = {
+		paved_roads
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 10
+		}
+}
+	building_modifiers = {
+	level_scaled = {
+		building_employment_laborers_add = 2000
+		}
+}
+}
+pm_covered_road_wagons = {
+	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 5
+			goods_input_fabric_add = 5
+			goods_output_transportation_add = 5
+		}
+	}
+
+}
+pm_steam_fired_engines = {
+	texture = "gfx/interface/icons/production_method_icons/pumps.dds"
+	unlocking_technologies = {
+		water-tube_boiler
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 5
+			goods_input_coal_add = 5
+			goods_output_transportation_add = 10
+		}
+}
+}
+pm_early_compression_engines = {
+	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
+	unlocking_technologies = {
+		steam_donkey
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 5
+			goods_input_blubber_add = 5
+			goods_output_transportation_add = 20
+		}
+}
+}
+pm_no_security = {
+	texture = "gfx/interface/icons/production_method_icons/simple_organization.dds"
+}
+pm_basic_security = {
+	texture = "gfx/interface/icons/production_method_icons/spears.dds"
+	building_modifiers = {
+	level_scaled = {
+		building_employment_adventurers_add = 500
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+		state_adventurer_coverage_add = 5
+		}
+		}
+}
+pm_experienced_security = {
+	texture = "gfx/interface/icons/production_method_icons/rifles.dds"
+	unlocking_technologies = {
+		gunsmithing
+	}
+	state_modifiers = {
+		workforce_scaled = {
+		state_adventurer_coverage_add = 7.5
+		}
+		}
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_small_arms_add = 5
+		}
+		level_scaled = {
+			building_employment_adventurers_add = 750
+			}
+		}
+}
+pm_militarized_security = {
+	texture = "gfx/interface/icons/production_method_icons/repeaters.dds"
+	unlocking_technologies = {
+		percussion_cap
+	}
+	state_modifiers = {
+		workforce_scaled = {
+		state_adventurer_coverage_add = 10
+		}
+		}
+	building_modifiers = {
+		workforce_scaled = {
+		goods_input_small_arms_add = 5
+		goods_input_ammunition_add = 5
+		}
+		level_scaled = {
+		building_employment_adventurers_add = 500
+		building_employment_soldiers_add = 500
+		}
+		}
+}

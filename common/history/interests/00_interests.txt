@@ -30,18 +30,21 @@
 	c:SEB ?= {
 		add_declared_interest = region_nogi_desert
 	}
+	c:EBR ?= {
+		add_declared_interest = region_arrador
+	}
 	c:DIS ?= {
 		add_declared_interest = region_ravik
 		add_declared_interest = region_exiles_burden
 		add_declared_interest = region_victics_roosts
-	    add_declared_interest = sr:region_south_toftir 
-		add_declared_interest = sr:region_razorwind
-		add_declared_interest = sr:region_old_thaloria
-		add_declared_interest = sr:region_gavkhan
-		add_declared_interest = sr:region_tokalivar
-		add_declared_interest = sr:region_skittering_hills
-		add_declared_interest = sr:region_vulture_coast
-		add_declared_interest = sr:region_west_aritzakarri
+	    add_declared_interest = region_south_toftir 
+		add_declared_interest = region_razorwind
+		add_declared_interest = region_old_thaloria
+		add_declared_interest = region_gavkhan
+		add_declared_interest = region_tokalivar
+		add_declared_interest = region_skittering_hills
+		add_declared_interest = region_vulture_coast
+		add_declared_interest = region_west_aritzakarri
 
 	}
 	c:EME ?= {

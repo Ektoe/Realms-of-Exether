@@ -318,3 +318,4 @@ region_kajrando_skies = {
 region_vivari_shores = { 
 	states = { STATE_VIVARI_SHORES }
 }
+

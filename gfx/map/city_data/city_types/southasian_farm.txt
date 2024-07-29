@@ -40,14 +40,17 @@
 		rotation = 360.0
 	}
 	
-	building_rye_farm = {"arabic_farm_farmstead_01_mesh"}
+	building_rye_farm = { "arabic_farm_farmstead_01_mesh"}
+	building_beekeeping  = { "arabic_farm_farmstead_01_mesh"}
+	building_underfarm = { "arabic_farm_farmstead_01_mesh"}
 	building_wheat_farm = {"arabic_farm_farmstead_01_mesh"}
 	building_rice_farm = {"arabic_farm_farmstead_01_mesh"}
 	building_rice_farm_leechgardens = {"arabic_farm_farmstead_01_mesh"}
 	building_maize_farm = {"arabic_farm_farmstead_01_mesh"}
 	building_mountain_maize_farm = {"arabic_farm_farmstead_01_mesh"}
 	building_millet_farm = {"arabic_farm_farmstead_01_mesh"}
-	building_livestock_ranch = {"arabic_farm_ranch_01_mesh"}
+	building_livestock_ranch = { "arabic_farm_ranch_01_mesh"}
+	building_spider_ranch = { "arabic_farm_ranch_01_mesh"}
 	building_fur_hunting_lodge = {"arabic_farm_ranch_01_mesh"}
 	
 	building_coffee_plantation = {"arabic_farm_plantation_01_mesh"}

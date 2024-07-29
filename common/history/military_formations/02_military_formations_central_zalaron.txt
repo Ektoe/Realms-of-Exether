@@ -14,31 +14,31 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SC5
+				state_region = s:STATE_FUNÉTUN
 				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SC5
+				state_region = s:STATE_FUNÉTUN
 				count = 8
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SC7
+				state_region = s:STATE_URSHALSÍ
 				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_SC10
+				state_region = s:STATE_SITYU_CÍN
 				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_SC8
+				state_region = s:STATE_WÉSSWÚL
 				count = 5
 			}
 		}
@@ -50,19 +50,19 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SC10
+				state_region = s:STATE_SITYU_CÍN
 				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SC6
+				state_region = s:STATE_ILUCÉR
 				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
-				state_region = s:STATE_SC5
+				state_region = s:STATE_FUNÉTUN
 				count = 5
 			}
 
@@ -934,6 +934,30 @@
 		}
 		scope:oaz_admiral = {
 			transfer_to_formation = scope:oaz_fleet
+		}
+	}
+	c:OCR ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_equine_plains
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_PLAGUES_END
+				count = 20
+			}
+
+			save_scope_as = ocr_army
+		}
+
+		create_character = {
+			is_general = yes
+			hq = sr:region_equine_plains
+			save_scope_as = ocr_general
+		}
+		
+		scope:ocr_general = {
+			transfer_to_formation = scope:ocr_army
 		}
 	}
 }
