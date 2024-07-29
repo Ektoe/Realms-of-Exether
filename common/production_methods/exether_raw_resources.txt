@@ -841,6 +841,9 @@ pm_leviathan_airplanes = {
 		military_aviation
 	}
 
+	building_modifiers = {
+
+
 	workforce_scaled = {
 		# input
 		goods_input_aeroplanes_add = 10
@@ -849,7 +852,8 @@ pm_leviathan_airplanes = {
 		goods_output_meat_add = -8
 		goods_output_blubber_add = 25
 		goods_output_monster_essence_add = 15
-}
+	}
+	}
 }
 
 pm_picks_and_shovels_building_wishstone_mine = {
