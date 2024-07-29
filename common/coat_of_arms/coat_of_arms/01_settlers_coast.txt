@@ -460,7 +460,7 @@ KRC_subject_EMP = {
 		texture = "ce_emblem_sword_1_3c.dds"
 		color1 = "white"
 		color2 = "white"
-                color3 = "white"
+        color3 = "white"
 		instance = { scale = { 0.7 0.7 } position = { 0.6 0.6 } }	
 	}
 
@@ -468,7 +468,7 @@ KRC_subject_EMP = {
 		texture = "ce_emblem_sword_1_3c.dds"
 		color1 = "white"
 		color2 = "white"
-                color3 = "white"
+        color3 = "white"
 		instance = { scale = { 0.7 0.7 } position = { 0.4 0.6 } }	
 	}	
 
@@ -476,8 +476,80 @@ KRC_subject_EMP = {
 		texture = "ce_emblem_sword_1_3c.dds"
 		color1 = "white"
 		color2 = "white"
-                color3 = "white"
+        color3 = "white"
 		instance = { scale = { 0.7 0.7 } position = { 0.2 0.6 } }	
+	}
+}
+
+#Leonceau
+LEO = {
+		pattern = "pattern_solid.tga"
+	    color1 = "yellow_light"
+
+        colored_emblem = {
+		texture = "ce_per_cross.dds"
+		color1 = "blue_light"
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }	
+	}
+
+        colored_emblem = {
+		texture = "ce_emblem_sword_1_3c.dds"
+		color1 = "white"
+        color2 = "brown_light"
+        color3 = "red"
+		instance = { scale = { 0.7 0.7 } position = { 0.395 0.5 } rotation = 180 }	
+	}
+	
+        colored_emblem = {
+		texture = "ce_lion_rampant_per_pale_crowned.dds"
+		color1 = "red"
+        color2 = "red"
+        color3 = "black"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }	
+	}	
+}    
+
+#Leonceau subject Thiral
+LEO_subject_THI = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_light"
+
+        colored_emblem = {
+		texture = "ce_bicolor_left.dds"
+		color1 = "red"
+		instance = { scale = { 0.25 1 } position = { 0.12 0.5 } }
+	}
+	    colored_emblem = {
+		texture = "ce_bicolor_left.dds"
+		color1 = "green"
+		instance = { scale = { 0.25 1 } position = { 0.24 0.5 } }
+	}
+
+        colored_emblem = {
+		texture = "ce_bicolor_left.dds"
+		color1 = "red"
+		instance = { scale = { 0.25 1 } position = { 1 0.5 } }
+	}
+	    colored_emblem = {
+		texture = "ce_bicolor_left.dds"
+		color1 = "green"
+		instance = { scale = { 0.25 1 } position = { 0.88 0.5 } }
+	}
+
+        colored_emblem = {
+		texture = "ce_emblem_sword_1_3c.dds"
+		color1 = "white"
+        color2 = "brown_light"
+        color3 = "red"
+		instance = { scale = { 0.7 0.7 } position = { 0.395 0.5 } rotation = 180 }	
+	}
+	
+        colored_emblem = {
+		texture = "ce_lion_rampant_per_pale_crowned.dds"
+		color1 = "red_light"
+        color2 = "red"
+        color3 = "black"
+		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 } }	
 	}
 }
 

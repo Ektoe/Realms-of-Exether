@@ -3344,7 +3344,7 @@
   }
 
   s:STATE_FAR_SHORE = {
-		region_state:THI={
+		region_state:LEO={
 			create_building={
 				building="building_construction_sector"
 				level=2
@@ -3362,7 +3362,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:THI"
+                        country="c:LEO"
                         levels=3
                         region="STATE_FAR_SHORE"
                    }
@@ -3375,7 +3375,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:THI"
+                        country="c:LEO"
                         levels=3
                         region="STATE_FAR_SHORE"
                    }
@@ -3387,8 +3387,8 @@
 				building="building_logging_camp"
                 add_ownership={ 
                     building={ 
-                        type="building_financial_district"
-                        country="c:THI"
+                        type="building_manor_house"
+                        country="c:LEO"
                         levels=4
                         region="STATE_FAR_SHORE"
                    }
@@ -3401,7 +3401,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:THI"
+						country="c:LEO"
 						levels=4
 						region="STATE_FAR_SHORE"
 				   }
@@ -3414,7 +3414,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:THI"
+						country="c:LEO"
 						levels=1
 						region="STATE_FAR_SHORE"
 				   }
@@ -3427,8 +3427,8 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:THI"
-						levels=15
+						country="c:LEO"
+						levels=12
 						region="STATE_FAR_SHORE"
 				   }
 				}
@@ -3440,7 +3440,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:THI"
+						country="c:LEO"
 						levels=1
 						region="STATE_FAR_SHORE"
 				   }
@@ -3452,15 +3452,15 @@
   }
 
   s:STATE_FAR_SHORE_2 = {
-	region_state:THI={
+	region_state:LEO={
             create_building={
 			building="building_furniture_manufacturies"
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:THI"
+                        country="c:LEO"
                         levels=4
-                        region="STATE_FAR_SHORE_2"
+                        region="STATE_FAR_SHORE"
                    }
                 }
 			reserves=1
@@ -3471,7 +3471,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:THI"
+						country="c:LEO"
 						levels=3
 						region="STATE_FAR_SHORE_2"
 				   }
@@ -3483,8 +3483,8 @@
 			building="building_logging_camp"
                 add_ownership={ 
                     building={ 
-                        type="building_financial_district"
-                        country="c:THI"
+                        type="building_manor_house"
+                        country="c:LEO"
                         levels=8
                         region="STATE_FAR_SHORE_2"
                    }
