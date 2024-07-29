@@ -281,6 +281,22 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   # Food Industry
   pm_live_dough: "Living Dough"
   pm_monster_powder: "Monster Powder"
+
+  # Distillery
+  pmg_distillery_base_grain: "Distilling Techniques"
+  pm_basic_distillery: "Basic Distilling"
+  pmg_distillery_base_fruit: "Ingredient Substitution"
+  pm_no_fruit: "No Alternatives"
+  pm_some_fruit: "Partial Subsitution"
+  pm_more_fruit: "Moderate Substitution"
+  pm_mostly_fruit: "Heavy Substitution"
+  pmg_distillery_monster: "Essence Incorporation"
+  pm_monster_grapes: "Monstrous Yeast"
+  pm_added_spirits: "Ectoplasmatic Fermentation"
+  pmg_distillery_container: "Storage Methods"
+  pm_barrels: "Standard Barreling"
+  pm_bottomless_bottles: "Enchanted Bottles"
+  pm_automated_bottlers: "Bottling Machines"
   
   # Textile Mills
   pmg_magical_enhancements_building_textile_mills: "Magical Enhancements"
