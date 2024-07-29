@@ -45,3 +45,19 @@ state_trait_leechgardens = {
 		building_group_bg_rice_farms_leechgardens_throughput_add = 0.15
 	}
 }
+
+state_trait_thiralian_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		building_group_bg_logging_throughput_add = 0.20
+	}
+}
+
+state_trait_feylight_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		building_group_bg_logging_throughput_add = 0.25
+	}
+}
