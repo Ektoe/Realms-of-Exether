@@ -1753,7 +1753,7 @@ s:STATE_FAR_SHORE_2 = {
 		}
   }
 
-  s:STATE_ELF4 = {
+  s:STATE_KAATH_SERINE = {
 		region_state:VOZ = {
 			create_pop = {
 				culture = vozi

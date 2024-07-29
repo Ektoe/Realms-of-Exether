@@ -6606,7 +6606,7 @@
 		}
   }
 
-  s:STATE_ELF4 = {
+  s:STATE_KAATH_SERINE = {
 		region_state:VOZ={
 			create_building={
 				building="building_port"
@@ -6621,7 +6621,7 @@
 				  type="building_financial_district"
 				  country="c:VOZ"
 				  levels=2
-				  region="STATE_ELF4"
+				  region="STATE_KAATH_SERINE"
 			 }
 		  }
 				reserves=1
@@ -6634,7 +6634,7 @@
 						type="building_financial_district"
 						country="c:VOZ"
 						levels=3
-						region="STATE_ELF4"
+						region="STATE_KAATH_SERINE"
 				   }
 				}
 			reserves=1
@@ -6647,7 +6647,7 @@
                         type="building_financial_district"
                         country="c:VOZ"
                         levels=3
-                        region="STATE_ELF4"
+                        region="STATE_KAATH_SERINE"
                    }
                 }
 			reserves=1
@@ -6660,7 +6660,7 @@
                         type="building_financial_district"
                         country="c:VOZ"
                         levels=3
-                        region="STATE_ELF4"
+                        region="STATE_KAATH_SERINE"
                    }
                 }
 				reserves=1
@@ -6673,7 +6673,7 @@
 				  type="building_financial_district"
 				  country="c:VOZ"
 				  levels=1
-				  region="STATE_ELF4"
+				  region="STATE_KAATH_SERINE"
 			 }
 		  }
 				reserves=1
@@ -6686,7 +6686,7 @@
                         type="building_adventuring_guild"
                         country="c:VOZ"
                         levels=4
-                        region="STATE_ELF4"
+                        region="STATE_KAATH_SERINE"
                    }
                 }
 				reserves=1
@@ -6699,7 +6699,7 @@
                         type="building_financial_district"
                         country="c:VOZ"
                         levels=5
-                        region="STATE_ELF4"
+                        region="STATE_KAATH_SERINE"
                    }
                 }
 				reserves=1
