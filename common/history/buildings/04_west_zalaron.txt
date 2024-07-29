@@ -4513,7 +4513,7 @@
 					type="building_financial_district"
 					country="c:TLE"
 					levels=1
-					region="STATE_HAVENSHIRE"
+					region="STATE_VONKENDAM"
 			   }
 			}
 			reserves=1

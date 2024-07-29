@@ -574,7 +574,7 @@ building_wizard_tower = {
 							has_law = law_type:law_druidic_circles
 						}						
 					}
-					add = 3.0
+					add = 4.0
 				}											
 			}
 		}
@@ -589,7 +589,7 @@ building_wizard_tower = {
 							has_law = law_type:law_druidic_circles
 						}						
 					}
-					add = 3.0
+					add = 4.0
 				}					
 			}
 		}
@@ -604,7 +604,7 @@ building_wizard_tower = {
 							has_law = law_type:law_druidic_circles
 						}						
 					}
-					add = 3.0
+					add = 4.0
 				}					
 			}
 		}		

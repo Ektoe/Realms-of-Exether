@@ -66,33 +66,52 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_central_noricum
-			name = Dovedalian_National_Guard
+
+			name = "Dovedale Citizen Guard"
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_ROSKIRK
-				count = 6
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ROSKIRK
+				service_type = conscript
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_THORNWALL
-				count = 2
+				count = 5
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BALLYNE
-				count = 4
+				count = 3
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_ROSKIRK
-				count = 2
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_THORNWALL
+				service_type = conscript
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_dragoons
+				state_region = s:STATE_GLASINBLAIR
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_BALLYNE
-				count = 1
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_BALLYNE
+				service_type = conscript
+				count = 2
 			}
 			save_scope_as = Dovedalian_National_Guard
 		}
@@ -109,34 +128,34 @@
 			transfer_to_formation = scope:Dovedalian_National_Guard
 		}
 
-		create_military_formation = {
-			type = fleet
-			hq_region = sr:region_central_noricum
-			name = dovedalian_armada
-
-			save_scope_as = dovedalian_fleet
-		}
-
-		create_character = {
+	#	create_military_formation = {
+	#		type = fleet
+	#		hq_region = sr:region_central_noricum
+	#		name = dovedalian_armada
+	#
+	#		save_scope_as = dovedalian_fleet
+	#	}
+		#create_character = {
 			#template = DOV_stafford_clarke
-			is_admiral = yes
-			commander_rank = commander_rank_2
-			save_scope_as = clarke_adm
+		#	is_admiral = yes
+		#	commander_rank = commander_rank_2
+		#	save_scope_as = clarke_adm
 		}
-		scope:clarke_adm = {
-			transfer_to_formation = scope:dovedalian_fleet
-		}
-	}
+		#scope:clarke_adm = {
+			#transfer_to_formation = scope:dovedalian_fleet
+		#}
 	c:RVC ?= {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_ravencliff
-			name = Vampire_Legion
+
+			name = "Legion of Dreadmoor"
+
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_RAVENCLIFF
-				count = 6
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -146,20 +165,30 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_YSTRAD
-				count = 17
+				count = 20
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_BLACKDON
-				count = 3
+				count = 5
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_RAVENCLIFF
-				count = 7
+				count = 10
 			}
-		
+		     save_scope_as = rvcarmy
+		}
+
+		create_character = {
+			is_general = yes
+			hq = sr:region_ravencliff
+			save_scope_as = rvcgen
+		}
+		scope:qar_general = {
+			commander_rank = commander_rank_2
+			transfer_to_formation = scope:rvcarmy
 		}
 
 	}
@@ -271,33 +300,57 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_ravencliff
-			name = Foxworth_National_Militia
+
+			name = "Foxworth National Army"
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_INCHMARA
-				count = 8
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_INCHMARA
+				service_type = conscript
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_HARTHALGH
-				count = 4
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HARTHALGH
+				service_type = conscript
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_GWYNWEN
-				count = 6
+				count = 5
 			}
 			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GWYNWEN
+				service_type = conscript
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_GLYNFFORDD
-				count = 4
+				count = 5
 			}
-
 			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_GLYNFFORDD
+				service_type = 10
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_INCHMARA
-				count = 3
+				count = 5
 			}
 		}
 	}
