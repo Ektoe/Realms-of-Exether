@@ -87,7 +87,8 @@ building_distillery = {
 		pmg_distillery_monster
 		pmg_distillery_container
 	}
-
+	
+	ownership_type = self
 	required_construction = construction_cost_high
 }
 

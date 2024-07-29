@@ -947,7 +947,7 @@ pm_increased_hunting_chimesilt = {
 	}
 }
 #-----------------------------------
-pm_simple_khuus_hunting = {
+pm_simple_khus_hunting = {
 	texture = "gfx/interface/icons/production_method_icons/spears.dds"
 
 	building_modifiers = {
@@ -981,7 +981,7 @@ pm_simple_khuus_hunting = {
 	}
 }
 
-pm_firearms_khuus_hunting= {
+pm_firearms_khus_hunting= {
 	texture = "gfx/interface/icons/production_method_icons/guns.dds"
 	unlocking_technologies = {
 		monster_hunters
@@ -1020,7 +1020,7 @@ pm_firearms_khuus_hunting= {
 	}
 }	
 
-pm_heavy_weapons_khuus_hunting = {
+pm_heavy_weapons_khus_hunting = {
 	texture = "gfx/interface/icons/production_method_icons/bullets_skull.dds"
 	unlocking_technologies = {
 		hero_worship
@@ -1061,11 +1061,11 @@ pm_heavy_weapons_khuus_hunting = {
 	required_input_goods = ammunition
 }
 
-pm_no_hunting_khuus_silt = {
+pm_no_hunting_khus_chimesilt = {
 	texture = "gfx/interface/icons/production_method_icons/no_meat.dds"
 }
 
-pm_hunting_khuus_silt = {
+pm_hunting_khus_chimesilt = {
 	texture = "gfx/interface/icons/production_method_icons/meat.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -1081,12 +1081,12 @@ pm_hunting_khuus_silt = {
 	}
 }
 
-pm_increased_hunting_khuus_silt = {
+pm_increased_hunting_khus_chimesilt = {
 	texture = "gfx/interface/icons/production_method_icons/increased_meat.dds"
 
 	unlocking_production_methods = {
-		pm_firearms_khuus_hunting
-		pm_heavy_weapons_khuus_hunting
+		pm_firearms_khus_hunting
+		pm_heavy_weapons_khus_hunting
 	}
 
 	building_modifiers = {

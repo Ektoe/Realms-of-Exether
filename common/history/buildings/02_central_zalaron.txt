@@ -1,6 +1,6 @@
 BUILDINGS = {
 
-	s:STATE_SC5 = {
+	s:STATE_FUNÉTUN = {
 		region_state:OPA={
 			create_building={
 				building="building_millet_farm"
@@ -9,7 +9,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=2
-						region="STATE_SC5"
+						region="STATE_FUNÉTUN"
 				   }
 				}
 				reserves=1
@@ -22,7 +22,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=2
-						region="STATE_SC5"
+						region="STATE_FUNÉTUN"
 				   }
 				}
 				reserves=1
@@ -35,7 +35,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:OPA"
                         levels=4
-                        region="STATE_SC5"
+                        region="STATE_FUNÉTUN"
                    }
                 }
 				reserves=1
@@ -48,7 +48,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=2
-						region="STATE_SC5"
+						region="STATE_FUNÉTUN"
 				   }
 				}
 				reserves=1
@@ -57,12 +57,12 @@ BUILDINGS = {
 		}
 	}
 		
-	s:STATE_SC6 = {
+	s:STATE_ILUCÉR = {
 		region_state:OPA={
 		}
 	}
 		
-	s:STATE_SC7 = {
+	s:STATE_URSHALSÍ = {
 		region_state:OPA={
 			create_building={
 				building="building_cotton_plantation"
@@ -71,7 +71,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=1
-						region="STATE_SC7"
+						region="STATE_URSHALSÍ"
 				   }
 				}
 				reserves=1
@@ -84,7 +84,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=1
-						region="STATE_SC7"
+						region="STATE_URSHALSÍ"
 				   }
 				}
 				reserves=1
@@ -97,7 +97,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=1
-						region="STATE_SC7"
+						region="STATE_URSHALSÍ"
 				   }
 				}
 				reserves=1
@@ -106,7 +106,7 @@ BUILDINGS = {
 		}
 	}
 		
-	s:STATE_SC8 = {
+	s:STATE_WÉSSWÚL = {
 		region_state:OPA={
 			create_building={
 				building="building_millet_farm"
@@ -115,7 +115,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=2
-						region="STATE_SC8"
+						region="STATE_WÉSSWÚL"
 				   }
 				}
 				reserves=1
@@ -128,7 +128,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=1
-						region="STATE_SC8"
+						region="STATE_WÉSSWÚL"
 				   }
 				}
 				reserves=1
@@ -137,7 +137,7 @@ BUILDINGS = {
 		}
 	}
 		
-	s:STATE_SC9 = {
+	s:STATE_KÁLMBIQÚIS = {
 		region_state:OPA={
 			create_building={
 				building="building_government_administration"
@@ -158,7 +158,7 @@ BUILDINGS = {
 						type="building_financial_district"
 						country="c:OPA"
 						levels=1
-						region="STATE_SC9"
+						region="STATE_KÁLMBIQÚIS"
 				   }
 				}
 				reserves=1
@@ -171,7 +171,7 @@ BUILDINGS = {
                         type="building_financial_district"
                         country="c:OPA"
                         levels=2
-                        region="STATE_SC9"
+                        region="STATE_KÁLMBIQÚIS"
                    }
                 }
 				reserves=1
@@ -197,7 +197,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=1
-						region="STATE_SC9"
+						region="STATE_KÁLMBIQÚIS"
 				   }
 				}
 				reserves=1
@@ -210,7 +210,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=4
-						region="STATE_SC9"
+						region="STATE_KÁLMBIQÚIS"
 				   }
 				}
 				reserves=1
@@ -223,7 +223,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=8
-						region="STATE_SC9"
+						region="STATE_KÁLMBIQÚIS"
 				   }
 				}
 				reserves=1
@@ -236,7 +236,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=8
-						region="STATE_SC8"
+						region="STATE_WÉSSWÚL"
 				   }
 				}
 				reserves=1
@@ -245,7 +245,7 @@ BUILDINGS = {
 		}
 	}
 		
-	s:STATE_SC10 = {
+	s:STATE_SITYU_CÍN = {
 		region_state:OPA={
 			create_building={
 				building="building_government_administration"
@@ -266,7 +266,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=3
-						region="STATE_SC10"
+						region="STATE_SITYU_CÍN"
 				   }
 				}
 				reserves=1
@@ -279,7 +279,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=2
-						region="STATE_SC10"
+						region="STATE_SITYU_CÍN"
 				   }
 				}
 				reserves=1
@@ -292,7 +292,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=3
-						region="STATE_SC10"
+						region="STATE_SITYU_CÍN"
 				   }
 				}
 				reserves=1
@@ -305,7 +305,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=3
-						region="STATE_SC10"
+						region="STATE_SITYU_CÍN"
 				   }
 				}
 				reserves=1

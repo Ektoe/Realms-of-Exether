@@ -139,7 +139,7 @@ DRO = {
 	tier = kingdom
 
 	cultures = { aridrun } 
-	capital = STATE_ELF2
+	capital = STATE_CINPHNPHAINN
 }
 
 #Union of the Sands

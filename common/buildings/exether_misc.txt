@@ -40,7 +40,7 @@ building_logging_camp_liquortrees = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
-building_hunting_lodge = {
+building_hunting_lodge  = {
 	building_group = bg_hunting
 	texture = "gfx/interface/icons/building_icons/essence_temperate.dds"
 	city_type = wood
@@ -88,8 +88,8 @@ building_desert_hunting_lodge = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
-building_khuus_hunting_lodge = {
-	building_group = bg_khuus_hunting
+building_khus_hunting_lodge = {
+	building_group = bg_khus_hunting
 	texture = "gfx/interface/icons/building_icons/essence_temperate.dds"
 	city_type = wood
 	required_construction = construction_cost_low
@@ -101,8 +101,8 @@ building_khuus_hunting_lodge = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_khuus_hunting_lodge
-		pmg_hunting_khuus_silt
+		pmg_base_building_khus_hunting_lodge
+		pmg_hunting_khus_chimesilt
 		pmg_hunting_equipment
 		pmg_transportation_hunting_lodges
 		
