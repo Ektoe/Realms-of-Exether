@@ -51,6 +51,10 @@ STATE_CHADBA = {
         bg_coal_mining = 36
         bg_logging = 4
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        discovered_amount = 20
+     }
     naval_exit_id = 3082
 }
 STATE_TUKHUR = {
@@ -148,6 +152,10 @@ STATE_GARBOL = {
         bg_logging = 20
         bg_hunting = 12
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 24
+     }
     naval_exit_id = 3082
 }
 STATE_ORONK = {
@@ -184,6 +192,10 @@ STATE_KHAIRI = {
         bg_iron_mining = 36
         bg_logging = 3
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        discovered_amount = 24
+     }
     naval_exit_id = 3082
 }
 # STATE_GURBA = {
@@ -710,6 +722,10 @@ STATE_KAZTHYR = {
         bg_seasnake_wharf = 8
         bg_logging = 6
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 25
+     }
     naval_exit_id = 3059
 }
 STATE_ZURKYL = {
@@ -979,6 +995,10 @@ STATE_DORAZ = {
         bg_lead_mining = 45
         bg_seasnake_wharf = 8
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        discovered_amount = 20
+     }
     naval_exit_id = 3082
 }
 STATE_BALDBAN = {
@@ -1057,6 +1077,10 @@ STATE_GROMMOK = {
         bg_lead_mining = 30
         bg_logging = 3
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        discovered_amount = 24
+     }
     naval_exit_id = 3092
 }
 STATE_KYRKAZ = {
@@ -1095,6 +1119,10 @@ STATE_BAIZOR = {
         bg_fishing = 4
         bg_seasnake_wharf = 4
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        discovered_amount = 24
+     }
     naval_exit_id = 3082
 }
 STATE_KAZKYL = {
@@ -1132,6 +1160,10 @@ STATE_ORONAKA = {
         bg_lead_mining = 24
         bg_sulfur_mining = 36
     }
+    resource = {
+        type = "bg_wishstone_reefs"
+        discovered_amount = 26
+     }
     naval_exit_id = 3059
 }
 STATE_KHANGAWA = {
@@ -1149,6 +1181,11 @@ STATE_KHANGAWA = {
         bg_fishing_glowfish = 8
         bg_seasnake_wharf = 6
     }
+
+    resource = {
+        type = "bg_wishstone_reefs"
+        discovered_amount = 20
+     }
     naval_exit_id = 3036
 }
 STATE_HIRAMACHI = {

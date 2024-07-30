@@ -1146,3 +1146,9 @@ STATE_SALTY_LANDING = {
     id = 3244
     provinces = { "x7f0656" }
 }
+
+STATE_SHIPSHATTER_REEF_02 = {
+    id = 3245
+    provinces = { "xd64578" }
+    impassable = { "xd64578" }
+}

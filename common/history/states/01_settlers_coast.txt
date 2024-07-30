@@ -785,7 +785,7 @@ s:STATE_LHIPH = {
 add_homeland = cu:aridrun
 }
 
-s:STATE_ELF4 = {
+s:STATE_KAATH_SERINE = {
     create_state = {
         country = c:VOZ
         owned_provinces = { "x4CFECE" "x7DF886" "x9FF0DE" "xA09AD5" "xA3D6ED" "xBF45F2" "xCDB396" "xCDF773" "xD1AC7C" "xD374B3" "xDFE1CD" "xEB8BE2" "xFDF5EF" }

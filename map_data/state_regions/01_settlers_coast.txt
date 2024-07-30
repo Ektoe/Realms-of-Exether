@@ -1475,9 +1475,7 @@ STATE_VYNDERVOHT = {
 }
 STATE_SHIFTING_SCAR = {
     id = 4184
-    traits = {
-        "state_trait_frayed_veil"
-    }
+    traits = { "state_trait_frayed_veil" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x5FD7C1" "x6CB4F9" "x6CE0B7" "x78DBCC" "x7AEFC6" "x82FBAD" "x9AF3DD" "x9ED4ED" "xA2C095" "xA3E3FA" "xA7E7B3" "xABC89C" "xACE3DF" "xB0CE78" "xB491E3" "xBDCB9D" "xC8E588" "xC8F659" "xC9E995" "xD2F25A" "xD68EC6" "xD6D1C9" "xE2EB2B" "xE358D3" "xE3E76A" "xE4E37F" "xEBFA9D" "xEBFC39" "xECCE6B" "xEFE62F" "xF058DA" "xF3DBD4" "xF76C95" "xF8CDCC" "xF8D4EE" "xFA3DE5" "xFD5EBA" }
     port = xFD5EBA
@@ -1497,9 +1495,7 @@ STATE_SHIFTING_SCAR = {
 }
 STATE_SHIFTING_SCAR_2 = {
     id = 3781
-    traits = {
-        "state_trait_frayed_veil"
-    }
+    traits = { "state_trait_frayed_veil" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x40E0DA" "x51E0D7" "x58CAF0" "x62E9AE" "x67FAFA" "x72D6C9" "x88E9A7" "x959DFA" "xA0BAC6" "xADC2DB" "xAED4F6" "xB091FA" "xB3A8AE" "xBAF266" "xC8BEF3" "xCBC493" "xCEEA5C" "xD2E777" "xD2FB46" "xDCA2D3" "xDD94C8" "xE067E9" "xE147E7" "xE29BB5" "xE64BDA" "xECD142" "xF9CFB5" "xFA879F" }
     port = xFA879F
@@ -1806,7 +1802,7 @@ STATE_LHIPH = {
     }
     naval_exit_id = 3048
 }
-STATE_ELF4 = {
+STATE_KAATH_SERINE = {
     id = 4199
     subsistence_building = "building_subsistence_farms"
     provinces = { "x4CFECE" "x7DF886" "x9FF0DE" "xA09AD5" "xA3D6ED" "xBF45F2" "xCDB396" "xCDF773" "xD1AC7C" "xD374B3" "xDFE1CD" "xEB8BE2" "xFDF5EF" }
