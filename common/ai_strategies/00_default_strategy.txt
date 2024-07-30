@@ -79,6 +79,24 @@ ai_strategy_default = {
 	# Using this value in other strategies will function additively
 	diplomatic_play_boldness = {
 		value = 50
+		
+		if = { #RAV will never give up agaisnt Thaloria
+			limit = {
+				c:RAV ?= this
+				exists = c:TLE
+				is_diplomatic_play_enemy_of = c:TLE
+			}
+			add = 1000
+		}
+
+		if = { #vice versa
+			limit = {
+				c:TLE ?= this
+				exists = c:RAV
+				is_diplomatic_play_enemy_of = c:RAV
+			}
+			add = 1000
+		}
 	} 
 		
 	# How many maneuvers are we OK with using up in the initial phase to add more wargoals
@@ -1169,7 +1187,7 @@ ai_strategy_default = {
 
 		add = {
 			value = investment_pool_income
-			divide = 500 # 1 construction output per this much into the investment pool				
+			divide = 800 # 1 construction output per this much into the investment pool				
 		}
 		
 		add = {
@@ -1187,10 +1205,14 @@ ai_strategy_default = {
 		}
 
 		add = {
-			value = 0
-			add = income
-			subtract = expenses
-			divide = 500
+			value = income
+			divide = 600
+			min = 0
+		}
+
+		subtract = {
+			value = expenses
+			divide = 600
 			min = 0
 		}
 		

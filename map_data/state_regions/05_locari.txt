@@ -65,7 +65,7 @@ STATE_SHANTINAGAR = {
 }
 STATE_SURYANAGARI = {
     id = 4837
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x78D8E0" "x7FDBC0" "x8982EB" "x9DB6EA" "xAA90D9" "xC1B399" "xD5FCCD" "xE2B37B" "xE5ABF3" "xE8DEB8" "xFDFC2D" }
     port = x9DB6EA
@@ -87,7 +87,7 @@ STATE_SURYANAGARI = {
 }
 STATE_BHAVANASARA = {
     id = 4838
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x79A8F1" "x81C5B6" "xA2C6C5" "xA3C1E3" "xA683E5" "xB097AE" "xB8FEBD" "xBCB981" "xCEF3FD" "xD6F7BF" "xF04FD2" }
     port = x79A8F1
@@ -152,7 +152,7 @@ STATE_BODHISATTVA = {
 
 STATE_ANANTAPURI = {
     id = 4842
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x3AFDD7" "x58C3DD" "x5DA9FD" "x85F9CB" "xA0E1EB" "xA7EAD8" "xB0ACDA" "xB6B3E0" "xB7ABFD" "xB976C8" "xBAE861" "xE5F6C6" "xE6D0D3" "xE6F5CF" "xF406FB" }
     port = xF406FB
@@ -171,7 +171,7 @@ STATE_ANANTAPURI = {
 
 STATE_JIVANASUTA = {
     id = 4844
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x60EBC6" "x69EACD" "x9E95C6" "xAF9CF3" "xB0F68B" "xBDCF77" "xC17F2F" "xC2D6DB" "xC4D06D" "xC9F262" "xCEEC9E" "xE330F5" "xEF9FD2" "xF514F6" "xF6A0A5" "xF6E3E1" }
     port = xF6E3E1
@@ -230,7 +230,7 @@ STATE_VISHUDDHIKARA = {
 }
 STATE_SUKHIBHAVA = {
     id = 4847
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x3CF7F1" "x83C2B1" "x9EDDF8" "xA6D59F" "xA8BBE4" "xABF5A5" "xBEDADE" "xC089B2" "xD778E0" "xEDFE92" "xEE7B8D" "xF0FC34" }
     port = xF0FC34
@@ -485,7 +485,7 @@ STATE_YARRAGANBALA = {
 }
 STATE_WADAWURRUM = {
     id = 4862
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x5ADAD2" "x8DE6C6" "xAE67F7" "xAF9BBB" "xC49EA8" "xC7FCFE" "xE0E663" "xE1C5F1" "xEEE075" "xF2B984" }
     port = xF2B984
@@ -502,7 +502,7 @@ STATE_WADAWURRUM = {
 }
 STATE_JALAGAMKATTA = {
     id = 4863
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x886384" "x8DC6D4" "x90DB8A" "x99C2B0" "xBA79F9" "xCDBBEF" "xD2E6D2" "xDBE287" "xE6CC95" "xEFB7C2" "xF79FE9" }
     port = xF79FE9
@@ -520,7 +520,7 @@ STATE_JALAGAMKATTA = {
 }
 STATE_KARINGARRI = {
     id = 4864
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x16EDF5" "xA98BD7" "xAD92C4" "xAE8CE1" "xBE9F9A" "xE0E7D8" "xE2EF4F" "xE3ACB9" "xF166B0" }
     port = xF166B0
@@ -606,7 +606,7 @@ STATE_DAMARLARA = {
 }
 STATE_KURRADUYARRA = {
     id = 4869
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x8FDAAC" "xB5EDD4" "xC8A79E" "xCB92AC" "xE571DE" "xEAEA6E" "xF2C2CB" }
     port = xF2C2CB
@@ -626,7 +626,7 @@ STATE_KURRADUYARRA = {
 }
 STATE_WARRANGBANU = {
     id = 4870
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x78C0E8" "xB0B1A4" "xB593CE" "xB8E97B" "xBBEE67" "xDEE692" "xE3B0AB" "xE9D7A5" }
     port = xE9D7A5
@@ -661,7 +661,7 @@ STATE_WARRANGBANU = {
 #}
 STATE_DANKASEMBE = {
     id = 4873
-    traits = {"state_trait_awakened_wildlife"}
+    traits = { "state_trait_awakened_wildlife" }
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x62FEA1" "xA1A5D3" "xCF6CFE" "xD147F0" "xF571AD" "xF93DCC" "xFB7394" "xFDF0AC" }
     port = xFDF0AC
@@ -1357,7 +1357,7 @@ STATE_KUNDUZOV = {
 }
 STATE_PULIKOTSK = {
     id = 4926
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x5AD0EA" "x7889FB" "xE6D2D6" "xEB8CD9" "xECF559" "xEEC3D0" }
     port = xEEC3D0
@@ -1375,7 +1375,7 @@ STATE_PULIKOTSK = {
 }
 STATE_TERMEZSK = {
     id = 4927
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x40FEC7" "x8BFC73" "x9DDDEC" "xA1A6D6" "xCE8AB4" "xCE96A6" "xCEEE9A" "xEDADDE" "xF5BDF4" }
     port = x40FEC7
@@ -1412,7 +1412,7 @@ STATE_JALALABAKOV = {
 }
 STATE_FARGHANOV = {
     id = 4929
-    traits = {"state_trait_psionic_storms"}
+    traits = { "state_trait_psionic_storms" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x3EF8FE" "x93E1FB" "xC963D3" "xE2EF62" "xE4D5C8" "xEC35E6" "xF4C0C2" "xF6A6C7" }
     port = xF6A6C7
@@ -1427,7 +1427,7 @@ STATE_FARGHANOV = {
 }
 STATE_GHAZNINSKIY = {
     id = 4930
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x32E7E0" "x85F6E9" "x8DDC8C" "xA5EF6C" "xA9A1AB" "xC8ED7E" "xE25FDB" "xED59C0" "xEEAED2" }
     port = x32E7E0
@@ -1447,7 +1447,7 @@ STATE_GHAZNINSKIY = {
 }
 STATE_ANDIZHANSK = {
     id = 4931
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x4BF0BA" "x80D6EF" "xA770FC" "xADFB7B" "xBD96CE" "xC193C7" "xDF997E" "xE21CFC" "xEA97DB" "xFABCD8" "xFB7AD7" }
     port = xBD96CE
@@ -1466,7 +1466,7 @@ STATE_ANDIZHANSK = {
 
 STATE_RUKHAM = {
     id = 4933
-    traits = {"state_trait_psionic_storms"}
+    traits = { "state_trait_psionic_storms" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x15EFFE" "x29E7EC" "x84D8D2" "x84D8E8" "x869BE3" "x87E699" "x89CCF7" "x8BC5EB" "x8EDCEA" "x9EF8DF" "x9FF7FE" "xA1BEDA" "xA2C2B7" "xA5D6EF" "xA6EFA0" "xA7E26E" "xABA5D8" "xBAFB50" "xBD84DB" "xBFAEFB" "xBFE1B5" "xC1BBC1" "xC27DBE" "xC4AE93" "xD584A2" "xD8C798" "xD8E8B3" "xDBB7AE" "xDBC7DF" "xDCF14C" "xDD9FDF" "xDE5DC5" "xE5D4C3" "xE5E8F0" "xE79FB9" "xE7EE34" "xE997ED" "xEC6DA6" "xECF583" "xF0DCF7" "xF3DBE8" "xF67C9F" "xF980E8" "xFACEFA" "xFE44BE" }
     port = xFE44BE
@@ -1484,7 +1484,7 @@ STATE_RUKHAM = {
 }
 STATE_KARAKAR = {
     id = 4934
-    traits = {"state_trait_psionic_storms"}
+    traits = { "state_trait_psionic_storms" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x46D2EB" "x60EBD5" "x61F3FB" "x68DEF5" "x69CDC3" "x76DEE4" "x7AEDFB" "x7CE3D6" "x7EB4F6" "x84E29C" "x918CF0" "x969CD7" "x9FADEA" "x9FD7FD" "xA26BF2" "xA566ED" "xAAA1CC" "xB284D8" "xB4D9E2" "xB5ADD8" "xBCB2F1" "xBDBEA6" "xD1D790" "xD4A0CB" "xD89AFB" "xDA82CD" "xDCFB8E" "xDF6BE1" "xE8CEB1" "xEC76B3" "xEDE431" "xEF99A1" "xEFF47D" "xF36AF3" "xF85BAB" "xF9D696" }
     port = xF9D696
@@ -1503,7 +1503,7 @@ STATE_KARAKAR = {
 }
 STATE_HARQOM = {
     id = 4935
-    traits = {"state_trait_psionic_storms"}
+    traits = { "state_trait_psionic_storms" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x2AF1E2" "x56D7E6" "x6CDDAD" "x78FB8A" "x79D7A8" "x85C9B0" "x93C6AC" "x93E58A" "xAEE197" "xB0B2F0" "xB277F4" "xB47BCD" "xBF54EC" "xC069D1" "xC16EF2" "xC2D0C7" "xC3FCA5" "xC5E589" "xCC57D9" "xCCA5EA" "xD061F9" "xD8A4AF" "xDABDCA" "xDB9AEB" "xDE99A0" "xDF9BB0" "xECE52E" "xEE64DD" "xEFD55D" "xFAF5BD" }
     port = xFAF5BD
@@ -1522,7 +1522,7 @@ STATE_HARQOM = {
 }
 STATE_KHUBEK = {
     id = 4936
-    traits = {"state_trait_psionic_storms"}
+    traits = { "state_trait_psionic_storms" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x5DB7E4" "x7C9EE7" "x85E0AB" "x92BCAA" "x95CDAC" "xABF861" "xB37BE8" "xB596E4" "xBAC18B" "xC3A3EE" "xC99DB9" "xCA51E2" "xD5BD8A" "xD8C8CC" "xDAB39D" "xE1A3C0" "xE4A277" "xE698AF" "xE9B7C0" "xEF61AF" "xF5ECC9" "xFCF19C" "xFDA06C" }
     port = xFDA06C
@@ -1540,7 +1540,7 @@ STATE_KHUBEK = {
 }
 STATE_TABLAG = {
     id = 4937
-    traits = {"state_trait_psionic_storms"}
+    traits = { "state_trait_psionic_storms" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x4AF4C4" "x52FEE5" "x62CCEB" "x76D4BF" "x7DD1F2" "x8BB6E4" "x8F7BF9" "x97F965" "x9A60FB" "x9CFDBA" "x9F80FB" "xA0A3EB" "xA1D9B7" "xA9B4EB" "xAB9DBF" "xBEAAD1" "xC7E080" "xCBE2B7" "xCDF8BA" "xD082FB" "xD2E885" "xD4E863" "xD8D990" "xD8D9C2" "xD8EBB5" "xDF35F3" "xE456D3" "xE55FDD" "xE6958B" "xEB99DB" "xF3B776" "xF8709A" "xFA66A6" "xFA8AD9" "xFC7EA7" }
     port = xFC7EA7
@@ -1559,7 +1559,7 @@ STATE_TABLAG = {
 }
 STATE_WUTAK = {
     id = 4938
-    traits = {"state_trait_psionic_storms"}
+    traits = { "state_trait_psionic_storms" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x36F9E4" "x40CAFA" "x6ABFDF" "x6EF199" "x75F0DF" "x7ADAC4" "x7BC8BD" "x93A3DA" "xA3FB8F" "xAF98DE" "xB7D5E5" "xBB84E7" "xBDA4D3" "xC1C3C2" "xC2EFFD" "xC3F86E" "xC4F6A3" "xC6D59D" "xC772D3" "xD065D2" "xDDA492" "xDF61F1" "xDF88F5" "xE0F439" "xE16ACE" "xE3D88B" "xE556D4" "xE5F2B7" "xE66BED" "xE8F67A" "xEB82A8" "xF1D87B" "xF2BBF0" "xF38093" "xF4EDD6" }
     port = xF4EDD6

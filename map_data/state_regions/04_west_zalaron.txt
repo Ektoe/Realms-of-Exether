@@ -1227,7 +1227,7 @@ STATE_SWAHATHAI = {
     }
     naval_exit_id = 3094
 }
-STATE_KLONGLALA = {
+STATE_ODADRUEL = {
     id = 2502
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x93DEBB" "xA8C7C8" "xAAF8EF" "xC390D0" "xC4D284" "xC5D586" "xC67FB5" "xD4D29D" "xDDC9C9" "xE6F87E" "xEE93BF" }
@@ -1355,7 +1355,7 @@ STATE_THASAMAKI = {
     }
     naval_exit_id = 3015
 }
-STATE_SAWABARA = {
+STATE_NOLOGO_RULL = {
     id = 2508
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x3EEADB" "x50F5EA" "x5BC2D9" "x78F09E" "x7CE4AC" "x7D99EF" "x91DC9F" "x94C6F4" "x95AFBE" "x95D9D6" "x96FC99" "x9AEBE8" "x9CC1D7" "xA09AC6" "xA2E699" "xA6A3EF" "xC1CE9D" "xC4D97C" "xC9C0E5" "xCAF43E" "xCBDC52" "xD4AC78" "xD7C96F" "xDFE296" "xE2D941" "xE5C665" "xE5CFFA" "xE755E3" "xE7E32B" "xE8E947" "xEAA375" "xECA0BE" "xEEE0D8" "xF4AFB2" "xF5E2A1" "xF98A91" "xFC06FA" }
@@ -1376,7 +1376,7 @@ STATE_SAWABARA = {
     }
     naval_exit_id = 3085
 }
-STATE_KISITONG = {
+STATE_NOLOGO_VELPH = {
     id = 2509
     subsistence_building = "building_subsistence_farms"
     provinces = { "x5FF1EB" "x62F1F5" "x64F8D0" "x66E4C3" "x7FF7F0" "x8BE490" "xA098C0" "xA580F2" "xB8D0B0" "xCFB0E8" "xD49D9C" "xD5DA51" "xDB78EB" "xDFAA90" "xEED0E6" "xFBF1F1" }

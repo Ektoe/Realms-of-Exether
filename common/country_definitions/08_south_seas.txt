@@ -55,7 +55,7 @@ LIR = {
 	tier = principality
 
 	cultures = { cithrel } 
-	capital = STATE_IVOLOINA
+	capital = STATE_MASC_PEIW
 }
 
 #Senlindao
@@ -252,7 +252,7 @@ COC = {
 
 	tier = principality
 	cultures = { cithrel } 
-	capital = STATE_VEDAMALA
+	capital = STATE_LHEIPH_VA
 }
 
 #Xochihip
@@ -263,7 +263,7 @@ XOC = {
 
 	tier = principality
 	cultures = { cithrel } 
-	capital = STATE_VEDAMALA
+	capital = STATE_LHEIPH_VA
 }
 
 #Kurme

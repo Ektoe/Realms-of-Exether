@@ -327,6 +327,7 @@ s:STATE_KILCREE = {
 	country = c:DUM
 	owned_provinces = { "x46E9EB" "x78C3BB" "x9FD0D3" "xCFDE86" "xDCBA8F" "xE1BBEC" "xE1F13F" "xE2FD58" "xE7D27F" "xF9FA3C" "xFD5EBF" }
 	}
+	add_homeland = cu:dumonian
 	add_homeland = cu:jalian
 }
 
