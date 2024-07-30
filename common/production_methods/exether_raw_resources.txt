@@ -385,7 +385,7 @@ pm_blubber_military_production = {
 			# input goods
 			# output goods
 			goods_output_blubber_add = -15
-			goods_output_munitions_add = 15
+			goods_output_ammunition_add = 15
 		}
 
 		unscaled = {
