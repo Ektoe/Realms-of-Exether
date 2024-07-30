@@ -1152,7 +1152,7 @@
 
 			combat_unit = { 
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:TOPHNATH
+				state_region = s:STATE_TOPHNATH
 				count = 2
 			}
 
@@ -1258,13 +1258,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MISTREACH_2
+				state_region = s:STATE_PRILYRA
 				count = 6
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_GREENCOURT_2
+				state_region = s:STATE_MISTREACH_2  
 				count = 3
 			}
 		}
