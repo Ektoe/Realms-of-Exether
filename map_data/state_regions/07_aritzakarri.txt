@@ -887,6 +887,7 @@ STATE_ARGIA = {
         bg_logging = 12
         bg_whaling = 6
         bg_fishing = 8
+        bg_wishstone_mining = 3
     }
     naval_exit_id = 3029
 }
@@ -907,6 +908,7 @@ STATE_ZUHAITZ = {
         bg_logging = 26
         bg_hunting = 12
         bg_fishing = 4
+        bg_wishstone_mining = 3
     }
     naval_exit_id = 3029
 }
@@ -1153,6 +1155,7 @@ STATE_TXINPART = {
         bg_iron_mining = 22
         bg_coal_mining = 12
         bg_fishing = 8
+        bg_wishstone_mining = 7
     }
     resource = {
         type = "bg_oil_extraction"
@@ -1246,6 +1249,7 @@ STATE_OSTATU = {
         bg_lead_mining = 18
         bg_fishing = 6
         bg_whaling = 4
+        bg_wishstone_mining = 10
     }
     naval_exit_id = 3059
 }

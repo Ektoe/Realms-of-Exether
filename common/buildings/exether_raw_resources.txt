@@ -24,6 +24,32 @@
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
  }
 
+ building_deep_cloud_collectors = {
+	building_group = bg_deep_cloud_collecting
+	texture = "gfx/interface/icons/building_icons/cloud_collectors.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		cloudsilver_refining
+	}
+
+	production_method_groups = {
+		pmg_equipment_building_cloud_collector
+		pmg_arcane_building_cloud_collector
+		pmg_steam_automation_building_iron_mine
+		pmg_train_automation_building_iron_mine
+		
+	}
+
+	
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+ }
+
  building_wishstone_mine = {
 	building_group = bg_wishstone_mining
 	texture = "gfx/interface/icons/building_icons/wishstone_vein.dds"

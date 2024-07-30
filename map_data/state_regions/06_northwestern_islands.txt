@@ -1403,6 +1403,7 @@ STATE_RUMATARI = {
         bg_iron_mining = 18
         bg_logging = 16
         bg_squidding = 4
+        bg_wishstone_mining = 10
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1605,6 +1606,7 @@ STATE_LUNARATA = {
         bg_logging = 6
         bg_squidding = 8
         bg_whaling = 4
+        bg_wishstone_mining = 7
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1626,6 +1628,7 @@ STATE_TAUMAROI = {
     capped_resources = {
         bg_lead_mining = 36
         bg_logging = 14
+        bg_wishstone_mining = 20
     }
     resource = {
         type = "bg_cold_rubber"
