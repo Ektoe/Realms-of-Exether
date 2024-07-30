@@ -1128,7 +1128,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ELF1
+				state_region = s:STATE_LHIPH
 				count = 10
 			}
 
@@ -1140,7 +1140,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ELF3
+				state_region = s:STATE_RICHAR_JEDD
 				count = 10
 			}
 		}
@@ -1152,7 +1152,7 @@
 
 			combat_unit = { 
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_ELF3
+				state_region = s:TOPHNATH
 				count = 2
 			}
 
@@ -1164,7 +1164,7 @@
 
 						combat_unit = { 
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_ELF1
+				state_region = s:STATE_LHIPH
 				count = 15
 			}
 		
