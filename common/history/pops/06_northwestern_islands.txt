@@ -3,7 +3,7 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = illvasaari
-				size = 331000
+				size = 631000
 			}
 			create_pop = {
 				culture = kotskarvi
@@ -23,7 +23,7 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = illvasaari
-				size = 325080
+				size = 425080
 			}
 			create_pop = {
 				culture = kotskarvi
@@ -35,7 +35,7 @@
 		region_state:TKR = {
 			create_pop = {
 				culture = kotskarvi
-				size = 330000
+				size = 532901
 			}
 			create_pop = {
 				culture = illvasaari
@@ -47,11 +47,11 @@
 		region_state:TKR = {
 			create_pop = {
 				culture = kotskarvi
-				size = 290000
+				size = 491818
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 58000
+				size = 58386
 			}
 		}
 	}
@@ -59,7 +59,7 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = illvasaari
-				size = 295128
+				size = 495128
 			}
 			create_pop = {
 				culture = kotskarvi
@@ -75,7 +75,7 @@
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 472400
+				size = 772400
 			}
 		}
 	}
@@ -111,7 +111,7 @@
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 274120
+				size = 174120
 			}
 		}
 	}
@@ -147,7 +147,7 @@
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 80000
+				size = 111111
 			}
 		}
 	}
@@ -187,7 +187,7 @@
 		region_state:IMR = {
 			create_pop = {
 				culture = kotskarvi
-				size = 380000
+				size = 489481
 			}
 			create_pop = {
 				culture = illvasaari
@@ -219,7 +219,7 @@
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 276000
+				size = 576000
 			}
 			create_pop = {
 				culture = drogori
@@ -279,7 +279,7 @@
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 484000
+				size = 584000
 			}
 			create_pop = {
 				culture = drogori
@@ -291,7 +291,7 @@
 		region_state:IAL = {
 			create_pop = {
 				culture = kotskarvi
-				size = 270062
+				size = 570062
 			}
 			create_pop = {
 				culture = illvasaari
@@ -335,7 +335,7 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = illvasaari
-				size = 1032996
+				size = 1632996
 			}
 			create_pop = {
 				culture = kotskarvi
@@ -388,7 +388,7 @@
 		region_state:KVA = {
 			create_pop = {
 				culture = kotskarvi
-				size = 172000
+				size = 346147
 			}
 		}
 	}
@@ -396,7 +396,7 @@
 		region_state:KVA = {
 			create_pop = {
 				culture = kotskarvi
-				size = 199000
+				size = 499191
 			}
 		}
 	}
@@ -448,7 +448,7 @@
 		region_state:RKO = {
 			create_pop = {
 				culture = garagoz
-				size = 190000
+				size = 991181
 			}
 			create_pop = {
 				culture = illvasaari
@@ -464,7 +464,7 @@
 		region_state:RKO = {
 			create_pop = {
 				culture = garagoz
-				size = 150000
+				size = 1529801
 			}
 			create_pop = {
 				culture = illvasaari
@@ -554,11 +554,7 @@
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 581800
-			}
-			create_pop = {
-				culture = drogori
-				size = 192596
+				size = 981800
 			}
 		}
 	}
@@ -582,15 +578,15 @@
 		region_state:DIS = {
 			create_pop = {
 				culture = garagoz
-				size = 25000
+				size = 43201
 			}
 			create_pop = {
 				culture = illvasaari
-				size = 88000
+				size = 128291
 			}
 			create_pop = {
 				culture = blacktalon
-				size = 12000
+				size = 10919
 			}
 		}
 	}
@@ -602,7 +598,7 @@
 			}
 			create_pop = {
 				culture =  illvasaari
-				size = 476000
+				size = 576000
 			}
 			create_pop = {
 				culture = drogori
@@ -618,11 +614,7 @@
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 660000
-			}
-			create_pop = {
-				culture = drogori
-				size = 4004
+				size = 960191
 			}
 		}
 	}
@@ -634,11 +626,7 @@
 			}
 			create_pop = {
 				culture = kotskarvi
-				size = 90004
-			}
-			create_pop = {
-				culture = drogori
-				size = 76000
+				size = 591914
 			}
 		}
 	}
@@ -975,8 +963,8 @@
 	s:STATE_WHIRINAKI = {
 		region_state:QAR = {
 			create_pop = {
-				culture = kotskarvi
-				size = 209000
+				culture = drogori
+				size = 1109000
 			}
 			create_pop = {
 				culture = kealohi
@@ -1063,8 +1051,8 @@
 			  size = 264796
 			}
 			create_pop = {
-				culture = kotskarvi
-				size = 44796
+				culture = drogori
+				size = 444796
 			  }
 		  }
 	}
@@ -1079,8 +1067,8 @@
 	s:STATE_RAROMARA = {
 		region_state:QAR = {
 			create_pop = {
-				culture = kotskarvi
-				size = 237000
+				culture = drogori
+				size = 2237000
 			}
 			create_pop = {
 				culture = kealohi
@@ -1107,8 +1095,8 @@
 	s:STATE_PATARENI = {
 		region_state:QAR = {
 			create_pop = {
-				culture = kotskarvi
-				size = 365000
+				culture = drogori
+				size = 865000
 			}
 			create_pop = {
 				culture = kealohi

@@ -1078,8 +1078,8 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_lake_bossard
-			name = Hold_Defense_Force
-
+			name = "Mountainhome Guard"
+			save_scope_as = darvak_army_1
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_MOUNT_YELFIS
@@ -1097,6 +1097,14 @@
 				state_region = s:STATE_MOUNT_YELFIS
 				count = 2
 			}
+		}
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			save_scope_as = darvak_defender
+		}
+		scope:darvak_defender = {
+			transfer_to_formation = scope:darvak_army_1
 		}
 	}
 

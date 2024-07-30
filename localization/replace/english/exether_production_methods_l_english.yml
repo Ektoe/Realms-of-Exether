@@ -281,6 +281,22 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   # Food Industry
   pm_live_dough: "Living Dough"
   pm_monster_powder: "Monster Powder"
+
+  # Distillery
+  pmg_distillery_base_grain: "Distilling Techniques"
+  pm_basic_distillery: "Basic Distilling"
+  pmg_distillery_base_fruit: "Ingredient Substitution"
+  pm_no_fruit: "No Alternatives"
+  pm_some_fruit: "Partial Subsitution"
+  pm_more_fruit: "Moderate Substitution"
+  pm_mostly_fruit: "Heavy Substitution"
+  pmg_distillery_monster: "Essence Incorporation"
+  pm_monster_grapes: "Monstrous Yeast"
+  pm_added_spirits: "Ectoplasmatic Fermentation"
+  pmg_distillery_container: "Storage Methods"
+  pm_barrels: "Standard Barreling"
+  pm_bottomless_bottles: "Enchanted Bottles"
+  pm_automated_bottlers: "Bottling Machines"
   
   # Textile Mills
   pmg_magical_enhancements_building_textile_mills: "Magical Enhancements"
@@ -368,6 +384,20 @@ pm_beast_divination: "Smell-O-Vision Goggles"
   pm_glass_bark: "Glass Bark Production"
   pm_increased_glass_bark: "Increased Glass Bark Production"
   
-  
+  # Roads
+  pmg_base_road_quality: "Road Quality"
+  pm_base_road_quality: "Dirt Roads"
+  pm_stone_road_quality: "Stone Roads"
+  pm_paved_road_quality: "Paved Roads"
+  pmg_road_vehicles: "Vehicle Types"
+  pm_covered_road_wagons: "Covered Wagons"
+  pm_steam_fired_engines: "Steam-Fired Motors"
+  pm_early_compression_engines: "Early Compression Engines"
+  pmg_road_security: "Road Security"
+  pm_no_security: "No Road Security"
+  pm_basic_security: "Standard Patrols"
+  pm_experienced_security: "Armed Patrols"
+  pm_militarized_security: "Disciplined Patrols"
+
   ##misc
   base_building_ship_graveyard: "Ship Graveyard"
