@@ -3,7 +3,7 @@
     subsistence_building = "building_subsistence_farms"
     provinces = { "x41C5FD" "x91B3B1" "xABE279" "xAF99FB" "xB7B7E1" "xB8F076" "xD8EA93" "xD9B0B2" "xDAE643" "xECF754" "xEEDD37" "xF08BCE" "xF4B6B2" "xFADD57" "xFAE3EE" "xFDB84F" }
     impassable = { "xD9B0B2" "x41C5FD" "xFDB84F" "xD8EA93" }
-    traits = { "state_trait_colicier_mountains" "state_trait_crownpeak_leadfield" }
+    traits = { "state_trait_peak_lake" "state_trait_colicier_mountains" "state_trait_crownpeak_leadfield" }
     port = xFDB84F
     city = xFAE3EE
     farm = xFADD57
@@ -39,6 +39,7 @@ STATE_CALDAMUS = {
 }
 STATE_SERONTAIN = {
     id = 2003
+    traits = { "state_trait_peak_lake" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x40E4F2" "x8EEFE2" "xB7F1E1" "xBDD9A4" "xC4EFCC" "xC7F7CC" "xD98B95" "xDDDCCA" "xDFBC7F" "xE0B5DC" "xE9DC6E" "xEB52E1" "xF8E37F" "xFC4AB7" }
     port = xFC4AB7
@@ -725,6 +726,7 @@ STATE_DRUMAGAR = {
 }
 STATE_LOCHTYRE = {
     id = 4036
+    traits = { "state_trait_peak_lake" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x6FEDF4" "x7CFDCF" "xC0BE88" "xCAACFD" "xCBC6B7" "xD9ACE1" "xDDA87A" "xE6BFED" "xEAE630" "xF4B08B" "xFC7EC4" "xFE5AE8" "xFEA99C" "xFEF142" }
     port = x7CFDCF
