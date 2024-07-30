@@ -61,3 +61,25 @@ state_trait_feylight_forest = {
 		building_group_bg_logging_throughput_add = 0.25
 	}
 }
+
+state_trait_frayed_veil = {
+	icon = "gfx/interface/icons/state_trait_icons/dry_climate.dds"
+
+	required_techs_for_colonization = { "arcane_concentration" }
+	modifier = {
+		state_mortality_mult = 0.15
+		building_group_bg_agriculture_throughput_add = -0.15
+		building_group_bg_plantations_throughput_add = -0.15
+	}
+}
+
+state_trait_fractured_veil = {
+	icon = "gfx/interface/icons/state_trait_icons/dry_climate.dds"
+
+	required_techs_for_colonization = { "ethereal_mastery" }
+	modifier = {
+		state_mortality_mult = 0.3
+		building_group_bg_agriculture_throughput_add = -0.3
+		building_group_bg_plantations_throughput_add = -0.3
+	}
+}

@@ -374,7 +374,7 @@ building_dragon_ruins = {
 building_underfarm = {
 	building_group = bg_underfarms
 	
-	texture = "gfx/interface/icons/building_icons/rye_farm.dds"
+	texture = "gfx/interface/icons/building_icons/underfarm.dds"
 
 	city_type = farm
 	levels_per_mesh = 5
@@ -401,7 +401,7 @@ building_underfarm = {
 building_spider_ranch = {
 	building_group = bg_spider_ranch
 
-	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	texture = "gfx/interface/icons/building_icons/spidersilk.dds"
 	
 	city_type = farm
 	levels_per_mesh = 5
@@ -428,7 +428,7 @@ building_spider_ranch = {
 
 building_mushroom_logging  = {
 	building_group = bg_mushroom_logging
-	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	texture = "gfx/interface/icons/building_icons/mushroom_logging.dds"
 	city_type = wood
 	required_construction = construction_cost_low
 	terrain_manipulator = forestry

@@ -1057,7 +1057,7 @@ STATE_GROMMOK = {
         bg_lead_mining = 30
         bg_logging = 3
     }
-    naval_exit_id = 3059
+    naval_exit_id = 3092
 }
 STATE_KYRKAZ = {
     id = 4588

@@ -556,6 +556,8 @@ s:STATE_ALLTBRAN = {
 	}
 	add_homeland = cu:hag #Sets the state to be a homeland for whatever culture you put here.
 	add_homeland = cu:vampire
+	add_claim = c:JUR
+	add_claim = c:RVC
 }
 
 s:STATE_YSTRAD = {
@@ -677,6 +679,8 @@ s:STATE_MALDARBLANE = {
 	}
 	add_homeland = cu:hag #Sets the state to be a homeland for whatever culture you put here.
 	add_homeland = cu:vampire
+	add_claim = c:JUR
+	add_claim = c:RVC
 }
 
 s:STATE_TYMANS_FOLLY = {

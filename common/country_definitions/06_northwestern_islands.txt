@@ -138,7 +138,7 @@ QAR = {
 
 	tier = principality
 
-	cultures = { kotskarvi } 
+	cultures = { drogori } 
 	capital = STATE_RAROMARA
 }
 

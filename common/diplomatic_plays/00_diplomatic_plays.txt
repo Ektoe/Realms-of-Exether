@@ -1432,7 +1432,19 @@ dp_thalorian_crusade = {
 
 	allow_negotiated_peace = no
 	
-	on_weekly_pulse = {}
+	on_weekly_pulse = {
+		war = {
+			add_war_war_support = {
+				target = c:RAV
+				value = 1
+			}
+	
+			add_war_war_support = {
+				target = c:TLE
+				value = 1
+			}
+		}
+	}
 	
 	on_war_begins = {}
 
