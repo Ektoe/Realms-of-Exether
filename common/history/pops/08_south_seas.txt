@@ -556,33 +556,15 @@
 		}
 	}
 
-	s:STATE_ALAHAZOTRA = {
-		region_state:DEV = {
-			create_pop = {
-				culture = jazamandroso
-				size = 466396
-			}
-			create_pop = {
-				culture = lacertian
-				size = 17000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacertian
-				size = 3000
-			}
-		}
-	}
-
 	s:STATE_IVONDRO = {
 		region_state:DEV = {
 			create_pop = {
 				culture = jazamandroso
-				size = 87792
+				size = 577792
 			}
 			create_pop = {
 				culture = lacertian
-				size = 28300
+				size = 38300
 			}
 			create_pop = {
 				pop_type = slaves

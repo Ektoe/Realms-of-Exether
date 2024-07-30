@@ -214,18 +214,10 @@ s:STATE_BELENDLE = {
 	add_homeland = cu:east_lacertian
 }
 
-s:STATE_ALAHAZOTRA = {
-	create_state = {
-		country = c:DEV
-		owned_provinces = { "x6FA5E7" "x98E9CC" "xD4CED6" "xE8F09D" }
-}
-add_homeland = cu:jazamandroso
-}
-
 s:STATE_IVONDRO = {
 	create_state = {
 		country = c:DEV
-		owned_provinces = { "x73E9E2" "x86FCDC" "xAECCEA" "xBCA8FE" "xC3F6DC" "xE298E6" "xE7C1BF" "xE9E6EB" "xEC6CD7" "xFD54A7" }
+		owned_provinces = { "x6FA5E7" "x73E9E2" "x86FCDC" "x98E9CC" "xAECCEA" "xBCA8FE" "xC3F6DC" "xD4CED6" "xE298E6" "xE7C1BF" "xE8F09D" "xE9E6EB" "xEC6CD7" "xFD54A7" }
 }
 add_homeland = cu:jazamandroso
 }

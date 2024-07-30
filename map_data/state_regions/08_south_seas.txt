@@ -69,7 +69,7 @@ STATE_BEXAMBA = {
 }
 STATE_LEMBONA = {
     id = 3942
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x4BC0F6" "x5DF0A8" "x77F2DF" "x9CFA9C" "xAEABDD" "xB162E7" "xB6D46D" "xB8CAAE" "xBDCAE6" "xCFBC82" "xD3D6ED" "xD4E465" "xE4D18C" "xED9AF6" "xEE6CF3" "xF2D888" "xF7CC84" "xFBA079" }
     port = xFBA079
@@ -112,7 +112,7 @@ STATE_XABELO = {
 }
 STATE_MAZALINO = {
     id = 3944
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x88DA9D" "x9DC7B4" "xAAA9AA" "xB68EF8" "xC6F0F3" "xD3F1C6" "xE2E593" "xEFB9C7" "xF2F697" "xFCC139" "xFED654" }
     port = xFED654
@@ -151,7 +151,7 @@ STATE_LUMBELO = {
 }
 STATE_MAXANGA = {
     id = 3947
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x84E6E0" "xAC98D3" "xBCAADE" "xBFF5B2" "xC1F979" "xC4E594" "xCFD68E" "xEAFC8F" "xFEAA80" }
     port = xC1F979
@@ -180,7 +180,7 @@ STATE_MAXANGA = {
 }
 STATE_BEMVULA = {
     id = 3948
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x5CEDF6" "x75FDDF" "x7F89F7" "xA48DE9" "xAC9CD7" "xDD75AB" "xEC41F1" "xF685FD" "xF98E9D" "xF9EE78" }
     port = xF9EE78
@@ -202,7 +202,7 @@ STATE_BEMVULA = {
 }
 STATE_BELOZA = {
     id = 3949
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x6EF1FC" "x9975F4" "x9FF2FD" "xD2ECEA" "xD6DB8E" "xE6AFD7" "xE6B0C7" "xEAF1A6" "xED98E2" }
     port = x6EF1FC
@@ -351,7 +351,7 @@ STATE_CIDADOURO = {
 }
 STATE_MOZAGAL = {
     id = 3956
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x82ABC9" "x97EBCB" "x9DAFD3" "xA4C4DD" "xA86CFA" "xAE86CA" "xB897E9" "xC78BAA" "xCBBBD6" "xCD8AE9" "xD37CAB" "xD4F7DA" "xDB82EB" "xDE96CA" "xE793CD" "xECAC98" "xECBD95" }
     port = xECBD95
@@ -510,7 +510,7 @@ STATE_APAFONTE = {
 }
 STATE_PORTANGA = {
     id = 3964
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x61DCFA" "x8EC7DD" "x9CC99C" "xB5DE64" "xB8AD95" "xBFC9CD" "xC683B9" "xC999B7" "xE27BCA" "xE6D370" "xE9A693" "xEDAC80" "xF031E9" "xF4F445" }
     port = xB8AD95
@@ -573,52 +573,52 @@ STATE_BELENDLE = {
     naval_exit_id = 3012
 }
 
-STATE_ALAHAZOTRA = {
-    id = 3969
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x6FA5E7" "x98E9CC" "xD4CED6" "xE8F09D" }
-    port = xE8F09D
-    city = xD4CED6
-    farm = x98E9CC
-    mine = x6FA5E7
-    arable_land = 50
-    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_opium_plantations" }
-    capped_resources = {
-        bg_coal_mining = 20
-        bg_logging = 7
-    }
-    resource = {
-        type = "bg_rubber"
-        undiscovered_amount = 10
-    }
+# STATE_ALAHAZOTRA = { #combined with ivondro but left for reference
+#     id = 3969
+#     subsistence_building = "building_subsistence_farms"
+#     provinces = {}
+#     port = xE8F09D
+#     city = xD4CED6
+#     farm = x98E9CC
+#     mine = x6FA5E7
+#     arable_land = 50
+#     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_opium_plantations" }
+#     capped_resources = {
+#         bg_coal_mining = 20
+#         bg_logging = 7
+#     }
+#     resource = {
+#         type = "bg_rubber"
+#         undiscovered_amount = 10
+#     }
 
-}
+# }
 STATE_IVONDRO = {
     id = 3970
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x73E9E2" "x86FCDC" "xAECCEA" "xBCA8FE" "xC3F6DC" "xE298E6" "xE7C1BF" "xE9E6EB" "xEC6CD7" "xFD54A7" }
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x6FA5E7" "x73E9E2" "x86FCDC" "x98E9CC" "xAECCEA" "xBCA8FE" "xC3F6DC" "xD4CED6" "xE298E6" "xE7C1BF" "xE8F09D" "xE9E6EB" "xEC6CD7" "xFD54A7" }
     port = x73E9E2
     city = xFD54A7
     farm = xEC6CD7
     mine = xE9E6EB
     wood = xE7C1BF
-    arable_land = 20
-    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
+    arable_land = 70
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_tobacco_plantations" "bg_cotton_plantations" "bg_sugar_plantations" "bg_dye_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_coal_mining = 36
-        bg_logging = 8
+        bg_coal_mining = 56
+        bg_logging = 15
         bg_fishing = 6
         bg_whaling = 2
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 12
+        undiscovered_amount = 26
     }
     naval_exit_id = 3021
 }
 STATE_MAHALATSAKA = {
     id = 3971
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x7B99FC" "xA4F974" "xB4DEDA" "xBBCAA8" "xCECB7A" "xCECEA5" "xDABACB" "xDE6ADC" "xE737F3" "xE8D86F" "xF2B89B" }
     port = x7B99FC
@@ -689,7 +689,7 @@ STATE_VAROTSOA = {
 }
 STATE_TSIMIHAVANA = {
     id = 3974
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x89A0F8" "x8BFAF2" "xB4E176" "xCCF491" "xCFEFA2" "xD183E2" "xD45CCC" "xD5D7AD" "xDB45E8" "xDB56F9" "xDDC754" "xE3C088" "xE7B5DA" "xED42D2" "xF0D040" "xF1D9AA" }
     port = x8BFAF2
@@ -728,7 +728,7 @@ STATE_SAHONDRA = {
 }
 STATE_MAROMITA = {
     id = 3976
-    traits = {"state_trait_malaria"}
+    traits = { "state_trait_malaria" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x94DADB" "xE1F7B2" "xEAABA6" "xED68AE" "xF47B97" }
     port = x94DADB

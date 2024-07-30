@@ -954,7 +954,7 @@
 		}
 	}
 
-	s:STATE_ALAHAZOTRA = {
+	s:STATE_IVONDRO = {
 		region_state:DEV={
 			create_building={
 				building="building_government_administration"
@@ -967,9 +967,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AZI"
+                        country="c:DEV"
                         levels=1
-                        region="STATE_MALANDA"
+                        region="STATE_IVONDRO"
                    }
                 }
 				reserves=1
@@ -980,9 +980,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:COV"
+						country="c:DEV"
 						levels=1
-						region="STATE_LISAZISA"
+						region="STATE_IVONDRO"
 				   }
 				}
 				reserves=1
@@ -993,9 +993,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:AZI"
+						country="c:DEV"
 						levels=2
-						region="STATE_XABELO"
+						region="STATE_IVONDRO"
 				   }
 				}
 				reserves=1
@@ -1008,7 +1008,7 @@
 						type="building_manor_house"
 						country="c:DEV"
 						levels=2
-						region="STATE_ALAHAZOTRA"
+						region="STATE_IVONDRO"
 				   }
 				}
 				reserves=1
@@ -1019,9 +1019,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:AZI"
+                        country="c:DEV"
                         levels=1
-                        region="STATE_BEXAMBA"
+                        region="STATE_IVONDRO"
                    }
                 }
 				reserves=1
@@ -1040,11 +1040,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
-		}
-	}
-
-	s:STATE_IVONDRO = {
-		region_state:DEV={
 			create_building={
 				building="building_coffee_plantation"
 				add_ownership={ 
@@ -1094,7 +1089,7 @@
                         type="building_adventuring_guild"
                         country="c:DEV"
                         levels=1
-                        region="STATE_ALAHAZOTRA"
+                        region="STATE_IVONDRO"
                    }
                 }
 				reserves=1
@@ -1107,7 +1102,7 @@
 						type="building_manor_house"
 						country="c:DEV"
 						levels=2
-						region="STATE_ALAHAZOTRA"
+						region="STATE_IVONDRO"
 				   }
 				}
 				reserves=1
