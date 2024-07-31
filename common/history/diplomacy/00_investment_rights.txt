@@ -5,6 +5,14 @@
 			type = foreign_investment_rights
 		}	
 	}
+
+	c:EME ?= {
+		create_diplomatic_pact = {
+			country = c:SEB
+			type = foreign_investment_rights
+		}	
+	}
+
 	c:VOZ ?= {
 		create_diplomatic_pact = {
 			country = c:DRO
