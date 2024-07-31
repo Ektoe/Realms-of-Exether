@@ -209,6 +209,13 @@ building_fur_hunting_lodge = {
 		pmg_game_hunting_potions
 	}
 	ownership_type = self
-
+	should_auto_expand = { 
+		
+		cash_reserves_ratio = 0.95
+		occupancy >= 0.95
+		state.market_access > 0.95
+		
+		NOT = { is_under_construction = yes }
+	}
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }

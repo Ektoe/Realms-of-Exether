@@ -10,6 +10,9 @@ region_shipshatter_reef = {
 	states = { STATE_SHIPSHATTER_REEF }
 }
 
+region_shipshatter_reef_02 = {
+	states = { STATE_SHIPSHATTER_REEF_02 }
+}
 	region_remnant_waves = {
 	states = { STATE_REMNANT_WAVES }
 }
