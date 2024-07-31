@@ -37,14 +37,7 @@ building_underways = {
 		pmg_underway_development
 		pmg_underway_vehicles
 	}
-	on_building_built = {
-		if = {
-			limit = {
-				building = building_underways
-			}
-			state_arable_land_add = 2
-		}
-	}
+	
 	should_auto_expand = { 
 		occupancy >= 0.8
 		OR = {
