@@ -41,6 +41,12 @@
 			type = dominion
 		}
 	}
+	c:FOX = {
+		create_diplomatic_pact = {
+			country = c:DRK
+			type = protectorate
+		}
+	}
 	c:RAV = {
 
 	}
