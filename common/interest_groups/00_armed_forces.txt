@@ -27,7 +27,23 @@
 		set_ig_trait = ig_trait:ig_trait_veteran_consultation
 		set_ig_trait = ig_trait:ig_trait_patriotic_fervor
 		}
+
+	if = {
+		limit = {
+			OR = {
+				AND = {
+					c:RVC ?= this
+					}
+				}
+			}
+			ig:ig_armed_forces = {
+				set_interest_group_name = ig_fang_court
+							}
+		}
+
 	}
+
+
 	on_disable = {}
 	on_character_ig_membership = {}
 
