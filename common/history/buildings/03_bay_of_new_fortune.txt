@@ -1,4 +1,4 @@
-﻿BUILDINGS = {
+BUILDINGS = {
 	s:STATE_KILIMASAWA = {
 
 	}
@@ -581,21 +581,24 @@
 			create_building={
 				building="building_fishing_wharf"
 				level=1
-				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
 			}
 			create_building={
-				building="building_wheat_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:HOR"
-						levels=1
-						region="STATE_URQUNAYUQ"
-				   }
-				}
+				building="building_port"
+				level=2
+				reserves=2
+				activate_production_methods={ "pm_basic_port" }
+			}
+            create_building={
+				building="building_shipyards"
+				level=1
+				activate_production_methods={ "pm_basic_shipbuilding" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
+				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}
@@ -607,6 +610,14 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}
+            create_building={
+          		building="building_arms_industry"
+				level=1
+        
+          		reserves=1
+          		activate_production_methods={ "pm_muskets" }
+			}
+        
             create_building={
 				building="building_textile_mills"
                 add_ownership={ 
@@ -633,6 +644,12 @@
 				reserves=1
 				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
 			}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
 		}
 	}
 	s:STATE_KUNTURPAMPA = {
@@ -643,7 +660,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:HOR"
-						levels=2
+						levels=1
 						region="STATE_KUNTURPAMPA"
 				   }
 				}
@@ -664,20 +681,45 @@
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 			}
 			create_building={
-				building="building_wheat_farm"
-				level=1
+				building="building_livestock_ranch"
+				level=5
+				reserves=5
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+			}	
+			create_building={
+				building="building_iron_mine"
+				add_ownership={ 
+					building={ 
+						type="building_financial_district"
+						country="c:HOR"
+						levels=1
+						region="STATE_KUNTURPAMPA"
+				   }
+				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
+				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}
 	s:STATE_NAWIYANU = {
 		region_state:HOR = {
 			create_building={
-				building="building_wheat_farm"
-				level=1
+			building="building_livestock_ranch"
+			level=5
+			reserves=5
+			activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
 				reserves=1
-				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_citrus_orchards" }
+				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}
@@ -694,7 +736,13 @@
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
+				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}
