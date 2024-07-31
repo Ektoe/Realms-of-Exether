@@ -840,7 +840,7 @@ STATE_VIVARI_SHORES = {
     provinces = { "xE489FE" }
 }
 
-STATE_SAHARANDO_SKIES = {
+STATE_HYDOBRAN_SKIES = {
     id = 3187
     provinces = { "x19BA4B" }
 }

@@ -659,7 +659,7 @@ region_vivari_shores = {
 }
 
 region_saharando_skies = { 
-	states = { STATE_SAHARANDO_SKIES }
+	states = { STATE_HYDOBRAN_SKIES }
 }
 
 region_wastewall_heights = { 

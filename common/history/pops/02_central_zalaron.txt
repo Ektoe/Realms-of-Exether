@@ -1984,7 +1984,7 @@
 	}
   }
     
-  s:STATE_SAHARANDO = {
+  s:STATE_HYDOBRAN = {
 	region_state:GOO = {
 		create_pop = {
 			culture = wastecrawler
@@ -2200,7 +2200,7 @@
 	}
   }
     
-  s:STATE_AZAROON = {
+  s:STATE_ZARGIKS = {
 	region_state:GOO = {
 		create_pop = {
 			culture = azmaraan
@@ -2294,7 +2294,7 @@
 	}
   }
     
-  s:STATE_NADHARIM = {
+  s:STATE_KLAQEKS = {
 	region_state:KHK = {
 		create_pop = {
 			culture = wastecrawler

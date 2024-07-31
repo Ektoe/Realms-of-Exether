@@ -2378,7 +2378,7 @@ STATE_KALIBRANTO = {
     }
     naval_exit_id = 3002
 }
-STATE_SAHARANDO = {
+STATE_HYDOBRAN = {
     id = 4350
     traits = {
         "state_trait_fractured_veil"
@@ -2672,7 +2672,7 @@ STATE_ALMAKSURO = {
     }
     naval_exit_id = 3185
 }
-STATE_AZAROON = {
+STATE_ZARGIKS = {
     id = 4366
     traits = {
         "state_trait_fractured_veil"
@@ -2759,7 +2759,7 @@ STATE_SHIRAFIQ = {
     arable_land = 40
     arable_resources = { "bg_livestock_ranches" "bg_logging_crystalwood" }
 }
-STATE_NADHARIM = {
+STATE_KLAQEKS = {
     id = 4370
     traits = {
         "state_trait_fractured_veil"

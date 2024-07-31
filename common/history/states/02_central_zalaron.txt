@@ -1051,7 +1051,7 @@ add_homeland = cu:azmaraan
 add_homeland = cu:qinnaat
 }
 
-s:STATE_SAHARANDO = {
+s:STATE_HYDOBRAN = {
     create_state = {
         country = c:GOO
         owned_provinces = { "x91E5CC" "xB4A6BC" "xB8FB98" "xDA8D9A" "xE0D6EE" "xE6E753" "xE7E434" "xEA92DF" "xEEAEF2" "xF0D6CF" "xF564E4" }
@@ -1183,7 +1183,7 @@ add_homeland = cu:azmaraan
 add_homeland = cu:qinnaat
 }
 
-s:STATE_AZAROON = {
+s:STATE_ZARGIKS = {
     create_state = {
         country = c:GOO
         owned_provinces = { "x57FDAE" "x84EDB6" "x86EFEB" "xA5C9E7" "xB07CE0" "xB68CFA" "xCEA5B7" "xD9E1F6" "xDB4AEE" "xE2E0E9" "xF4A0D1" "xF4BCBC" "xFAD435" "xFEF451" }
@@ -1215,7 +1215,7 @@ s:STATE_SHIRAFIQ = {
 add_homeland = cu:nightwalker
 }
 
-s:STATE_NADHARIM = {
+s:STATE_KLAQEKS = {
     create_state = {
         country = c:KHK
         owned_provinces = { "x4EEDF4" "x90E9EF" "x9EF287" "x9FCD9B" "xB2ADB7" "xB9ECEC" "xCF8DE5" "xD160D3" "xDDF8AD" "xE59899" "xE8FD67" "xEFF174" "xF2C0D3" "xF3B56E" "xF4E69F" }
