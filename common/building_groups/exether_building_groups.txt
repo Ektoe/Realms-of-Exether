@@ -518,6 +518,14 @@ bg_mushroom_logging = {
 	foreign_investment_ai_factor = 1.0
 }
 
+bg_underways_watch = {
+	parent_group = bg_magic_resource
+
+	land_usage = rural
+	
+	default_building = building_underways_watch
+}
+
 
 bg_magic_manufacturing = {
 	category = urban

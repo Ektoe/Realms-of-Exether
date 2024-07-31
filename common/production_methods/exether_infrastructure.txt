@@ -196,7 +196,7 @@ pm_covered_underway_wagons = {
 		workforce_scaled = {
 			goods_input_wood_add = 5
 			goods_input_fabric_add = 5
-			goods_output_transportation_add = 5
+			goods_output_transportation_add = 10
 		}
 	}
 
@@ -210,7 +210,7 @@ pm_beasts_of_burden = {
 		workforce_scaled = {
 			goods_input_fabric_add = 5
 			goods_input_meat_add = 5
-			goods_output_transportation_add = 10
+			goods_output_transportation_add = 15
 		}
 }
 }
@@ -224,7 +224,7 @@ pm_mechanized_travel = {
 			goods_input_engines_add = 3
 			goods_input_meat_add = 5
 			goods_input_blubber_add = 4
-			goods_output_transportation_add = 20
+			goods_output_transportation_add = 30
 		}
 }
 }

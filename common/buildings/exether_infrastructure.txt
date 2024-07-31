@@ -65,3 +65,27 @@ building_underways = {
 	ownership_type = self
 		background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
+
+building_underways_watch  = {
+	building_group = bg_hunting
+	texture = "gfx/interface/icons/building_icons/essence_temperate.dds"
+	city_type = wood
+	required_construction = construction_cost_low
+	terrain_manipulator = forestry
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		hunting_lodges
+	}
+
+	production_method_groups = {
+		pmg_based_watchers
+		pmg_meat_trophies
+		pmg_hunting_equipment
+		pmg_transportation_hunting_lodges
+		
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
