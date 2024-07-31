@@ -57,6 +57,20 @@
 
 		if = {
 			limit = {
+				OR = {
+					AND = {
+						c:RVC ?= this
+					}
+				}
+			}
+			ig:ig_landowners = {
+				set_interest_group_name = ig_blood_court
+							}
+		}
+
+
+		if = {
+			limit = {
 				owner = {
 					OR = {
 						religion = rel:orc_mother
