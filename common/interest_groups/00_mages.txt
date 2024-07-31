@@ -33,6 +33,22 @@
 			}
 		}
 
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						c:RVC ?= this
+					}
+				}
+			}
+			ig:ig_mages = {
+				set_interest_group_name = ig_midnight_court
+							}
+		}
+
+
+
 	}
 
 	on_disable = {}

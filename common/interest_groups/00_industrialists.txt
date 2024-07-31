@@ -32,6 +32,15 @@
 				set_ig_trait = ig_trait:ig_trait_engines_of_progress
 				set_ig_trait = ig_trait:ig_trait_zaibatsu_cooperation
 			}
+			if = {
+				limit = {
+					owner = { c:RVC ?= this }
+				}
+				set_interest_group_name = ig_gearheart_court
+				set_ig_trait = ig_trait:ig_trait_zaibatsu_withdrawal
+				set_ig_trait = ig_trait:ig_trait_engines_of_progress
+				set_ig_trait = ig_trait:ig_trait_zaibatsu_cooperation
+			}	
 			else = {
 				set_ig_trait = ig_trait:ig_trait_tax_avoidance
 				set_ig_trait = ig_trait:ig_trait_engines_of_progress

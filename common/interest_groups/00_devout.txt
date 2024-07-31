@@ -53,6 +53,20 @@
 			}
 		}
 
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						c:RVC ?= this
+					}
+				}
+			}
+			ig:ig_devout = {
+				set_interest_group_name = ig_avarice_cathedral
+							}
+		}
+
 		if = {
 			limit = {
 				owner = {

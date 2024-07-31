@@ -42,6 +42,21 @@
 				set_ig_trait = ig_trait:ig_trait_guests_of_the_forest
 				add_ideology = ideology_luddite_ig
 			}
+
+
+			if = {
+				limit = {
+					owner = { c:RVC ?= this }
+				}
+				set_interest_group_name = ig_commoner_tribunate
+				set_ig_trait = ig_trait:ig_trait_old_ways
+				set_ig_trait = ig_trait:ig_trait_honest_work
+				set_ig_trait = ig_trait:ig_trait_farmers_markets
+			}
+
+
+
+
 			else = {
 				set_ig_trait = ig_trait:ig_trait_old_ways
 				set_ig_trait = ig_trait:ig_trait_honest_work
