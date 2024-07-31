@@ -572,7 +572,6 @@ STATE_BELENDLE = {
     }
     naval_exit_id = 3012
 }
-
 # STATE_ALAHAZOTRA = { #combined with ivondro but left for reference
 #     id = 3969
 #     subsistence_building = "building_subsistence_farms"
@@ -591,7 +590,6 @@ STATE_BELENDLE = {
 #         type = "bg_rubber"
 #         undiscovered_amount = 10
 #     }
-
 # }
 STATE_IVONDRO = {
     id = 3970
