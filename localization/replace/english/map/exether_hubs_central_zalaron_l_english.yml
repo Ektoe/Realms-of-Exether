@@ -801,6 +801,11 @@ l_english:
   HUB_NAME_STATE_SANGARI_mine: "HUB_NAME_STATE_SANGARI_mine"
   HUB_NAME_STATE_SANGARI_wood: "HUB_NAME_STATE_SANGARI_wood"
   HUB_NAME_STATE_SANGARI_port: "HUB_NAME_STATE_SANGARI_port"
+  HUB_NAME_STATE_RIVER_SOLILOQUE_2_city: "Adlerburk"
+  HUB_NAME_STATE_RIVER_SOLILOQUE_2_farm: "Battenrag"
+  HUB_NAME_STATE_RIVER_SOLILOQUE_2_mine: "Skantun"
+  HUB_NAME_STATE_RIVER_SOLILOQUE_2_wood: "Vitberg"
+  HUB_NAME_STATE_RIVER_SOLILOQUE_2_port: "Airberburk" 
 #let generate = () => {
 #    /* Paste state names into the stateStrings array, comma separated and surrounded by #quotes.
 #    stateStrings = []
