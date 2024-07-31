@@ -79,6 +79,10 @@
 			country = c:FEY
 			type = puppet
 		}
+	    create_diplomatic_pact = {
+			country = c:LEO
+			type = vassal
+		}
 	}
 	c:YUL = {
 		create_diplomatic_pact = {

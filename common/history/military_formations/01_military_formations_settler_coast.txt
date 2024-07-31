@@ -397,37 +397,13 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_CASTLECOURT
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_FAR_SHORE_2
-				count = 10
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_FAR_SHORE_2
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_FAR_SHORE_2
-				count = 2
-			}
-
-			combat_unit = {
-				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_FAR_SHORE_2
-				count = 5
+				count = 20
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
 				state_region = s:STATE_AUBERN_FLOW
-				count = 5
+				count = 14
 			}
 		}
 
@@ -477,6 +453,33 @@
 			}
 		}
 	}
+    
+    c:LEO ?= { 
+
+    			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_FAR_SHORE
+				count = 10
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_FAR_SHORE
+				count = 2
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_FAR_SHORE_2
+				count = 7
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_FAR_SHORE_2
+				count = 3
+			}
+		}
 
 	c:CER ?= {
 		create_military_formation = {
@@ -841,7 +844,7 @@
 	
 							combat_unit = { 
 					type = unit_type:combat_unit_type_frigate
-					state_region = s:STATE_ELF4
+					state_region = s:STATE_KAATH_SERINE
 					count = 10
 				}
 			
@@ -1078,8 +1081,8 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_lake_bossard
-			name = Hold_Defense_Force
-
+			name = "Mountainhome Guard"
+			save_scope_as = darvak_army_1
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
 				state_region = s:STATE_MOUNT_YELFIS
@@ -1097,6 +1100,14 @@
 				state_region = s:STATE_MOUNT_YELFIS
 				count = 2
 			}
+		}
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			save_scope_as = darvak_defender
+		}
+		scope:darvak_defender = {
+			transfer_to_formation = scope:darvak_army_1
 		}
 	}
 
@@ -1128,19 +1139,19 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ELF1
+				state_region = s:STATE_LHIPH
 				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_ELF2
+				state_region = s:STATE_CINPHNPHAINN
 				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ELF3
+				state_region = s:STATE_RICHAR_JEDD
 				count = 10
 			}
 		}
@@ -1152,19 +1163,19 @@
 
 			combat_unit = { 
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_ELF3
+				state_region = s:STATE_TOPHNATH
 				count = 2
 			}
 
 						combat_unit = { 
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_ELF2
+				state_region = s:STATE_CINPHNPHAINN
 				count = 3
 			}
 
 						combat_unit = { 
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_ELF1
+				state_region = s:STATE_LHIPH
 				count = 15
 			}
 		
@@ -1258,13 +1269,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_MISTREACH_2
+				state_region = s:STATE_PRILYRA
 				count = 6
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_GREENCOURT_2
+				state_region = s:STATE_MISTREACH_2  
 				count = 3
 			}
 		}

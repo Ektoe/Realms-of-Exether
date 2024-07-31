@@ -46,6 +46,22 @@ state_trait_leechgardens = {
 	}
 }
 
+state_trait_thiralian_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		building_group_bg_logging_throughput_add = 0.20
+	}
+}
+
+state_trait_feylight_forest = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		building_group_bg_logging_throughput_add = 0.25
+	}
+}
+
 state_trait_frayed_veil = {
 	icon = "gfx/interface/icons/state_trait_icons/dry_climate.dds"
 

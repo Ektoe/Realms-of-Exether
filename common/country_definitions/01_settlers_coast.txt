@@ -173,9 +173,30 @@ DRM = {
 	country_type = recognized 
 
 	tier = principality
-
 	cultures = { bossardi } 
 	capital = STATE_DURANS_LAND
+}
+
+#Leonceau
+LEO = {
+	color = rgb{ 255 200 30 }
+
+	country_type = recognized
+
+	tier = principality
+	cultures = { bossardi } 
+	capital = STATE_FAR_SHORE
+}
+
+#Bossardie
+BOS = {
+	color = rgb{ 205 220 30 }
+
+	country_type = recognized
+
+	tier = empire
+	cultures = { bossardi } 
+	capital = STATE_THE_AMBER_RUN
 }
 
 #Alchemist's Refuse

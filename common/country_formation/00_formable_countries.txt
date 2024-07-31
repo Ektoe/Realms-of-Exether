@@ -21,7 +21,7 @@ UTS = {
 		STATE_TOPHNATH
 		STATE_CINPHNPHAINN
 		STATE_LHIPH
-		STATE_ELF4
+		STATE_KAATH_SERINE
 		STATE_DEPHEL_PATH
 		STATE_VOZMEAD_LOWLANDS
 		STATE_DWARVENHAMMER
@@ -64,6 +64,20 @@ UTS = {
 
 #SMALLAND
 SLD = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.9
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+
+}
+
+#Bossardie
+BOS = {
 	use_culture_states = yes
 
 	required_states_fraction = 0.9
