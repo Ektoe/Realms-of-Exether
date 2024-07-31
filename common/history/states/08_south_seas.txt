@@ -47,6 +47,7 @@ s:STATE_MAZALINO = {
 		owned_provinces = { "x88DA9D" "x9DC7B4" "xAAA9AA" "xB68EF8" "xC6F0F3" "xD3F1C6" "xE2E593" "xEFB9C7" "xF2F697" "xFCC139" "xFED654" }
 }
 add_homeland = cu:kailando_lacertian
+	add_claim = c:AZI
 }
 
 s:STATE_LUMBELO = {
@@ -55,6 +56,7 @@ s:STATE_LUMBELO = {
 		owned_provinces = { "x94EECD" "x9AB9DC" "xA6ADCA" "xCA6BD5" "xD8AA9B" "xEBF571" "xFD8ACD" }
 }
 add_homeland = cu:kailando_lacertian
+	add_claim = c:AZI
 }
 
 s:STATE_MAXANGA = {
@@ -89,6 +91,7 @@ s:STATE_JOVEXA = {
 		owned_provinces = { "x7DBCD2" "x8C93E3" "x94E8DC" "x96E5F4" "x98B8A8" "xA8E2D7" "xC2CB9C" "xD5E33E" "xD6C2C1" "xDB8FFE" "xE774FC" "xE9909D" "xFD1DED" }
 }
 add_homeland = cu:kailando_lacertian
+	add_claim = c:AZI
 }
 
 s:STATE_AMALUMA = {
@@ -211,18 +214,10 @@ s:STATE_BELENDLE = {
 	add_homeland = cu:east_lacertian
 }
 
-s:STATE_ALAHAZOTRA = {
-	create_state = {
-		country = c:DEV
-		owned_provinces = { "x6FA5E7" "x98E9CC" "xD4CED6" "xE8F09D" }
-}
-add_homeland = cu:jazamandroso
-}
-
 s:STATE_IVONDRO = {
 	create_state = {
 		country = c:DEV
-		owned_provinces = { "x73E9E2" "x86FCDC" "xAECCEA" "xBCA8FE" "xC3F6DC" "xE298E6" "xE7C1BF" "xE9E6EB" "xEC6CD7" "xFD54A7" }
+		owned_provinces = { "x6FA5E7" "x73E9E2" "x86FCDC" "x98E9CC" "xAECCEA" "xBCA8FE" "xC3F6DC" "xD4CED6" "xE298E6" "xE7C1BF" "xE8F09D" "xE9E6EB" "xEC6CD7" "xFD54A7" }
 }
 add_homeland = cu:jazamandroso
 }
@@ -260,7 +255,7 @@ s:STATE_TSIMIHAVANA = {
 add_homeland = cu:lacertian
 }
 
-s:STATE_SAHONDRA = {
+s:STATE_SUISGOIL = {
 	create_state = {
 		country = c:LIR
 		owned_provinces = { "xCFF6C0" "xDDEFDE" "xEA7BA4" "xF56EDA" }
@@ -277,7 +272,7 @@ s:STATE_MAROMITA = {
 add_homeland = cu:lacertian
 }
 
-s:STATE_TOMBONT = {
+s:STATE_YNTHOLG = {
 	create_state = {
 		country = c:LIR
 		owned_provinces = { "x45F8CC" "x8DD4D6" "xA172E5" "xB6C797" "xC8E97D" "xF3EFB4" "xF9FD1D" "xFDF243" }
@@ -293,7 +288,7 @@ s:STATE_ANKAZOBE = {
 add_homeland = cu:west_lacertian
 }
 
-s:STATE_IVOLOINA = {
+s:STATE_MASC_PEIW = {
 	create_state = {
 		country = c:LIR
 		owned_provinces = { "x9AD398" "x9E98F4" "xCFB7CD" "xE0DD76" "xF0A4A1" "xA0EAF0" "xB59DE3" "xEBE4DE" }
@@ -447,7 +442,7 @@ s:STATE_RANJITA = {
 add_homeland = cu:west_lacertian
 }
 
-s:STATE_VEDAMALA = {
+s:STATE_LHEIPH_VA = {
 	create_state = {
 		country = c:COC
 		owned_provinces = { "xA774E3" "x78AFF7" "xCE8FA7" "xDEEAD7" "xF092C2" "xF1F81B" "xF98EED" "xFCB37A" "x71C4CA" "x8085FC" "x8CAFE2" "xB5B68F" "xC857E5" "xD82BF6" "xF466BF" }
@@ -487,7 +482,7 @@ s:STATE_MILINDRA = {
 add_homeland = cu:west_lacertian
 }
 
-s:STATE_MANASI = {
+s:STATE_MYCOLGA = {
 	create_state = {
 		country = c:COC
 		owned_provinces = { "x6DBEF5" "x6EE2E9" "x90CFBA" "xA98FC8" "xAFB2C9" "xB68EC5" "xB78FF5" "xCF62EA" "xDCC696" "xE6F338" "xEBE371" }

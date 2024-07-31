@@ -69,7 +69,7 @@ OPA = {
 	tier = kingdom
 
 	cultures = { kashtarnel } 
-	capital = STATE_SC9
+	capital = STATE_KÁLMBIQÚIS
 }
 
 #Thiral

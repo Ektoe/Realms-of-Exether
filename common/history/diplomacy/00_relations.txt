@@ -8,6 +8,20 @@ DIPLOMACY = {
                 set_relations = { country = c:CER value = 50 }
                 set_relations = { country = c:ARR value = -30 }
 	}
+	c:AHO = {
+		set_relations = { country = c:PFL value = -50 }
+                set_relations = { country = c:VHT value = 50 }
+                set_relations = { country = c:EBR value = 30 }
+	}
+	c:PFL = {
+		set_relations = { country = c:AHO value = -50 }
+                set_relations = { country = c:VHT value = -50 }
+                set_relations = { country = c:EBR value = -50 }
+	}
+	c:VHT = {
+		set_relations = { country = c:AHO value = 50 }
+                set_relations = { country = c:PFL value = -50 }
+	}
         c:CER = {
 		set_relations = { country = c:RTD value = -50 }
                 set_relations = { country = c:BDB value = -50 }
@@ -26,6 +40,7 @@ DIPLOMACY = {
                 set_relations = { country = c:MOO value = -40 }
                 set_relations = { country = c:CDW value = -40 }
                 set_relations = { country = c:PRI value = -40 }
+				set_relations = { country = c:EMP value = -40 }
 	}
         c:BDB = {
 		set_relations = { country = c:CER value = -50 }
@@ -35,6 +50,7 @@ DIPLOMACY = {
                 set_relations = { country = c:MOO value = -40 }
                 set_relations = { country = c:CDW value = -40 }
                 set_relations = { country = c:PRI value = -40 }
+				set_relations = { country = c:EMP value = -40 }
 	}
         c:SMA = {
                 set_relations = { country = c:ARR value = 20 }
@@ -108,6 +124,13 @@ set_relations = { country = c:FOX value = -20 }
 	}
 	c:VOZ = {
 		set_relations = { country = c:DRO value = 50 }
+		set_relations = { country = c:TLD value = 25 } 
+	}
+	c:EME = {
+		set_relations = { country = c:SEB value = 25 }
+	}
+	c:TLD = {
+		set_relations = { country = c:SEB value = -25 }
 	}
 
 }

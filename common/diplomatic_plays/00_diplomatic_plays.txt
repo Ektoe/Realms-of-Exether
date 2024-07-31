@@ -1416,3 +1416,37 @@ dp_leadership_gavkhan = {
 
 	on_war_end = {}
 }
+
+dp_thalorian_crusade = {
+	war_goal = humiliation
+
+	selectable_in_lens = {
+		always = no
+	}	
+
+	is_epic = yes
+	
+	mirror_war_goal = yes
+
+	texture = "gfx/interface/icons/war_goals/humiliation.dds"
+
+	allow_negotiated_peace = no
+	
+	on_weekly_pulse = {
+		war = {
+			add_war_war_support = {
+				target = c:RAV
+				value = 1
+			}
+	
+			add_war_war_support = {
+				target = c:TLE
+				value = 1
+			}
+		}
+	}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}

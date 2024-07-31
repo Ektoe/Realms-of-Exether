@@ -96,7 +96,7 @@
 			}
 		}
 	}
-	s:STATE_UZURIKILIMA = {
+	s:STATE_BYS_CEIRDH = {
 		region_state:XOC={
 			create_building={
 				building="building_tobacco_plantation"
@@ -105,7 +105,7 @@
 						type="building_manor_house"
 						country="c:XOC"
 						levels=2
-						region="STATE_UZURIKILIMA"
+						region="STATE_BYS_CEIRDH"
 				   }
 				}
 				reserves=1
@@ -118,7 +118,7 @@
                         type="building_adventuring_guild"
                         country="c:XOC"
                         levels=1
-                        region="STATE_UZURIKILIMA"
+                        region="STATE_BYS_CEIRDH"
                    }
                 }
 				reserves=1
@@ -126,7 +126,7 @@
 			}
 		}
 	}
-	s:STATE_KILIMASHWARI = {
+	s:STATE_BYS_LOWAE = {
 		region_state:XOC={
 			create_building={
 				building="building_coffee_plantation"
@@ -135,7 +135,7 @@
 						type="building_manor_house"
 						country="c:XOC"
 						levels=3
-						region="STATE_UZURIKILIMA"
+						region="STATE_BYS_CEIRDH"
 				   }
 				}
 				reserves=1
@@ -148,7 +148,7 @@
                         type="building_financial_district"
                         country="c:XOC"
                         levels=1
-                        region="STATE_UZURIKILIMA"
+                        region="STATE_BYS_CEIRDH"
                    }
                 }
 				reserves=1
@@ -365,7 +365,7 @@
 				building="building_wishstone_mine"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_no_potions" }
+				activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" }
 			}
 			create_building={
 				building="building_cotton_plantation"

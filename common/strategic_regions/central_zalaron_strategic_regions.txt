@@ -88,7 +88,7 @@ region_vairia = {
 region_geyser_plateau = {
 	capital_province = xC8C2EA
 	map_color = { 0.8 0.6 0.5 }
-	states = { STATE_SC8 STATE_SC10 STATE_SC7 STATE_SC6 STATE_SC5 STATE_SC9 STATE_KASHANIR STATE_ALQADIM }
+	states = { STATE_WÉSSWÚL STATE_SITYU_CÍN STATE_URSHALSÍ STATE_ILUCÉR STATE_FUNÉTUN STATE_KÁLMBIQÚIS STATE_KASHANIR STATE_ALQADIM }
 }
 
 region_steepcliff = {

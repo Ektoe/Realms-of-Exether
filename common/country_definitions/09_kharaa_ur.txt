@@ -7,7 +7,7 @@ YUL = {
 	tier = empire
 
 	cultures = { khanaruk } 
-	capital = STATE_GURBA
+	capital = STATE_KHORTA
 }
 
 #Golbuthur

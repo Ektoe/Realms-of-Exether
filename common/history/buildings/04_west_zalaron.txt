@@ -2121,7 +2121,7 @@
 			}
 		}
   }
-  s:STATE_KLONGLALA = {
+  s:STATE_ODADRUEL = {
 	region_state:XOC={
 		create_building={
 			building="building_government_administration"
@@ -2155,7 +2155,7 @@
                         type="building_financial_district"
                         country="c:XOC"
                         levels=1
-                        region="STATE_KLONGLALA"
+                        region="STATE_ODADRUEL"
                    }
                 }
 			reserves=1
@@ -2185,7 +2185,7 @@
 						type="building_manor_house"
 						country="c:XOC"
 						levels=1
-						region="STATE_KLONGLALA"
+						region="STATE_ODADRUEL"
 				   }
 				}
 				reserves=1
@@ -2198,7 +2198,7 @@
                         type="building_financial_district"
                         country="c:XOC"
                         levels=1
-                        region="STATE_KLONGLALA"
+                        region="STATE_ODADRUEL"
                    }
                 }
 				reserves=1
@@ -2409,7 +2409,7 @@
 			}
 		}
   }
-  s:STATE_SAWABARA = {
+  s:STATE_NOLOGO_RULL = {
 	region_state:COC={
 			create_building={
 			building="building_rice_farm"
@@ -2431,7 +2431,7 @@
 						type="building_manor_house"
 						country="c:XOC"
 						levels=1
-						region="STATE_KLONGLALA"
+						region="STATE_ODADRUEL"
 				   }
 				}
 			reserves=1
@@ -2458,7 +2458,7 @@
 		}
 	}
   }
-  s:STATE_KISITONG = {
+  s:STATE_NOLOGO_VELPH = {
 	region_state:COC={
             create_building={
 			building="building_logging_camp"
@@ -2579,7 +2579,7 @@
 						type="building_manor_house"
 						country="c:XOC"
 						levels=1
-						region="STATE_KLONGLALA"
+						region="STATE_ODADRUEL"
 				   }
 				}
 				reserves=1
@@ -2592,7 +2592,7 @@
 						type="building_manor_house"
 						country="c:COC"
 						levels=4
-						region="STATE_SAWABARA"
+						region="STATE_NOLOGO_RULL"
 				   }
 				}
 				reserves=1
@@ -2605,7 +2605,7 @@
 						type="building_manor_house"
 						country="c:XOC"
 						levels=6
-						region="STATE_KLONGLALA"
+						region="STATE_ODADRUEL"
 				   }
 				}
 				reserves=1
@@ -2641,7 +2641,7 @@
                         type="building_financial_district"
                         country="c:COC"
                         levels=3
-                        region="STATE_SAWABARA"
+                        region="STATE_NOLOGO_RULL"
                    }
                 }
 				reserves=1
@@ -2667,7 +2667,7 @@
 						type="building_manor_house"
 						country="c:COC"
 						levels=1
-						region="STATE_SAWABARA"
+						region="STATE_NOLOGO_RULL"
 				   }
 				}
 				reserves=1
@@ -2768,7 +2768,7 @@
 						type="building_manor_house"
 						country="c:COC"
 						levels=1
-						region="STATE_KISITONG"
+						region="STATE_NOLOGO_VELPH"
 				   }
 				}
 			reserves=1
@@ -2874,7 +2874,7 @@
                         type="building_financial_district"
                         country="c:COC"
                         levels=1
-                        region="STATE_KISITONG"
+                        region="STATE_NOLOGO_VELPH"
                    }
                 }
 			reserves=1
@@ -2887,7 +2887,7 @@
             	        type="building_financial_district"
             	        country="c:COC"
             	        levels=1
-            	        region="STATE_KISITONG"
+            	        region="STATE_NOLOGO_VELPH"
 					}
 				}
 			reserves = 1
@@ -3337,7 +3337,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives" "pm_mines_potions_of_fortitude" "pm_no_steam_automation" "pm_road_carts" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_no_explosives"    "pm_no_steam_automation" "pm_road_carts" }
 		}
 			create_building={
 			building="building_tobacco_plantation"
@@ -3350,7 +3350,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "gizmo_waterwrangler_irrigation_building_tobacco_plantation" "pm_road_carts"  }
+			activate_production_methods={ "pm_gizmo_waterwrangler_irrigation_building_tobacco_plantation" "pm_road_carts"  }
 		}
 			create_building={
 			building="building_maize_farm"
@@ -3363,7 +3363,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_soil_enriching_farming"  "pm_tools" "gizmo_waterwrangler_irrigation_building_tobacco_plantation"  }
+			activate_production_methods={ "pm_soil_enriching_farming"  "pm_tools" "pm_gizmo_waterwrangler_irrigation_building_tobacco_plantation"  }
 		}
 			create_building={
 			building="building_vineyard_plantation"
@@ -3460,7 +3460,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "gizmo_waterwrangler_irrigation_building_tobacco_plantation" "pm_road_carts"  }
+			activate_production_methods={ "pm_gizmo_waterwrangler_irrigation_building_tobacco_plantation" "pm_road_carts"  }
 		}
 		  create_building={
 			building="building_rice_farm"
@@ -3473,7 +3473,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_soil_enriching_farming_building_rice_farm" "pm_no_secondary" "pm_tools" "pm_rice_farms_basic_earth_shaping" }
+			activate_production_methods={ "pm_soil_enriching_farming_building_rice_farm" "pm_no_secondary" "pm_rice_farms_basic_earth_shaping" }
 		}
 	}
   }
@@ -3829,7 +3829,7 @@
 				   }
 				}
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_mines_potions_of_fortitude" "pm_rockrollers_mine"  "pm_road_carts" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives"    "pm_rockrollers_mine"  "pm_road_carts" }
 		}
             create_building={
 			building="building_paper_mills"
@@ -3952,7 +3952,7 @@
 			   }
 			}
 			reserves=1
-			activate_production_methods={ "pm_steel_gizmos" "pmg_automation_building_gizmo_workshop" }
+			activate_production_methods={ "pm_steel_gizmos" }
 		}	
 	}
   }
@@ -4513,7 +4513,7 @@
 					type="building_financial_district"
 					country="c:TLE"
 					levels=1
-					region="STATE_HAVENSHIRE"
+					region="STATE_VONKENDAM"
 			   }
 			}
 			reserves=1
@@ -4550,7 +4550,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "no_magic_clothes" "pm_traditional_looms" }
+			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes"    "pm_traditional_looms" }
 		}
             create_building={
 			building="building_furniture_manufacturies"
@@ -5170,7 +5170,7 @@
 					   }
 					}
 			reserves=1
-			activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_no_potions" }
+			activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine"    }
 		  }
             create_building={
 			building="building_fishing_wharf"
@@ -5225,7 +5225,7 @@
 					   }
 					}
 			reserves=1
-			activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine" "pm_rockrollers_building_wishstone_mine" "pm_mines_potions_of_fortitude" }
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine" "pm_rockrollers_building_wishstone_mine"    }
 		  }
             create_building={
 			building="building_glassworks"
@@ -5567,7 +5567,7 @@
                    }
                 }
 			reserves=1
-			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "no_magic_clothes" "pm_traditional_looms" }
+			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes"    "pm_traditional_looms" }
 		}
 		create_building={
 			building="building_arms_industry"
@@ -6529,7 +6529,7 @@
 					   }
 					}
 			reserves=1
-			activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" "pm_mines_no_potions" }
+			activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine"    }
 		  }
 	}
   }

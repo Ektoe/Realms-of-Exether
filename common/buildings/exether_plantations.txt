@@ -4,7 +4,6 @@
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
-		rubber_mastication
 	}
 
 	city_type = farm
@@ -24,10 +23,6 @@ building_wyrmfruit_plantation = {
 	building_group = bg_wyrmfruit_plantations
 	texture = "gfx/interface/icons/building_icons/wyrmfruit.dds"
 	required_construction = construction_cost_low
-
-	unlocking_technologies = {
-		rubber_mastication
-	}
 
 	city_type = farm
 	levels_per_mesh = 5plantation

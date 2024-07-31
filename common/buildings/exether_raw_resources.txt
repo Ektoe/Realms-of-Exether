@@ -181,7 +181,7 @@ building_squid_squad = {
 }
 
 building_seasnake_wharf = {
-	building_group = bg_fishing
+	building_group = bg_seasnake_wharf
 	texture = "gfx/interface/icons/building_icons/sea_snakes.dds"
 	city_type = port
 	required_construction = construction_cost_low
@@ -364,6 +364,82 @@ building_dragon_ruins = {
 		pmg_train_automation_building_dragon_ruins
 	}
 	cannot_switch_owner = yes
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+
+# Underground survival
+
+building_underfarm = {
+	building_group = bg_underfarms
+	
+	texture = "gfx/interface/icons/building_icons/underfarm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure 
+	}
+
+	production_method_groups = {
+		pmg_base_building_underfarm
+		pmg_secondary_building_underfarm
+		pmg_harvesting_process_building_rye_farm
+		pmg_farms_enhancements
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_rye
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+
+building_spider_ranch = {
+	building_group = bg_spider_ranch
+
+	texture = "gfx/interface/icons/building_icons/spidersilk.dds"
+	
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure 
+	}
+
+	production_method_groups = {
+		pmg_base_building_spider_ranch
+		pmg_silk_refinement
+		pmg_spider_enhancements
+		pmg_spider_fencing
+		pmg_warding
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+
+building_mushroom_logging  = {
+	building_group = bg_mushroom_logging
+	texture = "gfx/interface/icons/building_icons/mushroom_logging.dds"
+	city_type = wood
+	required_construction = construction_cost_low
+	terrain_manipulator = forestry
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_mushroom_logging
+		pmg_more_wood
+		pmg_equipment
+		pmg_transportation_building_logging_camp
+	}
 	ownership_type = self
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"

@@ -16,13 +16,13 @@ TLE = {
 
 UTS = {
 	states = {
-		STATE_COGSREST
-		STATE_NOGI_SANDS
-		STATE_ELF1
-		STATE_ELF2
-		STATE_ELF3
-		STATE_ELF4
-		STATE_GRAVELROCK_ROAD
+		STATE_RIRGEN
+		STATE_RICHAR_JEDD
+		STATE_TOPHNATH
+		STATE_CINPHNPHAINN
+		STATE_LHIPH
+		STATE_KAATH_SERINE
+		STATE_DEPHEL_PATH
 		STATE_VOZMEAD_LOWLANDS
 		STATE_DWARVENHAMMER
 		STATE_SUNKEN_CLIFFS
@@ -67,6 +67,34 @@ SLD = {
 	use_culture_states = yes
 
 	required_states_fraction = 0.9
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+
+}
+
+#Bossardie
+BOS = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.9
+
+	ai_will_do = { always = yes }
+
+	possible = {
+		has_technology_researched = nationalism
+	}
+
+}
+
+#Cherryn
+CHE = {
+	use_culture_states = yes
+
+	required_states_fraction = 0.8
 
 	ai_will_do = { always = yes }
 

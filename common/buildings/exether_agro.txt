@@ -57,6 +57,7 @@ building_mountain_maize_farm = {
 
 building_beekeeping = {
 	building_group = bg_beekeeping
+	texture = "gfx/interface/icons/building_icons/beekeeping.dds"
 
 	city_type = farm
 	levels_per_mesh = 5

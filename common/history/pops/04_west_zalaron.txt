@@ -1344,7 +1344,7 @@
 			}
 		}
   }
-  s:STATE_KLONGLALA = {
+  s:STATE_ODADRUEL = {
 	region_state:XOC = {
 		create_pop = {
 			culture = cithrel
@@ -1462,7 +1462,7 @@
 			}
 		}
   }
-  s:STATE_SAWABARA = {
+  s:STATE_NOLOGO_RULL = {
 	region_state:COC = {
 		create_pop = {
 			culture = cithrel
@@ -1470,7 +1470,7 @@
 		}
 	}
   }
-  s:STATE_KISITONG = {
+  s:STATE_NOLOGO_VELPH = {
 	region_state:COC = {
 		create_pop = {
 			culture = cithrel
@@ -2241,6 +2241,10 @@
 			size = 329008
 		}
 		create_pop = {
+			culture = ravikian
+			size = 142393
+		}
+		create_pop = {
 			culture = soulwrought
 			size = 1806
 		}
@@ -2268,7 +2272,11 @@
 	region_state:RAV = {
 		create_pop = {
 			culture = florishnom
-			size = 251997
+			size = 190997
+		}
+		create_pop = {
+			culture = ravikian
+			size = 61394
 		}
 		create_pop = {
 			culture = soulwrought
@@ -2354,7 +2362,7 @@
 		}
 		create_pop = {
 			culture = ravikian
-			size = 28211
+			size = 288211
 		}
 		create_pop = {
 			culture = yrian
@@ -2388,10 +2396,6 @@
 			culture = lake_thalorian
 			size = 266461
 		}
-		create_pop = {
-			culture = ravikian
-			size = 25162
-		}
 
 	}
   }
@@ -2419,15 +2423,11 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = central_thalorian
-			size = 800000
+			size = 482891
 		}
 		create_pop = {
 			culture = lake_thalorian
-			size = 320000
-		}
-		create_pop = {
-			culture = ravikian
-			size = 250000
+			size = 421019
 		}
 	}
   }
@@ -2583,7 +2583,7 @@
 		}	
 		create_pop = {
 			culture = ravikian
-			size = 11561
+			size = 331561
 		}		
 	}
   }
@@ -2766,19 +2766,15 @@
 	region_state:TLE = {
 		create_pop = {
 			culture = lake_thalorian
-			size = 500000
-		}
-		create_pop = {
-			culture = ravikian
-			size = 201000
+			size = 792919
 		}
 		create_pop = {
 			culture = yrian
-			size = 33000
+			size = 33181
 		}
 		create_pop = {
 			culture = waldgnomklaai
-			size = 25000
+			size = 25427
 		}
 	}
   }
@@ -2909,10 +2905,6 @@
 		create_pop = {
 			culture = rethrashar
 			size = 52000
-		}
-		create_pop = {
-			culture = ravikian
-			size = 2000
 		}
 	}
   }

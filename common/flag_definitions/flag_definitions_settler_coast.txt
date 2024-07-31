@@ -70,6 +70,24 @@ EMP = {
 	}
 }
 
+LEO = {
+	flag_definition = {
+		coa = LEO
+		subject_canton = LEO
+		priority = 1
+	}
+	flag_definition = {
+        coa = LEO_subject_THI      
+        priority = 50
+        trigger = { 
+			exists = c:THI
+            c:LEO ?= {
+				is_subject_of ?= c:THI
+			}
+        }
+    }    
+}
+
 SLB = {
 	flag_definition = {
 		coa = SLB

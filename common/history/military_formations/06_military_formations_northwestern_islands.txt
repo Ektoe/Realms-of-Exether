@@ -207,9 +207,9 @@
 			hq_region = sr:region_thawed_lands
 
 			combat_unit = {
-				type = unit_type:combat_unit_type_irregular_infantry
+				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_RAROMARA
-				count = 3
+				count = 15
 			}
 			save_scope_as = qar_army
 		}
@@ -230,7 +230,17 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_RAROMARA
-				count = 1
+				count = 20
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_man_o_war
+				state_region = s:STATE_RAROMARA
+				count = 2
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_WHIRINAKI
+				count = 10
 			}
 			save_scope_as = qar_fleet
 		}
@@ -241,6 +251,7 @@
 			save_scope_as = qar_admiral
 		}
 		scope:qar_admiral = {
+			set_commander_rank = 2
 			transfer_to_formation = scope:qar_fleet
 		}
 	}

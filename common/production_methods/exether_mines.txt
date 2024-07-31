@@ -206,7 +206,7 @@ pm_gold_mines_potions_of_strength = {
 			goods_input_potions_add = 10	# x50 = 500
 			goods_input_steel_add = 4		# x50 = 200
 
-			goods_output_iron_add = 12		# x100 = 1200
+			goods_output_gold_add = 12		# x100 = 1200
 		}
 
 		level_scaled = {
@@ -419,7 +419,7 @@ pm_wishstone_mines_potions_of_strength = {
 			goods_input_potions_add = 10	# x50 = 500
 			goods_input_steel_add = 4		# x50 = 200
 
-			goods_output_iron_add = 20		# x50 = 1000
+			goods_output_wishstone_add = 20		# x50 = 1000
 		}
 
 		level_scaled = {
