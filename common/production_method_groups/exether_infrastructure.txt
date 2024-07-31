@@ -24,3 +24,21 @@ pmg_road_security = {
 		pm_militarized_security
 	}
 }
+
+pmg_underway_development = {
+	texture = ""
+	production_methods = {
+		pm_underway_1
+		pm_underway_2
+		pm_underway_3
+	}
+}
+pmg_underway_vehicles = {
+	texture = ""
+	production_methods = {
+        pm_no_road_travel
+		pm_covered_underway_wagons
+		pm_beasts_of_burden
+		pm_mechanized_travel
+	}
+}
