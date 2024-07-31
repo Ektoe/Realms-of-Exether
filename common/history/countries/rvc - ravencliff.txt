@@ -10,6 +10,19 @@
 			add_ideology = ideology_pious_dark
 			}
 
+		ig:ig_intelligentsia = { 
+			remove_ideology = ideology_anti_clerical
+			remove_ideology = ideology_liberal
+			remove_ideology = ideology_republican
+			add_ideology = ideology_modernizer
+			add_ideology = ideology_liberal_modern
+			add_ideology = ideology_egalitarian
+			
+		}
+		#Make them very liberal and pro humans 
+
+
+
 		# Laws 
 		activate_law = law_type:law_magocracy
 		activate_law = law_type:law_autocracy 
