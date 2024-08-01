@@ -954,11 +954,11 @@
   # HUB_NAME_STATE_STILTEBRUZJE_wood: "Wetterwâld"
   # HUB_NAME_STATE_STILTEBRUZJE_port: "Himmelhaven"
 # gnomes frisian
-  HUB_NAME_STATE_SINNEBRAN_city: "Sinnebrân"
-  HUB_NAME_STATE_SINNEBRAN_farm: "Swarte Greide"
-  HUB_NAME_STATE_SINNEBRAN_mine: "Wolkedou"
-  HUB_NAME_STATE_SINNEBRAN_wood: "Feanwâld"
-  HUB_NAME_STATE_SINNEBRAN_port: "Feanstroom"
+  # HUB_NAME_STATE_SINNEBRAN_city: "Sinnebrân"
+  # HUB_NAME_STATE_SINNEBRAN_farm: "Swarte Greide"
+  # HUB_NAME_STATE_SINNEBRAN_mine: "Wolkedou"
+  # HUB_NAME_STATE_SINNEBRAN_wood: "Feanwâld"
+  # HUB_NAME_STATE_SINNEBRAN_port: "Feanstroom"
 # gnomes frisian
   HUB_NAME_STATE_SKIMERWALD_city: "Skimerwâld"
   HUB_NAME_STATE_SKIMERWALD_farm: "Feanfeiling"
