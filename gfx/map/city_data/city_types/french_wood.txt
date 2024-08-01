@@ -62,6 +62,7 @@
 	building_dragon_ruins = { "french_forestry_lumberdepo_01_mesh" }
 	building_desert_hunting_lodge = { "french_forestry_lumberdepo_01_mesh" }
 	building_khuus_hunting_lodge = { "french_forestry_lumberdepo_01_mesh" }
+	building_haunted_grounds = { "french_forestry_lumberdepo_01_mesh" }
 
 	building_logging_camp = { 
 		"french_forestry_lumberdepo_01_mesh"
