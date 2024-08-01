@@ -329,6 +329,26 @@
         }
     }
 
+    historical_soranda_headgear = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                range = { 0 1 }
+            }
+        } 
+        weight = {
+            base = 0
+            modifier = {
+                add = 9000000
+                scope:character ?= {
+                    has_template = ARR_queen_soranda_template
+                }
+            }
+        }
+    }
+
 ### END OF HISTORICAL CLOTHING ###
 
  
