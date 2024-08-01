@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:PEL = {
+	c:JUX = {
 		create_character = {
 			first_name = "Ringaudas"
 			last_name = "Kallaur"

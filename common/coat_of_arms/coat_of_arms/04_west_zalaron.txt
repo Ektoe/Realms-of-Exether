@@ -96,7 +96,7 @@ SNB = {
 
 }
 
-DEL = {
+VHO = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue_light"
 
@@ -120,7 +120,7 @@ DEL = {
 
 }
 
-PEL = {
+JUX = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 
@@ -144,7 +144,7 @@ PEL = {
 }
 
 
-MYK = {
+SAE = {
 	pattern = "pattern_solid.tga"
 	color1 = "green"
 

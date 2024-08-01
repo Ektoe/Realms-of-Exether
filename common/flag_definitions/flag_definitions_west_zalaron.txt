@@ -46,26 +46,26 @@ SNB = {
 	}
 }
 
-DEL = {
+VHO = {
 	flag_definition = {
-		coa = DEL
-		subject_canton = DEL
+		coa = VHO
+		subject_canton = VHO
 		priority = 1
 	}
 }
 
-PEL = {
+JUX = {
 	flag_definition = {
-		coa = PEL
-		subject_canton = PEL
+		coa = JUX
+		subject_canton = JUX
 		priority = 1
 	}
 }
 
-MYK = {
+SAE = {
 	flag_definition = {
-		coa = MYK
-		subject_canton = MYK
+		coa = SAE
+		subject_canton = SAE
 		priority = 1
 	}
 }
