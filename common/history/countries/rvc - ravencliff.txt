@@ -7,7 +7,8 @@
 
 		ig:ig_mages = {
 			remove_ideology = ideology_arcane_scholars
-			add_ideology = ideology_pious_dark
+			add_ideology = ideology_rvc_devout_magic
+			add_ideology = ideology_isolationist
 			}
 
 		ig:ig_intelligentsia = { 
@@ -16,9 +17,43 @@
 			remove_ideology = ideology_republican
 			add_ideology = ideology_modernizer
 			add_ideology = ideology_liberal_modern
-			add_ideology = ideology_egalitarian
+			add_ideology = ideology_rvc_intellegentsia_magic
 			
 		}
+
+		ig:ig_landowners = { 
+			add_ideology = ideology_gravis
+		}
+
+		ig:ig_industrialists  = { 
+			add_ideology = ideology_rvc_industralist_magic
+		}
+
+		ig:ig_trade_unions = { 
+			add_ideology = ideology_rvc_trade_unions_magic
+		}
+
+
+		ig:ig_devout= { 
+			add_ideology = ideology_rvc_devout_magic
+
+		}
+
+		ig:ig_armed_forces= { 
+			add_ideology = ideology_rvc_armed_magic
+		}
+
+		ig:ig_rural_folk= { 
+			add_ideology = ideology_rvc_rural_folk_magic
+		}
+
+
+		ig:ig_petty_bourgeoisie = {
+			add_ideology = ideology_rvc_pb_magic
+		}
+
+
+
 		#Make them very liberal and pro humans 
 
 
