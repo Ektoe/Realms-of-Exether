@@ -38,6 +38,28 @@ AI = {
 			}
 			effect_set_non_hostile_mutual_secret_goal_power_difference = yes
 		}
+	}
+
+	every_country = {
+		limit = {
+			country_rank = rank_value:great_power
+			any_country = {			
+				country_has_primary_culture = cu:dorite		
+			}
+		}
+			
+		save_scope_as = first_country
+		every_country = {
+			limit = { 
+				NOT = { country_rank = rank_value:great_power }
+				OR = {
+					country_has_primary_culture = cu:highland_halfling
+					country_has_primary_culture = cu:clearbough
+					country_has_primary_culture = cu:coast_halfling
+				}				
+			}
+			effect_set_non_hostile_mutual_secret_goal_power_difference = yes
+		}
 	}	
 
     c:ARR ?= {
