@@ -102,7 +102,7 @@ ai_strategy_default = {
 	# How many maneuvers are we OK with using up in the initial phase to add more wargoals
 	# Using this value in other strategies will function additively (values below 0 or above 1 have no further effect)
 	wargoal_maneuvers_fraction = {
-		value = 0.35
+		value = 0.50
 		
 		if = {
 			limit = { 
@@ -1102,7 +1102,7 @@ ai_strategy_default = {
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
 	# Using this value in other strategies will function additively
 	aggression = {
-		value = 2.0
+		value = 0.5
 		
 		# More fighting between unrecognized powers
 		if = {
@@ -1197,14 +1197,14 @@ ai_strategy_default = {
 		add = {
 			value = income
 			subtract = investment_pool_income	
-			divide = 350 # 1 construction output per this much income
+			divide = 425 # 1 construction output per this much income
 
 			min = 0
 		}
 		
 		subtract = {
 			value = expenses
-			divide = 350
+			divide = 425
 			min = 0
 		}
 		
@@ -1577,7 +1577,7 @@ ai_strategy_default = {
 	# Add a multiplier to the score AI assigns to particular building groups (default 1)
 	# Using this value in other strategies will result in several multiplications
 	building_group_weights = {
-		bg_construction = 100
+		bg_construction = 50
 	}
 	
 	# Which buildings should the AI subsidize
