@@ -1,7 +1,7 @@
 ﻿NAI = {
 	DEFAULT_STRATEGY_STRING = "ai_strategy_default"
 
-	STRATEGY_RANDOM_FACTOR = 20.0 # The higher this is, the more random AI strategy selection will be
+	STRATEGY_RANDOM_FACTOR = 15.0 # The higher this is, the more random AI strategy selection will be
 
 	TICKS_FOR_FULL_SPENDING_VARIABLES_UPDATE = 100 # The higher this is, the less often AIs will fully refresh their spending variables
 	NUM_FAILED_MONEY_SPENDING_ATTEMPTS_FOR_UPDATE = 50 # After this many failed attempts to change money spending/construct government buildings, force an update of money spending priorities
@@ -67,7 +67,7 @@
 
 	DIPLOMATIC_DEMAND_ACCEPTANCE_BASE = -50
 	DIPLOMATIC_DEMAND_ACCEPTANCE_WARGOAL_IMPACT = -1			 # Scales with maneuver cost of demanded wargoal
-	DIPLOMATIC_DEMAND_ACCEPTANCE_MILITARY_POWER_SCALE = 4.0 	 # At this amount of relative expected military power, max/min value of DIPLOMATIC_DEMAND_ACCEPTANCE_MILITARY_POWER_FACTOR is applied
+	DIPLOMATIC_DEMAND_ACCEPTANCE_MILITARY_POWER_SCALE = 5.0 	 # At this amount of relative expected military power, max/min value of DIPLOMATIC_DEMAND_ACCEPTANCE_MILITARY_POWER_FACTOR is applied
 	DIPLOMATIC_DEMAND_ACCEPTANCE_MILITARY_POWER_FACTOR = 100	 # Scales with relative expected military power of the demanding country in a potential play, maximum is this value and minimum is this value * -1
 	DIPLOMATIC_DEMAND_ACCEPTANCE_INCORPORATED_STATE_FACTOR = -25 # Added to acceptance if the wargoal is demanding they cede an incorporated state
 	DIPLOMATIC_DEMAND_ACCEPTANCE_SUBJUGATION_FACTOR = 0.5		 # Multiplied by country's desire to become a subject of the specified type if the wargoal is demanding subjugation
@@ -82,11 +82,11 @@
 	MIN_AVAILABLE_LABOR_FOR_NEW_BUILDING = 5000		# If state has less than this in available labor, we should be much less likely to build something (multiplied by 1 + number of ongoing constructions)
 
 	# Formations with fewer units than whichever is smaller of these two values should not have a commander recruited for them
-	MIN_COMBAT_UNITS_FOR_COMMANDER_ABSOLUTE = 5		# Absolute number of combat units
+	MIN_COMBAT_UNITS_FOR_COMMANDER_ABSOLUTE = 10		# Absolute number of combat units
 	MIN_COMBAT_UNITS_FOR_COMMANDER_RELATIVE = 0.2	# Number of combat units relative to total army size
 
 	# Formations with at least the number of units than whichever is smaller of these two values should always have at least two commanders, so they can be dynamically split to cover multiple fronts
-	MIN_COMBAT_UNITS_FOR_MULTIPLE_COMMANDERS_ABSOLUTE = 10  # Absolute number of combat units
+	MIN_COMBAT_UNITS_FOR_MULTIPLE_COMMANDERS_ABSOLUTE = 20  # Absolute number of combat units
 	MIN_COMBAT_UNITS_FOR_MULTIPLE_COMMANDERS_RELATIVE = 0.5	# Number of combat units relative to total army size
 
 	RETIRE_COMMANDER_INTERACTION_KEY = "retire_commander" # The AI will use this character interaction to retire excessive commanders
@@ -95,16 +95,16 @@
 	COMMANDER_DESIRED_RANK_DISPARITY_IN_FLEET = 1 		  # Prefer promoting over recruiting new commanders if there isn't at least this rank disparity between any two admirals in a fleet
 
 	RECRUITABLE_COMMANDER_BASE_SCORE = 100 				# The base score assigned to each recruitable commander in the pool
-	RECRUITABLE_COMMANDER_RANDOM_FACTOR = 3.0			# The higher this is, the more random AI recruitment selection will be
+	RECRUITABLE_COMMANDER_RANDOM_FACTOR = 1.0			# The higher this is, the more random AI recruitment selection will be
 	RECRUITABLE_COMMANDER_SKILL_TRAIT_SCORE = 25		# A recruitable commander's total value of skill traits is multiplied by this
-	RECRUITABLE_COMMANDER_PERSONALITY_TRAIT_SCORE = 0	# A recruitable commander's total value of personality traits is multiplied by this
+	RECRUITABLE_COMMANDER_PERSONALITY_TRAIT_SCORE = 10	# A recruitable commander's total value of personality traits is multiplied by this
 	RECRUITABLE_COMMANDER_CONDITION_TRAIT_SCORE = -25	# A recruitable commander's total value of condition traits is multiplied by this
 	RECRUITABLE_COMMANDER_FAVORED_IG_FACTOR	= 1.5		# If a recruitable commander comes from an IG the AI likes, multiply score by this
 	RECRUITABLE_COMMANDER_DISFAVORED_IG_FACTOR = 0.5	# If a recruitable commander comes from an IG the AI dislikes, multiply score by this
 
 	MOBILIZATION_OPTION_RANDOM_FACTOR = 0.5					# The higher this is, the more random AI is about which mobilization options to activate
 	MOBILIZATION_OPTION_MONEY_COST_FACTOR = 20 				# When checking whether the AI should activate a mobilization option, the monetary cost of activation is multiplied by this and compared against AI value to determine if it's worth it
-	MOBILIZATION_OPTION_NUM_ACTIVE_OPTIONS_DIVISOR = 0.25	# Divide the value of each non-activated mobilization option by ( 1 + number of already active options * this )
+	MOBILIZATION_OPTION_NUM_ACTIVE_OPTIONS_DIVISOR = 0.10	# Divide the value of each non-activated mobilization option by ( 1 + number of already active options * this )
 	MOBILIZATION_OPTION_GOODS_SHORTAGE_MULT = 0.0			# Multiply value of mobilization option by this if there is a goods shortage of any of its input goods
 
 	MOBILIZATION_BASE_DESIRED_RATIO_TO_ENEMY = 0.5   		# AI wants to have a total amount of mobilized army power that is equal to enemy mobilized army power * this
@@ -135,7 +135,7 @@
 
 	MIN_GOVERNMENT_LEGITIMACY = 25				# If legitimacy is below this, consider adding IGs we don't really like to the government
 	DESIRED_GOVERNMENT_LEGITIMACY = 50				# Apply a bonus to the score of governments which have at least this much legitimacy
-	REFORM_GOVERNMENT_MONTHS_BETWEEN_CHANGES = 30 		# If the AI doesn't have elections, it won't consider changing government composition more often than this to avoid lots of radicals
+	REFORM_GOVERNMENT_MONTHS_BETWEEN_CHANGES = 36 		# If the AI doesn't have elections, it won't consider changing government composition more often than this to avoid lots of radicals
 	REFORM_GOVERNMENT_NUM_OPTIONS_TO_CHECK = 5 			# How many top legitimacy possible government constellations will the AI consider
 	REFORM_GOVERNMENT_STICKINESS = 1.25 				# Multiply score of the current government by this when checking whether to reform the government
 	REFORM_GOVERNMENT_PRO_IG_CLOUT_FACTOR = 1.0			# When scoring IGs for putting in government, add to the score multiplier (scaled by clout)
@@ -205,7 +205,7 @@
 
 	CONTAINMENT_PLAY_PARTICIPATION_RANK = 7 # Ranks of this value or above should be keen on joining containment plays to beat down threats
 
-	START_DIPLO_PLAY_RANDOM_FACTOR = 2.0 # The higher this is, the more random AI will be on where to target when starting diplo plays
+	START_DIPLO_PLAY_RANDOM_FACTOR = 1.5 # The higher this is, the more random AI will be on where to target when starting diplo plays
 	START_DIPLO_PLAY_ALLY_STRENGTH_WEIGHT = 0.75 # Consider participants that will for sure join a side with this amount of their forces
 	START_DIPLO_PLAY_LIKELY_ALLY_STRENGTH_WEIGHT = 0.5 # Consider participants that will likely to join a side with this amount of their forces
 
@@ -222,8 +222,8 @@
 	DIPLO_PLAY_FREELY_ADD_WARGOALS_ESCALATION_THRESHOLD = 70 # After this amount of escalation, the AI will freely add wargoals instead of reserving manuevers for swaying
 	DIPLO_PLAY_ADD_WARGOALS_THRESHOLD = 0.5 # If AI doesn't have at least this much military strength compared to enemy, don't add more wargoals for themselves after the first
 	DIPLO_PLAY_FORCE_DIPLOMATIC_PLAY_THRESHOLD = 2.0 # If the AI believes it will have this much military strength compared to enemy and wants multiple things from them, then don't bother sending a diplomatic demand
-	DIPLO_PLAY_SWAY_THRESHOLD = 2.0 # If AI has this much military strength compared to enemy, don't bother trying to sway anyone
-	DIPLO_PLAY_REVERSE_SWAY_THRESHOLD = 2.0 # If AI has this much military strength compared to enemy, consider reverse sways to have less value
+	DIPLO_PLAY_SWAY_THRESHOLD = 3.0 # If AI has this much military strength compared to enemy, don't bother trying to sway anyone
+	DIPLO_PLAY_REVERSE_SWAY_THRESHOLD = 3.0 # If AI has this much military strength compared to enemy, consider reverse sways to have less value
 	DIPLO_PLAY_SWAY_LEANING_SIDE_MILITARY_STRENGTH_MULT = 0.25 # When determining strength compared to enemy, add in undecided countries leaning towards a side with this part of their strength
 	DIPLO_PLAY_DECIDE_ON_SUPPORT_ESCALATION = 30 # Above this escalation, AI will potentially start taking sides (or declare neutrality) even if not swayed
 	DIPLO_PLAY_TAKE_SIDES_MIN_BOLDNESS = 25 # Boldness must be at least this for AI to want to take a side with no gain (ignored for Great Powers in containment plays)
@@ -266,13 +266,13 @@
 	# AI uses these values to determine how 'impactful' a wargoal is, ie how much they would like to avoid having it enforced on them etc
 	DIPLO_PLAY_WAR_GOAL_IMPACT_MANEUEVERS_MULT = 1 	 	# Maneuvers cost of a wargoal is multiplied by this and added to impact
 	DIPLO_PLAY_WAR_GOAL_IMPACT_INFAMY_MULT = 0.5 		# Infamy generation of a wargoal is multiplied by this and added to impact
-	DIPLO_PLAY_WAR_GOAL_IMPACT_CONQUEST_MULT = 2.0		# Wargoals that outright conquer states or annex whole countries have their overall impact multiplied by this
+	DIPLO_PLAY_WAR_GOAL_IMPACT_CONQUEST_MULT = 4.0		# Wargoals that outright conquer states or annex whole countries have their overall impact multiplied by this
 
 	# Boldness determines the confidence threshold at which the AI will back down in a play
 	# Each individual boldness factor is multiplied a dice roll range of (x0 to x1) for actual boldness value in each play - boldness can end up negative!
 	# Boldness also plays a role for determining whether undecided countries will join a play unprompted
 	# Base boldness is set by the country's AI strategies
-	DIPLO_PLAY_BOLDNESS_FROM_RANK = 3 			# Multiplied by country's rank value and added to boldness range
+	DIPLO_PLAY_BOLDNESS_FROM_RANK = 4 			# Multiplied by country's rank value and added to boldness range
 	DIPLO_PLAY_BOLDNESS_WEAK_ARMY_FACTOR = -25 	# Scaled by our relative forces compared to DIPLO_PLAY_WEAK_ARMY_THRESHOLD
 	DIPLO_PLAY_BOLDNESS_CONTAINMENT_PLAY = 100	# Add this boldness to all involved countries for a containment play
 
@@ -395,7 +395,7 @@
 	DIPLO_PLAY_ATTITUDE_DOMINEERING_FACTOR = -10
 	DIPLO_PLAY_ATTITUDE_DOMINEERING_BACKER_FACTOR = 0
 
-	DIPLO_PLAY_SWAY_RANDOM_FACTOR = 1.0 # The higher this is, the more random the AI will be about which countries it tries to sway first
+	DIPLO_PLAY_SWAY_RANDOM_FACTOR = 0.5 # The higher this is, the more random the AI will be about which countries it tries to sway first
 	DIPLO_PLAY_SWAY_UNWANTED_OFFER = -1000 # For being offered something they don't want
 	DIPLO_PLAY_SWAY_CALL_IN_OBLIGATION = 100 # When calling in an obligation
 	DIPLO_PLAY_SWAY_MINIMUM_OBLIGATION_VALUE = 10 # Obligations worth less than this are rejected
@@ -448,7 +448,7 @@
 	AI_AGGRESSION_MAX_ACCEPTABLE_INFAMY = 100 # Undesirable/unacceptable infamy will not be set above this from high aggression
 
 	# Below data is used to determine which wargoals the AI will pick
-	WAR_GOAL_RANDOM_FACTOR = 2.0 					# The higher this is, the more random AI wargoal selection will be
+	WAR_GOAL_RANDOM_FACTOR = 1.0					# The higher this is, the more random AI wargoal selection will be
 	WAR_GOAL_UNDESIRABLE_INFAMY_FACTOR = 0.5 		# Wargoal value is multiplied by this if it would bring the country above undesirable infamy levels
 	WAR_GOAL_UNACCEPTABLE_INFAMY_FACTOR = 0			# Wargoal value is multiplied by this if it would bring the country above unacceptable infamy levels
 	WAR_GOAL_NOT_PRIMARY_DEMAND_FACTOR = 0.5		# Wargoal value for sway offers is multiplied by this if it would not be added as a primary demand
@@ -458,7 +458,7 @@
 	WAR_GOAL_MIN_SCORE_TO_MAKE_PRIMARY_DEMAND = 30	 # A wargoal needs to have at least this much score (before applying WAR_GOAL_MAKE_PRIMARY_DEMAND_SCORE_MULT) for AI to make it a primary demand
 
 	# Below data is used to determine which techs the AI will research
-	TECH_RANDOM_FACTOR = 1.0 # The higher this is, the more random AI tech research will be
+	TECH_RANDOM_FACTOR = 0.50 # The higher this is, the more random AI tech research will be
 	TECH_COST_PENALTY_FACTOR = 5.0 # AI tendency to research a tech is divided by ( 1 + this * ahead of time penalty / era base cost )
 
 	# Below data is used to determine which states the AI should incorporate
@@ -472,7 +472,7 @@
 	DEFEND_STATE_CAPITAL_WEIGHT = 25
 	DEFEND_STATE_CAPITAL_WAR_NEGOTIATOR_WEIGHT = 100
 	DEFEND_STATE_OWN_CAPITAL_WEIGHT_MULT = 5
-	DEFEND_STATE_WARGOAL_WEIGHT = 100
+	DEFEND_STATE_WARGOAL_WEIGHT = 200
 	DEFEND_STATE_INCORPORATED_WEIGHT_MULT = 1.5
 
 	# Below data is used to determine which states are most important to invade
@@ -483,7 +483,7 @@
 	INVADE_STATE_CAPITAL_WEIGHT = 25
 	INVADE_STATE_CAPITAL_WAR_NEGOTIATOR_WEIGHT = 100
 	INVADE_STATE_OWN_CAPITAL_WEIGHT_MULT = 5
-	INVADE_STATE_WARGOAL_WEIGHT = 100
+	INVADE_STATE_WARGOAL_WEIGHT = 200
 	INVADE_STATE_INCORPORATED_WEIGHT_MULT = 1.5
 
 	# Below data is used for naval invasions:
@@ -492,7 +492,7 @@
 	NAVAL_INVASION_MIN_RELATIVE_LOCAL_NAVY_STRENGTH = 0.5 			# AI wants at least this fraction of defending naval strength to risk a naval invasion
 	NAVAL_INVASION_MIN_RELATIVE_GLOBAL_NAVY_STRENGTH_ATTACKER = 0.25 # AI wants at least this fraction of naval strength in the overall war to risk a naval invasion as the attacking war side
 	NAVAL_INVASION_MIN_RELATIVE_GLOBAL_NAVY_STRENGTH_DEFENDER = 0.5 # AI wants at least this fraction of naval strength in the overall war to risk a naval invasion as the defending war side
-	NAVAL_INVASION_COOLDOWN_DAYS = 20 								# After launching a naval invasion, the AI will wait at least this long before launching another
+	NAVAL_INVASION_COOLDOWN_DAYS = 14 								# After launching a naval invasion, the AI will wait at least this long before launching another
 	NAVAL_INVASION_MIN_SCORE = 100									# AI won't bother launching naval invasions against theaters with a lower total state score than this
 	NAVAL_INVASION_MAX_LOCAL_FRONT_SCORE = 100						# Don't launch a naval invasion if there is a local front of at least this total score for the general
 
@@ -503,7 +503,7 @@
 	HQ_DEFENSE_MIN_THEATER_SCORE = 100								# Theater of local HQ must have at least this importance score to have a minimum garrison
 	HQ_DEFENSE_MIN_WANTED_GARRISON = 0.15							# Keep at least this number of local troops to garrison important HQs against enemy invasion
 
-	MAX_CONVOY_USAGE_FOR_SUPPLY_ROUTES = 0.5						# AI will not commit more than this fraction of its convoys to supporting overseas operations
+	MAX_CONVOY_USAGE_FOR_SUPPLY_ROUTES = 1.0						# AI will not commit more than this fraction of its convoys to supporting overseas operations
 
 	NUM_DAYS_TO_REMEMBER_FAILED_FRONT_OR_HQ_ASSIGNMENT = 10 				# For how many days should the AI remember failing to assign a general to a front or HQ (and thus not try with that front again)
 
@@ -589,7 +589,7 @@
 	DECLARE_INTEREST_SUPPORTS_TRADE_ROUTE_FACTOR = 1000 # Add if this interest is in a market with which we have a trade route (and there is no other interest that would support it)
 	DECLARE_INTEREST_SUPPORTS_DIPLOMATIC_PACT_FACTOR = 1000 # Add if this interest is in a country with which we have a diplomatic pact (and there is no other interest that would support it)
 	DECLARE_INTEREST_SUPPORTS_GROWING_COLONY_FACTOR = 1000 # Add if this interest is in a region where we have a growing colony
-	DECLARE_INTEREST_ADJACENT_REGION_MULT = 2.5 # Multiply score by this if the region is adjacent to the AI country
+	DECLARE_INTEREST_ADJACENT_REGION_MULT = 4 # Multiply score by this if the region is adjacent to the AI country
 
 	# If an AI country has too many colonial/non-colonial interests, subtract the score of those type of interests by this
 	DECLARE_INTEREST_WRONG_INTEREST_TYPE_FACTOR = -100
@@ -612,8 +612,8 @@
 	# Below data is used to determine how the AI invests into institution
 	INSTITUTION_INVESTMENT_RANDOM_FACTOR = 1.0 # The higher this is, the more random AI institution selection will be
 	INSTITUTION_CURRENT_INVESTMENT_DIVISOR = 0.25 # Score for institution is divided by 1 + ( current levels after the first * this )
-	MAX_INSTITUTION_SPENDING_BASE = 0.015 # AI will not spend more BUR than this on institutions (scaled by weekly GDP)
-	MAX_INSTITUTION_SPENDING_PER_INSTITUTION = 0.005 # Added to MAX_INSTITUTION_SPENDING_BASE for each institution a country has
+	MAX_INSTITUTION_SPENDING_BASE = 0.030 # AI will not spend more BUR than this on institutions (scaled by weekly GDP)
+	MAX_INSTITUTION_SPENDING_PER_INSTITUTION = 0.0075 # Added to MAX_INSTITUTION_SPENDING_BASE for each institution a country has
 	INSTITUTION_SPENDING_INCREASE_SPENDING_RATIO = 1.0 # If current + additional institution spending is equal or less than max spending * this, try to improve some institutions
 	INSTITUTION_SPENDING_DECREASE_SPENDING_RATIO = 2.0 # If current institution spending is at least max spending * this, try to degrade some institutions
 
@@ -632,7 +632,7 @@
 	MONEY_SPENDING_MIN_SURPLUS_TO_IGNORE_RATIO_FOR_WANTS_TO_HAVE = 30000 # If AI has this surplus in absolute money, it's always fine to increase spending on a 'wants-to-have' project, regardless of income ratio
 	MONEY_SPENDING_MIN_SURPLUS_TO_IGNORE_RATIO_FOR_NICE_TO_HAVE = 50000 # If AI has this surplus in absolute money, it's always fine to increase spending on a 'nice-to-have' project, regardless of income ratio
 	MONEY_SPENDING_ACCEPTABLE_WAR_DEBT = 0.5 # If the AI has less than this % debt to ceiling, avoid doing cost-cutting at war for 'wants to have' and above
-	MONEY_SPENDING_MIN_RATIO_TO_CONSIDER_GOLD_RESERVES = 0.8 # How low of a income-to-expenses ratio does the AI need to have to try to cut spending regardless of how plentiful its gold reserves are (when at peace)
+	MONEY_SPENDING_MIN_RATIO_TO_CONSIDER_GOLD_RESERVES = 0.6 # How low of a income-to-expenses ratio does the AI need to have to try to cut spending regardless of how plentiful its gold reserves are (when at peace)
 	MONEY_SPENDING_MIN_WEEKS_OF_GOLD_RESERVES_TO_NOT_REMOVE_SHOULD_HAVE = 20 # If we have enough gold reserves to maintain our current spending for this long, don't decrease spending on a 'should-have'
 	MONEY_SPENDING_MIN_WEEKS_OF_GOLD_RESERVES_TO_NOT_REMOVE_WANTS_TO_HAVE = 40 # If we have enough gold reserves to maintain our current spending for this long, don't decrease spending on a 'wants-to-have'
 	MONEY_SPENDING_MIN_GOLD_RESERVE_FRACTION_TO_ADD_SHOULD_HAVE = 0.1 # If we don't have at least this fraction of gold reserves, don't increase spending on a 'should-have'
@@ -641,7 +641,7 @@
 
 	MONEY_SPENDING_LAND_THREAT_THRESHOLD = 0.15 # If a hostile country has a more than this much larger army than AI does, it wants to increase military spending
 	MONEY_SPENDING_NAVY_THREAT_THRESHOLD = 0.50 # If a hostile country has a more than this much larger navy than AI does, it wants to increase military spending
-	MONEY_SPENDING_PRESTIGE_RIVAL_THRESHOLD = 0.5 # If a rival has this much more prestige than AI does, it wants to increase spending on art academies
+	MONEY_SPENDING_PRESTIGE_RIVAL_THRESHOLD = 1.0 # If a rival has this much more prestige than AI does, it wants to increase spending on art academies
 
 	MONEY_SPENDING_MILITARY_CRITICAL_THRESHOLD = 0.5 # If actual-to-wanted number of barracks/naval bases is below this, AI will not consider downsizing them further
 	MONEY_SPENDING_MILITARY_EXCESSIVE_THRESHOLD = 2.0 # If actual-to-wanted number of barracks/naval bases is above this, AI considers it a target for cutting spending when needed
@@ -703,8 +703,8 @@
 	CONSUMPTION_TAX_MAX_NUM_TAXED_GOODS_PER_MISSING_TAX_TYPE = 2 # Added to max number of goods AI wants to tax for each other type of tax it does not collect
 
 	# Below data is used to calculate how much weight the AI places on a production building
-	PRODUCTION_BUILDING_RANDOM_FACTOR = 10.0 # The higher this is, the more random AI construction will be
-	PRODUCTION_BUILDING_STATE_RANDOM_FACTOR = 0.6 # The higher this is, the more random AI state selection for building types will be
+	PRODUCTION_BUILDING_RANDOM_FACTOR = 5.0 # The higher this is, the more random AI construction will be
+	PRODUCTION_BUILDING_STATE_RANDOM_FACTOR = 0.5 # The higher this is, the more random AI state selection for building types will be
 	PRODUCTION_BUILDING_BASE_VALUE = 1000 # If no ai_value is scripted in the building
 	PRODUCTION_BUILDING_NO_AVAILABLE_WORKFORCE_FACTOR = 0.25 # Total weight is multiplied by this if the state lacks enough workforce to staff the building
 	PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR = 5000 # Per pound of predicted building profit (divided by employee count per level)
@@ -727,7 +727,7 @@
 	PRODUCTION_BUILDING_OUTPUT_NEW_GOODS_STATE_UNINCORPORATED_POPULATION_THRESHOLD = 1000000 # When the AI prioritizes 'new goods' in a state rather than a market (because of local goods) it only cares about unincorporated states with at least this much population
 	PRODUCTION_BUILDING_OUTPUT_WANTED_INDUSTRIAL_GOODS_FACTOR = 0.25 # Add this value to a building for each unit of money worth of industrial goods that aren't overproduced in the country and are used by buildings
 	PRODUCTION_BUILDING_OUTPUT_WANTED_MILITARY_GOODS_FACTOR = 0.25 # Add this value to a building for each unit of money worth of military goods that aren't overproduced in the country and are used by buildings
-	PRODUCTION_BUILDING_OUTPUT_NEEDED_INDUSTRIAL_GOODS_FACTOR = 0.5 # Add this value to a building for each unit of money worth of industrial goods that are underproduced in the country and are used by buildings
+	PRODUCTION_BUILDING_OUTPUT_NEEDED_INDUSTRIAL_GOODS_FACTOR = 1.0 # Add this value to a building for each unit of money worth of industrial goods that are underproduced in the country and are used by buildings
 	PRODUCTION_BUILDING_OUTPUT_NEEDED_MILITARY_GOODS_FACTOR = 0.5 # Add this value to a building for each unit of money worth of military goods that are underproduced in the country and are used by buildings
 	PRODUCTION_BUILDING_FAVORED_GOODS_FACTOR = 0.5 # Add this value to a building for each unit of money worth of building goods output that the AI favors
 	PRODUCTION_BUILDING_DISFAVORED_GOODS_FACTOR = -0.25 # Add this value to a building for each unit of money worth of building goods output that the AI disfavors
@@ -737,7 +737,7 @@
 	PRODUCTION_BUILDING_EXCESSIVE_INFRASTRUCTURE_SURPLUS = 10 # If infra 'surplus' in state is at least this, AI doesn't want to improve it
 	PRODUCTION_BUILDING_REDUCE_SHORTAGE_MULT = 5 # Multiply score by this if we're reducing the state region's shortages
 	PRODUCTION_BUILDING_INCREASE_SHORTAGE_MULT = 0.01 # Multiply score by this if we're increasing the state region's shortages
-	PRODUCTION_BUILDING_OTHER_BUILDING_TYPES_UNDER_CONSTRUCTION_DIV = 0.5 # Divide score by (1 + this * number of other building types queued in the state)
+	PRODUCTION_BUILDING_OTHER_BUILDING_TYPES_UNDER_CONSTRUCTION_DIV = 0.1 # Divide score by (1 + this * number of other building types queued in the state)
 	PRODUCTION_BUILDING_LONG_CONSTRUCTION_TIME_THRESHOLD = 40
 	PRODUCTION_BUILDING_LONG_CONSTRUCTION_TIME_MULT = 0.5 # Multiply score by this if construction time would take more than PRODUCTION_BUILDING_LONG_CONSTRUCTION_TIME_THRESHOLD weeks at full construction industry usage (ignores MAX_WEEKLY_CONSTRUCTION_PROGRESS)
 	PRODUCTION_BUILDING_VERY_LONG_CONSTRUCTION_TIME_THRESHOLD = 60
@@ -751,7 +751,7 @@
 	
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_WANTED_COST_COVERAGE = 1 # If investment pool has less money than this in it, don't do any autonomous construction
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_CONSTRUCTION_COST_DIVISOR_SCALING = 0.001 # Value for autonomous investment pool constructions is divided by ( 1 + construction point cost * this )
-	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_RANDOM_FACTOR_MULT = 2.0 # Multiplies PRODUCTION_BUILDING_RANDOM_FACTOR for autonomous investment pool constructions
+	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_RANDOM_FACTOR_MULT = 1.0 # Multiplies PRODUCTION_BUILDING_RANDOM_FACTOR for autonomous investment pool constructions
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_STATE_RANDOM_FACTOR_MULT = 1.5 # Multiplies PRODUCTION_BUILDING_RANDOM_FACTOR for autonomous investment pool constructions
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PROFIT_FACTOR_MULT = 1.5 # Multiplies PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR for autonomous investment pool constructions
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PROFIT_PRIVATIZE_FACTOR_MULT = 3.0 # Multiplies PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR for autonomous investment pool constructions, gives higher weight to buildings that have levels to privatize
@@ -826,10 +826,10 @@
 	PRODUCTION_METHOD_PROFIT_FACTOR = 1 # Per pound of profit the produced goods would generate
 	PRODUCTION_METHOD_DEFICIT_FACTOR = 1.5 # Per pound of deficit the produced goods would generate (multiplies a negative value)
 	PRODUCTION_METHOD_PRODUCED_VALUE_FACTOR = 0.25 # Per pound of produced goods in base value
-	PRODUCTION_METHOD_EMPLOYMENT_CHANGE_FACTOR = -0.5 # Per extra employee the employment method would require (reduced employment = higher score)
+	PRODUCTION_METHOD_EMPLOYMENT_CHANGE_FACTOR = -0.25 # Per extra employee the employment method would require (reduced employment = higher score)
 	PRODUCTION_METHOD_REDUCE_OUTPUT_PENALTY_FACTOR = 10 # Multiply method score by this if we're reducing the building's output penalties
 	PRODUCTION_METHOD_INCREASE_OUTPUT_PENALTY_FACTOR = 0.01 # Multiply method score by this if we're increasing the building's output penalties
-	PRODUCTION_METHOD_FAVORED_GOODS_FACTOR = 0.25 # Per base cost * units of goods produced that the AI favors (for non military goods)
+	PRODUCTION_METHOD_FAVORED_GOODS_FACTOR = 0.50 # Per base cost * units of goods produced that the AI favors (for non military goods)
 	PRODUCTION_METHOD_FAVORED_MILITARY_GOODS_FACTOR = 0.5 # Per base cost * units of goods produced that the AI favors (for military goods)
 	PRODUCTION_METHOD_DISFAVORED_GOODS_FACTOR = -0.25 # Per base cost * units of goods produced that the AI disfavors
 	PRODUCTION_METHOD_UNDESIRABLE_GOODS_PRICE_THRESHOLD = 1.5 # If a PM using the 'most productive' logic makes use of a good whose price is above ( base * this ), reduce the score
@@ -891,8 +891,8 @@
 	AI_CAPITULATE_ENEMY_WARGOAL_FACTOR = -30 # For each wargoal targeting us in the war
 	AI_CAPITULATE_PEACE_DESIRE_FACTOR = 0.5 # Peace desire is multiplied by this when added to capitulation score
 
-	AI_MONTHS_OF_REDUCED_PEACE_DESIRE = 10 # Before this amount of months, reduce AI peace desire
-	AI_PEACE_DESIRE_FROM_SHORT_WAR = -10 # Subtract this amount of peace desire for the above number of months (multiplied by AI_MONTHS_OF_REDUCED_PEACE_DESIRE - months of war duration)
+	AI_MONTHS_OF_REDUCED_PEACE_DESIRE = 24 # Before this amount of months, reduce AI peace desire
+	AI_PEACE_DESIRE_FROM_SHORT_WAR = -24 # Subtract this amount of peace desire for the above number of months (multiplied by AI_MONTHS_OF_REDUCED_PEACE_DESIRE - months of war duration)
 	AI_PEACE_DESIRE_FROM_TURMOIL = 25 # Add this amount of peace desire at 100% radicals
 	AI_PEACE_DESIRE_FROM_DEVASTATION = 50 # Add this amount of peace desire at 100% devastation
 	AI_PEACE_DESIRE_FROM_LOYALISTS = -25 # Subtract this amount of peace desire at 100% loyalists
@@ -964,12 +964,12 @@
 	TRADE_ROUTE_MIN_ACCEPTABLE_PRODUCTIVITY = 3.0 # If a potential trade route would result in lower productivity than this, don't create it unless it's to resolve a shortage
 	TRADE_ROUTE_MIN_WANTED_RELATIVE_VOLUME = 0.1 # If a trade route won't account for at least this fraction of buy/sell orders in the market, don't create it
 	TRADE_ROUTE_MIN_VALUE_TO_IGNORE_VOLUME_CHECK = 1000 # If a trade route is trading at least this much base value worth of goods, ignore the relative check above
-	TRADE_ROUTE_ACCEPTABLE_SPENDING = 0.002 # AI will not spend more BUR than this on trade routes (scaled by weekly GDP)
+	TRADE_ROUTE_ACCEPTABLE_SPENDING = 0.003 # AI will not spend more BUR than this on trade routes (scaled by weekly GDP)
 	TRADE_ROUTE_ACCEPTABLE_SPENDING_MINIMUM = 20 # If TRADE_ROUTE_ACCEPTABLE_SPENDING is less than this, this is used instead (so even small countries can do some trading other than their free routes)
 
 	TRADE_ROUTE_MARKET_RANDOM_FACTOR = 1.0 # The higher this is, the more random the AI will be about which markets it trades with
-	TRADE_ROUTE_GOODS_RANDOM_FACTOR = 1.0 # The higher this is, the more random the AI will be about which goods it selects for trading
-	TRADE_ROUTE_EXPORT_VS_IMPORT_TOLERANCE = 3.0 # The AI is OK with having up to this amount more import than export routes or vice versa
+	TRADE_ROUTE_GOODS_RANDOM_FACTOR = 0.5 # The higher this is, the more random the AI will be about which goods it selects for trading
+	TRADE_ROUTE_EXPORT_VS_IMPORT_TOLERANCE = 4.0 # The AI is OK with having up to this amount more import than export routes or vice versa
 	TRADE_ROUTE_TRADE_VALUE_FACTOR = 1.0 # The expected final trade volume * base price of goods is multiplied by this
 	TRADE_ROUTE_RELATIVE_VOLUME_FACTOR = 2.0 # Multiply trade route score by ( 1 + supplied fraction of buy/sell orders in the market * this )
 	TRADE_ROUTE_WANTED_NEW_GOODS_MULT = 100 #  Multiply trade route score by this if the trade route is importing a good to the market that the AI wants and has no local production or other import routes for
@@ -998,7 +998,7 @@
 	COMPANY_TYPE_COMPETITION_FACTOR = 2					# Divisor for AI weight of companies is increased by 1 + ( number of building types on existing companies that compete * this )
 	COMPANY_TYPE_BUILDING_GROUP_WEIGHT_IMPACT = 1.5		# The AI's average strategy weight mult for the building groups associated with this company is modulated towards 1 by this value and applied to AI preference for the company (ie; if this is 0.5, then the difference between the average AI preference and 1 is halved - 1.5 becomes 1.25, 0.5 becomes 0.75 etc)
 
-	MILITARY_UNITS_PER_FORMATION_ARMY = 50				# The AI aims to have armies of roughly this size, and will create new formations in land HQs accordingly
+	MILITARY_UNITS_PER_FORMATION_ARMY = 60				# The AI aims to have armies of roughly this size, and will create new formations in land HQs accordingly
 	MILITARY_UNITS_PER_FORMATION_FLEET = 30				# The AI aims to have fleets of roughly this size, and will create new formations in naval HQs accordingly
 	MILITARY_UNITS_MIN_FOR_GARRISON_FORMATION = 15 		# If a land HQ has at least this number of units we set the minimum number of formations to 2, so that there will be a garrison formation present
 	MILITARY_UNITS_MIN_FOR_GARRISON_FORMATION_IN_CAPITAL_HQ = 5 		# Overrides MILITARY_UNITS_MIN_FOR_GARRISON_FORMATION for the capital land HQ, since not leaving the capital undefended is extremely critical

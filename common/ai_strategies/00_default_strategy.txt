@@ -1098,7 +1098,7 @@ ai_strategy_default = {
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
 	# Using this value in other strategies will function additively
 	aggression = {
-		value = 1.0
+		value = 2.0
 		
 		# More fighting between unrecognized powers
 		if = {
@@ -1334,7 +1334,7 @@ ai_strategy_default = {
 					divide = 4
 				}		
 			}
-			divide = 1500 # 1 level of barracks per 1.5k income					
+			divide = 2000 # 1 level of barracks per 2k income					
 		}			
 		
 		# More advanced standing armies are expensive and should be smaller relative to population
@@ -1468,7 +1468,7 @@ ai_strategy_default = {
 			value = 0			
 			if = {
 				limit = { has_technology_researched = artillery }
-				add = 40
+				add = 80
 			}	
 			
 			if = {
@@ -1478,27 +1478,15 @@ ai_strategy_default = {
 			else_if = {
 				limit = { has_law = law_type:law_national_militia }
 				multiply = 0.75
-			}
-			else_if = {
-				limit = { has_law = law_type:law_professional_army }
-				multiply = 1.25
-			}			
+			}	
 		}
 		combat_unit_group_cavalry = {
-			value = 40
+			value = 20
 			
 			if = {
 				limit = { has_law = law_type:law_national_militia }
 				multiply = 0.5
-			}
-			else_if = {
-				limit = { has_law = law_type:law_professional_army }
-				multiply = 1.25
-			}			
-			else_if = {
-				limit = { has_law = law_type:law_peasant_levies }
-				multiply = 1.25
-			}				
+			}	
 		}
 		combat_unit_group_light_ship = {
 			value = 100				
@@ -1532,7 +1520,7 @@ ai_strategy_default = {
 	# scope:military_formation = military formation
 	# Using this value in other strategies will function additively
 	conscript_battalion_ratio = {
-		value = 0.5
+		value = 0.20
 		if = {
 			limit = { has_law = law_type:law_national_militia }
 			add = 2.5
@@ -2977,7 +2965,7 @@ ai_strategy_default = {
 			}			
 
 			min = 0
-			max = 100				
+			max = 200				
 		}
 		
 		return_state = {
