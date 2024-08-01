@@ -3,7 +3,7 @@
 
 	STRATEGY_RANDOM_FACTOR = 15.0 # The higher this is, the more random AI strategy selection will be
 
-	TICKS_FOR_FULL_SPENDING_VARIABLES_UPDATE = 60 # The higher this is, the less often AIs will fully refresh their spending variables
+	TICKS_FOR_FULL_SPENDING_VARIABLES_UPDATE = 100 # The higher this is, the less often AIs will fully refresh their spending variables
 	NUM_FAILED_MONEY_SPENDING_ATTEMPTS_FOR_UPDATE = 50 # After this many failed attempts to change money spending/construct government buildings, force an update of money spending priorities
 	NUM_FAILED_AUTHORITY_SPENDING_ATTEMPTS_FOR_UPDATE = 20 # After this many failed attempts to change authority spending, force an update of authority spending priorities
 	
@@ -36,7 +36,7 @@
 
 	DECLARE_BANKRUPTCY_MIN_DAYS_IN_DEFAULT = 30 # After this many days in default, the AI will declare bankruptcy
 
-	BASE_AGGRESSION = 0.50 # Base chance that AI will consider starting a diplo play each time the goal is checked (1 = 1%)
+	BASE_AGGRESSION = 1.0 # Base chance that AI will consider starting a diplo play each time the goal is checked (1 = 1%)
 	UNIFICATION_AGGRESSION_MULT_HIGHER_TIER = 20 # AI aggression is multiplied by this for calculating whether they should try to start a unification/leadership play, if the country would end up forming a nation of a higher tier
 	UNIFICATION_AGGRESSION_MULT_SAME_TIER = 0.1 # AI aggression is multiplied by this for calculating whether they should try to start a unification/leadership play, if the country would end up forming a nation of the same tier
 
@@ -645,7 +645,7 @@
 
 	MONEY_SPENDING_MILITARY_CRITICAL_THRESHOLD = 0.5 # If actual-to-wanted number of barracks/naval bases is below this, AI will not consider downsizing them further
 	MONEY_SPENDING_MILITARY_EXCESSIVE_THRESHOLD = 2.0 # If actual-to-wanted number of barracks/naval bases is above this, AI considers it a target for cutting spending when needed
-	MONEY_SPENDING_CONSTRUCTION_CRITICAL_THRESHOLD = 0.5 # If actual-to-wanted number of construction sector buildings is below this, AI considers it very important to get more
+	MONEY_SPENDING_CONSTRUCTION_CRITICAL_THRESHOLD = 0.90 # If actual-to-wanted number of construction sector buildings is below this, AI considers it very important to get more
 	MONEY_SPENDING_INNOVATION_CRITICAL_THRESHOLD = 0.75 # If innovation production compared to cap is worse than this, AI considers it very important to improve
 	MONEY_SPENDING_INNOVATION_DESIRED_THRESHOLD = 1.0 # If innovation production compared to cap is worse than this, AI considers it important to improve
 	MONEY_SPENDING_SUPPLY_NETWORK_CRITICAL_THRESHOLD = 0.75 # If supply network is worse than this, AI considers it critical to improve it
@@ -703,7 +703,7 @@
 	CONSUMPTION_TAX_MAX_NUM_TAXED_GOODS_PER_MISSING_TAX_TYPE = 2 # Added to max number of goods AI wants to tax for each other type of tax it does not collect
 
 	# Below data is used to calculate how much weight the AI places on a production building
-	PRODUCTION_BUILDING_RANDOM_FACTOR = 5.0 # The higher this is, the more random AI construction will be
+	PRODUCTION_BUILDING_RANDOM_FACTOR = 2.0 # The higher this is, the more random AI construction will be
 	PRODUCTION_BUILDING_STATE_RANDOM_FACTOR = 0.5 # The higher this is, the more random AI state selection for building types will be
 	PRODUCTION_BUILDING_BASE_VALUE = 1000 # If no ai_value is scripted in the building
 	PRODUCTION_BUILDING_NO_AVAILABLE_WORKFORCE_FACTOR = 0.25 # Total weight is multiplied by this if the state lacks enough workforce to staff the building
@@ -715,21 +715,21 @@
 	PRODUCTION_BUILDING_UNINCORPORATED_INFRASTRUCTURE_USAGE_FACTOR = 1.0 # Total weight is divided by ( 1 + this * building infrastructure usage ) in unincorporated states
 	PRODUCTION_BUILDING_INPUT_NO_LOCAL_PRODUCTION_FACTOR = -0.5 # Add this value to a building for each unit of money worth of goods consumed that are not produced in the state but *are* produced by buildings in the market
 	PRODUCTION_BUILDING_OUTPUT_NO_LOCAL_CONSUMPTION_FACTOR = -0.5 # Add this value to a building for each unit of money worth of goods produced that are not consumed in the state but *are* consumed by buildings in the market
-	PRODUCTION_BUILDING_OUTPUT_HIGH_PRICE_THRESHOLD = 1.25 # Lower threshold multiplier of base price for applying 'high price' modifier below
+	PRODUCTION_BUILDING_OUTPUT_HIGH_PRICE_THRESHOLD = 1.50 # Lower threshold multiplier of base price for applying 'high price' modifier below
 	PRODUCTION_BUILDING_OUTPUT_HIGH_PRICE_FACTOR = 0.25 # Add this value to a building for each unit of money worth of goods above high price threshold that this building produces
 	PRODUCTION_BUILDING_OUTPUT_HIGH_PRICE_WANTS_HIGH_SUPPLY_FACTOR = 0.75 # Add this value to a building for each unit of money worth of goods above high price threshold that this building produces and which we want a high supply of
 	PRODUCTION_BUILDING_OUTPUT_HIGH_PRICE_LOCAL_CONSUMPTION_MULTIPLIER = 2.0 # All factors for high prices are multiplied by this value if any buildings in the state consume the good in question
 	PRODUCTION_BUILDING_OUTPUT_LOW_PRICE_THRESHOLD = 0.75 # Upper threshold multiplier of base price for applying 'low price' modifier below
 	PRODUCTION_BUILDING_OUTPUT_LOW_PRICE_FACTOR = -0.5 # Add this value to a building for each unit of money worth of goods below low price threshold that this building produces
-	PRODUCTION_BUILDING_SUBSIDIZE_PRICE_FACTOR_MULT = 1.25 # Multiply the effects of price factors on buildings that the AI will consider subsidizing
+	PRODUCTION_BUILDING_SUBSIDIZE_PRICE_FACTOR_MULT = 1.5 # Multiply the effects of price factors on buildings that the AI will consider subsidizing
 	PRODUCTION_BUILDING_OUTPUT_NEW_GOODS_FACTOR = 100.0 # Add this value to a building for each unit of money worth of goods that currently isn't available in our market/state but the AI wants to prioritize
 	PRODUCTION_BUILDING_OUTPUT_NEW_GOODS_STATE_INCORPORATED_POPULATION_THRESHOLD = 250000 # When the AI prioritizes 'new goods' in a state rather than a market (because of local goods) it only cares about incorporated states with at least this much population
 	PRODUCTION_BUILDING_OUTPUT_NEW_GOODS_STATE_UNINCORPORATED_POPULATION_THRESHOLD = 1000000 # When the AI prioritizes 'new goods' in a state rather than a market (because of local goods) it only cares about unincorporated states with at least this much population
 	PRODUCTION_BUILDING_OUTPUT_WANTED_INDUSTRIAL_GOODS_FACTOR = 0.25 # Add this value to a building for each unit of money worth of industrial goods that aren't overproduced in the country and are used by buildings
-	PRODUCTION_BUILDING_OUTPUT_WANTED_MILITARY_GOODS_FACTOR = 0.25 # Add this value to a building for each unit of money worth of military goods that aren't overproduced in the country and are used by buildings
-	PRODUCTION_BUILDING_OUTPUT_NEEDED_INDUSTRIAL_GOODS_FACTOR = 1.0 # Add this value to a building for each unit of money worth of industrial goods that are underproduced in the country and are used by buildings
+	PRODUCTION_BUILDING_OUTPUT_WANTED_MILITARY_GOODS_FACTOR = 0.50 # Add this value to a building for each unit of money worth of military goods that aren't overproduced in the country and are used by buildings
+	PRODUCTION_BUILDING_OUTPUT_NEEDED_INDUSTRIAL_GOODS_FACTOR = 2.0 # Add this value to a building for each unit of money worth of industrial goods that are underproduced in the country and are used by buildings
 	PRODUCTION_BUILDING_OUTPUT_NEEDED_MILITARY_GOODS_FACTOR = 0.5 # Add this value to a building for each unit of money worth of military goods that are underproduced in the country and are used by buildings
-	PRODUCTION_BUILDING_FAVORED_GOODS_FACTOR = 0.5 # Add this value to a building for each unit of money worth of building goods output that the AI favors
+	PRODUCTION_BUILDING_FAVORED_GOODS_FACTOR = 1.0 # Add this value to a building for each unit of money worth of building goods output that the AI favors
 	PRODUCTION_BUILDING_DISFAVORED_GOODS_FACTOR = -0.25 # Add this value to a building for each unit of money worth of building goods output that the AI disfavors
 	PRODUCTION_BUILDING_MISSING_QUALIFICATIONS_MULT = 0.50 # Multiply score by this if there's not enough qualifications to staff the building (disabled for now)
 	PRODUCTION_BUILDING_DESIRED_INFRASTRUCTURE_SURPLUS = 2 # If infrastructure 'surplus' in state is less than this, AI wants to improve it
@@ -796,11 +796,11 @@
 	# Investment AI owner building location selection weights and multipliers
 	OWNER_BUILDING_LOCATION_BASE_SCORE = 1							# Base score for selecting state as owner building location
 	OWNER_BUILDING_LOCATION_POPULATION_SCORE = 1					# For each 10000 population, increase score for selecting state as owner building location by this
-	OWNER_BUILDING_LOCATION_GDP_SCORE = 1							# For each INVESTMENT_LOCATION_GDP_DIVISOR yearly state gdp, increase score for selecting state as owner building location by this
+	OWNER_BUILDING_LOCATION_GDP_SCORE = 2							# For each INVESTMENT_LOCATION_GDP_DIVISOR yearly state gdp, increase score for selecting state as owner building location by this
 	OWNER_BUILDING_LOCATION_GDP_DIVISOR = 100000	
 	OWNER_BUILDING_LOCATION_HAS_OWNER_BUILDING_MULT = 2.0			# Multiply owner building location score by this for any state which already has the requisite owner building type
 	OWNER_BUILDING_LOCATION_CAPITAL_MULT = 2.0						# Multiply owner building location score by this for our capital
-	OWNER_BUILDING_LOCATION_SAME_STATE_MULT = 4.0					# Multiply owner building location score by this for the same state we're building/privatizing in
+	OWNER_BUILDING_LOCATION_SAME_STATE_MULT = 6.0					# Multiply owner building location score by this for the same state we're building/privatizing in
 	OWNER_BUILDING_LOCATION_NOT_HOMELANDS_MULT = 0.5				# Multiply owner building location score by this if the state isn't a homeland of the country's primary cultures
 	OWNER_BUILDING_LOCATION_LOWER_GDP_MULT = 0.25					# Multiply owner building location score by this for any state that has lower GDP than the state we're building/privatizing in
 	OWNER_BUILDING_LOCATION_NO_AVAILABLE_WORKFORCE_MULT = 0.1		# Multiply owner building location score by this if the state lacks workers
@@ -824,7 +824,7 @@
 	# Below data is used to calculate how much weight the AI places on a production method
 	PRODUCTION_METHOD_BASE_VALUE = 1000
 	PRODUCTION_METHOD_PROFIT_FACTOR = 1 # Per pound of profit the produced goods would generate
-	PRODUCTION_METHOD_DEFICIT_FACTOR = 1.5 # Per pound of deficit the produced goods would generate (multiplies a negative value)
+	PRODUCTION_METHOD_DEFICIT_FACTOR = 3.0 # Per pound of deficit the produced goods would generate (multiplies a negative value)
 	PRODUCTION_METHOD_PRODUCED_VALUE_FACTOR = 0.25 # Per pound of produced goods in base value
 	PRODUCTION_METHOD_EMPLOYMENT_CHANGE_FACTOR = -0.25 # Per extra employee the employment method would require (reduced employment = higher score)
 	PRODUCTION_METHOD_REDUCE_OUTPUT_PENALTY_FACTOR = 10 # Multiply method score by this if we're reducing the building's output penalties

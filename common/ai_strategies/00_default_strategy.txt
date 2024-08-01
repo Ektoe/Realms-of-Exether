@@ -1193,7 +1193,7 @@ ai_strategy_default = {
 		add = {
 			value = income
 			subtract = investment_pool_income	
-			divide = 1600 # 1 construction output per this much income
+			divide = 1500 # 1 construction output per this much income
 
 			min = 0
 		}
@@ -1495,7 +1495,7 @@ ai_strategy_default = {
 			value = 0
 			if = {
 				limit = { country_rank = rank_value:great_power }
-				add = 100
+				add = 75
 			}
 			if = {
 				limit = { country_rank = rank_value:major_power }
@@ -1585,7 +1585,7 @@ ai_strategy_default = {
 	# Add a multiplier to the score AI assigns to particular building groups (default 1)
 	# Using this value in other strategies will result in several multiplications
 	building_group_weights = {
-		bg_construction = 200
+		bg_construction = 100
 	}
 	
 	# Which buildings should the AI subsidize
