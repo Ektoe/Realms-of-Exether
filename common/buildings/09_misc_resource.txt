@@ -11,6 +11,7 @@
 		pmg_hardwood
 		pmg_equipment
 		pmg_transportation_building_logging_camp
+		pmg_logging_potions
 	}
 	ownership_type = self
 
