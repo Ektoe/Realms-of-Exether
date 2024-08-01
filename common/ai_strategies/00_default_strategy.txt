@@ -1193,7 +1193,7 @@ ai_strategy_default = {
 		add = {
 			value = income
 			subtract = investment_pool_income	
-			divide = 1200 # 1 construction output per this much income
+			divide = 1600 # 1 construction output per this much income
 
 			min = 0
 		}

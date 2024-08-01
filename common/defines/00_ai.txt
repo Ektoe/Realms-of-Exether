@@ -3,7 +3,7 @@
 
 	STRATEGY_RANDOM_FACTOR = 15.0 # The higher this is, the more random AI strategy selection will be
 
-	TICKS_FOR_FULL_SPENDING_VARIABLES_UPDATE = 100 # The higher this is, the less often AIs will fully refresh their spending variables
+	TICKS_FOR_FULL_SPENDING_VARIABLES_UPDATE = 60 # The higher this is, the less often AIs will fully refresh their spending variables
 	NUM_FAILED_MONEY_SPENDING_ATTEMPTS_FOR_UPDATE = 50 # After this many failed attempts to change money spending/construct government buildings, force an update of money spending priorities
 	NUM_FAILED_AUTHORITY_SPENDING_ATTEMPTS_FOR_UPDATE = 20 # After this many failed attempts to change authority spending, force an update of authority spending priorities
 	
@@ -612,7 +612,7 @@
 	# Below data is used to determine how the AI invests into institution
 	INSTITUTION_INVESTMENT_RANDOM_FACTOR = 1.0 # The higher this is, the more random AI institution selection will be
 	INSTITUTION_CURRENT_INVESTMENT_DIVISOR = 0.25 # Score for institution is divided by 1 + ( current levels after the first * this )
-	MAX_INSTITUTION_SPENDING_BASE = 0.030 # AI will not spend more BUR than this on institutions (scaled by weekly GDP)
+	MAX_INSTITUTION_SPENDING_BASE = 0.02 # AI will not spend more BUR than this on institutions (scaled by weekly GDP)
 	MAX_INSTITUTION_SPENDING_PER_INSTITUTION = 0.0075 # Added to MAX_INSTITUTION_SPENDING_BASE for each institution a country has
 	INSTITUTION_SPENDING_INCREASE_SPENDING_RATIO = 1.0 # If current + additional institution spending is equal or less than max spending * this, try to improve some institutions
 	INSTITUTION_SPENDING_DECREASE_SPENDING_RATIO = 2.0 # If current institution spending is at least max spending * this, try to degrade some institutions
@@ -646,7 +646,7 @@
 	MONEY_SPENDING_MILITARY_CRITICAL_THRESHOLD = 0.5 # If actual-to-wanted number of barracks/naval bases is below this, AI will not consider downsizing them further
 	MONEY_SPENDING_MILITARY_EXCESSIVE_THRESHOLD = 2.0 # If actual-to-wanted number of barracks/naval bases is above this, AI considers it a target for cutting spending when needed
 	MONEY_SPENDING_CONSTRUCTION_CRITICAL_THRESHOLD = 0.5 # If actual-to-wanted number of construction sector buildings is below this, AI considers it very important to get more
-	MONEY_SPENDING_INNOVATION_CRITICAL_THRESHOLD = 0.5 # If innovation production compared to cap is worse than this, AI considers it very important to improve
+	MONEY_SPENDING_INNOVATION_CRITICAL_THRESHOLD = 0.75 # If innovation production compared to cap is worse than this, AI considers it very important to improve
 	MONEY_SPENDING_INNOVATION_DESIRED_THRESHOLD = 1.0 # If innovation production compared to cap is worse than this, AI considers it important to improve
 	MONEY_SPENDING_SUPPLY_NETWORK_CRITICAL_THRESHOLD = 0.75 # If supply network is worse than this, AI considers it critical to improve it
 	MONEY_SPENDING_SUPPLY_NETWORK_DESIRED_THRESHOLD = 1.25 # If supply network is worse than this, AI wants to improve it
@@ -964,7 +964,7 @@
 	TRADE_ROUTE_MIN_ACCEPTABLE_PRODUCTIVITY = 3.0 # If a potential trade route would result in lower productivity than this, don't create it unless it's to resolve a shortage
 	TRADE_ROUTE_MIN_WANTED_RELATIVE_VOLUME = 0.1 # If a trade route won't account for at least this fraction of buy/sell orders in the market, don't create it
 	TRADE_ROUTE_MIN_VALUE_TO_IGNORE_VOLUME_CHECK = 1000 # If a trade route is trading at least this much base value worth of goods, ignore the relative check above
-	TRADE_ROUTE_ACCEPTABLE_SPENDING = 0.003 # AI will not spend more BUR than this on trade routes (scaled by weekly GDP)
+	TRADE_ROUTE_ACCEPTABLE_SPENDING = 0.002 # AI will not spend more BUR than this on trade routes (scaled by weekly GDP)
 	TRADE_ROUTE_ACCEPTABLE_SPENDING_MINIMUM = 20 # If TRADE_ROUTE_ACCEPTABLE_SPENDING is less than this, this is used instead (so even small countries can do some trading other than their free routes)
 
 	TRADE_ROUTE_MARKET_RANDOM_FACTOR = 1.0 # The higher this is, the more random the AI will be about which markets it trades with
