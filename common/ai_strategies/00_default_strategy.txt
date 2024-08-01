@@ -1193,26 +1193,14 @@ ai_strategy_default = {
 		add = {
 			value = income
 			subtract = investment_pool_income	
-			divide = 1500 # 1 construction output per this much income
+			divide = 350 # 1 construction output per this much income
 
 			min = 0
 		}
 		
 		subtract = {
 			value = expenses
-			divide = 2000
-			min = 0
-		}
-
-		add = {
-			value = income
-			divide = 400
-			min = 0
-		}
-
-		subtract = {
-			value = expenses
-			divide = 400
+			divide = 350
 			min = 0
 		}
 		
