@@ -780,7 +780,7 @@ STATE_KILCREE = {
 }
 STATE_HAG_MARSHES = {
     id = 4039
-    traits = {"state_trait_hag_grown_leeches" "state_trait_hag_swamp"}
+    traits = { "state_trait_hag_grown_leeches" "state_trait_hag_swamp" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x68C6CB" "x6FACFB" "x916FFA" "x938EF1" "x94E1B9" "x9769FE" "xABC498" "xACE685" "xB1FAD6" "xB5DEAF" "xB9EAF2" "xC589A9" "xC6BED1" "xD683CC" "xD8E999" "xDCFDA3" "xDEAAAF" "xDFEEF7" "xF46DB8" "xF9D0C9" "xFCE9D1" }
     port = x68C6CB
@@ -1146,7 +1146,7 @@ STATE_COLESSIE = {
 }
 STATE_TOLFAR = {
     id = 4059
-    traits = {"state_trait_hag_grown_leeches" "state_trait_hag_swamp"}
+    traits = { "state_trait_hag_grown_leeches" "state_trait_hag_swamp" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x69FCA8" "xB8F5BF" "xC1BEDC" "xC3DDF6" "xD7C98E" "xDB66BE" "xDB7FA9" "xDC93C9" "xE0D990" }
     port = xB8F5BF
@@ -1261,7 +1261,7 @@ STATE_PONTBRAN = {
 }
 STATE_ALLTBRAN = {
     id = 4066
-    traits = {"state_trait_hag_grown_leeches" "state_trait_hag_swamp"}
+    traits = { "state_trait_hag_grown_leeches" "state_trait_hag_swamp" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x57C8FA" "x8DE8D7" "x9DE27E" "xBCFD55" "xD1FD5E" "xE634E2" "xEF33F3" "xF7F819" }
     port = x8DE8D7
@@ -1545,7 +1545,7 @@ STATE_FALMAKELD = {
 }
 STATE_MALDARBLANE = {
     id = 4082
-    traits = {"state_trait_hag_grown_leeches" "state_trait_hag_swamp"}
+    traits = { "state_trait_hag_grown_leeches" "state_trait_hag_swamp" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x2DF1DC" "x80D5F0" "x8DC8AD" "xA68BD1" "xA7B8B0" "xA8C0CC" "xAAC8AA" "xB87FC2" "xC3B3C4" "xDEEBD6" "xE18BAE" "xF47BA2" }
     port = xE18BAE
