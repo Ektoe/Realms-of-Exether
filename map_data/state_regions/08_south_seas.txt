@@ -572,7 +572,6 @@ STATE_BELENDLE = {
     }
     naval_exit_id = 3012
 }
-
 # STATE_ALAHAZOTRA = { #combined with ivondro but left for reference
 #     id = 3969
 #     subsistence_building = "building_subsistence_farms"
@@ -591,7 +590,6 @@ STATE_BELENDLE = {
 #         type = "bg_rubber"
 #         undiscovered_amount = 10
 #     }
-
 # }
 STATE_IVONDRO = {
     id = 3970
@@ -710,7 +708,7 @@ STATE_TSIMIHAVANA = {
     }
     naval_exit_id = 3021
 }
-STATE_SAHONDRA = {
+STATE_SUISGOIL = {
     id = 3975
     subsistence_building = "building_subsistence_pastures"
     provinces = { "xCFF6C0" "xDDEFDE" "xEA7BA4" "xF56EDA" }
@@ -750,7 +748,7 @@ STATE_MAROMITA = {
     }
     naval_exit_id = 3021
 }
-STATE_TOMBONT = {
+STATE_YNTHOLG = {
     id = 3977
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x45F8CC" "x8DD4D6" "xA172E5" "xB6C797" "xC8E97D" "xF3EFB4" "xF9FD1D" "xFDF243" }
@@ -790,7 +788,7 @@ STATE_ANKAZOBE = {
     }
     naval_exit_id = 3021
 }
-STATE_IVOLOINA = {
+STATE_MASC_PEIW = {
     id = 3979
     subsistence_building = "building_subsistence_farms"
     provinces = { "x9AD398" "x9E98F4" "xA0EAF0" "xB59DE3" "xCFB7CD" "xE0DD76" "xEBE4DE" "xF0A4A1" }
@@ -1259,7 +1257,7 @@ STATE_RANJITA = {
     }
     naval_exit_id = 3055
 }
-STATE_VEDAMALA = {
+STATE_LHEIPH_VA = {
     id = 3397
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x71C4CA" "x78AFF7" "x8085FC" "x8CAFE2" "xA774E3" "xB5B68F" "xC857E5" "xCE8FA7" "xD82BF6" "xDEEAD7" "xF092C2" "xF1F81B" "xF466BF" "xF98EED" "xFCB37A" }
@@ -1372,7 +1370,7 @@ STATE_MILINDRA = {
     }
     naval_exit_id = 3055
 }
-STATE_MANASI = {
+STATE_MYCOLGA = {
     id = 3403
     subsistence_building = "building_subsistence_farms"
     provinces = { "x6DBEF5" "x6EE2E9" "x90CFBA" "xA98FC8" "xAFB2C9" "xB68EC5" "xB78FF5" "xCF62EA" "xDCC696" "xE6F338" "xEBE371" }

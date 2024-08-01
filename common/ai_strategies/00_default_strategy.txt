@@ -79,6 +79,24 @@ ai_strategy_default = {
 	# Using this value in other strategies will function additively
 	diplomatic_play_boldness = {
 		value = 50
+		
+		if = { #RAV will never give up agaisnt Thaloria
+			limit = {
+				c:RAV ?= this
+				exists = c:TLE
+				is_diplomatic_play_enemy_of = c:TLE
+			}
+			add = 1000
+		}
+
+		if = { #vice versa
+			limit = {
+				c:TLE ?= this
+				exists = c:RAV
+				is_diplomatic_play_enemy_of = c:RAV
+			}
+			add = 1000
+		}
 	} 
 		
 	# How many maneuvers are we OK with using up in the initial phase to add more wargoals
@@ -1080,7 +1098,7 @@ ai_strategy_default = {
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
 	# Using this value in other strategies will function additively
 	aggression = {
-		value = 0.5
+		value = 1.0
 		
 		# More fighting between unrecognized powers
 		if = {
@@ -1175,7 +1193,7 @@ ai_strategy_default = {
 		add = {
 			value = income
 			subtract = investment_pool_income	
-			divide = 1500 # 1 construction output per this much income
+			divide = 1200 # 1 construction output per this much income
 
 			min = 0
 		}
@@ -1187,10 +1205,14 @@ ai_strategy_default = {
 		}
 
 		add = {
-			value = 0
-			add = income
-			subtract = expenses
-			divide = 500
+			value = income
+			divide = 400
+			min = 0
+		}
+
+		subtract = {
+			value = expenses
+			divide = 400
 			min = 0
 		}
 		
@@ -1241,7 +1263,7 @@ ai_strategy_default = {
 		}
 
 		min = 1
-		max = 1000
+		max = 2000
 	}
 	
 	# How many levels of barracks should the AI have
@@ -1312,7 +1334,7 @@ ai_strategy_default = {
 					divide = 4
 				}		
 			}
-			divide = 2000 # 1 level of barracks per 2k income					
+			divide = 1500 # 1 level of barracks per 1.5k income					
 		}			
 		
 		# More advanced standing armies are expensive and should be smaller relative to population
@@ -1446,20 +1468,8 @@ ai_strategy_default = {
 			value = 0			
 			if = {
 				limit = { has_technology_researched = artillery }
-				add = 15
+				add = 40
 			}	
-			if = {
-				limit = { has_technology_researched = napoleonic_warfare }
-				add = 5
-			}	
-			if = {
-				limit = { has_technology_researched = breech_loading_artillery }
-				add = 10
-			}
-			if = {
-				limit = { has_technology_researched = wargaming }
-				add = 10
-			}
 			
 			if = {
 				limit = { has_law = law_type:law_peasant_levies }
@@ -1475,11 +1485,7 @@ ai_strategy_default = {
 			}			
 		}
 		combat_unit_group_cavalry = {
-			value = 20
-			if = {
-				limit = { has_technology_researched = mobile_armor }
-				add = 10
-			}
+			value = 40
 			
 			if = {
 				limit = { has_law = law_type:law_national_militia }
@@ -1491,7 +1497,7 @@ ai_strategy_default = {
 			}			
 			else_if = {
 				limit = { has_law = law_type:law_peasant_levies }
-				multiply = 1.5
+				multiply = 1.25
 			}				
 		}
 		combat_unit_group_light_ship = {
@@ -1501,11 +1507,11 @@ ai_strategy_default = {
 			value = 0
 			if = {
 				limit = { country_rank = rank_value:great_power }
-				add = 30
+				add = 100
 			}
 			if = {
 				limit = { country_rank = rank_value:major_power }
-				add = 10
+				add = 50
 			}			
 		}
 		combat_unit_group_support_ship = {
@@ -1591,7 +1597,7 @@ ai_strategy_default = {
 	# Add a multiplier to the score AI assigns to particular building groups (default 1)
 	# Using this value in other strategies will result in several multiplications
 	building_group_weights = {
-		bg_construction = 100
+		bg_construction = 200
 	}
 	
 	# Which buildings should the AI subsidize

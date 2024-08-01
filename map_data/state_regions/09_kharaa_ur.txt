@@ -54,7 +54,7 @@ STATE_CHADBA = {
     resource = {
         type = "bg_wishstone_reefs"
         discovered_amount = 20
-     }
+    }
     naval_exit_id = 3082
 }
 STATE_TUKHUR = {
@@ -155,7 +155,7 @@ STATE_GARBOL = {
     resource = {
         type = "bg_wishstone_reefs"
         undiscovered_amount = 24
-     }
+    }
     naval_exit_id = 3082
 }
 STATE_ORONK = {
@@ -195,7 +195,7 @@ STATE_KHAIRI = {
     resource = {
         type = "bg_wishstone_reefs"
         discovered_amount = 24
-     }
+    }
     naval_exit_id = 3082
 }
 # STATE_GURBA = {
@@ -725,7 +725,7 @@ STATE_KAZTHYR = {
     resource = {
         type = "bg_wishstone_reefs"
         undiscovered_amount = 25
-     }
+    }
     naval_exit_id = 3059
 }
 STATE_ZURKYL = {
@@ -998,7 +998,7 @@ STATE_DORAZ = {
     resource = {
         type = "bg_wishstone_reefs"
         discovered_amount = 20
-     }
+    }
     naval_exit_id = 3082
 }
 STATE_BALDBAN = {
@@ -1080,7 +1080,7 @@ STATE_GROMMOK = {
     resource = {
         type = "bg_wishstone_reefs"
         discovered_amount = 24
-     }
+    }
     naval_exit_id = 3092
 }
 STATE_KYRKAZ = {
@@ -1122,7 +1122,7 @@ STATE_BAIZOR = {
     resource = {
         type = "bg_wishstone_reefs"
         discovered_amount = 24
-     }
+    }
     naval_exit_id = 3082
 }
 STATE_KAZKYL = {
@@ -1163,7 +1163,7 @@ STATE_ORONAKA = {
     resource = {
         type = "bg_wishstone_reefs"
         discovered_amount = 26
-     }
+    }
     naval_exit_id = 3059
 }
 STATE_KHANGAWA = {
@@ -1185,7 +1185,7 @@ STATE_KHANGAWA = {
     resource = {
         type = "bg_wishstone_reefs"
         discovered_amount = 20
-     }
+    }
     naval_exit_id = 3036
 }
 STATE_HIRAMACHI = {

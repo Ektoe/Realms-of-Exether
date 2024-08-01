@@ -649,7 +649,7 @@
 		}
 	}
 
-	s:STATE_SAHONDRA = {
+	s:STATE_SUISGOIL = {
 		region_state:LIR = {
 			create_pop = {
 				culture = lacertian
@@ -671,7 +671,7 @@
 		}
 	}
 
-	s:STATE_TOMBONT = {
+	s:STATE_YNTHOLG = {
 		region_state:LIR = {
 			create_pop = {
 				culture = cithrel
@@ -693,7 +693,7 @@
 		}
 	}
 
-	s:STATE_IVOLOINA = {
+	s:STATE_MASC_PEIW = {
 		region_state:LIR = {
 			create_pop = {
 				culture = cithrel
@@ -967,7 +967,7 @@
 		}
 	}
 
-	s:STATE_VEDAMALA = {
+	s:STATE_LHEIPH_VA = {
 		region_state:COC = {
 			create_pop = {
 				culture = cithrel
@@ -1012,7 +1012,7 @@
 		}
 	}
 
-	s:STATE_MANASI = {
+	s:STATE_MYCOLGA = {
 		region_state:COC = {
 			create_pop = {
 				culture = cithrel

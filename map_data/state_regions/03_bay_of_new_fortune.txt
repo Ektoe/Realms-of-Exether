@@ -268,7 +268,7 @@ STATE_MLIMASHWARI = {
     }
     naval_exit_id = 3075
 }
-STATE_UZURIKILIMA = {
+STATE_BYS_CEIRDH = {
     id = 4465
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x3CF3E1" "x69FB95" "x6AFAEF" "x7EE8D2" "x9E79EF" "xC1D080" "xD0ECDB" "xE1F583" "xE567F2" "xE7A4FC" "xEDAB69" }
@@ -290,7 +290,7 @@ STATE_UZURIKILIMA = {
     }
     naval_exit_id = 3015
 }
-STATE_KILIMASHWARI = {
+STATE_BYS_LOWAE = {
     id = 4466
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x6EF6CC" "x8AE99D" "x8BC5C1" "x91C8CE" "x9ACBF6" "xA1DCB3" "xBBDF7F" "xBF7DC2" "xBFD678" "xCDEDEE" "xCFC2E0" "xDAC7B7" "xDFB5DA" "xE2AFDC" "xE6ED84" "xE6F025" "xF993C5" "xFEAED4" }

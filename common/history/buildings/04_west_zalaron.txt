@@ -2121,7 +2121,7 @@
 			}
 		}
   }
-  s:STATE_KLONGLALA = {
+  s:STATE_ODADRUEL = {
 	region_state:XOC={
 		create_building={
 			building="building_government_administration"
@@ -2155,7 +2155,7 @@
                         type="building_financial_district"
                         country="c:XOC"
                         levels=1
-                        region="STATE_KLONGLALA"
+                        region="STATE_ODADRUEL"
                    }
                 }
 			reserves=1
@@ -2185,7 +2185,7 @@
 						type="building_manor_house"
 						country="c:XOC"
 						levels=1
-						region="STATE_KLONGLALA"
+						region="STATE_ODADRUEL"
 				   }
 				}
 				reserves=1
@@ -2198,7 +2198,7 @@
                         type="building_financial_district"
                         country="c:XOC"
                         levels=1
-                        region="STATE_KLONGLALA"
+                        region="STATE_ODADRUEL"
                    }
                 }
 				reserves=1
@@ -2409,7 +2409,7 @@
 			}
 		}
   }
-  s:STATE_SAWABARA = {
+  s:STATE_NOLOGO_RULL = {
 	region_state:COC={
 			create_building={
 			building="building_rice_farm"
@@ -2431,7 +2431,7 @@
 						type="building_manor_house"
 						country="c:XOC"
 						levels=1
-						region="STATE_KLONGLALA"
+						region="STATE_ODADRUEL"
 				   }
 				}
 			reserves=1
@@ -2458,7 +2458,7 @@
 		}
 	}
   }
-  s:STATE_KISITONG = {
+  s:STATE_NOLOGO_VELPH = {
 	region_state:COC={
             create_building={
 			building="building_logging_camp"
@@ -2579,7 +2579,7 @@
 						type="building_manor_house"
 						country="c:XOC"
 						levels=1
-						region="STATE_KLONGLALA"
+						region="STATE_ODADRUEL"
 				   }
 				}
 				reserves=1
@@ -2592,7 +2592,7 @@
 						type="building_manor_house"
 						country="c:COC"
 						levels=4
-						region="STATE_SAWABARA"
+						region="STATE_NOLOGO_RULL"
 				   }
 				}
 				reserves=1
@@ -2605,7 +2605,7 @@
 						type="building_manor_house"
 						country="c:XOC"
 						levels=6
-						region="STATE_KLONGLALA"
+						region="STATE_ODADRUEL"
 				   }
 				}
 				reserves=1
@@ -2641,7 +2641,7 @@
                         type="building_financial_district"
                         country="c:COC"
                         levels=3
-                        region="STATE_SAWABARA"
+                        region="STATE_NOLOGO_RULL"
                    }
                 }
 				reserves=1
@@ -2667,7 +2667,7 @@
 						type="building_manor_house"
 						country="c:COC"
 						levels=1
-						region="STATE_SAWABARA"
+						region="STATE_NOLOGO_RULL"
 				   }
 				}
 				reserves=1
@@ -2768,7 +2768,7 @@
 						type="building_manor_house"
 						country="c:COC"
 						levels=1
-						region="STATE_KISITONG"
+						region="STATE_NOLOGO_VELPH"
 				   }
 				}
 			reserves=1
@@ -2874,7 +2874,7 @@
                         type="building_financial_district"
                         country="c:COC"
                         levels=1
-                        region="STATE_KISITONG"
+                        region="STATE_NOLOGO_VELPH"
                    }
                 }
 			reserves=1
@@ -2887,7 +2887,7 @@
             	        type="building_financial_district"
             	        country="c:COC"
             	        levels=1
-            	        region="STATE_KISITONG"
+            	        region="STATE_NOLOGO_VELPH"
 					}
 				}
 			reserves = 1
@@ -4513,7 +4513,7 @@
 					type="building_financial_district"
 					country="c:TLE"
 					levels=1
-					region="STATE_HAVENSHIRE"
+					region="STATE_VONKENDAM"
 			   }
 			}
 			reserves=1
