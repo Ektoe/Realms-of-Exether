@@ -9,3 +9,5 @@
   ai_strategy_unify_nagabumi_desc: "[COUNTRY.GetName] wants to unite the Nagabumi nations under their banner."
   ai_strategy_arcane_agenda: "Arcane Agenda"
   ai_strategy_arcane_agenda_desc: "[COUNTRY.GetName] seeks to promote the power and reform agenda of mages, wizards, and warlocks."
+  ai_strategy_necromantic_agenda: "Deathweaver Manifest"
+  ai_strategy_necromantic_agenda_desc: "[COUNTRY.GetName] seeks to promote the power of necromancers and employ the dark arts in its empire."

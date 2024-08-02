@@ -1751,6 +1751,42 @@ ai_strategy_default = {
 	# How important is it that the AI maintains an interest in a specific strategic region (added on top of region value calculations set in defines)
 	# Using this value in other strategies will function additively
 	strategic_region_scores = {
+		region_ravik = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
+		region_hasals_mirror = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
+		region_old_thaloria = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
+		region_verdant_shore = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
 	
 	}
 	

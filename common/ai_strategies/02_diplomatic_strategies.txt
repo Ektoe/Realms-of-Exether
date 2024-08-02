@@ -1893,6 +1893,12 @@ ai_strategy_restore_natural_borders = {
 	}
 }
 
+
+
+
+
+### UNIFICATION STRATEGIES ###
+
 ai_strategy_unify_thaloria = {
 	icon = "gfx/interface/icons/ai_strategy_icons/unification.dds"
 	
@@ -2699,3 +2705,4 @@ ai_strategy_unify_nagabumi = {
 	}
 }
 
+##############################
