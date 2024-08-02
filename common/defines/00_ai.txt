@@ -645,7 +645,7 @@
 
 	MONEY_SPENDING_MILITARY_CRITICAL_THRESHOLD = 0.5 # If actual-to-wanted number of barracks/naval bases is below this, AI will not consider downsizing them further
 	MONEY_SPENDING_MILITARY_EXCESSIVE_THRESHOLD = 2.0 # If actual-to-wanted number of barracks/naval bases is above this, AI considers it a target for cutting spending when needed
-	MONEY_SPENDING_CONSTRUCTION_CRITICAL_THRESHOLD = 0.90 # If actual-to-wanted number of construction sector buildings is below this, AI considers it very important to get more
+	MONEY_SPENDING_CONSTRUCTION_CRITICAL_THRESHOLD = 1.0 # If actual-to-wanted number of construction sector buildings is below this, AI considers it very important to get more
 	MONEY_SPENDING_INNOVATION_CRITICAL_THRESHOLD = 0.75 # If innovation production compared to cap is worse than this, AI considers it very important to improve
 	MONEY_SPENDING_INNOVATION_DESIRED_THRESHOLD = 1.0 # If innovation production compared to cap is worse than this, AI considers it important to improve
 	MONEY_SPENDING_SUPPLY_NETWORK_CRITICAL_THRESHOLD = 0.75 # If supply network is worse than this, AI considers it critical to improve it
