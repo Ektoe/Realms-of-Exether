@@ -89,9 +89,9 @@
         culture = puarfejiin
         size = 15311482
       }
-	  create_pop = {
+	    create_pop = {
         pop_type = slaves
-		culture = puarfejiin
+		    culture = puarfejiin
         size = 500
       }
     }
@@ -111,9 +111,9 @@
         culture = morevnamarya
         size = 2372801
       }
-	  create_pop = {
+	    create_pop = {
         pop_type = slaves
-		culture = morevnamarya
+		    culture = morevnamarya
         size = 500
       }
     }
@@ -123,11 +123,11 @@
     region_state:YUL = {
       create_pop = {
         culture = khanaruk
-        size = 5703216
+        size = 13703216
       }
       create_pop = {
         culture = puarfejiin
-        size = 18944513
+        size = 10944513
       }
       create_pop = {
         culture = batukai
@@ -136,6 +136,7 @@
       create_pop = {
         culture = shkemger
         size = 90000
+      }
       create_pop = {
         culture = atiukura
         size = 90000
@@ -164,14 +165,14 @@
         culture = kojiniu
         size = 51582
       }
-	  create_pop = {
-	    pop_type = slaves
+	    create_pop = {
+	      pop_type = slaves
         culture = onikoku
         size = 3500
       }
       create_pop = {
         pop_type = slaves
-		culture = onisazae
+		    culture = onisazae
         size = 3500
       }
     }
@@ -354,9 +355,9 @@
         culture = puarfejiin
         size = 10674835
       }
-	  create_pop = {
+	    create_pop = {
         pop_type = slaves
-		culture = puarfejiin
+		    culture = puarfejiin
         size = 500
       }
     }
@@ -385,14 +386,14 @@
         culture = sarhbalb
         size = 4702008
       }
-	  create_pop = {
+	    create_pop = {
         pop_type = slaves
-		culture = puarfejiin
+		    culture = puarfejiin
         size = 300
       }
-	  create_pop = {
+	    create_pop = {
         pop_type = slaves
-		culture = sarhbalb
+		    culture = sarhbalb
         size = 200
       }
     }
@@ -408,9 +409,9 @@
         culture = puarfejiin
         size = 6202594
       }
-	  create_pop = {
+	    create_pop = {
         pop_type = slaves
-		culture = puarfejiin
+		    culture = puarfejiin
         size = 500
       }
     }

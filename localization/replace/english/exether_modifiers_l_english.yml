@@ -89,6 +89,9 @@
 
   building_group_bg_rice_farms_leechgardens_throughput_add: "$bg_rice_farms_leechgardens$ [concept_throughput]"
   building_group_bg_rice_farms_leechgardens_throughput_add_desc: "A bonus or penalty to the input and output of $bg_rice_farms_leechgardens$"
+
+  building_group_bg_wishstone_mining_throughput_add: "$building_wishstone_mine$ [concept_throughput]"
+  building_group_bg_wishstone_mining_throughput_add_desc: "A bonus or penalty to the input and output of $building_wishstone_mine$"
   #Veil Integrity 
 
  #Static Modifiers

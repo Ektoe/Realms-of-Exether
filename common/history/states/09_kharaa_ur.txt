@@ -51,6 +51,7 @@ s:STATE_BOLDOO = {
 		country = c:YUL
 		owned_provinces = { "x6CE3DF" "x79D1F6" "x8BBAC7" "xD1CC5F" "xE09583" "xEADBCA" }
 }
+add_homeland = cu:khanaruk
 add_homeland = cu:puarfejiin
 add_homeland = cu:morevnamarya
 }
@@ -178,6 +179,7 @@ s:STATE_OROGOO = {
 		country = c:YUL
 		owned_provinces = { "x9FDB80" "xAAECE1" "xC184E3" "xC79DF2" "xC897D9" "xE7E979" "xECF38D" "xEDB4E1" "xF2BBAC" }
 }
+add_homeland = cu:khanaruk
 add_homeland = cu:puarfejiin
 }
 
@@ -514,7 +516,6 @@ s:STATE_KAZKYL = {
 		country = c:YUL
 		owned_provinces = { "x6DF5BA" "x8BBFD7" "xA09EC0" "xA5E48E" "xB0C588" "xB6FEC8" "xE7F86D" "xF1F89A" "xF4C960" "xF818EE" "xFA58A9" }
 }
-add_homeland = cu:khanaruk
 add_homeland = cu:sarhbalb
 }
 
