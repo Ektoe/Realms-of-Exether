@@ -168,7 +168,12 @@ law_private_schools = {
 	can_impose = {
 		OR = {
 			AND = {
-				is_in_same_power_bloc = scope:target_country
+				if = {
+					limit = {
+						exists = scope:target_country
+					}
+					is_in_same_power_bloc = scope:target_country
+				}	
 				AND = {
 					modifier:country_can_impose_same_lawgroup_education_system_in_power_bloc_bool = yes
 					has_law = scope:law
@@ -256,7 +261,12 @@ law_public_schools = {
 	can_impose = {
 		OR = {
 			AND = {
-				is_in_same_power_bloc = scope:target_country
+				if = {
+					limit = {
+						exists = scope:target_country
+					}
+					is_in_same_power_bloc = scope:target_country
+				}	
 				AND = {
 					modifier:country_can_impose_same_lawgroup_education_system_in_power_bloc_bool = yes
 					has_law = scope:law

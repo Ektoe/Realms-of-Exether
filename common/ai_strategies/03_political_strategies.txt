@@ -937,13 +937,13 @@ ai_strategy_necromantic_agenda = {
 	}
 	
 	weight = {
-		value = 10
+		value = 0
 		
 		if = {
 			limit = {
-				has_law = law_type:dark_arts
+				has_law = law_type:law_dark_arts
 			}
-			add = 100
+			add = 1000
 		}		
 
 		if = {

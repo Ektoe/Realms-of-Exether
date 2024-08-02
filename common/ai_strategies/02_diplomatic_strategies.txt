@@ -323,12 +323,6 @@ ai_strategy_territorial_expansion = {
 			limit = { ig:ig_armed_forces = { is_powerful = yes } }
 			multiply = 1.5
 		}			
-		
-		if = {
-			limit = { country_is_in_settler_coast = yes }
-			multiply = 0.25
-		}	
-		
 		if = {
 			limit = { has_radical_leftist_government = yes }
 			multiply = 0.5
