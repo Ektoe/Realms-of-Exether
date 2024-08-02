@@ -1466,18 +1466,10 @@ s:STATE_NACHTSIMMER = {
 add_homeland = cu:stranfolk
 }
 
-s:STATE_SINNEBRAN = {
-	create_state = {
-		country = c:SEE
-		owned_provinces = { "xC2ADAB" "xC8C6E2" "xEAF76E" "xEC4DFA" "xF69E79" "xFC79D6" }
-}
-add_homeland = cu:stranfolk
-}
-
 s:STATE_SKIMERWALD = {
 	create_state = {
 		country = c:SEE
-		owned_provinces = { "x4CDFD8" "x95EAEC" "x98A3F9" "x9BD890" "x9CC6CA" "xB2BABD" "xC2E64D" "xD09BA9" "xD1D4DB" "xD285EE" "xE2B5EB" "xF2F8DF" "xFB4BF8" }
+		owned_provinces = { "x4CDFD8" "x95EAEC" "x98A3F9" "x9BD890" "x9CC6CA" "xB2BABD" "xC2ADAB" "xC2E64D" "xC8C6E2" "xD09BA9" "xD1D4DB" "xD285EE" "xE2B5EB" "xF2F8DF" "xF69E79" "xFB4BF8" }
 }
 add_homeland = cu:stranfolk
 }
@@ -1485,7 +1477,7 @@ add_homeland = cu:stranfolk
 s:STATE_STREAMFLAMME = {
 	create_state = {
 		country = c:HOU
-		owned_provinces = { "x4EEAFD" "x8DFA8E" "xA5EEB5" "xC883F2" "xCFAD95" "xEB33F0" "xEF8991" "xFBAD6B" }
+		owned_provinces = { "x4EEAFD" "x8DFA8E" "xA5EEB5" "xC883F2" "xCFAD95" "xEAF76E" "xEB33F0" "xEC4DFA" "xEF8991" "xFBAD6B" "xFC79D6" }
 }
 add_homeland = cu:stranfolk
 }
