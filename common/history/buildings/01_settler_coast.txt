@@ -1889,7 +1889,7 @@
   }
 
   
-  s:STATE_FORESTS_HEART_2 = {
+  s:STATE_FORESTS_HEART_3_2 = {
 	region_state:BDB={
 		create_building={
 			building="building_government_administration"
@@ -1904,7 +1904,7 @@
 					type="building_financial_district"
 					country="c:BDB"
 					levels=2
-					region="STATE_FORESTS_HEART_2"
+					region="STATE_FORESTS_HEART_3_2"
 			   }
 			}
 			reserves=1
@@ -1917,7 +1917,7 @@
 						type="building_manor_house"
 						country="c:BDB"
 						levels=1
-						region="STATE_FORESTS_HEART_2"
+						region="STATE_FORESTS_HEART_3_2"
 				   }
 				}
 			reserves=1
@@ -1930,7 +1930,7 @@
 						type="building_manor_house"
 						country="c:BDB"
 						levels=2
-						region="STATE_FORESTS_HEART_2"
+						region="STATE_FORESTS_HEART_3_2"
 				   }
 				}
 			reserves=1
@@ -1943,38 +1943,7 @@
 						type="building_manor_house"
 						country="c:BDB"
 						levels=8
-						region="STATE_FORESTS_HEART_2"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-		}
-	}
-  }
-
-  s:STATE_FORESTS_HEART_3 = {
-	region_state:BDB={
-			create_building={
-			building="building_rice_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:BDB"
-						levels=1
-						region="STATE_FORESTS_HEART_3"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
-		}
-			create_building={
-			building="building_livestock_ranch"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:BDB"
-						levels=13
-						region="STATE_FORESTS_HEART_3"
+						region="STATE_FORESTS_HEART_3_2"
 				   }
 				}
 			reserves=1
@@ -2045,102 +2014,6 @@
 	}
   }
 
-  s:STATE_PLAGUEWOOD_HINTERLANDS_2 = {
-	region_state:BDB={
-			create_building={
-			building="building_rice_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:BDB"
-						levels=1
-						region="STATE_PLAGUEWOOD_HINTERLANDS_2"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
-		}
-		create_building={
-			building="building_furniture_manufacturies"
-                add_ownership={ 
-                    building={ 
-                        type="building_financial_district"
-                        country="c:BDB"
-                        levels=1
-                        region="STATE_PLAGUEWOOD_HINTERLANDS_2"
-                   }
-                }
-			reserves=1
-			activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" "pm_luxury_furniture" }
-		}
-		create_building={
-			building="building_logging_camp"
-                add_ownership={ 
-                    building={ 
-                        type="building_financial_district"
-                        country="c:BDB"
-                        levels=3
-                        region="STATE_PLAGUEWOOD_HINTERLANDS_2"
-                   }
-                }
-			reserves=1
-			activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
-		}
-			create_building={
-			building="building_tobacco_plantation"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:BDB"
-						levels=2
-						region="STATE_PLAGUEWOOD_HINTERLANDS_2"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
-		}
-			create_building={
-			building="building_tea_plantation"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:BDB"
-						levels=1
-						region="STATE_FORESTS_HEART_3"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "default_building_tea_plantation" "pm_road_carts"  }
-		}
-		create_building={
-			building="building_livestock_ranch"
-			add_ownership={
-				building={
-					type="building_manor_house"
-					country="c:BDB"
-					levels=2
-					region="STATE_PLAGUEWOOD_HINTERLANDS_2"
-				}
-			}
-			reserves=1
-			activate_production_methods={ "pm_butchering_tools" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-		}
-		create_building={
-			building="building_tooling_workshops"
-			add_ownership={ 
-				building={ 
-					type="building_financial_district"
-					country="c:BDB"
-					levels=2
-					region="STATE_PLAGUEWOOD_HINTERLANDS_2"
-			   }
-			}
-			reserves=1
-			activate_production_methods={ "pm_crude_tools" "pm_automation_disabled" }
-		}
-	}
-  }
-
   s:STATE_RIBAGAR = {
 	region_state:DRO={
 		create_building={
@@ -2150,7 +2023,7 @@
 					type="building_manor_house"
 					country="c:DRO"
 					levels=1
-					region="STATE_ZURMUND"
+					region="STATE_RIBAGAR"
 				}
 			}
 			reserves=1
@@ -6356,7 +6229,7 @@
 						type="building_financial_district"
                 	country="c:VOZ"
                 	levels=2
-               	 region="STATE_GRAVELROCK_ROAD"
+               	 region="STATE_DEPHEL_PATH"
 					}
 			}
 			reserves = 1
@@ -6408,7 +6281,7 @@
 						type="building_manor_house"
 						country="c:VOZ"
 						levels=6
-						region="STATE_GRAVELROCK_ROAD"
+						region="STATE_DEPHEL_PATH"
 				   }
 				}
 			reserves=1

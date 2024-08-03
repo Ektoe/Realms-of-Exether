@@ -121,7 +121,28 @@
         }
     }
 
-### END OF HISTORICAL CHARACTER ACCESSORIES ###
+    historical_soranda_accessory = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = necklaces
+                template = necklace_power_bloc
+                range = { 0 0.1 }
+            }
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 9000000
+                scope:character ?= {
+                    has_template = ARR_queen_soranda_template
+                }
+            }
+        }
+    }
+
+    ### END OF HISTORICAL CHARACTER ACCESSORIES ###
 
     european_shopkeeper_clothes = {
         dna_modifiers = {
@@ -726,6 +747,7 @@
                 has_dlc_feature = ep1_cosmetics
 
                 scope:character ?= {
+                    NOT = { has_template = ARR_queen_soranda_template }
                     is_ruler = yes
 
                     age >= define:NCharacters|ADULT_AGE

@@ -35,11 +35,17 @@
 	can_deactivate = yes
 	
 	possible = {
-		c:DRO = {
-			has_law = law_type:law_monarchy
+		AND = {
+			exists = c:DRO
+			c:DRO = {
+				has_law = law_type:law_monarchy
+			}
 		}
-		c:VOZ = {
-			has_law = law_type:law_monarchy
+		AND = {
+			exists = c:VOZ
+			c:VOZ = {
+				has_law = law_type:law_monarchy
+			}
 		}
 		OR = {
 			AND = {

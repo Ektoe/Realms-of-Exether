@@ -5260,7 +5260,7 @@
                         type="building_financial_district"
                         country="c:RAV"
                         levels=2
-                        region="STATE_KRULHOVENM"
+                        region="STATE_KRULHOVEN"
                    }
                 }
 			reserves=1

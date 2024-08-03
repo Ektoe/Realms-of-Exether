@@ -64,6 +64,8 @@
 	building_banana_plantation = {"asian_rural_plantation_01_mesh"}
 	building_songberry_plantation = {"asian_rural_plantation_01_mesh"}
 	building_vineyard_plantation = {"asian_rural_plantation_01_mesh"}
+	building_wyrmfruit_plantation = {"asian_rural_plantation_01_mesh"}
+	building_mint_tea_plantation = {"asian_rural_plantation_01_mesh"}
 
 	building_manor_house = {"asian_rural_manorhouse_01_mesh"}
 	building_wizard_tower = {"asian_rural_manorhouse_01_mesh"}
