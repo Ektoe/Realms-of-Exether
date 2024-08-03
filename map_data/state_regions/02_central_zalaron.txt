@@ -2038,6 +2038,7 @@ STATE_ZALULIK = {
         type = "bg_rubber"
         undiscovered_amount = 28
     }
+    naval_exit_id = 3144
 }
 STATE_NAN = {
     id = 4334

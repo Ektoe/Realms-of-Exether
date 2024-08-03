@@ -173,7 +173,7 @@ STATE_ORONK = {
     capped_resources = {
         bg_logging = 11
     }
-    naval_exit_id = 3119
+    naval_exit_id = 3117
 }
 STATE_KHAIRI = {
     id = 4539
@@ -906,6 +906,7 @@ STATE_BAZKYL = {
     wood = xC1B3B3
     arable_land = 88
     arable_resources = { "bg_livestock_ranches" }
+    naval_exit_id = 3121
 
 }
 STATE_KYRTHOR = {
@@ -1142,6 +1143,7 @@ STATE_KAZKYL = {
         bg_lead_mining = 45
         bg_logging = 17
     }
+    naval_exit_id = 3114
 
 }
 STATE_ORONAKA = {
@@ -1380,6 +1382,7 @@ STATE_HOKUKHAN = {
         bg_iron_mining = 45
         bg_logging = 3
     }
+    naval_exit_id = 3114
 
 }
 STATE_TSURUKHAN = {
@@ -1646,6 +1649,7 @@ STATE_SHINKANBATA = {
     traits = { "state_trait_kharaa_ur_desert" }
     arable_land = 35
     arable_resources = { "bg_livestock_ranches" }
+    naval_exit_id = 3116
 
 }
 STATE_HIRAKHANJO = {
@@ -1669,6 +1673,7 @@ STATE_HIRAKHANJO = {
         type = "bg_oil_extraction"
         undiscovered_amount = 30
     }
+    naval_exit_id = 3113
 
 }
 STATE_MONGOGAWA = {

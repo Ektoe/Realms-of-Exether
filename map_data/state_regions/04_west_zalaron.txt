@@ -3377,6 +3377,7 @@ STATE_ELZEKOEPEL = {
     capped_resources = {
         bg_logging = 6
     }
+    naval_exit_id = 3127
 }
 STATE_FLINTERWIIDTE = {
     #xC987F8q
