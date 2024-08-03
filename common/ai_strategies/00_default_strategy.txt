@@ -1197,7 +1197,7 @@ ai_strategy_default = {
 		add = {
 			value = income
 			subtract = investment_pool_income	
-			divide = 400 # 1 construction output per this much income
+			divide = 350 # 1 construction output per this much income
 
 			min = 0
 		}
@@ -1255,7 +1255,7 @@ ai_strategy_default = {
 		}
 
 		min = 1
-		max = 2000
+		max = 5000
 	}
 	
 	# How many levels of barracks should the AI have
@@ -1577,7 +1577,7 @@ ai_strategy_default = {
 	# Add a multiplier to the score AI assigns to particular building groups (default 1)
 	# Using this value in other strategies will result in several multiplications
 	building_group_weights = {
-		bg_construction = 50
+		bg_construction = 100
 	}
 	
 	# Which buildings should the AI subsidize

@@ -3,7 +3,7 @@
 
 	STRATEGY_RANDOM_FACTOR = 15.0 # The higher this is, the more random AI strategy selection will be
 
-	TICKS_FOR_FULL_SPENDING_VARIABLES_UPDATE = 100 # The higher this is, the less often AIs will fully refresh their spending variables
+	TICKS_FOR_FULL_SPENDING_VARIABLES_UPDATE = 80 # The higher this is, the less often AIs will fully refresh their spending variables
 	NUM_FAILED_MONEY_SPENDING_ATTEMPTS_FOR_UPDATE = 50 # After this many failed attempts to change money spending/construct government buildings, force an update of money spending priorities
 	NUM_FAILED_AUTHORITY_SPENDING_ATTEMPTS_FOR_UPDATE = 20 # After this many failed attempts to change authority spending, force an update of authority spending priorities
 	
@@ -36,7 +36,7 @@
 
 	DECLARE_BANKRUPTCY_MIN_DAYS_IN_DEFAULT = 30 # After this many days in default, the AI will declare bankruptcy
 
-	BASE_AGGRESSION = 1.0 # Base chance that AI will consider starting a diplo play each time the goal is checked (1 = 1%)
+	BASE_AGGRESSION = 1.25 # Base chance that AI will consider starting a diplo play each time the goal is checked (1 = 1%)
 	UNIFICATION_AGGRESSION_MULT_HIGHER_TIER = 20 # AI aggression is multiplied by this for calculating whether they should try to start a unification/leadership play, if the country would end up forming a nation of a higher tier
 	UNIFICATION_AGGRESSION_MULT_SAME_TIER = 0.1 # AI aggression is multiplied by this for calculating whether they should try to start a unification/leadership play, if the country would end up forming a nation of the same tier
 
@@ -597,7 +597,7 @@
 	# Below data is used to determine which states should be colonized first
 	NUM_GROWING_COLONIES_BASE = 1 # How many colonies will the AI keep growing at once (base amount)
 	NUM_GROWING_COLONIES_SCALED = 0.01 # 1 extra colony at once per this amount of colonial growth points
-	NUM_GROWING_COLONIES_MAX = 5 # No more than this amount of growing colonies at once, regardless of amount of colonial growth points
+	NUM_GROWING_COLONIES_MAX = 10 # No more than this amount of growing colonies at once, regardless of amount of colonial growth points
 	COLONY_BASE_WEIGHT = 50
 	COLONY_POPULATION_WEIGHT = 0.2	# Per 10000 pops
 	COLONY_ARABLE_LAND_WEIGHT = 10
@@ -618,7 +618,7 @@
 	INSTITUTION_SPENDING_DECREASE_SPENDING_RATIO = 2.0 # If current institution spending is at least max spending * this, try to degrade some institutions
 
 	# Below data is used to calculate how much weight the AI places on different things it can spend its weekly money income on
-	MONEY_SPENDING_RANDOM_FACTOR = 2.0 # The higher this is, the more random new AI money spending will be
+	MONEY_SPENDING_RANDOM_FACTOR = 1.5 # The higher this is, the more random new AI money spending will be
 	MONEY_SPENDING_MAX_RATIO_TO_REMOVE_SHOULD_HAVE = 1.05 # How low of a income-to-expenses ratio does the AI need to have to consider reducing spending on a 'should-have'
 	MONEY_SPENDING_MAX_RATIO_TO_REMOVE_WANTS_TO_HAVE = 1.10 # How low of a income-to-expenses ratio does the AI need to have to consider reducing spending on a 'wants-to-have'
 	MONEY_SPENDING_MAX_RATIO_TO_REMOVE_NICE_TO_HAVE = 1.20 # How low of a income-to-expenses ratio does the AI need to have to consider reducing spending on a 'nice-to-have'
@@ -674,7 +674,7 @@
 	GOVERNMENT_BUILDING_STATE_UNINCORPORATED_MULT = 0.25 # Multiply score by this if the state is unincorporated
 	GOVERNMENT_BUILDING_STATE_MISSING_QUALIFICATIONS_MULT = 0.10 # Multiply score by this if there's not enough qualifications to staff the building
 	GOVERNMENT_BUILDING_STATE_MISSING_INFRASTRUCTURE_DIV = 0.50 # Divide score by ( 1 + this * number of missing infrastructure after adding this building )
-	GOVERNMENT_BUILDING_STATE_POP_CONSTRUCTION_SECTOR_IMPORTANCE_THRESHOLD = 250000 # Above this amount of state population, AI considers it important to have a construction sector in the state
+	GOVERNMENT_BUILDING_STATE_POP_CONSTRUCTION_SECTOR_IMPORTANCE_THRESHOLD = 300000 # Above this amount of state population, AI considers it important to have a construction sector in the state
 	GOVERNMENT_BUILDING_STATE_POP_CONSTRUCTION_SECTOR_IMPORTANCE_MULT = 1.5 # Multiply score by this if state GDP is at least the above value for purposes of scoring the first level of construction sector
 
 	# Below data is used to calculate how much weight the AI places on specific subsidies
@@ -707,7 +707,7 @@
 	PRODUCTION_BUILDING_STATE_RANDOM_FACTOR = 0.5 # The higher this is, the more random AI state selection for building types will be
 	PRODUCTION_BUILDING_BASE_VALUE = 1000 # If no ai_value is scripted in the building
 	PRODUCTION_BUILDING_NO_AVAILABLE_WORKFORCE_FACTOR = 0.25 # Total weight is multiplied by this if the state lacks enough workforce to staff the building
-	PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR = 5000 # Per pound of predicted building profit (divided by employee count per level)
+	PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR = 3000 # Per pound of predicted building profit (divided by employee count per level)
 	PRODUCTION_BUILDING_GOODS_DEFICIT_FACTOR = 10000 # Per pound of predicted building deficit (divided by employee count per level and multiplies a negative value)
 	PRODUCTION_BUILDING_GOODS_DEFICIT_SUBSIDIZE_FACTOR = 5000 # Overrides PRODUCTION_BUILDING_GOODS_DEFICIT_FACTOR for subsidized buildings
 	PRODUCTION_BUILDING_PRODUCED_VALUE_FACTOR = 0.25 # Per pound of produced goods in base value
@@ -752,10 +752,10 @@
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_WANTED_COST_COVERAGE = 1 # If investment pool has less money than this in it, don't do any autonomous construction
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_CONSTRUCTION_COST_DIVISOR_SCALING = 0.001 # Value for autonomous investment pool constructions is divided by ( 1 + construction point cost * this )
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_RANDOM_FACTOR_MULT = 1.0 # Multiplies PRODUCTION_BUILDING_RANDOM_FACTOR for autonomous investment pool constructions
-	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_STATE_RANDOM_FACTOR_MULT = 1.5 # Multiplies PRODUCTION_BUILDING_RANDOM_FACTOR for autonomous investment pool constructions
+	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_STATE_RANDOM_FACTOR_MULT = 1.25 # Multiplies PRODUCTION_BUILDING_RANDOM_FACTOR for autonomous investment pool constructions
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PROFIT_FACTOR_MULT = 1.5 # Multiplies PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR for autonomous investment pool constructions
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PROFIT_PRIVATIZE_FACTOR_MULT = 3.0 # Multiplies PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR for autonomous investment pool constructions, gives higher weight to buildings that have levels to privatize
-	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PRODUCED_VALUE_FACTOR_MULT = 1.25 # Multiplies PRODUCTION_BUILDING_PRODUCED_VALUE_FACTOR for autonomous investment pool constructions
+	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PRODUCED_VALUE_FACTOR_MULT = 1.50 # Multiplies PRODUCTION_BUILDING_PRODUCED_VALUE_FACTOR for autonomous investment pool constructions
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PRODUCED_VALUE_PRIVATIZE_FACTOR_MULT = 2.0 # Multiplies PRODUCTION_BUILDING_PRODUCED_VALUE_FACTOR for autonomous investment pool constructions, gives higher weight to buildings that have levels to privatize
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PRODUCED_MODIFIER_FACTOR_MULT = 0.75 # Multiplies value from produced modifiers for autonomous investment pool constructions
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PRICE_COMPENSATION_FACTOR_MULT = 1.0 # Multiplies high/low price compensation factors for autonomous investment pool constructions
