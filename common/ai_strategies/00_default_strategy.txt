@@ -1204,7 +1204,7 @@ ai_strategy_default = {
 		
 		subtract = {
 			value = expenses
-			divide = 400
+			divide = 600
 			min = 0
 		}
 		
