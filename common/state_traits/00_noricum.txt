@@ -70,6 +70,21 @@ state_trait_peak_lake = {
 	}	
 }
 
+state_trait_forests_of_dread = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		state_adventurer_coverage_add = -50
+	}	
+}
+
+state_trait_purged_woodlands = {
+	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
+	
+	modifier = {
+		state_adventurer_coverage_add = 50
+	}	
+}
 state_trait_rimeroot_jungle = {
 	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
 	required_techs_for_colonization = {

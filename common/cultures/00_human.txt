@@ -3736,7 +3736,7 @@ achonian={
 	religion = cult_of_knowledge
 	traits = { settler_coast_culture_group human_heritage }
 	obsessions = {
-		fine_art
+		gizmos
 	}
 	male_common_first_names={
 		Alenka
