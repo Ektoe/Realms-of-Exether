@@ -1913,7 +1913,7 @@ STATE_LUMO = {
     traits = { "state_trait_severe_malaria" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x64E1F1" "x84B3EC" "x8DF6EB" "x95FA69" "xBCEFF1" "xDDBAF9" "xE0C363" "xF0E238" }
-    port = x64E1F1
+    port = x8DF6EB
     city = xF0E238
     farm = xE0C363
     mine = xDDBAF9
@@ -1924,10 +1924,6 @@ STATE_LUMO = {
         bg_logging = 2
         bg_whaling = 3
         bg_fishing = 3
-        resource = {
-            type = "bg_wishstone_reefs"
-            undiscovered_amount = 21
-        }
     }
     naval_exit_id = 3041
 }

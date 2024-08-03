@@ -2015,9 +2015,9 @@ ai_strategy_unify_thaloria = {
 				scope:target_state = {
 					state_region = {
 						OR = {
-						state_has_primary_culture = cu:lake_thalorian
-						state_has_primary_culture = cu:west_thalorian
-						state_has_primary_culture = cu:central_thalorian
+						is_homeland = cu:lake_thalorian
+						is_homeland = cu:west_thalorian
+						is_homeland = cu:central_thalorian
 						}
 					}
 				}
@@ -2217,8 +2217,8 @@ ai_strategy_unify_khus = {
 				scope:target_state = {
 					state_region = {
 						OR = {
-						state_has_primary_culture = cu:qinnaat
-						state_has_primary_culture = cu:azmaraan
+						is_homeland = cu:qinnaat
+						is_homeland = cu:azmaraan
 						}
 					}
 				}
@@ -2418,9 +2418,9 @@ ai_strategy_unify_gavkhan = {
 				scope:target_state = {
 					state_region = {
 						OR = {
-						state_has_primary_culture = cu:varbat
-						state_has_primary_culture = cu:xhurlob
-						state_has_primary_culture = cu:rethrashar
+						is_homeland = cu:varbat
+						is_homeland = cu:xhurlob
+						is_homeland = cu:rethrashar
 						}
 					}
 				}
@@ -2620,8 +2620,8 @@ ai_strategy_unify_nagabumi = {
 				scope:target_state = {
 					state_region = {
 						OR = {
-						state_has_primary_culture = cu:gulf_naga
-						state_has_primary_culture = cu:jungle_naga
+						is_homeland = cu:gulf_naga
+						is_homeland = cu:jungle_naga
 						}
 					}
 				}
