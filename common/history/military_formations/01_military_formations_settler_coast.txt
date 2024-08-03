@@ -892,7 +892,7 @@
 		}
 
 		create_character = {
-			is_admiral = yes
+			is_general = yes
 			commander_rank = commander_rank_1
 			hq = region_lagoon_coast
 			save_scope_as = eme_general
@@ -911,13 +911,13 @@
 				combat_unit = { 
 					type = unit_type:combat_unit_type_man_o_war
 					state_region = s:STATE_MERACIEL_AUBELAC
-					count = 2
+					count = 3
 				}
 	
 							combat_unit = { 
 					type = unit_type:combat_unit_type_man_o_war
 					state_region = s:STATE_AZURSOL
-					count = 2
+					count = 3
 				}
 	
 							combat_unit = { 
@@ -929,16 +929,16 @@
 				combat_unit = { 
 					type = unit_type:combat_unit_type_frigate
 					state_region = s:STATE_AZURSOL
-					count = 2
+					count = 10
 				}
 				combat_unit = { 
 					type = unit_type:combat_unit_type_frigate
 					state_region = s:STATE_CHANTSIRENE
-					count = 3
+					count = 20
 				}
 
-				save_scope_as = league_navy
-
+				save_scope_as = eme_navy
+			}
 				create_character = {
 					is_admiral = yes
 					commander_rank = commander_rank_1
@@ -947,10 +947,9 @@
 				}
 				
 				scope:eme_admiral = {
-					transfer_to_formation = scope:league_navy
+					transfer_to_formation = scope:eme_navy
 				}
 			
-			}
 	
 	}
 

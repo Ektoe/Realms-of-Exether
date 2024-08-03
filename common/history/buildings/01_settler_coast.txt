@@ -40,6 +40,12 @@
   s:STATE_CHANTSIRENE = {
 		  region_state:EME={  
 			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+		  }
+			create_building={
 				      building="building_coal_mine"
 				add_ownership={ 
 					building={ 
@@ -237,7 +243,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:EME"
-                        levels=4
+                        levels=6
                         region="STATE_MERACIEL_AUBELAC"
                    }
                 }
@@ -414,7 +420,7 @@
 				}		   
 			    create_building={
 				      building="building_government_administration"
-				      level=1
+				      level=3
 				      reserves=1
 				      activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			    }
@@ -5904,7 +5910,7 @@
 		}
 		create_building={
 			building="building_government_administration"
-			level=6
+			level=7
 			reserves=1
 			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 		}
