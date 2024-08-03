@@ -1101,7 +1101,19 @@ c:DAR ?= {
 		level = 2
 		target = c:THI.market
 		direction = import
-	}		
+	}	
+	create_trade_route = {
+		goods = hardwood
+		level = 1
+		target = c:CER.market
+		direction = import
+	}
+	create_trade_route = {
+		goods = hardwood
+		level = 1
+		target = c:ARR.market
+		direction = import
+	}	
 
 }
 c:EMP ?= {

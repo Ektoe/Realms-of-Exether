@@ -5910,7 +5910,7 @@
 		}
 		create_building={
 			building="building_government_administration"
-			level=7
+			level=8
 			reserves=1
 			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 		}
@@ -5937,6 +5937,19 @@
 			}
 			reserves=1
 			activate_production_methods={ "pm_leaded_glass" "pm_manual_glassblowing" }
+		}
+		create_building={
+			building="building_vineyard_plantation"
+			add_ownership={ 
+				building={ 
+					type="building_manor_house"
+					country="c:DAR"
+					levels=2
+					region="STATE_MOUNT_YELFIS"
+			   }
+			}
+			reserves=1
+			activate_production_methods={ "default_building_vineyard_plantation"  }
 		}
 		create_building={
 			building="building_explosives_factory"
@@ -6118,7 +6131,7 @@
 					building={ 
 						type="building_financial_district"
 						country="c:DAR"
-						levels=5
+						levels=6
 						region="STATE_MOUNT_YELFIS"
 				   }
 				}
@@ -6171,7 +6184,7 @@
 				building={ 
 				  type="building_manor_house"
 				  country="c:DAR"
-				  levels=6
+				  levels=7
 				  region="STATE_MOUNT_YELFIS"
 				 }
 			  }
@@ -6197,7 +6210,7 @@
 					  building={ 
 						  type="building_financial_district"
 						  country="c:DAR"
-						  levels=6
+						  levels=7
 						  region="STATE_MOUNT_YELFIS"
 					 }
 				  }
@@ -6210,7 +6223,7 @@
 						  building={ 
 							  type="building_financial_district"
 							  country="c:DAR"
-							  levels=3
+							  levels=4
 							  region="STATE_MOUNT_YELFIS"
 						 }
 					  }
@@ -6223,7 +6236,7 @@
 				building={ 
 					type="building_financial_district"
 					country="c:DAR"
-					levels=6
+					levels=4
 					region="STATE_MOUNT_YELFIS"
 			   }
 			}
@@ -6362,7 +6375,7 @@
 						type="building_financial_district"
                 	country="c:VOZ"
                 	levels=2
-               	 region="STATE_GRAVELROCK_ROAD"
+               	 region="STATE_DEPHEL_PATH"
 					}
 			}
 			reserves = 1
@@ -6583,7 +6596,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DRO"
-						levels=3
+						levels=2
 						region="STATE_LHIPH"
 				   }
 				}
@@ -7132,7 +7145,7 @@
 	region_state:VOZ={
 		create_building={
 			building="building_government_administration"
-			level=2
+			level=4
 			reserves=1
 			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 		}
@@ -7303,6 +7316,12 @@
 
   s:STATE_DWARVENHAMMER = {
 	region_state:VOZ={	
+		create_building={
+			building="building_government_administration"
+			level=2
+			reserves=1
+			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+		}
 		create_building={
 			building="building_gold_mine"
 	  add_ownership={ 

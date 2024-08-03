@@ -481,15 +481,15 @@ s:STATE_CAEL_VALEN_2 = {
 	region_state:SEB = {
 		create_pop = {
 			culture = enelli
-			size = 504084
+			size = 994084
 		}
 		create_pop = {
 			culture = ocelian
-			size = 20032
+			size = 80032
 		}
 		create_pop = {
 			culture = tolorr
-			size = 4072
+			size = 54072
 		}
 	}
 
@@ -1651,7 +1651,15 @@ s:STATE_FAR_SHORE_2 = {
 		}
 		create_pop = {
 			culture = bossardi
-			size = 406996
+			size = 306996
+		}
+		create_pop = {
+			culture = mousefolk
+			size = 289202
+		}
+		create_pop = {
+			culture = wealder
+			size = 78491
 		}
 	}
   }
