@@ -454,7 +454,7 @@
   }
 
   s:STATE_GURVA = {
-    region_state:YUL = {
+    region_state:KCN = {
       create_pop = {
         culture = khanaruk
         size = 1474221
@@ -472,7 +472,7 @@
   }
 
   s:STATE_KHONGO = {
-    region_state:YUL = {
+    region_state:KCN = {
       create_pop = {
         culture = khanaruk
         size = 1433569
@@ -499,7 +499,7 @@
   }
 
   s:STATE_SERGER = {
-    region_state:YUL = {
+    region_state:KCN = {
       create_pop = {
         culture = khanaruk
         size = 388320
@@ -517,7 +517,7 @@
   }
 
   s:STATE_BUYANT = {
-    region_state:YUL = {
+    region_state:TAH = {
       create_pop = {
         culture = khanaruk
         size = 414897
@@ -544,7 +544,7 @@
   }
 
   s:STATE_GALSHA = {
-    region_state:YUL = {
+    region_state:KCN = {
       create_pop = {
         culture = khanaruk
         size = 814271
@@ -571,25 +571,25 @@
   }
 
   s:STATE_BAIDAL = {
-    region_state:YUL = {
+    region_state:KCN = {
       create_pop = {
         culture = khanaruk
         size = 51076
       }
       create_pop = {
         culture = morevnamarya
-        size = 194549
+        size = 1194549
       }
-	  create_pop = {
+	    create_pop = {
         pop_type = slaves
-		culture = morevnamarya
+		    culture = morevnamarya
         size = 500
       }
     }
   }
 
   s:STATE_ONON = {
-    region_state:YUL = {
+    region_state:KCN = {
       create_pop = {
         culture = khanaruk
         size = 1114400
@@ -607,7 +607,7 @@
   }
 
   s:STATE_DORNO = {
-    region_state:YUL = {
+    region_state:KCN = {
       create_pop = {
         culture = khanaruk
         size = 1010195
@@ -625,7 +625,7 @@
   }
 
   s:STATE_TOSON = {
-    region_state:YUL = {
+    region_state:KCN = {
       create_pop = {
         culture = khanaruk
         size = 1367006
@@ -643,7 +643,7 @@
   }
 
   s:STATE_TSENK = {
-    region_state:YUL = {
+    region_state:KCN = {
       create_pop = {
         culture = khanaruk
         size = 1994178
@@ -661,7 +661,7 @@
   }
 
   s:STATE_BATSI = {
-    region_state:YUL = {
+    region_state:KCN = {
       create_pop = {
         culture = khanaruk
         size = 1414992
@@ -737,7 +737,7 @@
   }
 
   s:STATE_DROKYN = {
-    region_state:YUL = {
+    region_state:ZHU = {
       create_pop = {
         culture = khanaruk
         size = 153020
@@ -755,7 +755,7 @@
   }
 
   s:STATE_KAZTHYR = {
-    region_state:YUL = {
+    region_state:ZHU = {
       create_pop = {
         culture = khanaruk
         size = 180366
@@ -809,18 +809,18 @@
   }
 
   s:STATE_ERKBALB = {
-    region_state:YUL = {
+    region_state:QON = {
       create_pop = {
         culture = khanaruk
-        size = 4000
+        size = 220492
       }
       create_pop = {
         culture = shkemger
-        size = 35500
+        size = 2255493
       }
-	  create_pop = {
+	    create_pop = {
         pop_type = slaves
-		culture = shkemger
+		    culture = shkemger
         size = 500
       }
     }
@@ -967,7 +967,7 @@
   }
 
   s:STATE_KYRZUR = {
-    region_state:YUL = {
+    region_state:TAH = {
       create_pop = {
         culture = khanaruk
         size = 423387
@@ -985,7 +985,7 @@
   }
 
   s:STATE_GROMMOK = {
-    region_state:YUL = {
+    region_state:ZHU = {
       create_pop = {
         culture = khanaruk
         size = 11727
@@ -1025,7 +1025,7 @@
   }
 
   s:STATE_KAZKYL = {
-    region_state:YUL = {
+    region_state:TAH = {
       create_pop = {
         culture = khanaruk
         size = 1077968
@@ -1079,7 +1079,7 @@
   }
 
   s:STATE_KHULANJO = {
-    region_state:YUL = {
+    region_state:TAH = {
       create_pop = {
         culture = khanaruk
         size = 1966607
@@ -1123,7 +1123,7 @@
   }
 
   s:STATE_JARGALTSAI = {
-    region_state:YUL = {
+    region_state:TAH = {
       create_pop = {
         culture = khanaruk
         size = 404411
@@ -1141,7 +1141,7 @@
   }
 
   s:STATE_YAMAKHANJU = {
-    region_state:YUL = {
+    region_state:TAH = {
       create_pop = {
         culture = khanaruk
         size = 1185491
@@ -1159,7 +1159,7 @@
   }
 
   s:STATE_KURULANDU = {
-    region_state:YUL = {
+    region_state:TAH = {
       create_pop = {
         culture = khanaruk
         size = 704804

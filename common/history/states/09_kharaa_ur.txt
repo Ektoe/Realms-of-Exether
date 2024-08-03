@@ -185,7 +185,7 @@ add_homeland = cu:puarfejiin
 
 s:STATE_GURVA = {
 	create_state = {
-		country = c:YUL
+		country = c:KCN
 		owned_provinces = { "x59EAF5" "x98C99A" "x98EAD7" "xA2C0AC" "xB3D592" "xB5E6DD" "xB7F6D3" "xC5C1B7" "xD4C261" "xF9A8C8" }
 }
 add_homeland = cu:morevnamarya
@@ -193,7 +193,7 @@ add_homeland = cu:morevnamarya
 
 s:STATE_KHONGO = {
 	create_state = {
-		country = c:YUL
+		country = c:KCN
 		owned_provinces = { "x8E93D8" "xAFDDC6" "xCE38EF" "xD0C2FA" "xD4D0F7" "xE8A974" "xFC848E" }
 }
 add_homeland = cu:morevnamarya
@@ -202,7 +202,7 @@ add_homeland = cu:shkemger
 
 s:STATE_SERGER = {
 	create_state = {
-		country = c:YUL
+		country = c:KCN
 		owned_provinces = { "x2AFDD6" "x5FC7CF" "x97F7AD" "x98D493" "xCACCAC" "xD7F15B" "xDE9F9C" "xE42BF2" "xE9C2C3" "xF39E9B" }
 }
 add_homeland = cu:morevnamarya
@@ -210,7 +210,7 @@ add_homeland = cu:morevnamarya
 
 s:STATE_BUYANT = {
 	create_state = {
-		country = c:YUL
+		country = c:TAH
 		owned_provinces = { "x38CBF5" "x59B8EC" "x60F2ED" "xBFC6BE" "xC09FD1" "xC3C5FD" "xCAB2D2" "xCDB68E" "xCDD766" "xDFD249" "xFD3BC4" "xFDEA9C" }
 }
 add_homeland = cu:morevnamarya
@@ -219,7 +219,7 @@ add_homeland = cu:sarhbalb
 
 s:STATE_GALSHA = {
 	create_state = {
-		country = c:YUL
+		country = c:KCN
 		owned_provinces = { "x1DEEF6" "x5EF7E4" "x84DC9F" "x9CA7FA" "x9FA4B6" "xAFCDF9" "xCFC0ED" "xD06CDA" "xD6B4C6" "xEB6CE6" "xEBAF7F" "xEF61CD" }
 }
 add_homeland = cu:morevnamarya
@@ -228,7 +228,7 @@ add_homeland = cu:sarhbalb
 
 s:STATE_BAIDAL = {
 	create_state = {
-		country = c:YUL
+		country = c:KCN
 		owned_provinces = { "x47EFC6" "xA3E488" "xAECAE8" "xC1D397" "xC9E9EB" "xCCD59C" "xD09E9E" "xD8D3D2" "xE487FC" "xE6D6CF" "xEDB7C8" "xFE9596" }
 }
 add_homeland = cu:morevnamarya
@@ -236,7 +236,7 @@ add_homeland = cu:morevnamarya
 
 s:STATE_ONON = {
 	create_state = {
-		country = c:YUL
+		country = c:KCN
 		owned_provinces = { "x50FDEE" "x8DE18A" "x8FE9B7" "x968CE0" "x9BD8F0" "xA8E6E1" "xE944F8" "xF2B65E" "xF6BA63" }
 }
 add_homeland = cu:morevnamarya
@@ -244,7 +244,7 @@ add_homeland = cu:morevnamarya
 
 s:STATE_DORNO = {
 	create_state = {
-		country = c:YUL
+		country = c:KCN
 		owned_provinces = { "x4EE3CA" "x60F1E6" "xB3BEFE" "xB9E8C2" "xC2BACE" "xC5EFA0" "xDE5DBF" "xE5B786" "xEC8FC9" }
 }
 add_homeland = cu:morevnamarya
@@ -252,7 +252,7 @@ add_homeland = cu:morevnamarya
 
 s:STATE_TOSON = {
 	create_state = {
-		country = c:YUL
+		country = c:KCN
 		owned_provinces = { "x8CDCE2" "xA76BF3" "xC0B3CA" "xC6B092" "xF1EBCE" "xF4BDBD" "xFAA97F" }
 }
 add_homeland = cu:morevnamarya
@@ -260,7 +260,7 @@ add_homeland = cu:morevnamarya
 
 s:STATE_TSENK = {
 	create_state = {
-		country = c:YUL
+		country = c:KCN
 		owned_provinces = { "x58F1B0" "x65CAD1" "x7FB0F5" "x80EABB" "xB0DBE9" "xB3A79D" "xBC8DB9" "xC5EBD5" "xE0B7EB" "xE9EAAF" "xF8DB40" }
 }
 add_homeland = cu:morevnamarya
@@ -268,7 +268,7 @@ add_homeland = cu:morevnamarya
 
 s:STATE_BATSI = {
 	create_state = {
-		country = c:YUL
+		country = c:KCN
 		owned_provinces = { "x2CE4F0" "x6BE9D0" "xACD57B" "xB099C6" "xC3B2EB" "xCCF370" "xEFE995" "xF489E1" "xFDEC90" }
 }
 add_homeland = cu:morevnamarya
@@ -325,7 +325,7 @@ add_homeland = cu:onisazae
 
 s:STATE_DROKYN = {
 	create_state = {
-		country = c:YUL
+		country = c:ZHU
 		owned_provinces = { "xA8F3BC" "xAC95B8" "xC2A1CC" "xCD9A96" "xD64FE6" "xDE918F" "xE4C8E3" "xE4EBE2" "xEFD6CC" "xEFF6BE" "xFDCD63" }
 }
 add_homeland = cu:atiukura
@@ -333,7 +333,7 @@ add_homeland = cu:atiukura
 
 s:STATE_KAZTHYR = {
 	create_state = {
-		country = c:YUL
+		country = c:ZHU
 		owned_provinces = { "x8AD9DD" "x8DE386" "x90D9BC" "xA49EEE" "xB7AAC4" "xBFE677" "xC8E698" "xCFBBC3" "xD0B39C" "xE7A5C2" "xEBC58F" "xEBF6C9" "xF6EF7E" }
 }
 add_homeland = cu:atiukura
@@ -373,7 +373,7 @@ add_homeland = cu:onisazae
 
 s:STATE_ERKBALB = {
 	create_state = {
-		country = c:YUL
+		country = c:QON
 		owned_provinces = { "x84E4CA" "x889CEC" "x8DE9B6" "x9AEAFB" "xB0BEC9" "xB397D0" "xD1BFF9" "xD7C284" "xE896C7" "xF390BA" "xFE0BF3" }
 }
 add_homeland = cu:shkemger
@@ -480,7 +480,7 @@ add_homeland = cu:onisazae
 
 s:STATE_KYRZUR = {
 	create_state = {
-		country = c:YUL
+		country = c:TAH
 		owned_provinces = { "x48DAFA" "x5EB6F0" "x62BEE0" "x7AFCF2" "x89D7F0" "x8AF2A8" "x8D8DF5" "x9693DB" "xA2EE9D" "xA65AF6" "xAC92F2" "xB8F2B7" "xD2AEE8" "xDF60BD" "xE674EF" }
 }
 add_homeland = cu:sarhbalb
@@ -488,7 +488,7 @@ add_homeland = cu:sarhbalb
 
 s:STATE_GROMMOK = {
 	create_state = {
-		country = c:YUL
+		country = c:ZHU
 		owned_provinces = { "x35F5CC" "x45ECCA" "x60C3F8" "x6CCBF6" "x96D8DC" "x988CD5" "x9AF5AA" "x9EEBB8" "xB7F7E4" "xBEE49C" "xBFD997" "xC3B8E7" "xC7C078" "xE3EBC7" "xE97CF1" "xF1ECD8" "xF4E07C" }
 }
 add_homeland = cu:atiukura
@@ -513,7 +513,7 @@ add_homeland = cu:onisazae
 
 s:STATE_KAZKYL = {
 	create_state = {
-		country = c:YUL
+		country = c:TAH
 		owned_provinces = { "x6DF5BA" "x8BBFD7" "xA09EC0" "xA5E48E" "xB0C588" "xB6FEC8" "xE7F86D" "xF1F89A" "xF4C960" "xF818EE" "xFA58A9" }
 }
 add_homeland = cu:sarhbalb
@@ -546,7 +546,7 @@ add_homeland = cu:yakamimbo
 
 s:STATE_KHULANJO = {
 	create_state = {
-		country = c:YUL
+		country = c:TAH
 		owned_provinces = { "x24F3F3" "x3AEBF2" "x4FF2DC" "x66EFF0" "x82FEFA" "x8CD5B4" "x9BCFF2" "xA18FC6" "xB96EF9" "xBC8FE9" "xC8B9AB" "xCA8CA1" "xCCAFEC" "xE04EF6" "xE1F9BF" "xE8EA5A" "xEF7FBA" "xFDDC43" }
 }
 add_homeland = cu:sarhbalb
@@ -573,7 +573,7 @@ add_homeland = cu:shkemger
 
 s:STATE_JARGALTSAI = {
 	create_state = {
-		country = c:YUL
+		country = c:TAH
 		owned_provinces = { "x6EE2BB" "x74FDB3" "x93ACFB" "xA386DC" "xABB8F7" "xAFD1F1" "xBBDF81" "xDF99A4" "xDFB1D7" "xEE34D8" "xF27F99" "xFE17F1" }
 }
 add_homeland = cu:sarhbalb
@@ -581,7 +581,7 @@ add_homeland = cu:sarhbalb
 
 s:STATE_YAMAKHANJU = {
 	create_state = {
-		country = c:YUL
+		country = c:TAH
 		owned_provinces = { "x1BF2F7" "x7CC5BC" "xBBAED1" "xCBC269" "xCBEFD4" "xCFC798" "xE0B4CC" "xE35DE8" "xE79581" "xF7E86D" }
 }
 add_homeland = cu:sarhbalb
@@ -589,7 +589,7 @@ add_homeland = cu:sarhbalb
 
 s:STATE_KURULANDU = {
 	create_state = {
-		country = c:YUL
+		country = c:TAH
 		owned_provinces = { "x5DB4FC" "x6DD6B3" "x83D2D6" "x8CE0C8" "x8FDFDA" "x92C1FC" "x98FECD" "x9FB1FE" "xB58ED1" "xB5E089" "xBEF6FD" "xC8B976" "xD0E8CF" "xD9E2A6" "xD9F254" "xDB68BE" "xE1F2CF" "xE5FA39" "xE8EEB9" "xF0D3F0" "xF8A1D4" "xF961E5" }
 }
 add_homeland = cu:sarhbalb
