@@ -79,7 +79,7 @@ STATE_ABAISSE_DE_MARBRUN = {
         bg_logging = 20
         bg_hunting = 12
         bg_fishing = 4
-        bg_sulfur_ming = 8
+        bg_sulfur_mining = 8
         bg_wishstone_mining = 25
 
     }
