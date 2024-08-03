@@ -15,7 +15,6 @@
 			remove_ideology = ideology_anti_clerical
 			remove_ideology = ideology_liberal
 			remove_ideology = ideology_republican
-			add_ideology = ideology_modernizer
 			add_ideology = ideology_liberal_modern
 			add_ideology = ideology_rvc_intellegentsia_magic
 			
@@ -31,10 +30,11 @@
 
 		ig:ig_trade_unions = { 
 			add_ideology = ideology_rvc_trade_unions_magic
+			remove_ideology= ideology_anti_slavery
 		}
 
 
-		ig:ig_devout= { 
+		ig:ig_devout= {
 			add_ideology = ideology_rvc_devout_magic
 
 		}
