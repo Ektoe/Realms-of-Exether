@@ -1190,12 +1190,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 1161416
+				size = 1961416
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 352420
+				size = 52420
 			}
 		}
   }
@@ -1204,12 +1204,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 4050072
+				size = 2050072
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 1123204
+				size = 23204
 			}
 		}
   }
@@ -1249,12 +1249,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 6178176
+				size = 1178176
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 1686204
+				size = 10204
 			}
 		}
   }
@@ -1272,12 +1272,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 2374632
+				size = 1374632
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 917280
+				size = 117280
 			}
 		}
   }
@@ -1426,12 +1426,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 2024340
+				size = 2124340
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 744588
+				size = 44588
 			}
 		}
   }
@@ -1463,12 +1463,7 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 3170167
-			}
-			create_pop = {
-				culture = vairian
-				religion = church_of_man
-				size = 1067036
+				size = 2170167
 			}
 			create_pop = {
 				culture = glabrekthorn
@@ -1498,12 +1493,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 4127776
+				size = 1027776
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 1745764
+				size = 45764
 			}
 		}
   }
