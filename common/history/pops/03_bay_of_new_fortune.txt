@@ -126,7 +126,7 @@
 			}
 		}
 	}
-	s:STATE_UZURIKILIMA = {
+	s:STATE_BYS_CEIRDH = {
 		region_state:XOC = {
 			create_pop = {
 				culture = cithrel
@@ -139,7 +139,7 @@
 			}
 		}
 	}
-	s:STATE_KILIMASHWARI = {
+	s:STATE_BYS_LOWAE = {
 		region_state:XOC = {
 			create_pop = {
 				culture = cithrel

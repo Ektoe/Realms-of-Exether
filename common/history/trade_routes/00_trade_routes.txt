@@ -247,55 +247,7 @@
 		}			
 	}
 # East Noricum
-	c:DRK ?= {
-		create_trade_route = {
-			goods = fabric
-			level = 2
-			target = c:DUM.market
-			direction = import
-		}	
-		create_trade_route = {
-			goods = grain
-			level = 4
-			target = c:DUM.market
-			direction = import
-		}	
-		create_trade_route = {
-			goods = small_arms
-			level = 1
-			target = c:DUM.market
-			direction = import
-		}	
-		create_trade_route = {
-			goods = artillery
-			level = 1
-			target = c:DUM.market
-			direction = import
-		}
-		create_trade_route = {
-			goods = hardwood
-			level = 1
-			target = c:DUM.market
-			direction = import
-		}
-		create_trade_route = {
-			goods = clothes
-			level = 2
-			target = c:DUM.market
-			direction = import
-		}
-		create_trade_route = {
-			goods = luxury_clothes
-			level = 2
-			target = c:DUM.market
-			direction = import
-		}	
-		create_trade_route = {
-			goods = tea
-			level = 3
-			target = c:YAN.market
-			direction = import
-		}							
+	c:DRK ?= {							
 	}	
 	c:BIE ?= {
 		create_trade_route = {
@@ -995,42 +947,11 @@
 	}
 	c:ROF ?= {
 		create_trade_route = {
-			goods = tea
-			level = 1
-			target = c:DUM.market
-			direction = import
-		}
-		create_trade_route = {
-			goods = small_arms
-			level = 1
-			target = c:DUM.market
-			direction = import
-		}	
-		create_trade_route = {
 			goods = artillery
 			level = 1
 			target = c:DUM.market
 			direction = import
-		}
-		create_trade_route = {
-			goods = clothes
-			level = 1
-			target = c:DUM.market
-			direction = import
-		}
-		create_trade_route = {
-			goods = fabric
-			level = 2
-			target = c:DUM.market
-			direction = import
-		}
-		create_trade_route = {
-			goods = clothes
-			level = 2
-			target = c:FOX.market
-			direction = import
-		}
-		
+		}	
 	}
 
 	c:YAN ?= {

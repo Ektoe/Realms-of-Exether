@@ -108,3 +108,13 @@ state_trait_holdfast_bay = {
 		state_building_naval_base_max_level_add = 10
 	}	
 }
+
+state_trait_alchemical_runoff = {
+	icon = "gfx/interface/icons/state_trait_icons/swamp.dds"
+	modifier = {
+		state_colony_growth_speed_mult = -0.9
+		state_laborers_mortality_mult = 0.25
+		state_migration_pull_mult = -0.5
+	}
+}
+

@@ -154,8 +154,9 @@ ai_strategy_resource_expansion = {
 		bg_oil_extraction = 1.25
 		bg_mining = 1.5
 		bg_iron_mining = 1.25
-		bg_logging = 1.75
+		bg_logging = 1.25
 		bg_wishstone_fields = 1.5
+		bg_coal_mining = -0.50
 	}
 	
 	subsidies = {
@@ -298,13 +299,13 @@ ai_strategy_industrial_expansion = {
 	}
 	
 	building_group_weights = {
-		bg_manufacturing = 1.25
+		bg_manufacturing = 1.50
 		bg_rubber = 1.25
 		bg_oil_extraction = 1.25
 		bg_mining = 1.25
 		bg_iron_mining = 1.25
-		bg_wishstone_fields = 1.25
-		bg_logging = 1.25		
+		bg_wishstone_fields = 1.50
+		bg_coal_mining = -0.25
 	}
 	
 	weight = {

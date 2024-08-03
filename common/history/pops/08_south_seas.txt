@@ -556,33 +556,15 @@
 		}
 	}
 
-	s:STATE_ALAHAZOTRA = {
-		region_state:DEV = {
-			create_pop = {
-				culture = jazamandroso
-				size = 466396
-			}
-			create_pop = {
-				culture = lacertian
-				size = 17000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lacertian
-				size = 3000
-			}
-		}
-	}
-
 	s:STATE_IVONDRO = {
 		region_state:DEV = {
 			create_pop = {
 				culture = jazamandroso
-				size = 87792
+				size = 577792
 			}
 			create_pop = {
 				culture = lacertian
-				size = 28300
+				size = 38300
 			}
 			create_pop = {
 				pop_type = slaves
@@ -667,7 +649,7 @@
 		}
 	}
 
-	s:STATE_SAHONDRA = {
+	s:STATE_SUISGOIL = {
 		region_state:LIR = {
 			create_pop = {
 				culture = lacertian
@@ -689,7 +671,7 @@
 		}
 	}
 
-	s:STATE_TOMBONT = {
+	s:STATE_YNTHOLG = {
 		region_state:LIR = {
 			create_pop = {
 				culture = cithrel
@@ -711,7 +693,7 @@
 		}
 	}
 
-	s:STATE_IVOLOINA = {
+	s:STATE_MASC_PEIW = {
 		region_state:LIR = {
 			create_pop = {
 				culture = cithrel
@@ -725,7 +707,7 @@
 	}
 
 	s:STATE_MARITIMLIS = {
-		region_state:LEM = {
+		region_state:VHA = {
 			create_pop = {
 				culture = hulutit
 				size = 347000
@@ -738,7 +720,7 @@
 	}
 
 	s:STATE_APLUKACAL = {
-		region_state:LEM = {
+		region_state:VHA = {
 			create_pop = {
 				culture = hulutit
 				size = 455608
@@ -770,7 +752,7 @@
 	}
 
 	s:STATE_LAIVINMAR = {
-		region_state:MYK = {
+		region_state:SAE = {
 			create_pop = {
 				culture = akmuociai
 				size = 266908
@@ -792,7 +774,7 @@
 	}
 
 	s:STATE_VANDECATAL = {
-		region_state:LEM = {
+		region_state:VHA = {
 			create_pop = {
 				culture = hulutit
 				size = 75000
@@ -805,7 +787,7 @@
 	}
 
 	s:STATE_ZVEJYCATIA = {
-		region_state:LEM = {
+		region_state:VHA = {
 			create_pop = {
 				culture = hulutit
 				size = 147000
@@ -823,7 +805,7 @@
 	}
 
 	s:STATE_PLACIUKATAL = {
-		region_state:PEL = {
+		region_state:JUX = {
 			create_pop = {
 				culture = akmuociai
 				size = 220000
@@ -845,7 +827,7 @@
 	}
 
 	s:STATE_UPESTARR = {
-		region_state:LEM = {
+		region_state:VHA = {
 			create_pop = {
 				culture = hulutit
 				size = 97000
@@ -858,7 +840,7 @@
 	}
 
 	s:STATE_SALASLITVA = {
-		region_state:PEL = {
+		region_state:JUX = {
 			create_pop = {
 				culture = akmuociai
 				size = 130000
@@ -880,7 +862,7 @@
 	}
 
 	s:STATE_KRIOKLYKATAL = {
-		region_state:LEM = {
+		region_state:VHA = {
 			create_pop = {
 				culture = hulutit
 				size = 197000
@@ -902,7 +884,7 @@
 	}
 
 	s:STATE_SMILTYNECAT = {
-		region_state:DEL = {
+		region_state:VHO = {
 			create_pop = {
 				culture = akmuociai
 				size = 32000
@@ -919,7 +901,7 @@
 	}
 
 	s:STATE_UOSTOCATAL = {
-		region_state:PEL = {
+		region_state:JUX = {
 			create_pop = {
 				culture = akmuociai
 				size = 100000
@@ -932,7 +914,7 @@
 	}
 
 	s:STATE_AKVALITVA = {
-		region_state:DEL = {
+		region_state:VHO = {
 			create_pop = {
 				culture = akmuociai
 				size = 332100
@@ -954,7 +936,7 @@
 	}
 
 	s:STATE_RAMUMARI = {
-		region_state:MYK = {
+		region_state:SAE = {
 			create_pop = {
 				culture = akmuociai
 				size = 325608
@@ -985,7 +967,7 @@
 		}
 	}
 
-	s:STATE_VEDAMALA = {
+	s:STATE_LHEIPH_VA = {
 		region_state:COC = {
 			create_pop = {
 				culture = cithrel
@@ -1030,7 +1012,7 @@
 		}
 	}
 
-	s:STATE_MANASI = {
+	s:STATE_MYCOLGA = {
 		region_state:COC = {
 			create_pop = {
 				culture = cithrel

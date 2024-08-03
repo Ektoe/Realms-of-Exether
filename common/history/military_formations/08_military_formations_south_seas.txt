@@ -1,5 +1,5 @@
 ﻿MILITARY_FORMATIONS = {
-	c:PEL ?= {
+	c:JUX ?= {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_vindon_narrows
@@ -48,7 +48,7 @@
 		}
 	}
 	
-	c:LEM ?= {
+	c:VHA ?= {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_vindon_narrows
@@ -110,13 +110,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_VEDAMALA
+				state_region = s:STATE_LHEIPH_VA
 				count = 4
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_VEDAMALA
+				state_region = s:STATE_LHEIPH_VA
 				count = 1
 			}
 			save_scope_as = coc_army
@@ -138,13 +138,13 @@
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
-				state_region = s:STATE_VEDAMALA
+				state_region = s:STATE_LHEIPH_VA
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_VEDAMALA
+				state_region = s:STATE_LHEIPH_VA
 				count = 4
 			}
 			save_scope_as = coc_fleet
@@ -167,13 +167,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_KLONGLALA
+				state_region = s:STATE_ODADRUEL
 				count = 3
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_KLONGLALA
+				state_region = s:STATE_ODADRUEL
 				count = 1
 			}
 
@@ -196,7 +196,7 @@
 		
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
-				state_region = s:STATE_KLONGLALA
+				state_region = s:STATE_ODADRUEL
 				count = 2
 			}
 			save_scope_as = xoc_fleet

@@ -55,7 +55,7 @@ LIR = {
 	tier = principality
 
 	cultures = { cithrel } 
-	capital = STATE_IVOLOINA
+	capital = STATE_MASC_PEIW
 }
 
 #Senlindao
@@ -199,8 +199,8 @@ NOT = {
 	capital = STATE_LEMBONA
 }
 
-#Delphornai
-DEL = {
+#Vholssieren
+VHO = {
 	color = rgb{ 0 72 160 } 
 
 	country_type = unrecognized
@@ -210,8 +210,8 @@ DEL = {
 	capital = STATE_AKVALITVA
 }
 
-#Pelophrastia
-PEL = {
+#Juxjthraaria
+JUX = {
 	color = rgb{ 100 72 160 } 
 
 	country_type = unrecognized
@@ -221,8 +221,8 @@ PEL = {
 	capital = STATE_SALASLITVA
 }
 
-#Mykolamphi
-MYK = {
+#Straesluaar
+SAE = {
 	color = rgb{ 80 132 70 } 
 
 	country_type = unrecognized
@@ -233,8 +233,8 @@ MYK = {
 }
 
 
-#Lembuapi
-LEM = {
+#Vhaulirb
+VHA = {
 	color = rgb{ 100 132 20 } 
 
 	country_type = unrecognized
@@ -252,7 +252,7 @@ COC = {
 
 	tier = principality
 	cultures = { cithrel } 
-	capital = STATE_VEDAMALA
+	capital = STATE_LHEIPH_VA
 }
 
 #Xochihip
@@ -263,7 +263,7 @@ XOC = {
 
 	tier = principality
 	cultures = { cithrel } 
-	capital = STATE_VEDAMALA
+	capital = STATE_LHEIPH_VA
 }
 
 #Kurme

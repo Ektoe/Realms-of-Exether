@@ -8,7 +8,6 @@
 		STATE_SNAARGRACHT
 		STATE_KLINGELBERG
 		STATE_KLINGELWEIDE
-		STATE_SPRONKELGROEN
 		STATE_VONKENDAM
 	}
 	required_num_states = 8
@@ -79,9 +78,9 @@ GDS = {
 	states = { 
 		STATE_ORCBANE_PASS
 		STATE_ORCBANE_PASS_2
-                STATE_PENDYM_GWYN
-                STATE_PENDYM_GWYN_2
-                STATE_PEARFIELDS
+        STATE_PENDYM_GWYN
+        STATE_PENDYM_GWYN_2
+        STATE_PEARFIELDS
 	}
 	required_num_states = 4
 

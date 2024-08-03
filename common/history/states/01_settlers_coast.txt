@@ -200,7 +200,7 @@ add_homeland = cu:rivierling
 s:STATE_VOZMEAD_BORDERLANDS = {
     create_state = {
         country = c:TLD
-        owned_provinces = { "x0BEFFB" "x30EFF4" "x58BEF1" "x6CDBDF" "x6FC8D0" "x9BF7A7" "xB6ADA6"  "xBBD5EA" "xBD56FC" "xC677CF" "xC9989C"  "xDEC5A4" "xE7AC99" "xE775E9" "xF4DDFD" "xF892D1" "xFDEAF9" }
+        owned_provinces = { "x0BEFFB" "x30EFF4" "x58BEF1" "x6CDBDF" "x6FC8D0" "x9BF7A7" "xB6ADA6"  "xBBD5EA" "xBD56FC" "xC677CF" "xC9989C"  "xDEC5A4" "xE7AC99" "xE775E9" "xF4DDFD" "xF892D1" }
 }
 
     add_homeland = cu:tolorr
@@ -449,7 +449,7 @@ s:STATE_VICEROYS_PEARL = {
 
 s:STATE_FAR_SHORE = {
     create_state = {
-        country = c:THI
+        country = c:LEO
         owned_provinces = { "x7DF9FE" "x83B6E8" "x96F8A3" "x98E882" "x99C49F" "xA1B7A8" "xA7C2BB" "xA7E07C" "xB4BA8F" "xB8F562" "xBBACA2" "xBED978" "xD0C669" "xD2A785" "xD9EE78" "xE082F5" "xF595E7" }
 }
 add_homeland = cu:bossardi
@@ -457,7 +457,7 @@ add_homeland = cu:bossardi
 
 s:STATE_FAR_SHORE_2 = {
     create_state = {
-        country = c:THI
+        country = c:LEO
         owned_provinces = { "x3FC9F7" "x5EE4D0" "x6CB9E9" "xAFEF89" "xB6F08A" "xC5D8B9" "xC6FEAA" "xC7DE75" "xCAC0AB" "xD5F23D" "xDBDE43" "xEE67B3" "xF0CE4A" "xF3CB75" "xF3D47C" "xF4E6EB" "xF6A4C6" "xFAFBEA" "xFBE2B6" "xFDAF62" }
 }
 add_homeland = cu:bossardi
@@ -785,7 +785,7 @@ s:STATE_LHIPH = {
 add_homeland = cu:aridrun
 }
 
-s:STATE_ELF4 = {
+s:STATE_KAATH_SERINE = {
     create_state = {
         country = c:VOZ
         owned_provinces = { "x4CFECE" "x7DF886" "x9FF0DE" "xA09AD5" "xA3D6ED" "xBF45F2" "xCDB396" "xCDF773" "xD1AC7C" "xD374B3" "xDFE1CD" "xEB8BE2" "xFDF5EF" }

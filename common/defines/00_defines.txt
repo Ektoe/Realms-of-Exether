@@ -44,8 +44,8 @@ NCountry = {
 	INCORPORATION_TIME_SAME_HERITAGE = 5			# Years if the state is a Homeland of a culture that matches of one of the country's primary cultures' Heritage traits
 	INCORPORATION_TIME_SAME_TRAIT = 10				# Years if the state is a Homeland of a culture with any trait in common with a country's primary cultures
 	INCORPORATION_TIME_NO_MATCH = 20				# Years if the state's Homeland cultures have nothing in common with the country's primary cultures
-	JOURNAL_ENTRY_UPDATE_ACTIVE = 8					# Number of ticks between each update of Active (Possible) Journal Entries, can be overriden on journal entry type
-	JOURNAL_ENTRY_UPDATE_INACTIVE = 28				# Number of ticks between each update of Inactive Journal Entries, can be overriden on journal entry type
+	JOURNAL_ENTRY_UPDATE_ACTIVE = 16				# Number of ticks between each update of Active (Possible) Journal Entries, can be overriden on journal entry type
+	JOURNAL_ENTRY_UPDATE_INACTIVE = 56				# Number of ticks between each update of Inactive Journal Entries, can be overriden on journal entry type
 }
 
 NPolitics = {
@@ -254,7 +254,7 @@ NEconomy = {
 
 	# The number of times the initializewealth function is run during setup
 	# The more times you run this the more accurate setup will be for Pop wealth compared to income
-	NUM_TIMES_TO_INITIALIZE_WEALTH = 10
+	NUM_TIMES_TO_INITIALIZE_WEALTH = 20
 
 	COUNTRY_GDP_MODIFIER_DIVISOR = 1000					# Scale the country_gdp static modifier by this divisor
 	COUNTRY_GDP_MODIFIER_MAX_MULTIPLIER = 200000		# The country_gdp modifier multiplier cannot be higher than this
@@ -1452,9 +1452,9 @@ NTravelNetwork = {
 	FLEET_CONNECTION_DOCKING_COST = 10				# Fixed docking/undocking cost for going from a harbor node to a port node (overrides docking connection length)
 	FLEET_CONNECTION_STRAIT_CROSSING_COST = 100		# Fixed additional cost for crossing a strait connection (unused by fleets)
 
-	DIRECT_CONNECTION_NODE_MAX_NODES = 2	#exether, fixes bug where navies cross impassable seas to enter air tiles connected to a canal		# Only search the closest X travel nodes for direct line map travel
-	DIRECT_CONNECTION_NODE_SEARCH_DISTANCE = 10 #exether	# Default distance allowed to pathfind in a direct line from a (start/target) map point to a travel node (if no valid are found, it is expanded)
-	DIRECT_CONNECTION_MAP_MAX_DISTANCE = 2 		#exether # Maximum distance allowed to pathfind in a direct line between start and target map points directly
+	DIRECT_CONNECTION_NODE_MAX_NODES = 10	#exether, fixes bug where navies cross impassable seas to enter air tiles connected to a canal		# Only search the closest X travel nodes for direct line map travel
+	DIRECT_CONNECTION_NODE_SEARCH_DISTANCE = 1200 #exether	# Default distance allowed to pathfind in a direct line from a (start/target) map point to a travel node (if no valid are found, it is expanded)
+	DIRECT_CONNECTION_MAP_MAX_DISTANCE = 200		#exether # Maximum distance allowed to pathfind in a direct line between start and target map points directly
 
 	STRAIT_CROSSING_NODE_CREATION_DISTANCE = 5		# Minimum distance between travel nodes, when considering to insert a new travel node for strait-connection
 

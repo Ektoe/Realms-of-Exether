@@ -58,20 +58,28 @@ on_monthly_pulse_country = {
 		concord_resolution_events.103
 	}
 	effect = {
-		change_global_variable = {
-			name = veil_integrity_var
-			add = var:veil_damage
+		if = {
+			limit = {
+				this = {
+					has_variable = veil_damage
+				}
+			}
+			change_global_variable = {
+				name = veil_integrity_var
+				add = var:veil_damage
+			}
+			set_variable = {
+				name = veil_damage
+				value = country_veil_damage
+			}
+			change_global_variable = {
+				name = veil_integrity_var
+				subtract = var:veil_damage
+			}
+	
+			trigger_event = { id = unable_to_enact.1 }
 		}
-		set_variable = {
-			name = veil_damage
-			value = country_veil_damage
-		}
-		change_global_variable = {
-			name = veil_integrity_var
-			subtract = var:veil_damage
-		}
-
-		trigger_event = { id = unable_to_enact.1 }
+		
 	}
 	on_actions = { # delay ensures events won't fire simultaneously
 		coup_monthly_events
@@ -102,7 +110,9 @@ calculate_veil_top_damage = {
 		}
 		ordered_country = {
 			limit = {
-				is_revolutionary = no
+				this = {
+					has_variable = veil_damage
+				}		
 			}
 			order_by = var:veil_damage
 			max = 3

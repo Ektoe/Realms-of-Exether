@@ -840,7 +840,7 @@ STATE_VIVARI_SHORES = {
     provinces = { "xE489FE" }
 }
 
-STATE_SAHARANDO_SKIES = {
+STATE_HYDOBRAN_SKIES = {
     id = 3187
     provinces = { "x19BA4B" }
 }
@@ -1145,4 +1145,10 @@ STATE_SALTY_LANDING = {
     #where we dropping, boys?
     id = 3244
     provinces = { "x7f0656" }
+}
+
+STATE_SHIPSHATTER_REEF_02 = {
+    id = 3245
+    provinces = { "xd64578" }
+    impassable = { "xd64578" }
 }

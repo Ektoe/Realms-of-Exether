@@ -214,18 +214,10 @@ s:STATE_BELENDLE = {
 	add_homeland = cu:east_lacertian
 }
 
-s:STATE_ALAHAZOTRA = {
-	create_state = {
-		country = c:DEV
-		owned_provinces = { "x6FA5E7" "x98E9CC" "xD4CED6" "xE8F09D" }
-}
-add_homeland = cu:jazamandroso
-}
-
 s:STATE_IVONDRO = {
 	create_state = {
 		country = c:DEV
-		owned_provinces = { "x73E9E2" "x86FCDC" "xAECCEA" "xBCA8FE" "xC3F6DC" "xE298E6" "xE7C1BF" "xE9E6EB" "xEC6CD7" "xFD54A7" }
+		owned_provinces = { "x6FA5E7" "x73E9E2" "x86FCDC" "x98E9CC" "xAECCEA" "xBCA8FE" "xC3F6DC" "xD4CED6" "xE298E6" "xE7C1BF" "xE8F09D" "xE9E6EB" "xEC6CD7" "xFD54A7" }
 }
 add_homeland = cu:jazamandroso
 }
@@ -263,7 +255,7 @@ s:STATE_TSIMIHAVANA = {
 add_homeland = cu:lacertian
 }
 
-s:STATE_SAHONDRA = {
+s:STATE_SUISGOIL = {
 	create_state = {
 		country = c:LIR
 		owned_provinces = { "xCFF6C0" "xDDEFDE" "xEA7BA4" "xF56EDA" }
@@ -280,7 +272,7 @@ s:STATE_MAROMITA = {
 add_homeland = cu:lacertian
 }
 
-s:STATE_TOMBONT = {
+s:STATE_YNTHOLG = {
 	create_state = {
 		country = c:LIR
 		owned_provinces = { "x45F8CC" "x8DD4D6" "xA172E5" "xB6C797" "xC8E97D" "xF3EFB4" "xF9FD1D" "xFDF243" }
@@ -296,7 +288,7 @@ s:STATE_ANKAZOBE = {
 add_homeland = cu:west_lacertian
 }
 
-s:STATE_IVOLOINA = {
+s:STATE_MASC_PEIW = {
 	create_state = {
 		country = c:LIR
 		owned_provinces = { "x9AD398" "x9E98F4" "xCFB7CD" "xE0DD76" "xF0A4A1" "xA0EAF0" "xB59DE3" "xEBE4DE" }
@@ -306,7 +298,7 @@ add_homeland = cu:cithrel
 
 s:STATE_MARITIMLIS = {
 	create_state = {
-		country = c:LEM
+		country = c:VHA
 		owned_provinces = { "x58C7E6" "x9FD093" "xAA8EE8" "xACB7EB" "xBAB6C4" "xBCB896" "xC181D0" "xCDE0ED" "xD65AE0" "xE7A3B3" "xEE9FDB" "xF054C2" "xF0D04C" "xFAF248" "xFE75E2" }
 }
 add_homeland = cu:hulutit
@@ -314,7 +306,7 @@ add_homeland = cu:hulutit
 
 s:STATE_APLUKACAL = {
 	create_state = {
-		country = c:LEM
+		country = c:VHA
 		owned_provinces = { "x21DDFE" "x9ACD9D" "xB1BDE1" "xC3B4B4" "xCDF03B" "xF4EBFD" "xF78A8F" }
 }
 add_homeland = cu:west_lacertian
@@ -339,7 +331,7 @@ add_homeland = cu:west_lacertian
 
 s:STATE_LAIVINMAR = {
 	create_state = {
-		country = c:MYK
+		country = c:SAE
 		owned_provinces = { "x3CE5DF" "x82AEC5" "xA89BD9" "xB5A2B3" "xB8D976" "xBDC6C2" "xC09E9F" "xCEE2FD" "xF3E02A" "xFC769A" }
 }
 add_homeland = cu:hulutit
@@ -348,7 +340,7 @@ add_homeland = cu:akmuociai
 
 s:STATE_VANDECATAL = {
 	create_state = {
-		country = c:LEM
+		country = c:VHA
 		owned_provinces = { "x51FCC2" "x7ACEE9" "x85F6D3" "x8CC9E7" "x93CDCE" "xB3FDB4" "xD8CDE5" "xD9BDC1" "xECA27A" "xFAB5F0" }
 }
 add_homeland = cu:hulutit
@@ -356,7 +348,7 @@ add_homeland = cu:hulutit
 
 s:STATE_ZVEJYCATIA = {
 	create_state = {
-		country = c:LEM
+		country = c:VHA
 		owned_provinces = { "x68D4D5" "x7DE499" "xA4FAE8" "xB7D6A7" "xBED6A8" "xD2EAF1" "xD5B881" "xDAFCE7" "xDD97A2" "xE5AA80" "xE7F0DE" "xEAA08B" }
 }
 add_homeland = cu:hulutit
@@ -364,7 +356,7 @@ add_homeland = cu:hulutit
 
 s:STATE_PLACIUKATAL = {
 	create_state = {
-		country = c:PEL
+		country = c:JUX
 		owned_provinces = { "x5BF5F9" "xCADBCE" "xCAEEF4" "xD4A589" "xD552FC" "xD9E088" "xF94FBA" "xFBA881" }
 }
 add_homeland = cu:akmuociai
@@ -372,7 +364,7 @@ add_homeland = cu:akmuociai
 
 s:STATE_UPESTARR = {
 	create_state = {
-		country = c:LEM
+		country = c:VHA
 		owned_provinces = { "x54E3F2" "xC870FE" "xCFD9E5" "xDAF6C2" "xDF55EB" "xE2F03E" "xF0C6E5" "xF59E9C" }
 }
 add_homeland = cu:hulutit
@@ -380,7 +372,7 @@ add_homeland = cu:hulutit
 
 s:STATE_SALASLITVA = {
 	create_state = {
-		country = c:PEL
+		country = c:JUX
 		owned_provinces = { "x73A6E0" "xADEB6C" "xADFDEB" "xC5C18D" "xC9D1E7" "xCA82EB" "xE949EE" "xEBF744" "xEEF01F" }
 }
 add_homeland = cu:akmuociai
@@ -396,7 +388,7 @@ add_homeland = cu:west_lacertian
 
 s:STATE_KRIOKLYKATAL = {
 	create_state = {
-		country = c:LEM
+		country = c:VHA
 		owned_provinces = { "x9FFDED" "xBE77D6" "xBFA1D7" "xD44EE1" "xD4C3DD" "xE1BF9F" "xEE5AC0" "xEEA0C2" "xEFE5AE" "xF6A7AB" "xFECAB0" }
 }
 add_homeland = cu:hulutit
@@ -412,7 +404,7 @@ add_homeland = cu:west_lacertian
 
 s:STATE_SMILTYNECAT = {
 	create_state = {
-		country = c:DEL
+		country = c:VHO
 		owned_provinces = { "x96BAA6" "x9FA3BA" "xA6EF94" "xAB7CD5" "xCB4BE1" "xD3A6B2" "xE18C93" "xE2C45B" "xEEB4F7" "xF366F7" "xF3ADFA" "xF5B191" "xF9D9D3" }
 }
 add_homeland = cu:akmuociai
@@ -420,7 +412,7 @@ add_homeland = cu:akmuociai
 
 s:STATE_UOSTOCATAL = {
 	create_state = {
-		country = c:PEL
+		country = c:JUX
 		owned_provinces = { "x82D7ED" "xABC4C4" "xAFFBA8" "xB2BEBA" "xC74EF1" "xD8F7C3" "xD975D5" "xDFCBAB" "xEB7FA0" }
 }
 add_homeland = cu:akmuociai
@@ -428,7 +420,7 @@ add_homeland = cu:akmuociai
 
 s:STATE_AKVALITVA = {
 	create_state = {
-		country = c:DEL
+		country = c:VHO
 		owned_provinces = { "x86B0C7" "x9CE5CF" "xA4B9CB" "xB7CDF1" "xC1B284" "xC2BFC9" "xD16EBC" "xD4FDAD" "xDBD059" "xDEB3B8" "xE21FFD" "xE2A87C" "xE35BFB" "xE742F8" "xED4CCD" "xEFA8AE" "xF7C351" "xFAE15D" "xFBD4EC" }
 }
 add_homeland = cu:akmuociai
@@ -436,7 +428,7 @@ add_homeland = cu:akmuociai
 
 s:STATE_RAMUMARI = {
 	create_state = {
-		country = c:MYK
+		country = c:SAE
 		owned_provinces = { "x4ACAF6" "x5CCBDE" "x9DB5B6" "xA5C7CE" "xA9C5F7" "xAAB6F7" "xB5C0B7" "xB5CAEA" "xB6DADF" "xE762CA" "xEDE072" "xF1CA56" "xF76F91" }
 }
 add_homeland = cu:akmuociai
@@ -450,7 +442,7 @@ s:STATE_RANJITA = {
 add_homeland = cu:west_lacertian
 }
 
-s:STATE_VEDAMALA = {
+s:STATE_LHEIPH_VA = {
 	create_state = {
 		country = c:COC
 		owned_provinces = { "xA774E3" "x78AFF7" "xCE8FA7" "xDEEAD7" "xF092C2" "xF1F81B" "xF98EED" "xFCB37A" "x71C4CA" "x8085FC" "x8CAFE2" "xB5B68F" "xC857E5" "xD82BF6" "xF466BF" }
@@ -490,7 +482,7 @@ s:STATE_MILINDRA = {
 add_homeland = cu:west_lacertian
 }
 
-s:STATE_MANASI = {
+s:STATE_MYCOLGA = {
 	create_state = {
 		country = c:COC
 		owned_provinces = { "x6DBEF5" "x6EE2E9" "x90CFBA" "xA98FC8" "xAFB2C9" "xB68EC5" "xB78FF5" "xCF62EA" "xDCC696" "xE6F338" "xEBE371" }

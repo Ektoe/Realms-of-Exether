@@ -1227,7 +1227,7 @@ STATE_SWAHATHAI = {
     }
     naval_exit_id = 3094
 }
-STATE_KLONGLALA = {
+STATE_ODADRUEL = {
     id = 2502
     subsistence_building = "building_subsistence_orchards"
     provinces = { "x93DEBB" "xA8C7C8" "xAAF8EF" "xC390D0" "xC4D284" "xC5D586" "xC67FB5" "xD4D29D" "xDDC9C9" "xE6F87E" "xEE93BF" }
@@ -1355,7 +1355,7 @@ STATE_THASAMAKI = {
     }
     naval_exit_id = 3015
 }
-STATE_SAWABARA = {
+STATE_NOLOGO_RULL = {
     id = 2508
     subsistence_building = "building_subsistence_rice_paddies"
     provinces = { "x3EEADB" "x50F5EA" "x5BC2D9" "x78F09E" "x7CE4AC" "x7D99EF" "x91DC9F" "x94C6F4" "x95AFBE" "x95D9D6" "x96FC99" "x9AEBE8" "x9CC1D7" "xA09AC6" "xA2E699" "xA6A3EF" "xC1CE9D" "xC4D97C" "xC9C0E5" "xCAF43E" "xCBDC52" "xD4AC78" "xD7C96F" "xDFE296" "xE2D941" "xE5C665" "xE5CFFA" "xE755E3" "xE7E32B" "xE8E947" "xEAA375" "xECA0BE" "xEEE0D8" "xF4AFB2" "xF5E2A1" "xF98A91" "xFC06FA" }
@@ -1376,7 +1376,7 @@ STATE_SAWABARA = {
     }
     naval_exit_id = 3085
 }
-STATE_KISITONG = {
+STATE_NOLOGO_VELPH = {
     id = 2509
     subsistence_building = "building_subsistence_farms"
     provinces = { "x5FF1EB" "x62F1F5" "x64F8D0" "x66E4C3" "x7FF7F0" "x8BE490" "xA098C0" "xA580F2" "xB8D0B0" "xCFB0E8" "xD49D9C" "xD5DA51" "xDB78EB" "xDFAA90" "xEED0E6" "xFBF1F1" }
@@ -2476,7 +2476,6 @@ STATE_KRULHOVEN = {
     farm = xF8B0DE
     mine = xF6BF67
     wood = xDC69C2
-    impassable = { "xDC69C2" }
     arable_land = 30
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_vineyard_plantations" }
     capped_resources = {
@@ -3367,7 +3366,6 @@ STATE_ELZEKOEPEL = {
     id = 2814
     subsistence_building = "building_subsistence_farms"
     provinces = { "x71FBD3" "x88C5DA" "x9FC5CA" "xACD7AA" "xB0C4BF" "xB19BB3" "xBED5EE" "xC3C88D" "xC3E1F8" "xC5A1C5" "xD6869C" "xF987F0" "xFAF1EC" }
-    port = xFAF1EC
     city = xF987F0
     farm = xD6869C
     mine = xC5A1C5
@@ -3464,35 +3462,35 @@ STATE_NACHTSIMMER = {
 #     }
 #     naval_exit_id = 3005
 # }
-STATE_SINNEBRAN = {
-    id = 2820
-    subsistence_building = "building_subsistence_orchards"
-    provinces = { "xC2ADAB" "xC8C6E2" "xEAF76E" "xEC4DFA" "xF69E79" "xFC79D6" }
-    port = xFC79D6
-    city = xF69E79
-    farm = xEC4DFA
-    mine = xEAF76E
-    wood = xC8C6E2
-    arable_land = 10
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_vineyard_plantations" "bg_songberry_plantations" }
-    capped_resources = {
-        bg_logging = 4
-    }
-    naval_exit_id = 3135
-}
+# STATE_SINNEBRAN = {
+#     id = 2820
+#     subsistence_building = "building_subsistence_orchards"
+#     provinces = {}
+#     port = xFC79D6
+#     city = xF69E79
+#     farm = xEC4DFA
+#     mine = xEAF76E
+#     wood = xC8C6E2
+#     arable_land = 10
+#     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_vineyard_plantations" "bg_songberry_plantations" }
+#     capped_resources = {
+#         bg_logging = 4
+#     }
+#     naval_exit_id = 3135
+# }
 STATE_SKIMERWALD = {
     id = 2821
     subsistence_building = "building_subsistence_orchards"
-    provinces = { "x4CDFD8" "x95EAEC" "x98A3F9" "x9BD890" "x9CC6CA" "xB2BABD" "xC2E64D" "xD09BA9" "xD1D4DB" "xD285EE" "xE2B5EB" "xF2F8DF" "xFB4BF8" }
+    provinces = { "x4CDFD8" "x95EAEC" "x98A3F9" "x9BD890" "x9CC6CA" "xB2BABD" "xC2ADAB" "xC2E64D" "xC8C6E2" "xD09BA9" "xD1D4DB" "xD285EE" "xE2B5EB" "xF2F8DF" "xF69E79" "xFB4BF8" }
     port = x95EAEC
     city = xFB4BF8
     farm = xF2F8DF
     mine = xE2B5EB
     wood = xD285EE
-    arable_land = 30
+    arable_land = 42
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_vineyard_plantations" "bg_songberry_plantations" }
     capped_resources = {
-        bg_logging = 8
+        bg_logging = 12
         bg_fishing = 7
     }
     naval_exit_id = 3005
@@ -3500,7 +3498,7 @@ STATE_SKIMERWALD = {
 STATE_STREAMFLAMME = {
     id = 2822
     subsistence_building = "building_subsistence_orchards"
-    provinces = { "x4EEAFD" "x8DFA8E" "xA5EEB5" "xC883F2" "xCFAD95" "xEB33F0" "xEF8991" "xFBAD6B" }
+    provinces = { "x4EEAFD" "x8DFA8E" "xA5EEB5" "xC883F2" "xCFAD95" "xEAF76E" "xEB33F0" "xEC4DFA" "xEF8991" "xFBAD6B" "xFC79D6" }
     port = x4EEAFD
     city = xFBAD6B
     farm = xEF8991

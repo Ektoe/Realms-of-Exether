@@ -277,3 +277,12 @@ goods_output_fertilizer_mult = {
 		ai_value=0
 	}
 }
+
+goods_output_coal_mult = {
+	decimals=0
+	color = good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}

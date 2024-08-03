@@ -1344,7 +1344,7 @@
 			}
 		}
   }
-  s:STATE_KLONGLALA = {
+  s:STATE_ODADRUEL = {
 	region_state:XOC = {
 		create_pop = {
 			culture = cithrel
@@ -1462,7 +1462,7 @@
 			}
 		}
   }
-  s:STATE_SAWABARA = {
+  s:STATE_NOLOGO_RULL = {
 	region_state:COC = {
 		create_pop = {
 			culture = cithrel
@@ -1470,7 +1470,7 @@
 		}
 	}
   }
-  s:STATE_KISITONG = {
+  s:STATE_NOLOGO_VELPH = {
 	region_state:COC = {
 		create_pop = {
 			culture = cithrel
@@ -3326,19 +3326,11 @@
 		}
 	}
   }
-  s:STATE_SINNEBRAN = {
-	region_state:SEE = {
-		create_pop = {
-			culture = stranfolk
-			size = 157624
-		}
-	}
-  }
   s:STATE_SKIMERWALD = {
 	region_state:SEE = {
 		create_pop = {
 			culture = stranfolk
-			size = 466330
+			size = 626330
 		}
 	}
   }

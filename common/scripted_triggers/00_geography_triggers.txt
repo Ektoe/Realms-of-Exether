@@ -481,7 +481,7 @@ no_beaches = {
 #⠀⠀⠀⠀⠁⠇⠡⠩⡫⢿⣝⡻⡮⣒⢽⠋⠀⠀
 is_coastal = yes
 
-exether_is_coastal = no
+check_is_coastal = no
 }
 
 exether_is_coastal = {
@@ -720,13 +720,13 @@ exether_is_coastal = {
 			state_region = s:STATE_KLONGBARIDI
 			state_region = s:STATE_MAJIPEMBE
 			state_region = s:STATE_CHANGAVUTA
-			state_region = s:STATE_KLONGLALA
-			state_region = s:STATE_KILIMASHWARI
-			state_region = s:STATE_UZURIKILIMA
-			state_region = s:STATE_SAWABARA
-			state_region = s:STATE_KISITONG
-			state_region = s:STATE_VEDAMALA
-			state_region = s:STATE_MANASI
+			state_region = s:STATE_ODADRUEL
+			state_region = s:STATE_BYS_LOWAE
+			state_region = s:STATE_BYS_CEIRDH
+			state_region = s:STATE_NOLOGO_RULL
+			state_region = s:STATE_NOLOGO_VELPH
+			state_region = s:STATE_LHEIPH_VA
+			state_region = s:STATE_MYCOLGA
 			state_region = s:STATE_MILINDRA
 			state_region = s:STATE_RANJITA
 			state_region = s:STATE_SUSHOBHANA
@@ -859,7 +859,7 @@ exether_is_coastal = {
 			state_region = s:STATE_MERACIEL_AUBELAC
 			state_region = s:STATE_SUNKEN_CLIFFS
 			state_region = s:STATE_VOZMEAD_LOWLANDS
-			state_region = s:STATE_ELF4
+			state_region = s:STATE_KAATH_SERINE
 			state_region = s:STATE_LHIPH
 			state_region = s:STATE_CINPHNPHAINN
 			state_region = s:STATE_TOPHNATH
@@ -900,8 +900,8 @@ exether_is_coastal = {
 			state_region = s:STATE_FIANARIVO
 			state_region = s:STATE_VAROTSOA
 			state_region = s:STATE_IVONDRO
-			state_region = s:STATE_IVOLOINA
-			state_region = s:STATE_TOMBONT
+			state_region = s:STATE_MASC_PEIW
+			state_region = s:STATE_YNTHOLG
 			state_region = s:STATE_ANKAZOBE
 
 			state_region = s:STATE_UMAGAMA
@@ -1077,4 +1077,8 @@ exether_is_coastal = {
 		} 
 	}
 			
+}
+
+check_is_coastal = {
+	has_variable = exe_is_coastal
 }

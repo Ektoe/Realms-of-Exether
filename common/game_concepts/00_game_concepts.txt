@@ -1346,6 +1346,8 @@ concept_decay = {}
 
 concept_sea_node = {}
 
+concept_supply_node = {}
+
 concept_exile = {}
 
 concept_message_settings_feed = {}

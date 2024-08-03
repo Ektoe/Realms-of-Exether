@@ -41,6 +41,12 @@
 			type = dominion
 		}
 	}
+	c:FOX = {
+		create_diplomatic_pact = {
+			country = c:DRK
+			type = protectorate
+		}
+	}
 	c:RAV = {
 
 	}
@@ -72,6 +78,10 @@
 		create_diplomatic_pact = {
 			country = c:FEY
 			type = puppet
+		}
+	    create_diplomatic_pact = {
+			country = c:LEO
+			type = vassal
 		}
 	}
 	c:YUL = {

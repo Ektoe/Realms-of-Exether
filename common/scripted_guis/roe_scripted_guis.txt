@@ -93,7 +93,7 @@
 			scope:node_state = s:STATE_VERDSKIES
 			scope:node_state = s:STATE_MONTEGO_HEIGHTS
 			scope:node_state = s:STATE_ALVEKSKIES
-			scope:node_state = s:STATE_SAHARANDO_SKIES
+			scope:node_state = s:STATE_HYDOBRAN_SKIES
 			scope:node_state = s:STATE_FIERCEHOLD_HEIGHTS
 			scope:node_state = s:STATE_KAJRANDO_SKIES
 			scope:node_state = s:STATE_KASIDA_HEIGHTS
