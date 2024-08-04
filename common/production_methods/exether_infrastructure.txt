@@ -1,4 +1,5 @@
 ﻿#road infra building
+# Grappes: i'm a dipshit for how I set this up before, hopefully will actually be semi-viable now.
 pm_base_road_quality = {
 	texture = "gfx/interface/icons/production_method_icons/wooden_buildings.dds"
 	state_modifiers = {
@@ -8,7 +9,7 @@ pm_base_road_quality = {
 }
 building_modifiers = {
 	level_scaled = {
-		building_employment_laborers_add = 1000
+		building_employment_laborers_add = 2000
 		}
 }
 }
@@ -24,7 +25,7 @@ pm_stone_road_quality = {
 }
 building_modifiers = {
 	level_scaled = {
-		building_employment_laborers_add = 1500
+		building_employment_laborers_add = 4000
 		}
 }
 }
@@ -40,7 +41,7 @@ pm_paved_road_quality = {
 }
 	building_modifiers = {
 	level_scaled = {
-		building_employment_laborers_add = 2000
+		building_employment_laborers_add = 6000
 		}
 }
 }
@@ -48,9 +49,12 @@ pm_covered_road_wagons = {
 	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_wood_add = 5
-			goods_input_fabric_add = 5
-			goods_output_transportation_add = 5
+			goods_input_wood_add = 3
+			goods_input_fabric_add = 2
+			# input 5 x 20 = 100
+			goods_output_transportation_add = 5 # output 5 x 30 = 150
+			# Verdict: Base Profit is 50. Intended to mitigate costs of labor for early-game infra anyways, not to get-rich-quick.
+			# Note: Base Profit calculations here are based off of raw goods balances, not including labor costs. This is a flaw.
 		}
 	}
 
@@ -62,9 +66,10 @@ pm_steam_fired_engines = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 5
-			goods_input_coal_add = 5
-			goods_output_transportation_add = 10
+			goods_input_engines_add = 2 # 60 x 2 = 120
+			goods_input_coal_add = 3 # 30 x 3 = 90 (Sum = 210)
+			goods_output_transportation_add = 10 # 30 x 10 = 300
+			# Verdict: Base profitability is 90, which is 40 higher than previous PM.
 		}
 }
 }
@@ -75,9 +80,10 @@ pm_early_compression_engines = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 5
-			goods_input_blubber_add = 5
-			goods_output_transportation_add = 20
+			goods_input_engines_add = 2 # 60 x 2 = 120
+			goods_input_blubber_add = 4 # 40 x 4 = 160 (Sum = 280)
+			goods_output_transportation_add = 15 # 30 x 15 = 450
+			# Verdict: Base Profitability is 170.
 		}
 }
 }
@@ -89,6 +95,9 @@ pm_basic_security = {
 	building_modifiers = {
 	level_scaled = {
 		building_employment_adventurers_add = 500
+		}
+		workforce_scaled = {
+			goods_output_gold_add = 1
 		}
 	}
 	state_modifiers = {
@@ -109,7 +118,8 @@ pm_experienced_security = {
 		}
 	building_modifiers = {
 		workforce_scaled = {
-		goods_input_small_arms_add = 5
+		goods_input_small_arms_add = 5 # 60 x 5 = 300
+		goods_output_gold_add = 5 # 100 x 5 = 500 (Goods Price Balance = 200)
 		}
 		level_scaled = {
 			building_employment_adventurers_add = 750
@@ -128,8 +138,9 @@ pm_militarized_security = {
 		}
 	building_modifiers = {
 		workforce_scaled = {
-		goods_input_small_arms_add = 5
-		goods_input_ammunition_add = 5
+		goods_input_small_arms_add = 5 # 60 x 5 = 300
+		goods_input_ammunition_add = 5 # 50 x 5 = 250 (Sum = 550)
+		goods_output_gold_add = 10 # 10 x 100 = 1000 (Goods Price Balance = 450)
 		}
 		level_scaled = {
 		building_employment_adventurers_add = 500
