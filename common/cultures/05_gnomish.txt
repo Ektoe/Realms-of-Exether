@@ -250,7 +250,7 @@
 
 yrian={
 	color= hsv{ 0.10 0.80 0.86 }
-	religion = druidic
+	religion = gnomish_druidism
 	traits = {  wood_gnome gnome_heritage}
 	male_common_first_names={
 		Abraham
@@ -495,8 +495,8 @@ florishnom={
 
 waldgnomklaai={
 	color= rgb{ 3 141 72 }
-	religion = druidic
-	traits = {  wood_gnome gnome_heritage}
+	religion = gnomish_druidism
+	traits = { wood_gnome gnome_heritage }
 	obsessions = {
 		entertainment
 	}
@@ -1024,7 +1024,7 @@ stranfolk={
 #Kealohi
 kealohi={
 	color= hsv{ 0.53 0.49 0.65 }
-	religion = druidic
+	religion = gnomish_druidism
 	traits = { wood_gnome gnome_heritage }
 	male_common_first_names={
 		Finau

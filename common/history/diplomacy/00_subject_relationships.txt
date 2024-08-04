@@ -90,6 +90,14 @@
 			type = vassal
 		}
 		create_diplomatic_pact = {
+			country = c:TAH
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:KCN
+			type = vassal
+		}
+		create_diplomatic_pact = {
 			country = c:SUN
 			type = tributary
 		}

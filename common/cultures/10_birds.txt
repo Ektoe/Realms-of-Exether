@@ -670,7 +670,7 @@ blacktalon = {
 
 saglithan={
 	color= hsv{ 0.38 0.27 0.86 }
-	religion = druidic
+	religion = avian_druidism
 	traits = { east_aritzakarric_culture_group bird_heritage }
 	
 	
