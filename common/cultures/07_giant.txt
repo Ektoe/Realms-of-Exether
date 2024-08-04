@@ -77,7 +77,7 @@
 toftir_giant={
 	color= hsv{ 0.74 0.46 0.58 }
 	religion = giant_hierarchy
-	traits = { everfrostern_culture_group giant_heritage }
+	traits = { toftirite_culture_group giant_heritage }
 	obsessions = {
 		luxury_furniture
 	}

@@ -763,11 +763,16 @@ add_homeland = cu:timari
 
 s:STATE_BLUMETO = {
     create_state = {
+        country = c:TPK
+        owned_provinces = { "x40EBF9" "x71BDD4" "x71C1EC" "xF86DC0" "xA5A5C9" "xAEABA1" "xDEABC2" "xE28195" "xED7BAF" "xFD36FE" }
+    }
+    create_state = {
         country = c:VAI
-        owned_provinces = { "x40EBF9" "x5CD4D7" "x71BDD4" "x71C1EC" "xA5A5C9" "xAEABA1" "xDEABC2" "xE28195" "xED7BAF" "xF86DC0" "xFD36FE" }
-}
-add_homeland = cu:kealohi
-add_homeland = cu:kotskarvi
+        owned_provinces = { "x5CD4D7" }
+        state_type = treaty_port
+    }
+    add_homeland = cu:kealohi
+    add_homeland = cu:drogori
 }
 
 s:STATE_STELALTAJO = {

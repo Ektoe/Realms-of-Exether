@@ -396,7 +396,7 @@ kotskarvi={
 drogori={
 	color= hsv{ 0.33 0.26 0.53 }
 	religion = dragonbone_worship
-	traits = { kobold_culture_group dragon_heritage }
+	traits = { rimerooter_culture_group kobold_culture_group dragon_heritage }
 	male_common_first_names={
 		Akaki
 		Alexander

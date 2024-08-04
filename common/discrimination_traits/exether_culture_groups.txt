@@ -79,3 +79,6 @@ west_aritzakarric_culture_group = {
 
 east_aritzakarric_culture_group = {	
 }
+
+rimerooter_culture_group = {
+}

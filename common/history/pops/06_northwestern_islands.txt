@@ -1015,7 +1015,7 @@
 				size = 300000
 			}
 			create_pop = {
-				culture = kotskarvi
+				culture = drogori
 				size = 100000
 			}
 		}
@@ -1035,7 +1035,7 @@
 				size = 350000
 			}
 			create_pop = {
-				culture = kotskarvi
+				culture = drogori
 				size = 150000
 			}
 			create_pop = {

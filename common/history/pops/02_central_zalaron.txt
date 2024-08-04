@@ -1377,15 +1377,29 @@
 	region_state:VAI = {
 		create_pop = {
 			culture = vairian
-			size = 210000
+			size = 20000
 		}
 		create_pop = {
 			culture = kealohi
-			size = 160000
+			size = 16000
 		}
 		create_pop = {
-			culture = kotskarvi
-			size = 180000
+			culture = drogori
+			size = 18000
+		}
+	}
+	region_state:TPK = {
+		create_pop = {
+			culture = vairian
+			size = 190000
+		}
+		create_pop = {
+			culture = kealohi
+			size = 144000
+		}
+		create_pop = {
+			culture = drogori
+			size = 162000
 		}
 	}
   }

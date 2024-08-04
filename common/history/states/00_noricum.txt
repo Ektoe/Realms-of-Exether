@@ -750,7 +750,7 @@ s:STATE_NIWKA = {
 	owned_provinces = { "x58F1CC" "x92F7EA" "xABE0EC" "xACE6D4" "xAECBB9" "xD068C8" "xFA11F3" }
 	}
 	add_homeland = cu:zakonish #Sets the state to be a homeland for whatever culture you put here.
-	add_homeland = cu:firbolg
+	add_homeland = cu:wood_giant
 }
 s:STATE_CZERWIONKA = {
 	create_state = {
@@ -781,7 +781,7 @@ s:STATE_ZARKI = {
 	owned_provinces = { "x3CFAE0" "x5CF9C4" "x62F3DC" "x6AFC9D" "x77B6EE" "x877DF8" "x99F576" "xBBF9F0" "xCCC0DE" "xCDEF9C" "xD6CF6D" "xD9B5CE" "xDBE875" "xDECBBA" "xE8AABC" "xE8D63C" "xE95BDE" "xEB49F1" "xF389C6" "xF4808C" }
 	}
 	add_homeland = cu:zakonish #Sets the state to be a homeland for whatever culture you put here.
-	add_homeland = cu:firbolg
+	add_homeland = cu:wood_giant
 }
 s:STATE_JAWOREK = {
 	create_state = {
