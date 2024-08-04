@@ -3242,12 +3242,25 @@
                     building={ 
                         type="building_financial_district"
                         country="c:LEO"
-                        levels=3
+                        levels=4
                         region="STATE_FAR_SHORE"
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" }
+				activate_production_methods={ "pm_handsewn_clothes" "pm_craftsman_sewing" "pm_traditional_looms" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:LEO"
+						levels=1
+						region="STATE_FAR_SHORE"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts"  }
 			}
             create_building={
 				building="building_paper_mills"
@@ -3344,6 +3357,19 @@
                 }
 			reserves=1
 			activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" "pm_luxury_furniture" }
+		}
+		create_building={
+			building="building_textile_mills"
+			add_ownership={ 
+				building={ 
+					type="building_financial_district"
+					country="c:LEO"
+					levels=3
+					region="STATE_FAR_SHORE_2"
+			   }
+			}
+			reserves=1
+			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 		}
 			create_building={
 			building="building_vineyard_plantation"

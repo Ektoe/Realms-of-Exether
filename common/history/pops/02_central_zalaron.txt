@@ -445,7 +445,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 1284392
+				size = 3284392
 			}
 		}
   }
