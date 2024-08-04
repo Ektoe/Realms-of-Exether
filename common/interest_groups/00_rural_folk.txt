@@ -49,9 +49,9 @@
 					owner = { c:RVC ?= this }
 				}
 				set_interest_group_name = ig_commoner_tribunate
-				set_ig_trait = ig_trait:ig_trait_old_ways
-				set_ig_trait = ig_trait:ig_trait_honest_work
-				set_ig_trait = ig_trait:ig_trait_farmers_markets
+				set_ig_trait = ig_trait:ig_trait_cibum
+				set_ig_trait = ig_trait:ig_trait_fideitas
+				set_ig_trait = ig_trait:ig_trait_substitutio_tributi
 			}
 
 

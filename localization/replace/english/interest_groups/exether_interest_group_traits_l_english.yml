@@ -11,6 +11,72 @@
  ig_trait_old_lady_of_threadneedle_street: "The Golden Trust"
  ig_trait_old_lady_of_threadneedle_street_desc: "Come avernus or high water, ogre or recession, there's one place your assets will be safe: the vaults of the Golden Trust."
 
+
+#RVC IGs 
+#RVC Trade Union traits 
+ ig_trait_unionis_astris: "Unionis Cordis Atri"
+ ig_trait_unionis_astris_desc: "Our "betters" seem to think we are only one step above flesh cattle, and no more powerful. Perhaps it is time to show them the power of a flesh cattle stampede..." 
+ ig_trait_soliditas: "Sodalitas Mercatoria"
+ ig_trait_soliditas_desc: "The unique fusion of human and vampire workforce working togheter in harmony allows for a unique competitive advantage in heavy industry, allowing us to remove downtime in heavy industry by running the industry 24/7/." 
+ ig_trait_pecoris_carnis: "Opus Pecoris Carnis" 
+ ig_trait_pecoris_carnis_desc: "Without the threat is mysterious disappearance, spontaneous murder, or random kidnapping the flesh cattle are much more inclined to work. Though it does come with the strenghtening of the flesh cattle." 
+
+#RVC Rural Folk traits 
+ig_trait_cibum:"Cibum Congerere"  
+ig_trait_cibum_desc: "The prenecious ways of masters means we are need to save food and money for tough times." 
+ig_trait_fideitas: "Fidelitas" 
+ig_trait_fideitas_desc: "Our vampiric lords are our betters in everyway, and we should do our utmost to please them. The alternatives are espousing radical ideals that threaten to upend our way of life." 
+ig_trait_substitutio_tributi: "substitutio Tributi" 
+ig_trait_substitutio_tributi_desc: "Although much of our kids are taken by our overlords as tribute, we will get through it by having more offspring, and shouldering the burden of our masters."
+
+
+#RVC Armed Forces 
+ig_trait_mortuos: "Ictus Mortis" 
+ig_trait_mortuos_desc: "Our vampiric military means that when we strike an enemy down in the battlefield they tend to stay dead. We are more blunt and forward sort when it comes to military affairs." 
+ig_trait_impetus: "Impetus Heroicus" 
+ig_trait_impetus_desc: "With our waves of flesh cattle we can astound the enemies with dashing manuveurs and aggressiveness, however the aggressive spirit leads to our troops often times being caught out of position during the march." 
+ig_trait_pabulo: "Pabulo Tormentorum"  
+ig_trait_pabulo_desc: "There is no end to the flesh cattle! We can use them to do everything from building our summer vacation castles on the mountains. What? Of course there will be no impact ot military readiness." 
+
+#RVC Intellectuals 
+ig_trait_nocturne_splendor: "Nocturne Splendor"
+ig_trait_nocturne_splendor_desc: "Now that our society has seen fit to implement our policies in ensuring that human and vampire are viewed more like dog and master, rather than cattle and farmer, it is only fit to embrace some of the most promising humans into our ranks... although certain reactionary elements may have a problem with that.: 
+ig_trait_stella_surgeris: "Stella Surgeris"
+ig_trait_stella_surgeris_desc: "As vampires we have the awfully great advantage of living a long, long, long, long time, that allows for our researchers to incorporate findings that would have been long lost to the younger races in our own research." 
+ig_trait_agmen_novi: "Agmen Novi" 
+ig_trait_agmen_novi_desc: "As reactionary elements are everywhere in the society, and we are outnumbered, we do have a couple tricks up our sleeves to slow down the progress of reactionary ideals to a crawl..." 
+
+#RVC Petit Bourg 
+ig_trait_medicina_profana: "Medicina Profana"
+ig_trait_medicina_profana_desc: "Using the power of the dark arts, especially that of necromancy it is possible to integrate it with the magical practice to grow necrotic replacement limbs, organs, and other parts for patients." 
+ig_trait_servus_dominus: "Servus Dominus" 
+ig_trait_servus_dominus_desc: "Happiness and duty comes from an acceptance of one's place in society. Although there are a few above us, there are many below us. As long as everybody knows their place everybody would be better off than before." 
+ig_trait_turbae_venantes: "Turbae Venantas"
+ig_trait_turbae_venantes_desc: "The humans have gone too far, they are taking what rightfully belongs to us vampires! It is time to drive them out by all means!" 
+
+
+#RVC Industralists 
+ig_trait_adamas_mortis: "Adamas Mortis"
+ig_trait_adamas_mortis_desc: "The various wishstone mines produce a variety of... interesting byproducts. Much of it is dangerous to most mortals, thankfully us being vampires allow us to reshape such byprouct into a variety of (probably) non lethal trinkets that the mortals seem to treat as good as cash!" 
+ig_trait_emptio_aeq:" "Emptio Aequitatis"
+ig_trait_emptio_aeq_desc: "Our brilliant finanical engineers have come up with something called the blood buyout. We purchase a business, saddle it with degbt, and work the workers more "efficently" what can possibly go wrong!?" 
+ig_trait_caput_sagun: "Caput Sagunis" 
+ig_trait_caput_sagun_desc: "As our beloved country does not allow us to make money with our large fortune, there is only one thing to do. Drink a lot of blood in our fancy manors! We sure expect the vintage to be excellent, and the servants to be world class both inside and out." 
+
+
+
+#RVC Devout
+
+
+
+#RVC Landowners 
+
+
+#RVC Mages
+
+
+
+
   #Exether
  ig_trait_guests_of_the_forest: "Guests of the Forest"
  ig_trait_guests_of_the_forest_desc: "We have learned to live alongside the wild things of this land, and it has welcomed us like old friends."

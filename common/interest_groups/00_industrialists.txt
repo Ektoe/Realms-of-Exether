@@ -37,9 +37,9 @@
 					owner = { c:RVC ?= this }
 				}
 				set_interest_group_name = ig_gearheart_court
-				set_ig_trait = ig_trait:ig_trait_zaibatsu_withdrawal
-				set_ig_trait = ig_trait:ig_trait_engines_of_progress
-				set_ig_trait = ig_trait:ig_trait_zaibatsu_cooperation
+				set_ig_trait = ig_trait:ig_trait_caput_sagun
+				set_ig_trait = ig_trait:ig_trait_emptio_aeq
+				set_ig_trait = ig_trait:ig_trait_adamas_mortis
 			}	
 			else = {
 				set_ig_trait = ig_trait:ig_trait_tax_avoidance
