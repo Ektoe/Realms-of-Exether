@@ -3759,6 +3759,12 @@ BUILDINGS = {
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
+	            building="building_roads"
+	            level=3
+	            reserves=1
+	            activate_production_methods={ "pm_base_road_quality" "pm_covered_road_wagons" "pm_no_security" }
+            }
+			create_building={
 				building="building_artillery_foundries"
                 add_ownership={ 
                     building={ 
@@ -3790,7 +3796,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:VAI"
-                        levels=2
+                        levels=4
                         region="STATE_SUNFLORO"
                    }
                 }
@@ -3803,7 +3809,7 @@ BUILDINGS = {
 						building={
 							type="building_wizard_tower"
 							country="c:VAI"
-							levels=6
+							levels=8
 							region="STATE_SUNFLORO"
 					}
 				}
@@ -3821,7 +3827,7 @@ BUILDINGS = {
 					   }
 					}
 				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+				activate_production_methods={ "pm_picks_and_shovels_building_lead_mine" "pm_lead_mines_potions_of_fortitude" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -3830,7 +3836,7 @@ BUILDINGS = {
 					building={ 
 						type="building_financial_district"
 						country="c:VAI"
-						levels=7
+						levels=9
 						region="STATE_SUNFLORO"
 				   }
 				}
@@ -3892,7 +3898,7 @@ BUILDINGS = {
 				building="building_port"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -4029,17 +4035,30 @@ BUILDINGS = {
 				activate_production_methods={ "pm_dye_workshops" "pm_that_scary_ass_shit_from_sleeping_beauty" "pm_no_luxury_clothes" }
 			}
 			create_building={
+				building="building_arts_academy"
+				add_ownership={
+				  building={
+					  type="building_wizard_tower"
+					  country="c:VAI"
+					  levels=1
+					  region="STATE_VENTAFALCO"
+				  }
+			  }
+				reserves=1
+				activate_production_methods={ "pm_traditional_art" }
+			  }	
+			create_building={
 				building="building_logging_camp"
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
                         country="c:VAI"
-                        levels=8
+                        levels=9
                         region="STATE_VENTAFALCO"
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_increased_hardwood" }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_stoneskin_potion" "pm_road_carts" "pm_increased_hardwood" }
 			}
             create_building={
 				building="building_paper_mills"
@@ -4047,12 +4066,12 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:VAI"
-                        levels=3
+                        levels=5
                         region="STATE_VENTAFALCO"
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
+				activate_production_methods={ "pm_sulfite_pulping" "pm_automation_disabled" }
 			}
             create_building={
 				building="building_fishing_wharf"
@@ -4152,7 +4171,7 @@ BUILDINGS = {
 					building={ 
 						type="building_manor_house"
 						country="c:VAI"
-						levels=14
+						levels=16
 						region="STATE_PLUVPINTO"
 				   }
 				}
@@ -4165,8 +4184,8 @@ BUILDINGS = {
 						building={ 
 							type="building_financial_district"
 							country="c:VAI"
-							levels=2
-							region="STATE_FELICGRUNDO"
+							levels=1
+							region="STATE_PLUVPINTO"
 					   }
 					}
 				reserves=1
@@ -4191,12 +4210,12 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:VAI"
-                        levels=5
+                        levels=2
                         region="STATE_PLUVPINTO"
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+				activate_production_methods={ "pm_saw_mills" "pm_stoneskin_potion" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -4235,7 +4254,7 @@ BUILDINGS = {
 				   }
 				}
 				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_iron_mines_potions_of_fortitude""pm_no_steam_automation" "pm_road_carts" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_iron_mines_potions_of_fortitude" "pm_no_steam_automation" "pm_road_carts" }
 			}
 		}
 	}
@@ -4611,26 +4630,13 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-            create_building={
-				building="building_paper_mills"
-                add_ownership={ 
-                    building={ 
-                        type="building_financial_district"
-                        country="c:VAI"
-                        levels=2
-                        region="STATE_VESPERVIDO"
-                   }
-                }
-				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
-			}
 			create_building={
 				building="building_hunting_lodge"
 					  add_ownership={ 
 						  building={ 
 							  type="building_adventuring_guild"
 							  country="c:VAI"
-							  levels=2
+							  levels=5
 							  region="STATE_VESPERVIDO"
 						 }
 					  }
@@ -4643,12 +4649,12 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:VAI"
-                        levels=4
+                        levels=2
                         region="STATE_VESPERVIDO"
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+				activate_production_methods={ "pm_saw_mills" "pm_stoneskin_potion" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -4669,7 +4675,7 @@ BUILDINGS = {
 					building={ 
 						type="building_manor_house"
 						country="c:VAI"
-						levels=3
+						levels=4
 						region="STATE_VESPERVIDO"
 				   }
 				}
@@ -4686,19 +4692,6 @@ BUILDINGS = {
 				level=7
 				reserves=1
 				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
-			}
-			create_building={
-				building="building_paper_mills"
-                add_ownership={ 
-                    building={ 
-                        type="building_financial_district"
-                        country="c:WHX"
-                        levels=2
-                        region="STATE_TRANKVILEJO"
-                   }
-                }
-				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
 			}
             create_building={
 				building="building_furniture_manufacturies"
@@ -4750,6 +4743,19 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_coal_mine" "pm_coal_mines_potions_of_fortitude" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
 		  }
+		  create_building={
+			building="building_sulfur_mine"
+			add_ownership={ 
+				building={ 
+					type="building_financial_district"
+					country="c:VAI"
+					levels=1
+					region="STATE_SONGBIENO"
+			   }
+			}
+			reserves=1
+			activate_production_methods={ "pm_atmospheric_engine_pump_building_sulfur_mine" "pm_sulfur_mines_potions_of_fortitude" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+		}
 			create_building={
 				building="building_wishstone_mine"
 	                add_ownership={ 
@@ -4761,7 +4767,7 @@ BUILDINGS = {
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_wishstone_mine" }
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_wishstone_mine" }
 			}			
             create_building={
 				building="building_textile_mills"
@@ -4808,7 +4814,7 @@ BUILDINGS = {
 					building={ 
 						type="building_manor_house"
 						country="c:VAI"
-						levels=1
+						levels=2
 						region="STATE_SONGBIENO"
 				   }
 				}
@@ -5024,19 +5030,6 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_complex_shipbuilding" }
 			}			
-            create_building={
-				building="building_paper_mills"
-                add_ownership={ 
-                    building={ 
-                        type="building_financial_district"
-                        country="c:VAI"
-                        levels=2
-                        region="STATE_FELICGRUNDO"
-                   }
-                }
-				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" }
-			}
 			create_building={
 				building="building_furniture_manufacturies"
                 add_ownership={ 
@@ -5056,12 +5049,12 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:VAI"
-                        levels=4
+                        levels=2
                         region="STATE_FELICGRUNDO"
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+				activate_production_methods={ "pm_saw_mills" "pm_stoneskin_potion" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -5082,7 +5075,7 @@ BUILDINGS = {
 					building={ 
 						type="building_manor_house"
 						country="c:VAI"
-						levels=1
+						levels=3
 						region="STATE_FELICGRUNDO"
 				   }
 				}
