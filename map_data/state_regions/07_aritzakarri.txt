@@ -766,7 +766,7 @@ STATE_ACTUALLY_THIS_STATE_LOOKS_NICE_I_WAS_BEING_MEAN = {
     capped_resources = {
         bg_logging = 9
         bg_iron_mining = 6
-        bg_wishstone_mining_depletable = 4
+        bg_wishstone_mining_depletable = 25
     }
     naval_exit_id = 3063
 }
