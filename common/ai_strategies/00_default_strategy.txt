@@ -1191,12 +1191,12 @@ ai_strategy_default = {
 
 		add = {
 			value = get_net_income
-			divide = 2500		
+			divide = 500		
 		}
 		
 		add = {
 			value = get_investment_income
-			divide = 500
+			divide = 1000
 		}
 
 		add = {
@@ -1206,7 +1206,7 @@ ai_strategy_default = {
 
 		add = {
 			value = get_investment_income_sq
-			divide = 80000000
+			divide = 1000000000
 		}
 
 		min = 1

@@ -31,7 +31,7 @@
 	CHANGE_STRATEGY_DIPLOMATIC_UNIFICATION_CANDIDATE = 100 # How many 'change points' are added to diplomatic strategy when we become or stop being a unification candidate
 	CHANGE_STRATEGY_DIPLOMATIC_LIBERTY_DESIRE_CHANGE = 2 # How many 'change points' are added to diplomatic strategy when liberty desire changes (multiplied by size of the change)
 
-	COUNTRY_GOAL_STRATEGIC_UPDATE_COUNT = 5 # How many AIs have their protector scores set every day
+	COUNTRY_GOAL_STRATEGIC_UPDATE_COUNT = 10 # How many AIs have their protector scores set every day
 	COUNTRY_GOAL_ADJUSTMENT_UPDATE_COUNT = 50 # How many AIs have their antagonize/befriend/threat scores, neighbor/relevance status and attitude adjusted each day
 
 	DECLARE_BANKRUPTCY_MIN_DAYS_IN_DEFAULT = 30 # After this many days in default, the AI will declare bankruptcy
@@ -707,8 +707,8 @@
 	PRODUCTION_BUILDING_STATE_RANDOM_FACTOR = 0.5 # The higher this is, the more random AI state selection for building types will be
 	PRODUCTION_BUILDING_BASE_VALUE = 1000 # If no ai_value is scripted in the building
 	PRODUCTION_BUILDING_NO_AVAILABLE_WORKFORCE_FACTOR = 0.25 # Total weight is multiplied by this if the state lacks enough workforce to staff the building
-	PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR = 3000 # Per pound of predicted building profit (divided by employee count per level)
-	PRODUCTION_BUILDING_GOODS_DEFICIT_FACTOR = 10000 # Per pound of predicted building deficit (divided by employee count per level and multiplies a negative value)
+	PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR = 8000 # Per pound of predicted building profit (divided by employee count per level)
+	PRODUCTION_BUILDING_GOODS_DEFICIT_FACTOR = 16000 # Per pound of predicted building deficit (divided by employee count per level and multiplies a negative value)
 	PRODUCTION_BUILDING_GOODS_DEFICIT_SUBSIDIZE_FACTOR = 5000 # Overrides PRODUCTION_BUILDING_GOODS_DEFICIT_FACTOR for subsidized buildings
 	PRODUCTION_BUILDING_PRODUCED_VALUE_FACTOR = 0.25 # Per pound of produced goods in base value
 	PRODUCTION_BUILDING_INCORPORATED_INFRASTRUCTURE_USAGE_FACTOR = 0.05 # Total weight is divided by ( 1 + this * building infrastructure usage ) in incorporated states
