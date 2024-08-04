@@ -489,6 +489,13 @@ repeaters = {
 	
 	ai_weight = {
 		value = 1.5 # Important tech in general
+
+		if = {
+			limit = { 
+				country_has_primary_culture = cu:dumonian
+			}
+			add = 1
+		}
 	}
 }
 

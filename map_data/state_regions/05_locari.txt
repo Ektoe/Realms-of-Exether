@@ -1259,7 +1259,6 @@ STATE_NEFUDISTAN = {
     farm = xE8B99D
     mine = xDAB4AB
     wood = xD9D9F9
-    impassable = { "xcfe28" }
     arable_land = 21
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {

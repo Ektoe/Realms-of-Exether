@@ -924,6 +924,7 @@ STATE_RAVGA = {
 }
 STATE_ELDORIA = {
     id = 3741
+    traits = { "state_trait_razorwind_desert" "state_trait_razorwinds" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x4AF1F4" "x4DFBF3" "x9ED1D2" "xACB0BA" "xBA7EFC" "xBBE48E" "xD1B4AD" "xD9AF8C" "xDEFA6F" "xF175CE" "xF1AD6B" "xF3CDC3" "xFB9681" "xFBF3D6" }
     port = xBBE48E
@@ -994,6 +995,7 @@ STATE_NUORAID = {
 }
 STATE_FROSTWYN = {
     id = 3745
+    traits = { "state_trait_razorwind_desert" "state_trait_razorwinds" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x2BFBEF" "x6D80F2" "xA16DFC" "xA5F675" "xA8CB83" "xAACBF6" "xB08AE9" "xB6DD91" "xC991DA" "xCE93DE" "xD2EC43" "xE2AAFA" "xE3EA6F" "xE4B2B2" "xE6D999" "xE7A2EF" "xE7CD98" }
     port = xE7CD98
@@ -1013,6 +1015,7 @@ STATE_FROSTWYN = {
 }
 STATE_DUODJI = {
     id = 3746
+    traits = { "state_trait_razorwind_desert" "state_trait_razorwinds" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x0BFEF7" "x2CE7EC" "x39DCFC" "x58FEFC" "x69E5C9" "xAC9EF7" "xC6FC7E" "xCDA1A8" "xCDF7AB" "xCFDFCD" "xE27ECF" "xE494F7" "xF4EA5C" "xF6D99D" "xF8AAF0" "xFB53E9" }
     port = xFB53E9
@@ -1026,6 +1029,7 @@ STATE_DUODJI = {
 }
 STATE_ARVEDELL = {
     id = 3747
+    traits = { "state_trait_razorwind_desert" "state_trait_razorwinds" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x60C2E9" "x71D3DE" "x75E6B1" "x9EC3EA" "xB3D8EB" "xBCC79F" "xCDFCDB" "xD3C6CD" "xD5DB59" "xDB79B9" "xDD5FE0" "xDD7FB9" "xE269F9" "xE8B184" "xF0E0CE" "xF2CD3E" }
     port = x71D3DE
@@ -1042,6 +1046,7 @@ STATE_ARVEDELL = {
 }
 STATE_AHKKU = {
     id = 3748
+    traits = { "state_trait_razorwind_desert" "state_trait_razorwinds" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x63F8FD" "x68E9E1" "x90EC7E" "xA1DEF3" "xA48FFC" "xC3E97D" "xCA97D9" "xE16EF9" "xEBB2DB" "xEBC6D0" "xF0C185" }
     port = x68E9E1
@@ -1095,6 +1100,7 @@ STATE_AURORIL = {
 }
 STATE_GIELAS = {
     id = 3751
+    traits = { "state_trait_razorwind_desert" "state_trait_razorwinds" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x42EFFC" "x5D607E" "x6BF6F6" "x70C9FC" "x7AB4DB" "x81E4CD" "x82C3D7" "xA0E88B" "xA8C4FE" "xACB993" "xBFFCAB" "xC494FD" "xC838F9" "xD0C19B" "xD8A8AD" "xD985E0" "xDBD07B" "xEDD385" "xF251DB" "xF2BEF8" "xF2F9D6" "xF869DA" "xFB8C81" "xFD42EA" }
     port = x42EFFC
@@ -1150,6 +1156,7 @@ STATE_SYLVASKA = {
 }
 STATE_GAVCCI = {
     id = 3754
+    traits = { "state_trait_razorwind_desert" "state_trait_razorwinds" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x24FC2B" "x571134" "x62FCD9" "x81A2E3" "xC141F7" "xD7A9C3" "xE27CFA" "xE6C2B4" "xF372B5" }
     port = xF372B5
@@ -1204,6 +1211,7 @@ STATE_ELVENSHROUD = {
 }
 STATE_GAISI = {
     id = 3757
+    traits = { "state_trait_razorwind_desert" "state_trait_razorwinds" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x49F4EA" "x67C1E5" "x90EF92" "x93B2C8" "xBF7EF2" "xCBB7EC" "xD0F442" "xD67BEB" "xDC71E1" "xDCBBF9" "xDCBE5E" "xDCCF4A" "xE152CD" "xF0FC37" "xF2DA5F" "xF3F50E" "xF6FAC1" "xF98DEA" }
     port = xF98DEA
@@ -1312,6 +1320,7 @@ STATE_GUHKESLUOKTA = {
 }
 STATE_SILVERSONG = {
     id = 3763
+    traits = { "state_trait_razorwind_desert" "state_trait_razorwinds" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x45F0D3" "x6BEBF6" "x94A7CC" "x9CCF99" "xA2CB8F" "xA4BCC0" "xA4DD80" "xCFF258" "xD0B380" "xD7F992" "xE2A5C3" "xE5C0FC" "xEBEFD0" "xF4D289" "xF65FB6" "xFEAF4F" }
     port = x6BEBF6
@@ -1390,6 +1399,7 @@ STATE_WHIRINAKI = {
 }
 STATE_RUMATARI = {
     id = 3382
+    traits = { "state_trait_rimeroot_jungle" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x39F5D9" "x5FF1E3" "x76E7C4" "x83EDE2" "xA4EEAD" "xACF45A" "xB49BAB" "xCFB8F2" "xF2D0EF" "xF78AC9" }
     port = xA4EEAD
@@ -1413,6 +1423,7 @@ STATE_RUMATARI = {
 }
 STATE_TARAMOA = {
     id = 3383
+    traits = { "state_trait_rimeroot_jungle" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x3CF3F7" "x6BF7DC" "x75C5F0" "x7CA4DF" "x8FA9CA" "x9AB6CB" "xADED62" "xBFA8F2" "xC366E2" "xC3A0ED" "xCAEBDE" "xCBA492" "xD1CFE7" "xDAB3B4" "xE2DAC1" "xE4E72F" "xF9ACE6" "xFCAA99" }
     port = x3CF3F7
@@ -1431,6 +1442,7 @@ STATE_TARAMOA = {
 }
 STATE_POUNAMOA = {
     id = 3384
+    traits = { "state_trait_rimeroot_jungle" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x32CBF9" "x77EDEA" "xB6C1B7" "xDA8BBC" "xDBD753" "xDFABAE" }
     port = xDFABAE
@@ -1452,6 +1464,7 @@ STATE_POUNAMOA = {
 }
 STATE_RONGOMARA = {
     id = 3385
+    traits = { "state_trait_rimeroot_jungle" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x7BD5F7" "x85E690" "x8F95E6" "xA2F87F" "xA5A1DE" "xB7C89A" "xC2E769" "xC3E0CB" "xC893C1" "xE1B7A7" "xF08E97" }
     port = x7BD5F7
@@ -1529,6 +1542,7 @@ STATE_MARAMAROA = {
 }
 STATE_PUCOVATU = {
     id = 3389
+    traits = { "state_trait_rimeroot_jungle" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x68A2ED" "x82D2DB" "x8CF6EE" "xADC3CE" "xC87BD3" "xCDE598" "xE9C397" "xE9E44C" "xEAD09F" "xEBDF56" "xF5E4BC" "xF6AA82" }
     port = x68A2ED
@@ -1593,6 +1607,7 @@ STATE_RAROMARA = {
 }
 STATE_LUNARATA = {
     id = 3392
+    traits = { "state_trait_rimeroot_jungle" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x29FCED" "x3DD3F8" "xBCE9B4" "xD4BB91" "xD674B4" "xE38DF8" "xE6C5DA" "xE7E574" "xF8B07E" "xFD89F1" "xFDC9F8" }
     port = x3DD3F8
@@ -1616,6 +1631,7 @@ STATE_LUNARATA = {
 }
 STATE_TAUMAROI = {
     id = 3393
+    traits = { "state_trait_rimeroot_jungle" }
     subsistence_building = "building_subsistence_pastures"
     provinces = { "x4EECC1" "x59B3F0" "x60D9F1" "x63FDE9" "x83E29C" "xD2DF7A" "xD59696" "xDDEDEC" "xEEF580" "xF3ADAC" "xF843DE" }
     port = xF843DE
@@ -1659,6 +1675,7 @@ STATE_PATARENI = {
 }
 STATE_WHANAKOA = {
     id = 3395
+    traits = { "state_trait_rimeroot_jungle" }
     subsistence_building = "building_subsistence_fishing_villages"
     provinces = { "x6CD9F0" "x73D8E6" "x82F285" "x9EE6E3" "xA164F7" "xBFD965" "xC7C4D6" "xE2B18D" "xEBA999" "xF2D167" }
     port = xA164F7
@@ -1699,6 +1716,7 @@ STATE_NORTHERN_1 = {
 }
 STATE_NORTHERN_2 = {
     id = 4431
+    traits = { "state_trait_razorwind_desert" "state_trait_razorwinds" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x59030C" "x65DCE1" "x81C284" "xA0C2A0" "xBEC775" "xBECBD3" "xC7CBFC" "xEEF3F3" }
     port = xEEF3F3

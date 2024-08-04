@@ -102,7 +102,7 @@ ai_strategy_default = {
 	# How many maneuvers are we OK with using up in the initial phase to add more wargoals
 	# Using this value in other strategies will function additively (values below 0 or above 1 have no further effect)
 	wargoal_maneuvers_fraction = {
-		value = 0.35
+		value = 0.50
 		
 		if = {
 			limit = { 
@@ -495,14 +495,18 @@ ai_strategy_default = {
 			## RAV AND TLE
 			if = {
 				limit = {
-					country_has_primary_culture = cu:lake_thalorian
+					OR = {
+						country_has_primary_culture = cu:lake_thalorian
+						country_has_primary_culture = cu:west_thalorian
+						country_has_primary_culture = cu:central_thalorian
+					}	
 					scope:target_state = {
 						owner = {
 							c:RAV ?= this
 						}
 					}
 				}
-				add = 100
+				add = 200
 			}
 
 			if = {
@@ -511,14 +515,14 @@ ai_strategy_default = {
 					scope:target_state = {
 						owner = {
 							OR = {
-								c:TLE ?= this
-								c:TLA ?= this
-								c:TLW ?= this
-							}
+								country_has_primary_culture = cu:lake_thalorian
+								country_has_primary_culture = cu:west_thalorian
+								country_has_primary_culture = cu:central_thalorian
+							}	
 						}
 					}
 				}
-				add = 100
+				add = 200
 			}
 		
 		}
@@ -1187,29 +1191,17 @@ ai_strategy_default = {
 
 		add = {
 			value = investment_pool_income
-			divide = 800 # 1 construction output per this much into the investment pool				
+			divide = 500 # 1 construction output per this much into the investment pool				
 		}
 		
 		add = {
 			value = income
 			subtract = investment_pool_income	
-			divide = 1500 # 1 construction output per this much income
+			divide = 350 # 1 construction output per this much income
 
 			min = 0
 		}
 		
-		subtract = {
-			value = expenses
-			divide = 2000
-			min = 0
-		}
-
-		add = {
-			value = income
-			divide = 600
-			min = 0
-		}
-
 		subtract = {
 			value = expenses
 			divide = 600
@@ -1263,7 +1255,7 @@ ai_strategy_default = {
 		}
 
 		min = 1
-		max = 1000
+		max = 5000
 	}
 	
 	# How many levels of barracks should the AI have
@@ -1468,20 +1460,8 @@ ai_strategy_default = {
 			value = 0			
 			if = {
 				limit = { has_technology_researched = artillery }
-				add = 15
+				add = 80
 			}	
-			if = {
-				limit = { has_technology_researched = napoleonic_warfare }
-				add = 5
-			}	
-			if = {
-				limit = { has_technology_researched = breech_loading_artillery }
-				add = 10
-			}
-			if = {
-				limit = { has_technology_researched = wargaming }
-				add = 10
-			}
 			
 			if = {
 				limit = { has_law = law_type:law_peasant_levies }
@@ -1490,31 +1470,15 @@ ai_strategy_default = {
 			else_if = {
 				limit = { has_law = law_type:law_national_militia }
 				multiply = 0.75
-			}
-			else_if = {
-				limit = { has_law = law_type:law_professional_army }
-				multiply = 1.25
-			}			
+			}	
 		}
 		combat_unit_group_cavalry = {
 			value = 20
-			if = {
-				limit = { has_technology_researched = mobile_armor }
-				add = 10
-			}
 			
 			if = {
 				limit = { has_law = law_type:law_national_militia }
 				multiply = 0.5
-			}
-			else_if = {
-				limit = { has_law = law_type:law_professional_army }
-				multiply = 1.25
-			}			
-			else_if = {
-				limit = { has_law = law_type:law_peasant_levies }
-				multiply = 1.5
-			}				
+			}	
 		}
 		combat_unit_group_light_ship = {
 			value = 100				
@@ -1523,11 +1487,11 @@ ai_strategy_default = {
 			value = 0
 			if = {
 				limit = { country_rank = rank_value:great_power }
-				add = 30
+				add = 75
 			}
 			if = {
 				limit = { country_rank = rank_value:major_power }
-				add = 10
+				add = 50
 			}			
 		}
 		combat_unit_group_support_ship = {
@@ -1548,7 +1512,7 @@ ai_strategy_default = {
 	# scope:military_formation = military formation
 	# Using this value in other strategies will function additively
 	conscript_battalion_ratio = {
-		value = 0.5
+		value = 0.20
 		if = {
 			limit = { has_law = law_type:law_national_militia }
 			add = 2.5
@@ -1787,6 +1751,42 @@ ai_strategy_default = {
 	# How important is it that the AI maintains an interest in a specific strategic region (added on top of region value calculations set in defines)
 	# Using this value in other strategies will function additively
 	strategic_region_scores = {
+		region_ravik = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
+		region_hasals_mirror = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
+		region_old_thaloria = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
+		region_verdant_shore = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
 	
 	}
 	
@@ -2993,7 +2993,7 @@ ai_strategy_default = {
 			}			
 
 			min = 0
-			max = 100				
+			max = 200				
 		}
 		
 		return_state = {

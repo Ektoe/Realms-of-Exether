@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:LEM = {
+	c:VHA = {
 		create_character = {
 			first_name = "Tawi"
 			last_name = "Punan"

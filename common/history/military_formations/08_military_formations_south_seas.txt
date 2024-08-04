@@ -1,5 +1,5 @@
 ﻿MILITARY_FORMATIONS = {
-	c:PEL ?= {
+	c:JUX ?= {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_vindon_narrows
@@ -48,7 +48,7 @@
 		}
 	}
 	
-	c:LEM ?= {
+	c:VHA ?= {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_vindon_narrows

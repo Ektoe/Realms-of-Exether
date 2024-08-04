@@ -385,7 +385,7 @@ pm_blubber_military_production = {
 			# input goods
 			# output goods
 			goods_output_blubber_add = -15
-			goods_output_munitions_add = 15
+			goods_output_ammunition_add = 15
 		}
 
 		unscaled = {
@@ -1437,7 +1437,7 @@ pm_basic_game_hunting_potions = {
 	}
 	building_modifiers = {
 		unscaled = {
-			building_throughput_add = 0.1
+			building_goods_output_mult = 0.15
 			building_adventurers_mortality_mult = -0.05
 		}
 		workforce_scaled = {
@@ -1453,7 +1453,7 @@ pm_wash_it_down = {
 	}
 	building_modifiers = {
 		unscaled = {
-			building_throughput_add = 0.25
+			building_goods_output_mult = 0.30
 			building_adventurers_mortality_mult = -0.15
 		}
 		workforce_scaled = {

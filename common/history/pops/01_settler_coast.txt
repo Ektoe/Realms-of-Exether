@@ -1022,7 +1022,7 @@ s:STATE_THE_AMBER_RUN_3 = {
   }
 
   s:STATE_FAR_SHORE = {
-	region_state:THI = {
+	region_state:LEO = {
 		create_pop = {
 			culture = bossardi
 			size = 1071209
@@ -1043,7 +1043,7 @@ s:STATE_THE_AMBER_RUN_3 = {
 }
 
 s:STATE_FAR_SHORE_2 = {
-	region_state:THI = {
+	region_state:LEO = {
 		create_pop = {
 			culture = bossardi
 			size = 781209

@@ -151,6 +151,25 @@ pm_treebonkers = { #name wip, but hilarious
 	}
 }
 
+pm_stoneskin_potion = {
+	texture = "gfx/interface/icons/production_method_icons/potion_sap.dds"
+	unlocking_technologies = {
+		alchemy
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_potions_add = 5
+			goods_input_lead_add = 1
+		}
+		unscaled = {
+			building_laborers_mortality_mult = -0.1
+			goods_output_hardwood_mult = 0.1
+			goods_output_wood_mult = 0.2
+			building_machinists_mortality_mult = -0.1
+		}
+	}
+}
+
 pm_chainsaws = {
 	texture = "gfx/interface/icons/production_method_icons/chainsaws.dds"
 	unlocking_technologies = {

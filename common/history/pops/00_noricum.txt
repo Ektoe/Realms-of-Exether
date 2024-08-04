@@ -527,11 +527,11 @@
       region_state:BRR = {
         create_pop = {
           culture = grendleth
-          size = 472090
+          size = 452090
         }
         create_pop = {
           culture = glethach
-          size = 127802
+          size = 147802
         }
       }
       
@@ -542,7 +542,11 @@
       region_state:SRN = {
         create_pop = {
           culture = grendleth
-          size = 670190
+          size = 470190
+        }
+        create_pop = {
+          culture = glethach
+          size = 210780
         }
       }
       
@@ -597,7 +601,7 @@
         }
         create_pop = {
           culture = glethach
-          size = 7980
+          size = 10808
         }
       }
   }
@@ -665,11 +669,15 @@
       region_state:OEX = {
         create_pop = {
           culture = arcthar
-          size = 183200
+          size = 153200
         }
         create_pop = {
           culture = fire_giant
           size = 3520
+        }
+        create_pop = {
+          culture = glethach
+          size = 32190
         }
       }
   }
@@ -720,7 +728,11 @@
       region_state:CAO = {
         create_pop = {
           culture = frost_giant
-          size = 278091
+          size = 33840
+        }
+        create_pop = {
+          culture = glethach
+          size = 128091
         }
       }
   }
@@ -1068,11 +1080,11 @@
       region_state:CVE = {
         create_pop = {
           culture = grendleth
-          size = 320125
+          size = 290125
         }
         create_pop = {
           culture = glethach
-          size = 78102
+          size = 108102
         }
       }
       
@@ -1164,6 +1176,10 @@
         create_pop = {
           culture = fire_giant
           size = 18000
+        }
+        create_pop = {
+          culture = glethach
+          size = 3482
         }
       }
   }
@@ -1300,6 +1316,10 @@
         create_pop = {
           culture = grendleth
           size = 216800
+        }
+        create_pop = {
+          culture = glethach
+          size = 43840
         }
       }
       
@@ -1448,7 +1468,7 @@
       region_state:ICE = {
         create_pop = {
           culture = grendleth
-          size = 70120
+          size = 16340
         }
         create_pop = {
           culture = avalorean
@@ -1456,7 +1476,11 @@
         }
         create_pop = {
           culture = varyngi
-          size = 120890
+          size = 110890
+        }
+        create_pop = {
+          culture = glethach
+          size = 64120
         }
       }
       
@@ -1496,7 +1520,7 @@
       region_state:ICE = {
         create_pop = {
           culture = grendleth
-          size = 30300
+          size = 21300
         }
         create_pop = {
           culture = varyngi
@@ -1505,6 +1529,10 @@
         create_pop = {
           culture = nivaskyan
           size = 10000
+        }
+        create_pop = {
+          culture = glethach
+          size = 31240
         }
       }
       
@@ -1520,6 +1548,10 @@
         create_pop = {
           culture = frost_giant
           size = 15000
+        }
+        create_pop = {
+          culture = glethach
+          size = 3938
         }
       }
   }
@@ -1606,6 +1638,10 @@
         create_pop = {
           culture = zakonish
           size = 4100
+        }
+        create_pop = {
+          culture = glethach
+          size = 894
         }
       }
   }
@@ -1694,6 +1730,10 @@
         create_pop = {
           culture = frost_giant
           size = 38742
+        }
+        create_pop = {
+          culture = glethach
+          size = 5934
         }
       }
   }
@@ -1786,7 +1826,11 @@
       region_state:SRO = {
         create_pop = {
           culture = frost_giant
-          size = 72814
+          size = 32814
+        }
+        create_pop = {
+          culture = glethach
+          size = 46572
         }
       }
   }
@@ -1801,6 +1845,10 @@
           culture = fire_giant
           size = 6044
         }
+        create_pop = {
+          culture = glethach
+          size = 2572
+        }
       }
   }
 
@@ -1809,11 +1857,15 @@
       region_state:FFG = {
         create_pop = {
           culture = frost_giant
-          size = 17396
+          size = 2396
         }
         create_pop = {
           culture = fire_giant
-          size = 65200
+          size = 81200
+        }
+        create_pop = {
+          culture = glethach
+          size = 7408
         }
       }
   }
@@ -1833,6 +1885,10 @@
           culture = frost_giant
           size = 800
         }
+        create_pop = {
+          culture = glethach
+          size = 8473
+        }
       }
   }
 
@@ -1846,6 +1902,10 @@
         create_pop = {
           culture = cloud_giant
           size = 15897
+        }
+        create_pop = {
+          culture = glethach
+          size = 47243
         }
       }
   }
@@ -1861,6 +1921,10 @@
           culture = frost_giant
           size = 3400
         }
+        create_pop = {
+          culture = glethach
+          size = 1945
+        }
       }
   }
 
@@ -1869,6 +1933,10 @@
         create_pop = {
           culture = frost_giant
           size = 34132
+        }
+        create_pop = {
+          culture = glethach
+          size = 7342
         }
       }
   }
@@ -1934,11 +2002,11 @@
       region_state:LEL = {
         create_pop = {
           culture = glethach
-          size = 34004
+          size = 264004
         }
         create_pop = {
           culture = frost_giant
-          size = 6000
+          size = 26000
         }
       }
   }
