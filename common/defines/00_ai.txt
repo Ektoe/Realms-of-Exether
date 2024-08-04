@@ -31,8 +31,8 @@
 	CHANGE_STRATEGY_DIPLOMATIC_UNIFICATION_CANDIDATE = 100 # How many 'change points' are added to diplomatic strategy when we become or stop being a unification candidate
 	CHANGE_STRATEGY_DIPLOMATIC_LIBERTY_DESIRE_CHANGE = 2 # How many 'change points' are added to diplomatic strategy when liberty desire changes (multiplied by size of the change)
 
-	COUNTRY_GOAL_STRATEGIC_UPDATE_COUNT = 10 # How many AIs have their protector scores set every day
-	COUNTRY_GOAL_ADJUSTMENT_UPDATE_COUNT = 50 # How many AIs have their antagonize/befriend/threat scores, neighbor/relevance status and attitude adjusted each day
+	COUNTRY_GOAL_STRATEGIC_UPDATE_COUNT = 5 # How many AIs have their protector scores set every day
+	COUNTRY_GOAL_ADJUSTMENT_UPDATE_COUNT = 40 # How many AIs have their antagonize/befriend/threat scores, neighbor/relevance status and attitude adjusted each day
 
 	DECLARE_BANKRUPTCY_MIN_DAYS_IN_DEFAULT = 30 # After this many days in default, the AI will declare bankruptcy
 
