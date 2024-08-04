@@ -1475,10 +1475,10 @@ STATE_VYNDERVOHT = {
     arable_land = 145
     arable_resources = { "bg_underfarms" "bg_spider_ranch" }
     capped_resources = {
-        bg_deep_coal_mining = 84
-        bg_deep_iron_mining = 96
-        bg_deep_lead_mining = 81
-        bg_deep_cloud_collecting = 51
+        bg_coal_mining = 84
+        bg_iron_mining = 96
+        bg_lead_mining = 81
+        bg_cloud_collecting = 51
         bg_mushroom_logging = 10
         bg_monuments = 1
     }
