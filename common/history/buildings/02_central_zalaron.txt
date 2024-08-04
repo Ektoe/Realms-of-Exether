@@ -930,6 +930,19 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_no_luxuries" "pm_automation_disabled" }
 			}
+			create_building={
+				building="building_fishing_wharf"
+                add_ownership={ 
+                    building={ 
+                        type="building_adventuring_guild"
+                        country="c:THI"
+                        levels=4
+                        region="STATE_LILAC_SHORE"
+                   }
+                }
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+			}
             create_building={
 				building="building_logging_camp"
                 add_ownership={ 
@@ -993,7 +1006,7 @@ BUILDINGS = {
 					building={ 
 						type="building_financial_district"
 						country="c:THI"
-						levels=4
+						levels=5
 						region="STATE_CAVES_OF_RIMELAC"
 				   }
 				}
@@ -1068,7 +1081,20 @@ BUILDINGS = {
                 }
 				reserves=1
 				activate_production_methods={ "pm_military_shipbuilding_wooden" }
-			}			
+			}	
+			create_building={
+				building="building_fishing_wharf"
+                add_ownership={ 
+                    building={ 
+                        type="building_adventuring_guild"
+                        country="c:THI"
+                        levels=4
+                        region="STATE_AUBERN_FLOW"
+                   }
+                }
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" }
+			}		
             create_building={
 				building="building_glassworks"
                 add_ownership={ 
@@ -1297,6 +1323,19 @@ BUILDINGS = {
 				}
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_artillery_foundries"
+                add_ownership={ 
+                    building={ 
+                        type="building_financial_district"
+                        country="c:THI"
+                        levels=1
+                        region="STATE_OLD_AUBERN"
+                   }
+                }
+				reserves=1
+				activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
 			}
 			create_building={
 				building="building_shipyards"
@@ -1572,6 +1611,19 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_muskets" }
 			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:THI"
+						levels=10
+						region="STATE_CASTLECOURT"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled"  }
+			}
             create_building={
 				building="building_paper_mills"
                 add_ownership={ 
@@ -1643,16 +1695,17 @@ BUILDINGS = {
 				activate_production_methods={ "pm_disabled_canning" "pm_bakery" "pm_manual_dough_processing" }
 			}
 			create_building = {
-			building = "building_distillery"
-			add_ownership = {
-				building={ 
-                    type="building_financial_district"
-                    country="c:THI"
-                    levels=1
-                    region="STATE_HAAR_FEN"
+				building = "building_distillery"
+				add_ownership = {
+						building = {
+							type="building_financial_district"
+						country="c:THI"
+						levels=4
+						region="STATE_HAAR_FEN"
+						}
 				}
-			}
-			reserves = 1
+				reserves = 1
+				activate_production_methods={ "pm_basic_distillery" "pm_some_fruit" }
 			}
 			create_building={
 				building="building_sugar_plantation"
@@ -3867,7 +3920,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:VAI"
-                        levels=4
+                        levels=5
                         region="STATE_SUNFLORO"
                    }
                 }
@@ -3880,7 +3933,7 @@ BUILDINGS = {
 						building={
 							type="building_wizard_tower"
 							country="c:VAI"
-							levels=8
+							levels=9
 							region="STATE_SUNFLORO"
 					}
 				}
@@ -3926,19 +3979,6 @@ BUILDINGS = {
 				reserves=1
 				activate_production_methods={ "pm_manowar_leviathan_ships" }
 		}
-            create_building={
-				building="building_whaling_station"
-                add_ownership={ 
-                    building={ 
-                        type="building_adventuring_guild"
-                        country="c:VAI"
-                        levels=2
-                        region="STATE_SUNFLORO"
-                   }
-                }
-				reserves=1
-				activate_production_methods={ "pm_wooden_whaling_ships" "pm_unrefrigerated" }
-			}
 			create_building={
 				building="building_rye_farm"
 				add_ownership={ 
@@ -3958,7 +3998,7 @@ BUILDINGS = {
 					building={ 
 						type="building_manor_house"
 						country="c:VAI"
-						levels=1
+						levels=3
 						region="STATE_SUNFLORO"
 				   }
 				}
@@ -4085,7 +4125,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:VAI"
-                        levels=2
+                        levels=3
                         region="STATE_VENTAFALCO"
                    }
                 }
@@ -4229,7 +4269,7 @@ BUILDINGS = {
 				  building={
 					  type="building_wizard_tower"
 					  country="c:VAI"
-					  levels=2
+					  levels=3
 					  region="STATE_PLUVPINTO"
 				  }
 			  }
@@ -4281,7 +4321,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:VAI"
-                        levels=2
+                        levels=3
                         region="STATE_PLUVPINTO"
                    }
                 }
@@ -4307,7 +4347,7 @@ BUILDINGS = {
                     building={ 
                         type="building_financial_district"
                         country="c:VAI"
-                        levels=5
+                        levels=6
                         region="STATE_PLUVPINTO"
                    }
                 }
@@ -4707,7 +4747,7 @@ BUILDINGS = {
 						  building={ 
 							  type="building_adventuring_guild"
 							  country="c:VAI"
-							  levels=5
+							  levels=6
 							  region="STATE_VESPERVIDO"
 						 }
 					  }
