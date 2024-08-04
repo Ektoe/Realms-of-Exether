@@ -1025,7 +1025,7 @@ s:STATE_THE_AMBER_RUN_3 = {
 	region_state:LEO = {
 		create_pop = {
 			culture = bossardi
-			size = 1071209
+			size = 1771209
 		}
 		create_pop = {
 			culture = thiralian
@@ -1046,7 +1046,7 @@ s:STATE_FAR_SHORE_2 = {
 	region_state:LEO = {
 		create_pop = {
 			culture = bossardi
-			size = 781209
+			size = 1281209
 		}
 		create_pop = {
 			culture = thiralian

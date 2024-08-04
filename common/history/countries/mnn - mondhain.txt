@@ -1,6 +1,13 @@
 ﻿COUNTRIES = {
 	c:MNN ?= {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology_tier_druid_tech = yes
+
+		
+        add_technology_research = gunsmithing
+        add_technology_research = artillery
+        add_technology_research = line_infantry
+
+
 		# Laws 
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_landed_voting 

@@ -1,6 +1,10 @@
 ﻿COUNTRIES = {
 	c:IRA ?= {
-		effect_starting_technology_tier_6_tech = yes
+		effect_starting_technology_tier_druid_tech = yes
+		
+		add_technology_research = gunsmithing
+        add_technology_research = artillery
+        add_technology_research = line_infantry
 
 		effect_starting_politics_traditional = yes
 		activate_law = law_type:law_isolationism

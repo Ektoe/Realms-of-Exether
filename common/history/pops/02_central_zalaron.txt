@@ -376,7 +376,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = astreval
-				size = 252000
+				size = 1052381
 			}
 			create_pop = {
 				culture = thiralian
@@ -389,7 +389,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = astreval
-				size = 600448
+				size = 900448
 			}
       create_pop = {
 				culture = thiralian
@@ -401,8 +401,12 @@
   s:STATE_CAVES_OF_RIMELAC = {
 		region_state:THI = {
 			create_pop = {
+				culture = yelfi
+				size = 80196
+			}
+			create_pop = {
 				culture = thiralian
-				size = 388408
+				size = 788408
 			}
 			create_pop = {
 				culture = astreval
@@ -450,7 +454,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 1071996
+				size = 1771996
 			}
 			create_pop = {
 				culture = erdei
@@ -463,11 +467,11 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 677296
+				size = 1677296
 			}
 			create_pop = {
 				culture = bossardi
-				size = 5996
+				size = 405996
 			}
 			create_pop = {
 				culture = erdei
@@ -523,11 +527,11 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 122000
+				size = 122828
 			}
 			create_pop = {
 				culture = erdei
-				size = 130996
+				size = 1130996
 			}
 		}
   }
@@ -557,7 +561,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 882848
+				size = 1382848
 			}
 		}
   }
