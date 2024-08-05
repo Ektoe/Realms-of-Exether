@@ -23,12 +23,31 @@
 
 	on_enable = {
 		ig:ig_devout = {
+			if = {
+				limit = {
+					owner = { c:RVC ?= this }
+				}
+				set_interest_group_name = ig_avarice_cathedral
+				set_ig_trait = ig_trait:ig_trait_consilium_retentum
+				set_ig_trait = ig_trait:ig_trait_durus_sermo
+				set_ig_trait = ig_trait:ig_trait_the_oculi_vigiles
+			}
+
+
+
+		else ={
 		set_ig_trait = ig_trait:ig_trait_be_fruitful_and_multiply
 		set_ig_trait = ig_trait:ig_trait_divine_right
 		set_ig_trait = ig_trait:ig_trait_pious_fiction
+			}
+
 		}
 		
 		### Specific
+
+
+
+
 
 
 		### Generic
@@ -54,18 +73,7 @@
 		}
 
 
-		if = {
-			limit = {
-				OR = {
-					AND = {
-						c:RVC ?= this
-					}
-				}
-			}
-			ig:ig_devout = {
-				set_interest_group_name = ig_avarice_cathedral
-							}
-		}
+
 
 		if = {
 			limit = {
