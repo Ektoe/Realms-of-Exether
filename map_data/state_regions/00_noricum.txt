@@ -1,4 +1,4 @@
-﻿STATE_CROWNPEAK = {
+STATE_CROWNPEAK = {
     id = 4001
     subsistence_building = "building_subsistence_farms"
     provinces = { "x41C5FD" "x91B3B1" "xABE279" "xAF99FB" "xB7B7E1" "xB8F076" "xD8EA93" "xD9B0B2" "xDAE643" "xECF754" "xEEDD37" "xF08BCE" "xF4B6B2" "xFADD57" "xFAE3EE" "xFDB84F" }
@@ -15,7 +15,7 @@
         bg_iron_mining = 30
         bg_coal_mining = 44
         bg_lead_mining = 54
-        bg_wishstone_mining = 20
+        bg_wishstone_mining = 35
         bg_logging = 7
     }
     naval_exit_id = 3225
@@ -51,7 +51,7 @@ STATE_SERONTAIN = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 7
-        bg_wishstone_mining = 24
+        bg_wishstone_mining = 35
     }
     naval_exit_id = 3225
 }
@@ -151,7 +151,7 @@ STATE_SLUDGE_COAST = {
         bg_sulfur_mining = 40
         bg_logging = 8
         bg_fishing = 9
-        bg_wishstone_mining = 1
+        bg_wishstone_mining = 10
     }
     naval_exit_id = 3046
 }
@@ -226,7 +226,7 @@ STATE_TAR_PITS = {
         bg_coal_mining = 120
         bg_sulfur_mining = 60
         bg_logging = 14
-        bg_wishstone_mining = 2
+        bg_wishstone_mining = 10
     }
     naval_exit_id = 3222
 }
@@ -298,7 +298,6 @@ STATE_RIDERS_MOOT = {
     capped_resources = {
         bg_logging = 6
         bg_iron_mining = 11
-        bg_wishstone_mining = 24
     }
     naval_exit_id = 3231
 }
@@ -338,7 +337,7 @@ STATE_ICEWIND = {
     capped_resources = {
         bg_logging = 5
         bg_lead_mining = 8
-        bg_wishstone_mining = 22
+        bg_wishstone_mining = 33
     }
     naval_exit_id = 3039
 }
@@ -488,6 +487,7 @@ STATE_TANISTS_RETREAT = {
     capped_resources = {
         bg_logging = 5
         bg_fishing = 7
+        bg_wishstone_mining = 13
         bg_game_hunting = 3
     }
     naval_exit_id = 3022
@@ -570,6 +570,7 @@ STATE_DRAGONBANE_TUNDRA = {
         bg_logging = 29
         bg_hunting = 12
         bg_fishing = 6
+        bg_wishstone_mining = 44
     }
     naval_exit_id = 3017
 }
@@ -592,6 +593,7 @@ STATE_WYRMBONE_CLIFFS = {
         bg_whaling = 23
         bg_fishing = 17
         bg_coal_mining = 10
+        bg_wishstone_mining = 27
     }
     resource = {
         type = "bg_gold_fields"
@@ -666,6 +668,7 @@ STATE_ELDBERG = {
         bg_lead_mining = 7
         bg_whaling = 4
         bg_squidding = 4
+        bg_wishstone_mining = 17
         bg_fishing = 3
         bg_monuments = 1
     }
@@ -723,7 +726,12 @@ STATE_DRUMAGAR = {
         bg_logging = 1
         bg_fishing = 5
         bg_iron_mining = 16
+        bg_wishstone_mining = 17
     }
+        resource = {
+            type = "bg_wishstone_reefs"
+            undiscovered_amount = 16
+        }
     naval_exit_id = 3039
 }
 STATE_LOCHTYRE = {
@@ -741,7 +749,7 @@ STATE_LOCHTYRE = {
     capped_resources = {
         bg_logging = 17
         bg_fishing = 10
-        bg_wishstone_mining = 26
+        bg_wishstone_mining = 34
     }
     naval_exit_id = 3007
 }
@@ -836,7 +844,7 @@ STATE_URIKS_GIFT = {
         bg_sulfur_mining = 40
         bg_logging = 24
         bg_hunting = 12
-        bg_wishstone_mining = 20
+        bg_wishstone_mining = 45
     }
     resource = {
         type = "bg_oil_extraction"
@@ -912,13 +920,14 @@ STATE_BALATHOUL = {
     farm = xF2DFD1
     mine = xEC41D3
     wood = xDDE46F
-    arable_land = 21
+    arable_land = 33
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 8
         bg_logging = 5
         bg_squidding = 6
         bg_fishing = 9
+        bg_wishstone_mining = 2
     }
     naval_exit_id = 3039
 }
@@ -962,6 +971,7 @@ STATE_KINGOUR = {
         bg_coal_mining = 8
         bg_squidding = 6
         bg_fishing = 7
+        bg_wishstone_mining = 14
     }
     naval_exit_id = 3039
 }
@@ -1037,7 +1047,7 @@ STATE_SHROUDGUARD = {
         bg_lead_mining = 60
         bg_logging = 13
         bg_hunting = 4
-        bg_wishstone_mining = 23
+        bg_wishstone_mining = 30
     }
     naval_exit_id = 3229
 }
@@ -1073,6 +1083,7 @@ STATE_SNOWBREACH = {
     capped_resources = {
         bg_logging = 2
         bg_fishing = 4
+        bg_wishstone_mining = 15
     }
     naval_exit_id = 3039
 }
@@ -1164,7 +1175,7 @@ STATE_TOLFAR = {
     capped_resources = {
         bg_coal_mining = 44
         bg_lead_mining = 54
-        bg_wishstone_mining = 6
+        bg_wishstone_mining = 27
         bg_logging = 11
         bg_fishing = 8
     }
@@ -1260,7 +1271,7 @@ STATE_PONTBRAN = {
         bg_logging = 13
         bg_fishing = 10
         bg_hunting = 7
-        bg_wishstone_mining = 19
+        bg_wishstone_mining = 33
     }
     naval_exit_id = 3007
 }
@@ -1305,7 +1316,7 @@ STATE_YSTRAD = {
         bg_coal_mining = 84
         bg_logging = 8
         bg_hunting = 10
-        bg_wishstone_mining = 8
+        bg_wishstone_mining = 30
     }
     naval_exit_id = 3229
 }
@@ -1325,7 +1336,7 @@ STATE_GLYNFFORDD = {
         bg_fishing = 11
         bg_squidding = 4
         bg_hunting = 5
-        bg_wishstone_mining = 11
+        bg_wishstone_mining = 28
     }
     naval_exit_id = 3025
 }
@@ -1346,7 +1357,7 @@ STATE_ALLTGLAS = {
     capped_resources = {
         bg_coal_mining = 19
         bg_iron_mining = 8
-        bg_wishstone_mining_depletable = 3
+        bg_wishstone_mining = 27
         bg_logging = 6
         bg_squidding = 7
         bg_fishing = 7
@@ -1429,7 +1440,7 @@ STATE_CARREGRICE = {
     capped_resources = {
         bg_coal_mining = 12
         bg_logging = 6
-        bg_wishstone_mining = 13
+        bg_wishstone_mining = 24
         bg_game_hunting = 4
     }
     naval_exit_id = 3122
@@ -1448,7 +1459,7 @@ STATE_TALNANT = {
     capped_resources = {
         bg_logging = 9
         bg_fishing = 2
-        bg_wishstone_mining = 4
+        bg_wishstone_mining = 23
         bg_game_hunting = 3
     }
 
@@ -1469,7 +1480,7 @@ STATE_BLACKDON = {
     capped_resources = {
         bg_logging = 13
         bg_hunting = 8
-        bg_wishstone_mining = 15
+        bg_wishstone_mining = 27
     }
     naval_exit_id = 3229
 }
@@ -1547,6 +1558,7 @@ STATE_FALMAKELD = {
     capped_resources = {
         bg_logging = 4
         bg_fishing = 10
+        bg_wishstone_mining = 14
     }
     naval_exit_id = 3039
 }
@@ -1614,6 +1626,7 @@ STATE_HJELTIAS_GLACIER = {
         bg_logging = 5
         bg_squidding = 6
         bg_fishing = 9
+        bg_wishstone_mining = 13
     }
     naval_exit_id = 3039
 }
@@ -1634,6 +1647,7 @@ STATE_NORDFJALL = {
         bg_coal_mining = 48
         bg_sulfur_mining = 32
         bg_logging = 23
+        bg_wishstone_mining = 27
         bg_hunting = 17
     }
     resource = {
@@ -1652,12 +1666,13 @@ STATE_HRAUNLUND = {
     farm = xEF7DFD
     mine = xE9A0BC
     wood = xE879C0
+    impassable = { "x83DBF4" "xD9EE5F" "xB0C7CC" "xD557D2" "xFE9690" "xCDC9C7" "x69D1D1" "xEF7DFD" "xABC1BF" "x9BDBF1" "xDCC86B" }
     arable_land = 8
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 8
+        bg_wishstone_mining = 22
     }
-    impassable = { "x83DBF4" "xD9EE5F" "xB0C7CC" "xD557D2" "xCDC9C7" "x69D1D1" "xABC1BF" "x9BDBF1" "xDCC86B" }
 
 }
 STATE_ZAWADKA = {
@@ -1698,6 +1713,7 @@ STATE_HRAFNSDALR = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 15
+        bg_wishstone_mining = 10
         bg_logging = 11
         bg_coal_mining = 15
     }
@@ -1760,6 +1776,7 @@ STATE_SKALKA = {
         bg_logging = 14
         bg_fishing = 5
         bg_game_hunting = 7
+        bg_wishstone_mining = 13
     }
     naval_exit_id = 3034
 }
@@ -1779,6 +1796,16 @@ STATE_YGGHAMN = {
         bg_iron_mining = 18
         bg_logging = 11
         bg_coal_mining = 23
+            arable_resources = { "bg_rice_farms" "bg_coffee_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_lead_mining = 8
+        bg_fishing = 3
+        bg_wishstone_mining = 14
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 17
+    }
     }
     naval_exit_id = 3034
 }
@@ -1844,7 +1871,7 @@ STATE_MARAMAROVA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 17
+        undiscovered_amount = 27
     }
     naval_exit_id = 3041
 }
@@ -1862,6 +1889,11 @@ STATE_HALDORHEIMR = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 17
+    bg_wishstone_mining = 12
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 34
     }
 }
 STATE_POLYNKALA = {
@@ -1883,7 +1915,7 @@ STATE_POLYNKALA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 19
+        undiscovered_amount = 39
     }
     naval_exit_id = 3041
 }
@@ -1907,7 +1939,7 @@ STATE_NGURULAN = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 10
+        undiscovered_amount = 21
     }
     naval_exit_id = 3041
 }
@@ -1921,12 +1953,13 @@ STATE_HLIDSKJALF = {
     farm = xFC68D5
     mine = xF0FB5E
     wood = xF0F491
+    impassable = { "xFC68D5" "xD39BD0" "x9DFEFC" "xA09DED" "xF0FB5E" "xBD9DF0" "x6CEBAA" "x9CF6BA" "xCFDFBE" "xCA92BB" }
     arable_land = 9
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 15
+        bg_wishstone_mining = 22
     }
-    impassable = { "xD39BD0" "x9DFEFC" "xA09DED" "xBD9DF0" "x6CEBAA" "x9CF6BA" "xCFDFBE" "xCA92BB" }
     naval_exit_id = 3034
 }
 STATE_LUMO = {
@@ -1967,7 +2000,7 @@ STATE_ZEPHROPULU = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 28
+        undiscovered_amount = 33
     }
     naval_exit_id = 3041
 }
@@ -1990,7 +2023,7 @@ STATE_BARICORA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 11
+        undiscovered_amount = 20
     }
     naval_exit_id = 3041
 }
@@ -2010,6 +2043,7 @@ STATE_ANGERTORP = {
         bg_logging = 14
         bg_whaling = 4
         bg_fishing = 4
+        bg_wishstone_mining = 17
     }
 
     naval_exit_id = 3039
@@ -2033,6 +2067,7 @@ STATE_RAGNARKULL = {
         bg_whaling = 3
         bg_squidding = 5
         bg_fishing = 9
+        bg_wishstone_mining = 14
     }
     resource = {
         type = "bg_gold_fields"
@@ -2058,6 +2093,7 @@ STATE_BRISINGAMEN = {
     capped_resources = {
         bg_coal_mining = 40
         bg_logging = 6
+        bg_wishstone_mining = 14
     }
     resource = {
         type = "bg_oil_extraction"
@@ -2085,6 +2121,7 @@ STATE_VIGAKULL = {
         bg_whaling = 6
         bg_fishing = 9
         bg_squidding = 3
+        bg_wishstone_mining = 14
     }
     resource = {
         type = "bg_gold_fields"
@@ -2109,6 +2146,7 @@ STATE_FORRTORP = {
         bg_coal_mining = 36
         bg_logging = 23
         bg_hunting = 12
+        bg_wishstone_mining = 17
         bg_squidding = 5
     }
     resource = {
@@ -2140,6 +2178,7 @@ STATE_SOLVIK = {
         bg_logging = 11
         bg_whaling = 3
         bg_fishing = 7
+        bg_wishstone_mining = 13
     }
     resource = {
         type = "bg_oil_extraction"
@@ -2165,6 +2204,7 @@ STATE_FRIGGASVEIT = {
         bg_whaling = 2
         bg_fishing = 3
         bg_coal_mining = 23
+        bg_wishstone_mining = 23
     }
     naval_exit_id = 3039
 }
@@ -2185,6 +2225,7 @@ STATE_HERVIK = {
         bg_logging = 13
         bg_squidding = 4
         bg_fishing = 3
+        bg_wishstone_mining = 17
     }
     naval_exit_id = 3039
 }
@@ -2204,6 +2245,17 @@ STATE_EIRIKSHOF = {
         bg_logging = 12
     }
     naval_exit_id = 3017
+    arable_resources = { }
+    capped_resources = {
+        bg_lead_mining = 8
+        bg_logging = 2
+        bg_fishing = 3
+        bg_wishstone_mining = 17
+    }
+    resource = {
+        type = "bg_wishstone_reefs"
+        undiscovered_amount = 14
+    }
 }
 
 STATE_HALSTEAD = {
@@ -2223,6 +2275,7 @@ STATE_HALSTEAD = {
         bg_logging = 6
         bg_whaling = 5
         bg_fishing = 3
+        bg_wishstone_mining = 18
     }
     naval_exit_id = 3034
 }
@@ -2242,8 +2295,9 @@ STATE_FREYRSFJORDR = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_coal_mining = 20
-        bg_logging = 13
+        bg_logging = 3
         bg_fishing = 11
+        bg_wishstone_mining = 17
         bg_game_hunting = 1
     }
     resource = {
@@ -2266,8 +2320,8 @@ STATE_SIFSKER = {
     arable_land = 8
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 14
         bg_fishing = 5
+        bg_wishstone_mining = 28
     }
     naval_exit_id = 3034
 }
@@ -2288,6 +2342,7 @@ STATE_GRYTINGARIK = {
         bg_logging = 4
         bg_coal_mining = 14
         bg_fishing = 5
+        bg_wishstone_mining = 17
     }
     naval_exit_id = 3039
 }
