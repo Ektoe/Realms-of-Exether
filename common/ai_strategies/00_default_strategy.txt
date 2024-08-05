@@ -320,6 +320,19 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
+					has_journal_entry = je_great_gavkhan
+					scope:target_state = {
+						OR = {
+							state_region = s:STATE_KULLAMAL
+							state_region = s:STATE_DIBRA
+						}
+					}
+				}
+				add = 50
+			}
+
+			if = {
+				limit = {
 					OR = {
 						scope:target_state = { owner = root }				
 						ai_desires_target_state = yes
