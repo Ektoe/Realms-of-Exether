@@ -7,6 +7,10 @@
 		pmg_road_vehicles
 		pmg_road_security
 	}
+	unlocking_technologies = {
+		urbanization
+	}
+	has_max_level = yes
 	should_auto_expand = { 
 		occupancy >= 0.8
 		OR = {
