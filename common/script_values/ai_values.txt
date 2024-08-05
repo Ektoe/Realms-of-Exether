@@ -1,4 +1,27 @@
-﻿base_impose_law_weight= {
+﻿get_net_income = {
+	value = income
+	subtract = expenses
+}
+
+get_net_income_sq = {
+	value = net_income
+	min = 0
+	multiply = net_income
+}
+
+get_investment_income = {
+	value = investment_pool_income
+}
+
+get_investment_income_sq = {
+	value = investment_pool_income
+	min = 0
+	multiply = investment_pool_income
+}
+
+
+
+base_impose_law_weight= {
 	value = 0.01
 	
 	# Impose law is a fairly hostile act, AIs should use it mostly when angry at a subject
