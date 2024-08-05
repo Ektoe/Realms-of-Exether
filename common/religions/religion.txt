@@ -213,6 +213,30 @@ druidic = {
 	} 
 }
 
+avian_druidism = {
+	texture = "gfx/interface/icons/religion_icons/druidic.dds"
+	traits = {
+		animist_heritage nature_domain life_domain
+	}
+	color = { 0 0.9 0.5 }
+	
+	taboos = {
+		meat
+	} 
+}
+
+gnomish_druidism = {
+	texture = "gfx/interface/icons/religion_icons/druidic.dds"
+	traits = {
+		animist_heritage nature_domain life_domain
+	}
+	color = { 0 0.6 0.5 }
+	
+	taboos = {
+		meat
+	} 
+}
+
 astral_path = {
 	texture = "gfx/interface/icons/religion_icons/astral_path.dds"
 	traits = {

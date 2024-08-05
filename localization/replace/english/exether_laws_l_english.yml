@@ -24,6 +24,7 @@
   law_magocracy_desc: "#lore The government is ruled by circle of mages and their pursuit of arcane knowledge. The Head of State is nominally the most powerful spellcaster in the nation, selected by merit, status, or birth.#!"
   law_matriarchy: "Matriarchy"
   law_matriarchy_desc: "#lore Women rule society while men are usually not allowed in positions of power.#!"
+  law_womens_suffrage: "Egalitarian Suffrage"
 
  ideology_luddite_ig: "Luddite"
  ideology_luddite_ig_desc: "#lore Luddites are opposed to industrial automation, or in more extreme cases to industry itself.#!"

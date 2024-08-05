@@ -341,7 +341,7 @@
 		}
 		create_pop = {
 			culture = cliffpercher
-			religion = druidic
+			religion = avian_druidism
 			size = 155800
 		}
 		create_pop = {
@@ -418,7 +418,7 @@
 		}
 		create_pop = {
 			culture = cliffpercher
-			religion = druidic
+			religion = avian_druidism
 			size = 19996
 		}
 	}
@@ -441,7 +441,7 @@
 		}
 		create_pop = {
 			culture = cliffpercher
-			religion = druidic
+			religion = avian_druidism
 			size = 8000
 		}
 		create_pop = {

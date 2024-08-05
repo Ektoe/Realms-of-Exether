@@ -8,7 +8,6 @@
 		bg_ranching = 2.0
 		bg_fishing = 1.5
 		bg_plantations = 1.5
-		bg_manufacturing = 0.5
 	}
 	
 	goods_stances = {
@@ -101,7 +100,6 @@ ai_strategy_plantation_economy = {
 
 	building_group_weights = {
 		bg_plantations = 2.0
-		bg_manufacturing = 0.5
 	}
 
 	possible = {
@@ -152,11 +150,10 @@ ai_strategy_resource_expansion = {
 	building_group_weights = {
 		bg_rubber = 1.25
 		bg_oil_extraction = 1.25
-		bg_mining = 1.5
-		bg_iron_mining = 1.25
+		bg_mining = 2.0
 		bg_logging = 1.25
 		bg_wishstone_fields = 1.5
-		bg_coal_mining = -0.50
+		bg_coal_mining = 0.25
 	}
 	
 	subsidies = {
@@ -302,10 +299,9 @@ ai_strategy_industrial_expansion = {
 		bg_manufacturing = 1.50
 		bg_rubber = 1.25
 		bg_oil_extraction = 1.25
-		bg_mining = 1.25
-		bg_iron_mining = 1.25
-		bg_wishstone_fields = 1.50
-		bg_coal_mining = -0.25
+		bg_mining = 1.50
+		bg_wishstone_fields = 1.25
+		bg_coal_mining = 0.25
 	}
 	
 	weight = {
@@ -394,7 +390,6 @@ ai_strategy_placate_population = {
 		bg_ranching = 2.0
 		bg_oil_extraction = 0.5
 		bg_mining = 0.5		
-		bg_construction = 0.5
 		bg_manufacturing = 0.25		
 	}
 	
@@ -479,6 +474,7 @@ ai_strategy_colonial_extraction = {
         bg_mining = 1.5
         bg_logging = 1.5
         bg_plantations = 1.5
+		bg_military = 0.25
     }
     
     subsidies = {

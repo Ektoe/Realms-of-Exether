@@ -27,3 +27,28 @@
   thalorian_crusade.2.e: "[SCOPE.sCountry('olt_scope').GetName] can weather the storm."
   thalorian_crusade.2.g: "[SCOPE.sCountry('dnv_scope').GetName] will avenge this injustice."
   thalorian_crusade.2.l: "[SCOPE.sCountry('tha_scope').GetName] is our only hope."
+
+  formation.1.t: "Gavkhani Unification"
+  formation.1.d: "The victory of [SCOPE.sCharacter('ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('ruler_scope').GetFullName] brings the contest of Khans to an end, finally unifying [ROOT.GetCountry.GetName]."
+  formation.1.f: "The days of warring khans were over. [ROOT.GetCountry.GetNameNoFormatting] would return to the fold of a sublime emperor, the champion of goblinkind upon this land. Stability and modernity may now follow under the eyes of [SCOPE.sCharacter('ruler_scope').GetFullName], the emperor of Gavkhan."
+  formation.1.a: "Flaqi to a Dor̈f!"
+
+  union_of_the_sands.1.t: "The Purpur Wedding"
+  union_of_the_sands.1.d: "[SCOPE.sCharacter('dro_ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('dro_ruler_scope').GetFullName] and [SCOPE.sCharacter('voz_ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('voz_ruler_scope').GetFullName] have exchanged vows, binding together their respective nations."
+  union_of_the_sands.1.a: "Long live the [SCOPE.sCharacter('ruler_scope').GetPrimaryRoleTitle]!"
+  union_of_the_sands.1.b: "At least the cake was delicious."
+  union_of_the_sands.1.f: "In an extravagant ceremony held in the lush gardens of [SCOPE.sState('winner_capital_scope').GetName], [SCOPE.sCharacter('dro_ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('dro_ruler_scope').GetFullName] has taken [SCOPE.sCharacter('voz_ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('voz_ruler_scope').GetFullName] as her royal consort.\n\nOver the years, [SCOPE.sCountry('dro_scope').GetNameNoFlag] has proven itself to be the dominant economic force in the region. As a measure of goodwill and as an extension of the existing union, [SCOPE.sCharacter('voz_ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('voz_ruler_scope').GetFullName] has accepted [SCOPE.sCountry('dro_scope').GetAdjectiveNoFlag] supremacy."
+  union_of_the_sands.1.f_dwarf: "In a breathtaking ceremony held atop an airship circling [SCOPE.sState('winner_capital_scope').GetName], [SCOPE.sCharacter('voz_ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('voz_ruler_scope').GetFullName] has taken [SCOPE.sCharacter('dro_ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('dro_ruler_scope').GetFullName] as his queen consort.\n\nOver the years, [SCOPE.sCountry('voz_scope').GetNameNoFlag] has proven itself to be the dominant economic force in the region. As a measure of goodwill and as an extension of the existing union, [SCOPE.sCharacter('dro_ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('dro_ruler_scope').GetFullName] has accepted [SCOPE.sCountry('voz_scope').GetAdjectiveNoFlag] supremacy."
+
+  union_of_the_sands.2.t: "The Union of the Sands"
+  union_of_the_sands.2.d: "We have successfully mended the rift between our [SCOPE.sCulture('aridrun_scope').GetName] and [SCOPE.sCulture('vozi_scope').GetName] subjects."
+  union_of_the_sands.2.a: "Never thought i'd die fighting side by side with a dwarf."
+  union_of_the_sands.2.b: "Never thought i'd die fighting side by side with an elf."
+  union_of_the_sands.2.f: "Thanks to a long line of legal reforms and the efforts of egalitarians nationwide, men and women in [ROOT.GetCountry.GetNameNoFlag] will now enjoy the same legal rights, paving the way for closer ties between the [SCOPE.sCulture('aridrun_scope').GetName] elves and [SCOPE.sCulture('vozi_scope').GetName] dwarves.\n\nThe question of gender roles was the last obstacle to a true union between the nations of the Nogi sands, which shall henceforth be known as the nation of #bold Yavoz#!."
+
+ gavkhan.1.t:0 "The Pretender"
+ gavkhan.1.d:0 "A warrior of the Clan of Qushva has rapidly risen to power and popularity. He has defeated every army sent against him and now he seeks to take the throne of [ROOT.GetCountry.GetName] by force."
+ gavkhan.1.f:0 "The tale of a goblin warlord rising through sheer cunning is both riveting and fearsome. Once a lowly scavenger, Zulth Qushva now commands respect and fear across the land. Even deprived of honor and status, Zulth has swiftly amassed a loyal legion, captivating the hearts and minds of his kin with his clever strategies and ruthless efficiency."
+ gavkhan.1.a:0 "Might makes right! Enthrone him!"
+ gavkhan.1.b:0 "We will show him how we deal with pretenders."
+ tewodros_modifier:0 "Upstart Warlord"
