@@ -186,7 +186,7 @@
 			hq = sr:region_ravencliff
 			save_scope_as = rvcgen
 		}
-		scope:qar_general = {
+		scope:rvcgen = {
 			commander_rank = commander_rank_2
 			transfer_to_formation = scope:rvcarmy
 		}

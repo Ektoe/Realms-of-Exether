@@ -848,18 +848,6 @@
 		}
 	}
 	c:TEF ?= {
-		create_trade_route = {
-			goods = dye
-			level = 1
-			target = c:CLL.market
-			direction = import
-		}
-		create_trade_route = {
-			goods = wood
-			level = 8
-			target = c:CLL.market
-			direction = import
-		}
 	}
 	c:CLL ?= {
 		create_trade_route = {

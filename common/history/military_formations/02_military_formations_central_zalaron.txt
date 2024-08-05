@@ -195,6 +195,9 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_vairia
+
+			name = "Grand Army of Vairia"
+
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_VENTAFALCO
@@ -272,6 +275,8 @@
 			type = army
 			hq_region = sr:region_steepcliff
 
+			name = "Felicgrundan Army"
+
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_FELICGRUNDO
@@ -298,10 +303,41 @@
 		scope:vai_general_2 = {
 			transfer_to_formation = scope:vai_army_2
 		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_vairia
+
+			name = "Thicket Border Guard"
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VERDFALDO
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_VESPERVIDO
+				count = 15
+			}
+
+			save_scope_as = vai_army_4
+		}
+		create_character = {
+			is_general = yes
+			hq = region_vairia
+			save_scope_as = vai_general_4
+		}
+		scope:vai_general_4 = {
+			set_commander_rank = 2
+			transfer_to_formation = scope:vai_army_4
+		}
 		
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_whisperpine
+
+			name = "Evefrost Garrison"
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -324,6 +360,8 @@
 			type = fleet
 			hq_region = sr:region_vairia
 
+			name = "Amethyst Sea Fleet"
+
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_VENTAFALCO
@@ -332,12 +370,12 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_PLUVPINTO
-				count = 4
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_VENTAFALCO
-				count = 4
+				count = 3
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -352,6 +390,7 @@
 			save_scope_as = vai_admiral_1
 		}
 		scope:vai_admiral_1 = {
+			commander_rank = commander_rank_2
 			transfer_to_formation = scope:vai_fleet_1
 		}
 		
@@ -359,20 +398,22 @@
 			type = fleet
 			hq_region = sr:region_vairia
 
+			name = "Evefrost Patrol Fleet"
+
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_VENTAFALCO
-				count = 4
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate
 				state_region = s:STATE_PLUVPINTO
-				count = 3
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
 				state_region = s:STATE_VENTAFALCO
-				count = 3
+				count = 2
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_man_o_war
@@ -387,6 +428,7 @@
 			save_scope_as = vai_admiral_2
 		}
 		scope:vai_admiral_2 = {
+			commander_rank = commander_rank_2
 			transfer_to_formation = scope:vai_fleet_2
 		}
 	}
@@ -960,4 +1002,176 @@
 			transfer_to_formation = scope:ocr_army
 		}
 	}
+
+
+	c:TEF ?= {
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_teferet
+
+			name = "Tefereti Grand Army"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SHADGOL
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_SHADGOL
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_SHIRBIN_LOWLANDS
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_POMMELFALL
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_ASARSHIR
+				count = 5
+			}
+
+			save_scope_as = tefarmy1
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			hq = sr:region_teferet
+			save_scope_as = tefgen1
+		}
+		
+		scope:tefgen1 = {
+			transfer_to_formation = scope:tefarmy1
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_teferet
+
+			name = "Southern Garrison"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_AUTUMN_HILLS
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_POMMELFALL
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ZYRELIANAR
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_FAOLNA_PASS
+				count = 5
+			}
+
+			save_scope_as = tefarmy2
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_2
+			hq = sr:region_teferet
+			save_scope_as = tefgen2
+		}
+		
+		scope:tefgen2 = {
+			transfer_to_formation = scope:tefarmy2
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_teferet
+
+			name = "Gatewatch"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_MARBLEGATE
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_PORCELAINGATE
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_HIGH_HARAVA
+				count = 10
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_MARBLEGATE
+				count = 5
+			}
+
+			save_scope_as = tefarmy3
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_1
+			hq = sr:region_teferet
+			save_scope_as = tefgen3
+		}
+		
+		scope:tefgen3 = {
+			transfer_to_formation = scope:tefarmy3
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_teferet
+
+			name = "Cobalt Keepers"
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_line_infantry
+				state_region = s:STATE_ASARSHIR
+				count = 15
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_mobile_artillery
+				state_region = s:STATE_ASARSHIR
+				count = 5
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_lancers
+				state_region = s:STATE_ASARSHIR
+				count = 5
+			}
+
+			save_scope_as = tefarmy4
+		}
+
+		create_character = {
+			is_general = yes
+			commander_rank = commander_rank_1
+			hq = sr:region_teferet
+			save_scope_as = tefgen4
+		}
+		
+		scope:tefgen4 = {
+			transfer_to_formation = scope:tefarmy4
+		}
+
+
+	}
 }
+
+

@@ -206,7 +206,7 @@
 	region_state:KAM = {
 		create_pop = {
 			culture = koshiri
-			size = 507321
+			size = 1307321
 		}
 		create_pop = {
 			culture = vandori
@@ -401,12 +401,8 @@
   s:STATE_CAVES_OF_RIMELAC = {
 		region_state:THI = {
 			create_pop = {
-				culture = yelfi
-				size = 80196
-			}
-			create_pop = {
 				culture = thiralian
-				size = 788408
+				size = 888408
 			}
 			create_pop = {
 				culture = astreval
@@ -970,15 +966,15 @@
 		region_state:TEF = {
 			create_pop = {
 				culture = nangarlith
-				size = 145244
+				size = 445244
 			}
 			create_pop = {
 				culture = tefereti
-				size = 28020
+				size = 128020
 			}
       create_pop = {
 				culture = erdei
-				size = 58020
+				size = 358020
 			}
 		}
   }
@@ -1000,11 +996,11 @@
 		region_state:TEF = {
 			create_pop = {
 				culture = tefereti
-				size = 509992
+				size = 709992
 			}
       create_pop = {
 				culture = nangarlith
-				size = 76992
+				size = 376992
 			}
 		}
   }
@@ -1158,7 +1154,7 @@
 		region_state:TEF = {
 			create_pop = {
 				culture = tefereti
-				size = 1057592
+				size = 1457592
 			}
 		}
   }
@@ -2567,7 +2563,7 @@
   region_state:KAM = {
     create_pop = {
 				culture = koshiri
-				size = 220694
+				size = 920694
 			}
       create_pop = {
 				culture = vandori
