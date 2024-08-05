@@ -36,16 +36,6 @@ bg_cloud_collecting = {
 	can_use_slaves = yes
 }
 
-bg_deep_cloud_collecting = {
-	parent_group = bg_magic_resource
-
-	land_usage = rural
-	
-	default_building = building_deep_cloud_collectors
-
-	can_use_slaves = yes
-}
-
 bg_wishstone_mining = { 
 	parent_group = bg_magic_resource
 
