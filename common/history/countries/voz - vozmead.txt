@@ -25,5 +25,9 @@
 		set_tariffs_import_priority = g:wood
 		set_tariffs_import_priority = g:paper
 		set_tariffs_import_priority = g:luxury_clothes
+
+		add_journal_entry = {
+			type = je_purpur_wedding
+		}
 	}
 }

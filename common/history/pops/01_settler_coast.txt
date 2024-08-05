@@ -1313,6 +1313,10 @@ s:STATE_FAR_SHORE_2 = {
 			size = 1153196
 		}
 		create_pop = {
+			culture = eberri
+			size = 41508
+		}
+		create_pop = {
 			culture = changeling
 			size = 5189
 		}
@@ -1324,6 +1328,10 @@ s:STATE_FAR_SHORE_2 = {
 		create_pop = {
 			culture = changeling
 			size = 16000
+		}
+		create_pop = {
+			culture = eberri
+			size = 38108
 		}
 		create_pop = {
 			culture = achonian
@@ -1787,6 +1795,10 @@ s:STATE_FAR_SHORE_2 = {
 		create_pop = {
 			culture = changeling
 			size = 4919
+		}
+		create_pop = {
+			culture = eberri
+			size = 4768
 		}
 	}
   }

@@ -284,6 +284,7 @@
 			    }    			    	    			    			    		    
       }
   }
+ 
   s:STATE_ABAISSE_DE_MARBRUN = {
 		  region_state:EME={  
             create_building={
@@ -390,6 +391,7 @@
 			}					    	
   	}
   }
+  
   s:STATE_AZURSOL = {
 		  region_state:EME={ 
 			create_building={
@@ -521,7 +523,8 @@
 		}
 	}
   }
-   s:STATE_SAINT_MER_2 = {
+   
+  s:STATE_SAINT_MER_2 = {
 	region_state:CER={
             create_building={
 			building="building_logging_camp"
@@ -564,7 +567,8 @@
 		}
 	}
   }
-    s:STATE_LANDING_AT_SEA_2 = {
+    
+  s:STATE_LANDING_AT_SEA_2 = {
 	region_state:CER={
             create_building={
 			building="building_arms_industry"
@@ -658,7 +662,6 @@
 	}
 	}
 		
-
   s:STATE_CAEL_VALEN = {
 	region_state:CER={
             create_building={
@@ -753,6 +756,7 @@
 		}
 	}
   }
+
   s:STATE_CAEL_VALEN_2 = {
 	region_state:CER={
             create_building={
@@ -1167,7 +1171,6 @@
 	}
   }	
   
-
   s:STATE_ORCBANE_PASS = {
 	region_state:CER={
             create_building={
@@ -1355,7 +1358,8 @@
 		}
 	}
   }
-   s:STATE_PENDYM_GWYN_2 = {
+
+  s:STATE_PENDYM_GWYN_2 = {
    	region_state:CER={
             create_building={
 			building="building_fishing_wharf"
@@ -1622,6 +1626,7 @@
 		}
 	}
   }
+
   s:STATE_CRAGGEDWYN = {
 	region_state:CDW={
 		create_building={
@@ -1787,7 +1792,6 @@
 	}
   }
 
-
   s:STATE_EASTERN_PLAGUEWOOD = {
 	region_state:RTD={
 			create_building={
@@ -1815,50 +1819,6 @@
                 }
 			reserves=1
 			activate_production_methods={ "pm_simple_forestry" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
-		}
-	}
-  }
-
-  s:STATE_EASTERN_PLAGUEWOOD_2 = {
-	region_state:RTD={
-			create_building={
-			building="building_rice_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:RTD"
-						levels=1
-						region="STATE_EASTERN_PLAGUEWOOD"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled"  }
-		}
-			create_building={
-			building="building_livestock_ranch"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:RTD"
-						levels=6
-						region="STATE_EASTERN_PLAGUEWOOD"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
-		}
-			create_building={
-			building="building_tobacco_plantation"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:RTD"
-						levels=1
-						region="STATE_EASTERN_PLAGUEWOOD"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
 		}
 	}
   }
@@ -1894,7 +1854,6 @@
 	}
   }
 
-  
   s:STATE_FORESTS_HEART_3_2 = {
 	region_state:BDB={
 		create_building={
@@ -2041,7 +2000,6 @@
   s:STATE_ASHWICK = {
 
   }
-
   
   s:STATE_MINUPHOSS = {
 	region_state:DRO={
@@ -2294,7 +2252,6 @@
 			activate_production_methods={ "pm_basic_port" }
 		}
 	}
-  }
 	region_state:GCS={
 		create_building={
 			building="building_government_administration"
@@ -2333,8 +2290,8 @@
 			reserves=1
 			activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
 		}
-	}
-  
+	}  
+}
 
   s:STATE_MOORESHIRE = {
 	region_state:SMA={
@@ -3483,6 +3440,7 @@
 
 		}
   }
+ 
   s:STATE_DURANS_LAND_2 = {
 	region_state:ARR={
             create_building={
@@ -3526,6 +3484,7 @@
 		  }
 	}
 }
+
   s:STATE_FIRST_BOROUGH = {
 	region_state:SLB={
 		create_building={
@@ -5413,6 +5372,7 @@
 		}
 	}	
   }
+ 
   s:STATE_SHIFTING_SCAR = {
 
   }

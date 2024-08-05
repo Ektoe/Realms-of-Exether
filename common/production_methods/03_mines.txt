@@ -1274,6 +1274,12 @@ pm_godsblood_pump_building_gold_mine = {
 			building_archmages_mortality_mult = 0.1
 		}
 	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_minting_add = 1000
+		}
+	}
 }
 
 pm_diesel_pump_building_gold_mine = {
