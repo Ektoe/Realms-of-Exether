@@ -307,7 +307,7 @@ STATE_UMAGAMA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 6
+        undiscovered_amount = 24
     }
     naval_exit_id = 3018
 }
@@ -345,7 +345,7 @@ STATE_CIDADOURO = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 4
+        undiscovered_amount = 20
     }
     naval_exit_id = 3018
 }
@@ -1418,7 +1418,7 @@ STATE_SAMARTHYA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 12
+        undiscovered_amount = 32
     }
     naval_exit_id = 3045
 }
@@ -1444,7 +1444,7 @@ STATE_JIVANTA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 9
+        undiscovered_amount = 23
     }
     naval_exit_id = 3045
 }
