@@ -1187,6 +1187,7 @@ STATE_MARZEHZARIN = {
 }
 STATE_HIGH_HARAVA = {
     id = 4284
+    traits = { "state_trait_starshimmer_pool" }
     subsistence_building = "building_subsistence_farms"
     provinces = { "x70ECB5" "x7CEAD9" "x7D9CF7" "xA497FE" "xA880F0" "xA8DE8A" "xBAD983" "xBBF3C0" "xBE6DEE" "xC1FDCA" "xD44DDC" "xD487D0" "xE0F1DA" "xE2E2D3" "xEDBF53" "xEFF456" "xFE8DFA" }
     port = xFE8DFA

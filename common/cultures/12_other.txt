@@ -321,7 +321,7 @@ kailando_lacertian={
 west_lacertian={
 	color= hsv{ 0.63 0.47 0.83 }
 	religion = animist
-	traits = { lizardfolk_heritage }
+	traits = { citrus_currents_culture_group lizardfolk_heritage }
 	obsessions = {
 		meat
 	}

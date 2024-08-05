@@ -6,6 +6,7 @@ s:STATE_MALANDA = {
 		owned_provinces = { "x1AE4FD" "x44CEFE" "x60FD9A" "x64C1FD" "x7C9EFD" "xB6ACF3" "xBDC6A6" "xC2F871" "xCFBDCD" "xD2D4EE" "xD5C296" "xE5B1D0" "xE68D86" "xE8ACF1" "xEBF184" "xECF723" "xF2D541" "xF2E1FB" "xF2EA67" "xF3BD8C" "xF9B948" "xFB0BEF" }
 }
 add_homeland = cu:zemvelo
+add_homeland = cu:east_lacertian
 }
 
 s:STATE_GONJOLA = {
@@ -14,6 +15,7 @@ s:STATE_GONJOLA = {
 		owned_provinces = { "x44F5E8" "x54C7FB" "x5DF1F5" "x70B4E6" "x8797D7" "x87CEA6" "x90EA89" "x95FD67" "xC0A2A6" "xCCAEF1" "xCF80B4" "xD0BD99" "xD334F0" "xD5FD40" "xD767E8" "xDDFA8F" "xE3F99C" "xF89E97" "xF9CF74" "xFCED30" }
 }
 add_homeland = cu:zemvelo
+add_homeland = cu:east_lacertian
 }
 
 s:STATE_BEXAMBA = {
@@ -38,7 +40,9 @@ s:STATE_XABELO = {
 		country = c:AZI
 		owned_provinces = { "x44E9D6" "x7CCFF7" "x82F8A5" "x8487F2" "x9EFC5C" "xA1D8F0" "xA6D2C3" "xA8D1C3" "xBA80D7" "xBBB0D7" "xC5B0F8" "xC7D66B" "xD96EF6" "xE1EEA2" "xE3A6DB" "xE7D4AE" "xEA57D7" "xEB3FF5" "xF895DE" "xFC66E4" "xFCBCE3" "xFEF388" }
 }
+add_homeland = cu:zemvelo
 add_homeland = cu:bakibi
+add_homeland = cu:east_lacertian
 }
 
 s:STATE_MAZALINO = {
@@ -109,6 +113,7 @@ s:STATE_MABRAGA = {
 		owned_provinces = { "x51ECBE" "x8D93FC" "xA2F784" "xC990A9" "xCC71D9" "xDBEFEC" "xDCED9F" "xDE7FBD" "xDFD67A" "xE6C0DF" "xF5DD2A" }
 }
 add_homeland = cu:bakibi
+add_homeland = cu:east_lacertian
 }
 
 s:STATE_UMAGAMA = {
@@ -117,6 +122,7 @@ s:STATE_UMAGAMA = {
 		owned_provinces = { "x53FDED" "x75FCF7" "x7DEBDC" "x8BF6B4" "xA2C3D7" "xA9D6BE" "xB797AA" "xB85DFB" "xBAC7DE" "xBD54EC" "xCC9F8A" "xCED3BE" "xCFFB35" "xD36BC4" "xD4C57D" "xD4D8A9" "xE19CB6" "xE3C267" "xE4ED50" "xE4EF7E" "xE5B68A" "xE659C9" "xECFA11" "xEE50E7" "xF7F2F6" "xFB70C6" "xFD76F1" "xFDC3A1" "xFE47BD" }
 }
 add_homeland = cu:zemvelo
+add_homeland = cu:east_lacertian
 }
 
 s:STATE_ALMADOURO = {

@@ -435,7 +435,7 @@ xhurlob = {
 shkemger = {
 	color= hsv{ 0.40 0.30 0.14 }
 	religion = goblin_faith
-	traits = { kharai_urchu_culture_group goblin_heritage }
+	traits = { emperors_marbles_culture_group goblin_heritage }
 	male_common_first_names={
 		Badamdorj
 		Balingiin
@@ -490,7 +490,7 @@ shkemger = {
 atiukura = {
 	color= hsv{ 0.80 0.30 0.5 }
 	religion = goblin_faith
-	traits = { kharai_urchu_culture_group goblin_heritage }
+	traits = { emperors_marbles_culture_group goblin_heritage }
 	male_common_first_names={
 		Abdulrahim
 		Akif
@@ -994,7 +994,7 @@ kalmyk={
 dales_togrul={
 	color= hsv{ 0.55 0.17 0.73 }
 	religion = goblin_faith
-	traits = { goblin_heritage }
+	traits = { emperors_marbles_culture_group goblin_heritage }
 	male_common_first_names={
 		Jjunju
 		Kabulu

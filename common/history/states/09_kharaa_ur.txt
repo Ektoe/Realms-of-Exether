@@ -23,7 +23,7 @@ s:STATE_CHADBA = {
 		owned_provinces = { "x80EFF9" "xA0A6F5" "xA7CDA7" "xAED87D" "xD39AB0" "xD4B5F3" "xD893E8" "xDBE171" "xF3BB6C" "xF424F9" "xF75BD1" "xFACABD" }
 }
 add_homeland = cu:khanaruk
-add_homeland = cu:atiukura
+add_homeland = cu:yakamimbo
 add_homeland = cu:puarfejiin
 }
 
@@ -197,7 +197,6 @@ s:STATE_KHONGO = {
 		owned_provinces = { "x8E93D8" "xAFDDC6" "xCE38EF" "xD0C2FA" "xD4D0F7" "xE8A974" "xFC848E" }
 }
 add_homeland = cu:morevnamarya
-add_homeland = cu:shkemger
 }
 
 s:STATE_SERGER = {
@@ -443,6 +442,7 @@ s:STATE_RAZOK = {
 		owned_provinces = { "x2CF2E4" "x48F612" "x86F09B" "x97A7E3" "xA294F9" "xBB84EC" "xCFCBD3" "xD3F663" "xE2D3E9" "xF9B986" "xFBF06B" }
 }
 add_homeland = cu:onisazae
+add_homeland = cu:shkemger
 }
 
 s:STATE_KYRGRUK = {
@@ -533,7 +533,7 @@ s:STATE_KHANGAWA = {
 		owned_provinces = { "x6DBDD8" "x9EB8C0" "xAF91C3" "xB9B6A7" "xC8ED9D" "xC8FD53" "xCB8CB7" "xCE72E4" "xD2B8B5" "xD366FB" "xDEE9F6" "xEBD174" "xF2B0FA" "xF30FF5" "xFCE284" "xFCFE33" }
 }
 add_homeland = cu:khanaruk
-add_homeland = cu:atiukura
+add_homeland = cu:yakamimbo
 }
 
 s:STATE_HIRAMACHI = {

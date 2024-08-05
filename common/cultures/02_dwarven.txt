@@ -39,7 +39,7 @@
 duneshar={
 	color= hsv{ 0.29 0.22 0.51 }
 	religion = dwarven_ancestors
-	traits = {cloud_dwarf dwarf_heritage }
+	traits = { embervein_warriors_culture_group cloud_dwarf dwarf_heritage }
 	male_common_first_names={
 		Denny
 		Dominggus

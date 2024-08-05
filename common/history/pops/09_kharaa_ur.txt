@@ -43,7 +43,11 @@
       }
       create_pop = {
         culture = atiukura
-        size = 822882
+        size = 322882
+      }
+      create_pop = {
+        culture = yakamimbo
+        size = 842945
       }
       create_pop = {
         culture = puarfejiin
@@ -102,6 +106,10 @@
       create_pop = {
         culture = khanaruk
         size = 1880851
+      }
+      create_pop = {
+        culture = shkemger
+        size = 572662
       }
       create_pop = {
         culture = puarfejiin
@@ -460,6 +468,10 @@
         size = 1474221
       }
       create_pop = {
+        culture = shkemger
+        size = 653546
+      }
+      create_pop = {
         culture = morevnamarya
         size = 6031709
       }
@@ -483,7 +495,7 @@
       }
       create_pop = {
         culture = shkemger
-        size = 2705865
+        size = 605865
       }
 	  create_pop = {
         pop_type = slaves
@@ -503,6 +515,10 @@
       create_pop = {
         culture = khanaruk
         size = 388320
+      }
+      create_pop = {
+        culture = shkemger
+        size = 716855
       }
       create_pop = {
         culture = morevnamarya
@@ -913,6 +929,10 @@
         culture = onisazae
         size = 3002599
       }
+      create_pop = {
+        culture = shkemger
+        size = 546023
+      }
     }
   }
 
@@ -1058,12 +1078,16 @@
         size = 132475
       }
       create_pop = {
-        culture = atiukura
+        culture = yakamimbo
         size = 678483
       }
-	  create_pop = {
+      create_pop = {
+        culture = atiukura
+        size = 294437
+      }
+	    create_pop = {
         pop_type = slaves
-		culture = atiukura
+		    culture = atiukura
         size = 500
       }
     }
