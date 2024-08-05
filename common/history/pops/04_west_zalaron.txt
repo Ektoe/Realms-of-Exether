@@ -1487,7 +1487,11 @@
 			}
 			create_pop = {
 				culture = kusichaki
-				size = 8000
+				size = 3000
+			}
+			create_pop = {
+				culture = dunaq
+				size = 5000
 			}
 			create_pop = {
 				pop_type = slaves

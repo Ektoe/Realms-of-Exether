@@ -220,6 +220,7 @@ s:STATE_IVONDRO = {
 		owned_provinces = { "x6FA5E7" "x73E9E2" "x86FCDC" "x98E9CC" "xAECCEA" "xBCA8FE" "xC3F6DC" "xD4CED6" "xE298E6" "xE7C1BF" "xE8F09D" "xE9E6EB" "xEC6CD7" "xFD54A7" }
 }
 add_homeland = cu:jazamandroso
+add_homeland = cu:lacertian
 }
 
 s:STATE_MAHALATSAKA = {
@@ -237,6 +238,7 @@ s:STATE_FIANARIVO = {
 		owned_provinces = { "x57FEC0" "x5FF1F5" "xA1F995" "xB057F4" "xB786EE" "xC957DC" "xCCDCB6" "xD7EDB8" "xDF72CA" "xEAD796" }
 }
 add_homeland = cu:jazamandroso
+add_homeland = cu:lacertian
 }
 
 s:STATE_VAROTSOA = {
@@ -245,6 +247,7 @@ s:STATE_VAROTSOA = {
 		owned_provinces = { "x43E3E9" "x54FDEC" "x6EE1BC" "x81DEBA" "x9DE1C4" "xA09AE5" "xBBABD3" "xC489EC" "xC6A7B0" "xDD8BBC" "xDDF7B7" "xE7E2F5" "xF3EAD0" "xF5959C" }
 }
 add_homeland = cu:jazamandroso
+add_homeland = cu:lacertian
 }
 
 s:STATE_TSIMIHAVANA = {
@@ -278,6 +281,7 @@ s:STATE_YNTHOLG = {
 		owned_provinces = { "x45F8CC" "x8DD4D6" "xA172E5" "xB6C797" "xC8E97D" "xF3EFB4" "xF9FD1D" "xFDF243" }
 }
 add_homeland = cu:cithrel
+add_homeland = cu:lacertian
 }
 
 s:STATE_ANKAZOBE = {
@@ -294,6 +298,7 @@ s:STATE_MASC_PEIW = {
 		owned_provinces = { "x9AD398" "x9E98F4" "xCFB7CD" "xE0DD76" "xF0A4A1" "xA0EAF0" "xB59DE3" "xEBE4DE" }
 }
 add_homeland = cu:cithrel
+add_homeland = cu:lacertian
 }
 
 s:STATE_MARITIMLIS = {
@@ -302,6 +307,7 @@ s:STATE_MARITIMLIS = {
 		owned_provinces = { "x58C7E6" "x9FD093" "xAA8EE8" "xACB7EB" "xBAB6C4" "xBCB896" "xC181D0" "xCDE0ED" "xD65AE0" "xE7A3B3" "xEE9FDB" "xF054C2" "xF0D04C" "xFAF248" "xFE75E2" }
 }
 add_homeland = cu:hulutit
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_APLUKACAL = {
@@ -336,6 +342,7 @@ s:STATE_LAIVINMAR = {
 }
 add_homeland = cu:hulutit
 add_homeland = cu:akmuociai
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_VANDECATAL = {
@@ -344,6 +351,7 @@ s:STATE_VANDECATAL = {
 		owned_provinces = { "x51FCC2" "x7ACEE9" "x85F6D3" "x8CC9E7" "x93CDCE" "xB3FDB4" "xD8CDE5" "xD9BDC1" "xECA27A" "xFAB5F0" }
 }
 add_homeland = cu:hulutit
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_ZVEJYCATIA = {
@@ -352,6 +360,7 @@ s:STATE_ZVEJYCATIA = {
 		owned_provinces = { "x68D4D5" "x7DE499" "xA4FAE8" "xB7D6A7" "xBED6A8" "xD2EAF1" "xD5B881" "xDAFCE7" "xDD97A2" "xE5AA80" "xE7F0DE" "xEAA08B" }
 }
 add_homeland = cu:hulutit
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_PLACIUKATAL = {
@@ -360,6 +369,7 @@ s:STATE_PLACIUKATAL = {
 		owned_provinces = { "x5BF5F9" "xCADBCE" "xCAEEF4" "xD4A589" "xD552FC" "xD9E088" "xF94FBA" "xFBA881" }
 }
 add_homeland = cu:akmuociai
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_UPESTARR = {
@@ -368,6 +378,7 @@ s:STATE_UPESTARR = {
 		owned_provinces = { "x54E3F2" "xC870FE" "xCFD9E5" "xDAF6C2" "xDF55EB" "xE2F03E" "xF0C6E5" "xF59E9C" }
 }
 add_homeland = cu:hulutit
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_SALASLITVA = {
@@ -376,6 +387,7 @@ s:STATE_SALASLITVA = {
 		owned_provinces = { "x73A6E0" "xADEB6C" "xADFDEB" "xC5C18D" "xC9D1E7" "xCA82EB" "xE949EE" "xEBF744" "xEEF01F" }
 }
 add_homeland = cu:akmuociai
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_PAPLUDIMIS = {
@@ -392,6 +404,7 @@ s:STATE_KRIOKLYKATAL = {
 		owned_provinces = { "x9FFDED" "xBE77D6" "xBFA1D7" "xD44EE1" "xD4C3DD" "xE1BF9F" "xEE5AC0" "xEEA0C2" "xEFE5AE" "xF6A7AB" "xFECAB0" }
 }
 add_homeland = cu:hulutit
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_BANGALITVA = {
@@ -408,6 +421,7 @@ s:STATE_SMILTYNECAT = {
 		owned_provinces = { "x96BAA6" "x9FA3BA" "xA6EF94" "xAB7CD5" "xCB4BE1" "xD3A6B2" "xE18C93" "xE2C45B" "xEEB4F7" "xF366F7" "xF3ADFA" "xF5B191" "xF9D9D3" }
 }
 add_homeland = cu:akmuociai
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_UOSTOCATAL = {
@@ -416,6 +430,7 @@ s:STATE_UOSTOCATAL = {
 		owned_provinces = { "x82D7ED" "xABC4C4" "xAFFBA8" "xB2BEBA" "xC74EF1" "xD8F7C3" "xD975D5" "xDFCBAB" "xEB7FA0" }
 }
 add_homeland = cu:akmuociai
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_AKVALITVA = {
@@ -424,6 +439,7 @@ s:STATE_AKVALITVA = {
 		owned_provinces = { "x86B0C7" "x9CE5CF" "xA4B9CB" "xB7CDF1" "xC1B284" "xC2BFC9" "xD16EBC" "xD4FDAD" "xDBD059" "xDEB3B8" "xE21FFD" "xE2A87C" "xE35BFB" "xE742F8" "xED4CCD" "xEFA8AE" "xF7C351" "xFAE15D" "xFBD4EC" }
 }
 add_homeland = cu:akmuociai
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_RAMUMARI = {
@@ -432,6 +448,8 @@ s:STATE_RAMUMARI = {
 		owned_provinces = { "x4ACAF6" "x5CCBDE" "x9DB5B6" "xA5C7CE" "xA9C5F7" "xAAB6F7" "xB5C0B7" "xB5CAEA" "xB6DADF" "xE762CA" "xEDE072" "xF1CA56" "xF76F91" }
 }
 add_homeland = cu:akmuociai
+add_homeland = cu:hulutit
+add_homeland = cu:west_lacertian
 }
 
 s:STATE_RANJITA = {
