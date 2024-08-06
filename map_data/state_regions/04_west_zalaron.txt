@@ -2476,7 +2476,6 @@ STATE_KRULHOVEN = {
     farm = xF8B0DE
     mine = xF6BF67
     wood = xDC69C2
-    impassable = { "xDC69C2" }
     arable_land = 30
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tobacco_plantations" "bg_vineyard_plantations" }
     capped_resources = {
