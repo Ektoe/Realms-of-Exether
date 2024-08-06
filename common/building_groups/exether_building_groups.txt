@@ -483,8 +483,6 @@ bg_spider_ranch = {
 bg_mushroom_logging = {
 	category = rural
 
-	land_usage = rural
-
 	capped_by_resources = yes
 	
 	economy_of_scale = yes
