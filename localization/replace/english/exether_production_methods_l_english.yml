@@ -401,3 +401,7 @@ pm_beast_divination: "Smell-O-Vision Goggles"
 
   ##misc
   base_building_ship_graveyard: "Ship Graveyard"
+  
+  ##EtherialPowerPlants
+  pm_ectoplasm_plant: "Ectoplasm Plant"
+  pm_thaumacore_plant: "Thaumacore Plant"
