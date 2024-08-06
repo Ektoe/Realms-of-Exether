@@ -1177,7 +1177,7 @@
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_shaking_fields
-			name = Flussholm_Peacekeepers
+			name = Flussholm_Guard
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
