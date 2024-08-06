@@ -48,6 +48,8 @@
 	building_dragon_ruins = { "asian_forestry_lumberdepo_01_mesh" }
 	building_desert_hunting_lodge = { "asian_forestry_lumberdepo_01_mesh" }
 	building_khuus_hunting_lodge = { "asian_forestry_lumberdepo_01_mesh" }
+	building_haunted_grounds = { "asian_forestry_lumberdepo_01_mesh" }
+	building_logging_camp_stonewood = { "asian_forestry_lumberdepo_01_mesh" }
 
 	building_logging_camp = { 
 		"asian_forestry_lumberdepo_01_mesh"

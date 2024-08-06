@@ -1520,6 +1520,26 @@
         }
     }
 
+    historical_soranda_clothes = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = outfits
+                template = arabic_outfits
+                range = { 0.9 1 }
+            }
+        } 
+
+        weight = {
+            base = 0
+            modifier = {
+                add = 9000000
+                scope:character ?= {
+                    has_template = ARR_queen_soranda_template
+                }
+            }
+        }
+    }
 
 
     naser_qajar_clothes = {

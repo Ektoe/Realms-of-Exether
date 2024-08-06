@@ -184,7 +184,7 @@ BUILDINGS = {
 						type="building_manor_house"
 						country="c:OPA"
 						levels=7
-						region="STATE_SC9"
+						region="STATE_KÁLMBIQÚIS"
 				   }
 				}
 				reserves=1
@@ -5817,7 +5817,7 @@ BUILDINGS = {
 		}
 	}
 		
-	s:STATE_SAHARANDO = {
+	s:STATE_HYDOBRAN = {
 
 	}
 		
@@ -6704,7 +6704,7 @@ BUILDINGS = {
 		}
 	}
 		
-	s:STATE_AZAROON = {
+	s:STATE_ZARGIKS = {
 
 	}
 		
@@ -6734,7 +6734,7 @@ BUILDINGS = {
 
 	}
 		
-	s:STATE_NADHARIM = {
+	s:STATE_KLAQEKS = {
 
 	}
 		

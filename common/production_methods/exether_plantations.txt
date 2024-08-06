@@ -280,7 +280,7 @@ gizmo_waterwrangler_irrigation_building_songberry_plantation = {
 		workforce_scaled = {
 			# output goods
 			goods_input_gizmos_add = 6
-			goods_output_banana_add = 37.5
+			goods_output_fruit_add = 37.5
 			goods_output_entertainment_add = 7.5
 		}
 

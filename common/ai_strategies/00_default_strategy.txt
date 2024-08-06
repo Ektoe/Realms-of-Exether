@@ -13,7 +13,7 @@ ai_strategy_default = {
 	desired_tax_level = medium
 	max_tax_level = high
 	min_tax_level = low
-	
+
 	# The AI will avoid getting this much infamy unless it's a wargoal it really wants
 	# Using a different value in a strategy will override this value
 	undesirable_infamy_level = {
@@ -102,7 +102,7 @@ ai_strategy_default = {
 	# How many maneuvers are we OK with using up in the initial phase to add more wargoals
 	# Using this value in other strategies will function additively (values below 0 or above 1 have no further effect)
 	wargoal_maneuvers_fraction = {
-		value = 0.35
+		value = 0.50
 		
 		if = {
 			limit = { 
@@ -320,6 +320,19 @@ ai_strategy_default = {
 
 			if = {
 				limit = {
+					has_journal_entry = je_great_gavkhan
+					scope:target_state = {
+						OR = {
+							state_region = s:STATE_KULLAMAL
+							state_region = s:STATE_DIBRA
+						}
+					}
+				}
+				add = 50
+			}
+
+			if = {
+				limit = {
 					OR = {
 						scope:target_state = { owner = root }				
 						ai_desires_target_state = yes
@@ -495,14 +508,18 @@ ai_strategy_default = {
 			## RAV AND TLE
 			if = {
 				limit = {
-					country_has_primary_culture = cu:lake_thalorian
+					OR = {
+						country_has_primary_culture = cu:lake_thalorian
+						country_has_primary_culture = cu:west_thalorian
+						country_has_primary_culture = cu:central_thalorian
+					}	
 					scope:target_state = {
 						owner = {
 							c:RAV ?= this
 						}
 					}
 				}
-				add = 100
+				add = 200
 			}
 
 			if = {
@@ -511,14 +528,14 @@ ai_strategy_default = {
 					scope:target_state = {
 						owner = {
 							OR = {
-								c:TLE ?= this
-								c:TLA ?= this
-								c:TLW ?= this
-							}
+								country_has_primary_culture = cu:lake_thalorian
+								country_has_primary_culture = cu:west_thalorian
+								country_has_primary_culture = cu:central_thalorian
+							}	
 						}
 					}
 				}
-				add = 100
+				add = 200
 			}
 		
 		}
@@ -1098,7 +1115,7 @@ ai_strategy_default = {
 	# How likely is the AI to start a diplomatic play against another country if their attitude allows for it
 	# Using this value in other strategies will function additively
 	aggression = {
-		value = 1.0
+		value = 0.5
 		
 		# More fighting between unrecognized powers
 		if = {
@@ -1186,84 +1203,27 @@ ai_strategy_default = {
 		value = 10 # Accounts for the 10 free construction from base modifiers
 
 		add = {
-			value = investment_pool_income
-			divide = 500 # 1 construction output per this much into the investment pool				
+			value = get_net_income
+			divide = 500		
 		}
 		
 		add = {
-			value = income
-			subtract = investment_pool_income	
-			divide = 1200 # 1 construction output per this much income
-
-			min = 0
-		}
-		
-		subtract = {
-			value = expenses
-			divide = 2000
-			min = 0
+			value = get_investment_income
+			divide = 1000
 		}
 
 		add = {
-			value = income
-			divide = 400
-			min = 0
+			value = get_net_income_sq
+			divide = 50000000
 		}
 
-		subtract = {
-			value = expenses
-			divide = 400
-			min = 0
-		}
-		
-		# Add a baseline if trying to industrialize
-		if = {
-			limit = {
-				OR = {
-					has_strategy = ai_strategy_resource_expansion
-					has_strategy = ai_strategy_industrial_expansion
-				}
-			}
-
-			if = {
-				limit = { country_rank >= rank_value:great_power }
-				add = 50
-			}		
-			else_if = {
-				limit = { 
-					OR = {
-						country_rank >= rank_value:major_power
-						country_rank >= rank_value:unrecognized_major_power
-					}
-				}
-				add = 25
-			}	
-			else = {
-				add = 10
-			}				
-		}			
-
-		if = {
-			limit = { has_law = law_type:law_traditionalism }
-			multiply = 0.75
-		}		
-
-		if = {
-			limit = { has_strategy = ai_strategy_placate_population }
-			multiply = 0.5
-		}
-		else_if = {
-			limit = {
-				NOR = {
-					has_strategy = ai_strategy_resource_expansion
-					has_strategy = ai_strategy_industrial_expansion				
-				}
-			}
-			multiply = 0.75
+		add = {
+			value = get_investment_income_sq
+			divide = 1000000000
 		}
 
 		min = 1
-		max = 2000
+		max = 5000
 	}
 	
 	# How many levels of barracks should the AI have
@@ -1334,7 +1294,7 @@ ai_strategy_default = {
 					divide = 4
 				}		
 			}
-			divide = 1500 # 1 level of barracks per 1.5k income					
+			divide = 2000 # 1 level of barracks per 2k income					
 		}			
 		
 		# More advanced standing armies are expensive and should be smaller relative to population
@@ -1468,7 +1428,7 @@ ai_strategy_default = {
 			value = 0			
 			if = {
 				limit = { has_technology_researched = artillery }
-				add = 40
+				add = 80
 			}	
 			
 			if = {
@@ -1478,27 +1438,15 @@ ai_strategy_default = {
 			else_if = {
 				limit = { has_law = law_type:law_national_militia }
 				multiply = 0.75
-			}
-			else_if = {
-				limit = { has_law = law_type:law_professional_army }
-				multiply = 1.25
-			}			
+			}	
 		}
 		combat_unit_group_cavalry = {
-			value = 40
+			value = 20
 			
 			if = {
 				limit = { has_law = law_type:law_national_militia }
 				multiply = 0.5
-			}
-			else_if = {
-				limit = { has_law = law_type:law_professional_army }
-				multiply = 1.25
-			}			
-			else_if = {
-				limit = { has_law = law_type:law_peasant_levies }
-				multiply = 1.25
-			}				
+			}	
 		}
 		combat_unit_group_light_ship = {
 			value = 100				
@@ -1507,7 +1455,7 @@ ai_strategy_default = {
 			value = 0
 			if = {
 				limit = { country_rank = rank_value:great_power }
-				add = 100
+				add = 75
 			}
 			if = {
 				limit = { country_rank = rank_value:major_power }
@@ -1532,7 +1480,7 @@ ai_strategy_default = {
 	# scope:military_formation = military formation
 	# Using this value in other strategies will function additively
 	conscript_battalion_ratio = {
-		value = 0.5
+		value = 0.20
 		if = {
 			limit = { has_law = law_type:law_national_militia }
 			add = 2.5
@@ -1597,7 +1545,7 @@ ai_strategy_default = {
 	# Add a multiplier to the score AI assigns to particular building groups (default 1)
 	# Using this value in other strategies will result in several multiplications
 	building_group_weights = {
-		bg_construction = 200
+		bg_construction = 100
 	}
 	
 	# Which buildings should the AI subsidize
@@ -1771,6 +1719,42 @@ ai_strategy_default = {
 	# How important is it that the AI maintains an interest in a specific strategic region (added on top of region value calculations set in defines)
 	# Using this value in other strategies will function additively
 	strategic_region_scores = {
+		region_ravik = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
+		region_hasals_mirror = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
+		region_old_thaloria = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
+		region_verdant_shore = {
+			if = {
+				limit = {
+					country_is_in_northwestern_zalaron = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}		
+		}
 	
 	}
 	
@@ -2977,7 +2961,7 @@ ai_strategy_default = {
 			}			
 
 			min = 0
-			max = 100				
+			max = 200				
 		}
 		
 		return_state = {

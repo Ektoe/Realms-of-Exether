@@ -481,7 +481,7 @@ no_beaches = {
 #⠀⠀⠀⠀⠁⠇⠡⠩⡫⢿⣝⡻⡮⣒⢽⠋⠀⠀
 is_coastal = yes
 
-exether_is_coastal = no
+check_is_coastal = no
 }
 
 exether_is_coastal = {
@@ -1077,4 +1077,8 @@ exether_is_coastal = {
 		} 
 	}
 			
+}
+
+check_is_coastal = {
+	has_variable = exe_is_coastal
 }

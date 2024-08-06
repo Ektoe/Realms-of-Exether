@@ -111,6 +111,8 @@
 	building_banana_plantation = {"southern_plantation_mesh"}
 	building_songberry_plantation = {"southern_plantation_mesh"}
 	building_vineyard_plantation = {"southern_plantation_mesh"}
+	building_wyrmfruit_plantation = {"southern_plantation_mesh"}
+	building_mint_tea_plantation = {"southern_plantation_mesh"}
 
 	building_manor_house = {"european_rural_manorhouse_01_mesh"}
 	building_wizard_tower = {"european_rural_manorhouse_01_mesh"}

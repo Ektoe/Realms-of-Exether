@@ -170,6 +170,11 @@ centralization = {
 	
 	ai_weight = {
 		value = 1.5 # Important in general
+
+		if = {
+			limit = { has_journal_entry = je_great_gavkhan }
+			add = 20
+		}	
 	}
 }
 

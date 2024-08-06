@@ -436,3 +436,12 @@ building_group_bg_rice_farms_leechgardens_throughput_add={
 		ai_value=0
 	}
 }
+
+building_group_bg_wishstone_mining_throughput_add={
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}

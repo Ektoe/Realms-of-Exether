@@ -178,7 +178,7 @@ pmg_base_building_fur_hunting = {
 	}
 }
 pmg_exotic_game = {
-	texture = ""
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_no_exotic
 		pm_exotic_hides
@@ -186,7 +186,7 @@ pmg_exotic_game = {
 	}
 }
 pmg_game_hunting_potions = {
-	texture = ""
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_no_game_hunting_potions
 		pm_basic_game_hunting_potions

@@ -13,95 +13,95 @@ region_shipshatter_reef = {
 region_shipshatter_reef_02 = {
 	states = { STATE_SHIPSHATTER_REEF_02 }
 }
-	region_remnant_waves = {
+region_remnant_waves = {
 	states = { STATE_REMNANT_WAVES }
 }
 
-	region_seifu_sea = {
+region_seifu_sea = {
 	states = { STATE_SEIFU_SEA }
 }
 
-	region_lonely_waves = {
+region_lonely_waves = {
 	states = { STATE_LONELY_WAVES }
 }
 
-	region_steepcliff_coast = {
+region_steepcliff_coast = {
 	states = { STATE_STEEPCLIFF_COAST }
 }
 
-	region_icy_expanse = {
+region_icy_expanse = {
 	states = { STATE_ICY_EXPANSE }
 }
 
-	region_gulf_of_dumonia = {
+region_gulf_of_dumonia = {
 	states = { STATE_GULF_OF_DUMONIA }
 }
 
-	region_black_channel = {
+region_black_channel = {
 	states = { STATE_BLACK_CHANNEL }
 }
 
-	region_the_scaletides = {
+region_the_scaletides = {
 	states = { STATE_THE_SCALETIDES }
 }
 
-	region_sanguine_ocean_01 = {
+region_sanguine_ocean_01 = {
 	states = { STATE_SANGUINE_OCEAN_01 }
 }
 
-	region_erbens_sea = {
+region_erbens_sea = {
 	states = { STATE_ERBENS_SEA }
 }
 
-	region_treacherous_abyss = {
+region_treacherous_abyss = {
 	states = { STATE_TREACHEROUS_ABYSS }
 }
 
-	region_amethyst_sea = {
+region_amethyst_sea = {
 	states = { STATE_AMETHYST_SEA }
 }
 
-	region_emperors_marbles = {
+region_emperors_marbles = {
 	states = { STATE_EMPERORS_MARBLES }
 }
 
-	region_petal_sea = {
+region_petal_sea = {
 	states = { STATE_PETAL_SEA }
 }
 
-	region_leviathan_deep = {
+region_leviathan_deep = {
 	states = { STATE_LEVIATHAN_DEEP }
 }
 
-	region_frigid_sea_02 = {
+region_frigid_sea_02 = {
 	states = { STATE_FRIGID_SEA_02 }
 }
 
-	region_north_perilous_ocean_02 = {
+region_north_perilous_ocean_02 = {
 	states = { STATE_NORTH_PERILOUS_OCEAN_02 }
 }
 
-	region_north_perilous_ocean_01 = {
+region_north_perilous_ocean_01 = {
 	states = { STATE_NORTH_PERILOUS_OCEAN_01 }
 }
 
-	region_buccaneer_sea = {
+region_buccaneer_sea = {
 	states = { STATE_BUCCANEER_SEA }
 }
 
-	region_the_farthest_tides = {
+region_the_farthest_tides = {
 	states = { STATE_THE_FARTHEST_TIDES }
 }
 
-	region_frostbite_depths = {
+region_frostbite_depths = {
 	states = { STATE_FROSTBITE_DEPTHS }
 }
 
-	region_tideshield = {
+region_tideshield = {
 	states = { STATE_TIDESHIELD }
 }
 
-	region_west_hundirs_bane = {
+region_west_hundirs_bane = {
 	states = { STATE_WEST_HUNDIRS_BANE }
 }
 
@@ -109,27 +109,27 @@ region_east_hundirs_bane = {
 	states = { STATE_EAST_HUNDIRS_BANE }
 }
 
-	region_blackfeather_coast = {
+region_blackfeather_coast = {
 	states = { STATE_BLACKFEATHER_COAST }
 }
 
-	region_azurethorn_sea = {
+region_azurethorn_sea = {
 	states = { STATE_AZURETHORN_SEA }
 }
 
-	region_sea_of_eyes = {
+region_sea_of_eyes = {
 	states = { STATE_SEA_OF_EYES }
 }
 
-	region_citrus_currents = {
+region_citrus_currents = {
 	states = { STATE_CITRUS_CURRENTS }
 }
 
-	region_restless_sea = {
+region_restless_sea = {
 	states = { STATE_RESTLESS_SEA }
 }
 
-	region_uriks_passage = {
+region_uriks_passage = {
 	states = { STATE_URIKS_PASSAGE }
 }
 
@@ -662,7 +662,7 @@ region_vivari_shores = {
 }
 
 region_saharando_skies = { 
-	states = { STATE_SAHARANDO_SKIES }
+	states = { STATE_HYDOBRAN_SKIES }
 }
 
 region_wastewall_heights = { 
@@ -968,7 +968,7 @@ region_renalpan_heights = {
 	states = { STATE_RENALPAN_HEIGHTS }
 }
 
-region_east_amethyst_heigths = {
+region_east_amethyst_heights = {
 	states = {STATE_EAST_AMETHYST_HEIGHTS}
 
 }

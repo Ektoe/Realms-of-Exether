@@ -5260,7 +5260,7 @@
                         type="building_financial_district"
                         country="c:RAV"
                         levels=2
-                        region="STATE_KRULHOVENM"
+                        region="STATE_KRULHOVEN"
                    }
                 }
 			reserves=1
@@ -6871,23 +6871,6 @@
 	}
   }
  
-  s:STATE_SINNEBRAN = {
-	region_state:SEE={
-			create_building={
-			building="building_wheat_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:SEE"
-						levels=1
-						region="STATE_SINNEBRAN"
-				   }
-				}
-			reserves=1
-			activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_no_secondary" }
-		}
-	}
-  }
   s:STATE_SKIMERWALD = {
 	region_state:SEE={
 			create_building={
@@ -6895,9 +6878,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:DRI"
+						country="c:SEE"
 						levels=1
-						region="STATE_FLUSTERBEEK"
+						region="STATE_SKIMERWALD"
 				   }
 				}
 			reserves=1
@@ -6921,9 +6904,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:FIS"
-						levels=2
-						region="STATE_BLOEIJENDREAM"
+						country="c:SEE"
+						levels=3
+						region="STATE_SKIMERWALD"
 				   }
 				}
 			reserves=1
@@ -6934,9 +6917,9 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:FIS"
+                        country="c:SEE"
                         levels=1
-                        region="STATE_MAANSTIEN"
+                        region="STATE_SKIMERWALD"
                    }
                 }
 			reserves=1
@@ -6967,9 +6950,9 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:SEE"
+						country="c:HOU"
 						levels=2
-						region="STATE_SINNEBRAN"
+						region="STATE_STJERROPTOCHT"
 				   }
 				}
 			reserves=1

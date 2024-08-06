@@ -19,7 +19,7 @@ building_port = {
 	terrain_manipulator = urban_port
 	
 	possible = {
-		exether_is_coastal = yes
+		check_is_coastal = yes
 	}
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"

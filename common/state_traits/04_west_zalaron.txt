@@ -18,3 +18,10 @@ state_trait_thornfield_iron = {
         building_iron_mine_throughput_add = 0.15
     }
 }
+
+state_trait_salt_wastes_wishstone = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"   
+	modifier = {
+        building_group_bg_wishstone_mining_throughput_add = 0.15
+    }
+}

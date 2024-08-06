@@ -1344,7 +1344,7 @@
 	}
 
 	s:STATE_MARITIMLIS = {
-		region_state:LEM={
+		region_state:VHA={
             create_building={
 				building="building_logging_camp"
                 add_ownership={ 
@@ -1381,7 +1381,7 @@
 	}
 
 	s:STATE_APLUKACAL = {
-		region_state:LEM={
+		region_state:VHA={
 			create_building={
 				building="building_coffee_plantation"
 				add_ownership={ 
@@ -1413,7 +1413,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:LEM"
+						country="c:VHA"
 						levels=1
 						region="STATE_MARITIMLIS"
 				   }
@@ -1439,7 +1439,7 @@
 	}
 
 	s:STATE_LAIVINMAR = {
-		region_state:MYK={
+		region_state:SAE={
             create_building={
 				building="building_fishing_wharf"
                 add_ownership={ 
@@ -1499,7 +1499,7 @@
 	}
 
 	s:STATE_ZVEJYCATIA = {
-		region_state:LEM={
+		region_state:VHA={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1555,7 +1555,7 @@
 	}
 
 	s:STATE_PLACIUKATAL = {
-		region_state:PEL={
+		region_state:JUX={
 			create_building={
 				building="building_textile_mills"
 				reserves=1
@@ -1567,7 +1567,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
-                        country="c:LEM"
+                        country="c:VHA"
                         levels=1
                         region="STATE_ZVEJYCATIA"
                    }
@@ -1580,7 +1580,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:MYK"
+						country="c:SAE"
 						levels=1
 						region="STATE_LAIVINMAR"
 				   }
@@ -1593,7 +1593,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:LEM"
+                        country="c:VHA"
                         levels=1
                         region="STATE_MARITIMLIS"
                    }
@@ -1606,7 +1606,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:LEM"
+						country="c:VHA"
 						levels=1
 						region="STATE_MARITIMLIS"
 				   }
@@ -1622,13 +1622,13 @@
 	}
 
 	s:STATE_SALASLITVA = {
-		region_state:PEL={
+		region_state:JUX={
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:PEL"
+						country="c:JUX"
 						levels=2
 						region="STATE_SALASLITVA"
 				   }
@@ -1641,7 +1641,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:PEL"
+                        country="c:JUX"
                         levels=1
                         region="STATE_PLACIUKATAL"
                    }
@@ -1678,18 +1678,18 @@
 	}
 
 	s:STATE_SMILTYNECAT = {
-		region_state:DEL={
+		region_state:VHO={
 		}
 	}
 
 	s:STATE_UOSTOCATAL = {
-		region_state:PEL={
+		region_state:JUX={
             create_building={
 				building="building_fishing_wharf"
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
-                        country="c:PEL"
+                        country="c:JUX"
                         levels=1
                         region="STATE_SALASLITVA"
                    }
@@ -1702,7 +1702,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:LEM"
+                        country="c:VHA"
                         levels=2
                         region="STATE_APLUKACAL"
                    }
@@ -1714,7 +1714,7 @@
 	}
 
 	s:STATE_AKVALITVA = {
-		region_state:DEL={
+		region_state:VHO={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1726,7 +1726,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_adventuring_guild"
-                        country="c:DEL"
+                        country="c:VHO"
                         levels=1
                         region="STATE_AKVALITVA"
                    }
@@ -1739,7 +1739,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:LEM"
+						country="c:VHA"
 						levels=2
 						region="STATE_ZVEJYCATIA"
 				   }
@@ -1758,7 +1758,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:PEL"
+						country="c:JUX"
 						levels=2
 						region="STATE_SALASLITVA"
 				   }
@@ -1776,7 +1776,7 @@
 	}
 
 	s:STATE_RAMUMARI = {
-		region_state:MYK={
+		region_state:SAE={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1788,7 +1788,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:MYK"
+						country="c:SAE"
 						levels=1
 						region="STATE_LAIVINMAR"
 				   }
@@ -1801,7 +1801,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:PEL"
+						country="c:JUX"
 						levels=1
 						region="STATE_PLACIUKATAL"
 				   }
@@ -1814,7 +1814,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_manor_house"
-						country="c:LEM"
+						country="c:VHA"
 						levels=2
 						region="STATE_ZVEJYCATIA"
 				   }
@@ -1874,7 +1874,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:PEL"
+                        country="c:JUX"
                         levels=1
                         region="STATE_SALASLITVA"
                    }
@@ -1887,7 +1887,7 @@
 				add_ownership={ 
 					building={ 
 						type="building_financial_district"
-						country="c:PEL"
+						country="c:JUX"
 						levels=1
 						region="STATE_SALASLITVA"
 				   }
@@ -1900,7 +1900,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DEL"
+                        country="c:VHO"
                         levels=1
                         region="STATE_SMILTYNECAT"
                    }
@@ -1913,7 +1913,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:DEL"
+                        country="c:VHO"
                         levels=1
                         region="STATE_SMILTYNECAT"
                    }
@@ -1926,7 +1926,7 @@
                 add_ownership={ 
                     building={ 
                         type="building_financial_district"
-                        country="c:LEM"
+                        country="c:VHA"
                         levels=1
                         region="STATE_APLUKACAL"
                    }

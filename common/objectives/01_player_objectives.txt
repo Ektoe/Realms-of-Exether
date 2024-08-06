@@ -38,7 +38,7 @@ objective_ravik_undead = {
 	enabled_background = "gfx/interface/icons/objectives/soulwrought.dds"
 	icon = "gfx/interface/icons/objectives/egalitarian_society.dds"
 	
-	recommended_tags = { RAV DIS VAI }	
+	recommended_tags = { RAV TLE DIS VAI }	
 
 	objective_subgoals = {
 		sg_start_game
