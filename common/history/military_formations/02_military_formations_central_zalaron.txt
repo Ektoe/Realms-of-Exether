@@ -1030,7 +1030,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_POMMELFALL
-				count = 5
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
@@ -1061,7 +1061,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_AUTUMN_HILLS
-				count = 10
+				count = 15
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
@@ -1107,7 +1107,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
 				state_region = s:STATE_PORCELAINGATE
-				count = 5
+				count = 10
 			}
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
@@ -1153,7 +1153,7 @@
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
 				state_region = s:STATE_ASARSHIR
-				count = 5
+				count = 10
 			}
 
 			save_scope_as = tefarmy4
