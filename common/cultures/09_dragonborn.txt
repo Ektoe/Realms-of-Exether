@@ -396,7 +396,7 @@ kotskarvi={
 drogori={
 	color= hsv{ 0.33 0.26 0.53 }
 	religion = dragonbone_worship
-	traits = { kobold_culture_group dragon_heritage }
+	traits = { rimerooter_culture_group kobold_culture_group dragon_heritage }
 	male_common_first_names={
 		Akaki
 		Alexander
@@ -869,7 +869,7 @@ mgzavri={
 pabardian = {
 	color= rgb{ 62 86 55 }
 	religion = draconic_oath
-	traits = { dragonborn_culture_group dragon_heritage }
+	traits = { dragonic_pioneers_culture_group dragonborn_culture_group dragon_heritage }
 
 	male_common_first_names = {
 		Aidamir
@@ -980,7 +980,7 @@ pabardian = {
 akmuociai={
 	color= hsv{ 0.42 0.48 0.83 }
 	religion = draconic_oath
-	traits = { dragonborn_culture_group dragon_heritage }
+	traits = { dragonic_pioneers_culture_group dragonborn_culture_group dragon_heritage }
 	male_common_first_names={
 		Adolfas
 		Aleksandras
@@ -1130,7 +1130,7 @@ akmuociai={
 hulutit={
 	color= hsv{ 0.30 0.23 0.70 }
 	religion = animist
-	traits = { dragonborn_culture_group dragon_heritage }
+	traits = { dragonic_pioneers_culture_group dragonborn_culture_group dragon_heritage }
 	male_common_first_names={
 		Daud
 		Haimie

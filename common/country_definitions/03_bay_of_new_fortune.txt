@@ -6,7 +6,7 @@ YUY = {
 
 	tier = principality
 
-	cultures = { kusichaki } 
+	cultures = { dunaq } 
 	capital = STATE_INTIWINA
 }
 
@@ -18,7 +18,7 @@ KAN = {
 
 	tier = principality
 
-	cultures = { kusichaki } 
+	cultures = { dunaq } 
 	capital = STATE_LLANKAYUQ
 }
 
@@ -43,7 +43,7 @@ TAY = {
 
 	tier = principality
 
-	cultures = { kusichaki } 
+	cultures = { dunaq } 
 	capital = STATE_PISQUPATA
 }
 
@@ -55,7 +55,7 @@ WAR = {
 
 	tier = principality
 
-	cultures = { kusichaki } 
+	cultures = { dunaq } 
 	capital = STATE_PISQUPATA
 }
 
@@ -67,7 +67,7 @@ KAW = {
 
 	tier = principality
 
-	cultures = { kusichaki } 
+	cultures = { dunaq } 
 	capital = STATE_MIKHUYUQ
 }
 
@@ -79,7 +79,7 @@ WAY = {
 
 	tier = principality
 
-	cultures = { kusichaki } 
+	cultures = { dunaq } 
 	capital = STATE_PUKARAQOCHA
 }
 

@@ -79,3 +79,21 @@ west_aritzakarric_culture_group = {
 
 east_aritzakarric_culture_group = {	
 }
+
+rimerooter_culture_group = {
+}
+
+plaguewoods_culture_group = {
+}
+
+embervein_warriors_culture_group = {
+}
+
+emperors_marbles_culture_group = {
+}
+
+dragonic_pioneers_culture_group = {
+}
+
+citrus_currents_culture_group = {
+}

@@ -579,6 +579,7 @@ s:STATE_LAERANELS_DESOLATION = {
         country = c:LIA
         owned_provinces = { "x31E8E9" "x45F5D8" "x4AD9DF" "x59D7CE" "x68F6B3" "x8AD9C2" "x8EDB92" "x9AB9B5" "x9BFCF6" "xB664DD" "xC5DD56" "xC994B1" "xD0EB95" "xD3F6B6" "xDEC06A" "xDF9BE9" "xE5CDE1" "xE9B1CE" "xEC61B0" "xECD39C" "xF4B2A8" "xF4BA4F" "xFEE7E5" }
 }
+add_homeland = cu:tefereti
 add_homeland = cu:nightwalker
 }
 
@@ -763,11 +764,16 @@ add_homeland = cu:timari
 
 s:STATE_BLUMETO = {
     create_state = {
+        country = c:TPK
+        owned_provinces = { "x40EBF9" "x71BDD4" "x71C1EC" "xF86DC0" "xA5A5C9" "xAEABA1" "xDEABC2" "xE28195" "xED7BAF" "xFD36FE" }
+    }
+    create_state = {
         country = c:VAI
-        owned_provinces = { "x40EBF9" "x5CD4D7" "x71BDD4" "x71C1EC" "xA5A5C9" "xAEABA1" "xDEABC2" "xE28195" "xED7BAF" "xF86DC0" "xFD36FE" }
-}
-add_homeland = cu:kealohi
-add_homeland = cu:kotskarvi
+        owned_provinces = { "x5CD4D7" }
+        state_type = treaty_port
+    }
+    add_homeland = cu:kealohi
+    add_homeland = cu:drogori
 }
 
 s:STATE_STELALTAJO = {

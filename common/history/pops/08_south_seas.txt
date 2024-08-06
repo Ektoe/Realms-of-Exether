@@ -310,7 +310,7 @@
 				size = 35000
 			}
 			create_pop = {
-				culture = lacertian
+				culture = east_lacertian
 				size = 120000
 			}
 		}
