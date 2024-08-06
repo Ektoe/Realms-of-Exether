@@ -2233,74 +2233,6 @@ BUILDINGS = {
 			}
 		}
 	}
-		
-	s:STATE_RIVER_SOLILOQUE = {
-	region_state:FLU={
-			create_building={
-				building="building_government_administration"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
-			}
-			create_building={
-				building="building_vineyard_plantation"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:FLU"
-						levels=3
-						region="STATE_RIVER_SOLILOQUE"
-				   }
-				}
-				reserves=1
-				activate_production_methods={ "default_building_vineyard_plantation"  }
-			}
-	}
-	}
-	s:STATE_RIVER_SOLILOQUE_2 = {
-	region_state:FLU={
-			create_building={
-				building="building_government_administration"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
-			}
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:FLU"
-						levels=7
-						region="STATE_RIVER_SOLILOQUE_2"
-				   }
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
-	}		}
-	}
-	s:STATE_EISENMORA = {
-	region_state:FLU={
-			create_building={
-				building="building_government_administration"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
-			}
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:FLU"
-						levels=7
-						region="STATE_EISENMORA"
-				   }
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
-	}		}
-	}
 		#This stuff seems to be nationalised intentionally so I am not touching it
 	s:STATE_LILLESO = {
 		region_state:MNN = {
@@ -2526,15 +2458,32 @@ BUILDINGS = {
 			}
 		}
 	}
-		
-		
+	
 	s:STATE_JOURNEYEND = {
 	region_state:FLU={
 			create_building={
 				building="building_government_administration"
-				level=3
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}			
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -2544,15 +2493,290 @@ BUILDINGS = {
 						country="c:FLU"
 						levels=7
 						region="STATE_JOURNEYEND"
-				   }
+				   	}
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
 	
+			}
+			create_building = {
+				building="building_furniture_manufacturies"
+				add_ownership={
+					country={
+						country="c:FLU"
+						levels=1
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+				}
+			}
+			create_building = {
+				building="building_tooling_workshops"
+				add_ownership={
+					country={
+						country="c:FLU"
+						levels=1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_crude_tools" }
+			}
+			
 		}
 	}
+	s:STATE_EISENMORA = {
+	region_state:FLU={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_barracks"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:FLU"
+						levels=7
+						region="STATE_EISENMORA"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}	
+			create_building={
+				building="building_arms_industry"
+               			add_ownership={ 
+                    			country={ 
+                        		country="c:FLU"
+                        		levels=1
+                   			}
+                		}
+				reserves=1
+				activate_production_methods={ "pm_muskets" }
+			}
+			create_building = {
+				building = "building_distillery"
+				add_ownership = {
+					building={ 
+            	        		type="building_financial_district"
+            	        			country="c:FLU"
+            	        			levels=1
+            	        			region="STATE_JOURNEYEND"
+					}
+				}
+				reserves = 1
+			}
+			create_building={
+				building="building_logging_camp"
+                		add_ownership={ 
+                    			building={ 
+                        			type="building_financial_district"
+                        			country="c:FLU"
+                        			levels=1
+                        			region="STATE_JOURNEYEND"
+                   			}
+                		}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+			}
+			create_building = {
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:FLU"
+						levels=1
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+				}
+			}
+		}
 	}
-		
+	s:STATE_INTOKI = {
+	region_state:FLU={
+			create_building={
+				building="building_barracks"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:FLU"
+						levels=6
+						region="STATE_INTOKI"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			create_building = {
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:FLU"
+						levels=2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_forestry" "pm_no_hardwood" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+                		add_ownership={ 
+                    			building={ 
+                        			type="building_manor_house"
+                        			country="c:FLU"
+                        			levels=1
+                        			region="STATE_INTOKI"
+                   			}
+                		}
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" }
+			}
+		}
+	}
+	s:STATE_KUNCHI = {
+	region_state:FLU={
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:FLU"
+						levels=7
+						region="STATE_KUNCHI"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+				}
+			create_building = {
+				building="building_iron_mine"
+				add_ownership={
+					country={
+						country="c:FLU"
+						levels=1
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+				}
+			}
+		}	
+	}
+	s:STATE_RIVER_SOLILOQUE = {
+	region_state:FLU={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_vineyard_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:FLU"
+						levels=3
+						region="STATE_RIVER_SOLILOQUE"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "default_building_vineyard_plantation"  }
+			}
+			create_building={
+				building="building_tobacco_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:FLU"
+						levels=1
+						region="STATE_RIVER_SOLILOQUE"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts"  }
+			}
+		}
+	}
+	s:STATE_RIVER_SOLILOQUE_2 = {
+	region_state:FLU={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+			}
+			create_building={
+				building="building_textile_mills"
+                		add_ownership={ 
+                    			building={ 
+                        			type="building_financial_district"
+                        			country="c:FLU"
+                        			levels=1
+                        			region="STATE_JOURNEYEND"
+                   			}
+                		}
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_traditional_looms" "pm_no_luxury_clothes" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:FLU"
+						levels=7
+						region="STATE_RIVER_SOLILOQUE_2"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+			}
+			create_building={
+				building="building_cotton_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:FLU"
+						levels=2
+						region="STATE_RIVER_SOLILOQUE_2"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts"  }
+			}	
+			create_building={
+				building="building_logging_camp"
+                		add_ownership={ 
+                    			building={ 
+                        			type="building_financial_district"
+                       				country="c:FLU"
+                        			levels=1
+                        			region="STATE_JOURNEYEND"
+                   			}
+                		}
+				reserves=1
+				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_road_carts" }
+			}
+		}
+	}
+
 	s:STATE_CAM_RINNARA = {
 
 		region_state:CLL = {
@@ -7367,24 +7591,6 @@ BUILDINGS = {
 		}
 	}
 		
-	s:STATE_INTOKI = {
-	region_state:FLU={
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:FLU"
-						levels=7
-						region="STATE_INTOKI"
-				   }
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
-			}
-	}
-	}
-		
 	s:STATE_HANALLA = {
 
 	}
@@ -7577,24 +7783,6 @@ BUILDINGS = {
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-	}
-		
-
-	s:STATE_KUNCHI = {
-	region_state:FLU={
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={ 
-					building={ 
-						type="building_manor_house"
-						country="c:FLU"
-						levels=7
-						region="STATE_KUNCHI"
-				   }
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
-	}		}
 	}
 		
 	s:STATE_SANGARI = {
