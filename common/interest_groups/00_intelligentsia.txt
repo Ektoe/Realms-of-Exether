@@ -32,6 +32,22 @@
 				set_ig_trait = ig_trait:ig_trait_avant_garde
 				set_ig_trait = ig_trait:ig_trait_restoration
 			}
+
+
+			if = {
+				limit = {
+					#owner = { c:RVC ?= this }
+					always = no
+				}
+				set_interest_group_name = ig_whiteheart_court
+				set_ig_trait = ig_trait:ig_trait_agmen_novi
+				set_ig_trait = ig_trait:ig_trait_stella_surgeris
+				set_ig_trait = ig_trait:ig_trait_nocturne_splendor
+
+			}	
+
+
+
 			else_if = {
 				limit = {
 					owner = { 

@@ -57,6 +57,20 @@
 
 		if = {
 			limit = {
+				#owner = { c:RVC ?= this }
+				always = no
+			}
+			ig:ig_landowners = {
+				set_interest_group_name = ig_blood_court
+				set_ig_trait = ig_trait:ig_trait_regnum_mediae
+				set_ig_trait = ig_trait:ig_trait_mercatus_noctis 
+				set_ig_trait = ig_trait:ig_trait_consue_curiae
+							}
+		}
+
+
+		if = {
+			limit = {
 				owner = {
 					OR = {
 						religion = rel:orc_mother

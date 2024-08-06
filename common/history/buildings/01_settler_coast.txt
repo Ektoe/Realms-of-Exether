@@ -40,6 +40,12 @@
   s:STATE_CHANTSIRENE = {
 		  region_state:EME={  
 			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+		  }
+			create_building={
 				      building="building_coal_mine"
 				add_ownership={ 
 					building={ 
@@ -237,7 +243,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:EME"
-                        levels=4
+                        levels=6
                         region="STATE_MERACIEL_AUBELAC"
                    }
                 }
@@ -416,7 +422,7 @@
 				}		   
 			    create_building={
 				      building="building_government_administration"
-				      level=1
+				      level=3
 				      reserves=1
 				      activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			    }
@@ -3193,12 +3199,25 @@
                     building={ 
                         type="building_financial_district"
                         country="c:LEO"
-                        levels=3
+                        levels=4
                         region="STATE_FAR_SHORE"
                    }
                 }
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" }
+				activate_production_methods={ "pm_handsewn_clothes" "pm_craftsman_sewing" "pm_traditional_looms" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				add_ownership={ 
+					building={ 
+						type="building_manor_house"
+						country="c:LEO"
+						levels=1
+						region="STATE_FAR_SHORE"
+				   }
+				}
+				reserves=1
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts"  }
 			}
             create_building={
 				building="building_paper_mills"
@@ -3295,6 +3314,19 @@
                 }
 			reserves=1
 			activate_production_methods={ "pm_handcrafted_furniture" "pm_automation_disabled" "pm_luxury_furniture" }
+		}
+		create_building={
+			building="building_textile_mills"
+			add_ownership={ 
+				building={ 
+					type="building_financial_district"
+					country="c:LEO"
+					levels=3
+					region="STATE_FAR_SHORE_2"
+			   }
+			}
+			reserves=1
+			activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" }
 		}
 			create_building={
 			building="building_vineyard_plantation"
@@ -5737,7 +5769,7 @@
 		}
 		create_building={
 			building="building_government_administration"
-			level=6
+			level=8
 			reserves=1
 			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 		}
@@ -5764,6 +5796,19 @@
 			}
 			reserves=1
 			activate_production_methods={ "pm_leaded_glass" "pm_manual_glassblowing" }
+		}
+		create_building={
+			building="building_vineyard_plantation"
+			add_ownership={ 
+				building={ 
+					type="building_manor_house"
+					country="c:DAR"
+					levels=2
+					region="STATE_MOUNT_YELFIS"
+			   }
+			}
+			reserves=1
+			activate_production_methods={ "default_building_vineyard_plantation"  }
 		}
 		create_building={
 			building="building_explosives_factory"
@@ -5945,7 +5990,7 @@
 					building={ 
 						type="building_financial_district"
 						country="c:DAR"
-						levels=5
+						levels=6
 						region="STATE_MOUNT_YELFIS"
 				   }
 				}
@@ -5998,7 +6043,7 @@
 				building={ 
 				  type="building_manor_house"
 				  country="c:DAR"
-				  levels=6
+				  levels=7
 				  region="STATE_MOUNT_YELFIS"
 				 }
 			  }
@@ -6024,7 +6069,7 @@
 					  building={ 
 						  type="building_financial_district"
 						  country="c:DAR"
-						  levels=6
+						  levels=7
 						  region="STATE_MOUNT_YELFIS"
 					 }
 				  }
@@ -6037,7 +6082,7 @@
 						  building={ 
 							  type="building_financial_district"
 							  country="c:DAR"
-							  levels=3
+							  levels=4
 							  region="STATE_MOUNT_YELFIS"
 						 }
 					  }
@@ -6050,7 +6095,7 @@
 				building={ 
 					type="building_financial_district"
 					country="c:DAR"
-					levels=6
+					levels=4
 					region="STATE_MOUNT_YELFIS"
 			   }
 			}
@@ -6410,7 +6455,7 @@
 					building={ 
 						type="building_manor_house"
 						country="c:DRO"
-						levels=3
+						levels=2
 						region="STATE_LHIPH"
 				   }
 				}
@@ -6959,7 +7004,7 @@
 	region_state:VOZ={
 		create_building={
 			building="building_government_administration"
-			level=2
+			level=4
 			reserves=1
 			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 		}
@@ -7130,6 +7175,12 @@
 
   s:STATE_DWARVENHAMMER = {
 	region_state:VOZ={	
+		create_building={
+			building="building_government_administration"
+			level=2
+			reserves=1
+			activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+		}
 		create_building={
 			building="building_gold_mine"
 	  add_ownership={ 

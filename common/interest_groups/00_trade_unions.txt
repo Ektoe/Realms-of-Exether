@@ -24,9 +24,22 @@
 	
 	on_enable = {
 		ig:ig_trade_unions = {
+			if = {
+				limit = {
+					#owner = { c:RVC ?= this }
+					always = no
+				}
+				set_interest_group_name = ig_blackheart_society
+				set_ig_trait = ig_trait:ig_trait_unionis_astris
+				set_ig_trait = ig_trait:ig_trait_soliditas
+				set_ig_trait = ig_trait:ig_trait_pecoris_carnis
+			}
+
+			else ={
 			set_ig_trait = ig_trait:ig_trait_work_to_rule
 			set_ig_trait = ig_trait:ig_trait_industrial_organizers
 			set_ig_trait = ig_trait:ig_trait_solidarity
+			}
 		}
 		
 		### Socialism

@@ -148,6 +148,8 @@ ideology_laissez_faire = {
 	}
 }
 
+
+
 ideology_individualist = {
 	icon = "gfx/interface/icons/ideology_icons/individualist.dds"
 	

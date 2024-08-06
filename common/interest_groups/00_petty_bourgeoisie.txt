@@ -31,6 +31,20 @@
 				set_ig_trait = ig_trait:ig_trait_middle_managers
 				set_ig_trait = ig_trait:ig_trait_old_lady_of_threadneedle_street
 			}
+
+
+			if = {
+				limit = {
+					#owner = { c:RVC ?= this }
+					always = no
+				}
+				set_interest_group_name = ig_bound_court
+				set_ig_trait = ig_trait:ig_trait_turbae_venantes
+				set_ig_trait = ig_trait:ig_trait_servus_dominus
+				set_ig_trait = ig_trait:ig_trait_medicina_profana
+			}
+
+
 			else = {
 				set_ig_trait = ig_trait:ig_trait_xenophobia
 				set_ig_trait = ig_trait:ig_trait_middle_managers

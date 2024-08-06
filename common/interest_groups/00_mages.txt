@@ -15,9 +15,21 @@
 	
 	on_enable = {
 		ig:ig_mages = {
+			if = {
+				limit = {
+					#owner = { c:RVC ?= this }
+					always = no
+				}
+				set_interest_group_name = ig_midnight_court
+				set_ig_trait = ig_trait:ig_trait_vetitum_pulchrum
+				set_ig_trait = ig_trait:ig_trait_clausura_pecoris
+				set_ig_trait = ig_trait:ig_trait_libri_arma
+			}
+		else = {
 			set_ig_trait = ig_trait:ig_arcane_enlightenment
 			set_ig_trait = ig_trait:ig_mystical_traditions
 			set_ig_trait = ig_trait:ig_isolationist
+			}		
 		}
 
 		if = {
@@ -32,6 +44,9 @@
 				set_interest_group_name = ig_runeseers
 			}
 		}
+
+
+
 
 	}
 

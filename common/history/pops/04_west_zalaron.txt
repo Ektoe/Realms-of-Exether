@@ -3378,7 +3378,7 @@
 	region_state:RSE = {
 		create_pop = {
 			culture = tqalt
-			size = 390000
+			size = 793891
 		}
 		create_pop = {
 			culture = tqalt
@@ -3387,7 +3387,7 @@
 		}
 		create_pop = {
 			culture = rahoru
-			size = 60000
+			size = 62711
 		}
 		create_pop = {
 			culture = rahoru
@@ -3404,7 +3404,7 @@
 	region_state:RSE = {
 		create_pop = {
 			culture = tqalt
-			size = 410000
+			size = 611911
 		}
 		create_pop = {
 			culture = rahoru
@@ -3421,7 +3421,7 @@
 	region_state:RSE = {
 		create_pop = {
 			culture = tqalt
-			size = 80400
+			size = 380477
 		}
 		create_pop = {
 			culture = tqalt
@@ -3438,11 +3438,11 @@
 	region_state:RSE = {
 		create_pop = {
 			culture = tqalt
-			size = 90000
+			size = 291891
 		}
 		create_pop = {
 			culture = waste_walker
-			size = 11000
+			size = 11018
 		}
 	}
   }
@@ -3450,7 +3450,7 @@
 	region_state:BLD = {
 		create_pop = {
 			culture = tqalt
-			size = 78000
+			size = 578998
 		}
 		create_pop = {
 			culture = tqalt
@@ -3482,16 +3482,16 @@
 	region_state:RUX = {
 		create_pop = {
 			culture = tqalt
-			size = 83100
+			size = 483146
 		}
 		create_pop = {
 			culture = tqalt
 			religion = orc_mother
-			size = 2100
+			size = 2137
 		}
 		create_pop = {
 			culture = waste_walker
-			size = 6000
+			size = 6811
 		}
 	}
 	region_state:GMR = {
@@ -3523,12 +3523,12 @@
 	region_state:BLD = {
 		create_pop = {
 			culture = tqalt
-			size = 695060
+			size = 995060
 		}
 		create_pop = {
 			culture = tqalt
 			religion = orc_mother
-			size = 10000
+			size = 12890
 		}
 		create_pop = {
 			culture = waste_walker
@@ -3550,7 +3550,7 @@
 	region_state:BLD = {
 		create_pop = {
 			culture = tqalt
-			size = 94375
+			size = 794375
 		}
 		create_pop = {
 			culture = tqalt
@@ -3628,12 +3628,12 @@
 	region_state:RUX = {
 		create_pop = {
 			culture = tqalt
-			size = 112635
+			size = 812635
 		}
 		create_pop = {
 			culture = tqalt
 			religion = orc_mother
-			size = 8000
+			size = 8278
 		}
 		create_pop = {
 			culture = waste_walker
@@ -3661,7 +3661,7 @@
 	region_state:RUX = {
 		create_pop = {
 			culture = tqalt
-			size = 80740
+			size = 880740
 		}
 		create_pop = {
 			culture = tqalt

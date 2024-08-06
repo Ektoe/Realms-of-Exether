@@ -206,7 +206,7 @@
 	region_state:KAM = {
 		create_pop = {
 			culture = koshiri
-			size = 507321
+			size = 1307321
 		}
 		create_pop = {
 			culture = vandori
@@ -376,7 +376,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = astreval
-				size = 252000
+				size = 1052381
 			}
 			create_pop = {
 				culture = thiralian
@@ -389,7 +389,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = astreval
-				size = 600448
+				size = 900448
 			}
       create_pop = {
 				culture = thiralian
@@ -402,7 +402,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 388408
+				size = 888408
 			}
 			create_pop = {
 				culture = astreval
@@ -441,7 +441,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 1284392
+				size = 3284392
 			}
 		}
   }
@@ -450,7 +450,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 1071996
+				size = 1771996
 			}
 			create_pop = {
 				culture = erdei
@@ -463,11 +463,11 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 677296
+				size = 1677296
 			}
 			create_pop = {
 				culture = bossardi
-				size = 5996
+				size = 405996
 			}
 			create_pop = {
 				culture = erdei
@@ -523,11 +523,11 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 122000
+				size = 122828
 			}
 			create_pop = {
 				culture = erdei
-				size = 130996
+				size = 1130996
 			}
 		}
   }
@@ -557,7 +557,7 @@
 		region_state:THI = {
 			create_pop = {
 				culture = thiralian
-				size = 882848
+				size = 1382848
 			}
 		}
   }
@@ -966,15 +966,15 @@
 		region_state:TEF = {
 			create_pop = {
 				culture = nangarlith
-				size = 145244
+				size = 445244
 			}
 			create_pop = {
 				culture = tefereti
-				size = 28020
+				size = 128020
 			}
       create_pop = {
 				culture = erdei
-				size = 58020
+				size = 358020
 			}
 		}
   }
@@ -996,11 +996,11 @@
 		region_state:TEF = {
 			create_pop = {
 				culture = tefereti
-				size = 509992
+				size = 709992
 			}
       create_pop = {
 				culture = nangarlith
-				size = 76992
+				size = 376992
 			}
 		}
   }
@@ -1154,7 +1154,7 @@
 		region_state:TEF = {
 			create_pop = {
 				culture = tefereti
-				size = 1057592
+				size = 1457592
 			}
 		}
   }
@@ -1190,12 +1190,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 1161416
+				size = 1961416
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 352420
+				size = 52420
 			}
 		}
   }
@@ -1204,12 +1204,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 4050072
+				size = 2050072
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 1123204
+				size = 23204
 			}
 		}
   }
@@ -1231,7 +1231,7 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 69500
+				size = 169500
 			}
 		}
   }
@@ -1249,12 +1249,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 6178176
+				size = 1178176
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 1686204
+				size = 10204
 			}
 		}
   }
@@ -1272,12 +1272,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 2374632
+				size = 1374632
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 917280
+				size = 117280
 			}
 		}
   }
@@ -1440,12 +1440,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 2024340
+				size = 2124340
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 744588
+				size = 44588
 			}
 		}
   }
@@ -1477,12 +1477,7 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 3170167
-			}
-			create_pop = {
-				culture = vairian
-				religion = church_of_man
-				size = 1067036
+				size = 2170167
 			}
 			create_pop = {
 				culture = glabrekthorn
@@ -1512,12 +1507,12 @@
 		region_state:VAI = {
 			create_pop = {
 				culture = vairian
-				size = 4127776
+				size = 1027776
 			}
 			create_pop = {
 				culture = vairian
 				religion = church_of_man
-				size = 1745764
+				size = 45764
 			}
 		}
   }
@@ -2582,7 +2577,7 @@
   region_state:KAM = {
     create_pop = {
 				culture = koshiri
-				size = 220694
+				size = 920694
 			}
       create_pop = {
 				culture = vandori
