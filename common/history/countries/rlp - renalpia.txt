@@ -1,9 +1,9 @@
 ﻿COUNTRIES = {
 	c:RLP	= {
 		effect_starting_technology_tier_druid_tech = yes
-		add_technology_research = gunsmithing
-        add_technology_research = artillery
-        add_technology_research = line_infantry
+		add_technology_researched = gunsmithing
+        add_technology_researched = artillery
+        add_technology_researched = line_infantry
 
 
 
