@@ -158,4 +158,38 @@
 		}
 	}
 
+	c:AIZ = {
+		create_power_bloc = {
+			name =  ENDURING_EMPIRE
+
+			map_color = { 255  55  55 }
+
+			founding_date = 1044.01.04
+			identity = identity_ideological_union
+			principle = principle_ideological_truth_1
+				
+			member = c:HIZ
+			member = c:PIU
+			member = c:IHE
+		}
+
+	}
+
+	c:LUR = {
+		create_power_bloc = {
+
+			name = ONE_SKY_FEDERATION
+
+			map_color = { 250 190 250}
+
+			founding_date = 1044.01.04
+			identity = identity_ideological_union
+			principle = principle_creative_legislature_1
+
+			member = c:CRG
+			member = c:GAI
+		}
+
+	}
+
 }

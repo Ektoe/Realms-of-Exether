@@ -89,4 +89,8 @@
 	c:AHO ?= {
 		add_declared_interest = region_whisperpine
 	}
+	c:AIZ ?= {
+		add_declared_interest = region_skittering_hills
+		add_declared_interest = region_vulture_coast
+	}
 }
