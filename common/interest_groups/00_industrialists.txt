@@ -34,7 +34,8 @@
 			}
 			if = {
 				limit = {
-					owner = { c:RVC ?= this }
+					#owner = { c:RVC ?= this }
+					always = no
 				}
 				set_interest_group_name = ig_gearheart_court
 				set_ig_trait = ig_trait:ig_trait_caput_sagun

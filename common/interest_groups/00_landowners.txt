@@ -57,11 +57,8 @@
 
 		if = {
 			limit = {
-				OR = {
-					AND = {
-						c:RVC ?= this
-					}
-				}
+				#owner = { c:RVC ?= this }
+				always = no
 			}
 			ig:ig_landowners = {
 				set_interest_group_name = ig_blood_court

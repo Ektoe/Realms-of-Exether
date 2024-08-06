@@ -26,7 +26,8 @@
 		ig:ig_trade_unions = {
 			if = {
 				limit = {
-					owner = { c:RVC?= this }
+					#owner = { c:RVC ?= this }
+					always = no
 				}
 				set_interest_group_name = ig_blackheart_society
 				set_ig_trait = ig_trait:ig_trait_unionis_astris

@@ -31,11 +31,10 @@
 	if = {
 		limit = {
 			OR = {
-				AND = {
-					c:RVC ?= this
-					}
-				}
+				#owner = { c:RVC ?= this }
+				always = no
 			}
+		}
 			ig:ig_armed_forces = {
 				set_interest_group_name = ig_fang_court
 				set_ig_trait = ig_trait:ig_trait_pabulo

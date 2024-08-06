@@ -17,7 +17,8 @@
 		ig:ig_mages = {
 			if = {
 				limit = {
-					owner = { c:RVC ?= this }
+					#owner = { c:RVC ?= this }
+					always = no
 				}
 				set_interest_group_name = ig_midnight_court
 				set_ig_trait = ig_trait:ig_trait_vetitum_pulchrum

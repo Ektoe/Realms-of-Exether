@@ -25,7 +25,8 @@
 		ig:ig_devout = {
 			if = {
 				limit = {
-					owner = { c:RVC ?= this }
+					#owner = { c:RVC ?= this }
+					always = no
 				}
 				set_interest_group_name = ig_avarice_cathedral
 				set_ig_trait = ig_trait:ig_trait_consilium_retentum
