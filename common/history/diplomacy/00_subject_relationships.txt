@@ -87,15 +87,15 @@
 	c:YUL = {
 		create_diplomatic_pact = {
 			country = c:TEM
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:TAH
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:KCN
-			type = puppet
+			type = vassal
 		}
 		create_diplomatic_pact = {
 			country = c:SUN
