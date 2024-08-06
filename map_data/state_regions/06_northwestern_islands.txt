@@ -172,7 +172,7 @@ STATE_THAPSARIS = {
     capped_resources = {
         bg_fishing = 12
         bg_whaling = 7
-        bg_wishstone_reefs = 31
+        bg_wishstone_reefs = 45
     }
     naval_exit_id = 3013
 }
@@ -195,7 +195,7 @@ STATE_BLUMETO = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 5
+        undiscovered_amount = 17
     }
     naval_exit_id = 3089
 }
@@ -216,7 +216,7 @@ STATE_HADRUMEA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 4
+        undiscovered_amount = 15
     }
     naval_exit_id = 3040
 }
@@ -515,7 +515,7 @@ STATE_THASPIA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 13
+        undiscovered_amount = 22
     }
     naval_exit_id = 3008
 }
@@ -554,7 +554,7 @@ STATE_LEPTARIA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 7
+        undiscovered_amount = 18
     }
     naval_exit_id = 3089
 }
@@ -576,7 +576,7 @@ STATE_OYSSARA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 11
+        undiscovered_amount = 22
     }
     naval_exit_id = 3089
 }
@@ -615,7 +615,7 @@ STATE_CERNIA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 11
+        undiscovered_amount = 30
     }
     naval_exit_id = 3008
 }
@@ -637,7 +637,7 @@ STATE_NEOSCARPIA = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 8
+        undiscovered_amount = 17
     }
     naval_exit_id = 3008
 }
@@ -810,7 +810,7 @@ STATE_BYSARIS = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 28
+        undiscovered_amount = 40
     }
     naval_exit_id = 3040
 }
@@ -932,11 +932,11 @@ STATE_ELDORIA = {
     farm = xFB9681
     mine = xF3CDC3
     wood = xF1AD6B
-    impassable = { "xF3CDC3" }
     arable_land = 8
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_fishing = 6
+        bg_wishstone_mining = 12
     }
     naval_exit_id = 3047
 }
@@ -1003,9 +1003,12 @@ STATE_FROSTWYN = {
     farm = xE6D999
     mine = xE4B2B2
     wood = xE3EA6F
-    impassable = { "x6D80F2" "xAACBF6" "xB08AE9" "xC991DA" "xE4B2B2" }
+    impassable = { "x6D80F2" "xAACBF6" "xB08AE9" "xC991DA" }
     arable_land = 5
     arable_resources = { "bg_livestock_ranches" }
+    capped_resources = {
+        bg_wishstone_mining = 22
+    }
     resource = {
         type = "bg_gold_fields"
         depleted_type = "bg_gold_mining"
@@ -1025,6 +1028,9 @@ STATE_DUODJI = {
     wood = xE494F7
     arable_land = 5
     arable_resources = { "bg_livestock_ranches" }
+    capped_resources = {
+        bg_wishstone_mining = 17
+    }
 
 }
 STATE_ARVEDELL = {
@@ -1041,6 +1047,7 @@ STATE_ARVEDELL = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_fishing = 8
+        bg_wishstone_mining = 27
     }
     naval_exit_id = 3004
 }
@@ -1058,6 +1065,7 @@ STATE_AHKKU = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_fishing = 10
+        bg_wishstone_mining = 14
     }
     naval_exit_id = 3004
 }
@@ -1114,6 +1122,7 @@ STATE_GIELAS = {
         bg_fishing = 7
         bg_logging = 2
         bg_whaling = 5
+        bg_wishstone_mining = 18
     }
     naval_exit_id = 3004
 }
@@ -1164,9 +1173,12 @@ STATE_GAVCCI = {
     farm = xE27CFA
     mine = xD7A9C3
     wood = xC141F7
-    impassable = { "x24FC2B" "x571134" "xd7a9c3" }
+    impassable = { "x24FC2B" "x571134" }
     arable_land = 5
     arable_resources = { "bg_livestock_ranches" }
+    capped_resources = {
+        bg_wishstone_mining = 17
+    }
 
 
 }
@@ -1197,7 +1209,6 @@ STATE_ELVENSHROUD = {
     farm = xDC60D0
     mine = xD455F7
     wood = xBDBBFB
-    impassable = { "xBDBBFB" }
     arable_land = 18
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "bg_tobacco_plantations" }
     capped_resources = {
@@ -1223,6 +1234,7 @@ STATE_GAISI = {
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 3
+        bg_wishstone_mining = 17
     }
 
 }
@@ -1333,6 +1345,7 @@ STATE_SILVERSONG = {
     capped_resources = {
         bg_fishing = 6
         bg_whaling = 10
+        bg_wishstone_mining = 24
     }
     naval_exit_id = 3004
 }
@@ -1354,7 +1367,7 @@ STATE_SILENTWISP = {
     }
     resource = {
         type = "bg_wishstone_reefs"
-        undiscovered_amount = 17
+        undiscovered_amount = 37
     }
     naval_exit_id = 3047
 }
@@ -1413,6 +1426,7 @@ STATE_RUMATARI = {
         bg_iron_mining = 18
         bg_logging = 16
         bg_squidding = 4
+        bg_wishstone_mining = 13
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1436,6 +1450,7 @@ STATE_TARAMOA = {
         bg_logging = 12
         bg_squidding = 14
         bg_whaling = 8
+        bg_wishstone_mining = 17
     }
     naval_exit_id = 3031
 }
@@ -1455,6 +1470,7 @@ STATE_POUNAMOA = {
         bg_lead_mining = 16
         bg_iron_mining = 18
         bg_logging = 8
+        bg_wishstone_mining = 13
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1477,6 +1493,7 @@ STATE_RONGOMARA = {
         bg_logging = 14
         bg_squidding = 12
         bg_whaling = 7
+        bg_wishstone_mining = 15
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1499,6 +1516,7 @@ STATE_GARPATIA = {
     capped_resources = {
         bg_coal_mining = 40
         bg_game_hunting = 5
+        bg_wishstone_mining = 15
     }
 
     naval_exit_id = 3197
@@ -1517,6 +1535,7 @@ STATE_WHAKARAROA = {
     capped_resources = {
         bg_logging = 7
         bg_game_hunting = 6
+        bg_wishstone_mining = 13
     }
     naval_exit_id = 3197
 }
@@ -1556,6 +1575,7 @@ STATE_PUCOVATU = {
         bg_logging = 6
         bg_squidding = 8
         bg_game_hunting = 5
+        bg_wishstone_mining = 16
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1578,6 +1598,7 @@ STATE_TURAKINA = {
         bg_logging = 9
         bg_squidding = 8
         bg_game_hunting = 3
+        bg_wishstone_mining = 10
     }
     naval_exit_id = 3031
 }
@@ -1620,6 +1641,7 @@ STATE_LUNARATA = {
         bg_logging = 6
         bg_squidding = 8
         bg_whaling = 4
+        bg_wishstone_mining = 10
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1642,6 +1664,7 @@ STATE_TAUMAROI = {
     capped_resources = {
         bg_lead_mining = 36
         bg_logging = 14
+        bg_wishstone_mining = 11
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1663,6 +1686,7 @@ STATE_PATARENI = {
         bg_logging = 12
         bg_squidding = 10
         bg_game_hunting = 6
+        bg_wishstone_mining = 14
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1686,6 +1710,7 @@ STATE_WHANAKOA = {
         bg_iron_mining = 36
         bg_logging = 14
         bg_squidding = 5
+        bg_wishstone_mining = 16
     }
     resource = {
         type = "bg_cold_rubber"
@@ -1721,7 +1746,7 @@ STATE_NORTHERN_2 = {
     farm = xBECBD3
     mine = xBEC775
     wood = xA0C2A0
-    impassable = { "x59030C" "x81C284" "xBECBD3" "xEEF3F3" }
+    impassable = { "x59030C" "x81C284" }
     arable_land = 6
     arable_resources = { "bg_livestock_ranches" }
 
@@ -1735,7 +1760,7 @@ STATE_NORTHERN_3 = {
     farm = xF5AD5B
     mine = xF4E06B
     wood = xE79895
-    impassable = { "x9423B6" "xCCFB4C" "xF4E06B" }
+    impassable = { "x9423B6" "xCCFB4C" }
     arable_land = 15
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {

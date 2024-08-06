@@ -499,6 +499,16 @@ on_spreading_technology = {
 on_diplomatic_play_started = {
 	effect = {
 		#Add unification code here
+		if = {
+			limit = { is_diplomatic_play_type = dp_unify_gavkhan }
+			every_country = {
+				limit = {
+					is_supporting_unification_candidate = { who = scope:initiator country_formation = GAV }
+				}
+				
+				scope:initiator = { annex = prev }
+			}
+		}	
 	}
 }
 
@@ -800,7 +810,15 @@ on_country_released_as_overlord_subject = {
 on_country_formed = {
 	effect = {
 		#Add custom unification events here later
-		trigger_event = { id = formation.17 popup = yes }
+		if = {
+			limit = {
+				c:GAV ?= ROOT
+			}
+		}
+		else = {
+			trigger_event = { id = formation.17 popup = yes }
+		}
+		
 	}
 }
 

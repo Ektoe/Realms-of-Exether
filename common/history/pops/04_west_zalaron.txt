@@ -1996,7 +1996,7 @@
 	region_state:RAV = {
 		create_pop = {
 			culture = florishnom
-			religion = druidic
+			religion = gnomish_druidism
 			size = 12635
 		}
 		create_pop = {
@@ -2076,7 +2076,7 @@
 		}
 		create_pop = {
 			culture = florishnom
-			religion = druidic
+			religion = gnomish_druidism
 			size = 28000
 		}
 	}
@@ -2178,7 +2178,7 @@
 	region_state:RAV = {
 		create_pop = {
 			culture = florishnom
-			religion = druidic
+			religion = gnomish_druidism
 			size = 35992
 		}
 		create_pop = {
@@ -2213,7 +2213,7 @@
 		}
 		create_pop = {
 			culture = ravikian
-			religion = druidic
+			religion = gnomish_druidism
 			size = 39996
 		}
 		create_pop = {
@@ -2259,7 +2259,7 @@
 		}
 		create_pop = {
 			culture = florishnom
-			religion = druidic
+			religion = gnomish_druidism
 			size = 16004
 		}
 		create_pop = {
@@ -2309,7 +2309,7 @@
 		}
 		create_pop = {
 			culture = florishnom
-			religion = druidic
+			religion = gnomish_druidism
 			size = 3996
 		}
 		create_pop = {
@@ -2349,7 +2349,7 @@
 		}
 		create_pop = {
 			culture = ravikian
-			religion = druidic
+			religion = gnomish_druidism
 			size = 27996
 		}
 		create_pop = {
@@ -2455,7 +2455,7 @@
 		}
 		create_pop = {
 			culture = florishnom
-			religion = druidic
+			religion = gnomish_druidism
 			size = 48000
 		}
 		create_pop = {
@@ -2525,7 +2525,7 @@
 		}
 		create_pop = {
 			culture = ravikian
-			religion = druidic
+			religion = gnomish_druidism
 			size = 144008
 		}
 		create_pop = {
@@ -2550,7 +2550,7 @@
 		}
 		create_pop = {
 			culture = ravikian
-			religion = druidic
+			religion = gnomish_druidism
 			size = 4004
 		}
 	}
@@ -2607,7 +2607,7 @@
 		}
 		create_pop = {
 			culture = ravikian
-			religion = druidic
+			religion = gnomish_druidism
 			size = 28400
 		}
 	}
@@ -2624,7 +2624,7 @@
 		}
 		create_pop = {
 			culture = ravikian
-			religion = druidic
+			religion = gnomish_druidism
 			size = 32000
 		}
 	}
