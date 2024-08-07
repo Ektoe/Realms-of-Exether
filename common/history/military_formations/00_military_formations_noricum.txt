@@ -266,11 +266,11 @@
 		}
 		create_character = {
 			is_general = yes
+			commander_rank = commander_rank_2
 			hq = sr:region_dumonian_heartlands
 			save_scope_as = abrgen
 		}
 		scope:abrgen = {
-			commander_rank = commander_rank_2
 			transfer_to_formation = scope:abrarmy
 		}
 	}
@@ -344,11 +344,11 @@
 		}
 		create_character = {
 			is_general = yes
+			commander_rank = commander_rank_2
 			hq = sr:region_dumonian_heartlands
 			save_scope_as = dumgen5
 		}
 		scope:dumgen5 = {
-			commander_rank = commander_rank_5
 			transfer_to_formation = scope:dumarmy5
 		}
 
@@ -383,11 +383,11 @@
 		}
 		create_character = {
 			is_general = yes
+			commander_rank = commander_rank_2
 			hq = sr:region_southwestern_noricum
 			save_scope_as = dumgen2
 		}
 		scope:dumgen2 = {
-			commander_rank = commander_rank_2
 			transfer_to_formation = scope:dumarmy2
 		}
 
@@ -423,11 +423,11 @@
 		}
 		create_character = {
 			is_general = yes
+			commander_rank = commander_rank_2
 			hq = sr:region_southwestern_noricum
 			save_scope_as = dumgen3
 		}
 		scope:dumgen3 = {
-			commander_rank = commander_rank_2
 			transfer_to_formation = scope:dumarmy3
 		}
 
@@ -462,11 +462,11 @@
 		}
 		create_character = {
 			is_general = yes
+			commander_rank = commander_rank_2
 			hq = sr:region_central_noricum
 			save_scope_as = dumgen4
 		}
 		scope:dumgen4 = {
-			commander_rank = commander_rank_2
 			transfer_to_formation = scope:dumarmy4
 		}
 	}

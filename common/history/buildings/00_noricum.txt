@@ -188,7 +188,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:DUM"
-                        levels=5
+                        levels=3
                         region="STATE_CROWNPEAK"
                    }
                 }
@@ -201,7 +201,7 @@
                     building={ 
                         type="building_financial_district"
                         country="c:DUM"
-                        levels=1
+                        levels=2
                         region="STATE_CALDAMUS"
                    }
                 }
@@ -355,6 +355,12 @@
     s:STATE_HIGHPASS = {
       region_state:DUM={
         create_building={
+          building="building_roads"
+          level=2
+          reserves=1
+          activate_production_methods={ "pm_base_road_quality" "pm_covered_road_wagons" "pm_no_security" }
+        }
+        create_building={
           building="building_government_administration"
           level=3
           reserves=1
@@ -372,7 +378,7 @@
             building={
               type="building_financial_district"
               country="c:DUM"
-              levels=4
+              levels=1
               region="STATE_HIGHPASS"
             }
           }  
@@ -385,7 +391,7 @@
             building={
               type="building_financial_district"
               country="c:DUM"
-              levels=4
+              levels=2
               region="STATE_HIGHPASS"
             }
           }
@@ -398,7 +404,7 @@
             building={
               type="building_financial_district"
               country="c:DUM"
-              levels=12
+              levels=4
               region="STATE_HIGHPASS"
             }
           }  
@@ -411,7 +417,7 @@
             building={
               type="building_financial_district"
               country="c:DUM"
-              levels=2
+              levels=1
               region="STATE_HIGHPASS"
             }
           }
@@ -424,6 +430,12 @@
 
     s:STATE_SOUTH_HIGHLANDS = {
       region_state:DUM={
+        create_building={
+          building="building_roads"
+          level=2
+          reserves=1
+          activate_production_methods={ "pm_base_road_quality" "pm_covered_road_wagons" "pm_no_security" }
+        }
 			create_building={
           building="building_silk_plantation"
 				add_ownership={ 
