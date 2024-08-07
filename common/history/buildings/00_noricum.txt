@@ -85,12 +85,6 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" "pm_potatoes" }
 			}			
-			create_building={
-				building="building_barracks"
-				level=20
-				reserves=1
-				activate_production_methods={ "pm_general_training" }
-			}
       create_building={
         building="building_wishstone_mine"
                   add_ownership={ 
@@ -215,12 +209,6 @@
           activate_production_methods={ "pm_cannons" "pm_automation_disabled" }
         }
         create_building={
-          building="building_barracks"
-          level=5
-          reserves=1
-          activate_production_methods={ "pm_advanced_tactics_training" }
-        }
-        create_building={
           building="building_port"
           level=3
           reserves=1
@@ -232,6 +220,12 @@
 
     s:STATE_SERONTAIN = {
       region_state:DUM={
+        create_building={
+          building="building_government_administration"
+          level=7
+          reserves=1
+          activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+        }
         create_building={
           building="building_construction_sector"
           level=2
@@ -290,12 +284,6 @@
           reserves=1
           activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" }
         }	
-        create_building={
-          building="building_barracks"
-          level=15
-          reserves=1
-          activate_production_methods={ "pm_general_training" }
-        }
         create_building={
           building="building_wishstone_mine"
                     add_ownership={ 
@@ -697,12 +685,6 @@
                 }
           reserves=1
           activate_production_methods={ "pm_dye_workshops" "pm_traditional_looms" "pm_no_luxury_clothes" }
-        }
-        create_building={
-          building="building_barracks"
-          level=10
-          reserves=1
-          activate_production_methods={ "pm_general_training" }
         }
             create_building={
           building="building_fishing_wharf"
@@ -1244,12 +1226,6 @@ reserves=1
           reserves=1
           activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
         }
-        create_building={
-          building="building_barracks"
-          level=10
-          reserves=1
-          activate_production_methods={ "pm_general_training" }
-        }
       }
   }
 
@@ -1319,12 +1295,6 @@ reserves=1
 				}
           reserves=1
           activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
-        }
-        create_building={
-          building="building_barracks"
-          level=10
-          reserves=1
-          activate_production_methods={ "pm_general_training" }
         }
       }
     }
@@ -1862,12 +1832,6 @@ reserves=1
           reserves=1
           activate_production_methods={ "pm_unrefrigerated" "pm_fishing_trawlers" }
         }
-        create_building={
-          building="building_barracks"
-          level=5
-          reserves=1
-          activate_production_methods={ "pm_general_training" }
-        }
       }
   }
 
@@ -2003,12 +1967,6 @@ reserves=1
           reserves=1
           activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" }
         }	
-        create_building={
-          building="building_barracks"
-          level=15
-          reserves=1
-          activate_production_methods={ "pm_general_training" }
-        }
       }
   }
 
@@ -2270,12 +2228,6 @@ reserves=1
           reserves=1
           activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" }
         }
-        create_building={
-          building="building_barracks"
-          level=5
-          reserves=1
-          activate_production_methods={ "pm_general_training" }
-        }
       }
   }
 
@@ -2498,12 +2450,6 @@ reserves=1
 				}
           reserves=1
           activate_production_methods={ "pm_simple_farming"  "pm_tools_disabled" }
-        }
-        create_building={
-          building="building_barracks"
-          level=10
-          reserves=1
-          activate_production_methods={ "pm_general_training" }
         }
       }
     }
@@ -5069,12 +5015,6 @@ reserves=1
           activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" }
         }
         create_building={
-          building="building_barracks"
-          level=5
-          reserves=1
-          activate_production_methods={ "pm_no_organization" }
-        }
-        create_building={
           building="building_port"
           level=2
           reserves=1
@@ -5449,12 +5389,6 @@ reserves=1
           level=1
           reserves=1
           activate_production_methods={ "pm_basic_port" }
-        }
-        create_building={
-          building="building_barracks"
-          level=2
-          reserves=1
-          activate_production_methods={ "pm_no_organization" }
         }
       }
     }
