@@ -2782,3 +2782,23 @@
 		}
 	}
   }
+     s:STATE_INTOKI = {
+	region_state:FLU = {
+		create_pop = {
+			culture = beithaven
+			size = 715678
+		}
+		create_pop = {
+			culture = grunhain
+			size = 125125
+		}
+		create_pop = {
+			culture = vandori
+			size = 42671
+		}
+		create_pop = {
+			culture = morastlinge
+			size = 1738
+		}
+	 }
+  } 
